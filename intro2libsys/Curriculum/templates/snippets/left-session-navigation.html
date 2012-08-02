@@ -1,0 +1,66 @@
+{% load i18n %}
+<div class="span2 accordion-nav">
+{% comment %}START sidebar-nav-accordion DIV{% endcomment %}
+<ul id="sidebar-nav-accord" class="nav nav-list">
+ {% comment %}START Outcome LI{% endcomment %}
+ <li class="nav-header">
+ <a class="btn btn-success" 
+    data-toggle="collapse" 
+    data-parent="#sidebar-nav-accord"
+    data-target="#outcomeContents"><i class="icon-ok-sign icon-white"></i> {% trans "Outcomes" %}</a>
+ {% comment %}END Outcome LI{% endcomment %}
+ </li>
+  {% comment %}START outcomeContents DIV{% endcomment %}
+  <div id="outcomeContents" 
+       class="collapse in">
+     {% for outcome in outcomes %}
+     <p>{{ outcome.label }}</p>
+     {% endfor %}
+  {% comment %}END outcomeContents DIV{% endcomment %}
+  </div>
+ <li class="nav-header">
+ <a class="btn" 
+    data-toggle="collapse" 
+    data-parent="#sidebar-nav-accord"
+    data-target="#slidesContent"><i class="icon-th-list"></i> {% trans "Slides" %}</a>
+ 
+ </li>
+  {% comment %}START slidesContent DIV{% endcomment %}
+  <div id="slidesContent" 
+       class="collapse">
+   {% for slide in slides %}
+     <li><a href="/sessions/{{ session.pk }}/slides/{{ slide.position }}">{{ slide.title }}</a></li>
+   
+   {% endfor %}
+  {% comment %}END slidesContent DIV{% endcomment %}
+  </div>
+ <li class="nav-header">
+ <a class="btn"
+    data-toggle="collapse" 
+    data-parent="#sidebar-nav-accord"
+    data-target="#assessments"><i class="icon-warning-sign"></i> {% trans "Assessment" %}</a></li>
+ <div id="assessments" class="collapse">
+  <li>Assignment</li>
+  <li>Projects</li>
+ </div>
+
+<li class="nav-header">
+ <a class="btn"
+    data-toggle="collapse" 
+    data-parent="#sidebar-nav-accord"
+    data-target="#readings"><i class="icon-book"></i> {% trans "Readings" %}</a></li>
+ <div id="readings" class="collapse">
+  <li>Readings go here</li>
+ </div>
+<li class="nav-header">
+ <a class="btn"
+    data-toggle="collapse" 
+    data-parent="#sidebar-nav-accord"
+    data-target="#resources"><i class="icon-picture"></i> {% trans "Resources" %}</a></li>
+ <div id="resources" class="collapse">
+  <li>Resources go here</li>
+ </div>
+
+{% comment %}END sidebar-nav-accordion DIV{% endcomment %}
+</ul>
+</div>

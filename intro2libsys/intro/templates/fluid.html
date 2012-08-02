@@ -1,0 +1,248 @@
+{% load i18n %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{% block page-title %}{% if page.title %}{{ page.title }}{% else %}Introduction to Library Systems{% endif %}{% endblock %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{% block page-description %}{% if page.description %}{{ page.description }}{% else %}Introduction to Library Systems developed and taught by Jeremy Nelson{% endif %}{% endblock %}" />
+    {% if page.authors %}
+    {% for author in page.authors %}
+    <meta name="author" content="{{ author }}">
+    {% endfor %}
+    {% else %}
+    <meta name="author" content="Jeremy Nelson">
+    {% endif %}
+    <!-- Le styles -->
+    <link href="{{ STATIC_URL }}css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ STATIC_URL }}css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="{{ STATIC_URL }}css/intro.less" type="text/css" rel="stylesheet/less" >
+    {% block more-css %}
+    {% endblock %}
+    <script src="{{ STATIC_URL }}js/less.js" type="text/javascript"></script>
+   
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="{{ STATIC_URL }}js/google-analytics.js" type="text/javascript"></script>
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  </head>
+
+  <body>
+    {% block navbar-fixed %}
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="/">{% block page-nav-name %}{% if page.name %}{{ page.name }}{% else %}{% trans "Introduction to Library Systems" %}{% endif %}{% endblock %}</a>
+          <div class="nav-collapse">
+            <ul class="nav secondary-nav">
+              <li class="active"><a href="/">Home</a></li>
+              <li class="dropdown">
+		<a href="#" class="dropdown-toggle" 
+		   data-toggle="dropdown">Background<b class="caret"></b></a>
+		 <ul class="dropdown-menu">
+                   {% include "snippets/background-list.html" %}
+                 </ul>
+	      </li>
+	      {% comment %}START course-outline drop-down LI{% endcomment %}
+              <li class="dropdown">
+	       <a href="#" class="dropdown-toggle" 
+		  data-toggle="dropdown">Course Outline<b class="caret"></b></a>
+	       <ul class="dropdown-menu">
+               {% for session in sessions %}
+                <li><strong>Session {{ session.pk }}:</strong><a href="/sessions/{{ session.pk }}">{{ session.label }}</a>
+               {% endfor %}
+	       </ul>
+	      {% comment %}END course-outline drop-down LI{% endcomment %}   
+              </li>
+              {% if user.is_superuser %}
+              <li class="dropdown">
+	       <a href="#" class="dropdown-toggle" 
+		  data-toggle="dropdown">Utilities<b class="caret"></b></a>
+	       <ul class="dropdown-menu">
+		 <li><a href="/resources/checkout">Check-out Item</a></li>
+                 <li><a href="/resources/add">Add Resource</a></li>
+                 <li><a href="/reports">Reports</a></li>
+               </ul>
+              </li>
+              {% endif %}
+	      {% comment %}START readings-and-resources drop-down LI{% endcomment %}   
+              <li class="dropdown">
+	       <a href="#" class="dropdown-toggle" 
+		  data-toggle="dropdown">Readings &amp; Resources<b class="caret"></b></a>
+	       <ul class="dropdown-menu">
+		 <li><a href="/readings">Readings</a></li>
+ 		 <li><a href="/resources">Resources</a></li>
+		 <li><a href=/streams">Streams</a></li>
+		 <li><a href="/podcasts">Podcasts</a></li>
+	       </ul>
+	      {% comment %}END About drop-down LI{% endcomment %}   
+              </li>
+            </ul>
+            {% if user.is_authenticated %}
+            <p class="navbar-text pull-right">Logged in as <a href="#">{{ user.username }}</a>
+                                                           <a href="/accounts/logout?next=/">logout</a></p>
+            {% else %}
+            <p class="navbar-text pull-right">
+             <form class="form-inline" action="/accounts/login/" method="POST">
+				{% csrf_token %}
+                <input type="text" class="input-small" name="username" id="username" placeholder="Username">
+                <input type="password" class="input-small" name="password" id="password" placeholder="Password">
+                <button type="submit" class="btn">Go</button>
+                <input type="hidden" name="next" value="{{ request.get_full_path }}" />
+            </form>
+            </p>
+            {% endif %}
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+    {% endblock %}
+    <div class="container-fluid">
+      <div class="row-fluid">
+       {% block sidebar-nav %}
+        <div class="span3">
+          <div>
+          <img src="" />
+          </div>
+          <div class="well sidebar-nav">
+            <ul class="nav nav-list nav-tabs nav-stacked">
+              <li class="nav-header">Background</li>
+              {% include "snippets/background-list.html" %}
+              <li class="nav-header">Course Outline</li>
+              {% include "snippets/course-outline-list.html" %}
+
+              {% for person in facets.people %}
+              <li><a href="/people/{{ person.label }}">{{ person.name }}</a></li>
+              {% endfor %}
+              <li class="nav-header">Readings</li>
+              {% for subject in facets.subjects %}
+              <li><a href="/subjects/{{ subject.label }}">{{ subject.name }}</a></li>
+              {% endfor %}
+              <li class="nav-header">Resources</li>
+              {% if user.is_superuser %}
+              <li class="nav-header">Utilities</li>
+              <li><a href="/resources/checkout">Check-out Item</a></li>
+              <li><a href="/resources/add">Add Resource</a></li>
+              <li><a href="/reports">Reports</a></li>
+              {% endif %}
+            </ul>
+          </div><!--/.well -->
+        </div><!--/span-->
+{% endblock %}
+        <div class="span9">
+{% block breadcrumbs %}
+  <div class="row-fluid">
+    <div class="span12">
+      <ul class="breadcrumb">
+        <li><a href="/">Home</a> <span class="divider">&raquo;</span></li>
+{% block more-breadcrumb-links %}{% endblock %}
+      </ul>
+     </div>
+  </div>
+{% endblock %}
+
+{% block hero-unit %}
+  <div class="hero-unit">
+   <div class="du-logo">
+    <ul class="thumbnails">
+     <li class="span2">
+      <img src="http://www.du.edu/_resources/images/nav/primary_nav_logo.gif" />
+      <p>{% trans "Library and Information Science" %}</p>
+     </li>
+    </ul>
+   </div>
+   <h1 id="main">{% trans "Introduction to Library Systems" %}</h1>
+   <p>{% trans "Library and Information Science Course taught by" %}
+    {% if instructor %}
+      <a href="{% url background-instructor %}">{{ instructor.full_name }}</a> 
+    {% else %}
+      <a href="#">{% trans "Jeremy Nelson" %}</a>
+    {% endif %}
+   </p>
+  </div>
+{% endblock %}
+          
+          {% block first-row %}
+          <div class="row-fluid">
+            {% block one-one-box %}
+            <div class="span3 well"> 
+              <blockquote class="pull-right">
+               <p>
+                I have always imagined that Paradise will be a kind of
+                library.
+               </p>
+               <p><small>Jorge Luis Borges</small</p> 
+              </blockquote>
+            </div>
+            {% endblock %}
+            {% block one-two-box %}
+            {% endblock %}
+            {% block one-three-box %}
+           {% endblock %}
+          </div><!--/row-->
+          {% endblock %}
+          {% block second-row %}
+          <div class="row-fluid">
+           {% block two-one-box %}
+           {% endblock %}
+           {% block two-two-box %}
+            <div class="span4">
+               
+            </div><!--/span-->
+           {% endblock %}
+           {% block two-three-box %}
+            <div class="span4">
+            </div><!--/span-->
+           {% endblock %}
+          </div><!--/row-->
+        </div><!--/span-->
+      </div><!--/row-->
+      {% endblock %}
+      <hr>
+
+      {% block footer %}
+      <footer class="row-fluid">
+        <div class="span3">
+         &copy; 2012-2013 Jeremy Nelson
+        </div>
+        <div class="span6">{% block session-progress %}&nbsp;{% endblock %}</div>
+        <div class="span3" style="font-weight:bold">{{ timestamp|date:"l, F d Y f a" }}</div>
+      </footer>
+      {% endblock %}
+
+    </div><!--/.fluid-container-->
+    
+    
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="{{ STATIC_URL }}js/jquery.js"></script>
+    <script src="{{ STATIC_URL }}js/bootstrap-transition.js"></script>
+    <script src="{{ STATIC_URL }}js/bootstrap-alert.js"></script>
+    <script src="{{ STATIC_URL }}js/bootstrap-modal.js"></script>
+    <script src="{{ STATIC_URL }}js/bootstrap-dropdown.js"></script>
+    <script src="{{ STATIC_URL }}js/bootstrap-scrollspy.js"></script>
+    <script src="{{ STATIC_URL }}js/bootstrap-tab.js"></script>
+    <script src="{{ STATIC_URL }}js/bootstrap-tooltip.js"></script>
+    <script src="{{ STATIC_URL }}js/bootstrap-popover.js"></script>
+    <script src="{{ STATIC_URL }}js/bootstrap-button.js"></script>
+    <script src="{{ STATIC_URL }}js/bootstrap-collapse.js"></script>
+    <script src="{{ STATIC_URL }}js/bootstrap-carousel.js"></script>
+    <script src="{{ STATIC_URL }}js/bootstrap-typeahead.js"></script>
+    {% block more-js %}{% endblock %}
+    {% block dialogs %}{% endblock %}
+  </body>
+</html>

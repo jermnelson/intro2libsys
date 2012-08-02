@@ -1,0 +1,62 @@
+{% load i18n %}
+<div class="span2 accordion-nav">
+{% comment %}START sidebar-nav-accordion DIV{% endcomment %}
+<ul id="sidebar-nav-accord" class="nav nav-list">
+ <li class="nav-header">
+ <a class="btn" 
+    data-toggle="collapse" 
+    data-parent="#sidebar-nav-accord"
+    data-target="#backgroundContent"><i class="icon-info-sign"></i> {% trans "Background" %}</a>
+ 
+ </li>
+  {% comment %}START backgroundContent DIV{% endcomment %}
+  <div id="backgroundContent" 
+       class="collapse in">
+   {% include 'snippets/background-list.html' %}
+  {% comment %}END backgroundContent DIV{% endcomment %}
+  </div>
+ <li class="nav-header">
+ 
+ <a class="btn"
+    data-toggle="collapse" 
+    data-parent="#sidebar-nav-accord"
+    data-target="#syllabus"><i class="icon-list-alt"></i> {% trans "Syllabus" %}</a></li>
+ <div id="syllabus" 
+      class="collapse">
+   <ul>
+    <li><a href="/syllabus.html">Class Schedule</a></li>
+    <li><a href="/syllabus.html#grading-policy">Grading Policy</a></li>
+    <li><a href="/syllabus.html#instructor-contact">Instructor Contact</a></li>
+   </ul>
+ </div>
+ <li class="nav-header">
+ <a class="btn"
+    data-toggle="collapse" 
+    data-parent="#sidebar-nav-accord"
+    data-target="#assessments"><i class="icon-warning-sign"></i> {% trans "Assessments" %}</a></li>
+ <div id="assessments" class="collapse">
+  <li>Assignments</li>
+  <li>Examinations</li>
+  <li>Projects</li>
+ </div>
+
+<li class="nav-header">
+ <a class="btn"
+    data-toggle="collapse" 
+    data-parent="#sidebar-nav-accord"
+    data-target="#readings"><i class="icon-book"></i> {% trans "Readings" %}</a></li>
+ <div id="readings" class="collapse">
+  <li>Readings go here</li>
+ </div>
+<li class="nav-header">
+ <a class="btn"
+    data-toggle="collapse" 
+    data-parent="#sidebar-nav-accord"
+    data-target="#resources"><i class="icon-picture"></i> {% trans "Resources" %}</a></li>
+ <div id="resources" class="collapse">
+  <li>Resources go here</li>
+ </div>
+
+{% comment %}END sidebar-nav-accordion DIV{% endcomment %}
+</ul>
+</div>

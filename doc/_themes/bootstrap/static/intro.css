@@ -1,0 +1,9 @@
+body {
+ background-color: #6D0C0C;;
+}
+
+img.intro {
+  border: 2px solid white;
+  float: left;
+  margin: .5em;
+}

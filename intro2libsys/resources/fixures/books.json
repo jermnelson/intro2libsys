@@ -1,0 +1,12 @@
+[
+ {
+  "fields": {
+     "rdaPreferredTitle":"The Library : An Illustrated History",
+     "rdaCreator": 2,
+     "rdaCopyrightDate": 2009,
+     "url":'library-an-illustrated-history'
+   },
+   "model": "resources.book",
+   "pk": 1
+  }
+]    

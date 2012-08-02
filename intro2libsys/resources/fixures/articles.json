@@ -1,0 +1,135 @@
+[
+  {
+  "frbrRelationships": {
+    "author": [{
+      "md5_key": "ae578eea57412b4e585206cd0c0596a9"
+    }]
+  }, 
+  "md5_key": "8d555bab93320ce06018fd16a3afca32", 
+  "rdaExtentOfText": {
+    "number": "3", 
+    "pages": "488-500", 
+    "volume": "16"
+  }, 
+  "rdaPublicationStatement": {
+    "rdaDateOfPublication": "Summer, 1981", 
+    "rdaPublisherName": "University of Texas Press"
+  }, 
+  "rdaSeriesStatement": {
+    "rdaTitleProperOfSeriesManifestation ": "The Journal of Library History (1974-1987)"
+  }, 
+  "rdaTitleOfWork": "Ebla: The World's Oldest Library", 
+  "rdaUniformResourceLocator": "http://www.jstor.org/stable/25541212"
+ },
+ {
+  "frbrRelationships": {
+    "author": [{
+      "md5_key": "e1ac6ce910d9196c740b695a513a37b1"
+    }]
+  }, 
+  "md5_key": "088a8612569acf21e03b3e4ce98e59ee", 
+  "rdaExtentOfText": {
+    "number": "part one", 
+    "pages": "55-60", 
+    "volume": "66"
+  }, 
+  "rdaPublicationStatement": {
+    "rdaDateOfPublication": "2004", 
+    "rdaPublisherName": "British Institute for the Study of Iraq",
+    "rdaPublisherPlace": "Ninevah"
+  }, 
+  "rdaSeriesStatement": {
+    "rdaTitleProperOfSeriesManifestation ": "Iraq"
+  }, 
+  "rdaTitleOfWork": "The British Museum's Ashurbanipal Library Project", 
+  "rdaUniformResourceLocator": "http://www.jstor.org/stable/4200559"
+},
+{
+  "frbrRelationships": {
+    "author": [{
+      "md5_key": "37dcd52114e87f3aa08ad56a7f58f760"
+    }]
+  }, 
+  "md5_key": "d762b6b387fbded725f52fdc77893e96", 
+  "rdaExtentOfText": {
+    "number": "", 
+    "pages": "217-229", 
+    "volume": ""
+  }, 
+  "rdaPublicationStatement": {
+    "rdaDateOfPublication": "1987", 
+    "rdaPublisherName": "Salaam "
+  }, 
+  "rdaSeriesStatement": {
+    "rdaTitleProperOfSeriesManifestation ": "Islamic Quarterly"
+  }, 
+  "rdaTitleOfWork": "Growth and development of Islamic Libraries", 
+  "rdaUniformResourceLocator": "http://www.salaam.co.uk/knowledge/growth-development-islamic-libraries.pdf"
+},
+{
+  "frbrRelationships": {
+    "author": [{
+      "md5_key": "add56e79648d891b98f395de0bae9652"
+    }]
+  }, 
+  "md5_key": "d021c12f5b5e05a1cdf1d23fdda87d82", 
+  "rdaExtentOfText": {
+    "number": "2", 
+    "pages": "253-260", 
+    "volume": "21"
+  }, 
+  "rdaPublicationStatement": {
+    "rdaDateOfPublication": "Spring, 1986", 
+    "rdaPublisherName": "University of Texas Press"
+  }, 
+  "rdaSeriesStatement": {
+    "rdaTitleProperOfSeriesManifestation ": "The Journal of Library History (1974-1987)"
+  }, 
+  "rdaTitleOfWork": "Mosques as Libraries in Islamic Civilization 700-1400 A.D.", 
+  "rdaUniformResourceLocator": "http://www.jstor.org/stable/25541694"
+},
+{
+  "frbrRelationships": {
+    "author": [{
+      "md5_key": "d040227852142f7829e233da6bf91e82"
+    }]
+  }, 
+  "md5_key": "00682498e3033aa77fc61506f3b671cb", 
+  "rdaExtentOfText": {
+    "number": "3", 
+    "pages": "21-30", 
+    "volume": "26"
+  }, 
+  "rdaPublicationStatement": {
+    "rdaDateOfPublication": "1998", 
+    "rdaPublisherName": "The Haworth Press"
+  }, 
+  "rdaSeriesStatement": {
+    "rdaTitleProperOfSeriesManifestation ": "Cataloging and Classification Quarterly"
+  }, 
+  "rdaTitleOfWork": "Hidden Wisdom and Unseen Treasure: Revisiting Cataloging in Medieval Libraries", 
+  "rdaUniformResourceLocator": "http://hdl.handle.net/1811/47377"
+},
+{
+  "frbrRelationships": {
+    "author": [{
+      "md5_key": "bbd162132a4be0fa04203f945b1f3b08"
+    }]
+  }, 
+  "md5_key": "73f1de0748a2be613cc7e9696d44fa6e", 
+  "rdaExtentOfText": {
+    "number": "3", 
+    "pages": "257-297", 
+    "volume": "7"
+  }, 
+  "rdaPublicationStatement": {
+    "rdaDateOfPublication": "June 1946", 
+    "rdaPublisherName": "University of Pennsylvania Press"
+  }, 
+  "rdaSeriesStatement": {
+    "rdaTitleProperOfSeriesManifestation ": "Journal of the History of Ideas"
+  }, 
+  "rdaTitleOfWork": "The Intellectual Interests Relected in Libraries of the Fourteenth and Fifteenth Centuries", 
+  "rdaUniformResourceLocator": "http://www.jstor.org/stable/2707402"
+}
+]

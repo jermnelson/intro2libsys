@@ -1,0 +1,44 @@
+@background-color: #6D0C0C;
+@nav-background-color: #EBE6DB;
+
+@navbarBackground: @nav-background-color;
+
+.rounded-corners(@radius: 4px) {
+ border-radius: @radius;
+ -webkit-border-radius: @radius;
+ -moz-border-radius: @radius;
+}
+
+body {  
+ background: @background-color;
+ padding-top: 60px;
+ padding-bottom: 40px;}
+
+.sidebar-nav {
+ padding: 9px 0;
+}
+
+div.accordion-nav {
+ background-color:  @nav-background-color;
+ padding: .5em;
+ .rounded-corners;
+}
+
+div.du-logo {
+ background-color:white;
+ border: 1px solid rgb(218,35,41);
+ color: @background-color;
+ float:right;
+ padding:.5em;
+ .rounded-corners;
+}
+
+div.du-logo p {
+ font-family: Georgia, "Times New Roman", Times, serif !important;
+}
+
+footer {
+ background-color: white;
+ .rounded-corners;
+ padding: .35em;
+} 

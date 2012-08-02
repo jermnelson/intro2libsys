@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% load i18n %}
+
+{% block top-menu-bar %}
+{% endblock %}
+
+{% block sidebar-nav %}
+ {% include 'snippets/left-navigation.html' %}
+{% endblock %}
+
+{% block hero-unit %}
+<div class="span7 hero-unit">
+ <h2>Introduction to Library Systems</h2>
+ <h1>Course Syllabus</h1>
+</div>
+{% endblock %}
+
+{% block second-row %}
+<div class="row">
+<div class="span7 well">
+ <ul>
+  <li>Survey of Library Technology</li>
+  <li>Introduction to Major Schemas &amp; Formats</li>
+  <li>Exposure to Library App Development</li>
+  <li>Future trends in Library &amp; Network Systems</li>
+ </ul>
+</div>
+</div>
+{% endblock %}

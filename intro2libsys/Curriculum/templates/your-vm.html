@@ -1,0 +1,56 @@
+{% extends 'fluid.html' %}
+{% load i18n %}
+
+{% block page-title %}Introduction to Library Systems - Welcome to the Course{% endblock %}
+
+{% block more-css %}
+<link href="{{ STATIC_URL }}css/background.less" type="text/css" rel="stylesheet/less" >
+<link href="{{ STATIC_URL }}css/curriculum.less" type="text/css" rel="stylesheet/less" >
+{% endblock %}
+
+{% block more-breadcrumb-links  %}
+<li><a href="/sessions">Sessions</a> <span class="divider">&raquo;</span></li>
+<li><a href="/sessions/{{ session.pk }}">{{ session.label }}</a> <span class="divider">&raquo;</span></li>
+<li>{{ slide.title }}</li>
+{% endblock %}
+
+{% block sidebar-nav %}
+{% endblock %}
+
+{% block hero-unit %}
+{% endblock %}
+
+{% block first-row %}
+<div class="row-fluid">
+ <div class="well span3">
+  <p>
+   <a class="btn btn-success" href="#before-starting-dlg" data-toggle="modal" >Before you start</a>
+  </p>
+  <p>
+   <button class="btn btn-warning" onclick="">Picking a Provider</button>
+  </p>
+  <p>
+   <button class="btn btn-info" onclick="">Git Course Repository</button>
+  </p>
+ </div>
+ <div class="well span7" id="slide-main-content">
+  <h1>{{ slide.title }}</h1>
+  <p>
+   You will need to have your own cloud server for the duration of the
+   <i>Introduction to Library Systems</i>. You can use one of the prebuilt
+   Ubuntu Linux Server images preloaded the software stack we'll be using
+   for your course work, projects, and assignments. 
+  </p>
+ </div>
+</div>
+{% endblock %}
+
+{% block dialogs %}
+ {% include "snippets/before-you-start-dlg.html" %}
+{% endblock %}
+
+{% block session-progress %}
+ <div class="progress progress-striped progress-info active">
+  <div class="bar" style="width: 50%;" id="session-progress"></div>
+ </div>
+{% endblock %}

@@ -1,0 +1,20 @@
+============
+Semantic Web
+============
+The Semantic Web, a term first coined by Sir Tim Berners-Lee in 2001 [#]_,
+is an ongoing effort to provide common data formats and practices for 
+structuring and describing content on the web so that the content can
+be discovered and manipulated programatically by computer software. 
+
+The emergence of NoSQL and the growth of cloud computing, along with 
+renewed interest by Google, Microsoft, and other large technology firms,
+has breathed new life into the Semantic Web and efforts to better structure
+and understand content that resides on the Web. 
+
+References
+----------
+.. [#]  Berners-Lee, T. Hendler, J. Lessila, O. `The Semantic Web`_.
+        Scientific American Magazine. May 17, 2001.
+        
+        
+.. _The Semantic Web: http://www.scientificamerican.com/article.cfm?id=the-semantic-web

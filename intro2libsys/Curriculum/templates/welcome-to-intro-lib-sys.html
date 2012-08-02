@@ -1,0 +1,129 @@
+{% extends 'fluid.html' %}
+{% load i18n %}
+
+{% block page-title %}Introduction to Library Systems - Welcome to the Course{% endblock %}
+
+{% block more-css %}
+<link href="{{ STATIC_URL }}css/background.less" type="text/css" rel="stylesheet/less" >
+<link href="{{ STATIC_URL }}css/curriculum.less" type="text/css" rel="stylesheet/less" >
+{% endblock %}
+
+{% block more-breadcrumb-links  %}
+<li><a href="/sessions">Sessions</a> <span class="divider">&raquo;</span></li>
+<li><a href="/sessions/{{ session.pk }}">{{ session.label }}</a> <span class="divider">&raquo;</span></li>
+<li><i class="icon-th-list"></i> {{ slide.title }}</li>
+{% endblock %}
+
+{% block sidebar-nav %}
+{% endblock %}
+
+{% block hero-unit %}{% endblock %}
+
+{% block first-row %}
+<div class="row-fluid">
+ <div class="well span8">
+  <img src="{{ STATIC_URL }}img/gunnison-river-bridge.png" style="width:480px;" />
+  <h1>{{ slide.title }}</h1>
+  <p>
+  Today we'll introduce the library systems course, starting with a short 
+  history of technology used in Libraries past and present. We'll
+  also cover course expectations, outcomes, and assessements. Finally we
+  go over some of the technology that you'll be using for course 
+  assignments. 
+  </p>
+ </div>
+ <div class="span3">
+  <div class="well">
+   <h3>Who am I?</h3>
+ 
+   <a href="#instructorDlg" data-toggle="modal" class="btn btn-info">Instructor</a>
+  </div>
+  <div class="well">
+   <h3>Course Prequisities</h3>
+    <a href="#prequisitiesDlg" data-toggle="modal" class="btn btn-warning">Prerequisities</a>
+  </div>
+  <div class="well">
+   <h3>Course Schedule</h3>
+    <a href="#scheduleDlg" data-toggle="modal" class="btn btn-inverse">Schedule</a>
+  </div>
+  <div class="well">
+   <p style="text-align:right">
+	<img src="{{ STATIC_URL }}img/alfred-packer-massacre-site.png" class="slide-teaser-pic" />
+    <a href="/sessions/1/slides/2" class="btn btn-primary btn-big">History of Library Systems &raquo;</a>
+   </p>
+   </div>
+</div>
+</div>
+{% endblock %}
+
+{% block session-progress %}
+ <div class="progress progress-striped progress-info active">
+  <div class="bar" style="width: 0%;" id="session-progress"></div>
+ </div>
+{% endblock %}
+
+{% block dialogs %}
+<div class="modal fade" id="instructorDlg">
+ <div class="modal-header">
+   <button class="close" data-dismiss="modal">x</button>
+   <h3>Jeremy Nelson</h3>
+ </div>
+ <div class="modal-body">
+   <img src="{{ STATIC_URL }}img/me-code4lib-2012.jpg" class="instructor-pic" />
+   <p>
+    Currently the Metadata and Systems Librarian at Colorado College. Previously
+    worked at Western State College and the University of Utah. Prior to 
+    starting a MS in LIS at University of Illinois in 2001, Jeremy worked
+    as a Project Manager and/or Programmer at a few different software 
+    companies in Educational Software and Financial Services.
+   </p>
+   <p>
+     Jeremy Nelson's research interests include building library
+     systems, including FRBR bibliographic information, using the NoSQL
+     technology Redis. Building the user interface as HTML5 apps with
+     Twitter's Bootstrap to the Redis datastore allows for quick Agile
+     development by multiple staff at the Tutt Library.
+   </p>
+   <p>
+     Jeremy other interests including Aikido, fishing, and walking his
+     dog.
+   </p>
+ </div>
+ <div class="modal-footer">
+  <a href="#" class="btn btn-primary" data-dismiss="modal" 
+     onclick="$('#session-progress').attr('style','width: 8%');">Close</a>
+ </div>
+</div>
+<div class="modal fade" id="prequisitiesDlg">
+ <button class="close" data-dismiss="modal">x</button>
+ <div class="modal-header">
+  <h2>Course Prequisities</h2>
+ </div>
+ <div class="modal-body">
+
+ </div>
+ <div class="modal-footer">
+  <a href="#" class="btn btn-primary" data-dismiss="modal"
+    onclick="$('#session-progress').attr('style','width: 16%');">Close</a>
+ </div>
+</div>
+<div class="modal fade" id="scheduleDlg">
+<button class="close" data-dismiss="modal">x</button>
+ <div class="modal-header">
+  <h2>Course Schedule</h2>
+ </div>
+ <div class="modal-body">
+ <ol>
+ {% for session in sessions %}
+    <li><strong>{{ session.start }}: </strong><a href="/session/{{ session.pk }}">{{ session.label }}</a>
+ {% endfor %}
+ </ol>
+ </div>
+ <div class="modal-footer">
+  <a href="#" class="btn btn-primary" data-dismiss="modal"
+   onclick="$('#session-progress').attr('style','width: 25%');">Close</a>
+ </div>
+</div>
+{% endblock %}
+
+

@@ -1,0 +1,183 @@
+{% extends 'fluid.html' %}
+{% load i18n %}
+
+{% block page-title %}Introduction to Library Systems - Welcome to the Course{% endblock %}
+
+{% block more-css %}
+<link href="{{ STATIC_URL }}css/background.less" type="text/css" rel="stylesheet/less" >
+<link href="{{ STATIC_URL }}css/curriculum.less" type="text/css" rel="stylesheet/less" >
+{% endblock %}
+
+{% block more-breadcrumb-links  %}
+<li><a href="/sessions">Sessions</a> <span class="divider">&raquo;</span></li>
+<li><a href="/sessions/{{ session.pk }}">{{ session.label }}</a> <span class="divider">&raquo;</span></li>
+<li>{{ slide.title }}</li>
+{% endblock %}
+
+{% block sidebar-nav %}
+<div class="span2 accordion-nav">
+   <ul class="nav nav-list" id="sidebar-nav-accord">
+    <li class="nav-header">
+     <a class="btn" 
+      data-toggle="collapse" 
+      data-parent="#sidebar-nav-accord"
+      data-target="#ancientToRenaissance">Ancient to Renaissance</a>
+    </li>
+    <div class="collapse in" id="ancientToRenaissance">
+     <ul class="unstyled">
+	<li><a href="#">Ancient Libraries</a></li>
+	<li>Medieval Libraries</li>
+	<li>Renaissance Libraries</li>
+     </ul>
+    </div>
+    <li class="nav-header">
+     <a class="btn"
+        data-toggle="collapse" 
+        data-parent="#sidebar-nav-accord"
+        data-target="#gutenbergUniversities">Gutenberg &amp; Universities</a>
+     </li>
+     <div class="collapse" id="gutenbergUniversities">
+      <ul class="unstyled">
+	<li>Gutenberg Print Press</li>
+	<li>Early Private Libraries &amp; Memory Theaters</li>
+	<li>Beginnings of University Libraries</li>
+      </ul>
+     </div>
+     <li class="nav-header">
+      <a class="btn"
+         data-toggle="collapse" 
+         data-parent="#sidebar-nav-accord"
+         data-target="#north-america-1900">North America to 1900</a></li>
+     <div class="collapse" id="north-america-1900">
+      <ul class="unstyled">
+	<li>Dewey &amp; his system</li>
+	<li>Cutter Rules</li>
+	<li>Carnige Mellon Libraries &amp; Library Societies</li>
+	<li>The Card Catalog</li>
+      </ul>
+     </div>
+     <li class="nav-header">
+      <a class="btn"
+         data-toggle="collapse" 
+         data-parent="#sidebar-nav-accord"
+         data-target="#loc-automation">Library of Congress &amp; Early Automation</a>
+     </li>
+     <div class="collapse" id="loc-automation">
+       <ul class="unstyled">
+        <li>United States Congressional Mandate</li>
+	<li>MARC records and resource sharing</li>
+	<li>University, Public, and early Library Systems</li>
+       </ul>
+     </div>
+     <li class="nav-header">
+      <a class="btn"
+         data-toggle="collapse" 
+         data-parent="#sidebar-nav-accord"
+         data-target="#vendor-ils-opac-oclc">Vendor ILS, OPAC, &amp; OCLC</a>
+     </li>
+     <div id="vendor-ils-opac-oclc" class="collapse">
+      <ul class="unstyled">
+	<li>Commerical ILS &amp; OPAC</li>
+	<li>OCLC authority control</li>
+      </ul>
+     </div>
+  </ul>
+</div>
+{% endblock %}
+
+{% block hero-unit %}
+ <img src="{{ STATIC_URL }}img/alfred-packer-massacre-site.png" class="hist-lib-sys" />
+ <div class="hero-unit">
+  <h1 class="">{{ slide.title }}</h1>
+  <p>technology change isn't a massacre; sometimes it just feels that way </p>
+</div>  
+{% endblock %}
+
+{% block first-row %}
+<div class="row-fluid">
+ <div class="well span3" id="next-section">
+   <h2>History of Library Systems:</h2>
+   <a class="btn btn-success btn-large" onclick="alert('load section')">Ancient to Renaissance</a> 
+ </div>
+ <div class="well span4">
+  <p> 
+   For most of history, there was not a difference between a library's collection and the "technology"
+   or "system" used by patrons to access the material. 
+  </p>
+ </div>
+ <div class="span3">
+  <div style="background-color: white">
+  <p style="text-align:right;padding:1em;">
+    <img src="{{ STATIC_URL }}img/alfred-packer-massacre-site.png" class="slide-teaser-pic" />
+  <a class="btn btn-primary btn-large" href="/sessions/1/slides/3">Your Virtual Machine &raquo;</a>
+  </div>
+ </div>
+</div>
+{% endblock %}
+
+{% block dialogs %}
+<div class="modal fade" id="instructorDlg">
+ <div class="modal-header">
+   <button class="close" data-dismiss="modal">x</button>
+   <h3>Jeremy Nelson</h3>
+ </div>
+ <div class="modal-body">
+   <img src="{{ STATIC_URL }}img/me-code4lib-2012.jpg" class="instructor-pic" />
+   <p>
+    Currently the Metadata and Systems Librarian at Colorado College. Previously
+    worked at Western State College and the University of Utah. Prior to 
+    starting a MS in LIS at University of Illinois in 2001, Jeremy worked
+    as a Project Manager and/or Programmer at a few different software 
+    companies in Educational Software and Financial Services.
+   </p>
+   <p>
+     Jeremy Nelson's research interests include building library
+     systems, including FRBR bibliographic information, using the NoSQL
+     technology Redis. Building the user interface as HTML5 apps with
+     Twitter's Bootstrap to the Redis datastore allows for quick Agile
+     development by multiple staff at the Tutt Library.
+   </p>
+   <p>
+     Jeremy other interests including Aikido, fishing, and walking his
+     dog.
+   </p>
+ </div>
+ <div class="modal-footer">
+  <a href="#" class="btn btn-primary" data-dismiss="modal">Close</a>
+ </div>
+</div>
+<div class="modal fade" id="prequisitiesDlg">
+ <button class="close" data-dismiss="modal">x</button>
+ <div class="modal-header">
+  <h2>Course Prequisities</h2>
+ </div>
+ <div class="modal-body">
+
+ </div>
+ <div class="modal-footer">
+  <a href="#" class="btn btn-primary" data-dismiss="modal">Close</a>
+ </div>
+</div>
+<div class="modal fade" id="scheduleDlg">
+<button class="close" data-dismiss="modal">x</button>
+ <div class="modal-header">
+  <h2>Course Schedule</h2>
+ </div>
+ <div class="modal-body">
+ <ol>
+ {% for session in sessions %}
+    <li><strong>{{ session.start }}: </strong><a href="/session/{{ session.pk }}">{{ session.label }}</a>
+ {% endfor %}
+ </ol>
+ </div>
+ <div class="modal-footer">
+  <a href="#" class="btn btn-primary" data-dismiss="modal">Close</a>
+ </div>
+</div>
+{% endblock %}
+
+{% block session-progress %}
+ <div class="progress progress-striped progress-info active">
+  <div class="bar" style="width: 25%;" id="session-progress"></div>
+ </div>
+{% endblock %}

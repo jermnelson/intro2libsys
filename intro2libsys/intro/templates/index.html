@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% load i18n %}
+
+
+{% block sidebar-nav %}
+ {% include 'snippets/left-navigation.html' %}
+{% endblock %}
+
+{% block hero-unit %}
+<div class="span7 hero-unit">
+ <img src="{{ STATIC_URL }}img/gunnison-river-bridge.png" style="float:right; width:280px;" />
+ <h2>Introduction to</h2>
+ <h1>Library Systems</h1>
+ <p>Instructor: Jeremy Nelson</p>
+ <a href="/sessions/1" class="btn btn-primary btn-large" style="float:right">Session One</a>
+</div>
+
+{% endblock %}
+
+{% block second-row %}
+<div class="row">
+<div class="span4 well">
+ <h2>Expected Outcomes</h2>
+ <ul>
+  <li>Survey of Library Technology</li>
+  <li>Introduction to Major Schemas &amp; Formats</li>
+  <li>Exposure to Library App Development</li>
+  <li>Future trends in Library &amp; Network Systems</li>
+ </ul>
+</div>
+<div class="span3 accordion-nav">
+ <h3>Course News Feed</h2>
+
+</div>
+
+
+</div>
+{% endblock %}

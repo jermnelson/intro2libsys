@@ -1,0 +1,18 @@
+{% load i18n %}
+<div class="modal fade" id="before-starting-dlg">
+ <div class="modal-header">
+  <button class="close" data-dismiss="modal">x</button>
+  <h1>{% trans "Before you start" %}</h1>
+ </div>
+ <div class="modal-body">
+  <ul>
+   <li>
+     <h3>{% trans "Register a domain name" %}</h3>
+   </li>
+  </ul>
+ </div>
+ <div class="modal-footer">
+  <a href="#" class="btn btn-primary" data-dismiss="modal"
+   onclick="$('#session-progress').attr('style','width: 58%');">Close</a>
+ </div>
+</div>
