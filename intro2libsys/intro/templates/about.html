@@ -1,6 +1,10 @@
 {% extends 'fluid.html' %}
 {% load i18n %}
 
+{% block more-breadcrumb-links %}
+<li>About <em>Introduction to Library Systems</em></li>
+{% endblock %}
+
 
 {% block sidebar-nav %}
  {% include 'snippets/left-navigation.html' %}
@@ -11,8 +15,10 @@
  <h2>About</h2>
  <h1>Introduction to Library Systems</h1>
  <p>
-  This website and accompying eTextbook together are a custom open-source  
-  Distributed Learning System based on Django and Sphinx.
+  This website and accompying <a href="/textbook/">eTextbook</a> are a 
+  custom open-source Distributed Learning System based on Django and Sphinx. The 
+  source code and documentation available at 
+  <a href="https://github.com/jermnelson/intro2libsys">https://github.com/jermnelson/intro2libsys</a>.
  </p>
 </div>
 {% endblock %}

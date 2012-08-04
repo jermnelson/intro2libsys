@@ -5,10 +5,10 @@ So, how would the future of library systems be better than I expect?
 
 I see library systems becoming embedded in everything. If my attention
 is the most valuable and if I want to be both ecologically conscious of
-the cultural, educuational, political, engaging, provactive, artificates
+the cultural, educational, political, engaging, provocative, artifact
 I encounter, I want to be able to create a long memory that surrounding
 these objects. By properly describing and cataloging our artifacts, our library
-systems would be presistent, stable, and accessable and durable over the
+systems would be persistent, stable, and accessible and durable over the
 coming decades. An advantage of `MARC`_ is that it has allowed cataloging
 knowledge encoded by generations of catalogers for our patrons. 
 

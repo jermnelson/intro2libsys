@@ -2,7 +2,7 @@
 Library Systems in the Future
 =============================
 The future of library systems is closely linked with broader future of 
-libraries in general. In 2010 the Assocition of College and
+libraries in general. In 2010 the Association of College and
 Research Libraries (ACRL), a division of the American Library Association,
 released a report `Futures Thinking for Academic Librarians: Higher 
 Education in 2025`_ by  Staley and Malenfant. In this report, the authors
@@ -13,20 +13,20 @@ others apply equally to public education.
 
 There seems to be no dearth of individuals both inside and outside of the 
 library profession making predictions, some encouraging and hopeful [#]_, 
-others pesstimatic [#]_, negative [#]_, or downright hostile [#]_ about the future
+others pessimistic [#]_, negative [#]_, or downright hostile [#]_ about the future
 libraries and librarians. 
 
 .. sidebar::
    :class: alert alert-info
    
    Be aware that different scenarios of your classmates may be place in 
-   a different catagory than you do. For example, a strong Open Access or
+   a different category than you do. For example, a strong Open Access or
    Open source advocate better future might be the same future that is worse for a 
    vendor or publisher. 
 
 James Casico, a noted futurist, offers a `framework`_ for scenario planning when he works for
 corporations and other organizations. First, create four scenarios around these four 
-different assumpsitions. We will do the same thing under the overall theme of
+different assumptions. We will do the same thing under the overall theme of
 **Library Systems in the Future** within in the next five years:
 
 
