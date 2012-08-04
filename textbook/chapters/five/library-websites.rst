@@ -20,7 +20,7 @@ a web client with either static or dynamic content.
 
 The term web server can cover both the physical hardware that runs the 
 web server software. While this can cause confusion (i.e. the web server's
-physical memory was exhaused by an irrient process of the web server),
+physical memory was exhausted by an run away process of the web server),
 context is important. For the purpose of this section, by web server,
 we will mean the second sense of the term; namely that a web server is
 the actually software that runs on a physical or virtual server. 
@@ -58,12 +58,12 @@ recent open source web server.
    `nginx`_ as we publically released Aristotle and the Colorado College
    new Discovery Layer and App portfolio. The power of `Apache`_ is in 
    its user community and in large number of configuration options and 
-   plugins available for various types of services. The flip side of 
+   plug-ins available for various types of services. The flip side of 
    `Apache`_ power and flexibility is that complexity of correctly 
    configuring for your needs. 
    
    Having used `Apache`_ for a number of years, I was still very much a 
-   newbie configurating and running `Apache`_ that I was nervious by 
+   newbie configurating and running `Apache`_ that I was nervous by 
    rolling out production instances of these new servers and getting 
    everything to work correctly in the stack of software for the library.
    When I started investigating alternatives, the simplicity, stability,
@@ -81,13 +81,13 @@ Most library websites have moved beyond just hosting static web pages
 with images and now have a large number of dynamic elements that generated
 when a user visits the website. These dynamic elements, including such things
 as a library's hours, events, news, and online chat services, can be part of
-the website or increasely are feeds from external systems both within and
+the website or increasingly are feeds from external systems both within and
 outside the library. As libraries have added more social elements, including
 Twitter feeds, Facebook comments and widgets, and other services, the complexity
 of the website increases and requires more knowledge and expertise of the librarian
 charged with maintaining the website. 
 
-The first technology to provide dyanmic element to a library's website are 
+The first technology to provide dynamic element to a library's website are 
 CGI (common gateway interface) scripts that process submitted content from the
 user. While use of CGI scripts has declined as more library websites shift to 
 using Content Management Systems and applications servers, their use for simple
@@ -108,10 +108,21 @@ OpenURL
 
 Content Management Systems (CMS)
 --------------------------------
+Content Management Systems is a class of web technologies for creating publishing
+work-flows for all sizes of organizations. The promise of a CMS is that content 
+creators can focus on creating and sharing text, images, video, and audio without
+having to write HTML. CMS also provide central control through standard templates and
+usually run with a database to provide dynamic capabilities and to manage users
+and permissions. 
 
 References
 ----------
 .. [#] `June 2012 Web Server Survey`_
 
-
+.. _Apache: http://httpd.apache.org/
+.. _Django: https://www.djangoproject.com/
+.. _Google: http://en.wikipedia.org/wiki/Google_platform
 .. _June 2012 Web Server Survey: http://news.netcraft.com/archives/2012/06/06/june-2012-web-server-survey.htm
+.. _Microsoft IIS: http://www.iis.net/
+.. _Netcraft: http://www.netcraft.com/
+.. _nginx: http://nginx.org/

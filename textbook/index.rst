@@ -34,14 +34,14 @@ be better structured as a more traditional textbook.
 The conceit I started with was that by using the Sphinx documentation
 framework, I could write the core content for the textbook and share that
 same content to the Django-based framework that I was turning more into
-rough beginnings of a distributed learing system (DSL) that would
+rough beginnings of a distributed learning system (DSL) that would
 complement a more traditional textbook. 
 
 My intention that this textbook and accompanying DSL will provide a 
 useful start for individuals interested in pursuing a librarian career
 in technology or technical services although any information professional
 should benefit from a better understanding of the library systems they
-depend on assisting patrons or in their daily workflow.
+depend on assisting patrons or in their daily work-flow.
 
 This book and related technical documentation for the DSL are released
 under the Creative Commons `Attribution-ShareAlike`_ license. All source

@@ -9,6 +9,7 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     url(r'^$', 'intro.views.home', name='home'),
+    url(r'^about$', 'intro.views.about', name='about'),
 #    url(r'^background/', include('background.urls')),
 #    url(r'^sessions/', include('Curriculum.urls')),
     url(r'^syllabus/', 'syllabus.views.home', name='syllabus'),

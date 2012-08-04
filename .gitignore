@@ -1,4 +1,5 @@
 *.swp
 *.pyc
 *.rdb
+static*
 _build*
