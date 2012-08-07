@@ -2,5 +2,6 @@
 *.pyc
 *.rdb
 *.bak
+*.db
 static*
 _build*

@@ -12,6 +12,7 @@ def home(request):
     Default view for Introduction to Library Systems Course
     """
     return render_to_response('syllabus.html',
-                             {'timestamp':datetime.datetime.today()},
+                             {'classes':ClassDate.objects.all().order_by('start'),
+                              'timestamp':datetime.datetime.today()},
                               context_instance=RequestContext(request))
 

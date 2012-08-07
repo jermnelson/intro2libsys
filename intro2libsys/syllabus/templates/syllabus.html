@@ -1,4 +1,4 @@
-{% extends 'base.html' %}
+{% extends 'fluid.html' %}
 {% load i18n %}
 
 {% block top-menu-bar %}
@@ -12,6 +12,13 @@
 <div class="span7 hero-unit">
  <h2>Introduction to Library Systems</h2>
  <h1>Course Syllabus</h1>
+ {% for row in classes %}
+ <p>
+  <strong>Start: </strong>{{ row.start }}<br/>
+  <strong>End: </strong>{{ row.end }}<br/>
+ </p>
+ <hr/>
+ {% endfor %}
 </div>
 {% endblock %}
 
