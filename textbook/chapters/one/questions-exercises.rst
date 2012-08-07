@@ -14,7 +14,9 @@ Questions
    be useful in information management of a software system or project documentation?
 
 4. What is the difference between a physical and virtual server?
- 
+
+5. Why is a distributed version control system, like `Git`_, of interest to 
+   librarians? 
 
 Exercises
 ---------
