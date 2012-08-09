@@ -14,25 +14,37 @@
  <h1>Course Syllabus</h1>
  {% for row in classes %}
  <p>
-  <strong>Start: </strong>{{ row.start }}<br/>
-  <strong>End: </strong>{{ row.end }}<br/>
-  <strong>Textbook chapters:</strong><br/>
+  <strong>Start: </strong>{{ row.date.start }}<br/>
+  <strong>End: </strong>{{ row.date.end }}<br/>
+  {% if row.chapters %}
+  <strong>Textbook chapters:</strong>
+  {% for chapter in row.chapters %}
+   <a href="{{ chapter.url }}">{{ chapter.title }}</a><br/>
+  {% endfor %}
+  {% endif %}
+  {% if row.readings %}
   <strong>Readings:</strong>
+  {% endif %}
  </p>
  <hr/>
  {% endfor %}
 </div>
 {% endblock %}
 
-{% block second-row %}
+{% block first-row %}
 <div class="row">
-<div class="span7 well">
+<div class="span4 well">
  <ul>
   <li>Survey of Library Technology</li>
   <li>Introduction to Major Schemas &amp; Formats</li>
   <li>Exposure to Library App Development</li>
   <li>Future trends in Library &amp; Network Systems</li>
  </ul>
+</div>
+{% comment %}Start Grading Policy{% endcomment %}
+<div class="span3 well">
+<a name="grading-policy"></a>
+<h2>Grading Policy</h2>
 </div>
 </div>
 {% endblock %}
