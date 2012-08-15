@@ -54,8 +54,8 @@ Table 2 - Top Commerical Integrated Library Systems
 | Carl X                  |            |            |           |
 +-------------------------+------------+------------+-----------+
 
-Table 3 - Top Comercial Discovery Services
-------------------------------------------
+Table 3 - Top Commercial Discovery Services
+-------------------------------------------
 
 Aquabrowser
 -----------
