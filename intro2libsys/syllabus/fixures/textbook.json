@@ -10,52 +10,44 @@
   {"pk":2,
    "model":"syllabus.TextbookChapter",
    "fields": {
-      "class_date":1,
-      "title":"Library Systems through History Part 1",
+      "class_date":2,
+      "title":"Library Systems through History",
       "url":"/textbook/chapters/two/two.html"
    }
    },
    {"pk":3,
    "model":"syllabus.TextbookChapter",
    "fields": {
-      "class_date":2,
-      "title":"Library Systems through History Part 2",
+      "class_date":3,
+      "title":"MARC Records, Meta-data, FRBR & RDA, and Linked Data",
       "url":"/textbook/chapters/two/two.html"
    }
    },
-  {"pk":4,
+ {"pk":4,
    "model":"syllabus.TextbookChapter",
    "fields": {
-      "class_date":2,
-      "title":"MARC Records, Meta-data, FRBR & RDA, and Linked Data",
-      "url":"/textbook/chapters/three/three.html"
+      "class_date":5,
+      "title":"Integrated Library Systems (ILS) & Discovery Layers",
+      "url":"/textbook/chapters/four/four.html"
    }
    },
  {"pk":5,
    "model":"syllabus.TextbookChapter",
    "fields": {
-      "class_date":3,
-      "title":"Integrated Library Systems (ILS) & Discovery Layers",
-      "url":"/textbook/chapters/four/four.html"
+      "class_date":5,
+      "title":"Library Websites, Digital Repositories, & Supporting Technology",
+      "url":"/textbook/chapters/five/five.html"
    }
    },
  {"pk":6,
    "model":"syllabus.TextbookChapter",
    "fields": {
-      "class_date":3,
-      "title":"Library Websites, Digital Repositories, & Supporting Technology",
-      "url":"/textbook/chapters/five/five.html"
-   }
-   },
- {"pk":7,
-   "model":"syllabus.TextbookChapter",
-   "fields": {
-      "class_date":5,
+      "class_date":6,
       "title":"Workstations, Servers, Peripherals, & Networking",
       "url":"/textbook/chapters/six/six.html"
    }
    },
- {"pk":8,
+ {"pk":7,
    "model":"syllabus.TextbookChapter",
    "fields": {
       "class_date":6,
@@ -63,7 +55,7 @@
       "url":"/textbook/chapters/seven/seven.html"
    }
    },
- {"pk":9,
+ {"pk":8,
    "model":"syllabus.TextbookChapter",
    "fields": {
       "class_date":7,
@@ -71,7 +63,7 @@
       "url":"/textbook/chapters/eight/eight.html"
    }
    },
- {"pk":10,
+ {"pk":9,
    "model":"syllabus.TextbookChapter",
    "fields": {
       "class_date":8,
@@ -79,7 +71,7 @@
       "url":"/textbook/chapters/nine/nine.html"
    }
    },
- {"pk":11,
+ {"pk":10,
    "model":"syllabus.TextbookChapter",
    "fields": {
       "class_date":9,

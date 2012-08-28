@@ -1,0 +1,96 @@
+[
+  {
+    "fields": {
+      "class_date":1,
+      "title":"Our Enduring Values: Librarianship in the 21st Century -- Introduction",
+      "page_range":"1-15"
+    },
+    "model":"syllabus.Reading",
+    "pk":1 
+
+  },
+  {
+    "fields": {
+      "class_date":1,
+      "title":"Our Enduring Values: Librarianship in the 21st Century -- Chapter One",
+      "page_range":"16-28"
+    },
+    "model":"syllabus.Reading",
+    "pk":2
+
+  },
+  {
+    "fields": {
+      "class_date":1,
+      "title":"Git Magic -- Introduction",
+      "url":"http://www-cs-students.stanford.edu/~blynn/gitmagic/ch01.html"
+    },
+    "model":"syllabus.Reading",
+    "pk":3
+
+  },
+  {
+    "fields": {
+      "class_date":1,
+      "title":"Git Magic -- Chapter Two",
+      "url":"http://www-cs-students.stanford.edu/~blynn/gitmagic/ch02.html"
+    },
+    "model":"syllabus.Reading",
+    "pk":4
+
+  },
+  {
+    "fields": {
+      "class_date":1,
+      "title":"EC2 for Poets",
+      "url":"http://ec2.forpoets.org/"
+    },
+    "model":"syllabus.Reading",
+    "pk":5
+  },
+  {
+    "fields": {
+      "class_date":1,
+      "title":"Powerful Linux and Windows servers in minutes",
+      "url":"http://www.rackspace.com/cloud/public/servers/"
+    },
+    "model":"syllabus.Reading",
+    "pk":6
+  },
+  {
+    "fields": {
+      "class_date":1,
+      "title":"The Python Tutorial Index",
+      "url":"http://docs.python.org/tutorial/index.html"
+    },
+    "model":"syllabus.Reading",
+    "pk":7
+  },
+ {
+   "fields": {
+      "class_date":1,
+      "title":"The Python Tutorial -- Chapter One",
+      "url":"http://docs.python.org/tutorial/appetite.html"
+    },
+    "model":"syllabus.Reading",
+    "pk":8
+  },
+  {
+   "fields": {
+      "class_date":1,
+      "title":"The Python Tutorial -- Chapter Two",
+      "url":"http://docs.python.org/tutorial/interpreter.html"
+    },
+    "model":"syllabus.Reading",
+    "pk":9
+  },
+  {
+   "fields": {
+      "class_date":1,
+      "title":"The Python Tutorial -- Chapter Three",
+      "url":"http://docs.python.org/tutorial/introduction.html"
+    },
+    "model":"syllabus.Reading",
+    "pk":10
+  }
+]

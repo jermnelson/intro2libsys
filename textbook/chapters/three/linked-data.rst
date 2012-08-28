@@ -47,4 +47,5 @@ References
 .. _DBpedia: http://dbpedia.org/
 .. _Linkeddata.org: http://linkeddata.org/
 .. _linkeddata.org FAQ: http://linkeddata.org/faq
+.. _SPARQL: http://www.w3.org/TR/rdf-sparql-query/
 .. _Wikipedia: http://www.wikipedia.org/

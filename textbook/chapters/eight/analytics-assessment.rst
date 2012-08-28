@@ -12,8 +12,8 @@ While using Google Analytics on web-based systems, such as web OPACS and Discove
 can help library systems improve the usability and Google Analytics can easily be used in
 A/B Tests mentioned in the last section.
 
-Assesment
----------
+Assessment
+----------
 
 .. _COUNTER: http://www.projectcounter.org/
 .. _Google Analytics: http://www.google.com/analytics/

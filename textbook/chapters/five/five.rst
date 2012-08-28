@@ -15,8 +15,9 @@ Preserving Digital Objects in Repositories
    :maxdepth: 2
    
    digital-repositories
-   oai-pmh
    library-websites
+   oai-pmh
+   solr
    other-services-systems
    social-networks
    seo-web-services

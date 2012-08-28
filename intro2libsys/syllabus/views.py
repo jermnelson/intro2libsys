@@ -15,7 +15,8 @@ def home(request):
     classes = []
     for date in class_dates:
         class_info = {'date':date}
-        class_info['chapters'] = TextbookChapter.objects.filter(class_date=date.pk)
+        class_info['chapters'] = TextbookChapter.objects.filter(class_date=date.pk),
+        class_info['readings'] = Reading.objects.filter(class_date=date.pk)
         classes.append(class_info)       
     return render_to_response('syllabus.html',
                              {'classes':classes,
