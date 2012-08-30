@@ -236,7 +236,24 @@
       "url":"http://docs.python.org/tutorial/modules.html"
     },
     "model":"syllabus.Reading",
-   "pk":25
+    "pk":25
+  },
+ {
+    "fields": {
+      "class_date":3,
+      "title":"MARC 21 Format for Bibliographic data -- Introduction",
+      "url":"http://www.loc.gov/marc/bibliographic/bdintro.html"
+    },
+    "model":"syllabus.Reading",
+    "pk":26
+  },
+  {
+    "fields": {
+      "class_date":3,
+      "title":"Dublin Core Metadata Basics",
+      "url":"http://dublincore.org/metadata-basics/"
+    },
+    "model":"syllabus.Reading",
+    "pk":27
   }
-
 ]

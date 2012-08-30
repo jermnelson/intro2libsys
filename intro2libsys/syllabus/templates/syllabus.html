@@ -16,10 +16,10 @@
  <p>
   <strong>Start: </strong>{{ row.date.start }}<br/>
   <strong>End: </strong>{{ row.date.end }}<br/>
-  {% if row.chapters %}
-  <strong>Textbook chapter(s):</strong>
+  {% if row.chapters|length > 0 %}
+  <strong>Textbook chapter(s): </strong>
   <ul>
-  {% for chapter in row.chapters %}
+  {% for chapter in row.chapters %} 
    <li><a href="{{ chapter.0.url }}">{{ chapter.0.title }}</a></li>
   {% endfor %}
   </ul>
@@ -29,7 +29,7 @@
   <ul> 
   {% for reading in row.readings %}
    <li>{% if reading.url %}<a href="{{ reading.url }}">{% endif %}
-       {{ reading.title }}
+       <em>{{ reading.title }}</em>
        {% if reading.page_range %} pages: {{ reading.page_range }}{% endif %}
        {%if reading.url %}</a>{% endif %}
    </li>
