@@ -7,19 +7,75 @@ from django.template import RequestContext
 from syllabus.models import *
 import datetime
 
+def get_class_range(class_query):
+    """
+    Helper function takes a ClassDate query and returns a
+    list of the dicts for each class.
+
+    :param class_query: ClassDate query
+    :rtype list: List of dicts for each class session
+    """
+    classes = []
+    for date in class_query:
+        class_info = {'date':date}
+        class_info['chapters'] = TextbookChapter.objects.filter(class_date=date.pk),
+        class_info['readings'] = Reading.objects.filter(class_date=date.pk)
+        classes.append(class_info)
+    return classes
+
 def home(request):
     """
     Default view for Introduction to Library Systems Course
     """
-    class_dates = ClassDate.objects.all().order_by('start')
-    classes = []
-    for date in class_dates:
-        class_info = {'date':date}
-        class_info['chapters'] = TextbookChapter.objects.filter(class_date=date.pk),
-        class_info['readings'] = Reading.objects.filter(class_date=date.pk)
-        classes.append(class_info)       
     return render_to_response('syllabus.html',
-                             {'classes':classes,
+                             {'classes':get_class_range(ClassDate.objects.all().order_by('start')),
+                              'readings_by_alpha':Reading.objects.order_by('title'),
                               'timestamp':datetime.datetime.today()},
                               context_instance=RequestContext(request))
 
+def month(request,year,month):
+    """
+    Displays all of the sessions for one month.
+
+    :param request: HTTP Request
+    :param year: Year in YYYY format
+    :param month: Month in 01-12 format
+    """
+    question_date = datetime.datetime(year=int(year),
+                                      month=int(month),
+                                      day=int(day))
+    next_date = question_date + datetime.timedelta(30)
+    class_dates = ClassDate.objects.filter(start__gte=question_date
+    ).filter(end__lte=next_date).order_by('start')
+    return render_to_response('month.html',
+                             {'classes':get_class_range(class_dates),
+                              'readings_by_alpha':Reading.objects.order_by('title'),
+                              'timestamp':datetime.datetime.today()},
+                              context_instance=RequestContext(request))
+
+
+def session(request,year,month,day):
+    """
+    Displays course work and associated streams for a single
+    class session.
+
+    :param request: HTTP Request
+    :param year: Year in YYYY format
+    :param month: Month in 01-12 format
+    :param day: Day in 01-31 format
+    """
+    question_date = datetime.datetime(year=int(year),
+                                      month=int(month),
+                                      day=int(day))
+    next_date = question_date + datetime.timedelta(1)
+    class_date = ClassDate.objects.filter(start__gte=question_date
+    ).filter(end__lte=next_date)
+    
+    return render_to_response('syllabus-session.html',
+                              {'chapters':TextbookChapter.objects.filter(class_date=class_date[0].pk),
+                               'date_of':question_date,
+                               'readings':Reading.objects.filter(class_date=class_date[0].pk)},
+                              context_instance=RequestContext(request))
+    
+def year(request,year):
+    return ''

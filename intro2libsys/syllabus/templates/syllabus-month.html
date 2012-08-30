@@ -15,7 +15,7 @@
 {% block hero-unit %}
 <div class="span7 hero-unit">
  <h2>Introduction to Library Systems</h2>
- <h1>Course Syllabus</h1>
+ <h1>Course Sessions Month</h1>
  {% for row in classes %}
  <h3><a href='/{{ row.date.start|date:"Y" }}/{{ row.date.start|date:"m" }}/{{ row.date.start|date:"d" }}/'>Session {{forloop.counter }}</a></h3>
  <p>

@@ -46,7 +46,16 @@
     data-parent="#sidebar-nav-accord"
     data-target="#readings"><i class="icon-book"></i> {% trans "Readings" %}</a></li>
  <div id="readings" class="collapse">
+  <ul>
   <li><a href="/textbook/">Introduction to Library Systems eTextBook</a></li>
+  {% for resource in readings_by_alpha %}
+  <li>{% if resource.url %}<a href="{{ resource.url }}">{% endif %}
+   <em>{{ resource.title }}</em>
+   {% if resource.page_range %}{{ resource.page_range }}{% endif %}
+   {% if resource.url %}</a>{% endif %}
+  </li>
+  {% endfor %}
+  </ul>
  </div>
 <li class="nav-header">
  <a class="btn"

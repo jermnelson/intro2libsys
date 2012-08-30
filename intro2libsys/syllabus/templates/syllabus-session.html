@@ -1,0 +1,85 @@
+{% extends 'fluid.html' %}
+{% load i18n %}
+
+{% block top-menu-bar %}
+{% endblock %}
+
+{% block sidebar-nav %}
+ <div class="span2">
+ <div class="row">
+ {% include 'snippets/left-navigation.html' %}
+ </div>
+ <div class="row-fluid">
+ <br/>
+ <div class="span2 alert alert-block alert-error">
+   <h4>Note!</h4>
+   <p>{{ message }}</p>
+ </div>
+ </div>
+ </div>
+{% endblock %}
+
+{% block more-breadcrumb-links %}
+<li><a href='/{{ date_of|date:"Y"}}/'> {{ date_of|date:"Y"}}</a> <span class="divider">&raquo;</span></li>
+<li><a href='/{{ date_of|date:"Y"}}/{{ date_of|date:"m"}}/'> {{ date_of|date:"F"}}</a> <span class="divider">&raquo;</span></li>
+<li>{{ date_of|date:"j" }}</li>
+{% endblock %}
+
+{% block hero-unit %}
+<div class="span7 hero-unit">
+ <h2>Introduction to Library Systems</h2>
+ <h1>Details</h1>
+ <h2> {{ date_of|date:"F j, Y"}}</h2>
+</div>
+{% endblock %}
+
+{% block first-row %}
+ <div class="row">
+   <div class="well span4">
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'introductiontolibrarysystems'; // required: replace example with your forum shortname
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+   </div>
+  <div class="span4">
+    <div class="row">
+   {% if chapters %}
+     <div class="well span3">
+    <h3>Textbook chapter(s): </h3>
+    <ul>
+    {% for chapter in chapters %} 
+     <li><a href="{{ chapter.url }}">{{ chapter.title }}</a></li>
+    {% endfor %}
+    </ul>
+    </div>
+   {% endif %}
+    </div>
+	<div class="row">
+	{% if readings %}
+    <div class="well span3">
+    <h3>Readings:</h3>
+    <ul> 
+   {% for reading in readings %}
+   <li>{% if reading.url %}<a href="{{ reading.url }}">{% endif %}
+       <em>{{ reading.title }}</em>
+       {% if reading.page_range %} pages: {{ reading.page_range }}{% endif %}
+       {%if reading.url %}</a>{% endif %}
+   </li>
+   {% endfor %}
+   </ul>
+   </div>
+  {% endif %}
+  </div>
+</div>
+</div>
+{% endblock %}
