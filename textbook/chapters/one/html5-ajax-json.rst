@@ -30,7 +30,7 @@ CSS
 ---
 Cascading Style Sheets, currently in its third version, is an auxiliary to HTML that is 
 used for styling web pages by specifying the fonts, colors, position, and other aspects of
-the structure of the web pages. Through the use of external stylesheets, complex and large
+the structure of the web pages. Through the use of external style-sheets, complex and large
 websites can standardize the appearance through common CSS classes and attributes.  
 
 While the ideal is separating the appearance from the structure in a website, by CSS and

@@ -25,9 +25,9 @@ are geographically dispersed without clear lines of responsibilities.
 
 Problems with a centralized approach becoming quickly apparent when individual 
 developers check-out the same code but make incompatible changes that then require 
-explict resolutions of the conflicts  in order to 
+explicit resolutions of the conflicts  in order to 
 successfully commit the changes back to the master. Also, with a master repository,
-corruption in the master or central repository is usually catastropshic. 
+corruption in the master or central repository is usually catastrophic. 
 
 The critical feature of a DVCS is the absence of a central, master copy of the 
 code-base. Instead, each developer maintains a copy of the code base where local
@@ -44,12 +44,12 @@ Popularity of Git
 -----------------
 Git originally started and was initially developed by Linus Torvalds, the 
 creator of the Linux operating system, as a method of managing the code
-for the Linux kernal. Torvalds relatively early in the project history turned
+for the Linux kernel. Torvalds relatively early in the project history turned
 control over to other developers to manage and Git has increased quickly in
 usage ever since.
 
 While there hasn't been a formal survey of what is the most popular revision control system,
-the open-source project comparision website `Ohloh`_ tracks the choice of repository software
+the open-source project comparison website `Ohloh`_ tracks the choice of repository software
 with the following breakdown [#]_ :
 
 +------------+-----+
@@ -64,7 +64,7 @@ with the following breakdown [#]_ :
 |     Bazaar |  2% |
 +------------+-----+   
 
-While these numbers are biased because commerical and proprietary software projects are not
+While these numbers are biased because commercial and proprietary software projects are not
 being tracked on `Ohloh`_ they do show that even with the advantages mentioned above for DVCS,
 the centralized open-source projects `Subversion`_ and CVS still make up over of 66% of projects 
 but this percentage has been decreasing over time as Git and other DVCS gain in popularity. 

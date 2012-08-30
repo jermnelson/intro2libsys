@@ -7,10 +7,10 @@ comfortable using another Linux distribution, please use what you are
 most comfortable with using. 
 
 This course has an available VM on Rackspace and Amazon Web Services 
-for those students who wish to use those commercial clouse service providers. 
+for those students who wish to use those commercial cloud service providers. 
 
 The same class Ubuntu Virtual Machine image can also be downloaded and
-used in other cloud providers including Microsoft's Azuze cloud services 
+used in other cloud providers including Microsoft's Azure cloud services 
 (a note of irony for those of us who remember Steve Ballmer saying that
 Linux was a cancer, maybe he was right!)::
 

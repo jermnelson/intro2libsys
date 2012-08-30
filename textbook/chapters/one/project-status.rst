@@ -7,7 +7,7 @@ chance to meet with your fellow classmates and you should start thinking about
 what two or three other students you would like to join for group project.
 
 The goal of the project exercise is to give you hands-on experience in AGILE
-software development practices while learning about typical develpment and 
+software development practices while learning about typical development and 
 administration tasks as you and your group roll-out at library system for 
 a collection by an external organization. Many of you work or are involved with 
 different types of organizations that may have a small collection of 

@@ -19,6 +19,15 @@
     "pk":2
 
   },
+ {
+   "fields": {
+      "class_date":1,
+      "title":"DevOps: What It Is, Why It Exists and Why It's Indispensable",
+      "url":"http://www.readwriteweb.com/enterprise/2011/08/devops-what-it-is-why-it-exist.php"
+    },
+    "model":"syllabus.Reading",
+    "pk":3
+  },
   {
     "fields": {
       "class_date":1,
@@ -26,7 +35,7 @@
       "url":"http://www-cs-students.stanford.edu/~blynn/gitmagic/ch01.html"
     },
     "model":"syllabus.Reading",
-    "pk":3
+    "pk":4
 
   },
   {
@@ -36,7 +45,7 @@
       "url":"http://www-cs-students.stanford.edu/~blynn/gitmagic/ch02.html"
     },
     "model":"syllabus.Reading",
-    "pk":4
+    "pk":5
 
   },
   {
@@ -46,7 +55,7 @@
       "url":"http://ec2.forpoets.org/"
     },
     "model":"syllabus.Reading",
-    "pk":5
+    "pk":6
   },
   {
     "fields": {
@@ -55,7 +64,7 @@
       "url":"http://www.rackspace.com/cloud/public/servers/"
     },
     "model":"syllabus.Reading",
-    "pk":6
+    "pk":7
   },
   {
     "fields": {
@@ -64,7 +73,7 @@
       "url":"http://docs.python.org/tutorial/index.html"
     },
     "model":"syllabus.Reading",
-    "pk":7
+    "pk":8
   },
  {
    "fields": {
@@ -73,7 +82,7 @@
       "url":"http://docs.python.org/tutorial/appetite.html"
     },
     "model":"syllabus.Reading",
-    "pk":8
+    "pk":9
   },
   {
    "fields": {
@@ -82,7 +91,7 @@
       "url":"http://docs.python.org/tutorial/interpreter.html"
     },
     "model":"syllabus.Reading",
-    "pk":9
+    "pk":10
   },
   {
    "fields": {
@@ -91,6 +100,143 @@
       "url":"http://docs.python.org/tutorial/introduction.html"
     },
     "model":"syllabus.Reading",
-    "pk":10
+    "pk":11
+  },
+  {
+   "fields": {
+      "class_date":1,
+      "title":"A ReStructuredText Primer",
+      "url":"http://docutils.sourceforge.net/docs/user/rst/quickstart.html"
+    },
+    "model":"syllabus.Reading",
+    "pk":12
+  },
+  {
+   "fields": {
+      "class_date":2,
+      "title":"Ebla: The World’s Oldest Library",
+      "url":"http://www.jstor.org/stable/25541212",
+      "page_range":"488-498"
+    },
+    "model":"syllabus.Reading",
+    "pk":13
+  },
+  {
+   "fields": {
+      "class_date":2,
+      "title":"The British Museum's Ashurbanipal Library Project ",
+      "url":"http://www.jstor.org/stable/4200559",
+      "page_range":"55-60"
+    },
+    "model":"syllabus.Reading",
+    "pk":14
+  },
+  {
+   "fields": {
+      "class_date":2,
+      "title":"Growth and Development of Islamic Libraries",
+      "page_range":"217-229"
+    },
+    "model":"syllabus.Reading",
+    "pk":15
+  },
+  {
+   "fields": {
+      "class_date":2,
+      "title":"The Intellectual Interests Reflected in Libraries of the Fourteenth and Fifteenth Centuries",
+      "page_range":"257-297",
+      "url":"http://www.jstor.org/stable/2707402"
+    },
+    "model":"syllabus.Reading",
+    "pk":16
+  },
+  {
+   "fields": {
+      "class_date":2,
+      "title":"Hidden Wisdom and Unseen Treasure: Revisiting Cataloging in Medieval Libraries",
+      "page_range":"1-5"
+  },
+    "model":"syllabus.Reading",
+    "pk":17
+  },
+  {
+   "fields": {
+      "class_date":2,
+      "title":"Ninety-One Cataloging Rules"
+    },
+    "model":"syllabus.Reading",
+    "pk":18
+  },
+  {
+   "fields": {
+      "class_date":2,
+      "title":"Rules for a dictionary catalog",
+      "page_range":"1-24",
+      "url":"http://books.google.com/books?id=2rQYAAAAMAAJ"
+   },
+   "model":"syllabus.Reading",
+   "pk":19
+  },
+  {
+   "fields": {
+      "class_date":2,
+      "title":"As We May Think",
+      "url":"http://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/"
+   },
+   "model":"syllabus.Reading",
+   "pk":20
+  },
+  {
+   "fields": {
+      "class_date":2,
+      "title":"Special considerations of the individual as a user, generator, and retriever of information",
+      "url":"http://onlinelibrary.wiley.com/doi/10.1002/asi.5090120207/"
+   },
+   "model":"syllabus.Reading",
+   "pk":21
+  },
+  {
+   "fields": {
+      "class_date":2,
+      "title":"Online Catalog Design Models: Are We Moving in the Right Direction?"
+   },
+   "model":"syllabus.Reading",
+   "pk":22
+  },
+  {
+   "fields": {
+      "class_date":2,
+      "title":"The Online Library Catalog Paradise Lost and Paradise Regained?"
+   },
+   "model":"syllabus.Reading",
+   "pk":23
+  },
+  {
+    "fields": {
+      "class_date":2,
+      "title":"The Python Tutorial -- Chapter Four",
+      "url":"http://docs.python.org/tutorial/controlflow.html"
+    },
+    "model":"syllabus.Reading",
+   "pk":24
+  },
+ {
+    "fields": {
+      "class_date":2,
+      "title":"The Python Tutorial -- Chapter Five",
+      "url":"http://docs.python.org/tutorial/datastructures.html"
+    },
+    "model":"syllabus.Reading",
+   "pk":25
+  },
+ {
+    "fields": {
+      "class_date":2,
+      "title":"The Python Tutorial -- Chapter Six",
+      "url":"http://docs.python.org/tutorial/modules.html"
+    },
+    "model":"syllabus.Reading",
+   "pk":25
   }
+
 ]
