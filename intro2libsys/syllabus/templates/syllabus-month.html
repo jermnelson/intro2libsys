@@ -9,23 +9,24 @@
 {% endblock %}
 
 {% block more-breadcrumb-links %}
-<li>Syllabus</li>
+<li><a href='/{{ month.0|date:"Y" }}/'>{{ month.0|date:"Y" }}</a> <span class="divider">&raquo;</span></li>
+<li>{{ month.0|date:"F" }}</li>
 {% endblock %}
 
 {% block hero-unit %}
 <div class="span7 hero-unit">
  <h2>Introduction to Library Systems</h2>
- <h1>Course Sessions Month</h1>
+ <h1>Course Sessions {{ month.0|date:"F Y" }}</h1>
  {% for row in classes %}
- <h3><a href='/{{ row.date.start|date:"Y" }}/{{ row.date.start|date:"m" }}/{{ row.date.start|date:"d" }}/'>Session {{forloop.counter }}</a></h3>
+ <h3><a href='/{{ row.date.start|date:"Y" }}/{{ row.date.start|date:"m" }}/{{ row.date.start|date:"d" }}/'>Session {{row.date.pk }}</a></h3>
  <p>
   <strong>Start: </strong>{{ row.date.start }}<br/>
   <strong>End: </strong>{{ row.date.end }}<br/>
-  {% if row.chapters|length > 0 %}
+  {% if row.chapters.0|length > 0 %}
   <strong>Textbook chapter(s): </strong>
   <ul>
-  {% for chapter in row.chapters %} 
-   <li><a href="{{ chapter.0.url }}">{{ chapter.0.title }}</a></li>
+  {% for chapter in row.chapters.0 %} 
+   <li><a href="{{ chapter.url }}">{{ chapter.title }}</a></li>
   {% endfor %}
   </ul>
   {% endif %}

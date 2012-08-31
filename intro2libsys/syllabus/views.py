@@ -19,7 +19,7 @@ def get_class_range(class_query):
     for date in class_query:
         class_info = {'date':date}
         class_info['chapters'] = TextbookChapter.objects.filter(class_date=date.pk),
-        class_info['readings'] = Reading.objects.filter(class_date=date.pk)
+        class_info['readings'] = Reading.objects.filter(class_date=date.pk).order_by('title')
         classes.append(class_info)
     return classes
 
@@ -43,12 +43,13 @@ def month(request,year,month):
     """
     question_date = datetime.datetime(year=int(year),
                                       month=int(month),
-                                      day=int(day))
+                                      day=1)
     next_date = question_date + datetime.timedelta(30)
     class_dates = ClassDate.objects.filter(start__gte=question_date
     ).filter(end__lte=next_date).order_by('start')
-    return render_to_response('month.html',
+    return render_to_response('syllabus-month.html',
                              {'classes':get_class_range(class_dates),
+                              'month':(question_date,next_date),
                               'readings_by_alpha':Reading.objects.order_by('title'),
                               'timestamp':datetime.datetime.today()},
                               context_instance=RequestContext(request))
@@ -78,4 +79,23 @@ def session(request,year,month,day):
                               context_instance=RequestContext(request))
     
 def year(request,year):
-    return ''
+    """
+    Displays all sessions for a year
+
+    :param request: HTTP Request
+    :param year: Year in YYYY format
+    """
+    start_date = datetime.datetime(year=int(year),
+                                   month=1,
+                                   day=1)
+    end_date = datetime.datetime(year=int(year),
+                                 month=12,
+                                 day=31)
+    class_dates = ClassDate.objects.filter(start__gte=start_date
+    ).filter(end__lte=end_date)
+                                   
+    return render_to_response('syllabus-year.html',
+                              {'classes':class_dates,
+                               'year':year},
+                              context_instance=RequestContext(request))
+

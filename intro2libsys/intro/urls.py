@@ -10,7 +10,7 @@ admin.autodiscover()
 urlpatterns = patterns('',
     url(r'^$', 'intro.views.home', name='home'),
     url(r'^about$', 'intro.views.about', name='about'),
-    url(r'^(\d{4})/(\d{2})/$','syllabus.views.year'),
+    url(r'^(\d{4})/$','syllabus.views.year'),
     url(r'^(\d{4})/(\d{2})/$','syllabus.views.month'),
     url(r'^(\d{4})/(\d{2})/(\d+)/$','syllabus.views.session'),
 #    url(r'^background/', include('background.urls')),

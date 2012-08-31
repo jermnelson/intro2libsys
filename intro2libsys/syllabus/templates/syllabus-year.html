@@ -1,0 +1,31 @@
+{% extends 'fluid.html' %}
+{% load i18n %}
+
+{% block top-menu-bar %}
+{% endblock %}
+
+{% block sidebar-nav %}
+ {% include 'snippets/left-navigation.html' %}
+{% endblock %}
+
+{% block more-breadcrumb-links %}
+<li>{{ year }}</li>
+{% endblock %}
+
+{% block hero-unit %}
+<div class="span7 hero-unit">
+ <h2>Introduction to Library Systems</h2>
+ <h1>Course Sessions for {{ year }}</h1>
+ {% for row in classes %}
+ <h3><a href='/{{ row.start|date:"Y" }}/{{ row.start|date:"m" }}/{{ row.start|date:"d" }}/'>Session {{row.pk }}</a></h3>
+ <p>
+  <strong>Start: </strong>{{ row.start }}<br/>
+  <strong>End: </strong>{{ row.end }}<br/>
+ </p>
+ <hr/>
+ {% endfor %}
+</div>
+{% endblock %}
+
+{% block first-row %}
+{% endblock %}
