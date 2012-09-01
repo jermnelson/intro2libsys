@@ -5,12 +5,6 @@ TEMPLATE_DEBUG = DEBUG
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 DJANGO_ROOT = os.path.split(PROJECT_ROOT)[0]
 
-ADMINS = (
-  ('Jeremy Nelson','jermnelson@gmail.com'),
-    # ('Your Name', 'your_email@example.com'),
-)
-
-MANAGERS = ADMINS
 
 DATABASES = {
     'default': {
@@ -123,7 +117,9 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'assessment',
     'background',
+    'learners',
     'Curriculum',
     'intro',
     'syllabus',
@@ -164,5 +160,6 @@ LOGGING = {
 
 try:
     from local_settings import *
+    MANAGERS = ADMINS
 except ImportError:
     pass

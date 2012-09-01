@@ -2,7 +2,7 @@
   {
     "fields": {
       "class_date":1,
-      "title":"Our Enduring Values: Librarianship in the 21st Century -- Introduction",
+      "title":"Our Enduring Values: Librarianship in the 21st Century",
       "page_range":"1-15"
     },
     "model":"syllabus.Reading",
@@ -12,7 +12,7 @@
   {
     "fields": {
       "class_date":1,
-      "title":"Our Enduring Values: Librarianship in the 21st Century -- Chapter One",
+      "title":"Our Enduring Values: Librarianship in the 21st Century -- Chapter 1",
       "page_range":"16-28"
     },
     "model":"syllabus.Reading",
@@ -599,5 +599,15 @@
     },
     "model":"syllabus.Reading",
     "pk":66
+  },
+  {
+    "fields": {
+      "class_date":2,
+      "title":"Our Enduring Values: Librarianship in the 21st Century -- Chapter 3",
+      "page_range":"43-57"
+    },
+    "model":"syllabus.Reading",
+    "pk":67
+
   }
 ]
