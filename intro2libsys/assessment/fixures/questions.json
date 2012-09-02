@@ -1,0 +1,58 @@
+[
+  {
+   "fields":{
+     "question":"How does the definition of library differ from Wikipedia and Gorman?",
+     "test":3,
+     "type_of":"sa"
+   },
+   "model":"assessment.Question",
+   "pk":1
+  },
+  {
+   "fields":{
+     "question":"What is DevOps?",
+     "test":3,
+     "type_of":"sa"
+   },
+   "model":"assessment.Question",
+   "pk":2
+  },
+  {
+   "fields":{
+     "question":"What is a distributed source code versioning system? ",
+     "test":3,
+     "type_of":"sa"
+
+   },
+   "model":"assessment.Question",
+   "pk":3
+  },
+  {
+   "fields":{
+     "question":"What is the difference between a physical and virtual server? ",
+     "test":3,
+     "type_of":"sa"
+
+  },
+   "model":"assessment.Question",
+   "pk":4
+  },
+ {
+  "fields": {
+    "question":"How might DevOps techniques and philosophies be useful for library systems?",
+     "test":3,
+     "type_of":"sa"
+   },
+   "model":"assessment.Question",
+   "pk":5
+  },
+ {
+  "fields": {
+    "question":"How might a DSCV like Git be useful in information management or project documentation?",
+     "test":3,
+     "type_of":"sa"
+   },
+   "model":"assessment.Question",
+   "pk":6
+ }
+]

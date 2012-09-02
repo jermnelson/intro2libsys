@@ -5,6 +5,7 @@ __author__ = 'Jeremy Nelson'
 from django.shortcuts import render_to_response
 from django.template import RequestContext
 from syllabus.models import *
+from assessment.models import Test
 import datetime
 
 def get_class_range(class_query):
@@ -20,6 +21,7 @@ def get_class_range(class_query):
         class_info = {'date':date}
         class_info['chapters'] = TextbookChapter.objects.filter(class_date=date.pk),
         class_info['readings'] = Reading.objects.filter(class_date=date.pk).order_by('title')
+        class_info['test'] = Test.objects.filter(date_of=date.pk)
         classes.append(class_info)
     return classes
 

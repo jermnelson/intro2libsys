@@ -1,5 +1,6 @@
 {% extends 'fluid.html' %}
 {% load i18n %}
+{% load syllabus_extras %}
 
 {% block top-menu-bar %}
 {% endblock %}
@@ -21,6 +22,7 @@
  <p>
   <strong>Start: </strong>{{ row.date.start }}<br/>
   <strong>End: </strong>{{ row.date.end }}<br/>
+ </p>
   {% if row.chapters.0|length > 0 %}
   <strong>Textbook chapter(s): </strong>
   <ul>
@@ -40,9 +42,17 @@
        {%if reading.url %}</a>{% endif %}
    </li>
   {% endfor %}
-  </ul>
+    </ul>
   {% endif %}
- </p>
+{% if row.test %}
+<p>
+  {% for examine in row.test %}
+  <strong>Examination: {{ examine.type_of|get_test_type }}</strong>
+  {% endfor %}
+<p>
+{% endif %} 
+
+
  <hr/>
  {% endfor %}
 </div>
@@ -51,17 +61,30 @@
 {% block first-row %}
 <div class="row">
 <div class="span4 well">
+<h2>Intended Outcomes</h2>
  <ul>
   <li>Survey of Library Technology</li>
   <li>Introduction to Major Schemas &amp; Formats</li>
   <li>Exposure to Library App Development</li>
   <li>Future trends in Library &amp; Network Systems</li>
  </ul>
+<a href="#" class="btn btn-alert">What is Missing?</a>
 </div>
 {% comment %}Start Grading Policy{% endcomment %}
 <div class="span3 well">
 <a name="grading-policy"></a>
 <h2>Grading Policy</h2>
+ <p>
+  Grades are determined through a combination of the following:
+ </p>
+ <ul>
+  <li>Weekly participation and technical exercises: <strong>35%</strong></li>
+  <li>Group Project: <strong>30%</strong></li>
+  <li>Final: <strong>15%</strong></li>
+  <li>Midterm: <strong>10%</strong></li>
+  <li>Job Ad Exercise: <strong>5%</strong></li>
+  <li>Fail Essay: <strong>5%</strong></li>
+ </ul>
 </div>
 </div>
 {% endblock %}

@@ -609,5 +609,16 @@
     "model":"syllabus.Reading",
     "pk":67
 
+  },
+  {
+    "fields": {
+      "class_date":8,
+      "title":"Manifesto for Agile Software Development",
+      "url":"http://agilemanifesto.org/"
+    },
+    "model":"syllabus.Reading",
+    "pk":68
+
   }
+
 ]
