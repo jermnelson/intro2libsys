@@ -5,7 +5,7 @@ __author__ = 'Jeremy Nelson'
 from django.shortcuts import render_to_response
 from django.template import RequestContext
 from syllabus.models import *
-from assessment.models import Test
+from assessment.models import Exercise,Test
 import datetime
 
 def get_class_range(class_query):
@@ -19,7 +19,8 @@ def get_class_range(class_query):
     classes = []
     for date in class_query:
         class_info = {'date':date}
-        class_info['chapters'] = TextbookChapter.objects.filter(class_date=date.pk),
+        class_info['chapters'] = TextbookChapter.objects.filter(class_date=date.pk)
+        class_info['exercise'] = Exercise.objects.filter(date_of=date.pk)
         class_info['readings'] = Reading.objects.filter(class_date=date.pk).order_by('title')
         class_info['test'] = Test.objects.filter(date_of=date.pk)
         classes.append(class_info)
@@ -73,9 +74,16 @@ def session(request,year,month,day):
     next_date = question_date + datetime.timedelta(1)
     class_date = ClassDate.objects.filter(start__gte=question_date
     ).filter(end__lte=next_date)
-    
+    assessments = []
+    exercises = Exercise.objects.filter(date_of=class_date[0].pk)
+    for row in exercises:
+        assessments.append(row)
+    tests = Test.objects.filter(date_of=class_date[0].pk)
+    for row in tests:
+        assessments.append({"value":row.get_category_display()})
     return render_to_response('syllabus-session.html',
-                              {'chapters':TextbookChapter.objects.filter(class_date=class_date[0].pk),
+                              {'assessments':assessments,
+                               'chapters':TextbookChapter.objects.filter(class_date=class_date[0].pk),
                                'date_of':question_date,
                                'readings':Reading.objects.filter(class_date=class_date[0].pk)},
                               context_instance=RequestContext(request))

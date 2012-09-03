@@ -22,16 +22,20 @@
  <p>
   <strong>Start: </strong>{{ row.date.start }}<br/>
   <strong>End: </strong>{{ row.date.end }}<br/>
-  {% if row.chapters.0|length > 0 %}
-  <strong>Textbook chapter(s): </strong>
+  {% if row.chapters %}
+  <p>
+   <strong>Textbook chapter(s): </strong>
+  </p>
   <ul>
-  {% for chapter in row.chapters.0 %} 
+  {% for chapter in row.chapters %} 
    <li><a href="{{ chapter.url }}">{{ chapter.title }}</a></li>
   {% endfor %}
   </ul>
   {% endif %}
   {% if row.readings %}
-  <strong>Readings:</strong>
+  <p>
+   <strong>Readings:</strong>
+  </p>
   <ul> 
   {% for reading in row.readings %}
    <li>{% if reading.url %}<a href="{{ reading.url }}">{% endif %}
@@ -42,6 +46,27 @@
   {% endfor %}
   </ul>
   {% endif %}
+  {% if row.exercise %}
+  <p>
+   <strong>Exercise Due:</strong>
+  </p>
+  <ul>
+  {% for exercise in row.exercise %}
+  <li>{{ exercise.value|title }}</li>
+  {% endfor %}
+  </ul>
+  {% endif %}
+  {% if row.test %}
+  <p>
+   <strong>Test:</strong>
+  </p>
+  <ul>
+  {% for test in row.test %}
+  <li>{{ test.get_category_display|title }}</li>
+  {% endfor %}
+  </ul>
+  {% endif %}
+
  </p>
  <hr/>
  {% endfor %}

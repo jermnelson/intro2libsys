@@ -1,0 +1,19 @@
+[
+  {
+   "fields": {
+     "date_of":6,
+     "value":"Library Systems Job Application"
+  },
+  "model":"assessment.Exercise",
+  "pk":1
+  },
+  {
+   "fields": {
+     "date_of":9,
+     "value":"Fail Essay"
+  },
+  "model":"assessment.Exercise",
+  "pk":2
+  }
+
+]

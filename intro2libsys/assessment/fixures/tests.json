@@ -2,7 +2,7 @@
   {
    "fields": {
      "date_of":4,
-     "type_of":"mt"
+     "category":"mt"
   },
   "model":"assessment.Test",
   "pk":1
@@ -10,7 +10,7 @@
  {
   "fields": {
     "date_of":10,
-    "type_of":"fl"
+    "category":"fl"
  },
   "model":"assessment.Test",
   "pk":2
@@ -18,10 +18,27 @@
  {
   "fields": {
     "date_of":1,
-    "type_of":"qz"
+    "category":"qz"
  },
   "model":"assessment.Test",
   "pk":3
+ },
+ {
+  "fields": {
+    "date_of":2,
+    "category":"qz"
+ },
+  "model":"assessment.Test",
+  "pk":4
+ },
+{
+  "fields": {
+    "date_of":3,
+    "category":"qz"
+ },
+  "model":"assessment.Test",
+  "pk":5
  }
+
 ]
 

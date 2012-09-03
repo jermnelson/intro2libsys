@@ -9,12 +9,14 @@
  <div class="row">
  {% include 'snippets/left-navigation.html' %}
  </div>
- <div class="row-fluid">
+ <div class="row">
  <br/>
+{% for assessment in assessments %}
  <div class="span2 alert alert-block alert-error">
-   <h4>Note!</h4>
-   <p>{{ message }}</p>
+   <h3><em>{{ assessment.value|title }}</em> Due</h3>
+   <p>{{ assessment.desc }}</p>
  </div>
+{% endfor %}
  </div>
  </div>
 {% endblock %}
