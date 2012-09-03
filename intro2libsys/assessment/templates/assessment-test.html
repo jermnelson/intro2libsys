@@ -1,0 +1,29 @@
+{% extends 'fluid.html' %}
+{% load i18n %}
+{% load syllabus_extras %}
+
+{% block top-menu-bar %}
+{% endblock %}
+
+{% block sidebar-nav %}
+ {% include 'snippets/left-navigation.html' %}
+{% endblock %}
+
+{% block more-breadcrumb-links %}
+<li>Assessment</li>
+{% endblock %}
+
+{% block hero-unit %}
+<div class="span7 hero-unit">
+ <h2>Introduction to Library Systems</h2>
+ <h1>{{ test.get_category_display|title }} on {{ test.date_of|date:"F d, Y" }}</h1>
+</div>
+{% endblock %}
+
+{% block first-row %}
+{% for question in questions %}
+ <p>
+  {{ question.question }}
+ </p>
+{% endfor %}
+{% endblock %}

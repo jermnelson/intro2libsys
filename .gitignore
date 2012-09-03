@@ -5,3 +5,4 @@
 *.db
 static*
 _build*
+local_settings.*

@@ -162,7 +162,8 @@
   {
    "fields": {
       "class_date":2,
-      "title":"Ninety-One Cataloging Rules"
+      "title":"Rules for compiling the catalogues in the Department of Printed Books in the British Museum: Printed by order of the Trustees",
+      "url":"http://books.google.com/books?id=PIYLAQAAIAAJ"
     },
     "model":"syllabus.Reading",
     "pk":18
@@ -198,7 +199,8 @@
   {
    "fields": {
       "class_date":2,
-      "title":"Online Catalog Design Models: Are We Moving in the Right Direction?"
+      "title":"Online Catalog Design Models: Are We Moving in the Right Direction?",
+      "url":"http://myweb.cwpost.liu.edu/childret/clr-opac.html"
    },
    "model":"syllabus.Reading",
    "pk":22
@@ -206,7 +208,8 @@
   {
    "fields": {
       "class_date":2,
-      "title":"The Online Library Catalog Paradise Lost and Paradise Regained?"
+      "title":"The Online Library Catalog Paradise Lost and Paradise Regained?",
+      "url":"http://www.dlib.org/dlib/january07/markey/01markey.html"
    },
    "model":"syllabus.Reading",
    "pk":23

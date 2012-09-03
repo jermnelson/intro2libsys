@@ -16,7 +16,7 @@ class Question(models.Model):
                                          ("mc","multiple choice"),
                                          ("sa","short answer")])
 
-
+    is_public = models.BooleanField(default=False)
     question = models.CharField(max_length=200)
     test = models.ForeignKey('Test')
     
