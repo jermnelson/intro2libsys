@@ -16,14 +16,19 @@
 {% block hero-unit %}
 <div class="span7 hero-unit">
  <h2>Introduction to Library Systems</h2>
- <h1>Quiz {{ quiz.date_of|date:"F d, Y" }}</h1>
+ <h1>Quiz</h1>
+ <h2>{{ quiz.date_of.start|date:"F d, Y"}}</h2>
 </div>
 {% endblock %}
 
 {% block first-row %}
-{% for question in quiz %}
- <p>
+<div class="span6 well" >
+<ul>
+{% for question in questions %}
+ <li>
   {{ question.question }}
- </p>
+ </li>
 {% endfor %}
+</ul>
+</div>
 {% endblock %}

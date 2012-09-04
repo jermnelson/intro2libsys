@@ -51,7 +51,7 @@
 {% if row.test %}
 <p>
   {% for examine in row.test %}
-  <strong>Examination: </strong>{{ examine.get_category_display|title }}
+  <strong>Examination: </strong><a href="/assessment/{% if examine.category == 'qz' %}quiz?{% else %}test?{% endif %}pk={{ examine.pk }}">{{ examine.get_category_display|title }}</a>
   {% endfor %}
 <p>
 {% endif %} 

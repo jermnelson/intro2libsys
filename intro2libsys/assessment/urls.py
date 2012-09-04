@@ -9,5 +9,5 @@ admin.autodiscover()
 urlpatterns = patterns('',
     url(r'^$', 'assessment.views.home', name='Assessment-Home'),
     url(r'^quiz$', 'assessment.views.quiz', name='Assessment-Quiz'),
-    url(r'^test$', 'assessment.views.test', name='Assessment-Test'),
+    url(r'^test$', 'assessment.views.examination', name='Assessment-Test'),
 )

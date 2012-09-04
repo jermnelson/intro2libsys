@@ -16,14 +16,17 @@
 {% block hero-unit %}
 <div class="span7 hero-unit">
  <h2>Introduction to Library Systems</h2>
- <h1>{{ test.get_category_display|title }} on {{ test.date_of|date:"F d, Y" }}</h1>
+ <h1>{{ examination.get_category_display|title }}</h1>
+ <h2>{{ examination.date_of.start|date:"F d, Y" }}</h2>
 </div>
 {% endblock %}
 
 {% block first-row %}
+<div class="span7 well">
 {% for question in questions %}
  <p>
   {{ question.question }}
  </p>
 {% endfor %}
+</div>
 {% endblock %}

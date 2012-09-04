@@ -17,6 +17,23 @@ def home(request):
                               {},
                               context_instance=RequestContext(request))
 
+def get_test_questions(request):
+    """
+    Helper function takes a request and returns a test object and matched all
+    questions.
+
+    :param request: HTTP Request
+    """
+    if request.REQUEST.has_key('id'):
+        pk = request.REQUEST['id']
+    elif request.REQUEST.has_key('pk'):
+        pk = request.REQUEST["pk"]
+    test = Test.objects.get(pk=pk)
+    if request.user.is_authenticated() == True:
+        questions = Question.objects.filter(test=test)
+    else:
+        questions = Question.objects.filter(test=test).filter(is_public=True)
+    return test,questions
 
 def quiz(request):
     """
@@ -25,18 +42,10 @@ def quiz(request):
 
     :param request: HTTP request
     """
-    if request.REQUEST.has_key('id'):
-        pk = request.REQUEST['id']
-    elif request.REQUEST.has_key('pk'):
-        pk = request.REQUEST["pk"]
-    quiz = Quiz.objects.get(pk=pk)
-    if request.user.is_authenticated() == True:
-        questions = Questions.objects.filter(test=quiz)
-    else:
-        questions = Questions.objects.filter(test=quiz).filter(is_public=True)
-    return render_to_response(request,
-                              'assessment-quiz.html',
-                              {'quiz':quiz},
+    quiz,questions = get_test_questions(request)
+    return render_to_response('assessment-quiz.html',
+                              {'questions':questions,
+                               'quiz':quiz},
                               context_instance=RequestContext(request))
 
 def examination(request):
@@ -46,9 +55,10 @@ def examination(request):
 
     :param request: HTTP request
     """
-    return render_to_response(request,
-                              'assessment-test.html',
-                              {},
+    test,questions = get_test_questions(request)
+    return render_to_response('assessment-test.html',
+                              {'examination':test,
+                               'questions':questions},
                               context_instance=RequestContext(request))
 
 
