@@ -27,6 +27,9 @@
 {% for question in questions %}
  <li>
   {{ question.question }}
+  {% if question.reading %}
+   Source: {% if question.reading.url %}<a href="{{ question.reading.url }}">{% endif %}<em>{{ question.reading.title }}</em>{% if question.reading.url %}</a>{% endif %}
+  {% endif %}
  </li>
 {% endfor %}
 </ul>

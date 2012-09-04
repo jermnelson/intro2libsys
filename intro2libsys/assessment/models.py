@@ -3,7 +3,7 @@
 """
 __author__ = "Jeremy Nelson"
 from django.db import models
-from syllabus.models import ClassDate
+from syllabus.models import ClassDate,Reading
 
 class Exercise(models.Model):
     date_of = models.ForeignKey(ClassDate)
@@ -18,6 +18,7 @@ class Question(models.Model):
 
     is_public = models.BooleanField(default=False)
     question = models.CharField(max_length=200)
+    reading = models.ForeignKey(Reading,blank=True,null=True)
     test = models.ForeignKey('Test')
     
 class Test(models.Model):

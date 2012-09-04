@@ -622,6 +622,14 @@
     "model":"syllabus.Reading",
     "pk":68
 
+  },
+  {
+    "fields": {
+      "class_date":5,
+      "title":"Usability Testing Report: Discovery (Search) Tools of Encore and Summons",
+      "url":"http://home.ubalt.edu/nicole.kerber/idia642/Final_Usability_Report.pdf"
+    },
+    "model":"syllabus.Reading",
+    "pk":69
   }
-
 ]

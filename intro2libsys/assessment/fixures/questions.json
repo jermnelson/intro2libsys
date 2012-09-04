@@ -3,7 +3,8 @@
     "fields": {
       "category": "sa", 
       "is_public": true, 
-      "question": "How does the definition of library differ from Wikipedia and Gorman?", 
+      "question": "How does the definition of library differ from Wikipedia and Gorman?",
+      "reading":1, 
       "test": 3
     }, 
     "model": "assessment.Question", 
@@ -14,6 +15,7 @@
       "category": "sa", 
       "is_public": true, 
       "question": "What is DevOps?", 
+      "reading":3,
       "test": 3
     }, 
     "model": "assessment.Question", 
@@ -22,8 +24,9 @@
   {
     "fields": {
       "category": "sa", 
-      "is_public": true, 
-      "question": "What is a distributed source code versioning system? ", 
+      "is_public": false, 
+      "question": "What is a distributed source code versioning system? ",
+      "reading":4, 
       "test": 3
     }, 
     "model": "assessment.Question", 
@@ -43,7 +46,8 @@
     "fields": {
       "category": "sa", 
       "is_public": true, 
-      "question": "How might DevOps techniques and philosophies be useful for library systems?", 
+      "question": "How might DevOps techniques and philosophies be useful for library systems?",
+      "reading":3, 
       "test": 3
     }, 
     "model": "assessment.Question", 
@@ -53,7 +57,8 @@
     "fields": {
       "category": "sa", 
       "is_public": true, 
-      "question": "How might a DSCV like Git be useful in information management or project documentation?", 
+      "question": "How might a DSCV like Git be useful in information management or project documentation?",
+      "reading":4, 
       "test": 3
     }, 
     "model": "assessment.Question", 
