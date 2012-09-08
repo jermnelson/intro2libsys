@@ -10,28 +10,22 @@
 {% endblock %}
 
 {% block more-breadcrumb-links %}
-<li>Assessment</li>
+<li><a href="/assessment/">Assessment</a><span class="divider">&raquo;</span></li>
+<li>Quizzes</li>
 {% endblock %}
 
 {% block hero-unit %}
 <div class="span7 hero-unit">
  <h2>Introduction to Library Systems</h2>
- <h1>Take-home Quiz</h1>
- <h2>{{ quiz.date_of.start|date:"F d, Y"}}</h2>
+ <h1>Take-home Quizzes</h1>
 </div>
 {% endblock %}
 
 {% block first-row %}
-<div class="span6 well" >
-<ul>
-{% for question in questions %}
- <li>
-  {{ question.question }}
-  {% if question.reading %}
-   Source: {% if question.reading.url %}<a href="{{ question.reading.url }}">{% endif %}<em>{{ question.reading.title }}</em>{% if question.reading.url %}</a>{% endif %}
-  {% endif %}
- </li>
+<div class="span7 well">
+{% for quiz in quizzes %}
+<h3>{{ quiz.date_of.start|date:"F d, Y" }}</h3>
+<p><a class="btn btn-info" href="/assessment/quiz?pk={{ quiz.pk }}">Link</a></p>
 {% endfor %}
-</ul>
 </div>
 {% endblock %}

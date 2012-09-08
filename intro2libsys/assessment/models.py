@@ -25,7 +25,7 @@ class Test(models.Model):
     category = models.CharField(max_length=2,
                                 choices=[("fl","final"),
                                          ("mt","mid-term"),
-                                         ("qz","weekly quiz")])
+                                         ("qz","Take-home quiz")])
     date_of = models.ForeignKey(ClassDate)
     
    

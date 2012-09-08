@@ -1,0 +1,31 @@
+{% extends 'fluid.html' %}
+{% load i18n %}
+{% load syllabus_extras %}
+
+{% block top-menu-bar %}
+{% endblock %}
+
+{% block sidebar-nav %}
+ {% include 'snippets/left-navigation.html' %}
+{% endblock %}
+
+{% block more-breadcrumb-links %}
+<li>Fail Essay</li>
+{% endblock %}
+
+{% block hero-unit %}
+<div class="span7 hero-unit">
+ <h2>Introduction to Library Systems</h2>
+ <h1>Fail Essay</h1>
+ <p>Look back on your class experience and pick at least
+    one instance that you failed. This could be frustration 
+    on a technical exercise, conflict in your small project,
+    or a quiz result that disappointed you. Write a 3-5 page
+    essay, first describe the failure, the eventual outcome,
+    and your own reaction and response. Finally, finish with
+    what you have learned as result of the failure.
+</div>
+{% endblock %}
+
+{% block first-row %}
+{% endblock %}

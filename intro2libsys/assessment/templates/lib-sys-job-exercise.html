@@ -1,0 +1,46 @@
+{% extends 'fluid.html' %}
+{% load i18n %}
+{% load syllabus_extras %}
+
+{% block top-menu-bar %}
+{% endblock %}
+
+{% block sidebar-nav %}
+ {% include 'snippets/left-navigation.html' %}
+{% endblock %}
+
+{% block more-breadcrumb-links %}
+<li>Library Systems Job Exercise</li>
+{% endblock %}
+
+{% block hero-unit %}
+<div class="span7 hero-unit">
+ <h2>Introduction to Library Systems</h2>
+ <h1>Library Systems Job Exercise</h1>
+ <p>Find three job advertisement for positions in Library Systems.
+    Write a 3-5 page essay explaining why each position is attractive to you,
+    and the technology skills and knowledge that are required and desirable for the 
+    position. Finally, select one of the three positions and write a cover letter
+    applying for the position.
+ </p>    
+</div>
+{% endblock %}
+
+{% block first-row %}
+<div class="span4 well">
+ <h3>Where to look</h3>
+ <ul>
+  <li>Code4Lib</li>
+  <li>ALA Job-line</li>
+  <li>Colorado Library Job-line</li>
+ </ul>
+</div>
+<div class="span3 well">
+ <h3>Deliverables</h3>
+ <ol>
+  <li>3-5 Page Essay</li>
+  <li>Cover letter</li>
+ </ol>
+
+</div>
+{% endblock %}

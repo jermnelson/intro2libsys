@@ -4,8 +4,37 @@
 __author__ = "Jeremy Nelson"
 
 from django.shortcuts import render_to_response
-from models import Question,Test
+from models import Exercise,Question,Test
 from django.template import RequestContext
+
+def examination(request):
+    """
+    Displays a full test if user is logged in to DLS; otherwise
+    just display an error page.
+
+    :param request: HTTP request
+    """
+    test,questions = get_test_questions(request)
+    return render_to_response('assessment-test.html',
+                              {'examination':test,
+                               'questions':questions,
+                               'section':'assessment'},
+                              context_instance=RequestContext(request))
+
+
+def examinations(request):
+    tests = Test.objects.exclude(category="qz")
+    return render_to_response('examinations.html',
+                              {'section':'assessment',
+                               'tests':tests},
+                              context_instance=RequestContext(request))
+
+def exercises(request):
+    exercises = Exercise.objects.all()
+    return render_to_response('exercises.html',
+                              {'exercises':exercises,
+                               'section':'assessment'},
+                              context_instance=RequestContext(request))
 
 def home(request):
     """
@@ -14,7 +43,7 @@ def home(request):
     :param request: HTTP request
     """
     return render_to_response('assessment.html',
-                              {},
+                              {'section':'assessment'},
                               context_instance=RequestContext(request))
 
 def get_test_questions(request):
@@ -45,20 +74,34 @@ def quiz(request):
     quiz,questions = get_test_questions(request)
     return render_to_response('assessment-quiz.html',
                               {'questions':questions,
-                               'quiz':quiz},
+                               'quiz':quiz,
+                               'section':'assessment'},
                               context_instance=RequestContext(request))
 
-def examination(request):
-    """
-    Displays a full test if user is logged in to DLS; otherwise
-    just display an error page.
+def fail_exercise(request):
+    return render_to_response('fail-essay.html',
+                              {'section':'assessment'},
+                              context_instance=RequestContext(request))
 
-    :param request: HTTP request
-    """
-    test,questions = get_test_questions(request)
-    return render_to_response('assessment-test.html',
-                              {'examination':test,
-                               'questions':questions},
+
+
+def job_exercise(request):
+    return render_to_response('lib-sys-job-exercise.html',
+                              {'section':'assessment'},
+                              context_instance=RequestContext(request))
+
+def project(request):
+    return render_to_response('project-assessment.html',
+                              {'section':'assessment'},
+                              context_instance=RequestContext(request))
+
+
+
+def quizzes(request):
+    quizzes = Test.objects.filter(category="qz")
+    return render_to_response('quizzes.html',
+                              {'quizzes':quizzes,
+                               'section':'assessment'},
                               context_instance=RequestContext(request))
 
 

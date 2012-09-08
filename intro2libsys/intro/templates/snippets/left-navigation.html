@@ -11,7 +11,7 @@
  </li>
   {% comment %}START backgroundContent DIV{% endcomment %}
   <div id="backgroundContent" 
-       class="collapse in">
+       class="collapse{% if not section %} in{% endif %}">
    {% include 'snippets/background-list.html' %}
   {% comment %}END backgroundContent DIV{% endcomment %}
   </div>
@@ -22,7 +22,7 @@
     data-parent="#sidebar-nav-accord"
     data-target="#syllabus"><i class="icon-list-alt"></i> {% trans "Syllabus" %}</a></li>
  <div id="syllabus" 
-      class="collapse">
+      class="collapse{% if section == 'syllabus' %} in{% endif %}">
    <ul>
     <li><a href="/syllabus/">Class Schedule</a></li>
     <li><a href="/syllabus/grading-policy.html">Grading Policy</a></li>
@@ -34,15 +34,16 @@
     data-toggle="collapse" 
     data-parent="#sidebar-nav-accord"
     data-target="#assessments"><i class="icon-warning-sign"></i> {% trans "Assessments" %}</a></li>
- <div id="assessments" class="collapse">
-  <li>Assignments</li>
-  <li>Examinations</li>
-  <li>Projects</li>
+ <div id="assessments" class="collapse{% if section == 'assessment' %} in{% endif %}">
+  <li><a href="/assessment/quizzes">Take-home quizzes</a></li>
+  <li><a href="/assessment/examinations">Examinations</a></li>
+  <li><a href="/assessment/exercises">Exercises</a></li>
+  <li><a href="/assessment/project">Project</a></li>
  </div>
 
 <li class="nav-header">
  <a class="btn"
-    data-toggle="collapse" 
+    data-toggle="collapse{% if section == 'readings' %} in{% endif %}" 
     data-parent="#sidebar-nav-accord"
     data-target="#readings"><i class="icon-book"></i> {% trans "Readings" %}</a></li>
  <div id="readings" class="collapse">

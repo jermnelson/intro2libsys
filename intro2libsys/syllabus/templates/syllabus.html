@@ -13,7 +13,7 @@
  <div class="row">
   <br/>
   <div class="span2 well">
-   <h3>A typical class session follows this structure:</h3>
+   <h3>A typical class structure:</h3>
    <ul>
      <li>Interactive lecture -- first 40-50 minutes</li>
      <li>Technology Lab -- 40-60 minutes</li>
@@ -73,7 +73,7 @@
 {% if row.exercise %}
 <p>
  {% for exercise in row.exercise %}
- <strong>Exercise:</strong> {{ exercise.value }}
+ <strong><a href="/assessment/{{ exercise.value|slugify }}">{{ exercise.value }}</a></strong>
  {% endfor %}
 </p>
 {% endif %}

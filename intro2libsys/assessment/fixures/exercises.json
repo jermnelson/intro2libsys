@@ -2,7 +2,7 @@
   {
    "fields": {
      "date_of":6,
-     "value":"Library Systems Job Application"
+     "value":"Library Systems Job Exercise"
   },
   "model":"assessment.Exercise",
   "pk":1
@@ -10,7 +10,7 @@
   {
    "fields": {
      "date_of":9,
-     "value":"Fail Essay"
+     "value":"Fail Essay Exercise"
   },
   "model":"assessment.Exercise",
   "pk":2

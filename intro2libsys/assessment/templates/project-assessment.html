@@ -1,0 +1,34 @@
+{% extends 'fluid.html' %}
+{% load i18n %}
+{% load syllabus_extras %}
+
+{% block top-menu-bar %}
+{% endblock %}
+
+{% block sidebar-nav %}
+ {% include 'snippets/left-navigation.html' %}
+{% endblock %}
+
+{% block more-breadcrumb-links %}
+<li><a href="/assessment/">Assessment</a><span class="divider">&raquo;</span></li>
+<li>Project Assessment</li>
+{% endblock %}
+
+{% block hero-unit %}
+<div class="span7 hero-unit">
+ <h2>Introduction to Library Systems</h2>
+ <h1>Project Assessment</h1>
+</div>
+{% endblock %}
+
+{% block first-row %}
+<div class="span4 well">
+ <h3>Components</h3>
+ <ul>
+  <li>Project Process &amp; Outcomes <strong>40%</strong></li>
+  <li>Peer Review <strong>30%</strong></li>
+  <li>Self evaluation <strong>20%</strong></li>
+  <li>External Review <strong>10%</strong></li>
+ </ul>
+</div>
+{% endblock %}

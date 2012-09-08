@@ -33,6 +33,7 @@ def home(request):
     return render_to_response('syllabus.html',
                              {'classes':get_class_range(ClassDate.objects.all().order_by('start')),
                               'readings_by_alpha':Reading.objects.order_by('title'),
+                              'section':'syllabus',
                               'timestamp':datetime.datetime.today()},
                               context_instance=RequestContext(request))
 
@@ -54,6 +55,7 @@ def month(request,year,month):
                              {'classes':get_class_range(class_dates),
                               'month':(question_date,next_date),
                               'readings_by_alpha':Reading.objects.order_by('title'),
+                              'section':'syllabus',
                               'timestamp':datetime.datetime.today()},
                               context_instance=RequestContext(request))
 
@@ -85,7 +87,9 @@ def session(request,year,month,day):
                               {'assessments':assessments,
                                'chapters':TextbookChapter.objects.filter(class_date=class_date[0].pk),
                                'date_of':question_date,
-                               'readings':Reading.objects.filter(class_date=class_date[0].pk)},
+                               'readings':Reading.objects.filter(class_date=class_date[0].pk),
+                               'section':'syllabus',
+                              },
                               context_instance=RequestContext(request))
     
 def year(request,year):
@@ -106,6 +110,7 @@ def year(request,year):
                                    
     return render_to_response('syllabus-year.html',
                               {'classes':class_dates,
+                               'section':'syllabus',
                                'year':year},
                               context_instance=RequestContext(request))
 
