@@ -17,7 +17,7 @@ urlpatterns = patterns('',
 #    url(r'^sessions/', include('Curriculum.urls')),
     url(r'^assessment/',include('assessment.urls')),
     url(r'^learner/',include('learners.urls')),
-    url(r'^syllabus/', 'syllabus.views.home', name='syllabus'),
+    url(r'^syllabus/', include('syllabus.urls')),
     url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
     url(r'^admin/', include(admin.site.urls)),
 )

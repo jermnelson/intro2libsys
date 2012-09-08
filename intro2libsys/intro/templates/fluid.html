@@ -61,9 +61,9 @@
 	       <a href="#" class="dropdown-toggle" 
 		  data-toggle="dropdown">Course Outline<b class="caret"></b></a>
 	       <ul class="dropdown-menu">
-               {% for session in sessions %}
-                <li><strong>{{ session.start }}:</strong><a href="/sessions/{{ session.pk }}">{{ session.label }}</a>
-               {% endfor %}
+                <li><a href="/syllabus/">Syllabus</a></li>
+                <li><a href="/assessment/">Assessment</a></li>
+                <li><a href="/readings/">Readings</a></li>
 	       </ul>
 	      {% comment %}END course-outline drop-down LI{% endcomment %}   
               </li>

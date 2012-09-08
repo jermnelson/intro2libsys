@@ -5,6 +5,7 @@ __author__ = 'Jeremy Nelson'
 from django.shortcuts import render_to_response
 from django.template import RequestContext
 from syllabus.models import *
+from intro.models import Instructor
 from assessment.models import Exercise,Test
 import datetime
 
@@ -29,6 +30,8 @@ def get_class_range(class_query):
 def home(request):
     """
     Default view for Introduction to Library Systems Course
+
+    :param request: HTTP request
     """
     return render_to_response('syllabus.html',
                              {'classes':get_class_range(ClassDate.objects.all().order_by('start')),
@@ -36,6 +39,19 @@ def home(request):
                               'section':'syllabus',
                               'timestamp':datetime.datetime.today()},
                               context_instance=RequestContext(request))
+
+def instructor(request):
+    """
+    Default view for Instructor contact
+
+    :param request: HTTP request
+    """
+    instructor = Instructor.objects.all()
+    return render_to_response('instructor-contact.html',
+                              {'instructor':instructor,
+                               'section':'syllabus'},
+                              context_instance=RequestContext(request))
+
 
 def month(request,year,month):
     """
@@ -58,6 +74,17 @@ def month(request,year,month):
                               'section':'syllabus',
                               'timestamp':datetime.datetime.today()},
                               context_instance=RequestContext(request))
+
+def project(request):
+    """
+    Displays project view.
+
+    :param request: HTTP Request
+    """
+    return render_to_response('project.html',
+                              {'section':'syllabus'},
+                              context_instance=RequestContext(request))
+
 
 
 def session(request,year,month,day):
