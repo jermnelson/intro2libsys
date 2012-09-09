@@ -1,6 +1,6 @@
 # Django settings for intro project.
 import os,logging
-DEBUG = True
+DEBUG = False
 TEMPLATE_DEBUG = DEBUG
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 DJANGO_ROOT = os.path.split(PROJECT_ROOT)[0]
