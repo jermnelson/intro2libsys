@@ -25,7 +25,7 @@
       class="collapse{% if section == 'syllabus' %} in{% endif %}">
    <ul>
     <li><a href="/syllabus/">Class Schedule</a></li>
-    <li><a href="/syllabus/grading-policy">Grading Policy</a></li>
+    <li><a href="/syllabus#grading-policy">Grading Policy</a></li>
     <li><a href="/syllabus/instructor-contact">Instructor Contact</a></li>
    </ul>
  </div>
@@ -58,6 +58,7 @@
   {% endfor %}
   </ul>
  </div>
+{% comment %}
 <li class="nav-header">
  <a class="btn"
     data-toggle="collapse" 
@@ -66,7 +67,7 @@
  <div id="resources" class="collapse">
   <li>Resources go here</li>
  </div>
-
+{% endcomment %}
 {% comment %}END sidebar-nav-accordion DIV{% endcomment %}
 </ul>
 </div>

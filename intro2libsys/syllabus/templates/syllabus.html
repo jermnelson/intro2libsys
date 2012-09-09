@@ -92,7 +92,7 @@
   <li>Exposure to Library App Development</li>
   <li>Future trends in Library &amp; Network Systems</li>
  </ul>
-<a href="#" class="btn btn-alert">What is Missing?</a>
+<a role="dialog" href="#add-outcome-dlg" data-toggle="modal" class="btn btn-alert">What is Missing?</a>
 </div>
 {% comment %}Start Grading Policy{% endcomment %}
 <div class="span3 well">
@@ -110,5 +110,25 @@
   <li>Fail Essay: <strong>5%</strong></li>
  </ul>
 </div>
+</div>
+{% endblock %}
+
+{% block dialogs %}
+<div id="add-outcome-dlg" class="modal fade">
+ <div class="modal-header">
+   <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+   <h2>What Outcome is Missing?</h2>
+ </div>
+ <div class="modal-body">
+  <p>
+   Please send your ideas on improving or adding to the outcomes for the 
+   <em>Introduction to Library Systems</em> course to this 
+   <a href="mailto:jermnelson@gmail.com?subject=Intro2LibSys Outcome">email</a>
+  </p>
+  <h3>Thanks for your feedback!</h2>
+ </div>
+ <div class="modal-footer">
+  <a href="#" class="btn btn-primary" data-dismiss="modal">Close</a>
+ </div>
 </div>
 {% endblock %}

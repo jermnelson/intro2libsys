@@ -37,7 +37,7 @@ any conflicts being flagged for attention by the developer. Often, a central rep
 is designated as a "central" server only in that all branches are merged to a single
 branch. In this model, the advantages of a central code-base are maintained (i.e. a 
 master copy for reference and download) but still allow for easier tracking and merging
-on a distributed code.
+on distributed code.
  
 
 Popularity of Git

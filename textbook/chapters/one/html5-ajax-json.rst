@@ -18,7 +18,10 @@ libraries, due to either policy, support or other considerations, do not support
 web browsers and therefore may not support HTML5. This was more of a problem during the
 mid-2000s when Microsoft's `Internet Explorer`_ 6.0 was not updated by Microsoft and many
 large corporations and universities standardized on IE 6 and would not permit other 
-browsers to be used in the enterprise. As this blog posting notes [#]_ Smashing Magazine's 
+browsers to be used in the enterprise. As this blog posting on Smashing Magazine's
+notes[#]_, it may be better to encourage users on older browsers to upgrade to either a later
+version, use an alternative browser, or the use of certain plug-ins as Chrome frame for IE 
+that does support the newer features of HTML5, JSON, and AJAX. 
 
 As competition increased in the Web Browsers, driven first by the Mozilla foundation's
 `Firefox`_ web and later by Apple's `Safari`_ and Google's `Chrome`_ browsers, Microsoft updated
@@ -62,7 +65,7 @@ services.
 References
 ----------
 
-.. [#] Lazaris, L. `Old Browsers`_
+.. [#] Lazaris, L. `Old Browsers Are Holding Back the Web`_
 
 .. _AJAX: http://en.wikipedia.org/wiki/Ajax_%28programming%29
 .. _Chrome: https://www.google.com/intl/en/chrome/browser/
@@ -71,5 +74,6 @@ References
 .. _Internet Explorer: http://windows.microsoft.com/en-us/internet-explorer/products/ie/home/
 .. _JSON: http://www.json.org/
 .. _HTML5: http://www.w3.org/TR/html5/
+.. _Old Browsers Are Holding Back the Web: http://www.smashingmagazine.com/2012/07/09/old-browsers-are-holding-back-the-web/
 .. _Safari: http://www.apple.com/safari/
 .. _World Wide Web Consortium: http://www.w3.org/

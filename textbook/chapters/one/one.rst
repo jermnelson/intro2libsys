@@ -35,8 +35,8 @@ bibliographic records and being able to manipulate theses bibliographic records
 are valuable skills as libraries look to expand the usability of their valuable
 resources and collections. 
 
-Our emphasis is an overview of the technology used in typical 
-public or academic library. First, though, we need to understand some of the
+Our emphasis is an overview of the technology used in most 
+public or academic libraries. First, though, we need to understand some of the
 bibliographic theory behind the usually most complex technology in a library
 system, the bibliographic catalog. A portion of the exercises in the book will
 give you practical experience in library systems development and administration, 
@@ -49,7 +49,7 @@ There are also specific library systems like Integrated Library Systems and
 Discovery Layers, Open URL resolvers, electronic resource management systems,
 and circulation systems that increase in size and complexity with collection 
 expansion. The middle section will be be an overview of the 
-some of the typical technology that library systems are expected to support,
+some of the technology that library systems are expected to support,
 followed by introduction to the larger library technology ecosystem including
 vendors, publishers, and library consortiums. Finally, we'll review new 
 newer technology that library systems need to adapted to or prepare for,
@@ -93,6 +93,27 @@ As we progress through the course, you will be exposed and learn about additiona
 including using the `SQLite`_ database, and the `Redis`_ NoSQL datastore along with `Python`_ and
 the `Django`_ web-framework. 
 
+Final thoughts about Library Technology
+---------------------------------------
+A simplistic view of the technology and systems used in libraries is to place 
+them at the center of the library's mission and life. As Michael Gorman reminds
+us in his book, **Our Enduring Values: Librarianship in the 21st Century**.
+
+   Modern technology has many advantages and many features that can enhance 
+   library science. However, library technology needs to be considered 
+   coolly and rationally and fitted into the history and evolution of 
+   libraries, rather than greeted as unqualified blessing, still less
+   as a technoquake leveling the very idea of libraries to create a new 
+   and radical different cyber-entity.
+
+   page 9
+
+As we continue through this book and coursework, always be mindful that our
+tools, while getting more powerful, usable, and embedded in our lives, are 
+the means and not the end of what we do as librarian professionals. We 
+must be mindful of how the technology is to support the 
+larger mission and service of the library, even if the library exists solely 
+in electronic form. 
 
 .. toctree::
    :maxdepth: 2
