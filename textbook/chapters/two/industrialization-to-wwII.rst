@@ -10,18 +10,18 @@ Queen Victoria in 1869. Panizzi is principally known for his `"Ninety-One Catalo
 
 The following are a couple of examples:
 
-  2. Titles to be arranged alphabetically, according to the English alphabet only 
-     (whatever be the order of the alphabet in which a foreign name might have to 
-     be entered in its original language) under the surname of the author, whenever it 
-     appears printed in the title, or in any other part of the book. If the name be 
-     supplied in manuscript, the work must nevertheless be considered anonymous, or 
-     pseudonymous, as the case may be, and the manuscript addition deemed merely a 
-     suggestion to which the librarian will attach such importance as he may think 
-     proper, on his own responsibility in supplying the author's name between brackets,
-     as hereafter directed.
+ 2. Titles to be arranged alphabetically, according to the English alphabet only 
+    (whatever be the order of the alphabet in which a foreign name might have to 
+    be entered in its original language) under the surname of the author, whenever it 
+    appears printed in the title, or in any other part of the book. If the name be 
+    supplied in manuscript, the work must nevertheless be considered anonymous, or 
+    pseudonymous, as the case may be, and the manuscript addition deemed merely a 
+    suggestion to which the librarian will attach such importance as he may think 
+    proper, on his own responsibility in supplying the author's name between brackets,
+    as hereafter directed.
 	 
-     In the alphabetical arrangement initial prepositions letters or articles be 
-     taken in connection with the rest of the name 
+    In the alphabetical arrangement initial prepositions letters or articles be 
+    taken in connection with the rest of the name 
 	 
  16. Christian names, included in parentheses, to follow the surname, and all to be 
      written out in full, as far as they are known. In case of doubt, on this or 
@@ -67,6 +67,10 @@ We would do well to remember this quote from Charles Cutter in
 his Rules for a Dictionary Catalog as we learn, evaluate, and think about
 library systems, information technology, and ancillary supporting resource
 and services. 
+
+Sirkali Ramamrita Ranganathan
+-----------------------------
+
 
 References
 ----------

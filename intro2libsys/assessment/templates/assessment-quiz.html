@@ -10,7 +10,8 @@
 {% endblock %}
 
 {% block more-breadcrumb-links %}
-<li>Assessment</li>
+<li><a href="/assessment/">Assessment</a><span class="divider">&raquo;</span></li>
+<li>Take-home Quiz for {{ quiz.date_of.start|date:"F d, Y"}} </li>
 {% endblock %}
 
 {% block hero-unit %}
@@ -23,6 +24,9 @@
 
 {% block first-row %}
 <div class="span6 well" >
+<p><strong>Directions:</strong> Please select five questions to answer. All questions
+   should be from different readings.
+</p>
 <ul>
 {% for question in questions %}
  <li>
