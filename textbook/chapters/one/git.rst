@@ -81,12 +81,52 @@ Library Open Source Projects using Git & Github
 The number of library open source projects using Git is large and growing.  Here is a partial list of 
 projects with a library focus:
 
-  * Aristotle Library Apps
-  * Blacklight
-  * Islandora
-  * pyMARC
-  * VuFind
+* Aristotle Library Apps
+* Blacklight
+* Islandora
+* pyMARC
+* VuFind
   
+Git Commands
+------------
+Here is a list of essential *git* commands
+
+**git init**
+   Initializes an empty git repository in a directory. 
+
+**git add {filename-or-directory}**
+   Adds the file or all of the contents if a directory to the git repository.
+
+**git status**
+   Shows the current status of the git repository including any untracked, new,
+   or modified files under source control.
+   
+**git commit -a -m "{message}"**
+   Commits any new and modified files to the repository with a message
+   
+**git rm {filename-or-directory}**
+   Removes the file or directory from the repository. NOTE: this will also 
+   delete the file from the file system as well.
+   
+**git pull origin master**
+   Pulls the latest changes from the original parent's master branch. Changed 
+   files are either automatically merged by git or an error message will display
+   requiring manual resolution of the conflicts.
+   
+**git push origin master**
+   Pushs any changes made and committed on the local clone to the original parent's
+   master branch.
+   
+**git bundle create {name}.bundle master**
+  Creates a single binary file of the master branch of the repository suitable 
+  for attaching to an email or usb drive. Users can then clone or pull from the
+  bundle as any other git repository.
+  
+**git clone {git-repository file-location or URL}**
+  Creates a local, cloned copy of another git repository.
+   
+   
+   
 
 References
 ----------
