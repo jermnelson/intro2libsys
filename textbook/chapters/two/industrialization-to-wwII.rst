@@ -45,18 +45,21 @@ services.
 
 Andrew Carnegie
 ---------------
-Andrew Carnegie was a nineteenth Scottish-American industrialist who made his fortune in the  
+Andrew Carnegie (1835-1919) was a nineteenth Scottish-American industrialist who made his fortune in the  
 steel and railroad industries. After retiring, Carnegie spent the reminder of his life
 pursing his philanthropic interests, including the building of public libraries across 
 the United States and United Kingdom.
  
 Melvil Dewey
 ------------
-Melvil Dewey, he of the Dewey Decimal classification fame, 
+Melvil Dewey (1851-1931), he of the Dewey Decimal classification fame, was an American librarian and educator 
+who's biggest contribution was the development of his classification scheme that is widely used
+in public and academic libraries. He was one of the founders of the American Library Association
+and one of the largest library companies of the time, the Library Bureau.  
 
 Charles Cutter
 --------------
-Charles Cutter was an American librarian and library education who lived in the latter half
+Charles Cutter (1837-1903) was an American librarian and library education who lived in the latter half
 of the nineteenth century and early part of the twentieth century.
  
    The convenience of the public is always to be set before the ease of
@@ -70,13 +73,27 @@ and services.
 
 Sirkali Ramamrita Ranganathan
 -----------------------------
+S.R. Ranganathan (1892-1972) was Indian librarian and mathematician who made numerous 
+contributions to the field of the library science including the five laws of library
+science:
 
+    1. Books are for use.
+    2. Every reader his [or her] book.
+    3. Every book its reader.
+    4. Save the time of the reader.
+    5. The library is a growing organism. [#]_
+
+These laws influenced the design of not only the physical structure and layout 
+of libraries but also the philosophy and service ethos of libraries.
 
 References
 ----------
 .. [#] `"Ninety-One Cataloging Rules"`_ page 1
 .. [#] `"Ninety-One Cataloging Rules"`_ page 3
 .. [#] Cutter, Charles. `Rules for a Dictionary Catalog`_ 4th edition page 6
+.. [#] Ranganathan, S.R. `The five laws of library science`_ 
+
+.. _The five laws of library science: http://hdl.handle.net/2027/uc1.b99721
 
 .. _"Ninety-One Cataloging Rules": http://books.google.com/books?id=97QYAAAAMAA
 .. _Rules for a Dictionary Catalog: http://books.google.com/books?id=2rQYAAAAMAAJ

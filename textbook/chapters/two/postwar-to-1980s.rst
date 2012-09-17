@@ -25,14 +25,34 @@ developed the first digital computers in the later half of the 20th century.
 
 Even at this early stage in the development of the modern personal computer, 
 the challenges to the library and its supporting technologies becomes evident
-as Bush and Englebart, amoung others, was already looking at a different model
+as Bush and Englebart, among others, was already looking at a different model
 of information organization that was different from the conceptual models and
 technologies used in the libraries at the time. Clearly they were influenced by 
 how knowledge was organized at their time but they also offer still relevant 
-insights in how humans interact with informaiton as not as a passive actor but
-an active and engaged intellences seeking, responding, and creating information.
+insights in how humans interact with information as not as passive actors but
+an active and engaged intellence seeking, responding, and creating information.
 
-.. [#] `The Library An Illustrated History`_ , page 215
+Rise of MARC, Electronic Catalogs, and Consortiums
+--------------------------------------------------
+We will be going into more detail in a later chapter about the technology behind
+the still dominate format used to structure bibliographic records and for resource
+sharing called Machine-Readable Cataloging or MARC. MARC was the result of the efforts
+by Henriette Avram of the Library of Congress, among others, to create an electronic
+cataloging format for record interchange. The use and adoption of MARC allowed libraries
+to allow automated resource discovery and for the development of the modern inter-library
+loan services offered by most academic and public libraries. 
+
+It was in the late 1970s and early 1980s that electronic catalog started to be developed and
+offered by larger institutions. These first generation catalogs usually tried to mimic
+the card catalog already understood by library patrons and were primarily text-based and 
+accessed through dump terminals connected to a central mainframe computer. 
+
+Library consortiums also had their beginnings at this time with the found of OCLC, in the 
+1960s and regional consortiums like the precursor to the Colorado Alliance of Research 
+Libraries and Marmot in Colorado in the 1970s and 1980s. We will also be examining library 
+consortiums in a later chapter as well.
+
+.. [#] *The Library An Illustrated History* , page 215
 .. [#] Englebart, Douglas `Special considerations of the individual as a user, generator, and retriever of information`_ page. xx
 
 

@@ -631,5 +631,15 @@
     },
     "model":"syllabus.Reading",
     "pk":69
+  },
+  {
+    "fields": {
+      "class_date":2,
+      "title":"The five laws of library science ",
+      "page_range":"1-3,",
+      "url":"http://home.ubalt.edu/nicole.kerber/idia642/Final_Usability_Report.pdf"
+    },
+    "model":"syllabus.Reading",
+    "pk":70
   }
 ]
