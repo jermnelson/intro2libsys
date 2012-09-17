@@ -34,7 +34,8 @@ While much speculation exists regarding early Egyptian libraries in the time
 Pharaohs (i.e. they existed but were likely reserved for religious purposes), when
 Egypt was later conquered by Alexander the Great and then the Roman Empire, the 
 most famous library ever was started in Alexandria and continued to grow in collection
-size and prestige through-out the classical period in history.
+size and prestige through-out the classical period in history. This `clip`_
+from Carl Sagan's show "Cosmos" offers a more elioquent view on the Alexandra Library:
 
 What about..??
 --------------
@@ -48,10 +49,10 @@ destroying all copies of any of these Aztec codices.
 
 References
 ----------
-.. [#] `The Library An Illustrated History`_ pages 8, 9
+.. [#] *The Library An Illustrated History* pages 8, 9
 .. [#] `Ebla: The World's Oldest Library`_ pages xx,xx
 .. [#] `The British Museum's Ashurbanipal Library Project`_ pages xx,xx
 
 .. _`The British Museum's Ashurbanipal Library Project`: /resources/articles/british-museum-ashurbanipal-library-project
+.. _clip: http://www.youtube.com/watch?v=jixnM7S9tLw
 .. _`Ebla: The World's Oldest Library`: /resources/articles/ebla-worlds-oldest-library
-.. _`The Library An Illustrated History`: /resources/books/library-an-illustrated-history
