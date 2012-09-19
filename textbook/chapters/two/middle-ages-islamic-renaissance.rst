@@ -82,7 +82,7 @@ Aristotle and his commentators. Mathematics was next the subject area
 highlighting works by Euclid, Boethius, and Ptolemy. The last subject category 
 was humane literature or what we would call rhetoric, history, grammar, poetry, 
 and moral philosophy. A specific example of subject headings from the library 
-of dukes of Urbino in Italy include: Scriptures, Church Fathers, Medicien, Law,
+of dukes of Urbino in Italy include: Scriptures, Church Fathers, Medicine, Law,
 Cosmography, History, Poets, Grammarians, and Orators with the more prominent 
 and privileged material belonging to religious topics and treaties. [#]_
 

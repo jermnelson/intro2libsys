@@ -39,9 +39,9 @@ from Carl Sagan's show "Cosmos" offers a more elioquent view on the Alexandra Li
 
 What about..??
 --------------
-Libraries certainly existed in ancient China and Japan although the their different
-literacy traditions, the collecting, borrowing, and lending practices wasn't as
-prominent or well-developed as in the West. Likewise, while collections of Aztec
+Libraries certainly existed in ancient China and Japan although within their different
+literacy traditions; the collecting, borrowing, and lending practices wasn't as
+prominent or well-developed as in the West. Likewise, while Aztec
 and other Mesoamerican societies had libraries, they tended to focus on religious
 topics. In one of the great tragedies of history, the Spanish colonization efforts
 at attempting to eradicate the native culture, language, and customs, included

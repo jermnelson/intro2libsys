@@ -57,7 +57,7 @@
     "fields": {
       "category": "sa", 
       "is_public": true, 
-      "question": "How might a DSCV like Git be useful in information management or project documentation?",
+      "question": "How might a DVCS like Git be useful in information management or project documentation?",
       "reading":4, 
       "test": 3
     }, 

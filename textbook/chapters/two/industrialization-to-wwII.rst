@@ -95,5 +95,5 @@ References
 
 .. _The five laws of library science: http://hdl.handle.net/2027/uc1.b99721
 
-.. _"Ninety-One Cataloging Rules": http://books.google.com/books?id=97QYAAAAMAA
+.. _"Ninety-One Cataloging Rules": http://books.google.com/books?id=PIYLAQAAIAAJ
 .. _Rules for a Dictionary Catalog: http://books.google.com/books?id=2rQYAAAAMAAJ

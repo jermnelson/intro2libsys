@@ -3,6 +3,7 @@
 *.rdb
 *.bak
 *.db
+*.bundle
 static*
 _build*
 local_settings.*
