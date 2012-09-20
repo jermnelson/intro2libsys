@@ -654,12 +654,48 @@
   },
   {
     "fields": {
-      "class_date":3,
+      "class_date":2,
       "title":"Mosques as Libraries in Islamic Civilization, 700-1400 A.D.",
       "url":"http://www.jstor.org/stable/25541694"
     },
     "model":"syllabus.Reading",
     "pk":72
+  },
+  {
+    "fields": {
+      "class_date":3,
+	  "title":"Understanding MARC Bibliographic: Machine-Readable Cataloging",
+	  "page_range":"Part I - Part VI",
+	  "url": "http://www.loc.gov/marc/umb/"
+    },
+    "model":"syllabus.Reading",
+    "pk":73
+  },  
+ {
+    "fields": {
+      "class_date":3,
+	  "title":"Metadata and Cataloging Practices",
+	  "url": "http://hdl.handle.net/1811/51389"
+    },
+    "model":"syllabus.Reading",
+    "pk":74
+  },
+  {
+    "fields": {
+      "class_date":3,
+	  "title":"ONIX: The Metadata Standard for the Information and Entertainment Industries",
+	  "url":"http://webcentral.du.edu/cp/grouptools/fileshare/71820/7341/ONIXMetadataStandardforInformationEntertainmentIndustries.pdf"
+	},
+	"model":"syllabus.Reading",
+    "pk":75
+  },
+  {
+    "fields": {
+      "class_date":3,
+	  "title":"The Inevitablity of Open Access",
+	  "url":"http://crl.acrl.org/content/early/2011/09/21/crl-299.full.pdf+html"
+	},
+	"model":"syllabus.Reading",
+    "pk":76
   }
-
 ]

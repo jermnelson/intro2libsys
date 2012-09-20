@@ -38,7 +38,22 @@
  },
   "model":"assessment.Test",
   "pk":5
+ },
+ {
+  "fields": {
+    "date_of":5,
+    "category":"qz"
+ },
+  "model":"assessment.Test",
+  "pk":6
+ },
+ {
+  "fields": {
+    "date_of":6,
+    "category":"qz"
+ },
+  "model":"assessment.Test",
+  "pk":7
  }
-
 ]
 

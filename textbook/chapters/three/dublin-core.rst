@@ -20,55 +20,55 @@ Level One interoperability, called Shared term definitions [#]_ is the
 simplest or most basic level which is what most web pages use. This level
 primarily uses the 15 core elements of the following:
 
-*. contributor  - an individual or organization that contributed in some
-   way to resource. [#]_
+- **contributor**  - an individual or organization that contributed in some
+  way to resource. [#]_
    
-*. coverage - a temporal or spacial topic associated or assigned to the
-   resource. [#]_
+- **coverage** - a temporal or spacial topic associated or assigned to the
+  resource. [#]_
 
-*. creator - an individual, group, organization, or server who is the
-   primary entity responsible for creation of the resource. [#]_
+- **creator** - an individual, group, organization, or server who is the
+  primary entity responsible for creation of the resource. [#]_
 
-*. date - a single point or date range associated with the resource, such
-   as a copyright date. [#]_
+- **date** - a single point or date range associated with the resource, such
+  as a copyright date. [#]_
    
-*. description - an textual or graphical account of the resource, includes such 
-   things as an abstract, graphic, or free-text. [#]_
+- **description** - an textual or graphical account of the resource, includes such 
+  things as an abstract, graphic, or free-text. [#]_
    
-*. format - the physical medium, file type, or other descriptive phrase 
-   such as dimensions of the resource. [#]_
+- **format** - the physical medium, file type, or other descriptive phrase 
+  such as dimensions of the resource. [#]_
    
-*. identifier - a specific and unambiguous reference to the resource within
-   a certain context like an ISBN number of a monograph, an ISSN number
-   of a serial or magazine, or a URL for a web-page. [#]_
+- **identifier** - a specific and unambiguous reference to the resource within
+  a certain context like an ISBN number of a monograph, an ISSN number
+  of a serial or magazine, or a URL for a web-page. [#]_
    
-*. language - the human language of the resource. [#]_
+- **language** - the human language of the resource. [#]_
 
-*. publisher - the individual, group, or organization that makes the
-   resource accessible or available. [#]_
+- **publisher** - the individual, group, or organization that makes the
+  resource accessible or available. [#]_
    
-*. relation - a different resource that is related in some way to the 
-   original resource. Examples include a different issue of a serial,
-   an older edition of a monograph, or another work by the same creator. [#]_
+- **relation** - a different resource that is related in some way to the 
+  original resource. Examples include a different issue of a serial,
+  an older edition of a monograph, or another work by the same creator. [#]_
    
-*. rights - the conditions or restriction on use, availability or 
-   other rights about the resource including licenses or copyrights. [#]_
+- **rights** - the conditions or restriction on use, availability or 
+  other rights about the resource including licenses or copyrights. [#]_
    
-*. source - the original source material or resource from which the currently
-   described resource is derived from or inspired by. [#]_
+- **source** - the original source material or resource from which the currently
+  described resource is derived from or inspired by. [#]_
    
-*. subject - the topic or keyword associated with the resource. Can
-   be part of a controlled vocabulary. [#]_
+- **subject** - the topic or keyword associated with the resource. Can
+  be part of a controlled vocabulary. [#]_
    
-*. title - name or other phrase that is commonly or formally
-   associated with the resource. [#]_
+- **title** - name or other phrase that is commonly or formally
+  associated with the resource. [#]_
    
-*. type - the genre or other term, usually from a controlled vocabulary,
-   that classifies the resource. [#]_
+- **type** - the genre or other term, usually from a controlled vocabulary,
+  that classifies the resource. [#]_
 
 Level Two interoperability, or formal semantic interoperability [#]_ is the next
 level of Dublin Core and means that resources use shared vocabularies structured
-using formal semantics. Level Two is used as a bases for `RDF`_ and 
+using formal semantics. Level Two is used in `RDF`_ and 
 `Linked Data`_ efforts and is the base descriptive set for many Semantic
 Web efforts. We will go into more detail about this level of Dublin Core
 interoperability in the `RDF`_ and `Linked Data`_ sections.
@@ -83,12 +83,80 @@ interoperability is achieved. A system with its own methods of validation
 may reach level three but a system using a Dublin Core XML constraint
 language for validation and exchange would be a level four.
 
+Examples
+--------
+Here are some examples of Dublin Core encoded records using different 
+approaches and vocabularies with Jane Austen's *Pride and Prejudice*
 
-Pros
-----
+DC-HTML::
 
-Cons
-----
+	<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	   "http://www.w3.org/TR/html4/strict.dtd">
+	<html>
+	  <head profile="http://dublincore.org/documents/2008/08/04/dc-html/">
+		<title>Pride and Prejudice</title>
+		<link rel="schema.DC" href="href="http://purl.org/dc/elements/1.1/" >
+		<meta name="DC.title" content="Pride and Prejudice" />
+		<meta name="DC.creator" content="Jane Austen" />
+	  </head>
+	  <body>
+	  </body>
+	</html>
+
+RDFa::
+
+	<html>
+	<head>
+	 ...
+	</head>
+	<body>
+	 <h2 property="http://purl.org/dc/terms/title">Pride and Prejudice</h2>
+	 <p>Author: <span property=""http://purl.org/dc/terms/creator">Jane Austen</span></p>
+	 ...
+	</body>
+
+OAI_DC::
+
+	<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" 
+			   xmlns:dc="http://purl.org/dc/elements/1.1/" 
+			   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+			   xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+	  <dc:title>Pride and Prejudice</dc:title>
+	  <dc:creator>Jane Austen</dc:creator>
+	</oai_dc:dc>
+
+RDF/XML::
+
+	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	 xmlns:dcterms="http://purl.org/dc/terms/">
+	 <rdf:Description rdf:about="http://example.org/123">
+	  <dcterms:title xml:lang="en">Pride and Prejudice</dcterms:title>
+	  <dcterms:title xml:lang="en">Jane Austen</dcterms:creator>
+	 </rdf:Description>
+	</rdf:RDF>
+
+DC-TEXT::
+
+	@prefix dcterms: <http://purl.org/dc/terms/> .
+
+	DescriptionSet (
+	 Description (
+	  ResourceURI ( <http://example.org/123> )
+	  Statement (
+	   PropertyURI ( dcterms:title )
+	   LiteralValueString ( "Pride and Prejudice" 
+		Language ( "en" )
+	   )
+	  )
+	  Statement (
+	   PropertyURI ( dcterms:title )
+	   LiteralValueString ( "Jane Austen" 
+		Language ( "en" )
+	   )  
+	  )
+	 )
+	)
+
 
 References
 ----------
@@ -111,7 +179,7 @@ References
 .. [#] `Dublin Core type Definition`_
 .. [#] `Level 2: Formal semantic interoperability`_
 .. [#] `Level 3: Description Set syntactic interoperability`_
-.. [#] `Level 4: Description Set Profile interopability`_
+.. [#] `Level 4: Formal semantic interoperability`_
 
 .. _Dublin Core: http://dublincore.org/
 .. _Dublin Core contributor Definition: http://dublincore.org/documents/dces/#contributor
@@ -135,4 +203,3 @@ References
 .. _`Level 4: Formal semantic interoperability`: http://dublincore.org/documents/interoperability-levels/#sect-5
 .. _Linked Data: /linked-data
 .. _RDF: /rdf-a
-.
