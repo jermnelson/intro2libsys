@@ -544,7 +544,7 @@
   {
     "fields": {
       "class_date":3,
-      "title":"Tutorial 2: Tutorial 2: Introducing RDF/XML",
+      "title":"Tutorial 2: Introducing RDF/XML",
       "url":"http://www.linkeddatatools.com/introducing-rdf-part-2"
     },
     "model":"syllabus.Reading",
@@ -691,11 +691,29 @@
   },
   {
     "fields": {
-      "class_date":3,
+      "class_date":6,
 	  "title":"The Inevitablity of Open Access",
 	  "url":"http://crl.acrl.org/content/early/2011/09/21/crl-299.full.pdf+html"
 	},
 	"model":"syllabus.Reading",
     "pk":76
+  },
+  {
+    "fields": {
+      "class_date":3,
+      "title":"Introduction to Text Encoding and the TEI",
+      "url":"http://tbe.kantl.be/TBE/modules/TBED00v00.htm"
+    },
+    "model":"syllabus.Reading",
+    "pk":77
+  },
+  {
+    "fields": {
+      "class_date":3,
+      "title":"A Gentle Introduction to XML",
+      "url":"http://www.tei-c.org/release/doc/tei-p5-doc/en/html/SG.html"
+    },
+    "model":"syllabus.Reading",
+    "pk":78
   }
 ]
