@@ -64,6 +64,16 @@ def get_test_questions(request):
         questions = Question.objects.filter(test=test).filter(is_public=True)
     return test,questions
 
+def midterm(request):
+    """
+    Displays Midterm for print-out or electronic copy. Questions are hard-coded.
+    
+    :param request: HTTP Request
+    """
+    return render_to_response('fall-midterm.html',
+                              {},
+                              context_instance=RequestContext(request))
+
 def quiz(request):
     """
     Displays a full quiz if user is logged in to DLS; otherwise
