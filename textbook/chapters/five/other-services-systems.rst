@@ -19,7 +19,7 @@ popular solution called `EZProxy`_, a formally open-source project that was purc
 by OCLC and coverted into a paid, commerical service. 
 
 .. sidebar:: Authentication verses Authorization
-   :class alert alert-warning
+   :class: alert alert-warning
    
    It is easy to conflate authentication with authorization but
    these are two distinct but related concepts. Authentication is the 

@@ -19,6 +19,9 @@ Google's resources along with their billions of dollars spent on research and de
 of information services, will continue to challenge the library profession, especially 
 library systems.
 
+Search Utility
+^^^^^^^^^^^^^^
+
 Simplicity 
 ^^^^^^^^^^
 For the first few years of Google's search service, their main page was a single, simple
@@ -33,13 +36,9 @@ Privacy & Data Retention
 ^^^^^^^^^^^^^^^^^^^^^^^^
 While Google and other corporations are tracking and retaining large amounts of data about
 their users, this trend is often at odds with librarian's and the values of the profession.
-While their is a counter-trend among some [NEED REFERENCE] librarian and other in the
-profession, following the old adage, *if you can't beat 'um join 'um*, to lose this 
-important value would jeopardize a long-standing expectation library patrons have about 
-their libraries and by extension, library systems. 
 
 This is a gray area and while there are strong counter-arguments and utility to tracking
-users as they again, have become accustomed to the level of service that Google provides, 
+users that have become accustomed to a level of service that Google provides; 
 libraries and library systems may need to adjust and evolve if we are to remain relevant 
 and useful for our patrons needs. One compromise is to be as transparent as possible about
 the nature and type of data that the library systems collect on patrons and to allow the patron
@@ -48,20 +47,18 @@ if libraries become too dependent on library system vendors driven by profit max
 shareholders or owners that do not necessarily align with the the core values of privacy 
 advocated by libraries.   
 
-It is a cop-out and intellectually disingious to fall back on the arguments that younger
-patrons have different privacy expectations than older patrons and because of that difference
-then, it is permissible to collect as much personally identifiable information as possible
-on the library patrons. As stewards of the culture's intellectual and popular artifacts, 
+As stewards of the culture's intellectual and popular artifacts, 
 libraries should take a longer term view and consider the implications of keeping and 
 maintaining too much data about the library's patrons. Libraries are usually not driven by
 quarterly performance that is obsession of corporate information services like Google, 
 Facebook, and Twitter. While it might be inevitable that most interactions are tracked in 
 highly specific and granual methods, libraries have an obligation to their patrons to at 
-least educate and offer options to the patrons outside of a strictly commercial realm or 
-role.  
+least educate and offer options to the patrons outside of a strictly commercial  
+relationship.  
 
 References
 ----------
-.. [#] NEED REFERENCE
+.. [#] 
 
 .. _`Google`: http://www.google.com/
+.. _http://hulk03.princeton.edu:8080/WebMedia/flash/lectures/20120228_publect_russell.shtml

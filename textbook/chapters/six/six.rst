@@ -9,5 +9,3 @@ Workstations, Servers, Peripherals, & Networking
    servers
    peripherals
    networking
-   questions-exercises
-   project-exercises   

@@ -3,13 +3,14 @@ import os,logging
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
+PROJECT_HOME = os.path.split(PROJECT_ROOT)[0]
 DJANGO_ROOT = os.path.split(PROJECT_ROOT)[0]
 
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': '/usr/local/operations/intro2libsys/intro-dev.db',                      # Or path to database file if using sqlite3.
+        'NAME':os.path.join(PROJECT_HOME,'intro-dev.db'),                      # Or path to database file if using sqlite3.
         'USER': '',                      # Not used with sqlite3.
         'PASSWORD': '',                  # Not used with sqlite3.
         'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.

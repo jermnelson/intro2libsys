@@ -40,9 +40,10 @@ problems as they attempt to fulfill their own responsibilities.
 .. toctree::
    :maxdepth: 2
    
+   consortiums
+   library-system-vendors
+   publishers
    it-corporations
    it-higher-education
    it-gov-public
    it-startup-small
-   project-status
-   questions-exercises

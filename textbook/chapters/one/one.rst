@@ -123,8 +123,6 @@ in electronic form.
    html5-ajax-json
    python-django-restructuredtxt
    project-status
-   questions-exercises
-   ../appendices/example-course-project
 
 .. _CSS: http://en.wikipedia.org/wiki/Cascading_Style_Sheets
 .. _DevOps: http://www.readwriteweb.com/enterprise/2011/08/devops-what-it-is-why-it-exist.php

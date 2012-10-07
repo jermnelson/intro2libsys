@@ -94,17 +94,6 @@ using Content Management Systems and applications servers, their use for simple
 services like email reference services still persist and may require support 
 and management from the librarian.
 
-Firewalls
----------
-
-
-Proxies
--------
-
-
-OpenURL
---------
-
 
 Content Management Systems (CMS)
 --------------------------------
@@ -113,7 +102,11 @@ work-flows for all sizes of organizations. The promise of a CMS is that content
 creators can focus on creating and sharing text, images, video, and audio without
 having to write HTML. CMS also provide central control through standard templates and
 usually run with a database to provide dynamic capabilities and to manage users
-and permissions. 
+and permissions.
+
+Popular CMS including both open-source and commerical products include `Drupal`_,
+`Plone`_, and `Joomla`_. `Wordpress`_ is also used as a CMS by both public and
+academic libraries. Microsoft's `Sharepoint`_ is also a popular CMS.
 
 References
 ----------
@@ -121,8 +114,13 @@ References
 
 .. _Apache: http://httpd.apache.org/
 .. _Django: https://www.djangoproject.com/
+.. _Drupal: http://drupal.org/
 .. _Google: http://en.wikipedia.org/wiki/Google_platform
+.. _Joomla: http://www.joomla.org/
 .. _June 2012 Web Server Survey: http://news.netcraft.com/archives/2012/06/06/june-2012-web-server-survey.htm
 .. _Microsoft IIS: http://www.iis.net/
 .. _Netcraft: http://www.netcraft.com/
+.. _Plone: http://plone.org/
 .. _nginx: http://nginx.org/
+.. _Sharepoint: http://sharepoint.microsoft.com/en-us/Pages/default.aspx
+.. _Wordpress: http://wordpress.org/

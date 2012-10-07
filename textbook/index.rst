@@ -20,9 +20,6 @@ Introduction to Library Systems
 	  chapters/eight/eight
 	  chapters/nine/nine
 	  chapters/ten/ten
-	  appendices/course-syllabus
-	  appendices/glossary
-	  appendices/resources
 
 Forward
 -------

@@ -317,7 +317,7 @@
   {
     "fields": {
       "class_date":5,
-      "title":"Why Google Isn’t Making Us Stupid…or Smart",
+      "title":"Why Google Isn’t Making Us Stupid...or Smart",
       "url":"http://www.iasc-culture.org/THR/THR_article_2012_Spring_Wellmon.php"
     },
     "model":"syllabus.Reading",
@@ -352,7 +352,7 @@
   },
   {
     "fields": {
-      "class_date":5,
+      "class_date":7,
       "title":"RUK: The Maturing Threat of Open Access",
       "url":"http://www.thestreet.com/print/story/11560589.html"
     },
@@ -361,7 +361,7 @@
   },
  {
     "fields": {
-      "class_date":5,
+      "class_date":7,
       "title":"Added Value: I do not think those words mean what you think they mean",
       "url":"http://cameronneylon.net/blog/added-value-i-do-not-think-those-words-mean-what-you-think-they-mean/"
     },
@@ -388,7 +388,7 @@
   },
   {
     "fields": {
-      "class_date":5,
+      "class_date":7,
       "title":"Science as an open enterprise -- Final Report",
 	  "page_range":"7-12, 60-78",
       "url":"http://royalsociety.org/policy/projects/science-public-enterprise/report/"
@@ -425,7 +425,7 @@
   },
     {
     "fields": {
-      "class_date":5,
+      "class_date":7,
       "title":"A Fistful Of Dollars: Why Corporate Publishers Have No Place In Scholarly Communication",
       "url":"http://bjoern.brembs.net/comment-n820.html"
     },
@@ -715,5 +715,41 @@
     },
     "model":"syllabus.Reading",
     "pk":78
+  },
+  {
+    "fields": {
+      "class_date":5,
+      "title":"Evolution of the Library Card Catalog",
+      "url":"http://www.libraryhistorybuff.org/cardcatalog-evolution.htm"
+    },
+    "model":"syllabus.Reading",
+    "pk":79
+  },
+  {
+    "fields": {
+      "class_date":5,
+      "title":"The Catalogue Cards of the Harvard College Library",
+      "url":"http://www.libraryhistorybuff.org/catalog-cards-harvard.htm"
+    },
+    "model":"syllabus.Reading",
+    "pk":80
+  },
+  {
+    "fields": {
+      "class_date":5,
+      "title":"Agents of Change Automation Marketplace 2012",
+      "url":"http://www.thedigitalshift.com/2012/03/ils/automation-marketplace-2012-agents-of-change/"
+    },
+    "model":"syllabus.Reading",
+    "pk":81
+  },
+  {
+    "fields": {
+      "class_date":5,
+      "title": "Avoiding a Digital Dark Age",
+      "url":"http://www.americanscientist.org/issues/pub/avoiding-a-digital-dark-age/1"
+    },
+     "model":"syllabus.Reading",
+     "pk":82
   }
 ]

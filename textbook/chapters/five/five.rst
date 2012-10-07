@@ -16,13 +16,8 @@ Preserving Digital Objects in Repositories
    
    digital-repositories
    library-websites
-   oai-pmh
    solr
    other-services-systems
-   social-networks
-   seo-web-services
-   questions-exercises
-   project-status
 
 
 

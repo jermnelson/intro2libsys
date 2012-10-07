@@ -5,9 +5,9 @@ In the history of library technology, the concept for a card catalog
 dates from the late 1700 in France where the back of playing cards were
 used in the library card catalog [#]_. Prior to that date, most catalogs were 
 bound books usually organized by either the author's name, chronologically by the date of 
-the subject, by title, by donor, and by the size of book.[#]_ 
+the subject, by title, by donor, and by the size of book. [#]_ 
 
-Havard University, starting in the early 1800s, created a "slip catalogue"
+Harvard University, starting in the early 1800s, created a "slip catalogue"
 where all of the Havard Library's titles were cut out from a printed book
 catalog and pasted onto library cards that were 6 1/2 by 1 1/2 inches 
 wide all written by hand. Eventually Harvard standardized on the 2 by 3
@@ -15,11 +15,11 @@ inch size for catalog Other libraries began creating card catalogs
 as well but the use of these card catalogs was primarily by staff and it 
 wasn't until the 1860s that Harvard created two card catalogs; a Public
 Catalog and an Official Catalog for use by the Harvard cataloging 
-department.[#]_ 
+department. [#]_ 
 
 In 1877, Melvil Dewey guided the adoption of two standard sizes for 
 library cards; the Harvard College size of 5 x 12.25 cm and the more
-widely used size of 7.5 x 12.25 cm.[#]_ Dewey, through the library 
+widely used size of 7.5 x 12.25 cm. [#]_ Dewey, through the library 
 supply company he founded the Library Bureau, offered a card catalog 
 cabinets, special typewriters like the one pictured here.
 
@@ -31,7 +31,7 @@ cabinets, special typewriters like the one pictured here.
     advocated a set of handwriting standards for library cards that 
     beyond the expected size, slant, spacing and special characters
     also included what ink, pens, and holders for writing out card
-    catalogs.[#]_ Conventiently, he sold all of these through the 
+    catalogs. [#]_ Conventiently, he sold all of these through the 
     company he founded!
 
 The use of card catalogs continued until the OCLC and the Library of

@@ -11,9 +11,10 @@ implementation than necessarily new end-user functionality although most
 focus on a single-search interface to increasingly larger databases of
 both local and remote resources owned by the library.
 
+ 
 
-Table 1 - Library Services Platforms
-------------------------------------
+Table 1 - Library Services Platforms [#]_
+-----------------------------------------
 
 +---------------------+------------+-------------+-----------+
 |                     |2011 Sales  | 2011 Total  | 2011 New  |
@@ -56,23 +57,29 @@ Table 2 - Top Commerical Integrated Library Systems
 
 Table 3 - Top Commercial Discovery Services
 -------------------------------------------
-
-Aquabrowser
------------
-
-Ebsco Discovery Service
------------------------
-
-Local Worldcat from OCLC
-------------------------
-
-Millennium & Encore from Innovative Inc.
-----------------------------------------
-
-Summons from Serials Solutions
-------------------------------
++-------------------------+------------+-----------+------------+
+|                         | 2011 New   | 2011      | Total      |     
+|                         | customers  | Total     | Installed  |
++-------------------------+------------+-----------+------------+
+| Ex Libris's Primo       | 14         | 104       | 914        |
++-------------------------+------------+-----------+------------+
+| Serials Solutions's     | 214        | 175       | 657        |
+| Summon & Aquabrowser    |            |           |            |            
++-------------------------+------------+-----------+------------+
+| Ebsco Discovery Service |            |           |            |
++-------------------------+------------+-----------+------------+
+| Innovative Interface    |            | 72        | 326        |
+| Inc.'s Encore           |            |           |            |
++-------------------------+------------+-----------+------------+
+| OCLC's Local Worldcat   |            |           | 1578       |
++-------------------------+------------+-----------+------------+
 
 
 
 References
 ----------
+.. [#] All data in Tables 1,2, and 3 are from the following report by Marshall
+       Breeding's `Automation Marketplace 2012: Agents of Change`_ .
+
+.. _`Automation Marketplace 2012: Agents of Change`: http://www.thedigitalshift.com/2012/03/ils/automation-marketplace-2012-agents-of-change/
+

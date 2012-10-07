@@ -9,24 +9,17 @@ if all types of library services that can be considered part of library
 automation, then the total global market size is $1.76 billion, of which 
 $450 million is part of the US market [#]_. 
 
-While these numbers may seem big, consider that just music and downloaded
-ebooks on the iOS app market alone is 
-
-
-
-.. # `Agents of Change Automation Marketplace 2012`_
 
 .. toctree::
    :maxdepth: 2
    
    first-card-catalogs
-   beginnings-electronic-catalogs
-   growth-ils-opac
-   google-disruption
    commercial-ils-dl
    open-source-ils-dl
-   questions-exercises
-   project-status
+   google-disruption
 
+References
+----------
+.. [#] `Automation Marketplace 2012: Agents of Change`_
 
-.. _Agents of Change Automation Marketplace 2012: http://lj.libraryjournal.com/2012/03/industry-news/automation-marketplace-2012-agents-of-change/
+.. _`Automation Marketplace 2012: Agents of Change`: http://www.thedigitalshift.com/2012/03/ils/automation-marketplace-2012-agents-of-change/ 

@@ -79,6 +79,21 @@ their website as:
 
 Commercial
 ----------
+The following table is the top commerical digital repository, or as the Automation
+report classifies, Digital Library Management Systems, from the same report [#]_ .
+
++-------------------------+------------+-----------+
+|                         | Total 2011 | Total     |
+|                         | Contracts  | Installed |
++-------------------------+------------+-----------+
+| SirsiDynix's Portfolio  | 44         | 55        |
++-------------------------+------------+-----------+
+| Ex Libris Group's       | 12         | 208       |
+| DigiTool and Rosetta    |            |           |
++-------------------------+------------+-----------+
+| OCLC's CONTENTdm        |            | 924       |
++-------------------------+------------+-----------+
+
 Ex Libris - Digitools & Rosetta 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 `Rosetta`_ and `Digitools`_ are two digital repository product by Ex Libris. 
@@ -109,6 +124,14 @@ OCLC's website:
 	slide libraries or audio/video - CONTENTdm can handle the storage, management and 
 	delivery of your collections to users across the Web [#]_
 
+OAI-PMH
+-------
+The `Open Archives Initiative Protocal for Metadata Harvesting`_
+(OAI-PMH) is an XML-based technology that provides a base level of digital
+repository interoperabilty with library ILS, OPACs, and more recently
+discovery layers and library services platforms.
+
+
 References
 ----------
 
@@ -118,6 +141,7 @@ References
 .. [#] `http://eulfedora.readthedocs.org/en/0.19.0/index.html <http://eulfedora.readthedocs.org/en/0.19.0/index.html>`_ accessed on July 11, 2012.
 .. [#] `http://www.dspace.org/introducing <http://www.dspace.org/introducing>`_ accessed on July 11, 2012. 
 .. [#] `http://digitalcommons.bepress.com/faq/ <http://digitalcommons.bepress.com/faq/>`_ accessed on July 11, 2012.
+.. [#] `Automation Marketplace 2012: Agents of Change <www.thedigitalshift.com/2012/03/ils/automation-marketplace-2012-agents-of-change/>`_
 .. [#] `http://www.exlibrisgroup.com/category/RosettaOverview <http://www.exlibrisgroup.com/category/RosettaOverview>`_ accessed on July 11, 2012.
 .. [#] `http://www.exlibrisgroup.com/category/DigiToolOverview <http://www.exlibrisgroup.com/category/DigiToolOverview>`_ accessed on July 11, 2012
 .. [#] `http://www.contentdm.org/ <http://www.contentdm.org/>`_ accessed on July 11, 2012
@@ -132,5 +156,7 @@ References
 .. _Hydra: http://hydraproject.org/
 .. _Islandora: http://islandora.ca
 .. _OCLC: http://www.oclc.org/
+.. _Open Archives Initiative Protocal for Metadata Harvesting: http://www.openarchives.org/pmh/
+
 .. _report: http://www.nlm.nih.gov/digitalrepository/DRESWG-Report.pdf
 .. _Rosetta: http://www.exlibrisgroup.com/category/RosettaOverview
