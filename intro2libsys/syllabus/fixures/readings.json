@@ -751,5 +751,23 @@
     },
      "model":"syllabus.Reading",
      "pk":82
+  },
+  {
+    "fields": {
+      "class_date":5,
+      "title":"Recommendations on NLM Digital Repository Software",
+      "url":"http://www.nlm.nih.gov/digitalrepository/DRESWG-Report.pdf"
+    },
+      "model":"syllabus.Reading",
+     "pk":83
+  },
+  {
+    "fields": {
+      "class_date":5,
+      "title":"Towards Generous Interfaces for Archival Collections",
+      "url":"http://www.ica2012.com/files/data/Full%2520papers%2520upload/ica12Final00423.pdf"
+    },
+     "model":"syllabus.Reading",
+     "pk":84
   }
 ]
