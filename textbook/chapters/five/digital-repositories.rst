@@ -6,6 +6,18 @@ accessing digital content. In 2007-2008, the National Library of Medicine went
 through an exhaustive evaluation process of digitial repository systems described
 in their `report`_.
 
+To properly store digital objects requires that the digital repository meet two 
+challenges; first, is the physical preservation of the digital object on either a
+hard-drive (even if that hard-drive is abstracted in a virtual server) or other
+magnetic or optical medium like digital tape or CD-ROM. The second challenge is
+making sure that the data is accessability through software means. Often digital
+objects become unusable because of a combination of the two; i.e. the digital object
+can only be accessed through an obsolete software program and is located on old media
+like a floppy disk. The Duraspace Foundation (they are the organization responsible for 
+`Fedora Commons`_ and `DSpace`_ digital repository platforms) calls digital objects
+"durable" [#]_  if the object can be migrated to new physical medium and is in format that 
+will be accessable for time.
+
 
 Open-Source
 -----------
@@ -135,6 +147,7 @@ discovery layers and library services platforms.
 References
 ----------
 
+.. [#] `http://www.durspace.org/node/1197 <http://www.durspace.org/node/1197>`_
 .. [#] `http://www.fedora-commons.org/about <http://www.fedora-commons.org/about>`_ accessed on July 11, 2012.
 .. [#] `http://islandora.ca/about <http://islandora.ca/about>`_ accessed on July 11, 2012.
 .. [#] `http://hydraproject.org/ <http://hydraproject.org/>`_ accessed on July 11, 2012.

@@ -21,6 +21,11 @@ library systems.
 
 Search Utility
 ^^^^^^^^^^^^^^
+Google has become as popular and widely-used because of its value as a search utility. Users
+of Google have developed certain expectations about how search works over the extremely large
+corpus of material Google is indexing. While Google does have direct competors like Yahoo and 
+Microsoft's Bing (Yahoo licenses its search technology from Microsoft), the explosive growth
+of Facebook's social network may make Google less relevant for certain type of user search.
 
 Simplicity 
 ^^^^^^^^^^
