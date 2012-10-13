@@ -1,18 +1,58 @@
 ============
 Workstations
 ============
+Most libraries, both public and academic, offer personal computers for use
+by patrons and staff. Often, the public library is the only option individuals
+have for Internet access, especially lower-income groups, and with more services
+for all ranges of commercial, educational, and governmental being exclusively 
+offered online, providing this access has become more important to service points
+in the library. The library systems department or group in a library, beside being
+responsible for the library-specific software and hardware, are often required to 
+support for the library's physical computing infrastructure including both patron
+and staff computers. While computing hardware varies, most workstations that library
+system run either Microsoft Windows or more rarely Macintosh or Linux systems. 
 
 Windows Operating Systems
 -------------------------
-You likely need to be at least familiar with the Micosoft Windows family of 
-operating systems, including Windows XP, Windows Vista, Windows 7, and now
-Windows 8. 
+The Microsoft Windows family of operating systems, including Windows XP, 
+Windows Vista, Windows 7, and now Windows 8, make up between 76 to 91% [#]_
+of all operating systems installed on personal computers. 
+
+While Windows XP is over a decade old, most older computers that are in a library
+may be still running Windows XP. While most organizations forgoes upgrading to 
+Windows Vista, many organizations have already upgraded to Windows 7 for newer computers
+and install Windows 7 on those older machines that can support Windows.
 
 Macintosh
 ---------
+In the past few years, use of Apple's Macintosh computers and operating systems
+has increased, likely driven by the huge popularity of Apple's iPhone and iPad
+products. Libraries may have a few Macintosh used by staff or even available to some
+public patron. Also, especially academic or special libraries, may have all Macintosh
+computers if the larger institution that the library is a part of, have adopted 
+Macintosh for its computing needs.
 
 Linux
 -----
-
+Linux on the workstation is almost non-existent, except for engineering or other 
+specialized organizations. Where Linux dominates is on server, either running as 
+VM or directly on the hardware. Linux is also the dominate operating systems
+for cell phones (Android) or embedded in various specialized hardware applications.
+ 
 Thin Client
 -----------
+Another trend in libraries is to replace full-fledged workstations with thin clients
+that are usually just a monitor, keyboard, mouse, and very small form factor. The thin
+client usually doesn't have much hardware or software directly loaded on the computer,
+but runs all its software, including the operating system, on a central server. Thin
+clients are helpful for library systems because the maintenance and upkeep of hardware
+is minimized compared to supporting a large number of full workstations that must be
+kept up-to-date individually while a thin client environment allows for more central 
+administration.
+
+References
+----------
+.. [#] `Operating System Market Share`_. Net Market Share. Net Applications. October 2012.
+
+
+.. _Operating System Market Share: http://marketshare.hitslink.com/operating-system-market-share.aspx?qprid=10&qpcustomd=0&qptimeframe=M&qpsp=163&qpnp=1

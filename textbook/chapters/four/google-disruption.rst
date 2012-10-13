@@ -66,4 +66,4 @@ References
 .. [#] 
 
 .. _`Google`: http://www.google.com/
-.. _http://hulk03.princeton.edu:8080/WebMedia/flash/lectures/20120228_publect_russell.shtml
+.. _`What Does It Mean To Be Literate in the Age of Google?`: http://hulk03.princeton.edu:8080/WebMedia/flash/lectures/20120228_publect_russell.shtml
