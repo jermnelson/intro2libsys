@@ -769,5 +769,24 @@
     },
      "model":"syllabus.Reading",
      "pk":84
-  }
+  },
+  {
+    "fields": {
+      "class_date":6,
+      "title":"Introduction to Library Systems Chapter Six",
+      "url":"http://www.intro2libsys.info/textbook/chapters/six/six.html"
+     },
+     "model":"syllabus.Reading",
+     "pk":85
+   },
+   {
+    "fields": {
+      "class_date":6,
+      "title":"Introducing Hadoop in 20 pages",
+      "page_range":"1-7",
+      "url":"http://blog.imaginea.com/hadoop-a-short-guide/"
+     },
+     "model":"syllabus.Reading",
+     "pk":86
+   }
 ]

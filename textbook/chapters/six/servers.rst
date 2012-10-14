@@ -1,10 +1,8 @@
 =======
 Servers
 =======
-While you already have some experience managing your Linux VM on a cloud server, 
-you may also need to know how to manage physical servers as well. While the term 
-*server* can mean not only a physical or virtual computer, server can also mean the 
-software, running on a physical or virtual machine, that responds to requests from another
+While the term *server* can mean not only a physical or virtual computer, server
+can also refer to type of software running on a physical or virtual machine. 
 program either running on the same machine or on a different machine.  To further 
 complicate definition, machines are often classified by what type of server software 
 running on the machine. Common specific servers include database servers, file servers,
