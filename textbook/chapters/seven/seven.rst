@@ -42,8 +42,8 @@ problems as they attempt to fulfill their own responsibilities.
    
    consortiums
    library-system-vendors
-   publishers
    it-corporations
+   publishers
    it-higher-education
    it-gov-public
    it-startup-small

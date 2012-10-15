@@ -27,16 +27,16 @@ figure out other alternatives.
 
 While it may be a challenge to do this, the growth of "cloud" based services
 may make it an easier to sell to the corporation if IT doesn't have to provide
-direct support for the software although there is a concern about relying too 
+direct support for the software. A general definition of cloud computing are 
+web-based applications for use by a corporation's stakeholders that is not purchased
+or installed locally within the corporation's IT infrastructure but is hosted and
+managed by an external party. There is a concern about relying too 
 much on external, third-party applications or if there are privacy or corporate
 intellectual property concerns with having data and services existing outside of
 the of control and management of the corporate IT department. Still, with the 
 growth development of hybrid-clouds [#]_, many of these concerns can be 
 mitigated or addressed with the right mixtures technology both within and external
 to the corporation.
-
-.. include:: library-system-vendors.rst
-.. include:: publishers.rst
 
 References
 ----------

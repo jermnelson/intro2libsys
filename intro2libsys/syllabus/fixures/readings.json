@@ -280,7 +280,7 @@
   },
   {
     "fields": {
-      "class_date":6,
+      "class_date":7,
       "title":"The Siege of Academe",
       "url":"http://www.washingtonmonthly.com/magazine/septemberoctober_2012/features/_its_three_oclock_in039373.php"
     },
@@ -407,7 +407,7 @@
   },
     {
     "fields": {
-      "class_date":6,
+      "class_date":9,
       "title":"Future U: Rise of the digital humanities",
       "url":"http://arstechnica.com/business/2012/06/future-u-rise-of-the-digital-humanities/"
     },
@@ -691,7 +691,7 @@
   },
   {
     "fields": {
-      "class_date":6,
+      "class_date":7,
 	  "title":"The Inevitablity of Open Access",
 	  "url":"http://crl.acrl.org/content/early/2011/09/21/crl-299.full.pdf+html"
 	},
@@ -788,5 +788,69 @@
      },
      "model":"syllabus.Reading",
      "pk":86
-   }
+   },
+   {
+    "fields": {
+      "class_date":6,
+      "page_range":"1-2",
+      "title":"Introduction to Relational Databases",
+      "url":"http://www.databasejournal.com/sqletc/article.php/1469521/Introduction-to-Relational-Databases.htm"
+    },
+    "model":"syllabus.Reading",
+    "pk":87
+   },
+   {
+    "fields": {
+      "class_date":6,
+      "title":"Managed Print Services Come of Age ",
+      "url":"http://www.quocirca.com/media/reports/112010/545/Quocirca MPS Comes of Age Summary Report December 2010.pdf" 
+    },
+    "model":"syllabus.Reading",
+    "pk":88
+  },
+  {
+    "fields": {
+      "class_date":6,
+      "title":"Use of RFID Technology in Libraries: a New Approach to Circulation, Tracking, Inventorying, and Security of Library Materials",
+      "url":"http://unllib.unl.edu/LPP/shahid.htm"
+    },
+    "model":"syllabus.Reading",
+    "pk":89
+  },
+ {
+   "fields": {
+      "class_date":6,
+      "title":"Hybrid IT: How Internal and External Cloud Services Are Transforming IT", 
+      "url":"http://www.gartner.com/DisplayDocument?doc_cd=231796"
+   },
+   "model":"syllabus.Reading",
+    "pk":90
+  },
+  {
+   "fields": {
+      "class_date":6,
+      "title":"The Future of Publishing - A Veteran's Perspective",
+      "url":"http://www.wipo.int/wipo_magazine/en/2011/06/article_0005.html"
+   },
+   "model":"syllabus.Reading",
+   "pk":91
+  },
+  {
+   "fields": {
+      "class_date":6,
+      "title":"The Business of Academic Publishing: A Strategic Analysis of the Academic Journal Publishing Industry and its Impact on the Future of Scholarly Publishing",
+      "url":"http://southernlibrarianship.icaap.org/content/v09n03/mcguigan_g01.html"
+   },
+   "model":"syllabus.Reading",
+   "pk":92
+ },
+ {
+    "fields": {
+      "class_date":6,
+      "title":"A Proposed List — 60 Things Journal Publishers Do",
+      "url":"http://scholarlykitchen.sspnet.org/2012/07/18/a-proposed-list-60-things-journal-publishers-do/"
+   },
+   "model":"syllabus.Reading",
+   "pk":93
+ }
 ]

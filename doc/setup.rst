@@ -30,8 +30,6 @@ Create a new virtualenv after downloading the script:
 
   .. python virtualenv.py {name-of-environment}
 
-Redis
------
 
 Python Modules
 --------------

@@ -3,8 +3,18 @@ Publishers
 ==========
 Very much like libraries, the publishing industry is going through major
 changes as it responds and evolves in shifting from physical mediums to
-the born digital world where distribution and copying costs are negibility 
+the born digital world where distribution and copying costs are minimal 
 but the content creation is still expensive. 
+
+IT in Publishing
+----------------
+Along with the growing shift from print to electronic has meant that publishers
+are spending more time modifying or scraping primarily print work-flows for 
+processes and technology to support born digital material and access models. 
+Besides the software to manage editing and publishing workflows for books that
+has now expanded to ebooks, information technology in publisher has expanded to
+include publication specific apps that very much changing the nature of the content
+that is managed by the publisher.  
 
 Academic scholarly material
 ---------------------------
@@ -15,7 +25,7 @@ Academic scholarly material
    In early 2012 a group of academics, frustrated and upset by continued
    price increase of Elsevier journals, along with Elsevier's lobbying
    support the Research Works Act that would have rolled back open access
-   and open data requirements, started a boycott[#]_ that rapidly made 
+   and open data requirements, started a boycott that rapidly made 
    headlines in the non-academic press. In Academic publishing, unlike
    other publishing venues, writing, editing, and managing the scholarly 
    workflow is mostly done free-of-charge to the publisher by academics.
@@ -25,18 +35,9 @@ Academic scholarly material
    A group of more radical academics suggested that libraries, in 
    particular academic libraries, take on more of a scholarly publishing
    role which differs from the library's traditional role of collecting
-   and disemenating materials.
+   and disseminating materials.
    
-   What challenges and opportunties for libraries would assuming this new
+   What challenges and opportunities for libraries would assuming this new
    role involve?
-
-Popular Magazines, Books, & Newspapers
---------------------------------------
-
-Budget impacts & Inflation
---------------------------
-
-Open Access & Interoperability
-------------------------------
 
 

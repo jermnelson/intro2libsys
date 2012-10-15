@@ -12,15 +12,19 @@ web server software or print and file server server running on the same server. 
 operating system on servers also varies with the most popular OS being Linux and 
 Microsoft Windows. 
 
+Database Servers
+----------------
 Database servers usually run relational database server like `Oracle`_, `Microsoft SQL
 server`_, or `DB2`_ for commercial enterprise databases and `MySQL`_ and `PostgreSQL`_ for 
 open-source databases. A relational database is structured with data organized in tables 
-and implements a varient of `SQL`_ (Structured Query Language). In addition, the growth of 
+and implements a variant of `SQL`_ (Structured Query Language). In addition, the growth of 
 non-relational data storage, collectively called NoSQL, offer alternative data storage
 using a variety of strategies including sparsely populated tables, key-value, and document
-stores. Popular NoSQL technologies include `Hadoop`_, `Cassandra`_, `Redis`_, and 
+stores. Popular NoSQL technologies include `Hadoop`_, `Cassandra`_, `Redis`_, `MongoDB`_ and 
 `CouchDB`_.
 
+File and Print Servers
+----------------------
 File servers usually have large disk storage arrays, called RAID, that provide file storage
 for users and other software programs. RAID (redundant array of independent disks) is a technology
 that uses multiple disks to provide redundant storage. RAID is classified by level depending
@@ -41,6 +45,8 @@ decline as this software is often now embedded in more enterprise laser and copi
 the use of print servers can still be found in older setups and organizations that do not
 have the more modern printers.
 
+Web and Gaming Servers
+----------------------
 Web servers are servers that run web and application software and usually respond with
 either HTTP or UDP traffic to requesting clients over TCP/IP networking traffic. `Apache`_
 is the most popular web server software, followed by Microsoft's IIS and nginx. Application
@@ -53,16 +59,14 @@ Django, and .NET.
 Gaming servers are not as prevalent in enterprises but usually run server-side gaming software
 for multi-player games. 
 
-Rack Servers & Data Centers
----------------------------
-
-
-Cloud Servers
--------------
-
+.. _Cassandra: http://cassandra.apache.org/
+.. _CouchDB: http://couchdb.apache.org/
 .. _DB2: http://www-01.ibm.com/software/data/db2/
+.. _Hadoop: http://hadoop.apache.org/
 .. _Microsoft SQL server: http://www.microsoft.com/sqlserver/en/us/default.aspx
+.. _MongoDB: http://www.mongodb.org/
 .. _MySQL: http://www.mysql.com/
 .. _Oracle: http://www.oracle.com/us/products/database/overview/index.html
 .. _PostgreSQL: http://www.postgresql.org/
+.. _Redis: http://redis.io/
 .. _SQL: 

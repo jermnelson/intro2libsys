@@ -27,13 +27,3 @@ other wireless technologies, the most likely wireless technology that a
 library systems may support are usually those that are based on the IEEE
 802.11 set of standards. 
 
-Wired
------
-
-Connectivity
-------------
-
-References
-----------
-
-.. [#] 
