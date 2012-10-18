@@ -54,6 +54,14 @@
  },
   "model":"assessment.Test",
   "pk":7
+ },
+ {
+  "fields": {
+    "date_of":7,
+    "category":"qz"
+ },
+  "model":"assessment.Test",
+  "pk":8
  }
 ]
 

@@ -884,10 +884,19 @@
  {
    "fields": {
      "class_date":7,
-     "title":"Unit Testing for Developers and Managers"
+     "title":"Unit Testing for Developers and Managers",
      "url":"http://www.udidahan.com/2008/09/30/unit-testing-for-developers-and-managers/"
    },
     "model":"syllabus.Reading",
     "pk":97
+ },
+ {
+   "fields": {
+     "class_date":7,
+     "title":"iOS Human Interface Guidelines - Human Interface Principles",
+     "url":"http://developer.apple.com/library/ios/#documentation/UserExperience/Conceptual/MobileHIG/Principles/Principles.html"
+   },
+   "model":"syllabus.Reading",
+   "pk":98
  }
 ]

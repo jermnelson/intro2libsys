@@ -11,7 +11,9 @@ of the users, testing these designs is a vital element with various techniques t
 to do this, some even before any software or implementation is work is done on a project.
 
 Designing Electronic User Interfaces
--------------------------------------
+------------------------------------
+To meet the needs patrons, 
+
 World Wide Web
 ^^^^^^^^^^^^^^
 
@@ -55,18 +57,8 @@ including different screen sizes, processing power, and network access.
   error is a definite fault of the user), combine as many steps as possible for complex task 
   flows through the app, and run priority jobs as fast as possible.
 
-* Windows Mobile
-
 * Web Responsive Design
 
-Native Platform
----------------
-
-* Macintosh OS
-
-* Windows 
-
-* Linux
 
 A/B Testing
 -----------
