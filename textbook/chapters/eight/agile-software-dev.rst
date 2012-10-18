@@ -5,7 +5,7 @@ Agile Software Development is a set of software developmental practices and meth
 based on short, iterative cycles, where the requirements are defined for small areas of 
 functionality and the code is developed and tested against the requirements.  
 
-.. image:: http://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Agile_Software_Development_methodology.svg/389px-Agile_Software_Development_methodology.svg.png
+.. figure:: http://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Agile_Software_Development_methodology.svg/389px-Agile_Software_Development_methodology.svg.png
 [#]_
 
 Agile organizational principles are useful in improving library systems. The 

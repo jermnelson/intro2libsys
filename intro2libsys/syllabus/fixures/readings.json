@@ -852,5 +852,42 @@
    },
    "model":"syllabus.Reading",
    "pk":93
+ },
+ {
+   "fields": {
+     "class_date":7,
+     "title":"A Primer on A/B Testing",
+     "url":"http://www.alistapart.com/articles/a-primer-on-a-b-testing/"
+   },
+   "model":"syllabus.Reading",
+    "pk":94
+ },
+ {
+    "fields": {
+     "class_date":7,
+     "page_range":"Creative Vision, Design Principles, UI Overview",
+     "title":"Design | Android Developers -- Get Started",
+     "url":"http://developer.android.com/design/index.html"
+   },
+   "model":"syllabus.Reading",
+   "pk":95
+ },
+ {
+    "fields": {
+      "class_date":7,
+      "title":"Introduction to User Stories",
+      "url":"http://www.agilemodeling.com/artifacts/userStory.htm"
+    },
+    "model":"syllabus.Reading",
+    "pk":96
+ },
+ {
+   "fields": {
+     "class_date":7,
+     "title":"Unit Testing for Developers and Managers"
+     "url":"http://www.udidahan.com/2008/09/30/unit-testing-for-developers-and-managers/"
+   },
+    "model":"syllabus.Reading",
+    "pk":97
  }
 ]

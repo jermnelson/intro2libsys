@@ -15,8 +15,6 @@ DevOps Organization.
    user-interface-ab-testing
    analytics-assessment
    unit-testing-bdd
-   project-status
-   questions-exercises
 
 
 
