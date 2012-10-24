@@ -68,8 +68,20 @@
     </div>
    {% endif %}
     </div>
-	<div class="row">
-	{% if readings %}
+    <div class="row">
+   {% if videos %}
+    <div class="well span3">
+    <h3>Videos:</h3>
+    <ul>
+    {% for video in videos %}
+     <li><a href="{{ video.url }}">{{ video.title }}</a></li>
+    {% endfor %}
+    </ul> 
+    </div>
+   {% endif %}
+    </div>
+    <div class="row">
+    {% if readings %}
     <div class="well span3">
     <h3>Readings:</h3>
     <ul> 

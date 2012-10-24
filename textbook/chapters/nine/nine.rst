@@ -11,10 +11,8 @@ services that are in wide use today.
 .. toctree::
    :maxdepth: 2
 
+   semantic-web
    nosql-cloud-computing
    mobile-platforms
-   semantic-web
-   questions-exercises
-   project-status
 
    

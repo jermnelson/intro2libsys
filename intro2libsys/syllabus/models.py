@@ -20,3 +20,8 @@ class TextbookChapter(models.Model):
     class_date = models.ForeignKey(ClassDate)
     title = models.CharField(max_length=120)
     url = models.URLField()
+
+class Video(models.Model):
+    class_date = models.ForeignKey(ClassDate)
+    title = models.CharField(max_length=120)
+    url = models.URLField()

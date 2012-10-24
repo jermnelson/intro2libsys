@@ -1,0 +1,20 @@
+[
+ {
+   "fields": {
+      "class_date":8,
+      "title":"Tim Berners-Lee on the next Web",
+      "url":"http://www.ted.com/talks/tim_berners_lee_on_the_next_web.html"
+   },
+    "model":"syllabus.Video",
+    "pk":1
+ },
+ {
+   "fields": {
+      "class_date":8,
+      "title":"NoSQL, Cloud Computing, & Fast IP",
+      "url":"http://nosqltapes.com/video/benjamin-black-on-nosql-cloud-computing-and-fast_ip"
+    },
+    "model":"syllabus.Video",
+    "pk":2
+  }
+]

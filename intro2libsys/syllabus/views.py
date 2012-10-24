@@ -116,6 +116,7 @@ def session(request,year,month,day):
                                'date_of':question_date,
                                'readings':Reading.objects.filter(class_date=class_date[0].pk),
                                'section':'syllabus',
+                               'videos':Video.objects.filter(class_date=class_date[0].pk)
                               },
                               context_instance=RequestContext(request))
     

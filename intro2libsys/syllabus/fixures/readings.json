@@ -280,7 +280,7 @@
   },
   {
     "fields": {
-      "class_date":7,
+      "class_date":9,
       "title":"The Siege of Academe",
       "url":"http://www.washingtonmonthly.com/magazine/septemberoctober_2012/features/_its_three_oclock_in039373.php"
     },
@@ -343,7 +343,7 @@
   },
   {
     "fields": {
-      "class_date":7,
+      "class_date":9,
       "title":"How World of Warcraft Could Save Your Business and The Economy",
       "url":"http://bigthink.com/think-tank/how-world-of-warcraft-could-save-your-business-and-the-economy"
     },
@@ -352,7 +352,7 @@
   },
   {
     "fields": {
-      "class_date":7,
+      "class_date":9,
       "title":"RUK: The Maturing Threat of Open Access",
       "url":"http://www.thestreet.com/print/story/11560589.html"
     },
@@ -361,7 +361,7 @@
   },
  {
     "fields": {
-      "class_date":7,
+      "class_date":9,
       "title":"Added Value: I do not think those words mean what you think they mean",
       "url":"http://cameronneylon.net/blog/added-value-i-do-not-think-those-words-mean-what-you-think-they-mean/"
     },
@@ -388,7 +388,7 @@
   },
   {
     "fields": {
-      "class_date":7,
+      "class_date":9,
       "title":"Science as an open enterprise -- Final Report",
 	  "page_range":"7-12, 60-78",
       "url":"http://royalsociety.org/policy/projects/science-public-enterprise/report/"
@@ -425,7 +425,7 @@
   },
     {
     "fields": {
-      "class_date":7,
+      "class_date":9,
       "title":"A Fistful Of Dollars: Why Corporate Publishers Have No Place In Scholarly Communication",
       "url":"http://bjoern.brembs.net/comment-n820.html"
     },
@@ -552,7 +552,7 @@
   },
   {
     "fields": {
-      "class_date":7,
+      "class_date":9,
       "title":"Everything in its Right Pace",
       "url":"http://www.alistapart.com/articles/everything-in-its-right-pace/"
     },
@@ -616,7 +616,7 @@
   },
   {
     "fields": {
-      "class_date":8,
+      "class_date":7,
       "title":"Manifesto for Agile Software Development",
       "url":"http://agilemanifesto.org/"
     },
@@ -691,7 +691,7 @@
   },
   {
     "fields": {
-      "class_date":7,
+      "class_date":9,
 	  "title":"The Inevitablity of Open Access",
 	  "url":"http://crl.acrl.org/content/early/2011/09/21/crl-299.full.pdf+html"
 	},
@@ -898,5 +898,69 @@
    },
    "model":"syllabus.Reading",
    "pk":98
- }
+ },
+ {
+  "fields": {
+     "class_date":7,
+     "title":"Getting Real About Agile Design",
+     "url":"http://www.alistapart.com/articles/gettingrealaboutagiledesign/"
+  },
+   "model":"syllabus.Reading",
+   "pk":99
+ },
+ {
+  "fields": {
+     "class_date":7,
+     "title":"Agile/Lean Documentation: Strategies for Agile Software Development",
+     "url":"http://www.agilemodeling.com/essays/agileDocumentation.htm"
+   },
+   "model":"syllabus.Reading",
+   "pk":100
+  },
+ {
+  "fields": {
+    "class_date":8,
+    "title":"The Semantic Web",
+    "url":"http://www.scientificamerican.com/article.cfm?id=the-semantic-web"
+  },
+  "model":"syllabus.Reading",
+  "pk":101
+ },
+{
+  "fields": {
+    "class_date":7,
+    "page_range":"95-116",
+    "title":"Evaluating the Usage of Library Networked Electronic Resources",
+    "url":"http://www.arl.org/bm~doc/lac-greece-2005.pdf"
+  },
+  "model":"syllabus.Reading",
+  "pk":102
+ },
+{
+  "fields": {
+    "class_date":8,
+    "title":"Infographic: A Mobile Storm in the Cloud",
+    "url":"http://www.engineyard.com/blog/wp-content/uploads/platform-as-a-service-v2.jpg"
+  },
+  "model":"syllabus.Reading",
+  "pk":103
+},
+{
+  "fields": {
+    "class_date":8,
+    "title":"The Future of Apps and Web",
+    "url":"http://pewinternet.com/Reports/2012/Future-of-Apps-and-Web/Overview.aspx"
+  },
+  "model":"syllabus.Reading",
+  "pk":104
+},
+{
+  "fields": {
+    "class_date":8,
+    "title":"Gartner Reveals Top Predictions for IT Organizations and Users for 2012 and Beyond",
+    "url":"http://www.gartner.com/it/page.jsp?id=1862714"
+  },
+  "model":"syllabus.Reading",
+  "pk":105
+}
 ]

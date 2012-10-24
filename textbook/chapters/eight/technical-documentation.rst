@@ -25,4 +25,24 @@ While libraries may not need to provide the source-code documentation of the sys
 they are using; often there is a need to supplement the technical documentation provided
 by the vendor. Besides outlining the workflow steps to accomplish a specific task, library's
 often include hints and other supplemently information that comes from experience using the
-software.  
+software.
+
+Some of the reasons that people write and use documentation in an Agile process is outlined
+below [#]_ :
+
+  #. Your stack-holders require it - for libraries this may be a requirement from other
+     reference or instruction libraries, or be a requirement by the library administration.
+
+  #. Support communication with an external group - city administrations, campus administration,
+     grant agencies, are all examples of library external groups that may require different 
+     levels of documentation to support a library system.
+
+  #. Support organizational memory - With libraries, the time horizon of any particular library
+     system may span multiple people responsible for the library system. Documentation provides
+     a historical memory of why certain work-flows are the way they are or helpful workarounds
+     or local practice using or working with a software product or project.
+
+
+.. [#] `Agile/Lean Documentation: Strategies for Agile Software Development`_
+
+.. _`Agile/Lean Documentation: Strategies for Agile Software Development`: http://www.agilemodeling.com/essays/agileDocumentation.htm 
