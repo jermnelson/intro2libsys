@@ -1,0 +1,109 @@
+{% extends 'fluid.html' %}
+{% load i18n %}
+{% load syllabus_extras %}
+
+{% block navbar-fixed %}
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container-fluid">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+       </a>
+    </div>
+   <a class="brand" href="/">DU ASIS&T Student Chapter TechBytes Presentation</a>
+   <div class="nav-collapse">
+     <ul class="nav secondary-nav">
+      <li class="active"><a href="/">Home</a></li>
+     </ul>
+   </div>
+  </div>
+</div>
+{% endblock %}
+
+
+{% block top-menu-bar %}
+{% endblock %}
+
+{% block sidebar-nav %}
+<div class="span3">
+<div class="well sidebar-nav">
+ <ul class="nav nav-list nav-tabs nav-stacked">
+  <li class="nav-header">Background:</li>
+  <li class="nav-header">Resources:</li>
+  <li><a href="/techbytes/glossary.html">Glossary</a></li>
+  <li><a href="/techbytes/references.html">References</a></li>
+  <li><a href="/techbytes/task-summary.html">Task Summary</a></li>
+  <li><a href="/techbytes/manager-summary.html">Manager Summary</a></li>
+  <li><a href="/techbytes/leader-summary.html">Leader Summary</a></li>
+ </ul>
+</div>
+</div>
+{% endblock %}
+
+{% block breadcrumbs %}
+{% endblock %}
+
+{% block hero-unit %}
+<div class="span7 hero-unit">
+ <h2>TechBytes Presentation</h2>
+ <h1>The Library as a Start-up</h1>
+ <p class="lead">
+  Using <a href="/glossary.html#NoSQL">NoSQL</a>, 
+        <a href="/glossary.html#MARCR">MARCR</a>, and 
+        <a href="/glossary.html#HTML5">HTML5</a> Apps for 
+   managing a modern Bibliographic Datastore 
+ </p>
+</div>
+{% endblock %}
+
+{% block first-row %}
+<div class="row">
+<div class="span4 well">
+<h2>Presentation Outline</h2>
+ <ul>
+ </ul>
+</div>
+<div class="span3 well">
+<h2> </h2>
+ <p>
+ 
+ </p>
+</div>
+</div>
+{% endblock %}
+
+{% block dialogs %}
+<div id="desc-dlg" class="modal fade">
+ <div class="modal-header">
+   <h2>Presentation Description</h2>
+ </div>
+ <div class="modal-body">
+  <p>
+    Library Systems and cutting-edge technology used by Silicon Valley start-ups are 
+    not often associated with each other; however, the Tutt Library at Colorado College 
+    is developing and uses an HTML5 mobile app environment that connects to a 
+    bibliographic datastore server implemented in Redis.
+  </p>
+  <p>
+    Redis is a popular NoSQL key-value technology used by such companies as StackOverflow, 
+    Craigslist, and other websites with extremely high and demanding data needs. The 
+    flexibility of Redis allows the library to quickly respond to staff and users requests 
+    for different functionality and access points that would be very difficult or impossible 
+    with traditional library systems. 
+  </p>
+  <p>
+    Redis also allows for easy experimentation and so it is the first production-level 
+    implementation of the Library of Congress Bibliographic Framework's new data model, MARCR.  
+    Finally, a preview of a consortium-level bibliographic Redis datastore done in 
+    collaboration with the Colorado Alliance of Research Libraries, will presented that allows 
+    for new and different kinds mobile-based access and discovery apps along with resource-sharing 
+    services for library users and staff.
+  </p>
+ </div>
+ <div class="modal-footer">
+  <a href="#" class="btn btn-primary" data-dismiss="modal">Close</a>
+ </div>
+</div>
+{% endblock %}
