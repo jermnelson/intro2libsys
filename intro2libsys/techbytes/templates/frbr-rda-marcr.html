@@ -1,0 +1,50 @@
+{% extends 'presentation-base.html' %}
+{% load i18n %}
+
+{% block title %}FRBR, RDA, & Redis MARCR Datastore{% endblock %}
+
+{% block main-content %}
+<div class="jumbotron">
+ <h1>FRBR, RDA, & Redis MARCR Datastore</h1>
+ <p class="lead">
+  A high-level introduction to <a href="/techbytes/glossary.html#FRBR">FRBR</a>, <a href="/techbytes/glossary.html#RDA">RDA</a>,
+  <a href="/techbytes/glossary.html#Redis">Redis</a> and <a href="/techbytes/glossary.html#MARCR">MARCR</a> is needed to understand
+  the advantages a NoSQL-based bibliographic datastore provides over traditional Library's ILS MARC21 and Discovery Platforms
+ </p>
+ <a class="btn btn-large btn-success" href="/techbytes/cc-marcr-ds-lib-apps.html"> MARCR Datastore and Library Apps at Colorado College &raquo;</a>
+</div>
+{% endblock %}
+
+{% block support-content %}
+<div class="row-fluid marketing">
+ <div class="span4">
+  <h3>FRBR</h3>
+  <p>Functional Requirements for Bibliographic Records (FRBR) is specification originally written in 1998
+  </p>
+  <ul>
+   <li>WEMI Entities - <strong>Work</strong>, <strong>Expression</strong>, <strong>Manifestation</strong> and
+   <strong>Item</strong></li>
+   <li>Technical</li>
+   <li>Clerical</li>
+   <li>Support</li>
+  </ul>
+  <a class="btn btn-info btn-large">NoSQL &amp; Redis</a>
+ </div>
+ <div class="span4">
+  <h3>RDA</h3>
+  <ul>
+   <li>Communicate</li>
+   <li>Coordinate</li>
+   <li>Translate</li>
+  </ul>
+ </div>
+ <div class="span4">
+  <h3>MARCR</h3>
+  <ul>
+    <li>Vision</li>
+	<li>Risk</li>
+	<li>Influence</li>
+  </ul>
+ </div>
+</div>
+{% endblock %}

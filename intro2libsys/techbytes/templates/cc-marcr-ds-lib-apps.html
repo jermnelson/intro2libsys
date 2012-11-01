@@ -1,0 +1,43 @@
+{% extends 'presentation-base.html' %}
+{% load i18n %}
+
+{% block title %}MARCR Datastore and Library Apps at Colorado College{% endblock %}
+
+{% block main-content %}
+<div class="jumbotron">
+ <h1>MARCR Datastore and Library Apps at </h1>
+ <img src="{{ STATIC_URL }}img/cclogohoriz.jpg"  />
+ <p class="lead"></p>
+ <a class="btn btn-large btn-success" href="/techbytes/consortium-marcr-ds.html">Evolving towards a Consortium MARCR Datastore Hybrid-Cloud &raquo;</a>
+</div>
+{% endblock %}
+
+{% block support-content %}
+<div class="row-fluid marketing">
+ <div class="span4">
+  <h3>Task Level</h3>
+  <ul>
+   <li>Professional</li>
+   <li>Technical</li>
+   <li>Clerical</li>
+   <li>Support</li>
+  </ul>
+ </div>
+ <div class="span4">
+  <h3>Managerial Level</h3>
+  <ul>
+   <li>Communicate</li>
+   <li>Coordinate</li>
+   <li>Translate</li>
+  </ul>
+ </div>
+ <div class="span4">
+  <h3>Leadership Level</h3>
+  <ul>
+    <li>Vision</li>
+	<li>Risk</li>
+	<li>Influence</li>
+  </ul>
+ </div>
+</div>
+{% endblock %}

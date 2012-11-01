@@ -1,0 +1,44 @@
+{% extends 'presentation-base.html' %}
+{% load i18n %}
+
+{% block title %}Pat Wagner's Organizational Map{% endblock %}
+
+{% block main-content %}
+<div class="jumbotron">
+ <h2>Pat Wagner's</h2>
+ <h1>Organizational Map</h1>
+ <p class="lead">Pat Wagner, of <a href="http://www.pattern.com/">Pattern Research Inc.</a>, provides a useful
+ management model for library organizations.</p>
+ <a class="btn btn-large btn-success" href="/techbytes/lean-startup.html">The Lean Startup &raquo;</a>
+</div>
+{% endblock %}
+
+{% block support-content %}
+<div class="row-fluid marketing">
+ <div class="span4">
+  <h3>Task Level</h3>
+  <ul>
+   <li>Professional</li>
+   <li>Technical</li>
+   <li>Clerical</li>
+   <li>Support</li>
+  </ul>
+ </div>
+ <div class="span4">
+  <h3>Managerial Level</h3>
+  <ul>
+   <li>Communicate</li>
+   <li>Coordinate</li>
+   <li>Translate</li>
+  </ul>
+ </div>
+ <div class="span4">
+  <h3>Leadership Level</h3>
+  <ul>
+    <li>Vision</li>
+	<li>Risk</li>
+	<li>Influence</li>
+  </ul>
+ </div>
+</div>
+{% endblock %}

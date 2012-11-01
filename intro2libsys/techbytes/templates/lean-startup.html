@@ -1,0 +1,163 @@
+{% extends 'presentation-base.html' %}
+{% load i18n %}
+
+{% block title %}The Lean Start-up{% endblock %}
+
+{% block main-content %}
+<div class="jumbotron">
+ <h1>The Lean Start-up</h1>
+ <p class="lead">While Silicon Valley is justifiably famous for its start-up and
+ entrepreneurial culture, Libraries can improve their technology and services by 
+ adopting many of these principles in their own organizational structures and
+ practices.</p>
+ <a class="btn btn-large btn-success" href="/techbytes/frbr-rda-marcr.html" >FRBR, RDA, &amp; Redis MARCR Datastore &raquo;</a>
+</div>
+{% endblock %}
+
+{% block support-content %}
+<div class="row-fluid marketing">
+ <div class="span6">
+  <div class="well">
+   <img src="{{ STATIC_URL }}img/mccahill-lean-startup.png" />
+   From slide 3 of Laurence McCahill's 
+  <a href="http://www.slideshare.net/spookstudio/what-the-fk-is-lean-startup-and-why-should-i-care">What the f**k is lean startup and why should I care?</a>
+  </div>
+  <a class="btn btn-inverse btn-large"  
+     href="#ries-four-principles-dlg" data-toggle="modal">
+	 <img src="http://theleanstartup.com/images/eric_ries.png" style="float:left;width:60px;height:95px" />
+	 <span style="font-size: 1.5em;">Eric Ries's Five Principles of Lean Start-ups</span>
+	 
+ </a>
+ </div> 
+ <div class="span4">
+  <h3>What about DevOps?</h3>
+  <p>
+   As most libraries exist and operate under an existing organization that may 
+   have been in place for a significant time, this doesn't mean that we can't 
+   take advantages of having a "start-up" mentality.
+  </p>
+  <p>
+   
+  </p>
+  <div>
+   <a href="#" 
+      rel="popover"
+      class="btn btn-warning btn-large"
+	  data-placement="left"
+	  data-original-title="Where are the library start-ups?"
+	  data-content="In recent years there has been a consolidation of companies in the traditional library bibliographic industry, start-up activity is more active the digital repository submarket"><h3>Where are the library start-ups?</h3>
+   </a>
+  </div>
+ </div>
+</div>
+{% endblock %}
+
+{% block dialogs %}
+<div id="ries-four-principles-dlg" class="modal fade">
+ <div class="modal-header">
+  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+  <img src="http://theleanstartup.com/images/eric_ries.png" class="img-polaroid" style="float:right;width:75px;height:120px" />
+  <h2>Eric Ries's Five Principles of Lean Start-ups</h2>
+  <p class="lead">As Applied To Libraries and Technology</p>
+ </div>
+ <div class="modal-body">
+ <div class="accordion" id="eric-ries-lean-startup-accordion">
+    <div class="accordion-group">
+	  <div class="accordion-heading">
+		<a href="#entrepreneurs-everywhere"
+		   class="btn accordion-toggle" 
+		   data-toggle="collapse"
+		   data-parent="#eric-ries-lean-startup-accordion"><h3>Entrepreneurs are Everywhere</h3></a>
+	  </div>
+	  <div id="entrepreneurs-everywhere" class="accordion-body collapse in">
+	   <p>
+		As library leaders, look for entrepreneurial or creative ideas from the task
+		and managerial levels in the library. 
+	   </p>
+	   <p>
+	    As library managers, look for technologies and services that can either enhaunce
+		patron services, improve staff task productivity, or assist in assesstment or 
+		measurement activities within the next 24 months.
+	   </p>
+	   <p>
+	   
+	   </p>
+	  </div> 
+	</div>
+    <div class="accordion-group">
+	  <div class="accordion-heading">
+	   <a href="#entrepreneurship-management"
+	      class="btn accordion-toggle" 
+		  data-toggle="collapse"
+		  data-parent="#eric-ries-lean-startup-accordion"><h3>Entrepreneurship is Management</h3></a>
+	  </div>
+	  <div id="entrepreneurship-management" class="accordion-body collapse">
+	    <p>
+		 Managing people in a fast-changing environment with uncertain resource and 
+		 time constraints can frustrate the reference, circulation, and library systems
+		 staff who are responsible for the providing patron technology-oriented services.
+		</p>
+		<p>
+		 
+		</p>
+		<p>
+		 Librarian leadership can sometimes, as Pat Wagner warns, become
+		</p>
+		<p class="alert alert-error lead"><strong>"Out of touch with reality and people."</strong></p>
+        <p>
+         By encouraging the managers in the library to run their 		
+		</p>
+	  </div>
+	</div>
+	<div class="accordion-group">
+	 <div class="accordion-heading">
+	  <a href="#validated-learning"
+	     class="btn accordion-toggle" 
+		 data-toggle="collapse"
+		 data-parent="#eric-ries-lean-startup-accordion"><h3>Validated Learning</h3></a>
+	 </div>
+     <div id="validated-learning" class="accordion-body collapse">
+	  <p>
+	   How can we manage the main tasks envolved in such services provided by library instruction,
+	   meta-data cataloging of born-digital objects, and circulation?
+	  </p>
+	 </div>
+	</div>
+	<div class="accordion-group">
+	 <div class="accordion-heading">
+	  <a href="#innovation-accounting"
+	     class="btn accordion-toggle" 
+		 data-toggle="collapse"
+		 data-parent="#eric-ries-lean-startup-accordion"><h3>Innovation Accounting</h3></a>
+	 </div>
+     <div id="innovation-accounting" class="accordion-body collapse">
+	  <p>
+	   Assessment metrics flows from tasks, summarized by managers, for use by library
+	   leadership in advocating for libraries to external bodies, be they an university,
+	   a town coucil, or a legistative body. Technology should streamline this information
+	   flow and the promise of big data is that real-time analytics can be generated, summarized,
+	   and acted upon sooner in any organization. 
+	  </p>
+	 </div>	 
+	</div>
+	<div class="accordion-group">
+	 <div class="accordion-heading">
+	   <a href="#build-measure-learn"
+	      class="btn accordion-toggle" 
+		  data-toggle="collapse"
+		  data-parent="#eric-ries-lean-startup-accordion"><h3>Build-Measure-Learn</h3></a>
+	  </div>
+	  <div id="build-measure-learn" class="accordion-body collapse">
+	   <p>
+	     How can technology be utilized by managers and tasks-oriented staff so the library
+	     follows its leadership's vision for the library's future?
+	   </p>
+	  </div>
+	 </div>
+  </div>
+ </div>
+ <div class="modal-footer">
+  <a href="#" class="btn btn-primary" data-dismiss="modal">Close</a>
+ </div>
+</div>
+{% endblock %}
