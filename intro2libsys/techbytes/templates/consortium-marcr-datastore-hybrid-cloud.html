@@ -1,14 +1,18 @@
 {% extends 'presentation-base.html' %}
 {% load i18n %}
 
-{% block title %}MARCR Datastore and Library Apps at Colorado College{% endblock %}
+{% block title %}Evolving towards a Consortium MARCR Datastore in a Hybrid-Cloud{% endblock %}
 
 {% block main-content %}
 <div class="jumbotron">
- <h1>MARCR Datastore and Library Apps at </h1>
- <img src="{{ STATIC_URL }}img/cclogohoriz.jpg"  />
- <p class="lead"></p>
- <a class="btn btn-large btn-success" href="{% url techbytes.views.consortium_marcr_ds_hybrid_cloud %}">Evolving towards a Consortium MARCR Datastore Hybrid-Cloud &raquo;</a>
+ <h1>Evolving towards a Consortium MARCR Datastore in a Hybrid-Cloud</h1>
+ <p class="lead">
+   Colorado College is collaborating closely with the Colorado Alliance of 
+   Research Libraries on a multi-year project for a "union catalog" representing
+   all of the Works in the Alliance's member institution while offerring realtime
+   metrics for the resource sharing of the member institution's Instances.
+ </p> 
+ <a class="btn btn-large btn-success" href="#">Questions?</a>
 </div>
 {% endblock %}
 

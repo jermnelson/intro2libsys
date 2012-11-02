@@ -72,8 +72,26 @@
       <div class="masthead">
         <ul class="nav nav-pills pull-right">
           <li {% if section == 'home' %}class="active"{% endif %}><a href="/techbytes/">Home</a></li>
-          <li {% if section == 'presentation' %}class="active"{% endif %}><a href="#">Presentation</a></li>
-          <li {% if section == 'addendum' %}class="active"{% endif %}><a href="#">Addendum</a></li>
+          <li class="dropdown{% if section == 'presentation' %} active{% endif %}">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Presentation</a>
+            <ul class="dropdown-menu" role="menu">
+             <li><a href="{% url techbytes.views.orgmap %}">Organizational Map</a></li>
+             <li><a href="{% url techbytes.views.leanstartup %}">The Lean Startup</a></li>
+             <li><a href="{% url techbytes.views.frbr_rda_marcr %}">FRBR, RDA, &amp; Redis MARCR Datastore</a></li>
+             <li><a href="{% url techbytes.views.cc_marcr_apps %}">MARCR Datastore and Library Apps at Colorado College</a></li>
+             <li><a href="{% url techbytes.views.consortium_marcr_ds_hybrid_cloud %}">Evolving towards a Consortium MARCR Datastore in a Hybrid-Cloud</a></li>
+            </ul>
+          </li>
+          <li class="dropdown{% if section == 'addendum' %} active{% endif %}">
+           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Addendum</a>
+           <ul class="dropdown-menu" role="menu">
+            <li><a href="{% url techbytes.views.glossary %}">Glossary</a></li>
+            <li><a href="{% url techbytes.views.resources  %}">Resources</a></li>
+            <li><a href="{% url techbytes.views.task_summary %}">Task Summary</a></li>
+            <li><a href="{% url techbytes.views.manager_summary %}">Managerial Summary</a></li>
+            <li><a href="{% url techbytes.views.leader_summary %}">Leadership Summary</a></li>
+           </ul>
+          </li>
         </ul>
         <h3 class="muted"><img src="{{ STATIC_URL }}img/du_logo.gif" /><br/> ASIS&amp;T TechBytes Presentation</h3>
       </div>	  

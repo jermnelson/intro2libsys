@@ -5,40 +5,95 @@
 
 {% block main-content %}
 <div class="jumbotron">
- <h2>Pat Wagner's</h2>
+ <h2 class="media-heading">The Pattern Research Leadership Model</h2>
  <h1>Organizational Map</h1>
- <p class="lead">Pat Wagner, of <a href="http://www.pattern.com/">Pattern Research Inc.</a>, provides a useful
- management model for library organizations.</p>
- <a class="btn btn-large btn-success" href="/techbytes/lean-startup.html">The Lean Startup &raquo;</a>
+  <a class="btn btn-large btn-success" href="/techbytes/lean-startup.html">The Lean Startup &raquo;</a>
 </div>
 {% endblock %}
 
 {% block support-content %}
 <div class="row-fluid marketing">
+<div class="media">
+  <a class="pull-left" href="#">
+    <img src="{{ STATIC_URL }}img/pat-wagner.jpg" class="media-object img-polaroid">
+  </a>
+  <div class="media-body">
+   <p style="margin-left: 120px" class="lead">Pat Wagner, of 
+    <a href="http://www.pattern.com/">Pattern Research Inc.</a>, provides a useful
+    management model for library organizations. task, managerial, and leadership levels
+    in a library demand similar and different requirements from library systems and 
+    and supporting technologies.
+    <a class="btn btn-warning" href="#time-org-map-dlg" data-toggle="modal"><i class="icon-time icon-white"></i> Time</a>
+   </p>
+  </div>
+</div>
+</div>
+<hr/>
+<div class="row-fluid marketing">
  <div class="span4">
   <h3>Task Level</h3>
   <ul>
-   <li>Professional</li>
-   <li>Technical</li>
-   <li>Clerical</li>
-   <li>Support</li>
+   <li>Professional
+    <p><span class="label">Reference Desk</span> A reference librarian assisting a patron with a question
+     using the library's <span class="label label-info">catalog</span>
+    </p>
+    <p><span class="label">Technical Services</span> An acquisition staff members orders a book request of a 
+    patron and creates a stub record in the library's <span class="label label-info">ILS</span></p>
+   </li>
+   <li>Technical
+    <p><span class="label">Library ILS Support</span> makes sure the library's online 
+      <span class="label label-info">catalog</span> and <span class="label label-info">ILS</span> is
+      properly backed-up.</p> 
+   </li>
   </ul>
  </div>
  <div class="span4">
   <h3>Managerial Level</h3>
+  <span class="label label-warning">Reference Department Head</span>
   <ul>
-   <li>Communicate</li>
-   <li>Coordinate</li>
-   <li>Translate</li>
+   <li><strong>Communicate</strong> results of <span class="label">Reference Desk</span> 
+   reference interviews for the past year using the library's <span class="label label-info">catalog</span>
+   to the <span class="label label-warning">System Department Head</span>.
+   </li>
+   <li><strong>Coordinate</strong> <span class="label">Reference Desk</span> schedule for the next
+    month.
+   </li>
+   <li><strong>Translate</strong> actions and outcomes of the  <span class="label">Reference Desk</span>
+    operations to library leadership and other departments like 
+   <span class="label label-warning">Technical Department Head</span> and staff in 
+   <span class="label">Library ILS Support</span> 
+   </li>
   </ul>
  </div>
  <div class="span4">
   <h3>Leadership Level</h3>
+  <span class="label label-important">Library Director</span>
   <ul>
-    <li>Vision</li>
-	<li>Risk</li>
-	<li>Influence</li>
+    <li><strong>Vision</strong>        </li>
+    <li><strong>Risk</strong> </li>
+    <li><strong>Influence</strong> 
+     <ul>
+      <li>
+     </ul>
+    </li>
   </ul>
+ </div>
+</div>
+{% endblock %}
+
+{% block dialogs %}
+<div class="modal fade" id="time-org-map-dlg">
+ <div class="modal-header">
+  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+  <h2>Library Organizational Map in Time</h2> 
+ </div>
+ <div class="modal-body">
+ <p>
+  <img src="{{ STATIC_URL }}img/time-lib-org-map.svg" alt="Time in a Library Organizational Map" />
+ </p>
+ </div>
+  <div class="modal-footer">
+  <a href="#" class="btn btn-primary" data-dismiss="modal">Close</a>
  </div>
 </div>
 {% endblock %}

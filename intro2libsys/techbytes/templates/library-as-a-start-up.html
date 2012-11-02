@@ -4,9 +4,9 @@
       <div class="jumbotron">
         <h1>The Library as a Lean Start-up</h1>
         <p class="lead">
-		  Using <a href="/glossary.html#NoSQL">NoSQL</a>, 
-          <a href="/glossary.html#MARCR">MARCR</a>, and 
-          <a href="/glossary.html#HTML5">HTML5</a> Apps for managing a modern 
+		  Using <a href="{% url techbytes.views.glossary %}#NoSQL">NoSQL</a>, 
+          <a href="{% url techbytes.views.glossary %}#MARCR">MARCR</a>, and 
+          <a href="{% url techbytes.views.glossary %}#HTML5">HTML5</a> Apps for managing a modern 
 		  Bibliographic Datastore 
 		</p>
         <a class="btn btn-large btn-success" href="/techbytes/org-map.html">Organizational Map &raquo;</a>
@@ -37,28 +37,35 @@
 			 
 		  <h4>FRBR, RDA, &amp; Redis MARCR Datastore</h4>
           <p>In our current library ILS, OPACS, and even next-generation of library services platforms being developed by
-		     library vendors, offer minimal support for FRBR and RDA. RDA, an effort
-             lead by the ALA and others, is based on FRBR and is intended to be the replacement of AACR2. There is much concern
-			 about the added cost, lack of supporting technologies, and complexity for implementing RDA from the MARC21-based 
-			 technologies being used and developed in libraries.</p>
-		  <p>
-            MARCR is the name given to a new proposal by the Library of Congress's Bibliographic Framework Initiative that
-			borrows many concepts from both RDA and MARC21 to support a more of a Linked-Data approach to bibliographic 
-			records. MARCR uses
-		  </p>
-		  <a href="/techbytes/frbr-rda-marcr.html" class="btn btn-small">Learn More &raquo;</a> 
+	     library vendors, offer minimal support for 
+             <a href="{% url techbytes.views.glossary %}#FRBR">FRBR</a> and 
+             <a href="{% url techbytes.views.glossary %}#RDA">RDA</a>. RDA, an effort
+             lead by the <a href="{% url techbytes.views.glossary %}#ALA">ALA</a> and others, is based on 
+             FRBR and is intended to be the replacement of <a href="{% url techbytes.views.glossary %}#AACR2">AACR2</a>. 
+             There is much concern
+             about the added cost, lack of supporting technologies, and complexity for implementing RDA from the 
+             <a href="{% url techbytes.views.glossary %}#MARC21">MARC21</a>-based 
+	     technologies being used and developed in libraries.</p>
+	  <p>
+            <a href="{% url techbytes.views.glossary %}#MARCR">MARCR</a> is the name given to a new proposal by the 
+            Library of Congress's Bibliographic Framework Initiative that
+            borrows many concepts from both RDA and MARC21 to support a more of a 
+            <a href="{% url techbytes.views.glossary %}#LinkedData">Linked-Data</a> 
+            approach to bibliographic records.
+	  </p>
+		  <a href="{% url techbytes.views.frbr_rda_marcr %}" class="btn btn-small">Learn More &raquo;</a> 
         </div>
 
         <div class="span6">
           <h4>MARCR Datastore and Library Apps at Colorado College</h4>
           <p>
-		  <a href="/techbytes/cc-marcr-ds-lib-apps.html" class="btn btn-small">Learn More &raquo;</a> 
-		  </p>
-		  <h4>Evolving towards a Consortium MARCR Datastore in a Hybrid-Cloud</h4>
-		  <p>
-		   <a href="/techbytes/consortium-marcr-ds.html" class="btn btn-small">Learn More &raquo;</a> 
-		  </p>
-		  <h4>Presentation Addendum</h4>
+ 	    <a href="/techbytes/cc-marcr-ds-lib-apps.html" class="btn btn-small">Learn More &raquo;</a> 
+	  </p>
+          <h4>Evolving towards a Consortium MARCR Datastore in a Hybrid-Cloud</h4>
+	  <p>
+	   <a href="{% url techbytes.views.consortium_marcr_ds_hybrid_cloud %}" class="btn btn-small">Learn More &raquo;</a> 
+	  </p>
+	  <h4>Presentation Addendum</h4>
         </div>
       </div>
       {% endblock %}
