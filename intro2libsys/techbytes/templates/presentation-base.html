@@ -103,7 +103,14 @@
   {% block support-content %}
   {% endblock %}
   <hr />
-  
+  <div class="row-fluid marketing">
+    <div class="span12 jumbotron">
+    <h1>{% if next_slide_title %}{{ next_slide_title }}{% else %} Next Slide ...{% endif %}</h1>
+    {% block next-slide %}
+    {% endblock %}
+    </div>
+  </div>
+  <hr /> 
   {% block footer %}
    <div class="footer">
      <p>&copy; Jeremy Nelson 2012</p>

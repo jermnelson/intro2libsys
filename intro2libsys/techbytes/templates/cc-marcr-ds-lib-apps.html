@@ -8,36 +8,99 @@
  <h1>MARCR Datastore and Library Apps at </h1>
  <img src="{{ STATIC_URL }}img/cclogohoriz.jpg"  />
  <p class="lead"></p>
- <a class="btn btn-large btn-success" href="{% url techbytes.views.consortium_marcr_ds_hybrid_cloud %}">Evolving towards a Consortium MARCR Datastore Hybrid-Cloud &raquo;</a>
 </div>
 {% endblock %}
 
 {% block support-content %}
 <div class="row-fluid marketing">
  <div class="span4">
-  <h3>Task Level</h3>
-  <ul>
-   <li>Professional</li>
-   <li>Technical</li>
-   <li>Clerical</li>
-   <li>Support</li>
-  </ul>
+ <div class="well" style="width:65%">
+  <a href="#no-sql-cloud-dlg" 
+     class="btn btn-info btn-large" 
+     data-toggle="modal">NoSQL &amp; Cloud <br/> Computing<img style="float:right" src="{{ STATIC_URL }}img/rain-icon.png" /></a>
  </div>
- <div class="span4">
-  <h3>Managerial Level</h3>
-  <ul>
-   <li>Communicate</li>
-   <li>Coordinate</li>
-   <li>Translate</li>
-  </ul>
+ <div>
+  <a href="#redis-key-value-dlg"
+     class="btn btn-large"
+     data-toggle="modal"><img src="http://redis.io/images/redis-small.png" /> Redis Datastore</a>
  </div>
- <div class="span4">
-  <h3>Leadership Level</h3>
-  <ul>
-    <li>Vision</li>
-	<li>Risk</li>
-	<li>Influence</li>
-  </ul>
+
+ </div>
+ <div class="span8">
+  <h3>Django, HTML5, and Bootstrap</h3>
+  <div class="alert alert-block alert-success">
+   <img src="https://www.djangoproject.com/m/img/site/hdr_logo.gif" />
+   <p class="lead">
+    The Aristotle Library Apps uses the
+    <a href="{% url techbytes.views.glossary %}#Python">Python</a>-based open source web
+    framework called <a href="{% url techbytes.views.glossary %}#Django">Django</a> to 
+    develop small self-contained web apps
+    that are designed for a simple user-interface for multiple-device
+    use.
+   </p>
+  </div>
+  <div class="alert alert-block">
+   <img src="{{ STATIC_URL}}img/HTML5-logo.png" style="float:left" />
+   <h2>&amp; Bootstrap</h2>
+   <p class="lead">
+    <a href="{% url techbytes.views.glossary %}#TwitterBootstrap">Twitter Bootstrap</a> is 
+    an open-source front-end web user interface framework built using 
+    <a href="{% url techbytes.views.glossary %}#HTML5">HTML5</a>. 
+    Bootstrap also supports responsive web development, a technique that allows an HTML
+    page to adjust its content and presentation based on the cabilities of the requesting
+    device, including smartphones, tablets, and personal computers.
+   </p>
+  </div>
+ </div>
+</div>
+<hr />
+<div class="row-fluid marketing">
+ <div class="span6">
+  <h2>Current Use</h2>
+  <p class="lead">
+   Colorado College's Redis MARCR Datastores enhance
+   search results from our  
+   <a href="http://discovery.coloradocollege.edu/">Discovery Layer</a>
+  </p>
+ </div>
+ <div class="span6">
+  <h2>Next 6-12 months</h2>
+  <p class="lead">
+   
+  </p>
+ </div> 
+</div> 
+{% endblock %}
+
+{% block next-slide %}
+ <a class="btn btn-large btn-success" href="{% url techbytes.views.consortium_marcr_ds_hybrid_cloud %}">Evolving towards a Consortium MARCR Datastore Hybrid-Cloud &raquo;</a>
+{% endblock %}
+
+{% block dialogs %}
+<div class="modal fade" id="no-sql-cloud-dlg">
+ <div class="modal-header">
+  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+  <h2>NoSQL &amp; Cloud Computing</h2>
+ </div>
+ <div class="modal-body">
+  <div class="alert alert-block alert-info">
+   <img style="float:right" src="{{ STATIC_URL }}img/rain-icon.png" />
+  </div>
+ </div>
+ <div class="modal-footer">
+  <a class="btn btn-primary" data-dismiss="modal">Close</a>
+ </div>
+</div>
+<div class="modal fade" id="redis-key-value-dlg">
+ <div class="modal-header">
+  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+  <h2>Redis MARCR Datastore</h2>
+ </div>
+ <div class="modal-body">
+  <img src="http://redis.io/images/redis-small.png" />
+ </div>
+ <div class="modal-footer">
+  <a class="btn btn-primary" data-dismiss="modal">Close</a>
  </div>
 </div>
 {% endblock %}

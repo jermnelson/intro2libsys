@@ -9,8 +9,7 @@
           <a href="{% url techbytes.views.glossary %}#HTML5">HTML5</a> Apps for managing a modern 
 		  Bibliographic Datastore 
 		</p>
-        <a class="btn btn-large btn-success" href="/techbytes/org-map.html">Organizational Map &raquo;</a>
-      </div>
+     </div>
      {% endblock %}
       <hr>
      {% block support-content %}
@@ -69,4 +68,6 @@
         </div>
       </div>
       {% endblock %}
-      <hr>
+      {% block next-slide %}
+        <a class="btn btn-large btn-success" href="/techbytes/org-map.html">Organizational Map &raquo;</a>
+      {% endblock %} 

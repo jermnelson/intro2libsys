@@ -7,11 +7,12 @@
 <div class="jumbotron">
  <h1>FRBR, RDA, & Redis MARCR Datastore</h1>
  <p class="lead">
-  A high-level introduction to <a href="/techbytes/glossary.html#FRBR">FRBR</a>, <a href="/techbytes/glossary.html#RDA">RDA</a>,
-  <a href="/techbytes/glossary.html#Redis">Redis</a> and <a href="/techbytes/glossary.html#MARCR">MARCR</a> is needed to understand
-  the advantages a NoSQL-based bibliographic datastore provides over traditional Library's ILS MARC21 and Discovery Platforms
+  A high-level introduction to <a href="{% url techbytes.views.glossary %}#FRBR">FRBR</a>,
+  <a href="{% url techbytes.views.glossary %}#RDA">RDA</a>,
+  and <a href="{% url techbytes.views.glossary %}#MARCR">MARCR</a> is needed to understand
+  the advantages of a <a href="{% url techbytes.views.glossary %}#Redis">Redis</a> NoSQL-based bibliographic datastore 
+  to Libraries. 
  </p>
- <a class="btn btn-large btn-success" href="/techbytes/cc-marcr-ds-lib-apps.html"> MARCR Datastore and Library Apps at Colorado College &raquo;</a>
 </div>
 {% endblock %}
 
@@ -22,33 +23,31 @@
   <p>Functional Requirements for Bibliographic Records (FRBR) is specification originally written in 1998
   </p>
   <ul>
-   <li>WEMI Entities - <strong>Work</strong>, <strong>Expression</strong>, <strong>Manifestation</strong> and
-   <strong>Item</strong></li>
-   <li>Technical</li>
-   <li>Clerical</li>
-   <li>Support</li>
+   <li><a href="{% url techbytes.views.glossary %}#WEMI">WEMI</a> Entities
+     <ul> 
+      <li><strong>Work</strong></li> 
+      <li><strong>Expression</strong></li>
+      <li> <strong>Manifestation</strong></li>
+      <li><strong>Item</strong></li>
+     </li>
+   </li>
   </ul>
-  <a class="btn btn-info btn-large">NoSQL &amp; Redis</a>
- </div>
+   </div>
  <div class="span4">
   <h3>RDA</h3>
-  <ul>
-   <li>Communicate</li>
-   <li>Coordinate</li>
-   <li>Translate</li>
-  </ul>
  </div>
  <div class="span4">
   <h3>MARCR</h3>
-  <ul>
-    <li>Vision</li>
-	<li>Risk</li>
-	<li>Influence</li>
-  </ul>
   <a href="#marcr-dlg" class="btn btn-primary" data-toogle="modal">MARCR Visualization</a>
  </div>
 </div>
 {% endblock %}
+
+{% block next-slide %}
+ <a class="btn btn-large btn-success" 
+    href="/techbytes/cc-marcr-ds-lib-apps.html"> MARCR Datastore and Library Apps at Colorado College &raquo;</a>
+{% endblock %}
+
 {% block dialogs %}
 <div class="modal fade" id="frbr-dlg">
  <div class="modal-header">

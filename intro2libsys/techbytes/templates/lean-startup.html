@@ -10,7 +10,6 @@
  entrepreneurial culture, Libraries can improve their technology and services by 
  adopting many of these principles in their own organizational structures and
  practices.</p>
- <a class="btn btn-large btn-success" href="/techbytes/frbr-rda-marcr.html" >FRBR, RDA, &amp; Redis MARCR Datastore &raquo;</a>
 </div>
 {% endblock %}
 
@@ -27,39 +26,45 @@
     <li><a href="{% url techbytes.views.glossary %}#MVP">MVP</a>: minimum awesome not awful</li>
     <li>The web is your lab, keep testing and measuring</li>
    </ol>
-   From slide 3 of Laurence McCahill's 
+   From slide 37 of Laurence McCahill's 
   <a href="http://www.slideshare.net/spookstudio/what-the-fk-is-lean-startup-and-why-should-i-care">What the f**k is lean startup and why should I care?</a>
   </div>
+  {% comment %}
   <a class="btn btn-inverse btn-large"  
      href="#ries-four-principles-dlg" data-toggle="modal">
 	 <img src="http://theleanstartup.com/images/eric_ries.png" style="float:left;width:60px;height:95px" />
 	 <span style="font-size: 1.5em;">Eric Ries's Five Principles of Lean Start-ups</span>
 	 
- </a>
+  </a>
+ {% endcomment %}
  </div> 
  <div class="span4">
-  <h3>What about DevOps?</h3>
-  <p>
-   As most libraries exist and operate under an existing organization that may 
-   have been in place for a significant time, this doesn't mean that we can't 
-   take advantages of having a "start-up" mentality.
-  </p>
-  <p>
-   
-  </p>
-  <div>
-   <a href="#" 
-      rel="popover"
+   <a href="#where-lib-startups-dlg" 
       class="btn btn-warning btn-large"
-	  data-placement="left"
-	  data-original-title="Where are the library start-ups?"
-	  data-content="In recent years there has been a consolidation of companies in the traditional library bibliographic industry, start-up activity is more active the digital repository submarket"><h3>Where are the library start-ups?</h3>
+      data-toggle="modal">
+     Where are the library start-ups?
    </a>
-  </div>
+ </div>
+</div>
+<div class="row-fluid marketing">
+ <div class="span12">
+  <h3>What about DevOps?</h3>
+  <p class="lead">
+    <a href="{% url techbytes.views.glossary %}#DevOps">DevOps</a>, an 
+    amalgamation of Development and Operations, is a new management model for 
+    Information Technology department in non-technological organizations.
+    DevOps comes out of the growing recognition that the intellectual 
+    resources, digital assets, and work-flows of an organization are
+    complex combinations of commercial, open source, and internally 
+    developed custom code.
+  </p>
  </div>
 </div>
 {% endblock %}
 
+{% block next-slide %}
+ <a class="btn btn-large btn-success" href="/techbytes/frbr-rda-marcr.html" >FRBR, RDA, &amp; Redis MARCR Datastore &raquo;</a>
+{% endblock %}
 {% block dialogs %}
 <div id="ries-four-principles-dlg" class="modal fade">
  <div class="modal-header">
@@ -83,8 +88,8 @@
 		and managerial levels in the library. 
 	   </p>
 	   <p>
-	    As library managers, look for technologies and services that can either enhaunce
-		patron services, improve staff task productivity, or assist in assesstment or 
+	    As library managers, look for technologies and services that can either enhance
+		patron services, improve staff task productivity, or assist in assessment or 
 		measurement activities within the next 24 months.
 	   </p>
 	   <p>
@@ -106,9 +111,6 @@
 		 staff who are responsible for the providing patron technology-oriented services.
 		</p>
 		<p>
-		 
-		</p>
-		<p>
 		 Librarian leadership can sometimes, as Pat Wagner warns, become
 		</p>
 		<p class="alert alert-error lead"><strong>"Out of touch with reality and people."</strong></p>
@@ -126,7 +128,7 @@
 	 </div>
      <div id="validated-learning" class="accordion-body collapse">
 	  <p>
-	   How can we manage the main tasks envolved in such services provided by library instruction,
+	   How can we manage the main tasks involved in such services provided by library instruction,
 	   meta-data cataloging of born-digital objects, and circulation?
 	  </p>
 	 </div>
@@ -142,7 +144,7 @@
 	  <p>
 	   Assessment metrics flows from tasks, summarized by managers, for use by library
 	   leadership in advocating for libraries to external bodies, be they an university,
-	   a town coucil, or a legistative body. Technology should streamline this information
+	   a town council, or a legislative body. Technology should streamline this information
 	   flow and the promise of big data is that real-time analytics can be generated, summarized,
 	   and acted upon sooner in any organization. 
 	  </p>
@@ -163,6 +165,23 @@
 	  </div>
 	 </div>
   </div>
+ </div>
+ <div class="modal-footer">
+  <a href="#" class="btn btn-primary" data-dismiss="modal">Close</a>
+ </div>
+</div>
+
+<div class="modal fade" id="where-lib-startups-dlg">
+ <div class="modal-header">
+  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+  <h2>What is the start-up activity in Library Technology?</h2> 
+ </div>
+ <div class="modal-body">
+  <p>
+   In recent years there has been a consolidation of companies in the 
+   traditional library bibliographic industry, start-up activity is 
+   more active the digital repository sub-market with such companies as
+   Discovery-Garden and MediaShelf. 
  </div>
  <div class="modal-footer">
   <a href="#" class="btn btn-primary" data-dismiss="modal">Close</a>

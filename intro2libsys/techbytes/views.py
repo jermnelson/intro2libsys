@@ -25,7 +25,8 @@ def consortium_marcr_ds_hybrid_cloud(request):
     :param request:
     """
     return render_to_response('consortium-marcr-datastore-hybrid-cloud.html',
-                              {'section':'presentation'},
+                              {'next_slide_title':'Finished.',
+                               'section':'presentation'},
                               context_instance=RequestContext(request))
     
 
