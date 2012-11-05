@@ -36,6 +36,16 @@ def exercises(request):
                                'section':'assessment'},
                               context_instance=RequestContext(request))
 
+def final(request):
+    """
+    Displays final for print-out or electronic copy. Questions are hard-coded.
+    
+    :param request: HTTP Request
+    """
+    return render_to_response('final.html',
+                              {},
+                              context_instance=RequestContext(request))
+
 def home(request):
     """
     Displays the home page for the Assessment module.

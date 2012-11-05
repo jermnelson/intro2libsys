@@ -21,80 +21,73 @@
  <div class="span12">
   <div id="schema-carousel" class="carousel slide">
    <div id="carousel-inner">
-    <div class="active item carsousel-item">
-      <img src="{{ STATIC_URL }}img/FRBR-Group-1-entities-and-basic-relations.png" />
-      <div class="float:left">
-      <h3><a href="{% url techbytes.views.glossary %}#WEMI">WEMI</a> Entities</h3>
-      <ul> 
-       <li><strong>Work</strong></li> 
-       <li><strong>Expression</strong></li>
-       <li> <strong>Manifestation</strong></li>
-       <li><strong>Item</strong></li>
-      </ul>
+    <div class="active item">
+	  <div class="row">
+	   <div class="span4">
+        <img src="{{ STATIC_URL }}img/FRBR-Group-1-entities-and-basic-relations.png" />
+		<aside>
+		Source <a href="http://en.wikipedia.org/w/index.php?title=File:FRBR-Group-1-entities-and-basic-relations.svg&page=1">Wikipedia</a>
+		</aside>
+	   </div>
+       <div class="span2">
+       <h2>FRBR</h2>
+       <p class="lead">Functional Requirements for Bibliographic Records (
+	      <a href="{% url techbytes.views.glossary %}#FRBR">FRBR</a>) is 
+          an entity-relationship model where the objects of interest, called entities, are 
+		  defined in a most general way as possible along with the relationships between 
+		  those entities. FRBR's final report was written in 1998</p>	   
+       <h3><a href="{% url techbytes.views.glossary %}#WEMI">WEMI</a> Entities</h3>
+        <ul> 
+		   <li><strong>Work</strong></li> 
+		   <li><strong>Expression</strong></li>
+		   <li> <strong>Manifestation</strong></li>
+		   <li><strong>Item</strong></li>
+        </ul>
       </div>
      </div>
-     <div class="carousel-caption">
-      <h4>FRBR</h4>
-      <p>Functional Requirements for Bibliographic Records (FRBR) is 
-         specification originally written in 1998</p>
-     </div>     
     </div>
     <div class="item">
-     
-     <div class="carousel-caption">
-      <h4>RDA</h4>
-      <p>Resource Description and Access ...</p>
-     </div>
+      <div class="row">
+	  <div class="row">
+	   <div class="span4 offset2">
+	    <img src="{{ STATIC_URL }}img/rda-logo.png " />
+	   </div>
+	  </div>
+       <div class="span5 offset1">
+        <h2>RDA</h2>
+        <p class="lead">Resource Description and Access is the new cataloging standard to replace AACR2.
+		   <a href="techbytes.views.glossary %}#RDA">RDA</a>. RDA provides guidelines for
+		   cataloging digital objects with a focus on helping users find, identify, select,
+		   and optain information.</p>
+	   </div>
+	  </div>
     </div>
     <div class="item">
-      <img style="width: 50%" src="{{ STATIC_URL }}img/mccallum-marcr.png" />
-     <div class="carousel-caption">
-      <h4>MARCR</h4>
-      <p>The Library of Congress Bibliographic Framework Initiative recently 
+	 <div class="row">
+	  <div class="span4">
+       <img src="{{ STATIC_URL }}img/mccallum-marcr.png" />
+	   <aside>
+	    Source <a href="http://igelu.org/wp-content/uploads/2012/09/IGeLU-sally-McCallum.pptx.">
+	    http://igelu.org/wp-content/uploads/2012/09/IGeLU-sally-McCallum.pptx.</a>
+	   </aside>
+	  </div>
+      <div class="span2">
+      <h2>MARCR</h2>
+      <p class="lead">The Library of Congress Bibliographic Framework Initiative recently 
       offered a status update of their bibliographic modeling work to replace 
       <a href="{% url techbytes.views.glossary %}#MARC21">MARC21</a>
       with a new model they call
       <a href="{% url techbytes.views.glossary %}#MARCR">MARCR</a> for
       <em>MARC Resources</em>.</p>
+	  <p class="lead">MARCR uses concepts from <a href="{% url techbytes.views.glossary %}#LinkedData">Linked Data</a>
+	  while simplying elements from <a href="{% url techbytes.views.glossary %}#FRBR">FRBR</a> and 
+	  <a href="{% url techbytes.views.glossary %}#RDA">RDA</a></p>
      </div>
     </div>
   </div>
   <a class="carousel-control left" href="#schema-carousel" data-slide="prev">&lsaquo;</a>
   <a class="carousel-control right" href="#schema-carousel" data-slide="next">&rsaquo;</a>
  </div>
-</div>
-<div class="row-fluid marketing">
- <div class="span4">
-  <h3>FRBR</h3>
-  <p>Functional Requirements for Bibliographic Records (FRBR) is specification originally written in 1998
-    <a href="#frbr-dlg" class="btn btn-primary btn-large" data-toggle="modal">FRBR Visual</a>
-  </p>
-  <ul>
-   <li><a href="{% url techbytes.views.glossary %}#WEMI">WEMI</a> Entities
-     <ul> 
-      <li><strong>Work</strong></li> 
-      <li><strong>Expression</strong></li>
-      <li> <strong>Manifestation</strong></li>
-      <li><strong>Item</strong></li>
-     </ul>
-     </li>
-   </li>
-  </ul>
-   </div>
- <div class="span4">
-  <h3>RDA</h3>
- </div>
- <div class="span4">
-  <div class="alert alert-block">  
-  <h2>MARCR</h2>
-   <p class="lead">
-   The Library of Congress Bibliographic Framework Initiative recently offered a status
-   update of their bibliographic modeling work to replace <a href="{% url techbytes.views.glossary %}#MARC21">MARC21</a>
-   with a new model they call <a href="{% url techbytes.views.glossary %}#MARCR">MARCR</a> for <em>MARC Resources</em>.
-   </p>
-  <a href="#marcr-dlg" class="btn btn-primary" data-toggle="modal">MARCR Visualization</a>
-  </div>
-  </div>
 </div>
 {% endblock %}
 

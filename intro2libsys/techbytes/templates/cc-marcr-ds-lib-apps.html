@@ -24,7 +24,6 @@
      class="btn btn-large"
      data-toggle="modal"><img src="http://redis.io/images/redis-small.png" /> Redis Datastore</a>
  </div>
-
  </div>
  <div class="span8">
   <h3>Django, HTML5, and Bootstrap</h3>
@@ -55,20 +54,20 @@
 </div>
 <hr />
 <div class="row-fluid marketing">
- <div class="span6">
-  <h2>Current Use</h2>
+ <div class="span12">
+  <div>
+  <a href="#putting-all-together-dlg"
+     class="btn btn-large btn-success"
+	 data-toggle="modal">Putting it All Together</a>
+  </div>
   <p class="lead">
    Colorado College's Redis MARCR Datastores enhance
    search results from our  
    <a href="http://discovery.coloradocollege.edu/">Discovery Layer</a>
+   and HTML5 standalone apps are available at 
+   <a href="http://discovery.coloradocollege.edu/apps">Discovery Apps</a>
   </p>
  </div>
- <div class="span6">
-  <h2>Next 6-12 months</h2>
-  <p class="lead">
-   
-  </p>
- </div> 
 </div> 
 {% endblock %}
 
@@ -84,7 +83,19 @@
  </div>
  <div class="modal-body">
   <div class="alert alert-block alert-info">
-   <img style="float:right" src="{{ STATIC_URL }}img/rain-icon.png" />
+   <img style="float:left" src="{{ STATIC_URL }}img/rain-icon.png" />
+   <p class="lead">
+    <a href="{% url techbytes.views.glossary %}#NoSQL">NoSQL</a> is a general term for the class of newer data storage technologies that differ traditional normalized relational databases that use SQL and schemas. NoSQL is a very broad category and includes different types of technology to meet very different data storage, access, and scalability requirements.
+   </p>
+   <p class="lead">
+    NoSQL technology range from key-value datastores like Redis, to Bigtable inspired projects like 
+	Hadoop and Facebook's Cassandra, to document-oriented datastores like MongoDB, CouchDB and Amazon's 
+	SimpleDB.
+   </p>
+   <p class="lead">
+    Most of these technologies are used in either public, private, or hybrid clouds directly, or as core components
+	of many cloud-based apps and services.
+   </p>
   </div>
  </div>
  <div class="modal-footer">
@@ -94,13 +105,74 @@
 <div class="modal fade" id="redis-key-value-dlg">
  <div class="modal-header">
   <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-  <h2>Redis MARCR Datastore</h2>
+  <h2><img src="http://redis.io/images/redis-small.png" /> Redis MARCR Datastore</h2>
  </div>
  <div class="modal-body">
-  <img src="http://redis.io/images/redis-small.png" />
+  <p>
+   <img src="{{ STATIC_URL }}img/cc-marcr-ds.png" />
+  </p>
+  <p class="lead">
+    Colorado College's production MARCR Redis datastores are run on the same Virtual Machine. Each of the
+	four MARCR Entities; Work, Instance, Annotation, and Authority run as a seperate Redis-server instance running
+	on different ports. 
+  </p>
+  <h3>Statistics from CC's Production MARCR Datastore</h3>
+  <p>
+    MARC21 records ingested are over 860,000.
+  </p>
+  <table class="table table-striped table-bordered table-condensed" >
+   <tr>
+    <th>MARCR Datastore</th>
+	<th>Name</th>
+	<th>Value</th>
+   </tr>
+   <tbody>
+   <tr>
+    <td rowspan="2">Work Datastore</td>
+	<td>Number of keys</td>
+	<td>3,476,057</td>
+   </tr>
+   <tr>
+    <td>Size</td>
+	<td>662 MB</td>
+   </tr>
+   <tr>
+    <td rowspan="2">Instance Datastore</td>
+	<td>Number of keys</td>
+	<td>2,111,375</td>
+   </tr>
+   <tr>
+    <td>Size</td>
+	<td>268 MB</td>
+   </tr>
+   <tr>
+    <td rowspan="2">Authority Datastore</td>
+	<td>Number of keys</td>
+	<td>1,587,199</td>
+   </tr>
+   <tr>
+    <td>Size</td>
+	<td>233 MB</td>
+   </tr>
+  </tbody>
+  </table>
  </div>
  <div class="modal-footer">
   <a class="btn btn-primary" data-dismiss="modal">Close</a>
  </div>
+</div>
+<div class="modal fade" id="putting-all-together-dlg">
+ <div class="modal-header">
+  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+  <h2>Putting it all together</h2>
+ </div>
+ <div class="modal-body">
+  <p style="text-align: center">
+   <img src="{{ STATIC_URL }}img/cc-marcr-ds-apps.png" />
+  </p>
+ </div>
+ <div class="modal-footer">
+  <a class="btn btn-primary" data-dismiss="modal">Close</a>
+ </div> 
 </div>
 {% endblock %}
