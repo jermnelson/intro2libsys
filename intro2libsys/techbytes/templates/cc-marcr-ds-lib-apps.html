@@ -55,17 +55,25 @@
 <hr />
 <div class="row-fluid marketing">
  <div class="span12">
-  <div>
+ <h1>Putting it all together...</h1>
+ </div>
+</div>
+<div class="row-fluid marketing">
+ <div class="span6">
+  <img src="{{ STATIC_URL }}img/cc-marcr-ds-apps.png" />
+  <p>
   <a href="#putting-all-together-dlg"
-     class="btn btn-large btn-success"
-	 data-toggle="modal">Putting it All Together</a>
-  </div>
+     class="btn btn-danger"
+	 data-toggle="modal">Current Datastore Stats</a>
+  </p>
+ </div>
+ <div class="span6">
   <p class="lead">
    Colorado College's Redis MARCR Datastores enhance
    search results from our  
    <a href="http://discovery.coloradocollege.edu/">Discovery Layer</a>
    and HTML5 standalone apps are available at 
-   <a href="http://discovery.coloradocollege.edu/apps">Discovery Apps</a>
+   <a href="http://discovery.coloradocollege.edu/apps">http://discovery.coloradocollege.edu/apps</a>
   </p>
  </div>
 </div> 
@@ -85,7 +93,7 @@
   <div class="alert alert-block alert-info">
    <img style="float:left" src="{{ STATIC_URL }}img/rain-icon.png" />
    <p class="lead">
-    <a href="{% url techbytes.views.glossary %}#NoSQL">NoSQL</a> is a general term for the class of newer data storage technologies that differ traditional normalized relational databases that use SQL and schemas. NoSQL is a very broad category and includes different types of technology to meet very different data storage, access, and scalability requirements.
+    <a href="{% url techbytes.views.glossary %}#NoSQL">NoSQL</a> is a general term for the class of newer data storage technologies that differ from traditional databases that use SQL. NoSQL is a very broad category and includes different types of technology to meet very different data storage, access, and scalability requirements.
    </p>
    <p class="lead">
     NoSQL technology range from key-value datastores like Redis, to Bigtable inspired projects like 

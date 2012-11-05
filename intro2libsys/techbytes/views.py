@@ -25,7 +25,7 @@ def consortium_marcr_ds_hybrid_cloud(request):
     :param request:
     """
     return render_to_response('consortium-marcr-datastore-hybrid-cloud.html',
-                              {'next_slide_title':'Finished.',
+                              {'next_slide_title':'Thank-you. Any Questions?',
                                'section':'presentation'},
                               context_instance=RequestContext(request))
     
@@ -47,7 +47,8 @@ def glossary(request):
     :param request:
     """
     return render_to_response('glossary.html',
-                              {'section':'addendum'},
+                              {'next_slide_title':' ',
+                               'section':'addendum'},
                               context_instance=RequestContext(request))
 
 def home(request):
@@ -111,7 +112,8 @@ def resources(request):
     :param request:
     """
     return render_to_response('resources.html',
-                              {'section':'addendum'},
+                              {'next_slide_title':' ',
+                               'section':'addendum'},
                               context_instance=RequestContext(request))
 
 

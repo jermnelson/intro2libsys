@@ -15,56 +15,42 @@
      {% block support-content %}
       <div class="row-fluid marketing">
         <div class="span6">
-          <h4>Organizational Map</h4>
-          <p>
-		    Pat Wagner's Organizational Map is composed of three levels; Task, Managerial, and Leadership.
-		    In this presentation, we'll show how the <a href="https://github.com/jermnelson/MARCR-Datastore">MARCR Datastore</a> along with the 
-			<a href="https://github.com/jermnelson/aristotle-library-apps">Aristotle Library App</a> open source 
-			projects actively address concerns and challenges faced by librarians and staff working at each of 
-			these levels.
-			<a href="/techbytes/org-map.html" class="btn btn-small">Learn More <i class="icon-chevron-right"></i></a>
-		  </p>
-
-          <h4>The Lean Start-up</h4>
-          <p>Eric Ries, an entrepreneur and author, writes about <em>The Lean Start-up</em> philosophy that start-up 
-		     companies can use to successful build and launch a new products and services. His four principles of 
-			 a lean start-ups provide a "start-up" framework for library systems and operations that can transform 
-			 the services and technology we offer our patrons and improve the library's relevancy in a community or
-			 an organization.
-			<a href="/techbytes/lean-startup.html" class="btn btn-small">Learn More </a> 
-		  </p>
-			 
-		  <h4>FRBR, RDA, &amp; Redis MARCR Datastore</h4>
-          <p>In our current library ILS, OPACS, and even next-generation of library services platforms being developed by
-	     library vendors, offer minimal support for 
-             <a href="{% url techbytes.views.glossary %}#FRBR">FRBR</a> and 
-             <a href="{% url techbytes.views.glossary %}#RDA">RDA</a>. RDA, an effort
-             lead by the <a href="{% url techbytes.views.glossary %}#ALA">ALA</a> and others, is based on 
-             FRBR and is intended to be the replacement of <a href="{% url techbytes.views.glossary %}#AACR2">AACR2</a>. 
-             There is much concern
-             about the added cost, lack of supporting technologies, and complexity for implementing RDA from the 
-             <a href="{% url techbytes.views.glossary %}#MARC21">MARC21</a>-based 
-	     technologies being used and developed in libraries.</p>
-	  <p>
-            <a href="{% url techbytes.views.glossary %}#MARCR">MARCR</a> is the name given to a new proposal by the 
-            Library of Congress's Bibliographic Framework Initiative that
-            borrows many concepts from both RDA and MARC21 to support a more of a 
-            <a href="{% url techbytes.views.glossary %}#LinkedData">Linked-Data</a> 
-            approach to bibliographic records.
-	  </p>
-		  <a href="{% url techbytes.views.frbr_rda_marcr %}" class="btn btn-small">Learn More &raquo;</a> 
+		 <h1>First</h1>
+		 <p>
+          <a href="{% url techbytes.views.orgmap %}" 
+		     class="btn btn-large btn-primary">Organizational Map</a>
+         </p>
+		 <h1>Second</h1>
+		 <p>
+          <a href="{% url techbytes.views.leanstartup %}" class="btn btn-large btn-primary">The Lean Start-up</a>
+         </p>
+		 <h1>Third</h1>
+		 <p>	 
+		  <a href="{% url techbytes.views.frbr_rda_marcr %}"
+		     class="btn btn-large btn-primary">FRBR, RDA, &amp; Redis MARCR Datastore</a>
+         </p>
         </div>
 
         <div class="span6">
-          <h4>MARCR Datastore and Library Apps at Colorado College</h4>
-          <p>
- 	    <a href="/techbytes/cc-marcr-ds-lib-apps.html" class="btn btn-small">Learn More &raquo;</a> 
-	  </p>
-          <h4>Evolving towards a Consortium MARCR Datastore in a Hybrid-Cloud</h4>
-	  <p>
-	   <a href="{% url techbytes.views.consortium_marcr_ds_hybrid_cloud %}" class="btn btn-small">Learn More &raquo;</a> 
-	  </p>
-	  <h4>Presentation Addendum</h4>
+		 <h1>Forth</h1>
+		 <p>
+          <a href="{% url techbytes.views.cc_marcr_apps %}"
+		     class="btn btn-large btn-primary">MARCR Datastore and Library Apps at Colorado College</a>
+         </p>
+		 <h1>Fifth</h1>
+		 <p>
+          <a href="{% url techbytes.views.consortium_marcr_ds_hybrid_cloud %}"
+		     class="btn btn-large btn-primary">Evolving towards a Consortium MARCR Datastore in a Hybrid-Cloud</a>
+	     </p>
+		 <h1>Presentation Addendum</h1>
+		 <p>
+	      <a href="{% url techbytes.views.glossary %}"
+		     class="btn btn-large">Glossary</a>
+		 </p>
+		 <p>
+	      <a href="{% url techbytes.views.resources %}"
+		     class="btn btn-large">Resources</a>
+		 </p>
         </div>
       </div>
       {% endblock %}

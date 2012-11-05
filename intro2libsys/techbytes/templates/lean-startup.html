@@ -39,11 +39,21 @@
  {% endcomment %}
  </div> 
  <div class="span4">
+   <p>
+    <a href="#agile-software-dev-dlg"
+      class="btn btn-large btn-inverse"
+	  data-toggle="modal">
+	  AGILE Software Development
+    </a>
+   </p>
+   <p>
    <a href="#where-lib-startups-dlg" 
       class="btn btn-warning btn-large"
       data-toggle="modal">
      Where are the library start-ups?
    </a>
+   </p>
+   
  </div>
 </div>
 <div class="row-fluid marketing">
@@ -174,17 +184,45 @@
  </div>
 </div>
 
+<div class="modal fade" id="agile-software-dev-dlg">
+ <div class="modal-header">
+  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+  <h2>AGILE Software Development Principles</h2>
+ </div>
+ <div class="modal-body">
+  <p>
+  The <a href="{% url techbytes.views.glossary %}"#AGILE">AGILE</a> model of software development 
+  revolves around short, iterative cycles where requirements are generated from direct user interaction
+  and software is developed and tested to meet those specific requirements. These principles can
+  be used in more traditional IT departments in Libraries as software is customized to
+  meet the needs of the library. Software systems is becoming more 
+  modular and easier to build connecting services through open web APIs and open-source systems.
+  </p>
+ </div>
+ <div class="modal-footer">
+  <a href="#" class="btn btn-primary" data-dismiss="modal">Close</a>
+ </div>
+</div>
+
 <div class="modal fade" id="where-lib-startups-dlg">
  <div class="modal-header">
   <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
   <h2>What is the start-up activity in Library Technology?</h2> 
  </div>
  <div class="modal-body">
+  <a href="http://www.discoverygarden.com/"><img src="{{ STATIC_URL }}img/discovery-garden-logo.png" style="float:left" /></a>
+  <a href="http://yourmediashelf.com/"><img src="{{ STATIC_URL }}img/mediashelf-logo.png" style="float:right" /></a>
   <p>
    In recent years there has been a consolidation of companies in the 
    traditional library bibliographic industry, start-up activity is 
-   more active the digital repository sub-market with such companies as
-   Discovery-Garden and MediaShelf. 
+   more active in the digital repository sub-market with such companies as
+   DiscoveryGarden and MediaShelf. 
+  </p>
+  <p>
+   Start-up activity in the Semantic Web is far greater with more opportunities
+   for individuals with a library background or education.
+  </p>
+
  </div>
  <div class="modal-footer">
   <a href="#" class="btn btn-primary" data-dismiss="modal">Close</a>

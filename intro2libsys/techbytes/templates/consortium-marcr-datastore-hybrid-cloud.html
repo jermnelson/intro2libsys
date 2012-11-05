@@ -17,34 +17,51 @@
 
 {% block support-content %}
 <div class="row-fluid marketing">
- <div class="span4">
-  <h3>Task Level</h3>
-  <ul>
-   <li>Professional</li>
-   <li>Technical</li>
-   <li>Clerical</li>
-   <li>Support</li>
-  </ul>
+ <div class="span6">
+  <div class="alert alert-block alert-success">
+   <h2>Local control that leverages the consortium's cloud</h2>
+   <p>
+    The Library consortium cloud treats each institution's MARC Instance, 
+	Annotation, and Authority Redis datastores as read-only. These individual
+	Redis datastores are combined into a single read-only Redis search environment support by 
+	the consortium's master MARCR datastores. 
+   </p>
+  </div>
+  <p>
+    <h2>Task Level Advantages</h2>
+	<ul>
+	 <li>Bibliographic record workflow apps can easily be created for common tasks</li>
+	 <li>Cataloging staff can focus on original cataloging and easily use the consortium's Work entities
+	     while describing the unique attributes of the library's instances.</li>
+	</ul>
+   </p>
+  <p>
+    <h2>Managerial Level Advantages</h2>
+	<ul>
+	 <li>MARCR Datastore makes operational reporting much easier, can track activity of an 
+	     institution's Instances in real-time or historical usage patterns.</li>
+	 <li>New task-specific workflows that are good candidates for automation or for single-use
+	     specialized app can be developed with short delivery times ranging from weeks to months</li>
+	 
+	</ul>
+  </p>
  </div>
- <div class="span4">
-  <h3>Managerial Level</h3>
-  <ul>
-   <li>Communicate</li>
-   <li>Coordinate</li>
-   <li>Translate</li>
-  </ul>
- </div>
- <div class="span4">
-  <h3>Leadership Level</h3>
-  <ul>
-    <li>Vision</li>
-	<li>Risk</li>
-	<li>Influence</li>
-  </ul>
+ <div class="span6">
+  <h2>Visualization</h2>
+  <img src="{{ STATIC_URL }}img/consortium-marcr-ds-apps.png" />
+  <p>
+   <h2>Leadership Level Advantages</h2>
+   <ul>
+    <li>Reduce dependencies on expensive and complex commercial systems</li>
+	<li>Flexibility of the MARCR metadata Datastore offers new opportunities for library services in
+     	big data curation,
+	    digital humanities, and distance educational efforts such as 
+		Massive Open Online Courses (MOOC).</li>
+   </ul>
+  </p>
  </div>
 </div>
 {% endblock %}
 
 {% block next-slide %}
- <a class="btn btn-large btn-success" href="#">Questions?</a>
 {% endblock %}
