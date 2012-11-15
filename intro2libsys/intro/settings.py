@@ -69,7 +69,7 @@ STATICFILES_DIRS = (
     os.path.join(DJANGO_ROOT,"background","assets"),
     os.path.join(DJANGO_ROOT,"Curriculum","assets"),
     os.path.join(DJANGO_ROOT,"techbytes","assets"),
-
+    os.path.join(DJANGO_ROOT,"textbook","assets"),
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
@@ -126,6 +126,7 @@ INSTALLED_APPS = (
     'intro',
     'syllabus',
     'techbytes',
+    'textbook',
     # Uncomment the next line to enable the admin:
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:

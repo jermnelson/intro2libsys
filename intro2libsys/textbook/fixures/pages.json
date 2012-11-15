@@ -1,0 +1,10 @@
+[
+ {
+   "fields": { 
+     "chapter": 1,
+     "location":"/chapters/one/one.text"
+   },
+   "model":"textbook.Page",
+   "pk":1
+  }
+]

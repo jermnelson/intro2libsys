@@ -1,0 +1,45 @@
+{% extends 'fluid.html' %}
+{% load i18n %}
+
+{% block top-menu-bar %}
+{% endblock %}
+
+{% block sidebar-nav %}
+<div class="span2">
+ <div class="row">
+ {% include 'snippets/left-navigation.html' %}
+ </div>
+ <div class="row">
+  <br/>
+  <div class="span2" style="background-color: #FFF;padding:.5em">
+   <h3>Chapters</h3>
+   <ol>
+   {% for chapter in chapters %}
+    <li><a href="#{{ chapter.pk }}">{{ chapter.title }}</a></li>
+   {% endfor %}
+   </ol>
+  </div>
+ </div>
+</div>
+{% endblock %}
+
+{% block more-breadcrumb-links %}
+<li><a href="{% url textbook.views.home %}">Textbook</a> <span class="divider">&raquo;</span></li>
+{% block chapter-breadcrumb %}
+{% endblock %}
+{% endblock %}
+
+{% block hero-unit %}
+<div class="span7 hero-unit">
+ <h2>Introduction to Library Systems</h2>
+ <h1>Textbook</h1>
+</div>
+{% endblock %}
+
+{% block first-row %}
+<div class="row">
+</div>
+{% endblock %}
+
+{% block dialogs %}
+{% endblock %}
