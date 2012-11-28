@@ -1,0 +1,323 @@
+[
+  {
+    "bibframe:Annotation:1": {
+      "bibframe:Instance": "bibframe:Instance:1", 
+      "page-range": "1-28"
+    }, 
+    "bibframe:Annotation:2": {
+      "bibframe:Instance": "bibframe:Instance:2", 
+      "page-range": "16-28"
+    }, 
+    "bibframe:Annotation:3": {
+      "bibframe:Instance": "bibframe:Instance:13", 
+      "page-range": "488-498"
+    }, 
+    "bibframe:Annotation:4": {
+      "bibframe:Instance": "bibframe:Instance:14", 
+      "page-range": "55-60"
+    }, 
+    "bibframe:Annotation:5": {
+      "bibframe:Instance": "bibframe:Instance:15", 
+      "page-range": "217-229"
+    }, 
+    "bibframe:Annotation:6": {
+      "bibframe:Instance": "bibframe:Instance:16", 
+      "page-range": "257-297"
+    }, 
+    "bibframe:Annotation:7": {
+      "bibframe:Instance": "bibframe:Instance:19", 
+      "page-range": "1-24"
+    }, 
+    "bibframe:Authority:CorporateBody:1": {
+      "name": "Wikipedia", 
+      "url": "http://www.wikipedia.org/"
+    }, 
+    "bibframe:Authority:Person:1": {
+      "foaf:familyName": "Gorman", 
+      "foaf:givenName": "Michael", 
+      "rda:dateOfBirth": "1941-03-06"
+    }, 
+    "bibframe:Authority:Person:1:bibframe:CreativeWorks": [
+      "bibframe:CreativeWork:1"
+    ],
+    "bibframe:Authority:Person:2": {
+      "foaf:familyName": "Lynn", 
+      "foaf:givenName": "Ben", 
+    }, 
+    "bibframe:Authority:Person:2:bibframe:CreativeWorks": [
+      "bibframe:CreativeWork:4"
+    ],
+
+    "bibframe:Authority:Person:3": {
+      "foaf:familyName":"Kanies",
+      "foaf:givenName":"Luke"
+    },
+    "bibframe:Authority:Person:3:bibframe:CreativeWorks": [
+      "bibframe:CreativeWork:3"
+    ],
+    "bibframe:Authority:Person:4": {
+      "foaf:familyName":"Winer",
+      "foaf:givenName":"Dave"
+    },
+    "bibframe:CreativeWork:1": {
+      "title": "Our Enduring Values: Librarianship in the 21st Century"
+    }, 
+    "bibframe:CreativeWork:10": {
+      "title": "The Python Tutorial -- Chapter 2"
+    }, 
+    "bibframe:CreativeWork:10:bibframe:Instances": [
+      "bibframe:Instance:10"
+    ], 
+    "bibframe:CreativeWork:11": {
+      "title": "The Python Tutorial -- Chapter 3"
+    }, 
+    "bibframe:CreativeWork:11:bibframe:Instances": [
+      "bibframe:Instance:11"
+    ], 
+    "bibframe:CreativeWork:12": {
+      "title": "A ReStructuredText Primer"
+    }, 
+    "bibframe:CreativeWork:12:bibframe:Instances": [
+      "bibframe:Instance:12"
+    ], 
+    "bibframe:CreativeWork:13": {
+      "title": "Ebla: The World\u2019s Oldest Library"
+    }, 
+    "bibframe:CreativeWork:13:bibframe:Instances": [
+      "bibframe:Instance:13"
+    ], 
+    "bibframe:CreativeWork:14": {
+      "title": "The British Museum's Ashurbanipal Library Project "
+    }, 
+    "bibframe:CreativeWork:14:bibframe:Instances": [
+      "bibframe:Instance:14"
+    ], 
+    "bibframe:CreativeWork:15": {
+      "title": "Growth and Development of Islamic Libraries"
+    }, 
+    "bibframe:CreativeWork:15:bibframe:Instances": [
+      "bibframe:Instance:15"
+    ], 
+    "bibframe:CreativeWork:16": {
+      "title": "The Intellectual Interests Reflected in Libraries of the Fourteenth and Fifteenth Centuries"
+    }, 
+    "bibframe:CreativeWork:16:bibframe:Instances": [
+      "bibframe:Instance:16"
+    ], 
+    "bibframe:CreativeWork:17": {
+      "title": "Hidden Wisdom and Unseen Treasure: Revisiting Cataloging in Medieval Libraries"
+    }, 
+    "bibframe:CreativeWork:17:bibframe:Instances": [
+      "bibframe:Instance:17"
+    ], 
+    "bibframe:CreativeWork:18": {
+      "title": "Rules for compiling the catalogues in the Department of Printed Books in the British Museum: Printed by order of the Trustees"
+    }, 
+    "bibframe:CreativeWork:18:bibframe:Instances": [
+      "bibframe:Instance:18"
+    ], 
+    "bibframe:CreativeWork:19": {
+      "title": "Rules for a dictionary catalog"
+    }, 
+    "bibframe:CreativeWork:19:bibframe:Instances": [
+      "bibframe:Instance:19"
+    ], 
+    "bibframe:CreativeWork:1:rda:creator": [
+      "bibframe:Authority:Person:1"
+    ], 
+    "bibframe:CreativeWork:2": {
+      "title": "Our Enduring Values: Librarianship in the 21st Century -- Chapter 1"
+    }, 
+    "bibframe:CreativeWork:20": {
+      "title": "As We May Think"
+    }, 
+    "bibframe:CreativeWork:20:bibframe:Instances": [
+      "bibframe:Instance:20"
+    ], 
+    "bibframe:CreativeWork:21": {
+      "title": "Special considerations of the individual as a user, generator, and retriever of information"
+    }, 
+    "bibframe:CreativeWork:21:bibframe:Instances": [
+      "bibframe:Instance:21"
+    ], 
+    "bibframe:CreativeWork:2:bibframe:Instances": [
+      "bibframe:Instance:2"
+    ], 
+    "bibframe:CreativeWork:3": {
+      "title": "DevOps: What It Is, Why It Exists and Why It's Indispensable"
+    }, 
+    "bibframe:CreativeWork:3:bibframe:Instances": [
+      "bibframe:Instance:3"
+    ], 
+    "bibframe:CreativeWork:4": {
+      "title": "Git Magic -- Chapter 1 Introduction"
+    }, 
+    "bibframe:CreativeWork:4:bibframe:Instances": [
+      "bibframe:Instance:4"
+    ], 
+    "bibframe:CreativeWork:5": {
+      "title": "Git Magic -- Chapter 2"
+    }, 
+    "bibframe:CreativeWork:5:bibframe:Instances": [
+      "bibframe:Instance:5"
+    ], 
+    "bibframe:CreativeWork:6": {
+      "title": "EC2 for Poets"
+    }, 
+    "bibframe:CreativeWork:6:bibframe:Instances": [
+      "bibframe:Instance:6"
+    ], 
+    "bibframe:CreativeWork:7": {
+      "title": "Powerful Linux and Windows servers in minutes"
+    }, 
+    "bibframe:CreativeWork:7:bibframe:Instances": [
+      "bibframe:Instance:7"
+    ], 
+    "bibframe:CreativeWork:8": {
+      "title": "The Python Tutorial"
+    }, 
+    "bibframe:CreativeWork:8:bibframe:Instances": [
+      "bibframe:Instance:8"
+    ], 
+    "bibframe:CreativeWork:9": {
+      "title": "The Python Tutorial -- Chapter 1"
+    }, 
+    "bibframe:CreativeWork:9:bibframe:Instances": [
+      "bibframe:Instance:9"
+    ], 
+    "bibframe:Instance:1": {
+      "bibframe:CreativeWork": "bibframe:CreativeWork:1"
+    }, 
+    "bibframe:Instance:10": {
+      "bibframe:CreativeWork": "bibframe:CreativeWork:10", 
+      "url": "http://docs.python.org/tutorial/interpreter.html"
+    }, 
+    "bibframe:Instance:11": {
+      "bibframe:CreativeWork": "bibframe:CreativeWork:11", 
+      "url": "http://docs.python.org/tutorial/introduction.html"
+    }, 
+    "bibframe:Instance:12": {
+      "bibframe:CreativeWork": "bibframe:CreativeWork:12", 
+      "url": "http://docutils.sourceforge.net/docs/user/rst/quickstart.html"
+    }, 
+    "bibframe:Instance:13": {
+      "bibframe:CreativeWork": "bibframe:CreativeWork:13", 
+      "url": "http://www.jstor.org/stable/25541212"
+    }, 
+    "bibframe:Instance:14": {
+      "bibframe:CreativeWork": "bibframe:CreativeWork:14", 
+      "url": "http://www.jstor.org/stable/4200559"
+    }, 
+    "bibframe:Instance:15": {
+      "bibframe:CreativeWork": "bibframe:CreativeWork:15", 
+      "url": "http://www.salaam.co.uk/knowledge/growth-development-islamic-libraries.pdf"
+    }, 
+    "bibframe:Instance:16": {
+      "bibframe:CreativeWork": "bibframe:CreativeWork:16", 
+      "url": "http://www.jstor.org/stable/2707402"
+    }, 
+    "bibframe:Instance:17": {
+      "bibframe:CreativeWork": "bibframe:CreativeWork:17", 
+      "url": "http://hdl.handle.net/1811/47377"
+    }, 
+    "bibframe:Instance:18": {
+      "bibframe:CreativeWork": "bibframe:CreativeWork:18", 
+      "url": "http://books.google.com/books?id=PIYLAQAAIAAJ"
+    }, 
+    "bibframe:Instance:19": {
+      "bibframe:CreativeWork": "bibframe:CreativeWork:19", 
+      "url": "http://books.google.com/books?id=2rQYAAAAMAAJ"
+    }, 
+    "bibframe:Instance:2": {
+      "bibframe:CreativeWork": "bibframe:CreativeWork:2"
+    }, 
+    "bibframe:Instance:20": {
+      "bibframe:CreativeWork": "bibframe:CreativeWork:20", 
+      "url": "http://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/"
+    }, 
+    "bibframe:Instance:21": {
+      "bibframe:CreativeWork": "bibframe:CreativeWork:21", 
+      "url": "http://onlinelibrary.wiley.com/doi/10.1002/asi.5090120207/"
+    }, 
+    "bibframe:Instance:3": {
+      "bibframe:CreativeWork": "bibframe:CreativeWork:3",
+      "published_date":"2011-08-23",
+      "url": "http://www.readwriteweb.com/enterprise/2011/08/devops-what-it-is-why-it-exist.php"
+    }, 
+    "bibframe:Instance:4": {
+      "bibframe:CreativeWork": "bibframe:CreativeWork:4", 
+      "url": "http://www-cs-students.stanford.edu/~blynn/gitmagic/ch01.html"
+    }, 
+    "bibframe:Instance:5": {
+      "bibframe:CreativeWork": "bibframe:CreativeWork:5", 
+      "url": "http://www-cs-students.stanford.edu/~blynn/gitmagic/ch02.html"
+    }, 
+    "bibframe:Instance:6": {
+      "bibframe:CreativeWork": "bibframe:CreativeWork:6", 
+      "url": "http://ec2.forpoets.org/"
+    }, 
+    "bibframe:Instance:7": {
+      "bibframe:CreativeWork": "bibframe:CreativeWork:7", 
+      "url": "http://www.rackspace.com/cloud/public/servers/"
+    }, 
+    "bibframe:Instance:8": {
+      "bibframe:CreativeWork": "bibframe:CreativeWork:8", 
+      "url": "http://docs.python.org/tutorial/index.html"
+    }, 
+    "bibframe:Instance:9": {
+      "bibframe:CreativeWork": "bibframe:CreativeWork:9", 
+      "url": "http://docs.python.org/tutorial/appetite.html"
+    }, 
+    "global bibframe:Annotation": 7, 
+    "global bibframe:Authority:CorporateBody": 1, 
+    "global bibframe:Authority:Person": 1, 
+    "global bibframe:CreativeWork": 21, 
+    "global bibframe:Instance:0": 21, 
+    "textbook:chapter:1": {
+      "title": "Introduction to Library Systems"
+    }, 
+    "textbook:chapter:1:page:1": {
+      "content": "one.text"
+    }, 
+    "textbook:chapter:1:page:1:questions": {
+      "textbook:question:1": 0
+    }, 
+    "textbook:chapter:1:pages": {
+      "textbook:chapter:1:page:1": 0
+    }, 
+    "textbook:chapter:2": {
+      "title": "Library Systems through History"
+    }, 
+    "textbook:chapter:3": {
+      "title": "MARC Records, Metadata, FRBR & RDA, LinkedData & BIBFRAME"
+    }, 
+    "textbook:chapter:4": {
+      "title": "Integrated Library Systems (ILS) & Discovery Layers"
+    }, 
+    "textbook:chapter:5": {
+      "title": "Library Websites, Digital Repositories, & Supporting Technology"
+    }, 
+    "textbook:chapters": {
+      "textbook:chapter:1": 0, 
+      "textbook:chapter:2": 0, 
+      "textbook:chapter:3": 0, 
+      "textbook:chapter:4": 0, 
+      "textbook:chapter:5": 0,
+      "textbook:chapter:6": 0,
+      "textbook:chapter:7": 0,
+      "textbook:chapter:8": 0,
+      "textbook:chapter:9": 0
+    }, 
+    "textbook:question:1": {
+      "query": "How does the definition of library differ from Wikipedia and Gorman?", 
+      "type": "short-answer"
+    }, 
+    "textbook:question:1:sources": [
+      "bibframe:CreativeWork:1", 
+      "bibframe:CreativeWork:2"
+    ], 
+    "bibframe:CreativeWork:1:bibframe:Instances": [
+      "bibframe:Instance:1"
+    ]
+  }
+]
