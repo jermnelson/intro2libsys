@@ -1,0 +1,18 @@
+All course code will be taught using the [Python](http://www.python.org/) 
+programming language. Along with Python, we will use the Python-based web 
+framework called [Django](http://www.djangoproject.com/) for any front-end web 
+development needs including project and assignments. If Python is new for you, 
+a good place to start is signing up and taking the Codeacademy's 
+[Python](http://www.codecademy.com/tracks/python) learning track.
+
+Tools for Symbolic Manipulation
+-------------------------------
+Python, along with HTML5, CSS, and Javascript, will together provide you a
+powerful suite of tools for manipulating and interacting with information and
+data in a much more sophsiticated manner than just using websites, basic word processors,
+spreadsheets, and databases. This is a new way to think about the symbols and 
+data that surround you and empower your curiousity and comfort level with 
+increasingly complex online and legacy computer systems. 
+
+In this class you will use Python to manipulate XML and MARC21 records and you'll 
+likely use Python in your class project.

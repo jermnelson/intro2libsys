@@ -15,7 +15,15 @@
    <h3>Chapters</h3>
    <ol>
    {% for chapter in chapters %}
-    <li><a href="#{{ chapter.pk }}">{{ chapter.title }}</a></li>
+    <li><a href="/textbook/chapter/{{ chapter.pk }}">{{ chapter.title }}</a>
+     <ul>
+     {% for page in chapter.pages %}
+       {% if page.title %}
+       <li><a href="#" onclick="GoToPage('{{page.pk }}')">{{ page.title }}</a></li>
+       {% endif %}
+     {% endfor %}
+     </ul>
+    </li>
    {% endfor %}
    </ol>
   </div>

@@ -8,3 +8,7 @@ class Chapter(models.Model):
 class Page(models.Model):
     chapter = models.ForeignKey(Chapter)
     location = models.CharField(max_length=50)
+    order = models.IntegerField()
+    title = models.CharField(max_length=150,
+                             blank=True)
+                             

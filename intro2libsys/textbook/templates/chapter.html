@@ -5,7 +5,7 @@
 
 {% block chapter-breadcrumb %}
 <li><a href="#{{ chapter.pk }}">Chapter {{ chapter.pk }} -- {{ chapter.title }}</a> <span class="divider">&raquo;</span></li>
-<li><span data-bind="value: currentPage">PAGE HOLDER</span></li>
+<li><span data-bind="text: currentPage">PAGE HOLDER</span></li>
 {% endblock %}
 
 {% block hero-unit %}
@@ -22,19 +22,19 @@
 <div class="row-fluid">
  <div class="span9 well well-small">
   <h2>Introduction to Library Systems</h2>
-  <h1>{{ chapter.title }}</h1>
+  <h1 data-bind="text: currentPage"></h1>
  </div>
 </div>
 <div class="row-fluid">
- <div class="span9 well well-small" data-bind="value: pageContent">
-
+ <div class="span9 well well-small" data-bind="html: pageContent">
+  
  </div>
 </div>
 <div class="row-fluid">
  <div class="span4 offset4">
   <div class="btn-group">
    <a href="#" class="btn" data-bind="click: previousPage">&laquo; Previous</a>
-   <a href="#" class="btn" data-bind="click: nextPage">Next &raquo;</a>
+   <a href="#" class="btn" data-bind="value: nextPage">Next &raquo;</a>
   </div>
  </div>
 </div>
@@ -43,7 +43,9 @@
 {% block more-js %}
 <script src="{{ STATIC_URL }}js/textbook.js"></script>
 <script>
- ko.applyBindings(new TextbookPageViewModel());
+var textbook_view_model = new TextbookPageViewModel();
+ko.applyBindings(textbook_view_model);
+textbook_view_model.loadPage({{ chapter.first_page.pk }});
 </script>
 {% endblock %}
 

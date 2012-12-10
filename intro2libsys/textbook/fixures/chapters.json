@@ -1,7 +1,7 @@
 [
  {
    "fields": {
-     "title":"Introduction to Library Systems"
+     "title":"Introduction"
    },
    "model":"textbook.Chapter",
    "pk":1
@@ -22,14 +22,14 @@
  },
  {
    "fields": {
-     "title":"Integrated Library Systems (ILS) &amp; Discovery Layers"
+     "title":"Integrated Library Systems (ILS) & Discovery Layers"
    },
    "model":"textbook.Chapter",
    "pk":4
  },
  {
    "fields": {
-     "title":"Library Websites, Digital Repositories, &amp; Supporting Technology"
+     "title":"Library Websites, Digital Repositories, & Supporting Technology"
    },
    "model":"textbook.Chapter",
    "pk":5

@@ -2,9 +2,139 @@
  {
    "fields": { 
      "chapter": 1,
-     "location":"/chapters/one/one.text"
+     "location":"one.text",
+     "order":1
    },
    "model":"textbook.Page",
    "pk":1
+  },
+  {
+   "fields": { 
+     "chapter": 1,
+     "location":"html-css-js.text",
+     "order":2,
+     "title":"HTML, CSS, & Javascript"
+   },
+   "model":"textbook.Page",
+   "pk":2
+  },
+  {
+   "fields": { 
+     "chapter": 1,
+     "location":"git.text",
+     "order":3,
+     "title":"Git Distributed Version Control System"
+   },
+   "model":"textbook.Page",
+   "pk":3
+  },
+  {
+   "fields": { 
+     "chapter": 1,
+     "location":"python.text",
+     "order":5,
+     "title":"Python Programming Language"
+   },
+   "model":"textbook.Page",
+   "pk":4
+  },
+ {
+   "fields": { 
+     "chapter": 1,
+     "location":"linux.text",
+     "order":4,
+     "title":"Linux and Unix Commands"
+   },
+   "model":"textbook.Page",
+   "pk":5
+  },
+ {
+   "fields": { 
+     "chapter": 2,
+     "location":"two.text",
+     "order":1
+   },
+   "model":"textbook.Page",
+   "pk":6
+  },
+ {
+   "fields": { 
+     "chapter": 2,
+     "location":"ancient-libraries.text",
+     "order":2,
+     "title":"Ancient Libraries"
+   },
+   "model":"textbook.Page",
+   "pk":7
+  },
+  {
+   "fields": { 
+     "chapter": 2,
+     "location":"middle-ages-islamic-renaissance.text",
+     "order":3,
+     "title":"Middle Ages, Islamic, and the Renaissance"
+   },
+   "model":"textbook.Page",
+   "pk":8
+  },
+  {
+   "fields": { 
+     "chapter": 2,
+     "location":"new-world-colonial-frontier.text",
+     "order":4,
+     "title":"New World, Colonial, & Frontier Libraries"
+   },
+   "model":"textbook.Page",
+   "pk":9
+  },
+  {
+   "fields": { 
+     "chapter": 2,
+     "location":"industrialization-to-wwII.text",
+     "order":5,
+     "title":"Industrialization to World War II"
+   },
+   "model":"textbook.Page",
+   "pk":10
+  },
+  {
+   "fields": { 
+     "chapter": 2,
+     "location":"postwar-to-1980s.text",
+     "order":6,
+     "title":"Postwar to 1980s"
+   },
+   "model":"textbook.Page",
+   "pk":11
+  },
+  {
+   "fields": { 
+     "chapter": 2,
+     "location":"1990s-to-present.text",
+     "order":7,
+     "title":"1990s to Present" 
+   },
+   "model":"textbook.Page",
+   "pk":12
+  },
+  {
+   "fields": { 
+     "chapter": 3,
+     "location":"three.text",
+     "order":1 
+   },
+   "model":"textbook.Page",
+   "pk":13
+  },
+  {
+   "fields": { 
+     "chapter": 3,
+     "location":"marc21.text",
+     "order":2,
+     "title":"Machine Readable Cataloging (MARC)" 
+   },
+   "model":"textbook.Page",
+   "pk":14
   }
-]
+
+] 
