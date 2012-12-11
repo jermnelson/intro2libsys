@@ -13,9 +13,8 @@
   <br/>
   <div class="span2" style="background-color: #FFF;padding:.5em">
    <h3>Chapters</h3>
-   <ol>
    {% for chapter in chapters %}
-    <li><a href="/textbook/chapter/{{ chapter.pk }}">{{ chapter.title }}</a>
+    <a class="btn btn-mini" href="/textbook/chapter/{{ chapter.pk }}">{{ forloop.counter }}. {{ chapter.title }}</a>
      <ul>
      {% for page in chapter.pages %}
        {% if page.title %}
@@ -23,9 +22,8 @@
        {% endif %}
      {% endfor %}
      </ul>
-    </li>
+    
    {% endfor %}
-   </ol>
   </div>
  </div>
 </div>

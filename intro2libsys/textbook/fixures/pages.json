@@ -135,6 +135,203 @@
    },
    "model":"textbook.Page",
    "pk":14
+  },
+  {
+   "fields": { 
+     "chapter": 3,
+     "location":"mods.text",
+     "order":3,
+     "title":"Metadata Object Description Schema (MODS)" 
+   },
+   "model":"textbook.Page",
+   "pk":15
+  },
+  {
+   "fields": { 
+     "chapter": 3,
+     "location":"frbr-rda.text",
+     "order":5,
+     "title":"Functional Requirements of Bibliographic Records (FRBR) - Resource Description and Access (RDA)"
+   },
+   "model":"textbook.Page",
+   "pk":16
+  },
+  {
+   "fields": { 
+     "chapter": 3,
+     "location":"bibframe.text",
+     "order":4,
+     "title":"Library of Congress Bibliographic Framework's BIBFRAME"
+   },
+   "model":"textbook.Page",
+   "pk":17
+  },
+ {
+   "fields": { 
+     "chapter": 3,
+     "location":"dublin-core.text",
+     "order":4,
+     "title":"Dublin Core"
+   },
+   "model":"textbook.Page",
+   "pk":18
+  },
+ {
+   "fields": { 
+     "chapter": 3,
+     "location":"linked-data.text",
+     "order":5,
+     "title":"LinkedData"
+   },
+   "model":"textbook.Page",
+   "pk":19
+  },
+ {
+   "fields": { 
+     "chapter": 3,
+     "location":"schema-org.text",
+     "order":6,
+     "title":"Schema.org"
+   },
+   "model":"textbook.Page",
+   "pk":21
+  },
+ {
+   "fields": { 
+     "chapter": 3,
+     "location":"onix.text",
+     "order":7,
+     "title":"Online Information Exchange (ONIX) for Books"
+   },
+   "model":"textbook.Page",
+   "pk":22
+  },
+ {
+   "fields": { 
+     "chapter": 3,
+     "location":"rda-a.text",
+     "order":8,
+     "title":"Resource Description Frameworks in attributes (RDFa)"
+   },
+   "model":"textbook.Page",
+   "pk":23
+  },
+ {
+   "fields": { 
+     "chapter": 3,
+     "location":"vra.text",
+     "order":9,
+     "title":"Visual Resource Access (VRA) Core"
+   },
+   "model":"textbook.Page",
+   "pk":23
+  },
+ {
+   "fields": { 
+     "chapter": 3,
+     "location":"tei.text",
+     "order":10,
+     "title":"Text Encoding Initiative (TEI)"
+   },
+   "model":"textbook.Page",
+   "pk":24
+  },
+ {
+   "fields": { 
+     "chapter": 4,
+     "location":"four.text",
+     "order":1
+   },
+   "model":"textbook.Page",
+   "pk":25
+  },
+ {
+   "fields": { 
+     "chapter": 4,
+     "location":"first-card-catalogs.text",
+     "order":2,
+     "title":"Card Catalogs"
+   },
+   "model":"textbook.Page",
+   "pk":26
+  },
+ {
+   "fields": { 
+     "chapter": 4,
+     "location":"commercial-ils-dl.text",
+     "order":3,
+     "title":"Commercial ILS, Discovery Layers, & Library Services Platforms"
+   },
+   "model":"textbook.Page",
+   "pk":27
+  },
+ {
+   "fields": { 
+     "chapter": 4,
+     "location":"open-source-ils-dl.text",
+     "order":4,
+     "title":"Open Source ILS & Discovery Layers"
+   },
+   "model":"textbook.Page",
+   "pk":28
+  },
+ {
+   "fields": { 
+     "chapter": 4,
+     "location":"google-disruption.text",
+     "order":5,
+     "title":"The Continued Distruption of Google"
+   },
+   "model":"textbook.Page",
+   "pk":29
+  },
+ {
+   "fields": { 
+     "chapter": 5,
+     "location":"five.text",
+     "order":1
+   },
+   "model":"textbook.Page",
+   "pk":30
+  },
+ {
+   "fields": { 
+     "chapter": 5,
+     "location":"digital-repositories.text",
+     "order":2,
+     "title":"Digital Repositories"
+   },
+   "model":"textbook.Page",
+   "pk":31
+  },
+ {
+   "fields": { 
+     "chapter": 5,
+     "location":"library-websites.text",
+     "order":3,
+     "title":"Library Websites"
+   },
+   "model":"textbook.Page",
+   "pk":32
+  },
+ {
+   "fields": { 
+     "chapter": 5,
+     "location":"solr.text",
+     "order":4,
+     "title":"Indexing with Solr"
+   },
+   "model":"textbook.Page",
+   "pk":33
+  },
+ {
+   "fields": { 
+     "chapter": 5,
+     "location":"other-services-systems.text",
+     "order":5,
+     "title":"Other Services and Library Systems"
+   },
+   "model":"textbook.Page",
+   "pk":34
   }
-
-] 
+]  

@@ -33,5 +33,40 @@
    },
    "model":"textbook.Chapter",
    "pk":5
+ },
+ {
+   "fields": {
+     "title":"Workstations, Servers, Peripherals, & Networking"
+   },
+   "model":"textbook.Chapter",
+   "pk":6
+ },
+ {
+   "fields": {
+     "title":"Enterprise IT in Corporations, Higher Education, & Public Libraries"
+   },
+   "model":"textbook.Chapter",
+   "pk":7
+ },
+ {
+   "fields": {
+     "title":"Optimizing the Library Systems Department"
+   },
+   "model":"textbook.Chapter",
+   "pk":8
+ },
+ {
+   "fields": {
+     "title":"NoSQL, Mobile Platforms, & Semantic Web"
+   },
+   "model":"textbook.Chapter",
+   "pk":9
+ },
+ {
+   "fields": {
+     "title":"Library Systems in the Future"
+   },
+   "model":"textbook.Chapter",
+   "pk":10
  }
 ]
