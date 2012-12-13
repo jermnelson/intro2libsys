@@ -12,18 +12,35 @@
  <div class="row">
   <br/>
   <div class="span2" style="background-color: #FFF;padding:.5em">
-   <h3>Chapters</h3>
-   {% for chapter in chapters %}
-    <a class="btn btn-mini" href="/textbook/chapter/{{ chapter.pk }}">{{ forloop.counter }}. {{ chapter.title }}</a>
-     <ul>
-     {% for page in chapter.pages %}
-       {% if page.title %}
-       <li><a href="#" onclick="GoToPage('{{page.pk }}')">{{ page.title }}</a></li>
-       {% endif %}
-     {% endfor %}
-     </ul>
-    
-   {% endfor %}
+  <h3>Chapters</h3>
+  <div class="accordion" id="chapter-accordion">
+  {% for chapter in chapters %}
+   <div class="accordion-group">
+    <div class="accordion-heading">
+     <a href="#{{ chapter.pk }}-pane" class="accordion-toggle"
+	data-parent='chapter-accordion' data-toggle='collapse'>
+      {{ forloop.counter }}. {{ chapter.title }}
+     </a>
+    </div>
+    <div class="accordion-body collapse" id="{{ chapter.pk }}-pane">
+      <div class="accordion-inner">
+       <ul> 
+      {% for page in chapter.pages %}
+        <li>
+         <a href="#" onclick="GoToPage('{{page.pk }}')">
+          {% if page.title %}
+            {{ page.title }}
+          {% else %}
+           {{ chapter.title }}
+          {% endif %}
+         </a>
+      {% endfor %}
+       </ul>
+      </div>    
+    </div> 
+   </div>
+  {% endfor %}
+  </div>
   </div>
  </div>
 </div>

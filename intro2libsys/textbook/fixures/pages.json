@@ -333,5 +333,284 @@
    },
    "model":"textbook.Page",
    "pk":34
-  }
-]  
+  },
+  {
+   "fields": { 
+     "chapter": 6,
+     "location":"six.text",
+     "order":1
+   },
+   "model":"textbook.Page",
+   "pk":35
+  },
+  {
+   "fields": { 
+     "chapter": 6,
+     "location":"workstations.text",
+     "order":2,
+     "title":"Workstations"
+   },
+   "model":"textbook.Page",
+   "pk":36
+  },
+  {
+   "fields": { 
+     "chapter": 6,
+     "location":"servers.text",
+     "order":3,
+     "title":"Servers"
+   },
+   "model":"textbook.Page",
+   "pk":37
+  },
+  {
+   "fields": { 
+     "chapter": 6,
+     "location":"peripherals.text",
+     "order":4,
+     "title":"Hardware Peripherals"
+   },
+   "model":"textbook.Page",
+   "pk":38
+  },
+  {
+   "fields": { 
+     "chapter": 6,
+     "location":"networking.text",
+     "order":4,
+     "title":"Networking"
+   },
+   "model":"textbook.Page",
+   "pk":38
+  },
+  {
+   "fields": { 
+     "chapter": 7,
+     "location":"seven.text",
+     "order":1
+   },
+   "model":"textbook.Page",
+   "pk":39
+  },
+  {
+   "fields": { 
+     "chapter": 7,
+     "location":"consortiums.text",
+     "order":2,
+     "title":"Consortiums"
+   },
+   "model":"textbook.Page",
+   "pk":40
+  },
+  {
+   "fields": { 
+     "chapter": 7,
+     "location":"library-system-vendors.text",
+     "order":3,
+     "title":"Library System Vendors"
+   },
+   "model":"textbook.Page",
+   "pk":41
+  },
+  {
+   "fields": { 
+     "chapter": 7,
+     "location":"it-corporations.text",
+     "order":4,
+     "title":"Information Technology in Corporations"
+   },
+   "model":"textbook.Page",
+   "pk":42
+  },
+  {
+   "fields": { 
+     "chapter": 7,
+     "location":"publishers.text",
+      "order":5,
+      "title":"Publishers"
+   },
+   "model":"textbook.Page",
+   "pk":43
+  },
+  {
+   "fields": { 
+     "chapter": 7,
+     "location":"it-higher-education.text",
+      "order":6,
+      "title":"Information Technology in Higher Education"
+   },
+   "model":"textbook.Page",
+   "pk":44
+  },   
+  {
+   "fields": { 
+     "chapter": 7,
+     "location":"it-gov-public.text",
+      "order":7,
+      "title":"Information Technology in Government & Public Libraries"
+   },
+   "model":"textbook.Page",
+   "pk":45
+  },
+ {
+   "fields": { 
+     "chapter": 7,
+     "location":"it-startup-small.text",
+      "order":8,
+      "title":"Information Technology in Start-ups & Small Libraries"
+   },
+   "model":"textbook.Page",
+   "pk":46
+  },
+  {
+   "fields": { 
+     "chapter":8,
+     "location":"eight.text",
+      "order":1
+   },
+   "model":"textbook.Page",
+   "pk":47
+  },
+  {
+   "fields": { 
+     "chapter": 8,
+     "location":"agile-software-dev.text",
+      "order":2,
+      "title":"Agile Software Development"
+   },
+   "model":"textbook.Page",
+   "pk":48
+  },
+  {
+   "fields": { 
+     "chapter": 8,
+     "location":"user-interface-ab-testing.text",
+      "order":3,
+      "title":"User Interface and A/B Testing"
+   },
+   "model":"textbook.Page",
+   "pk":49
+  },
+ {
+   "fields": { 
+     "chapter": 8,
+     "location":"analytics-assessment.text",
+      "order":4,
+      "title":"Analytics and Assesment"
+   },
+   "model":"textbook.Page",
+   "pk":50
+  },
+ {
+   "fields": { 
+     "chapter": 8,
+     "location":"technical-documentation.text",
+      "order":5,
+      "title":"Technical Documentation"
+   },
+   "model":"textbook.Page",
+   "pk":51
+  },
+ {
+   "fields": { 
+     "chapter": 9,
+     "location":"nine.text",
+     "order":1
+   },
+   "model":"textbook.Page",
+   "pk":52
+  },
+  {
+   "fields": { 
+     "chapter": 9,
+     "location":"semantic-web.text",
+     "order":2,
+     "title":"Semantic Web"
+   },
+   "model":"textbook.Page",
+   "pk":53
+  },
+  {
+   "fields": { 
+     "chapter": 9,
+     "location":"nosql-cloud-computing.text",
+     "order":3,
+     "title":"NoSQL & Cloud Computing"
+   },
+   "model":"textbook.Page",
+   "pk":54
+  },
+  {
+   "fields": { 
+     "chapter": 9,
+     "location":"mobile-platforms.text",
+     "order":4,
+     "title":"Mobile Platforms"
+   },
+   "model":"textbook.Page",
+   "pk":55
+  },
+  {
+   "fields": { 
+     "chapter": 10,
+     "location":"ten.text",
+     "order":1
+   },
+   "model":"textbook.Page",
+   "pk":56
+  },
+  {
+   "fields": { 
+     "chapter": 10,
+     "location":"lib-sys-status-quo.text",
+     "order":2,
+     "title":"Scenario - The Future of Library Systems Remains the Same (Status Quo)"
+   },
+   "model":"textbook.Page",
+   "pk":57
+  },
+ {
+   "fields": { 
+     "chapter": 10,
+     "location":"lib-sys-future-worse.text",
+     "order":3,
+     "title":"Scenario - The Future of Library Systems is Worse than We Expect"
+   },
+   "model":"textbook.Page",
+   "pk":58
+  },
+ {
+   "fields": { 
+     "chapter": 10,
+     "location":"lib-sys-future-better.text",
+     "order":4,
+     "title":"Scenario - The Future of Library Systems is Better than We Expect"
+   },
+   "model":"textbook.Page",
+   "pk":59
+  },
+  {
+   "fields": { 
+     "chapter": 10,
+     "location":"lib-sys-future-weirder.text",
+     "order":5,
+     "title":"Scenario - The Future of Library Systems is Weirder than We Expect"
+   },
+   "model":"textbook.Page",
+   "pk":60
+  },
+  {
+   "fields": { 
+     "chapter": 10,
+     "location":"conclusion.text",
+     "order":6,
+     "title":"Conclusion"
+   },
+   "model":"textbook.Page",
+   "pk":61
+  } 
+
+]
+         
+	    
+	       

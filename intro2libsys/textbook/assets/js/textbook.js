@@ -20,9 +20,9 @@ function TextbookPageViewModel() {
   // Data
   var self = this;
   self.currentPage = ko.observable();
-  self.nextPage = ko.observable();
   self.pageContent = ko.observable();
-
+  self.next_page = 0;
+  self.previous_page = 0;
  
   // Behaviours
   self.loadPage = function(page_id) {
@@ -34,15 +34,26 @@ function TextbookPageViewModel() {
        success: function(response) {
          self.pageContent(response.html);
          self.currentPage(response.title);
-         if(!response.next) {
-             self.nextPage(false);
+	 if(response.next) {
+	   self.next_page = response.next;
+	 } else {
+           self.next_page = page_id;
          }
+	 if(response.previous) {
+	   self.previous_page = response.previous;
+	 } else {
+           self.previous_page = page_id;
+	 }
      }
    });    
 
   }
 
+  self.nextPage = function() {
+    self.loadPage(self.next_page);
+  };
+
   self.previousPage = function() {
-    alert("In previousPage " + location.hash);
+    self.loadPage(self.previous_page);
   };
 }
