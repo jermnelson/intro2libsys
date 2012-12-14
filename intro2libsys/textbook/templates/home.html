@@ -6,3 +6,12 @@
 {% block chapter-breadcrumb %}
 <li>Home</li>
 {% endblock %}
+
+{% block more-js %}
+<script src="{{ STATIC_URL }}js/textbook.js"></script>
+<script>
+  var textbook_view_model = new TextbookPageViewModel();
+  ko.applyBindings(textbook_view_model);
+</script>
+{% endblock %}
+
