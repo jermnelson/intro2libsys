@@ -15,30 +15,32 @@ schema.org are all implemented using microdata.
 
 Examples
 --------
-First, an example of HTML without schema.org microdata::
+First, an example of HTML without schema.org microdata:
 
-  <html>
-   <head>
-    ...
-   </head>
-   <body>
-    <h1>Pride and Prejudice</h1>
-    <div>written by Jane Austen</div>
-    ...
-   </body>
-  </html>
 
-The same HTML with schema.org microdata::
+      <html>
+       <head>
+       ...
+       </head>
+      <body>
+       <h1>Pride and Prejudice</h1>
+       <div>written by Jane Austen</div>
+       ...
+      </body>
+     </html>
 
-  <html>
-   <head>
-    ...
-   </head>
-   <body itemscope itemtype="http://schema.org/WebPage">
-    <div itemscope itemtype="http://schema.org/Book">
-     <h1 itemprop="name">Pride and Prejudice</h1>
-     <div itemprop="author">written by Jane Austen</div>
-    ...
-    </div>
-   </body>
-  </html>
+The same HTML with schema.org microdata:
+
+
+     <html>
+     <head>
+      ...
+     </head>
+     <body itemscope itemtype="http://schema.org/WebPage">
+      <div itemscope itemtype="http://schema.org/Book">
+      <h1 itemprop="name">Pride and Prejudice</h1>
+      <div itemprop="author">written by Jane Austen</div>
+      ...
+      </div>
+     </body>
+     </html>

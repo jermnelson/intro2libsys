@@ -1,5 +1,5 @@
-`MARC`_, an acronym for **MA** chine **R** eadable **C** ataloging, is an 
-electronic format and carrier for bibliographic records. The MARC21 (the 
+[MARC](http://www.loc.gov/marc/), an acronym for **MA** chine **R** eadable **C** ataloging, 
+is an electronic format and carrier for bibliographic records. The MARC21 (the 
 latest version of MARC) format has three components:
 
 * As communication format structure for data exchange between different
@@ -21,37 +21,63 @@ used by the computer systems that then is able to display the information in a m
 human-friendly format. 
 
 
-Here is a table from *Understanding MARC* [#]_ of most commonly used fixed and 
-variable length fields in a MARC bibliographic record:
+Here is a table from *Understanding MARC* <sup><a href="#1">1</a></sup> of most 
+commonly used fixed and variable length fields in a MARC bibliographic record:
 
-+---------+-------------------------------------------------------------------+
-| MARC tag| Description                                                       |
-+=========+===================================================================+
-| 010 tag | marks the Library of Congress Control Number(LCCN)                |
-+---------+-------------------------------------------------------------------+
-| 020 tag | marks the International Standard Book Number (ISBN)               |
-+---------+-------------------------------------------------------------------+
-| 100 tag | marks a personal name main entry (author)                         |
-+---------+-------------------------------------------------------------------+
-| 245 tag | marks the title information (which includes the title, other      |
-|         | title information, and the statement of responsibility)           |
-+---------+-------------------------------------------------------------------+
-| 250 tag | marks the edition                                                 |
-+---------+-------------------------------------------------------------------+
-| 260 tag | marks the publication information                                 |
-+---------+-------------------------------------------------------------------+
-| 300 tag | marks the physical description (often referred to as the          |
-|         | "collation" when describing books)                                |
-+---------+-------------------------------------------------------------------+
-| 490 tag | marks the series statement                                        |
-+---------+-------------------------------------------------------------------+
-| 520 tag | marks the annotation or summary note                              |
-+---------+-------------------------------------------------------------------+
-| 650 tag | marks a topical subject heading                                   |
-+---------+-------------------------------------------------------------------+
-| 700 tag | marks a personal name added entry (joint author, editor, or       |
-|         | illustrator)                                                      |
-+---------+-------------------------------------------------------------------+
+
+<table>
+ <tr>
+  <th>MARC tag</th>
+  <th>Description</th>
+ </tr>
+ <tr>          
+  <th>010 tag</th>
+  <td>marks the Library of Congress Control Number(LCCN)</td>
+ </tr>
+ <tr>             
+  <th>020 tag</th>
+  <td>marks the International Standard Book Number (ISBN)</td>
+ </tr>
+ <tr> 
+  <th>100 tag</th>
+  <td>marks a personal name main entry (author)</td>
+ </tr>
+ <tr> 
+  <th>245 tag</th>
+  <td>marks the title information (which includes the title, other
+      title information, and the statement of responsibility)</td>
+ </tr>
+ <tr>
+  <th>250 tag</th>
+  <td>marks the edition</td>
+ </tr>
+ <tr>
+  <th>260 tag</th>
+  <td>marks the publication information</td>
+ </tr>
+ <tr>
+  <th>300 tag</th>
+  <td>marks the physical description (often referred to as the          
+     "collation" when describing books)</td>
+ </tr>
+ <tr>    
+  <th>490 tag</th>
+  <td>marks the series statement</td>
+ </tr>
+ <tr> 
+  <th>520 tag</th>
+  <td>marks the annotation or summary note</td>
+ </tr>
+ <tr> 
+  <th>650 tag</th>
+  <td>marks a topical subject heading</td>
+ </tr>
+ <tr>
+  <th>700 tag</th>
+  <td>marks a personal name added entry (joint author, editor, or illustrator)</td>
+ </tr>
+</table> 
+
 
 
 For MARC fields greater than 009, they have can up to two field indicators for 
@@ -90,7 +116,8 @@ subfield delimiter.
 
 MARCXML
 -------
-The Library of Congress has also released an XML version of MARC called `MARCXML`_ that
+The Library of Congress has also released an XML version of MARC called 
+[MARCXML](http://www.loc.gov/standards/marcxml/) that
 represents the MARC leader, fixed fields, and variable fields, along with the indicators
 and subfields using an XML schema. There are a number of different programs that convert 
 MARC21 into MARC XML without losing any data from the original MARC record. MARCXML is 
@@ -100,45 +127,43 @@ of the MARC21 record into corresponding XML elements and attributes.
 
 Below is part of the MARCXML from the previous example::
 
-  <?xml version="1.0" encoding="UTF-8"?>
-  <collection xmlns="http://www.loc.gov/MARC21/slim">
-  <record>
-    <leader>LEADER 00000nam  2200289Ia 4500</leader>
+     <?xml version="1.0" encoding="UTF-8"?>
+     <collection xmlns="http://www.loc.gov/MARC21/slim">
+     <record>
+      <leader>LEADER 00000nam  2200289Ia 4500</leader>
 	<controlfield tag="001">8383316</controlfield>
 	<controlfield tag="003">OCoLC</controlfield>
 	<controlfield tag="005">19981012112243.0</controlfield>
 	<controlfield tag="008">820430s1918    nyu           000 1 eng  </controlfield>
 	<datafield tag="010" ind1=" " ind2=" ">
-      <subfield code="a">18007296</subfield>
-    </datafield>
+         <subfield code="a">18007296</subfield>
+        </datafield>
 	<datafield tag="040" ind1=" " ind2=" ">
 	  <subfield code="a">DLC</subfield>
-      <subfield code="c">ZMM</subfield>
-      <subfield code="d">ZMM</subfield>
-    </datafield>
-	...
+          <subfield code="c">ZMM</subfield>
+         <subfield code="d">ZMM</subfield>
+        </datafield>
+	 ...
 	<datafield tag="100" ind1="1" ind2=" ">
-      <subfield code="a">Austen, Jane,</subfield>
-      <subfield code="d">1775-1817.</subfield>
-    </datafield>
+         <subfield code="a">Austen, Jane,</subfield>
+         <subfield code="d">1775-1817.</subfield>
+        </datafield>
 	<datafield tag="245" ind1="1" ind2="0">
-      <subfield code="a">Pride and prejudice /</subfield>
-      <subfield code="c">by Jane Austen; with an introduction by William Dean Howells</subfield>
-    </datafield>
+         <subfield code="a">Pride and prejudice /</subfield>
+         <subfield code="c">by Jane Austen; with an introduction by William Dean Howells</subfield>
+        </datafield>
 	<datafield tag="700" ind1="1" ind2=" ">
-      <subfield code="a">Howells, William Dean,</subfield>
+          <subfield code="a">Howells, William Dean,</subfield>
 	  <subfield code="d">1837-1920</subfield>
 	</datafield>
 	<datafield tag="830" ind1=" " ind2="0">
 	 <subfield code="a">Modern student's library</subfield>
 	</datafield>
-  </record>
-  </collection>
-  
+      </record>
+     </collection>
+ 
+References
+----------
+<sup><a name="1">1</a></sup> [Understanding MARC](http://www.loc.gov/marc/umb/), What 
+is a MARC Record and Why is it Important? Part III. MARC Terms and Their Definitions.
 
-.. [#] `Understanding MARC`_, What is a MARC Record and Why is it Important? Part III. MARC
-       Terms and Their Definitions.
-
-.. _MARC: http://www.loc.gov/marc/
-.. _MARCXML: http://www.loc.gov/standards/marcxml/
-.. _Understanding MARC: http://www.loc.gov/marc/umb/

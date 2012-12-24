@@ -1,6 +1,3 @@
-===================================================================
-Enterprise IT in Corporations, Higher Education, & Public Libraries
-===================================================================
 Information Technology (IT) in organizations widely varies depending on 
 the type, size, budget, and people. While the technology press tends to focus
 on start-up and new technology, most organizations of any size must deal
@@ -35,15 +32,3 @@ adoption of the technology with front-line staff and users who may be accustomed
 to the previous technology's work-flows and practices and are reluctant to 
 have to learn a whole new system that often introduces whole new areas of 
 problems as they attempt to fulfill their own responsibilities. 
-
-
-.. toctree::
-   :maxdepth: 2
-   
-   consortiums
-   library-system-vendors
-   it-corporations
-   publishers
-   it-higher-education
-   it-gov-public
-   it-startup-small

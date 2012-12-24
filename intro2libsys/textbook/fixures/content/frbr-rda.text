@@ -15,7 +15,9 @@ entities are often referred to WEMI.
 
 ### Work
 A **Work** is the most abstract of the four WEMI entities. As defined by
-the FRBR Final Report - "a distinct intellectual or artistic creation" [#]_ 
+the FRBR Final Report - "a distinct intellectual or artistic creation"
+<sup><a href="#1">1</a></sup>
+
 A **Work** doesn't actually exist in any physical or electronic form; it is an 
 entity that is comprised of common attributes from its different **Expressions**.
 For example, different editions, abridgments, revisions, and translations are 
@@ -25,7 +27,8 @@ all **Expressions** of the **Work** "Pride and Prejudice" by Jane Austen.
 An **Expression** is the second-most abstraction in the WEMI model, and is 
 defined as "the intellectual or artistic realization of a work in the form 
 alpha-numeric, musical, choreographic notation, sound, image, object, movement,
-etc., or any combination of such forms." [#]_ Like a **Work**, an **Expression** 
+etc., or any combination of such forms." <sup><a href="#2">2</a></sup> Like 
+a **Work**, an **Expression** 
 doesn't actually include such physical attributes as the font or page layout, 
 but is the unit used to describe more of the content than the physical or 
 electronic **Manifestations**. Continuing the "Pride and Prejudice" example, a 
@@ -35,7 +38,8 @@ the stacks or a film's frame-per-second.
 
 ### Manifestation
 A **Manifestation** is the third entity in the WEMI and is defined by the FRBR
-Final Report as "the physical embodiment of the an expression of a work". [#]_ 
+Final Report as "the physical embodiment of the an expression of a work".
+<sup><a href="#3">3</a></sup>
 A **Manifestation** includes most materials, such as monographs, periodicals,
 films, music scores and recordings, video, websites, DVDs and BlueRay, and most
 electronic resources. Identifing a **Manifestation** is about recording the 
@@ -51,7 +55,8 @@ embody each of these **Expressions** of "Pride and Prejudice".
 ### Item
 An **Item** is the most concrete entity in WEMI and refers to the actual physical
 or electronic item. As defined by FRBR, an item is "a single exemplar of a 
-manifestation". [#]_ In most cases an **Item** is a distinct single unit of a 
+manifestation". <sup><a href="#4">4</a></sup>
+In most cases an **Item** is a distinct single unit of a 
 resource, for example the physical copy of "Pride and Prejudice" that is on 
 the shelf. Most often, the intellectual content and physical form are the same
 for both an **Item** and its exemplifying **Manifestation** but variations 
@@ -90,10 +95,8 @@ title, or form.
 
 References
 ----------
-.. [#] page 16, `Functional Requirements for Bibliographic Record: Final Report`_
-.. [#] page 18, `Functional Requirements for Bibliographic Record: Final Report`_
-.. [#] page 20, `Functional Requirements for Bibliographic Record: Final Report`_
-.. [#] page 23, `Functional Requirements for Bibliographic Record: Final Report`_
+<sup><a name="1">1</a></sup> page 16, [Functional Requirements for Bibliographic Record: Final Report](http://archive.ifla.org/VII/s13/frbr/frbr.pdf)  
+<sup><a name="2">2</a></sup> page 18, [Functional Requirements for Bibliographic Record: Final Report](http://archive.ifla.org/VII/s13/frbr/frbr.pdf)  
+<sup><a name="3">3</a></sup> page 20, [Functional Requirements for Bibliographic Record: Final Report](http://archive.ifla.org/VII/s13/frbr/frbr.pdf)  
+ <sup><a name="4">4</a></sup> page 23, [Functional Requirements for Bibliographic Record: Final Report](http://archive.ifla.org/VII/s13/frbr/frbr.pdf)  
 
-
-.. _`Functional Requirements for Bibliographic Record: Final Report`: http://archive.ifla.org/VII/s13/frbr/frbr.pdf

@@ -10,73 +10,132 @@ both local and remote resources owned by the library.
 
  
 
-Table 1 - Library Services Platforms [#]_
------------------------------------------
+Table 1 - Library Services Platforms <sup><a href="#1">1</a></sup>
+------------------------------------------------------------------
 
-+---------------------+------------+-------------+-----------+
-|                     |2011 Sales  | 2011 Total  | 2011 New  |
-|                     |            | Installed   | Customers |
-+---------------------+------------+-------------+-----------+
-| Ex Libris Alma      | 24         | 55          |  0        |
-+---------------------+------------+-------------+-----------+
-| III's Sierra        | 206        | 0           |  1        |
-+---------------------+------------+-------------+-----------+
-| OCLC's WorldShare   | 184        | 38          |           |
-| Management Service  |            |             |           |
-+---------------------+------------+-------------+-----------+
-| Serials Solution's  |            |             |           | 
-| Intota              |            |             |           |
-+---------------------+------------+-------------+-----------+
+<table class="table table-striped">
+ <tr>
+   <th>Product</th>
+   <th>2011 Sales</th>
+   <th>2011 Total Installed</th>
+   <th>2011 New  Customers</t>
+ </tr>
+ <tr>
+  <td>Ex Libris Alma</td> 
+  <td>24</td>
+  <td>55</td>
+  <td>0</td>
+ </tr>
+ <tr>
+  <td>III's Sierra</td>
+  <td>206</td>
+  <td>0</td>
+  <td>1</td>
+ </tr>
+ <tr>
+  <td>OCLC's WorldShare Management Service</td>
+  <td>184</td>
+  <td>38</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <td>Serials Solution's Intota</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+</table>
 
 
 
 Table 2 - Top Commerical Integrated Library Systems
 ---------------------------------------------------
-+-------------------------+------------+------------+-----------+
-|                         | 2011 Sales | 2011 Total | 2011 New  |
-|                         |            | Installed  | Customers |
-+-------------------------+------------+------------+-----------+
-| SirsiDynix's Symphony   | 124        | 3,688      | 43        |
-| & Horizon               |            |            |           |
-+-------------------------+------------+------------+-----------+
-| Ex Libris's Aleph &     | 26         | 3,577      | 19        |                  
-| Voyager                 |            |            |           |
-+-------------------------+------------+------------+-----------+
-| VTLS Inc.'s Virtua      | 13         | 1,798      | 12        |
-+-------------------------+------------+------------+-----------+
-| Innovative Interfaces's | 32         | 1,425      | 32        |
-| Millennium              |            |            |           |
-+-------------------------+------------+------------+-----------+
-| Library Corporation's   | 50         | 793        | 48        |
-| Library Solution &      |            |            |           |
-| Carl X                  |            |            |           |
-+-------------------------+------------+------------+-----------+
+
+<table class="table table-striped">
+ <tr>
+  <th>Product</th>
+  <th>2011 Sales</th>
+  <th>2011 Total Installed</th>
+  <th>2011 New  Customers</th>
+ </tr>
+ <tr>
+  <td>SirsiDynix's Symphony & Horizon</td>
+  <td>124</td>
+  <td>3,688</td>
+  <td>43</td>
+ </tr>
+ <tr>
+  <td>Ex Libris's Aleph &amp; Voyager</td>
+  <td>26</td>
+  <td>3,577</td>
+  <td>19</td>
+ </tr> 
+ <tr>              
+  <td>VTLS Inc.'s Virtua</td>
+  <td>13</td>
+  <td>1,798</td>
+  <td>12</td>
+ </tr>
+ <tr>
+  <td>Innovative Interfaces's Millennium</td>
+  <td>32</td>
+  <td>1,425</td>
+  <td>32</td>
+ </tr>
+ <tr>
+  <td>Library Corporation's   
+      Library Solution & Carl X
+  </td>
+  <td>50</td>
+  <td>793</td>
+  <td>48</td>
+ </tr>
+</table>
+
 
 Table 3 - Top Commercial Discovery Services
 -------------------------------------------
-+-------------------------+------------+-----------+------------+
-|                         | 2011 New   | 2011      | Total      |     
-|                         | customers  | Total     | Installed  |
-+-------------------------+------------+-----------+------------+
-| Ex Libris's Primo       | 14         | 104       | 914        |
-+-------------------------+------------+-----------+------------+
-| Serials Solutions's     | 214        | 175       | 657        |
-| Summon & Aquabrowser    |            |           |            |            
-+-------------------------+------------+-----------+------------+
-| Ebsco Discovery Service |            |           |            |
-+-------------------------+------------+-----------+------------+
-| Innovative Interface    |            | 72        | 326        |
-| Inc.'s Encore           |            |           |            |
-+-------------------------+------------+-----------+------------+
-| OCLC's Local Worldcat   |            |           | 1578       |
-+-------------------------+------------+-----------+------------+
 
+<table class="table table-striped">
+ <tr>
+  <th>Product</th>
+  <th>2011 New</th>
+  <th>2011 customers</th>
+  <th>Total Installed</th>    
+ </tr>
+ <tr>
+  <td>Ex Libris's Primo</td>
+  <td>14</td>
+  <td>104</td>
+  <td>914</td>
+ </tr>
+ <tr>
+  <td>Serials Solutions's  Summon & Aquabrowser</td>          
+  <td>214</td>
+  <td>175</td>
+  <td>657</td>
+ </tr>
+ <tr>
+  <td>Ebsco Discovery Service</td>
+  <td>&nbsp;</td>           
+  <td>&nbsp;</td>           
+  <td>&nbsp;</td>           
+ </tr>
+ <tr>
+  <td>Innovative Interface Inc.'s Encore</td>
+  <td>72</td>
+  <td>326</td>
+  <td>&nbsp;</td>           
+ </tr>
+ <tr>
+  <td>OCLC's Local Worldcat</td>
+  <td>&nbsp;</td>           
+  <td>&nbsp;</td>           
+  <td>1578</td>
+ </tr>
+</table>
 
 
 References
 ----------
-.. [#] All data in Tables 1,2, and 3 are from the following report by Marshall
-       Breeding's `Automation Marketplace 2012: Agents of Change`_ .
-
-.. _`Automation Marketplace 2012: Agents of Change`: http://www.thedigitalshift.com/2012/03/ils/automation-marketplace-2012-agents-of-change/
-
+<a name="1">1</a>. All data in Tables 1,2, and 3 are from the following report by Marshall
+       Breeding's [Automation Marketplace 2012: Agents of Change](http://www.thedigitalshift.com/2012/03/ils/automation-marketplace-2012-agents-of-change/)

@@ -4,111 +4,87 @@ Evergreen
 intergrated library system that is used by over 800 libraries. 
 Evergreen was created in 2006 by the
 Georgia Public Library System as an ILS for a consortium of about 250 
-public libraries. Evergreen uses `PostgreSQL`_ as the database backend 
-with `PERL`_ and `Apache`_ webserver as the front-end to the ILS.
+public libraries. Evergreen uses [PostgreSQL](http://www.postgresql.org/) 
+as the database backend with [PERL](http://www.perl.org/) and 
+[Apache](http://httpd.apache.org/) webserver as the front-end to the ILS.
 
 Notable installations of Evergreen, include the first installation of
-the Georgia Public Library Service's `PINES`_, the `King County Library
-System`_ in Washington State, and the Massachusetts Library Network Cooperative 
-with their `C/W MARS`_ and `NOBLE`_ catalogs. For a complete listing of 
+the Georgia Public Library Service's [PINES](http://gapines.org/opac/en-US/skin/default/xml/index.xml), 
+the [King County Library System](http://catalog.kcls.org/eg/opac/home) in 
+Washington State, and the Massachusetts Library Network Cooperative 
+with their [C/W MARS](http://www.cwmars.org/) and [NOBLE](http://www.noblenet.org/)
+catalogs. For a complete listing of 
 libraries using Evergreen, see the following website:
-<http://open-ils.org/dokuwiki/doku.php?id=evergreen_libraries>.
+[http://open-ils.org/dokuwiki/doku.php?id=evergreen_libraries](http://open-ils.org/dokuwiki/doku.php?id=evergreen_libraries).
 
 Koha
 ----
-`Koha`_ was one of the first open-source ILS that stared development in 1999 
-with the `Horowhenua Library Trust`_ of New Zealand. In 2010 
-due to concerns about trademark and managment of the `koha.org <koha.org>`_
+[Koha](http://www.koha.org/) was one of the first open-source ILS 
+that stared development in 1999 with the 
+[Horowhenua Library Trust](http://www.library.org.nz/) of New Zealand. In 2010 
+due to concerns about trademark and managment of the [koha.org](http://www.koha.org)
 domain being taken over by a Koha commerical support company called LibLime, 
 the offical version of the ILS moved to a separate domain. LibLime does
 provide customer support for their varient of Koha marketed under 
-`LibLime Koha`_ product name. The LibLime supported version of Koha has 
+LibLime Koha product name. The LibLime supported version of Koha has 
 about 700 libraries using their product. Koha, like Evergreen, uses PERL and
-Apache but uses `MySQL`_ instead of PostgreSQL for the backend database. Koha
-also uses the `Zebra`_ for searching within in the ILS.
+Apache but uses [MySQL](http://www.mysql.com/)
+instead of PostgreSQL for the backend database. Koha
+also uses the [Zebra](http://www.indexdata.com/zebra) for searching within in the ILS.
 
 As you expect, there is a large number of internatinal libraries that use
 Koha, including the first developers of Koha with their 
-`Horowhenue Library Catalog`_. Other motable Koha installations in the 
-United States include the `North Kansas Library System`_ and the 
-`Norwich Public Library`_ .
+[Horowhenue Library Catalog](http://www.library.org.nz/cgi-bin/koha/opac-search.pl). 
+Other notable Koha installations in the United States include the 
+[North Kansas Library System](http://catalog.nexpresslibrary.org/)
+and the [Norwich Public Library](http://www.norwichlibrary.org/pages/catalog.htm).
 
 KualiOLE
 --------
 
 Aristotle
 ---------
-One of the newest open-source discovery systems is called `Aristotle`_
-that is a forked version of an abandoned open-source project called `Kochief`_.
-Aristotle and Kochief are based on `Django`_, a Python-based open-source
-web development platform as a search inteferface to a `Solr`_ index of MARC
-records. Aristotle also provides a `Fedora Commons`_ inteface using the 
-Emory University's `Eulfedora`_ Python module.
+One of the newest open-source discovery systems is called
+[Aristotle](https://github.com/jermnelson/Discover-Aristotle)
+that is a forked version of an abandoned open-source project called 
+Kochief. Aristotle and Kochief are based on [Django](https://www.djangoproject.com/), 
+a Python-based open-source web development platform as a search inteferface to a 
+[Solr](http://lucene.apache.org/solr/) index of MARC records. Aristotle also 
+provides a [Fedora Commons](http://fedora-commons.org/) inteface using the 
+Emory University's [Eulfedora]( ) Python module.
 
 As Aristotle is the newest open-source discovery interface, there is currently
-only one active site, Colorado College's `TIGER`_ catalog.
+only one active site, Colorado College's [TIGER](http://discovery.coloradocollege.edu) 
+catalog.
 
 Blacklight
 ----------
-`Blacklight`_ is a `Ruby-on-Rails`_ application that is an open-source 
+[Blacklight](http://projectblacklight.org/) is a 
+[Ruby-on-Rails]( http://rubyonrails.org/) application that is an open-source 
 discovery interface to a Solr index. Blacklight has an active developer
 community and also provides an interface to the Fedora Commons digital
 repository server through another open-source project based on Blacklight,
-called `Hydra`_. 
+called [Hydra](http://hydraproject.org/). 
 
-`John Hopkins University`_, `Stanford University`_, 
-`University of Virginia`_, `University of Wisconsin-Madison`_,
-the `Rock & Roll Hall of Fame`_, and `Northwestern University`_ either use Blacklight
+[John Hopkins University](http://catalyst.library.jhu.edu/),
+[Stanford University](http://searchworks.stanford.edu/), 
+[University of Virginia](http://search.lib.virginia.edu/), [University of Wisconsin-Madison](http://forward.library.wisconsin.edu/),
+the [Rock & Roll Hall of Fame](http://catalog.rockhall.com/), and 
+[Northwestern University](http://findingaids.library.northwestern.edu/) either use Blacklight
 for their production discovery interface or are in beta testing. A more 
 complete list of active Blacklight installations is available at 
-`https://github.com/projectblacklight/blacklight/wiki/Examples <https://github.com/projectblacklight/blacklight/wiki/Examples>`_.
+[https://github.com/projectblacklight/blacklight/wiki/Examples](https://github.com/projectblacklight/blacklight/wiki/Examples).
 
 
 VuFind
 ------
-`VuFind`_ is an open-source PHP-based discovery interface that uses 
+[VuFind](http://vufind.org/) is an open-source PHP-based discovery interface that uses 
 Apache, MySQL, and Solr. 
 
-`Auburn University`_, `Brown University`_, `Colorado State University`_, 
-`Marmot Library Network`_, and `Villanova University`_ among others all use 
-VuFind as their primary discovery user interface. A more complete list
+[Auburn University](http://catalog.lib.auburn.edu/vufind/), [Brown University](http://library.brown.edu/), 
+[Colorado State University](http://discovery.library.colostate.edu/), 
+[Marmot Library Network](http://opac.marmot.org/), and [Villanova University](http://library.villanova.edu/Find) 
+among others all use VuFind as their primary discovery user interface. A more complete list
 of institutions and organizations that use VuFind are available at 
-`http://vufind.org/wiki/installation_status <http://vufind.org/wiki/installation_status>`_.
-
-.. _Aristotle: https://github.com/jermnelson/Discover-Aristotle
-.. _Apache: http://httpd.apache.org/
-.. _Auburn University: http://catalog.lib.auburn.edu/vufind/
-.. _Blacklight: http://projectblacklight.org/
-.. _Brown University: http://library.brown.edu/
-.. _`C/W MARS`: http://www.cwmars.org/
-.. _Colorado State University: http://discovery.library.colostate.edu/ 
-.. _Django: https://www.djangoproject.com/
-.. _Evergreen: http://open-ils.org/
-.. _Fedora Commons: http://fedora-commons.org/
-.. _Horowhenua Library Trust: http://www.library.org.nz/ 
-.. _Horowhenua Library Catalog: http://www.library.org.nz/cgi-bin/koha/opac-search.pl
-.. _Hydra: http://hydraproject.org/
-.. _John Hopkins University: http://catalyst.library.jhu.edu/
-.. _King County Library System: http://catalog.kcls.org/eg/opac/home
-.. _Koha: http://koha-community.org/
-.. _LibLime Koha: http://www.koha.org/
-.. _Marmot Library Network: http://opac.marmot.org/
-.. _MySQL: http://www.mysql.com/
-.. _NOBLE: http://www.noblenet.org/
-.. _North Kansas Library System: http://catalog.nexpresslibrary.org/
-.. _Northwestern University: http://findingaids.library.northwestern.edu/
-.. _Norwich Public Library: http://www.norwichlibrary.org/pages/catalog.htm
-.. _PERL: http://www.perl.org/
-.. _PINES: http://gapines.org/opac/en-US/skin/default/xml/index.xml
-.. _PostgreSQL: http://www.postgresql.org/
-.. _Rock & Roll Hall of Fame: http://catalog.rockhall.com/
-.. _Ruby-on-Rails: http://rubyonrails.org/
-.. _Solr: http://lucene.apache.org/solr/
-.. _Stanford University: http://searchworks.stanford.edu/
-.. _TIGER: http://discovery.coloradocollege.edu.
-.. _University of Virginia: http://search.lib.virginia.edu/
-.. _University of Wisconsin-Madison: http://forward.library.wisconsin.edu/
-.. _Villanova University: http://library.villanova.edu/Find
-.. _VuFind: http://vufind.org/
-.. _Zebra: http://www.indexdata.com/zebra
+[http://vufind.org/wiki/installation_status](http://vufind.org/wiki/installation_status).
 

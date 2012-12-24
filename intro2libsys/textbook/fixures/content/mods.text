@@ -1,7 +1,5 @@
-Metadata Object Description Schema (MODS)
-=========================================
-The [Metadata Object Description Schema]() or MODS is an 
-XML vocabulary for describing bibliographic records using 
+The [Metadata Object Description Schema](http://www.loc.gov/standards/mods/) or 
+MODS is an XML vocabulary for describing bibliographic records using 
 similar ideas and a simplified format to 
 [MARC21](http://www.loc.gov/marc/) using more descriptive 
 names than the MARC tags for element names. There are no required elements
@@ -9,20 +7,21 @@ in a MODS record although the record must have at least one element.
 
 Pros
 ----
-* Specification supported by [Library of Congress]()
+* Specification supported by [Library of Congress](http://www.loc.gov/)
 
-* Interoperability with MARC accomplished through XML crosswalk from `MARCXML`_
-  using `XSLT`_ scripts.
+* Interoperability with MARC accomplished through XML crosswalk from 
+  [MARCXML](http://www.loc.gov/standards/marcxml/)
+  using [XSLT](http://www.w3.org/TR/xslt) scripts.
 
 
 Cons
 ----
-* Not as semanticially rich as `MARC`_, cannot guarenttee a lossless round-trip
-  with `MARC`_ i.e. (MARC1->MODS->MARC1, MARC1 != MARC2) 
+* Not as semanticially rich as [MARC21](http://www.loc.gov/marc), cannot guarenttee a 
+  lossless round-trip with MARC21 i.e. (MARC21a->MODS->MARC21b, MARC21a != MARC21b) 
 
 Example
 -------
-Here is an example of Jane Austen's **Pride and Prejudice** encoded using the MODS::
+Here is an example of Jane Austen's **Pride and Prejudice** encoded using the MODS:
 
 	<?xml version="1.0" encoding="UTF-8">
 	<modsCollection xmlns:xlink="http://www.w3.org/1999/xlink" 
@@ -46,10 +45,3 @@ Here is an example of Jane Austen's **Pride and Prejudice** encoded using the MO
 	</modsCollection>
 
 
-.. _Library of Congress: http://www.loc.gov/
-.. _MARC: http://www.loc.gov/marc/
-.. _MARC21: http://www.loc.gov/marc/
-.. _MARCXML: http://www.loc.gov/standards/marcxml/
-.. _Metadata Object Description Schema: http://www.loc.gov/standards/mods/
-.. _MODS: http://www.loc.gov/standards/mods/
-.. _XSLT: http://www.w3.org/TR/xslt

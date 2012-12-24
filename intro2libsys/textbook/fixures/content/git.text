@@ -48,20 +48,32 @@ control over to other developers to manage and Git has increased quickly in
 usage ever since.
 
 While there hasn't been a formal survey of what is the most popular revision control system,
-the open-source project comparison website `Ohloh`_ tracks the choice of repository software
-with the following breakdown [#]_ :
+the open-source project comparison website [Ohloh](http://www.ohloh.net/) tracks the 
+choice of repository software with the following breakdown 
+<sup><a href="#1">1</a></sup>:
 
-+------------+-----+
-| Subversion | 54% |
-+------------+-----+
-|        Git | 27% |
-+------------+-----+
-|        CVS | 12% |
-+------------+-----+
-|  Mercurial |  2% |
-+------------+-----+
-|     Bazaar |  2% |
-+------------+-----+   
+<table style="border: 1px solid black">
+ <tr>
+  <th>Repository</th>
+  <th>Percentage</th>
+ </tr>
+ <tr>
+  <td>Subversion</td><td>54%</td>
+ </tr>
+ <tr>
+  <td>Git</td><td>27%</td>
+ </tr>
+ <tr>
+  <td>CVS</td><td>12%</td>
+ </tr>
+ <tr>
+  <td>Mercurial</td><td>2%</td>
+ </tr>
+ <tr>
+  <td>Bazaar</td><td>2%</td>
+ </tr>
+</table>
+
 
 While these numbers are biased because commercial and proprietary software projects are not
 being tracked on [Ohloh](http://www.ohlog.net/) they do show that even with the advantages 
@@ -69,11 +81,9 @@ mentioned above for DVCS, the centralized open-source projects Subversion and CV
 make up over of 66% of projects but this percentage has been decreasing over time as Git and 
 other DVCS gain in popularity. 
 
-A number of tutorials are available on Git including `Git Magic`_ and `Pro Git`_. 
-
 Github
 ------
-Github is a widely used and popular resource for hosting primarily open-source 
+[Github](http://www.github.com) is a widely used and popular resource for hosting primarily open-source 
 Git repositories.
 
 Library Open Source Projects using Git & Github
@@ -125,10 +135,10 @@ Here is a list of essential *git* commands
 **git clone {git-repository file-location or URL}**
   Creates a local, cloned copy of another git repository.
    
-   
-   
 
 References
 ----------
-  <http://www.ohloh.net/repositories/compare> accessed on August 6, 2012.
-.. [#] Lynn, Ben `Git Magic`_, accessed on August 6, 2012
+ <sup><a name="1">1</a></sup> [http://www.ohloh.net/repositories/compare](http://www.ohloh.net/repositories/compare) 
+ accessed on August 6, 2012.
+
+ Lynn, Ben `Git Magic`_, accessed on August 6, 2012

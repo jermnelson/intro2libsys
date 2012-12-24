@@ -1,6 +1,3 @@
-================
-Library Websites
-================
 One of the primary responsibilities for most Systems Librarians is maintaining,
 developing, or improving their institution's website. Often the librarian
 is restricted by library policies, technology, or other constraints that can
@@ -25,55 +22,78 @@ context is important. For the purpose of this section, by web server,
 we will mean the second sense of the term; namely that a web server is
 the actually software that runs on a physical or virtual server. 
 
-A `Netcraft`_, an internet services company based in England, does a 
-monthly survey of what web server websites all over the internet are using
-to host their content. In their June 2012 survey [#]_ of over 697,000,000 
-websites, the breakdown of the top web server software is as follows:
+A [Netcraft](http://www.netcraft.com/), an internet services company based in 
+England, does a monthly survey of what web server websites all over the internet 
+are using to host their content. In their June 2012 survey<sup><a href="#1">1</a></sup> 
+of over 697,000,000 websites, the breakdown of the top web server software is as follows:
 
-+---------------------+-----------------+------------+
-| Web Server Software | Number websites | Percentage |
-+---------------------+-----------------+------------+
-| `Apache`_           | 448,452,703     | 64.33%     |
-+---------------------+-----------------+------------+
-| `Microsoft IIS`_    |  95,891,537     | 13.76%     |
-+---------------------+-----------------+------------+
-| `nginx`_            |  72,881,755     | 10.46%     |
-+---------------------+-----------------+------------+
-| `Google`_           |  22,464,345     |  3.22%     |
-+---------------------+-----------------+------------+
+<table class="table table-striped">
+ <tr>
+  <th>Web Server Software</th>
+  <th>Number websites</th>
+  <th>Percentage</th>
+ </tr>
+ <tr>
+  <td>Apache</td>
+  <td>448,452,703</td>
+  <td>64.33%</td>
+ </tr>
+ <tr>
+  <td>Microsoft IIS</td>
+  <td>95,891,537</td>
+  <td>13.76%</td>
+ </tr>
+ <tr>
+  <td>nginx</td>
+  <td>72,881,755</td>
+  <td>10.46%</td>
+ </tr>
+ <tr>
+ <tr>
+  <td>Google</td>
+  <td>22,464,345</td>
+  <td>3.22%</td>
+ </tr>
+</table>
 
 Other web servers, including custom built web servers by such companies
 like Facebook, make up the remaining 8.33% of web servers. By far,
-the most popular web server is the open-source `Apache`_ server which 
+the most popular web server is the open-source [Apache][apache] server which 
 runs on multiple operating systems, including Windows, Macintosh,
-Linux, and BSD flavors. The second most popular web server is Microsoft's
-IIS server which is only available on the Windows platform and is not 
-open source. The third most popular web server is `nginx`_, a fairly
+Linux, and BSD flavors. The second most popular web server is 
+[Microsoft's IIS](http://www.iis.net/) server which is only available on 
+the Windows platform and is not open source. The third most popular web server is 
+[nginx], a fairly
 recent open source web server. 
 
-.. sidebar:: nginx
-   :class: alert alert-info
-   
-   In the past year, I recently switch from using `Apache`_ to 
-   `nginx`_ as we publically released Aristotle and the Colorado College
-   new Discovery Layer and App portfolio. The power of `Apache`_ is in 
+<div class="alert alert-success">
+ <p>
+   In the past year, I recently switch from using 
+   <a href="http://httpd.apache.org/">Apache</a> to 
+   <a href="http://nginx.org/">nginx</a> as we publically released 
+   Aristotle and the Colorado College
+   new Discovery Layer and App portfolio. The power of Apache is in 
    its user community and in large number of configuration options and 
    plug-ins available for various types of services. The flip side of 
-   `Apache`_ power and flexibility is that complexity of correctly 
+   Apache power and flexibility is that complexity of correctly 
    configuring for your needs. 
-   
-   Having used `Apache`_ for a number of years, I was still very much a 
-   newbie configurating and running `Apache`_ that I was nervous by 
+ </p>
+ <p>
+   Having used Apache for a number of years, I was still very much a 
+   newbie configurating and running Apache that I was nervous by 
    rolling out production instances of these new servers and getting 
    everything to work correctly in the stack of software for the library.
    When I started investigating alternatives, the simplicity, stability,
-   and the large websites using it, all favored `nginx`_.
-   
-   As we moved forwarded at the library, `nginx`_ has proved to be as
-   flexible, if not more, than `Apache`_ at being simple to use and 
-   easy to configure to serve dynamic content from `Django`_ and
+   and the large websites using it, all favored nginx.
+ </p>
+ <p>
+   As we moved forwarded at the library, nginx has proved to be as
+   flexible, if not more, than Apache at being simple to use and 
+   easy to configure to serve dynamic content from 
+   <a href="https://www.djangoproject.com/">Django</a> and
    static files from the file system.
-   
+ </p>
+</div>
 
 Dynamic Web sites & Application servers
 ---------------------------------------
@@ -104,23 +124,15 @@ having to write HTML. CMS also provide central control through standard template
 usually run with a database to provide dynamic capabilities and to manage users
 and permissions.
 
-Popular CMS including both open-source and commerical products include `Drupal`_,
-`Plone`_, and `Joomla`_. `Wordpress`_ is also used as a CMS by both public and
-academic libraries. Microsoft's `Sharepoint`_ is also a popular CMS.
+Popular CMS including both open-source and commerical products include 
+[Drupal](http://drupal.org/), [Plone](http://plone.org/), and 
+[Joomla](http://www.joomla.org/). [Wordpress](http://wordpress.org/) is 
+also used as a CMS by both public and academic libraries. Microsoft's 
+[Sharepoint](http://sharepoint.microsoft.com/en-us/Pages/default.aspx) is 
+also a popular CMS.
 
 References
 ----------
-.. [#] `June 2012 Web Server Survey`_
+1. <a name="1">1</a> [June 2012 Web Server Survey](http://news.netcraft.com/archives/2012/06/06/june-2012-web-server-survey.htm)
 
-.. _Apache: http://httpd.apache.org/
-.. _Django: https://www.djangoproject.com/
-.. _Drupal: http://drupal.org/
-.. _Google: http://en.wikipedia.org/wiki/Google_platform
-.. _Joomla: http://www.joomla.org/
-.. _June 2012 Web Server Survey: http://news.netcraft.com/archives/2012/06/06/june-2012-web-server-survey.htm
-.. _Microsoft IIS: http://www.iis.net/
-.. _Netcraft: http://www.netcraft.com/
-.. _Plone: http://plone.org/
-.. _nginx: http://nginx.org/
-.. _Sharepoint: http://sharepoint.microsoft.com/en-us/Pages/default.aspx
-.. _Wordpress: http://wordpress.org/
+[apache]: http://httpd.apache.org/
