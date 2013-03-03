@@ -25,7 +25,7 @@ Here is a table from *Understanding MARC* <sup><a href="#1">1</a></sup> of most
 commonly used fixed and variable length fields in a MARC bibliographic record:
 
 
-<table>
+<table class="table table-striped table-bordered">
  <tr>
   <th>MARC tag</th>
   <th>Description</th>
