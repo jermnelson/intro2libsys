@@ -1,0 +1,3 @@
+[submodule "aristotle-library-apps"]
+	path = aristotle-library-apps
+	url = https://github.com/jermnelson/aristotle-library-apps.git
