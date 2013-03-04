@@ -1,0 +1,24 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "bibframe": "http://bibframe.org/vocab",
+    "idloc": "http://id.loc.gov/"
+
+  },
+  "@id": "http://intro2libsys.info/resources/1",
+  "author": {
+    "birthDate": 1941,
+    "familyName": "Gorman",
+    "idloc:id": "http://id.loc.gov/authorities/names/n81033553",
+    "givenName": "Michael"
+
+  },
+  "bookFormat": "Paperback",
+  "datePublished": 2000,
+  "isbn": ["0838907857", "9780838907856"],
+  "name":"Our Enduring Values: Librarianship in the 21st Century",
+  "publisher": {
+    "name": "American Library Association"
+  },
+  "@type": "http://schema.org/Book"
+}
