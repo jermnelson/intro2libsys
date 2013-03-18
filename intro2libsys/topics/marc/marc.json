@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "pages": null
+  }, 
+  "@id": "http://intro2libsys.info/topics/marc", 
+  "@type": "Article", 
+  "about": "This special topic is about the Library of Congress MARC21 and MARCXML bibliographic formats", 
+  "dateCreated": "2013-03-18", 
+  "name": "MARC21 and MARCXML", 
+  "url": "http://intro2libsys.info/topics/marc"
+}

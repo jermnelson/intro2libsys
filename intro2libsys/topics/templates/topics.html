@@ -1,0 +1,19 @@
+{% extends 'topic-base.html' %}
+
+{% block title %}All Topics{% endblock %}
+
+
+{% block main-content %}
+<div class="row-fluid">
+ <div class="span12">
+  <h2>Introduction to Library Systems</h2>
+  <h1>Special Topics</h2>
+  <ul>
+  {% for topic in topics %}
+    <li><a href="topics/{{ topic|slugify }}">{{topic}}</a></li>
+  {% endfor %}
+  </ul>
+ </div>
+
+</div>
+{% endblock %}

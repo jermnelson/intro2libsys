@@ -13,7 +13,8 @@ def get_chapters():
         chapter.pages = Page.objects.filter(chapter=chapter).order_by('order')
     return chapters
 
-def chapter(request,number="1"):
+def chapter(request,
+            number="1"):
     chapter = Chapter.objects.get(pk=number)
     first_page_query = Page.objects.filter(chapter=chapter,
                                            order=1)
