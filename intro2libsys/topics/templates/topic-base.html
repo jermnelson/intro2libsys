@@ -75,7 +75,7 @@
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Topics</a>
             <ul class="dropdown-menu" role="menu">
              {% for topic in topics %}
-               <li><a href="/topics/{{ topic|slugify }}">{{ topic }}</a></li>
+               <li><a href="{{ topic.url }}">{{ topic.name }}</a></li>
              {% endfor %}
             </ul>
           </li>

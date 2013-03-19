@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "pages": null
+  }, 
+  "@id": "http://www.intro2libsys.info/topics/agile-development", 
+  "@type": "Article", 
+  "name": "Agile Software Development", 
+  "pages": [
+    "what-is", 
+    "principles", 
+    "iterative", 
+    "persona", 
+    "test-driven-development"
+  ], 
+  "url": "http://www.intro2libsys.info/topics/agile-development"
+}

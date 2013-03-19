@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "pages": null
+  }, 
+  "@id": "http://www.intro2libsys.info/topics/frbr", 
+  "@type": "Article", 
+  "name": "Functional Requirements for Bibliographic Records (FRBR)", 
+  "pages": [
+    "what-is", 
+    "work", 
+    "expression", 
+    "manifestation", 
+    "item", 
+    "other-entities"
+  ], 
+  "url": "http://www.intro2libsys.info/topics/frbr"
+}

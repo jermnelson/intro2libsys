@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "pages": null
+  }, 
+  "@id": "http://www.intro2libsys.info/topics/devops", 
+  "@type": "Article", 
+  "name": "Development and Operations (DevOps)", 
+  "pages": [
+    "what-is", 
+    "systems", 
+    "people", 
+    "organizations"
+  ], 
+  "url": "http://www.intro2libsys.info/topics/devops"
+}
