@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "pages": null
+  }, 
+  "@id": "http://intro2libsys.info/topics/xml", 
+  "@type": "Article", 
+  "dateCreated": "2013-03-19T04:15:33.556307", 
+  "name": "XML - Extensible Markup Language", 
+  "pages": [
+    "what-is", 
+    "xpath", 
+    "xslt", 
+    "namespaces"
+  ], 
+  "url": "http://intro2libsys.info/topics/xml"
+}

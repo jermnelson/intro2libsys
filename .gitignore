@@ -4,6 +4,7 @@
 *.bak
 *.db
 *.bundle
+*.DS*
 static*
 _build*
 local_settings.*
