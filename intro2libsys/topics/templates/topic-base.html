@@ -74,7 +74,7 @@
           <li class="dropdown{% if section == 'presentation' %} active{% endif %}">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Topics</a>
             <ul class="dropdown-menu" role="menu">
-             {% for topic in topics %}
+             {% for row in topics %}
                <li><a href="{{ topic.url }}">{{ topic.name }}</a></li>
              {% endfor %}
             </ul>
@@ -104,7 +104,7 @@
   <hr />
   <div class="row-fluid marketing">
     <div class="span12 jumbotron">
-    <h1>{% if next_slide_title %}{{ next_slide_title }}{% else %} Next Slide ...{% endif %}</h1>
+    <h1>{% if next_slide_title %}{{ next_slide_title }}{% else %}{% endif %}</h1>
     {% block next-slide %}
     {% endblock %}
     </div>

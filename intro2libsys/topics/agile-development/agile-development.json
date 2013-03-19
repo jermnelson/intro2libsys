@@ -5,6 +5,7 @@
   }, 
   "@id": "http://www.intro2libsys.info/topics/agile-development", 
   "@type": "Article", 
+  "about": "Agile Software Development offers Libraries a different model for responding quickly to a user's changing requirements",
   "name": "Agile Software Development", 
   "pages": [
     "what-is", 

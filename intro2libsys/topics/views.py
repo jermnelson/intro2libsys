@@ -21,10 +21,14 @@ for dir_name in results[1]:
         TOPICS[dir_name] = topic
 
 def home(request):
-    # Assumes all non-template and assets directories are special topics
+    # Assumes all non-template and non-assets directories are special topics
+    topic_order = sorted(TOPICS)
+    topics = []
+    for topic_key in topic_order:
+        topics.append({topic_key:TOPICS.get(topic_key)})
     return direct_to_template(request,
                               'topics.html',
-                              {'topics': TOPICS})
+                              {'topics': topics})
 
 def page(request, topic_name, page):
     page_path = os.path.join(PROJECT_HOME, 
@@ -48,7 +52,10 @@ def page(request, topic_name, page):
 
 def topic(request, name=None):
     topic_path = os.path.join(PROJECT_HOME, "topics", name)
-    if os.path.exists(topic_path):
-        return HttpResponse("{0} topic detail".format(name))
+    if os.path.exists(topic_path) and TOPICS.has_key(name):
+        return direct_to_template(request,
+                                  'topic-detail.html',
+                                  {'key_name': name,
+                                   'topic': TOPICS.get(name)})
     else:
         raise Http404

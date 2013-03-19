@@ -8,11 +8,11 @@
  <div class="span12 jumbotron">
   <h2>Introduction to Library Systems</h2>
   <h1>Special Topics</h2>
-  <ul>
-  {% for topic in topics %}
-    <li><a href="/topics/{{ topic.key|slugify }}">{{ topic }}</a></li>
+  {% for row in topics %}
+    {% for key, value in row.iteritems %}
+    <h3><a href="/topics/{{ key }}">{{ value.name }}</a></h3>
+    {% endfor %}
   {% endfor %}
-  </ul>
  </div>
 
 </div>
