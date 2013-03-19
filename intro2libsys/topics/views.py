@@ -2,6 +2,7 @@
   This module offers in-depth coverage of a single topic for Intro2Libsys 
 """
 __author__ = "Jeremy Nelson"
+import markdown
 import os
 from intro.settings import PROJECT_HOME
 from django.views.generic.simple import direct_to_template
@@ -31,17 +32,19 @@ def home(request):
 
 def page(request, topic, page):
     page_path = os.path.join(PROJECT_HOME, "topics", topic, "{0}.md".format(page))
-    print("In {0}".format(page_path))
     if not os.path.exists(page_path):
         raise Http404
     meta_md = markdown.Markdown(extensions=['meta'])
-    raw_html = mata_md.convert(open(page_path, 'rb').read())
+    raw_html = meta_md.convert(open(page_path, 'rb').read())
     return direct_to_template(request,
                               'page.html',
-                              {'content':raw_html})
+                              {'topic':topic,
+                               'page':page,
+                               'content':raw_html})
                                  
 
 def topic(request, name=None):
+    print("In topic {0}".format(name))
     topic_path = os.path.join(PROJECT_HOME, "topics", name)
     if os.path.exists(topic_path):
         return HttpResponse("{0} topic detail".format(name))

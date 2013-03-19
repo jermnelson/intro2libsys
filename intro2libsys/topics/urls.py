@@ -7,6 +7,6 @@ from django.contrib import admin
 
 urlpatterns = patterns('',
     url(r'^$', 'topics.views.home', name='Topics-Home'),
+    url(r'([\w-]+)/([\w-]+)$', 'topics.views.page', name='Topics-Page'),
     url(r'([\w-]+)$', 'topics.views.topic', name='Topics-Detail'),
-    url(r'([\w-]+)([\w-]+)$', 'topics.views.page', name='Topics-Page'),
 )

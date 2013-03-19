@@ -1,2 +1,1 @@
-GIT Commands
-------------
+# GIT Commands
