@@ -1,3 +1,5 @@
-from django.db import models
+__author__ = "Jeremy Nelson"
+from stdnet import odm
 
-# Create your models here.
+class Usage(odm.StdModel):
+    user = odm.SymbolField()
