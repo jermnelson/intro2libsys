@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/resources/3", 
+  "@type": "http://schema.org/WebPage", 
+  "author": {
+    "familyName": "Lynn", 
+    "givenName": "Ben"
+  }, 
+  "name": "Git Magic", 
+  "url": "http://www-cs-students.stanford.edu/~blynn/gitmagic/"
+}
