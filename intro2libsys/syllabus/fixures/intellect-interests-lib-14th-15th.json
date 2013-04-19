@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/resource/6", 
+  "@type": "http://schema.org/ScholarlyArticle", 
+  "authors": [
+    {
+      "familyName": "Kibre", 
+      "givenName": "Pearl", 
+      "idloc:url": "http://id.loc.gov/authorities/names/n85174095"
+    }
+  ], 
+  "name": "The Intellectual Interests Reflected in Libraries of the Fourteenth and Fifteenth Centuries", 
+  "url": "http://www.jstor.org/stable/2707402"
+}

@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/resource/6", 
+  "@type": "http://schema.org/TechArticle", 
+  "authors": [
+    {
+      "familyName": "Hopkins", 
+      "givenName": "Curt"
+    }
+  ], 
+  "name": "Future U: Library 3.0 has more resources, greater challenges", 
+  "url": "http://arstechnica.com/business/2012/05/future-u-library-3-0-has-more-resources-greater-challenges/"
+}

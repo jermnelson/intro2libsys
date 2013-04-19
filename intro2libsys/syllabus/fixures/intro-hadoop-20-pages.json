@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/resource/42", 
+  "@type": "http://schema.org/TechArticle", 
+  "authors": [
+    {
+      "familyName": "Sharma", 
+      "givenName": "Prashant", 
+      "idloc:url": "http://id.loc.gov/authorities/names/no2002009577"
+    }
+  ], 
+  "name": "Introducing Hadoop in 20 pages", 
+  "url": "http://blog.imaginea.com/hadoop-a-short-guide/"
+}

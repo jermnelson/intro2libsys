@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/resource/41", 
+  "@type": "http://schema.org/ScholarlyArticle", 
+  "authors": [
+    {
+      "familyName": "Whitelaw", 
+      "givenName": "Mitchell", 
+      "idloc:url": "http://id.loc.gov/authorities/names/n2003013212"
+    }
+  ], 
+  "name": "Towards Generous Interfaces for Archival Collections", 
+  "url": "http://www.ica2012.com/files/pdf/Full%20papers%20upload/ica12Final00423.pdf"
+}

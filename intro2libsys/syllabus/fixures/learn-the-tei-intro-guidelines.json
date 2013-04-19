@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/resource/12", 
+  "@type": "http://schema.org/WebPage", 
+  "name": "Learn the TEI - Introducing the Guidelines", 
+  "url": "http://www.tei-c.org/Support/Learn/intro.xml"
+}

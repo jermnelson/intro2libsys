@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/resource/9", 
+  "@type": "http://schema.org/BlogPosting", 
+  "authors": [
+    {
+      "familyName": "Cheng", 
+      "givenName": "Jack", 
+      "idloc:url": "http://id.loc.gov/authorities/names/n2007017241"
+    }
+  ], 
+  "name": "The Slow Web", 
+  "url": "http://blog.jackcheng.com/post/25160553986/the-slow-web"
+}

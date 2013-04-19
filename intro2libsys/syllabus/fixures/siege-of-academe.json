@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/resource/11", 
+  "@type": "http://schema.org/ScholarlyArticle", 
+  "authors": [
+    {
+      "familyName": "Carey", 
+      "givenName": "Kevin", 
+      "idloc:url": "http://id.loc.gov/authorities/names/nr95000273"
+    }
+  ], 
+  "name": "The Siege of Academe", 
+  "url": "http://www.washingtonmonthly.com/magazine/septemberoctober_2012/features/_its_three_oclock_in039373.php"
+}

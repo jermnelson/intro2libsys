@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/resource/19", 
+  "@type": "http://schema.org/TechArticle", 
+  "authors": [
+    {
+      "familyName": "Donovan", 
+      "givenName": "Hannah"
+    }
+  ], 
+  "name": "Everything in its Right Pace", 
+  "url": "http://www.alistapart.com/articles/everything-in-its-right-pace/"
+}

@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/resource/52", 
+  "@type": "http://schema.org/WebPage", 
+  "name": "Introduction to User Stories", 
+  "url": "http://www.agilemodeling.com/artifacts/userStory.htm"
+}

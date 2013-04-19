@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/resource/22", 
+  "@type": "http://schema.org/BlogPosting", 
+  "authors": [
+    {
+      "familyName": "Coyle", 
+      "givenName": "Karen", 
+      "idloc:url": "http://id.loc.gov/authorities/names/n89613425"
+    }
+  ], 
+  "name": "RDA, DBMS, RDF", 
+  "url": "http://kcoyle.blogspot.com/2012/05/rda-dbms-rdf.html"
+}

@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/resource/17", 
+  "@type": "http://schema.org/TechArticle", 
+  "name": "Tutorial 1: Introducing Graph Data", 
+  "url": "http://www.linkeddatatools.com/introducing-rdf"
+}

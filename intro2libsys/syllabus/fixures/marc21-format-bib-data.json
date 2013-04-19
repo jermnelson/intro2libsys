@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/resource/9", 
+  "@type": "http://schema.org/WebPage", 
+  "name": "MARC 21 Format for Bibliographic data -- Introduction", 
+  "url": "http://www.loc.gov/marc/bibliographic/bdintro.html"
+}

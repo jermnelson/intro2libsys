@@ -1,3 +1,10 @@
+"""
+ Collection of misc. functions for assiting development of the 
+ Intro2LibSys DLS and MOOC.
+
+"""
+__author__ = "Jeremy Nelson"
+
 def add_author(given, family, birth=None, death=None, idloc=None):
     author = {'givenName':given,
               'familyName':family}

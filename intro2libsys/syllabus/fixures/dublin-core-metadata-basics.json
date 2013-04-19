@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/resource/10", 
+  "@type": "http://schema.org/WebPage", 
+  "name": "Dublin Core Metadata Basics", 
+  "url": "http://dublincore.org/metadata-basics/"
+}

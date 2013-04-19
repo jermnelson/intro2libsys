@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/resource/19", 
+  "@type": "http://schema.org/BlogPosting", 
+  "authors": [
+    {
+      "familyName": "Winer", 
+      "givenName": "Dave", 
+      "idloc:url": "http://id.loc.gov/authorities/names/no94015966"
+    }
+  ], 
+  "name": "Not blaming anyone", 
+  "url": "http://scripting.com/stories/2012/07/25/notBlamingAnyone.html"
+}

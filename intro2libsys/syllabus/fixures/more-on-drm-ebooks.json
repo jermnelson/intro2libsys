@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/resource/23", 
+  "@type": "http://schema.org/BlogPosting", 
+  "authors": [
+    {
+      "familyName": "Stross", 
+      "givenName": "Charlie", 
+      "idloc:url": "http://id.loc.gov/authorities/names/n96066054"
+    }
+  ], 
+  "name": "More on DRM and ebooks", 
+  "url": "http://www.antipope.org/charlie/blog-static/2012/04/more-on-drm-and-ebooks.html"
+}

@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/resource/18", 
+  "@type": "http://schema.org/TechArticle", 
+  "name": "Tutorial 2: Introducing RDF/XML", 
+  "url": "http://www.linkeddatatools.com/introducing-rdf-part-2"
+}
