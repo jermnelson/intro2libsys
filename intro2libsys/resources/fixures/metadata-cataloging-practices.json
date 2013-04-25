@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/resource/53", 
+  "@type": "http://schema.org/ScholarlyArticle", 
+  "authors": [
+    {
+      "familyName": "Klim", 
+      "givenName": "George", 
+      "idloc:url": "http://id.loc.gov/authorities/names/n93070114"
+    }
+  ], 
+  "name": "Metadata and Cataloging Practices", 
+  "url": "http://hdl.handle.net/1811/51389"
+}

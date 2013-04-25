@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/resource/64", 
+  "@type": "http://schema.org/WebPage", 
+  "authors": [
+    {
+      "familyName": "Isaacson", 
+      "givenName": "David"
+    }
+  ], 
+  "name": "Python Tips, Tricks, and Hacks", 
+  "url": "http://www.siafoo.net/article/52"
+}

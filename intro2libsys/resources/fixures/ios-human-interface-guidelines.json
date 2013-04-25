@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/resource/42", 
+  "@type": "http://schema.org/WebPage", 
+  "name": "iOS Human Interface Guidelines - Human Interface Principles", 
+  "url": "http://developer.apple.com/library/ios/#documentation/UserExperience/Conceptual/MobileHIG/Principles/Principles.html"
+}

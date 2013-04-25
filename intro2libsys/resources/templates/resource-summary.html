@@ -1,0 +1,15 @@
+<div>
+{% for author in resource.authors %}
+{{ author.givenName }} {{ author.familyName }}{% if not forloop.last %},{% endif %}
+{% endfor %}
+{% if resource.url %}
+<a href="{{ resource.url }}">
+{% endif %}
+<em>{{ resource.name }}</em>
+{% if resource.url %}
+</a>
+{% endif %}
+{% if resource.datePublished %}
+{{ resource.datePublished }}
+{% endif %}
+</div>

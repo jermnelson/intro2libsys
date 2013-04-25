@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/resource/65", 
+  "@type": "http://schema.org/TechArticle", 
+  "name": "The Python Tutorial", 
+  "url": "http://docs.python.org/tutorial/index.html"
+}

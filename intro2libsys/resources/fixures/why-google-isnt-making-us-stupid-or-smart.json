@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/resource/86", 
+  "@type": "http://schema.org/NewsArticle", 
+  "authors": [
+    {
+      "familyName": "Wellmon", 
+      "givenName": "Chad", 
+      "idloc:url": "http://id.loc.gov/authorities/names/n2010038427"
+    }
+  ], 
+  "name": "Why Google Isn\u2019t Making Us Stupid...or Smart", 
+  "url": "http://www.iasc-culture.org/THR/THR_article_2012_Spring_Wellmon.php"
+}

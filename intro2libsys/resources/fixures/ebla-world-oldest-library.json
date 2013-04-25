@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/resource/10", 
+  "@type": "http://schema.org/ScholarlyArticle", 
+  "authors": [
+    {
+      "familyName": "Wellisch", 
+      "givenName": "Hans", 
+      "idloc:url": "http://id.loc.gov/authorities/names/n50002968"
+    }
+  ], 
+  "name": "Ebla: The World's Oldest Library", 
+  "url": "http://www.jstor.org/stable/25541212"
+}

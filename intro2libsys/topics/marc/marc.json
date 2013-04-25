@@ -1,7 +1,8 @@
 {
   "@context": {
     "@vocab": "http://schema.org/", 
-    "pages": null
+    "pages": null,
+    "resouces": null
   }, 
   "@id": "http://intro2libsys.info/topics/marc", 
   "@type": "Article", 
@@ -9,5 +10,9 @@
   "dateCreated": "2013-03-18", 
   "name": "MARC21 and MARCXML", 
   "pages": ["what-is", "marc-xml"],
+  "readings": [
+    "marc21-format-bib-data",
+    "metadata-cataloging-practices"
+  ],
   "url": "http://intro2libsys.info/topics/marc"
 }

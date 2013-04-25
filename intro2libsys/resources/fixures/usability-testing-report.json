@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/resource/83", 
+  "@type": "http://schema.org/NewsArticle", 
+  "authors": [
+    {
+      "familyName": "Kerber", 
+      "givenName": "Nikki"
+    }
+  ], 
+  "name": "Usability Testing Report: Discovery (Search) Tools of Encore and Summons", 
+  "url": "http://home.ubalt.edu/nicole.kerber/idia642/Final_Usability_Report.pdf"
+}

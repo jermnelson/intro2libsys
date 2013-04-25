@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/resource/31", 
+  "@type": "http://schema.org/ScholarlyArticle", 
+  "authors": [
+    {
+      "familyName": "Dohaish", 
+      "givenName": "Abdullatif", 
+      "idloc:url": "http://id.loc.gov/authorities/names/n85092233"
+    }
+  ], 
+  "name": "Growth and Development of Islamic Libraries", 
+  "url": "http://www.salaam.co.uk/knowledge/growth-development-islamic-libraries.pdf"
+}

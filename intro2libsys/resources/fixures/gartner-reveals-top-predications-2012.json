@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/resource/24", 
+  "@type": "http://schema.org/NewsArticle", 
+  "name": "Gartner Reveals Top Predictions for IT Organizations and Users for 2012 and Beyond", 
+  "url": "http://www.gartner.com/it/page.jsp?id=1862714"
+}

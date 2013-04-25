@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/resource/71", 
+  "@type": "http://schema.org/Book", 
+  "authors": [
+    {
+      "familyName": "Cutter", 
+      "givenName": "Charles", 
+      "idloc:url": "http://id.loc.gov/authorities/names/n50027719"
+    }
+  ], 
+  "bookFormat": "EBook", 
+  "name": "Rules for a dictionary catalog", 
+  "url": "http://books.google.com/books?id=2rQYAAAAMAAJ"
+}

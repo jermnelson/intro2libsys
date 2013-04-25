@@ -1,7 +1,8 @@
 {
   "@context": {
     "@vocab": "http://schema.org/", 
-    "pages": null
+    "pages": null,
+    "readings": null
   }, 
   "@id": "http://intro2libsys.info/topics/linked-data", 
   "@type": "Article", 
@@ -12,6 +13,11 @@
     "rdf",
     "rdfa", 
     "json"
-  ], 
+  ],
+  "readings": [
+   "linked-data",
+   "linked-data-evolving-web-global-namespace",
+   "rdfa-primer"
+  ],
   "url": "http://intro2libsys.info/topics/linked-data"
 }

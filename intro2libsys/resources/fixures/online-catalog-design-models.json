@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/resource/60", 
+  "@type": "http://schema.org/TechArticle", 
+  "authors": [
+    {
+      "familyName": "Hildreth", 
+      "givenName": "Charles", 
+      "idloc:url": "http://id.loc.gov/authorities/names/n82079664"
+    }
+  ], 
+  "name": "Online Catalog Design Models: Are We Moving in the Right Direction?", 
+  "url": "http://myweb.cwpost.liu.edu/childret/clr-opac.html"
+}

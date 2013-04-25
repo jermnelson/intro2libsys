@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/resource/20", 
+  "@type": "http://schema.org/NewsArticle", 
+  "authors": [
+    {
+      "familyName": "Epstein", 
+      "givenName": "Jason", 
+      "idloc:url": "http://id.loc.gov/authorities/names/n84172961"
+    }
+  ], 
+  "name": "The Future of Publishing - A Veteran's Perspective", 
+  "url": "http://www.wipo.int/wipo_magazine/en/2011/06/article_0005.html"
+}
