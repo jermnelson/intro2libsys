@@ -6,7 +6,7 @@ import json
 import markdown
 import os
 from intro.settings import PROJECT_HOME
-from django.views.generic.simple import direct_to_template
+from django.template import Context, loader
 from django.http import Http404, HttpResponse
 
 TOPICS = {} 
@@ -26,9 +26,8 @@ def home(request):
     topics = []
     for topic_key in topic_order:
         topics.append({topic_key:TOPICS.get(topic_key)})
-    return direct_to_template(request,
-                              'topics.html',
-                              {'topics': topics})
+    template = loader.get_template('topics.html')
+    return HttpResponse(template.render(Context({'topics': topics})))
 
 def page(request, topic_name, page):
     page_path = os.path.join(PROJECT_HOME, 
@@ -43,19 +42,18 @@ def page(request, topic_name, page):
                                          "{0}.json".format(topic_name))))
     meta_md = markdown.Markdown(extensions=['meta'])
     raw_html = meta_md.convert(open(page_path, 'rb').read())
-    return direct_to_template(request,
-                              'page.html',
-                              {'topic':topic,
-                               'page':page,
-                               'content':raw_html})
-                                 
+    template = loader.get_template('page.html')
+    return HttpResponse(template.render(Context({'topic':topic,
+                                                 'page':page,
+                                                 'content':raw_html})))
+
+                                                               
 
 def topic(request, name=None):
     topic_path = os.path.join(PROJECT_HOME, "topics", name)
     if os.path.exists(topic_path) and TOPICS.has_key(name):
-        return direct_to_template(request,
-                                  'topic-detail.html',
-                                  {'key_name': name,
-                                   'topic': TOPICS.get(name)})
+        template = loader.get_template('topic-detail.html')
+        return HttpResponse(template.render(Context({'topic':TOPICS.get(name),
+                                                     'key_name': name})))
     else:
         raise Http404
