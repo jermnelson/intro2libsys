@@ -24,10 +24,10 @@
  <div class="span9">
   <h3>Badges</h3>
   <div class="row-fluid">
-  {# START Learner Badge #}
+  {# START Badge #}
    <div class="span5"> 
     <div class="alert alert-info">
-      <a href="#" onclick="alert('TBD')"  class="btn btn-info">Knowledge Badge <i class="icon-info-sign"></i></a>
+      <a href="#" onclick="alert('TBD')"  class="btn btn-info">{{ badge.name }} <i class="icon-info-sign"></i></a>
       <p>
        Take an online quiz to earn your <a href="http://openbadges.org/"><b>OpenBadge</b></a> 
        for <em>{{ topic.name }}</em>.
@@ -35,6 +35,7 @@
     </div>
   {# END of Learner Badge #}
   </div>
+  {% if developer_badge %}
   {# START Developer Badge #}
   <div class="span4">
     <div class="alert">
@@ -46,6 +47,7 @@
     </div>
   {# END Developer Badge #} 
    </div>
+  {% endif %}
   </div>
  </div>
 </div>

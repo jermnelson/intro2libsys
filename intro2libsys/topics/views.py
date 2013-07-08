@@ -6,6 +6,7 @@ import json
 import markdown
 import os
 from intro.settings import PROJECT_HOME
+from django.shortcuts import render
 from django.template import Context, loader
 from django.http import Http404, HttpResponse
 
@@ -26,8 +27,7 @@ def home(request):
     topics = []
     for topic_key in topic_order:
         topics.append({topic_key:TOPICS.get(topic_key)})
-    template = loader.get_template('topics.html')
-    return HttpResponse(template.render(Context({'topics': topics})))
+    return render(request, 'topics.html', {'topics': topics})
 
 def page(request, topic_name, page):
     page_path = os.path.join(PROJECT_HOME, 
@@ -42,18 +42,19 @@ def page(request, topic_name, page):
                                          "{0}.json".format(topic_name))))
     meta_md = markdown.Markdown(extensions=['meta'])
     raw_html = meta_md.convert(open(page_path, 'rb').read())
-    template = loader.get_template('page.html')
-    return HttpResponse(template.render(Context({'topic':topic,
-                                                 'page':page,
-                                                 'content':raw_html})))
-
+    return render(request, 
+                  'page.html', 
+                  {'topic':topic,
+                   'page':page,
+                   'content':raw_html})
                                                                
 
 def topic(request, name=None):
     topic_path = os.path.join(PROJECT_HOME, "topics", name)
     if os.path.exists(topic_path) and TOPICS.has_key(name):
-        template = loader.get_template('topic-detail.html')
-        return HttpResponse(template.render(Context({'topic':TOPICS.get(name),
-                                                     'key_name': name})))
+        return render(request,
+                      'topic-detail.html',
+                      {'topic':TOPICS.get(name),
+                       'key_name': name})
     else:
         raise Http404
