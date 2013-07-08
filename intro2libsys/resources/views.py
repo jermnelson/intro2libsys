@@ -14,14 +14,16 @@ for filename in next(os.walk(RESOURCES_DIR))[2]:
         resource = json.load(open(os.path.join(RESOURCES_DIR,
                                                filename),
                                   "rb"))
-        resource_id = resource.get('@id').split("//")[-1]
+        resource_id = os.path.split(resource.get('@id'))[-1]
         RESOURCES[resource_id] = resource
                                                
 
 def detail(request, resource_id):
+    resource = RESOURCES[resource_id]
     return render(request,
                   'resource-detail.html',
-                  {})
+                  {'resource': resource,
+                   'resource_class': resource.get('@type')})
 
 def home(request):
     return render(request,

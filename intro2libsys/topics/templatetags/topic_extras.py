@@ -24,7 +24,8 @@ def get_resource(resource_name):
     if os.path.exists(resource_path):
         resource = json.load(open(resource_path, 'rb'))
         summary_template = loader.get_template('resource-summary.html')
-        output = summary_template.render(Context({'resource': resource}))
+        output = summary_template.render(Context({'resource': resource,
+                                                  'id': resource.get('@id')}))
     return mark_safe(output)
     
 

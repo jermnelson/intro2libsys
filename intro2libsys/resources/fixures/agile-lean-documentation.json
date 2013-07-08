@@ -4,7 +4,7 @@
     "idloc": "http://id.loc.gov"
   }, 
   "@id": "http://intro2libsys.info/resource/3", 
-  "@type": "http://schema.org/WebPage", 
+  "@type": "WebPage", 
   "name": "Agile/Lean Documentation: Strategies for Agile Software Development", 
   "url": "http://www.agilemodeling.com/essays/agileDocumentation.htm"
 }

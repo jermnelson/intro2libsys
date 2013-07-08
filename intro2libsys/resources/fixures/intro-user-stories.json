@@ -3,8 +3,15 @@
     "@vocab": "http://schema.org/", 
     "idloc": "http://id.loc.gov"
   }, 
-  "@id": "http://intro2libsys.info/resource/41", 
-  "@type": "http://schema.org/WebPage", 
+  "@id": "http://intro2libsys.info/resources/intro-user-stories", 
+  "@type": "WebPage", 
+  "copyrightYear": "2001",
+  "keywords": ["agile software development", "user stories"],
   "name": "Introduction to User Stories", 
+  "publisher": {
+   "@type": "Corporation",
+   "name": "Scott Ambler + Associates",
+   "url": "http://scottambler.com/"
+  },
   "url": "http://www.agilemodeling.com/artifacts/userStory.htm"
 }

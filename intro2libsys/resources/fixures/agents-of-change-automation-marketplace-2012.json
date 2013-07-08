@@ -5,7 +5,7 @@
   }, 
   "@id": "http://intro2libsys.info/resource/2", 
   "@type": "http://schema.org/TechArticle", 
-  "authors": [
+  "author": [
     {
       "familyName": "Breeding", 
       "givenName": "Marshall", 

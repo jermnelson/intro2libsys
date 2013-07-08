@@ -1,17 +1,31 @@
 {
   "@context": {
     "@vocab": "http://schema.org/", 
-    "idloc": "http://id.loc.gov"
+    "idloc": "http://id.loc.gov",
+    "issue": null,
+    "pages": null,
+    "volume": null
   }, 
-  "@id": "http://intro2libsys.info/resource/10", 
-  "@type": "http://schema.org/ScholarlyArticle", 
-  "authors": [
+  "@id": "http://intro2libsys.info/resources/ebla-world-oldest-library", 
+  "@type": "ScholarlyArticle", 
+  "author": [
     {
+      "@type": "Person",
       "familyName": "Wellisch", 
       "givenName": "Hans", 
       "idloc:url": "http://id.loc.gov/authorities/names/n50002968"
     }
   ], 
-  "name": "Ebla: The World's Oldest Library", 
-  "url": "http://www.jstor.org/stable/25541212"
+  "datePublished": "Summer, 1981",
+  "issue": 3,
+  "keywords": ["library history", "middle east"],
+  "headline": "Ebla: The World's Oldest Library", 
+  "name": "The Journal of Library History (1974-1987)",
+  "pages": {"start": 488, "end": 500},
+  "publisher": {
+    "@type": "NGO",
+    "name": "University of Texas Press"
+  },
+  "url": "http://www.jstor.org/stable/25541212",
+  "volume": 16
 }

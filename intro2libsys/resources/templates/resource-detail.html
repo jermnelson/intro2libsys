@@ -1,0 +1,56 @@
+{% extends 'topic-base.html' %}
+{% load resource_extras %}
+
+{% block main-content %}
+<div class="row-fluid">
+ <div class="span12 jumbotron">
+  <h3>Intro2LibSys {{ resource_class }} Resource</h3>
+  <h2>
+  {% if resource.url %}
+  <a href="{{ resource.url }}">
+  {% endif %}
+  {% if resource.headline %}
+   {{ resource.headline }}
+  {% else %}
+   {{ resource.name }}
+  {% endif %}
+  {% if resource.url %}
+   </a>
+  {% endif %}
+  </em>
+  </h2>
+  <p class="lead">
+  {% if resource.author %}
+   By {% for author in resource.author %}{{ author.familyName }}, {{ author.givenName }}{% endfor %}.
+  {% endif %}
+  {% if resource.headline %}
+   <em>{{ resource.name }}</em>
+  {% endif %}
+  {% if resource.volume %}Vol. {{ resource.volume }}, {% endif %}
+  {% if resource.issue %}No. {{ resource.issue }}. {% endif %}
+  {% if resource.pages %}pp. {{ resource.pages.start }}-{{ resource.pages.end }}. {% endif %}  
+   {% if resource.publisher %}Published by 
+    {% if resource.publisher.url %}
+     <a href="{{ resource.publisher.url }}">{{ resource.publisher.name }}</a>
+    {% else %}
+     {{ resource.publisher.name }}
+    {% endif %}
+   {% endif %}
+   {% if resource.datePublished %} on {{ resource.datePublished }}{% endif %}
+  </p>
+ </div>
+</div>
+<div class="row-fluid">
+  <div class="span4">
+   <h3>Keywords</h3>
+   <ul class="lead">
+   {% for term in resource.keywords %}
+    <li><a href="/browse/{{ term|slugify }}">{{ term }}</a></li>
+   {% endfor %}
+   </ul>
+  </div>
+  <div class="span8">
+  {{ resource|get_annotations }}
+  </div>
+</div>
+{% endblock %} 
