@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "pages": null,
+    "readings": null
+  },
+ "@id": "http://www.intro2libsys.info/topics/library-history",
+ "@type": "Article",
+ "about": "A survey of Libraries and Library Technology from Ancient Civilizations to MARC21",
+ "name": "A Historical Survey of Libraries and Library Technology",
+ "pages": [],
+ "readings": [
+   "ebla-world-oldest-library",
+   "brit-museum-ashurbanipal-lib-proj",
+   "mosques-libraries-islamic-civilization",
+   "growth-dev-islamic-libs",
+   "hidden-wis-unseen-treasure",
+   "intellect-interests-lib-14th-15th"
+  ],
+ "url": "http://www.intro2libsys.info/topics/library-history"
+}
+

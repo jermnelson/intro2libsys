@@ -1,7 +1,7 @@
 __author__ = "Jeremy Nelson"
 import json
 import os
-from django.views.generic.simple import direct_to_template
+from django.shortcuts import render
 from django.http import Http404, HttpResponse
 
 from intro.settings import PROJECT_HOME
@@ -19,13 +19,13 @@ for filename in next(os.walk(RESOURCES_DIR))[2]:
                                                
 
 def detail(request, resource_id):
-    direct_to_template(request,
-                       'resource-detail',
-                       {})
+    return render(request,
+                  'resource-detail.html',
+                  {})
 
 def home(request):
-    return direct_to_template(request,
-                             'resource-home.html',
-                             {'resources':RESOURCES.values()})
+    return render(request,
+                  'resource-home.html',
+                  {'resources':RESOURCES.values()})
 
 
