@@ -27,7 +27,7 @@
   {# START Badge #}
    <div class="span5"> 
     <div class="alert alert-info">
-      <a href="#" onclick="alert('TBD')"  class="btn btn-info">{{ badge.name }} <i class="icon-info-sign"></i></a>
+      <a href="#" data-bind="click: topicQuiz" class="btn btn-info">Knowledge <i class="icon-info-sign"></i></a>
       <p>
        Take an online quiz to earn your <a href="http://openbadges.org/"><b>OpenBadge</b></a> 
        for <em>{{ topic.name }}</em>.
@@ -61,4 +61,10 @@
   </ul>
  </div>
 </div>
+{% endblock %}
+
+{% block more-js %}
+<script>
+ko.applyBindings(new {{ topic.view_model }}());
+</script>
 {% endblock %}

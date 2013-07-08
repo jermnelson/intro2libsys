@@ -11,6 +11,9 @@
     <!-- Le styles -->
     <link href="{{ STATIC_URL }}css/bootstrap.min.css" rel="stylesheet">
     <link href="{{ STATIC_URL }}css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    
     
     {% block more-css %}
     {% endblock %}
@@ -75,15 +78,17 @@
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Topics</a>
             <ul class="dropdown-menu" role="menu">
              {% for row in topics %}
-               <li><a href="{{ topic.url }}">{{ topic.name }}</a></li>
+               {% for key, value in row.iteritems %}
+               <li><a href="/topics/{{ key }}">{{ value.name }}</a></li>
+               {% endfor %}
              {% endfor %}
             </ul>
           </li>
           <li class="dropdown{% if section == 'addendum' %} active{% endif %}">
            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Addendum</a>
            <ul class="dropdown-menu" role="menu">
-            <li><a href="{% url techbytes.views.glossary %}">Glossary</a></li>
-            <li><a href="{% url techbytes.views.resources  %}">Resources</a></li>
+            <li><a href="{% url 'techbytes.views.glossary' %}">Glossary</a></li>
+            <li><a href="{% url 'techbytes.views.resources'  %}">Resources</a></li>
 			{% comment %}
             <li><a href="{% url techbytes.views.task_summary %}">Task Summary</a></li>
             <li><a href="{% url techbytes.views.manager_summary %}">Managerial Summary</a></li>
@@ -136,6 +141,8 @@
     <script src="{{ STATIC_URL }}js/bootstrap-collapse.js"></script>
     <script src="{{ STATIC_URL }}js/bootstrap-carousel.js"></script>
     <script src="{{ STATIC_URL }}js/bootstrap-typeahead.js"></script>
+    <script src="{{ STATIC_URL }}js/knockout.js"></script>
+    <script src="{{ STATIC_URL }}js/topics.js"></script>
     {% block more-js %}{% endblock %}
     {% block dialogs %}{% endblock %}  
   </body>

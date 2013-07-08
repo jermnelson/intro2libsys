@@ -42,10 +42,25 @@ def page(request, topic_name, page):
                                          "{0}.json".format(topic_name))))
     meta_md = markdown.Markdown(extensions=['meta'])
     raw_html = meta_md.convert(open(page_path, 'rb').read())
+    if topic['pages'].index(page) == 0: # First Page in Topic
+        previous_url = "/topics/{0}".format(topic_name)
+    else:
+        previous_url = "/topics/{0}/{1}".format(
+            topic_name,
+            topic['pages'][topic['pages'].index(page) - 1])
+    if len(topic['pages']) - 1 == topic['pages'].index(page): # Last Page in Topic
+        next_url = "/topics/{0}".format(topic_name)
+    else:
+        next_url = "/topics/{0}/{1}".format(
+            topic_name,
+            topic['pages'][topic['pages'].index(page) + 1])
+        
     return render(request, 
                   'page.html', 
                   {'topic':topic,
+                   'next': next_url,
                    'page':page,
+                   'previous': previous_url,
                    'content':raw_html})
                                                                
 
