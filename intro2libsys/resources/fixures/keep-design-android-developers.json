@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/resource/43", 
+  "@type": "http://schema.org/WebPage", 
+  "name": "Design | Android Developers -- Get Started", 
+  "url": "http://developer.android.com/design/index.html"
+}

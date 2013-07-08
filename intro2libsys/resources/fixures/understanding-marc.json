@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/resource/81", 
+  "@type": "http://schema.org/Book", 
+  "authors": [
+    {
+      "familyName": "Furrie", 
+      "givenName": "Betty", 
+      "idloc:url": "http://id.loc.gov/authorities/names/no92020283"
+    }
+  ], 
+  "bookFormat": "EBook", 
+  "name": "Understanding MARC Bibliographic: Machine-Readable Cataloging", 
+  "url": "http://www.loc.gov/marc/umb/"
+}

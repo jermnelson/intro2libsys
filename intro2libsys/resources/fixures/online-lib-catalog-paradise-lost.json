@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/resource/61", 
+  "@type": "http://schema.org/ScholarlyArticle", 
+  "authors": [
+    {
+      "familyName": "Markey", 
+      "givenName": "Karen", 
+      "idloc:url": "http://id.loc.gov/authorities/names/n83143479"
+    }
+  ], 
+  "name": "The Online Library Catalog Paradise Lost and Paradise Regained?", 
+  "url": "http://www.dlib.org/dlib/january07/markey/01markey.html"
+}

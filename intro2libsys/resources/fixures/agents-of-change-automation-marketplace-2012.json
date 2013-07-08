@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/resource/2", 
+  "@type": "http://schema.org/TechArticle", 
+  "authors": [
+    {
+      "familyName": "Breeding", 
+      "givenName": "Marshall", 
+      "idloc:url": "http://id.loc.gov/authorities/names/n91095299"
+    }
+  ], 
+  "name": "Agents of Change Automation Marketplace 2012", 
+  "url": "http://www.thedigitalshift.com/2012/03/ils/automation-marketplace-2012-agents-of-change/"
+}

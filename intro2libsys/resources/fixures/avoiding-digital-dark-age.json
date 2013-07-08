@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/resource/5", 
+  "@type": "http://schema.org/ScholarlyArticle", 
+  "authors": [
+    {
+      "familyName": "Bollacker", 
+      "givenName": "Kurt"
+    }
+  ], 
+  "name": "Avoiding a Digital Dark Age", 
+  "url": "http://www.americanscientist.org/issues/pub/avoiding-a-digital-dark-age/1"
+}

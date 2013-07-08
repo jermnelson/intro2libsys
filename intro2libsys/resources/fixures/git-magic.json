@@ -3,7 +3,7 @@
     "@vocab": "http://schema.org/", 
     "idloc": "http://id.loc.gov"
   }, 
-  "@id": "http://intro2libsys.info/resources/3", 
+  "@id": "http://intro2libsys.info/resource/28", 
   "@type": "http://schema.org/WebPage", 
   "author": {
     "familyName": "Lynn", 

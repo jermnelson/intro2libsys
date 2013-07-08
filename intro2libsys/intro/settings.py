@@ -124,6 +124,7 @@ INSTALLED_APPS = (
     'learners',
     'Curriculum',
     'intro',
+    'resources',
     'syllabus',
     'techbytes',
     'textbook',

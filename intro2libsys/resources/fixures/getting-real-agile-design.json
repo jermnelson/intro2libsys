@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/resource/26", 
+  "@type": "http://schema.org/TechArticle", 
+  "authors": [
+    {
+      "familyName": "Bowles", 
+      "givenName": "Cennydd"
+    }
+  ],
+  "datePublished": "2008-12-08", 
+  "name": "Getting Real About Agile Design", 
+  "url": "http://www.alistapart.com/articles/gettingrealaboutagiledesign/"
+}

@@ -1,5 +1,7 @@
 {% extends 'topic-base.html' %}
 
+{% load topic_extras %}
+
 {% block title %}Topic Page{% endblock %}
 
 
@@ -19,11 +21,11 @@
    {% endfor %}
    </ol>
  </div>
- <div class="span4">
-  <p style="font-size: 1.3em">{{ topic.about }}</p>
- </div>
- <div class="span4">
-    <h3>Badges</h3>
+ <div class="span9">
+  <h3>Badges</h3>
+  <div class="row-fluid">
+  {# START Learner Badge #}
+   <div class="span5"> 
     <div class="alert alert-info">
       <a href="#" onclick="alert('TBD')"  class="btn btn-info">Knowledge Badge <i class="icon-info-sign"></i></a>
       <p>
@@ -31,6 +33,10 @@
        for <em>{{ topic.name }}</em>.
       </p>
     </div>
+  {# END of Learner Badge #}
+  </div>
+  {# START Developer Badge #}
+  <div class="span4">
     <div class="alert">
       <a href="#" onclick="alert('TBD')" class="btn btn-success">Developer Badge <i class="icon-wrench"></i></a>
       <p>
@@ -38,8 +44,19 @@
        <a href="http://openbadges.org/">OpenBadge</a> for <em>{{ topic.name }}</em>.
       </p>
     </div>
-    </p>
+  {# END Developer Badge #} 
    </div>
+  </div>
+ </div>
+</div>
+<div class="row-fluid">
+ <div class="span8">
+  <h3>Readings</h3>
+  <ul>
+  {% for reading in topic.readings %}
+   <li>{{ reading|get_resource }}</li>
+  {% endfor %}
+  </ul>
  </div>
 </div>
 {% endblock %}

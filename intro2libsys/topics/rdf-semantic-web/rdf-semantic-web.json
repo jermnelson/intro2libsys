@@ -1,0 +1,23 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "pages": null,
+    "readings": null
+  }, 
+  "@id": "http://intro2libsys.info/topics/rdf-semantic-web", 
+  "@type": "Article", 
+  "dateCreated": "2013-04-25T18:40:23.167000", 
+  "name": "Resource Description Framework (RDF) and the Semantic Web", 
+  "pages": [
+    "what-is", 
+    "tuple-graph", 
+    "rdf-basics", 
+    "semantic-web"
+  ],
+  "readings": [
+    "tutorial-1-intro-graph-data",
+    "tutorial-2-intro-rdf",
+    "semantic-web"
+  ], 
+  "url": "http://intro2libsys.info/topics/rdf-semantic-web"
+}

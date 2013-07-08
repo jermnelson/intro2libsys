@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/resource/76", 
+  "@type": "http://schema.org/ScholarlyArticle", 
+  "authors": [
+    {
+      "familyName": "Engelbart", 
+      "givenName": "Douglas", 
+      "idloc:url": "http://id.loc.gov/authorities/names/nr99004444"
+    }
+  ], 
+  "name": "Special considerations of the individual as a user, generator, and retriever of information", 
+  "url": "http://onlinelibrary.wiley.com/doi/10.1002/asi.5090120207/"
+}

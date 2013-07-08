@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/resource/34", 
+  "@type": "http://schema.org/TechArticle", 
+  "authors": [
+    {
+      "familyName": "Blum", 
+      "givenName": "Dan"
+    }
+  ], 
+  "name": "Hybrid IT: How Internal and External Cloud Services Are Transforming IT", 
+  "url": "http://www.gartner.com/DisplayDocument?doc_cd=231796"
+}

@@ -1,7 +1,8 @@
 {
   "@context": {
     "@vocab": "http://schema.org/", 
-    "pages": null
+    "pages": null,
+    "readings": null
   }, 
   "@id": "http://www.intro2libsys.info/topics/agile-development", 
   "@type": "Article", 
@@ -14,5 +15,10 @@
     "persona", 
     "test-driven-development"
   ], 
+  "readings": [
+    "manifesto-agile-software",
+    "intro-user-stories",
+    "getting-real-agile-design"
+  ],
   "url": "http://www.intro2libsys.info/topics/agile-development"
 }

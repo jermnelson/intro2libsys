@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/resource/70", 
+  "@type": "http://schema.org/Book", 
+  "authors": [
+    {
+      "familyName": "Antonio", 
+      "givenName": "Panizzi", 
+      "idloc:url": "http://id.loc.gov/authorities/names/n50050203"
+    }
+  ], 
+  "bookFormat": "Hardcover", 
+  "name": "Rules for compiling the catalogues in the Department of Printed Books in the British Museum: Printed by order of the Trustees", 
+  "url": "http://books.google.com/books?id=PIYLAQAAIAAJ"
+}

@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/resource/48", 
+  "@type": "http://schema.org/TechArticle", 
+  "authors": [
+    {
+      "familyName": "Berners-Lee", 
+      "givenName": "Tim", 
+      "idloc:url": "http://id.loc.gov/authorities/names/no99010609"
+    }
+  ], 
+  "datePublished": "2006-07-27",
+  "name": "Linked Data", 
+  "url": "http://www.w3.org/DesignIssues/LinkedData.html"
+}
