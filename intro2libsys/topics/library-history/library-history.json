@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "pages": null
+  },
+ "@id": "http://www.intro2libsys.info/topics/library-history",
+ "@type": "Article",
+ "about": "A survey of Libraries and Library Technology from Ancient Civilizations to MARC21",
+ "name": "A Historical Survey of Libraries and Library Technology",
+ "pages": [],
+ "url": "http://www.intro2libsys.info/topics/library-history"
+}
+
