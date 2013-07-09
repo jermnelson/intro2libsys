@@ -3,14 +3,16 @@
     "@vocab": "http://schema.org/", 
     "idloc": "http://id.loc.gov"
   }, 
-  "@id": "http://intro2libsys.info/resource/69", 
-  "@type": "http://schema.org/NewsArticle", 
-  "authors": [
+  "@id": "http://intro2libsys.info/resources/ruk-maturing-threat-open-access", 
+  "@type": "Article", 
+  "author": [
     {
       "familyName": "Woodard", 
       "givenName": "Jared"
     }
   ], 
+  "datePublished": "2012-05-30",
+  "keywords": ["open access", "scholarly publishing"],
   "name": "RUK: The Maturing Threat of Open Access", 
   "url": "http://www.thestreet.com/print/story/11560589.html"
 }

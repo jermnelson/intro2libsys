@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "pages": null,
+    "readings": null
+  },
+  "name": "The Economics of Library Technology",
+  "pages": [
+    "business-academic-publishing"
+  ],
+  "readings": [
+    "added-value",
+    "automation-marketplace-2012-agents-of-change",
+    "automation-marketplace-2013-rush-to-innovate", 
+    "fistful-dollars-why-corporate-publishers-no-place-scholarly-communication",
+    "ruk-maturing-threat-open-access"
+  ]
+}

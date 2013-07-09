@@ -3,14 +3,16 @@
     "@vocab": "http://schema.org/", 
     "idloc": "http://id.loc.gov"
   }, 
-  "@id": "http://intro2libsys.info/resource/1", 
-  "@type": "http://schema.org/BlogPosting", 
-  "authors": [
+  "@id": "http://intro2libsys.info/resources/added-value", 
+  "@type": "BlogPosting", 
+  "author": [
     {
+      "@type": "Person",
       "familyName": "Neylon", 
       "givenName": "Cameron"
     }
-  ], 
+  ],
+  "datePublished": "", 
   "name": "Added Value: I do not think those words mean what you think they mean", 
   "url": "http://cameronneylon.net/blog/added-value-i-do-not-think-those-words-mean-what-you-think-they-mean/"
 }

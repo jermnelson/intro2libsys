@@ -8,10 +8,16 @@
  "@type": "Article",
  "about": "A survey of Libraries and Library Technology from Ancient Civilizations to MARC21",
  "name": "A Historical Survey of Libraries and Library Technology",
- "pages": [],
+ "pages": [
+   "ancient-libraries",
+   "middle-ages-islamic-renaissance",
+   "new-world-colonial-frontier",
+   "industrialization-to-wwII",
+   "postwar-to-1980s"
+ ],
  "readings": [
    "ebla-world-oldest-library",
-   "brit-museum-ashurbanipal-lib-proj",
+   "british-museum-ashurbanipal-library-project",
    "mosques-libraries-islamic-civilization",
    "growth-dev-islamic-libs",
    "hidden-wis-unseen-treasure",

@@ -3,7 +3,7 @@
     "@vocab": "http://schema.org/", 
     "idloc": "http://id.loc.gov"
   }, 
-  "@id": "http://intro2libsys.info/resource/56", 
+  "@id": "http://intro2libsys.info/resources/", 
   "@type": "http://schema.org/ScholarlyArticle", 
   "authors": [
     {
