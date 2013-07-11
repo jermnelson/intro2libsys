@@ -3,7 +3,11 @@
 {{ author.givenName }} {{ author.familyName }}{% if not forloop.last %},{% endif %}
 {% endfor %}
 <a href="{{ id }}">
-<em>{{ resource.name }}</em>
+<em>{% if resource.headline %}{{ resource.headline }}</em> in {{ resource.name }}
+    {% else %}
+    {{ resource.name }}
+    {% endif %}
+</em>
 </a>
 {% if resource.datePublished %}
 {{ resource.datePublished }}

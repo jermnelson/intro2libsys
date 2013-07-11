@@ -3,15 +3,18 @@
     "@vocab": "http://schema.org/", 
     "idloc": "http://id.loc.gov"
   }, 
-  "@id": "http://intro2libsys.info/resource/75", 
-  "@type": "http://schema.org/BlogPosting", 
-  "authors": [
+  "@id": "http://intro2libsys.info/resources/slow-web", 
+  "@type": "BlogPosting", 
+  "author": [
     {
+      "@type": "Person",
       "familyName": "Cheng", 
       "givenName": "Jack", 
       "idloc:url": "http://id.loc.gov/authorities/names/n2007017241"
     }
   ], 
-  "name": "The Slow Web", 
+  "headline": "The Slow Web",
+  "keywords": ["web development", "long now"],
+  "name": "Jack Cheng Blog",
   "url": "http://blog.jackcheng.com/post/25160553986/the-slow-web"
 }
