@@ -1,7 +1,8 @@
 {
   "@context": {
     "@vocab": "http://schema.org/", 
-    "pages": null
+    "pages": null,
+    "resources": null
   }, 
   "@id": "http://intro2libsys.info/topics/xml", 
   "@type": "Article", 
@@ -13,5 +14,8 @@
     "xslt", 
     "namespaces"
   ], 
+  "resources": [
+    "gentle-introduction-to-xml" 
+  ],
   "url": "http://intro2libsys.info/topics/xml"
 }

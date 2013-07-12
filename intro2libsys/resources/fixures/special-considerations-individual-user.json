@@ -4,8 +4,8 @@
     "idloc": "http://id.loc.gov"
   }, 
   "@id": "http://intro2libsys.info/resource/76", 
-  "@type": "http://schema.org/ScholarlyArticle", 
-  "authors": [
+  "@type": "ScholarlyArticle", 
+  "author": [
     {
       "familyName": "Engelbart", 
       "givenName": "Douglas", 

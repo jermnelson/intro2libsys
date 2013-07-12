@@ -4,15 +4,14 @@
     "pages": null,
     "readings": null
   }, 
-  "@id": "http://intro2libsys.info/topics/publisher-library", 
+  "@id": "http://intro2libsys.info/topics/ ", 
   "@type": "Article", 
   "dateCreated": "2013-07-11T17:55:19.788000", 
-  "name": "The Library as Publisher", 
+  "name": "Integrated Library Systems and Discovery Layers", 
   "pages": [
   ], 
   "readings": [
-    "inevitablity-open-access",
-    "they-keep-using-that-word"
+    
   ],
   "url": "http://intro2libsys.info/topics/publisher-library"
 }
