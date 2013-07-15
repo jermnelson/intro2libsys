@@ -5,12 +5,24 @@ __author__ = "Jeremy Nelson"
 import json
 import markdown
 import os
+import sys
 from intro.settings import PROJECT_HOME
 from django.shortcuts import render
 from django.template import Context, loader
 from django.http import Http404, HttpResponse
 
-TOPICS = {} 
+
+
+TOPIC_MAPS, TOPICS = [], {}
+topic_maps_location = os.path.join(PROJECT_HOME,
+                                   "topics",
+                                   "topic-maps.json")
+sys.stderr.write("location={0}".format(topic_maps_location))
+topic_maps = json.load(open(topic_maps_location, "rb"))
+for topic_map in topics_maps.get('maps'):
+    TOPIC_MAPS.append({'name': topic_map.get('jtm:name'),
+                       'topics': topic_map.get('jtm:topics')})
+print("Topic maps are = {0}".format(TOPIC_MAPS))
 topic_walker = os.walk(os.path.join(PROJECT_HOME, "topics"))
 results = next(topic_walker)
 for dir_name in results[1]:
@@ -27,7 +39,7 @@ def home(request):
     topics = []
     for topic_key in topic_order:
         topics.append({topic_key:TOPICS.get(topic_key)})
-    return render(request, 'topics.html', {'topics': topics})
+    return render(request, 'topics.html', {'topic_maps': TOPIC_MAPS})
 
 def page(request, topic_name, page):
     page_path = os.path.join(PROJECT_HOME, 

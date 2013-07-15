@@ -1,6 +1,7 @@
 {
   "@context": {
     "@vocab": "http://schema.org/", 
+    "jtm": "http://www.cerny-online.com/jtm/1.1/",
     "pages": null,
     "readings": null,
     "view_model": null
@@ -8,6 +9,10 @@
   "@id": "http://www.intro2libsys.info/topics/agile-development", 
   "@type": "Article", 
   "about": "Agile Software Development offers Libraries a different model for responding quickly to a user's changing requirements",
+  "jtm:item_type": "topic",
+  "jtm:instance_of": [
+    "lib-sys-org-tmap"
+  ],
   "name": "Agile Software Development", 
   "pages": [
     "what-is", 

@@ -7,11 +7,11 @@
 <div class="row-fluid">
  <div class="span12 jumbotron">
   <h2>Introduction to Library Systems</h2>
-  <h1>Special Topics</h2>
-  {% for row in topics %}
-    {% for key, value in row.iteritems %}
-    <h3><a href="/topics/{{ key }}">{{ value.name }}</a></h3>
-    {% endfor %}
+  <h1>Topics</h2>
+  {% for map in topic_maps %}
+    <h3>{{ map.name }}</h3>
+   {% for topic in map.topics %}
+    <h3><a href="/topics/{{ topic}}">{{ topic }}</a></h3>
   {% endfor %}
  </div>
 
