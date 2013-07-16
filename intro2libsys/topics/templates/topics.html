@@ -8,10 +8,18 @@
  <div class="span12 jumbotron">
   <h2>Introduction to Library Systems</h2>
   <h1>Topics</h2>
+ </div>
+</div>
+<div class="row-fluid">
   {% for map in topic_maps %}
+   <div class="span4">
     <h3>{{ map.name }}</h3>
+   <ul>
    {% for topic in map.topics %}
-    <h3><a href="/topics/{{ topic}}">{{ topic }}</a></h3>
+    <li><a href="{{ topic.url }}">{{ topic.name }}</a></li>
+   {% endfor %}
+   </ul>
+   </div>
   {% endfor %}
  </div>
 

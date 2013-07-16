@@ -17,12 +17,7 @@ TOPIC_MAPS, TOPICS = [], {}
 topic_maps_location = os.path.join(PROJECT_HOME,
                                    "topics",
                                    "topic-maps.json")
-sys.stderr.write("location={0}".format(topic_maps_location))
-topic_maps = json.load(open(topic_maps_location, "rb"))
-for topic_map in topics_maps.get('maps'):
-    TOPIC_MAPS.append({'name': topic_map.get('jtm:name'),
-                       'topics': topic_map.get('jtm:topics')})
-print("Topic maps are = {0}".format(TOPIC_MAPS))
+topic_maps = json.load(open(topic_maps_location))
 topic_walker = os.walk(os.path.join(PROJECT_HOME, "topics"))
 results = next(topic_walker)
 for dir_name in results[1]:
@@ -32,6 +27,11 @@ for dir_name in results[1]:
                                             dir_name, 
                                             "{0}.json".format(dir_name))))
         TOPICS[dir_name] = topic
+for topic_map in topic_maps.get('maps'):
+    output = {'name': topic_map.get('jtm:name'), 'topics':[]}
+    for topic_id in topic_map.get('jtm:topics'):
+        output.get('topics').append(TOPICS[topic_id])
+    TOPIC_MAPS.append(output)
 
 def home(request):
     # Assumes all non-template and non-assets directories are special topics

@@ -23,11 +23,15 @@
     }, 
     {
       "jtm:item_type": "topicmap", 
-      "jtm:name": "Current and Semantic Web", 
+      "jtm:name": "Bibliographic Descriptions and Semantic Web", 
       "jtm:topics": [
         "html5", 
         "xml", 
-        "json", 
+        "json",
+        "marc",
+        "mods", 
+        "frbr",
+        "rda",
         "linked-data", 
         "rdf-semantic-web"
       ], 

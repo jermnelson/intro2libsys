@@ -4,6 +4,8 @@
     "pages": null,
     "readings": null
   },
+  "@id": "http://intro2libsys.info/topics/economics-library-systems",
+  "@type": "Article",
   "name": "The Economics of Library Technology",
   "pages": [
     "business-academic-publishing"
@@ -14,5 +16,6 @@
     "automation-marketplace-2013-rush-to-innovate", 
     "fistful-dollars-why-corporate-publishers-no-place-scholarly-communication",
     "ruk-maturing-threat-open-access"
-  ]
+  ],
+  "url": "http://intro2libsys.info/topics/economics-library-systems"
 }
