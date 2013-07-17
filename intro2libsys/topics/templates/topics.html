@@ -12,7 +12,16 @@
 </div>
 <div class="row-fluid">
   {% for map in topic_maps %}
-   <div class="span4">
+   <div class="span4 alert alert-block alert-info">
+    <a href="#" class="close" data-dismiss="alert">&times;</a>
+    <div class="btn-toolbar">
+     <div class="btn-group">
+       <a href="#" class="btn btn-small"><i class="icon-lightbulb"></i></a>
+       <a href="# developer-badge" data-toggle="modal" class="btn btn-small"><i class="icon-cogs"></i></a>
+     </div>
+     <div class="btn-group">
+     </div>
+    </div>
     <h3>{{ map.name }}</h3>
    <ul>
    {% for topic in map.topics %}
@@ -23,5 +32,20 @@
   {% endfor %}
  </div>
 
+</div>
+{% endblock %}
+
+{% block dialogs %}
+<div class="modal fade hide" id="developer-badge">
+ <div class="modal-header">
+  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+  <h3>Developer Badge for <span data-bind="value: ActiveTopicMap"></span></h3>
+ </div>
+ <div class="modal-body">
+  <p>The Developer Badge for this 
+ </div>
+ <div class="modal-footer">
+  <a href="#" class="btn btn-primary" data-dismiss="modal">Close</a>
+ </div> 
 </div>
 {% endblock %}
