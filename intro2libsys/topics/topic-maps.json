@@ -25,13 +25,14 @@
       "jtm:item_type": "topicmap", 
       "jtm:name": "Bibliographic Descriptions and Semantic Web", 
       "jtm:topics": [
-        "html5", 
         "xml", 
         "json",
         "marc",
         "mods", 
         "frbr",
         "rda",
+        "bibframe",
+        "schema-org",
         "linked-data", 
         "rdf-semantic-web"
       ], 
