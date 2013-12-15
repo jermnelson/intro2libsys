@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div class="container">
+ {# START row #}
+ <div class="row">
+  <div class="col-md-8">
+   <h1>Introduction to Library Systems</h1>
+   <p class="lead">
+    A collection of resources, presentations, and
+    educational assessments on a range of topics related to library
+    systems and technology as collected, created and curated by 
+    Jeremy Nelson.
+   </p>
+  </div>
+  {% include 'snippets/right-nav.html' %}
+ {# END row #}
+ </div>
+ {# START row #}
+ <div class="row">
+  <div class="col-md-12">
+   <nav class="navbar navbar-default" 
+        role="navigation">
+    <div class="navbar-header">
+     <button type="button" 
+             class="navbar-toggle" 
+             data-toggle="collapse" 
+             data-target="#intro2libsys-navbar">
+      <span class="sr-only">Toggle Naivation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="/">Introduction to Library Systems</a>
+    </div>
+    <div class="collapse navbar-collapse" id="intro2libsys-navbar">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">About</a></li>
+      <li><a href="#">Resources</a></li>
+      <li><a href="#">Presentations</a></li>
+      <li><a href="#">Assessments</a></li>
+    </ul>
+    <form class="navbar-form navbar-left" role="search">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search">
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+   </nav>
+   <p>All content released under Creative Commons License 3.0 and copyrighted
+      by Jeremy Nelson &copy; 2013, 2014. All original content is the sole 
+      responsibility and may not represent the viewpoint and opinions of my 
+      current <a href="http://www.coloradocollege.edu">employer</a>, research
+      partners, and collaborators.
+   </p> 
+  </div>
+ {# END row #}
+ </div>
+</div>
+{% endblock %}
