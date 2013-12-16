@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div class="container">
+ {# START navbar #}
+ <div class="row">
+  <div class="col-md-12">
+  {% include 'snippets/navbar.html' %}
+  </div>
+ {# END navbar #}
+ </div>
+ {# START Jumbtron Row #}
+ <div class="row">
+  <div class="jumbotron col-md-7">
+   <h2>About</h2>
+   <h1 style="font-family: 'Times New Roman'">Introduction to Library Systems</h1>
+   <p class="lead">
+    This website started as the course website for a graduate
+    Introduction to Library Systems course taught by Jeremy Nelson
+    at the University of Denver School of Information Science. The
+    course material was reedited and now is available under 
+    <a href="{{ url_for('topics') }}">topics</a>.
+   </p>
+  </div>
+  <div class="col-md-5">
+   <div class="panel panel-success">
+    <div class="panel-heading">
+     <h2 class="panel-title">Jeremy Nelson</h2>
+    </div>
+    <div class="panel-body">
+     <img src="{{ url_for('static', filename='img/jeremy-nelson-nov-2013.png') }}"
+          style="width: 45px, height: auto"
+          alt="Photo of Jeremy Nelson"> 
+     <div class="btn-group btn-group-sm">
+       <a class="btn btn-sm btn-default" 
+          href="/JeremyNelson/vita.html">vita</a>
+       <a class="btn btn-sm btn-default" 
+          href="/JeremyNelson/publications.html">publications</a>
+       <a class="btn btn-sm btn-default"
+          href="/JeremyNelson/services.html">professional services</a>
+     </div>
+    </div>
+   </div>
+  </div>
+ {# END Jumbtron Row #}
+ </div>
+ <div class="row">
+  <div class="col-md-4">
+   <h3>Credits</h3>
+   <p>The following projects, people, and organizations all need crediting for 
+      various activities, both past and present, that are available at
+      <a href="/">intro2libsys.info</a>.
+   </p>
+  </div>
+  <div class="col-md-4 well well-sm">
+   <h3>Current Activity</h3>
+  </div>
+  <div class="col-md-4">
+   <h3>Archive</h3>
+  </div>
+ </div>
+</div>
+{% endblock %}
