@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab"
+  }, 
+  "@id": "http://loc.gov/marc/", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-14T23:11:15.153127", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "description": "The MARC formats are standards for the representation and communication of bibliographic and related information in machine-readable form.", 
+  "headline": "MARC STANDARDS", 
+  "name": "marc", 
+  "url": "http://loc.gov/marc/"
+}

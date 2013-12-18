@@ -1,0 +1,31 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab"
+  }, 
+  "@type": "SoftwareApplication", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-12T23:22:13.566000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2011, 
+  "creator": [
+    {
+      "@type": "Person", 
+      "email": "armin.ronacher@active-4.com", 
+      "familyName": "Ronacher", 
+      "givenName": "Armin", 
+      "name": "Armin Ronacher"
+    }
+  ], 
+  "description": "Jinja2 is a full featured template engine for Python. It has full unicode support, an optional integrated sandboxed execution environment, widely used and BSD licensed.", 
+  "headline": "Jinja", 
+  "installUrl": "http://jinja.pocoo.org/docs/intro/#installation", 
+  "keywords": [
+    "Python", 
+    "template language"
+  ], 
+  "name": "jinja", 
+  "url": "http://jinja.pocoo.org/"
+}

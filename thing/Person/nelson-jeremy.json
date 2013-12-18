@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/"
+  },  
+  "@id": "http://intro2libsys.info/Person/nelson-jeremy",
+  "@type": "Person", 
+  "familyName": "Nelson", 
+  "givenName": "Jeremy", 
+  "name": "Jeremy Nelson"
+  "url": "http://intro2libsys.info/Person/JeremyNelson"
+}

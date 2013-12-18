@@ -1,0 +1,12 @@
+{
+ "@context": {
+    "@vocab": "http://schema.org/"
+  }, 
+ "@type": "Person", 
+ "@id": "http://intro2libsys.info/Person/godin-seth", 
+ "familyName": "Godin", 
+ "givenName": "Seth", 
+ "name": "Seth Godin",
+ "url": "http://intro2libsys.info/Person/SethGodin"
+}
+

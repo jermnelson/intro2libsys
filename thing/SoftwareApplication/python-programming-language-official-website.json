@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab"
+  }, 
+  "@type": "WebApplication", 
+  "headline": "Python Programming Language - Official Website", 
+  "name": "python-programming-language-official-website", 
+  "publisher": {
+    "@type": "Organization", 
+    "addressLocality": "Beaverton", 
+    "addressRegion": "Oregon", 
+    "name": "Python Software Foundation"
+  }, 
+  "url": "http://www.python.org/"
+}

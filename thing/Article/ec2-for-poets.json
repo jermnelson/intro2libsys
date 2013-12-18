@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/ec2-for-poets",
+  "@type": "TechArticle", 
+  "authors": [
+    {
+      "@id": "http://intro2libsys.info/Person/winer-dave"
+    }
+  ], 
+  "name": "EC2 for Poets", 
+  "url": "http://ec2.forpoets.org/"
+}

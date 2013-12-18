@@ -1,0 +1,30 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/"
+  }, 
+  "@id": "/Resources/power-of-pull", 
+  "@type": "Book", 
+  "author": [
+    {
+      "@type": "Person", 
+      "familyName": "Hagel", 
+      "givenName": "John", 
+      "name": "John Hagel III"
+    }, 
+    {
+      "@type": "Person", 
+      "familyName": "Brown", 
+      "givenName": "John", 
+      "name": "John Seely Brown"
+    }
+  ], 
+  "copyrightYear": 2010, 
+  "headline": "The Power of Pull: How Small Moves, Smartly made, Can Set Big Things in Motion", 
+  "keywords": [], 
+  "name": "power-of-pull", 
+  "publisher": {
+    "name": "Basic Books"
+  },
+  "thumbnailUrl": "power-of-pull-thumbnail.png"
+
+}

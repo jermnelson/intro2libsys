@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab"
+  }, 
+  "@id": "\"http://www.w3.org/TR/rdfa-lite/", 
+  "@type": "CollectionPage", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-12T23:22:13.566000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "description": "RDFa Lite is a minimal subset of RDFa, the Resource Description Framework in attributes, consisting of a few attributes that may be used to express machine-readable data in Web documents like HTML, SVG, and XML.", 
+  "headline": "RDFa Lite 1.1", 
+  "name": "rdfa-lite", 
+  "url": "\"http://www.w3.org/TR/rdfa-lite/"
+}

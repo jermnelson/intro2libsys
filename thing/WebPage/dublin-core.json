@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab"
+  }, 
+  "@id": "http://dublincore.org/", 
+  "@type": "CollectionPage", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-14T22:43:25.748237", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "description": "The Dublin Core Metadata Initiative (DCMI) supports shared innovation in metadata design and best practices across a broad range of purposes and business models.", 
+  "headline": "Dublin Core Metadata Initiative", 
+  "name": "dublin-core", 
+  "url": "http://dublincore.org/"
+}

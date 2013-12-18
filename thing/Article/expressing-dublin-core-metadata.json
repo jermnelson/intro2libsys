@@ -1,0 +1,34 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab"
+  }, 
+  "@id": "http://dublincore.org/documents/2008/01/14/dc-rdf/", 
+  "@type": "Article", 
+  "bf:adminInfo": {
+    "bf:changedDate": "2013-12-18T00:15:08.345000",
+    "bf:creationDate": "2013-12-14T00:03:52.947000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2008, 
+  "creator": [
+    {
+      "@id": "http://intro2libsys.info/Person/nilsson-mikael" 
+    }, 
+    {
+      "@id": "http://intro2libsys.info/Person/powell-andy"
+    }, 
+    {
+      "@id": "http://intro2libsys.info/Person/johnston-pete", 
+    }, 
+    {
+      "@id": ""http://intro2libsys.info/Person/naeve-ambju00f6rn"
+    }
+  ], 
+  "datePublished": "2008-01-14", 
+  "description": "This document provides recommendations for expressing Dublin Core metadata using RDF, the Resource Description Framework", 
+  "headline": "Expressing Dublin Core metadata using the Resource Description Framework (RDF)", 
+  "name": "expressing-dublin-core-metadata", 
+  "url": "http://dublincore.org/documents/dc-rdf/"
+}

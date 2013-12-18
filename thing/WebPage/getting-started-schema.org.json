@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/resource/27", 
+  "@type": "WebPage", 
+  "name": "Getting started with schema.org", 
+  "url": "http://schema.org/docs/gs.html"
+}

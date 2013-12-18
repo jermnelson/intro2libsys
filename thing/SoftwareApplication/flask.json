@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab"
+  }, 
+  "@type": "WebApplication", 
+  "copyrightYear": 2010, 
+  "headline": "Flask web development, one drop at a time", 
+  "name": "flask", 
+  "publisher": {
+    "@type": "Organization", 
+    "name": "Pocoo Team", 
+    "url": "http://www.pocoo.org"
+  }, 
+  "url": "http://flask.pocoo.org/"
+}

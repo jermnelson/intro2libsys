@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/Person/winer-dave", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-18T00:11:03.329000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "Winer", 
+  "givenName": "Dave", 
+  "idloc:url": "http://id.loc.gov/authorities/names/no94015966", 
+  "url": "http://intro2libsys.info/Person/DaveWiner"
+}

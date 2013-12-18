@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/Person/breeding-marshall", 
+  "@type": "Person", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-17T23:56:26.128000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "Breeding", 
+  "givenName": "Marshall", 
+  "idloc:url": "http://id.loc.gov/authorities/names/n91095299", 
+  "url": "http://intro2libsys.info/Person/MarshallBreeding"
+}

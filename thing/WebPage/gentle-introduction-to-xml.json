@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/resources/gentle-introduction-to-xml", 
+  "@type": "WebPage", 
+  "name": "A Gentle Introduction to XML",
+  "keywords": ["xml", "markup language"], 
+  "url": "http://www.tei-c.org/release/doc/tei-p5-doc/en/html/SG.html"
+}

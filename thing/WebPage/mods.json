@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab"
+  }, 
+  "@id": "http://www.loc.gov/standards/mods", 
+  "@type": "CollectionPage", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-14T22:57:25.618666", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "description": "Metadata Object Description Schema (MODS) is a schema for a bibliographic element set that may be used for a variety of purposes, and particularly for library applications.", 
+  "headline": "Metadata Object Description Schema", 
+  "name": "mods", 
+  "url": "http://www.loc.gov/standards/mods/"
+}

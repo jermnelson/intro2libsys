@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab"
+  }, 
+  "@id": "http://bibframe.org/", 
+  "@type": "CollectionPage", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-12T23:17:47.218000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "description": "Official website of Library of Congress's LinkedData based Bibliographic Framework Initiative.", 
+  "headline": "BIBFRAME.org Bibliographic Framework Initative", 
+  "name": "bibframe", 
+  "url": "http://bibframe.org/"
+}

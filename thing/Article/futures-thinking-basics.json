@@ -1,0 +1,24 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/"
+  }, 
+  "@type": "Article", 
+  "author": [
+    {
+      "@type": "Person", 
+      "familyName": "Cascio", 
+      "givenName": "Jamais", 
+      "name": "Jamais Cascio"
+    }
+  ], 
+  "copyrightYear": 2009, 
+  "headline": "Futures Thinking: The Basics", 
+  "name": "futures-thinking-basics", 
+  "publisher": {
+    "@type": "Organization", 
+    "@id": ""http://intro2libsys.info/Organization/fast-company",
+    "name": "Fast Company", 
+    "url": "http://www.fastcompany.com"
+  }, 
+  "url": "http://www.fastcompany.com/1362037/futures-thinking-basics"
+}

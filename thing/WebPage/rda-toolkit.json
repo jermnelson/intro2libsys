@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab"
+  }, 
+  "@type": "WebApplication", 
+  "copyrightYear": 2010, 
+  "headline": "RDA Toolkit", 
+  "name": "rda-toolkit", 
+  "publisher": {
+    "@type": "Organization", 
+    "address": {
+      "@type": "PostalAddress", 
+      "addressLocality": "Chicago", 
+      "addressRegion": "Illinois"
+    }, 
+    "name": "American Library Association", 
+    "url": "http://www.ala.org/"
+  }, 
+  "url": "http://access.rdatoolkit.org/"
+}

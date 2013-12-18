@@ -1,0 +1,19 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/resources/fistful-dollars-why-corporate-publishers-no-place-scholarly-communication", 
+  "@type": "BlogPosting", 
+  "author": [
+    {
+      "@type": "Person",
+      "familyName": "Brembs", 
+      "givenName": "Bj\u00f6rn"
+    }
+  ], 
+  "datePublished": "2012-01-10",
+  "keywords": ["open access", "scholarly publishing", "serials crisis"],
+  "name": "A Fistful Of Dollars: Why Corporate Publishers Have No Place In Scholarly Communication", 
+  "url": "http://bjoern.brembs.net/comment-n820.html"
+}

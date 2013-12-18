@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab"
+  }, 
+  "@type": "CollectionPage", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-14T23:24:36.240635", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "description": "This online publication provides access to both the full and concise versions of the MARC 21 Format for Bibliographic Data.", 
+  "headline": "MARC 21 Format for Bibliographic Data", 
+  "isPartOf": "marc", 
+  "name": "marc-bibliographic"
+}

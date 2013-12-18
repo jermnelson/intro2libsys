@@ -1,0 +1,20 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab"
+  }, 
+  "@type": "WebApplication", 
+  "headline": "BIBFRAME.ORG Bibliographic Framework Initiative", 
+  "name": "bibframeorg-bibliographic-framework-initiative", 
+  "publisher": {
+    "@type": "GovernmentOrganization", 
+    "address": {
+      "@type": "PostalAddress", 
+      "addressLocality": "Washington", 
+      "addressRegion": "DC"
+    }, 
+    "name": "Library of Congress", 
+    "url": "http://loc.gov/"
+  }, 
+  "url": "http://bibframe.org/"
+}

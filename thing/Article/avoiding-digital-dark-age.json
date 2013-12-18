@@ -1,0 +1,24 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov",
+    "issue": null,
+    "pages": null,
+    "volume": null
+  }, 
+  "@id": "http://intro2libsys.info/resources/avoiding-digital-dark-age", 
+  "@type": "ScholarlyArticle", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/bollacker-kurt"
+    }
+  ], 
+  "datePublished": "March-April 2010",
+  "headline": "Avoiding a Digital Dark Age",
+  "issue": 2, 
+  "keywords": ["digital dark age", "digital preservation"],
+  "name": "American Scientist",
+  "pages": {"start": 106, "end": 106},
+  "url": "http://www.americanscientist.org/issues/pub/avoiding-a-digital-dark-age/",
+  "volume": 98
+}

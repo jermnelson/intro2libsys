@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab"
+  }, 
+  "@type": "Book", 
+  "copyrightYear": 2005, 
+  "datePublished": "2005-07-31", 
+  "headline": "Anglo-American Cataloging Rules Second Edition 2002 Revision", 
+  "name": "anglo-american-cataloging-rules-second-edition", 
+  "publisher": {
+    "@type": "Organization", 
+    "address": {
+      "@type": "PostalAddress", 
+      "addressLocality": "Chicago", 
+      "addressRegion": "Illinois"
+    }, 
+    "name": "American Library Association", 
+    "url": "http://www.ala.org/"
+  }, 
+  "url": "http://access.rdatoolkit.org/"
+}

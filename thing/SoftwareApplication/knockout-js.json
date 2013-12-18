@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab"
+  }, 
+  "@id": "http://knockoutjs.com", 
+  "@type": "SoftwareApplication", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-13T23:39:01.891000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2013, 
+  "description": "Library for building simple and dynamic Javascript UIs with the Model-View-View-Model (MVVM) pattern", 
+  "headline": "Knockout.js", 
+  "name": "knockout-js", 
+  "url": "http://knockoutjs.com/"
+}

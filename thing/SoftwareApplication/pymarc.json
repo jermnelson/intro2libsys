@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab"
+  }, 
+  "@id": "https://pypi.python.org/pypi/pymarc", 
+  "@type": "SoftwareApplication", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-13T22:39:53.785000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2012, 
+  "creator": [
+    {
+      "@type": "Person", 
+      "familyName": "Summers", 
+      "givenName": "Ed", 
+      "name": "Ed Summers"
+    }, 
+    {
+      "@type": "Person", 
+      "familyName": "Farrell", 
+      "givenName": "Gabriel", 
+      "name": "Gabriel Farrell"
+    }, 
+    {
+      "@type": "Person", 
+      "familyName": "Matienzo", 
+      "givenName": "Mark", 
+      "name": "Mark Matienzo"
+    }
+  ], 
+  "description": "A python module by Ed Summers for reading, writing and modifing MARC bibliographic data", 
+  "headline": "PyMARC", 
+  "name": "pymarc", 
+  "softwareVersion": "2.9.1", 
+  "url": "http://github.com/edsu/pymarc"
+}

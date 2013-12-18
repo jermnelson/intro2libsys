@@ -1,0 +1,33 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab"
+  }, 
+  "@id": "http://arxiv.org/abs/1302.4591", 
+  "@type": "ScholarlyArticle", 
+  "author": [
+    {
+      "@type": "Person", 
+      "bf:authorizedAccessPoint": "Summers, Ed", 
+      "familyName": "Summers", 
+      "givenName": "Ed", 
+      "name": "Ed Summers"
+    }, 
+    {
+      "@type": "Person", 
+      "bf:authorizedAccessPoint": "Salo, Dorothea", 
+      "familyName": "Salo", 
+      "givenName": "Dorothea"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-12T23:22:13.566000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "bookFormat": "EBook", 
+  "description": "Short Ebook on Linked Data in the cultural heritage sector: libraries, archives and museums", 
+  "headline": "Linking Things on the Web: A Pragmatic Examination of Linked Data for Libraries, Archives and Museums", 
+  "name": "linking-things-on-the-web-a-pragmatic-examination-of-linked-data-for-libraries-archives-and-museums", 
+  "url": "http://arxiv.org/abs/1302.4591"
+}

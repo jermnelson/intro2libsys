@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/el-hattab-hakim", 
+  "@type": "Person", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-17T23:49:20.122000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "El Hattab", 
+  "givenName": "Hakim", 
+  "name": "Hakim El Hattab", 
+  "url": "http://intro2libsys.info/Person/HakimElHattab"
+}

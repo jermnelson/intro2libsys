@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/resource/17", 
+  "@type": "Book", 
+  "authors": [
+    {
+      "familyName": "Ranganathan", 
+      "givenName": "Shiyali", 
+      "idloc:url": "http://id.loc.gov/authorities/names/n50053919"
+    }
+  ], 
+  "bookFormat": "EBook", 
+  "name": "The Five Laws of Library Science ", 
+  "url": "http://home.ubalt.edu/nicole.kerber/idia642/Final_Usability_Report.pdf"
+}

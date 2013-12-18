@@ -1,0 +1,25 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab"
+  }, 
+  "@type": "WebApplication", 
+  "author": [
+    {
+      "@type": "Person", 
+      "familyName": "Hillman", 
+      "givenName": "Diane", 
+      "name": "Diane Hillmann"
+    }, 
+    {
+      "@type": "Person", 
+      "familyName": "Phipps", 
+      "givenName": "Jon", 
+      "name": "Jon Phipps"
+    }
+  ], 
+  "copyrightYear": 2010, 
+  "headline": "The RDA (Resource Description and Access) Vocabularies", 
+  "name": "rda-resource-description-and-access-vocabularies", 
+  "url": "http://rdvocab.info/"
+}

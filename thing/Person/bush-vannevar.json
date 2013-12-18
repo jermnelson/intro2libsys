@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/Person/bush-vannevar", 
+  "@type": "Person", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-17T23:53:57.854000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "Bush", 
+  "givenName": "Vannevar", 
+  "idloc:url": "http://id.loc.gov/authorities/names/n79131976", 
+  "url": "http://intro2libsys.info/Person/VannevarBush"
+}

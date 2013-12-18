@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab"
+  }, 
+  "@type": "WebApplication", 
+  "headline": "Redis is an open source, BSD licensed, advanced key-value store.", 
+  "name": "redis", 
+  "url": "http://redis.io/"
+}

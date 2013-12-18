@@ -2,9 +2,12 @@
 
 {% block body %}
 <div class="container">
+ {% include 'snippets/navbar.html' %}
  {# START row #}
  <div class="row">
   <div class="col-md-8">
+   <img src="{{ url_for('static', filename='img/gunnison-river-bridge.png') }}" class="pull-right" style="width: 300px;height:auto">
+ 
    <h1>Introduction to Library Systems</h1>
    <p class="lead">
     A collection of resources, presentations, and
@@ -12,12 +15,11 @@
     systems and technology as collected, created and curated by 
     Jeremy Nelson.
    </p>
-  </div>
+ </div>
   {% include 'snippets/right-nav.html' %}
  {# END row #}
  </div>
-  {% include 'snippets/navbar.html' %}
-  {% include 'snippets/copyright.html' %}
+ {% include 'snippets/copyright.html' %}
   </div>
  {# END row #}
  </div>

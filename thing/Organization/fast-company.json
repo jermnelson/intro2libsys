@@ -1,0 +1,9 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/"
+  },   
+  "@type": "Organization", 
+  "@id": ""http://intro2libsys.info/Organization/fast-company",
+  "name": "Fast Company", 
+  "url": "http://www.fastcompany.com"
+}

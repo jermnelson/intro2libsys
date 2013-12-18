@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/resource/47", 
+  "@type": "Book", 
+  "authors": [
+    {
+      "familyName": "Bizer", 
+      "givenName": "Christian", 
+      "idloc:url": "http://id.loc.gov/authorities/names/no2011070118"
+    }
+  ], 
+  "bookFormat": "EBook", 
+  "name": "Linked Data: Evolving the Web into a Global Data Space", 
+  "url": "http://linkeddatabook.com/editions/1.0/"
+}

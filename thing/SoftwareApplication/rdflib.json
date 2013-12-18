@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab"
+  }, 
+  "@id": "https://github.com/RDFLib/rdflib", 
+  "@type": "SoftwareApplication", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-13T23:12:28.755000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2013, 
+  "description": "RDFLib is a pure Python package work working with RDF", 
+  "headline": "RDFLib", 
+  "name": "rdflib", 
+  "url": "https://github.com/RDFLib/rdflib"
+}

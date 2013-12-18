@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/"
+  },  
+  "@id": "http://intro2libsys.info/Person/suber-peter",
+  "@type": "Person", 
+  "familyName": "Suber", 
+  "givenName": "Peter", 
+  "name": "Peter Suber",
+  "url": "http://intro2libsys.info/Person/PeterSuber"
+}

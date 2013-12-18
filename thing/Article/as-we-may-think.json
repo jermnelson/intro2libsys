@@ -1,0 +1,27 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/"
+  }, 
+  "@id": "http://intro2libsys.info/resources/as-we-may-think", 
+  "@type": "NewsArticle", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-17T23:55:33.317000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  },   
+  "author": [
+    {
+	  "@id": "http://intro2libsys.info/Person/bush-vannevar"
+    }
+  ], 
+  "datePublished": "1945-07-01",
+  "keywords": ["memex", "Vannevar Bush"],
+  "name": "The Atlantic Magazine", 
+  "headline": "As We May Think",
+  "publisher": {
+    "@type": "Corporation",
+    "name": "The Atlantic Monthly Group",
+    "url": "http://www.theatlantic.com/" 
+  },
+  "url": "http://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/"
+}

@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab"
+  }, 
+  "@id": "http://schema.org", 
+  "@type": "CollectionPage", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-13T23:41:56.504000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "description": "This site provides a collection of schemas, i.e., html tags, that webmasters can use to markup their pages in ways recognized by major search providers.", 
+  "headline": "Schema.org", 
+  "name": "schema-org", 
+  "url": "http://schema.org/"
+}

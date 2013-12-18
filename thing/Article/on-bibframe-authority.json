@@ -1,0 +1,30 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab"
+  }, 
+  "@type": "Article", 
+  "author": [
+    {
+      "@type": "Person", 
+      "familyName": "Ford", 
+      "givenName": "Kevin", 
+      "name": "Kevin Ford"
+    }
+  ], 
+  "copyrightYear": 2013, 
+  "datePublished": "2013-08-26", 
+  "headline": "On BIBFRAME Authority", 
+  "name": "on-bibframe-authority", 
+  "publisher": {
+    "@type": "GovernmentOrganization", 
+    "address": {
+      "@type": "PostalAddress", 
+      "addressLocality": "Washington", 
+      "addressRegion": "DC"
+    }, 
+    "name": "Library of Congress", 
+    "url": "http://loc.gov/"
+  }, 
+  "url": "http://bibframe.org/documentation/bibframe-authority/"
+}

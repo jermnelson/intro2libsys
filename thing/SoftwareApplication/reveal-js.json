@@ -1,0 +1,24 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab"
+  }, 
+  "@id": "https://github.com/hakimel/reveal.js", 
+  "@type": "SoftwareApplication", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-13T23:29:49.987000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2013, 
+  "creator": [
+    {
+	  "@id": "http://intro2libsys.info/Person/el-hattab-hakim",
+      "name": "Hakim El Hattab"
+    }
+  ], 
+  "description": "Reveal.js is the Javascript framework used for this presentation", 
+  "headline": "Reveal.js HTML Presentations Made Easy", 
+  "name": "reveal-js", 
+  "url": "http://lab.hakim.se/reveal-js/"
+}

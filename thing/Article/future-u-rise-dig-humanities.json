@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/resource/22", 
+  "@type": "TechArticle", 
+  "authors": [
+    {
+      "familyName": "Hopkins", 
+      "givenName": "Curt"
+    }
+  ], 
+  "name": "Future U: Rise of the digital humanities", 
+  "url": "http://arstechnica.com/business/2012/06/future-u-rise-of-the-digital-humanities/"
+}

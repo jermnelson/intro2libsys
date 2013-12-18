@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab"
+  }, 
+  "@type": "WebApplication", 
+  "headline": "Bootstrap - mobile first front-end framework for web development", 
+  "name": "bootstrap", 
+  "url": "http://getbootstrap.com/"
+}

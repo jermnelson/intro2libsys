@@ -1,0 +1,23 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/"
+  }, 
+  "author": [
+    {
+      "@type": "Person", 
+      "familyName": "Ptacek", 
+      "givenName": "Bill", 
+      "name": "Bill Ptacek"
+    }
+  ], 
+  "copyrightYear": 2013, 
+  "datePublished": "2013-09-04", 
+  "headline": "The Library as Catalyst for Civic Engagment | Reinventing Libraries", 
+  "name": "the-library-as-catalyst-for-civic-engagment-reinventing-libraries", 
+  "publisher": {
+    "@type": "Organization", 
+    "name": "Library Journal", 
+    "url": "http://lj.libraryjournal.com/"
+  }, 
+  "url": "http://lj.libraryjournal.com/2013/09/future-of-libraries/the-library-as-catalyst-for-civic-engagment-reinventing-libraries/"
+}

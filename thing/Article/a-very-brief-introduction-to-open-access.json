@@ -1,0 +1,20 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/"
+  }, 
+  "@type": "Article", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/suber-peter"
+    }
+  ], 
+  "copyrightYear": 2004, 
+  "headline": "A Very Brief Introduction to Open Access", 
+  "keywords": [
+    "open access", 
+    "journals", 
+    "publishing"
+  ], 
+  "@id": "http://intro2libsys.info/Article/a-very-brief-introduction-to-open-access", 
+  "url": "http://legacy.earlham.edu/~peters/fos/brief.htm"
+}

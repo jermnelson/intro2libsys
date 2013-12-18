@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab"
+  }, 
+  "@type": "WebApplication", 
+  "author": [
+    {
+      "@type": "Person", 
+      "familyName": "Fierens", 
+      "givenName": "Wout", 
+      "name": "Wout Fierens"
+    }
+  ], 
+  "headline": "SVG.JS A lightweight library for manipulating and animating SVG.", 
+  "name": "svgjs", 
+  "url": "http://svgjs.com/"
+}

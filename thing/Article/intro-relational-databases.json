@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/resource/39", 
+  "@type": "TechArticle", 
+  "authors": [
+    {
+      "familyName": "Gilfillan", 
+      "givenName": "Ian", 
+      "idloc:url": "http://id.loc.gov/authorities/names/nr2003011853"
+    }
+  ], 
+  "name": "Introduction to Relational Databases", 
+  "url": "http://www.databasejournal.com/sqletc/article.php/1469521/Introduction-to-Relational-Databases.htm"
+}

@@ -1,0 +1,19 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab"
+  }, 
+  "@id": "http://www.python.org", 
+  "@type": "SoftwareApplication", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-13T23:01:52.252000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2013, 
+  "description": "Python is a remarkably powerful dynamic programming language that is used in a wide variety of application domains.", 
+  "downloadUrl": "http://www.python.org/download/", 
+  "headline": "Python Programming Language", 
+  "name": "python-programming-language", 
+  "url": "http://www.python.org/"
+}
