@@ -18,24 +18,13 @@ THINGS = { 'Article': [],
            'SoftwareApplication': [],
            'WebPage': []}
 
-def add_organization(info,
-                     file_location=PROJECT_HOME):
+
+def add_entity(info,
+               file_location=PROJECT_HOME):
     info['@context'] = get_context()
     info['bf:adminInfo'] = generate_adminInfo()
-    filename = slugify(info.get('name')).strip()
-    if not '@type' in info:
-        info['@type'] = 'Organization'
-    info['@id'] = 'http://intro2libsys.info/Organization/{0}'.format(
-                   filename)
-    with open(os.path.join(file_location,
-                           "Organization",
-                           "{0}.json".format(filename)),
-              "wb") as json_file:
-        json.dump(info,
-                  json_file,
-                  indent=2,
-                  sort_keys=True)
-    print("Finished adding {0}.json".format(filename))
+    return info
+
 
 def add_person(info,
                file_location=PROJECT_HOME):
@@ -57,6 +46,26 @@ def add_person(info,
               'wb') as json_file:
         json.dump(info, json_file, indent=2, sort_keys=True)
     print("Finished adding {0}".format(filename))
+
+def add_organization(info,
+                     file_location=PROJECT_HOME):
+    info['@context'] = get_context()
+    info['bf:adminInfo'] = generate_adminInfo()
+    filename = slugify(info.get('name')).strip()
+    if not '@type' in info:
+        info['@type'] = 'Organization'
+    info['@id'] = 'http://intro2libsys.info/Organization/{0}'.format(
+                   filename)
+    with open(os.path.join(file_location,
+                           "Organization",
+                           "{0}.json".format(filename)),
+              "wb") as json_file:
+        json.dump(info,
+                  json_file,
+                  indent=2,
+                  sort_keys=True)
+    print("Finished adding {0}.json".format(filename))
+
 
 def get_article(article_string):
     # Checks to see if article_string is a URI

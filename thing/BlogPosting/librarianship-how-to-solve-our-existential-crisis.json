@@ -1,0 +1,32 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/BlogPosting/librarianship-how-to-solve-our-existential-crisis", 
+  "@type": "BlogPosting", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/steeleworthy-michael"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-19T18:54:06.711000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2010, 
+  "datePublished": "2010-05-20", 
+  "headline": "Librarianship: How to solve our existential crisis", 
+  "keywords": [
+    "Ethics", 
+    "Information Profession", 
+    "Information Society", 
+    "LibrarianshipCBC", 
+    "communities", 
+    "culture", 
+    "Jian Ghomeshi", 
+    "professionalism"
+  ], 
+  "url": "http://librariesetc.wordpress.com/2010/05/20/whats-a-librarian/"
+}

@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/grimmelmann-james", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-19T19:11:12.022000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "Grimmelmann", 
+  "givenName": "James", 
+  "name": "James Grimmelmann", 
+  "url": "http://intro2libsys.info/Person/JamesGrimmelmann"
+}

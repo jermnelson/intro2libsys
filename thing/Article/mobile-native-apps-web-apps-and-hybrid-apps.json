@@ -1,0 +1,30 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/mobile-native-apps-web-apps-and-hybrid-apps", 
+  "@type": "Article", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/budiu-raluca"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-19T19:52:18.947000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2013, 
+  "datePublished": "2013-09-14", 
+  "headline": "Mobile: Native Apps, Web Apps, and Hybrid Apps", 
+  "keywords": [
+    "Applications", 
+    "Mobile", 
+    "Tablet"
+  ], 
+  "publisher": {
+    "@id": "http://intro2libsys.info/Organization/nng-nielsen-norman-group"
+  }, 
+  "url": "http://www.nngroup.com/articles/mobile-native-apps/"
+}

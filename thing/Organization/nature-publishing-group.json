@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Organization/nature-publishing-group", 
+  "@type": "Corporation", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-19T19:35:41.977000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "name": "Nature Publishing Group", 
+  "url": "http://www.nature.com/"
+}
