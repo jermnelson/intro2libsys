@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/bowles-cennydd", 
+  "@type": "Person", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-18T23:59:13.070000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "Bowles", 
+  "givenName": "Cennydd", 
+  "url": "http://intro2libsys.info/Person/CennyddBowles"
+}

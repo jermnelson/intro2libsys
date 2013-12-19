@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/verborgh-ruben", 
+  "@type": "Person", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-18T18:50:23.333000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "Verborgh", 
+  "givenName": "Ruben", 
+  "name": "Ruben Verborgh", 
+  "url": "http://intro2libsys.info/Person/RubenVerborgh"
+}

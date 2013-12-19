@@ -1,0 +1,9 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/tutorial-1-intro-graph-data", 
+  "@type": "TechArticle", 
+  "headline": "Tutorial 1: Introducing Graph Data", 
+  "url": "http://www.linkeddatatools.com/introducing-rdf"
+}

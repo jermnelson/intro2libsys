@@ -3,6 +3,7 @@
     "@vocab": "http://schema.org/", 
     "bf": "http://bibframe.org/vocab"
   }, 
+  "@id": "http://intro2libsys.info/Article/bibframe-resource-types-discussion-paper", 
   "@type": "Article", 
   "author": [
     {
@@ -12,9 +13,8 @@
   "copyrightYear": 2013, 
   "datePublished": "2013-06-25", 
   "headline": "BIBFRAME Resource Types Discussion Paper", 
-  "name": "bibframe-resource-types-discussion-paper", 
   "publisher": {
-    "@id": "http://intro2libsys.info/Organization/library-of-congress", 
+    "@id": "http://intro2libsys.info/Organization/library-of-congress" 
   }, 
   "url": "http://bibframe.org/documentation/resource-types/"
 }

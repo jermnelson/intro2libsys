@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/sleight-david", 
+  "@type": "Person", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-18T17:14:07.017000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "Sleight", 
+  "givenName": "David", 
+  "name": "David Sleight", 
+  "url": "http://intro2libsys.info/Person/DavidSleight"
+}

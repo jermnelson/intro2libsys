@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/" 
+  }, 
+  "@id": "http://intro2libsys.info/Book/science-as-an-open-enterprise", 
+  "@type": "Book", 
+  "bookFormat": "Paperback", 
+  "headline": "Science as an open enterprise -- Final Report", 
+  "url": "http://royalsociety.org/policy/projects/science-public-enterprise/report/"
+}

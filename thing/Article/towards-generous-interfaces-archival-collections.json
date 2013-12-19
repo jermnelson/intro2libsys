@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/" 
+  }, 
+  "@id": "http://intro2libsys.info/Article/towards-generous-interfaces-archival-collections", 
+  "@type": "ScholarlyArticle", 
+  "authors": [
+    {
+     "@id": "http://intro2libsys.info/Person/whitelaw-mitchell"
+    }
+  ], 
+  "headline": "Towards Generous Interfaces for Archival Collections", 
+  "url": "http://www.ica2012.com/files/pdf/Full%20papers%20upload/ica12Final00423.pdf"
+}

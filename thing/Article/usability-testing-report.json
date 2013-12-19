@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/" 
+  }, 
+  "@id": "http://intro2libsys.info/Article/ability-testing-report", 
+  "@type": "NewsArticle", 
+  "authors": [
+    {
+     "@id": "http://intro2libsys.info/Person/kerber-nikki"
+    }
+  ], 
+  "headline": "Usability Testing Report: Discovery (Search) Tools of Encore and Summons", 
+  "url": "http://home.ubalt.edu/nicole.kerber/idia642/Final_Usability_Report.pdf"
+}

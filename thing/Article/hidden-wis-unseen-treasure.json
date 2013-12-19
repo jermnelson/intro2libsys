@@ -7,11 +7,9 @@
   "@type": "ScholarlyArticle", 
   "authors": [
     {
-      "familyName": "Whittaker", 
-      "givenName": "Beth", 
-      "idloc:url": "http://id.loc.gov/authorities/names/no97032024"
+    "@id": "http://intro2libsys.info/Person/whittaker-beth"
     }
   ], 
-  "name": "Hidden Wisdom and Unseen Treasure: Revisiting Cataloging in Medieval Libraries", 
+  "headline": "Hidden Wisdom and Unseen Treasure: Revisiting Cataloging in Medieval Libraries", 
   "url": "http://hdl.handle.net/1811/47377"
 }

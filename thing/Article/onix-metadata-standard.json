@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/Article/onix-the-metadata-standard", 
+  "@type": "ScholarlyArticle", 
+  "headline": "ONIX: The Metadata Standard for the Information and Entertainment Industries", 
+  "url": "http://webcentral.du.edu/cp/grouptools/fileshare/71820/7341/ONIXMetadataStandardforInformationEntertainmentIndustries.pdf"
+}

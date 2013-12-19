@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/liker-jeffrey", 
+  "@type": "Person", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-18T18:59:34.754000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "Liker", 
+  "givenName": "Jeffrey", 
+  "name": "Jeffrey K. Liker", 
+  "url": "http://intro2libsys.info/Person/JeffreyLiker"
+}

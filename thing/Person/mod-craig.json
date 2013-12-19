@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/mod-craig", 
+  "@type": "Person", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-18T18:36:08.176000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "Mod", 
+  "givenName": "Craig", 
+  "name": "Craig Mod", 
+  "url": "http://intro2libsys.info/Person/CraigMod"
+}

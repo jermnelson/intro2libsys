@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/Person/epstein-jason", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-18T23:49:12.920000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "Epstein", 
+  "givenName": "Jason", 
+  "idloc:url": "http://id.loc.gov/authorities/names/n84172961", 
+  "url": "http://intro2libsys.info/Person/JasonEpstein"
+}

@@ -18,7 +18,20 @@
       <li {% if page == 'topics' %}class="active"{% endif %}>
         <a href="{{ url_for('topics') }}">Topics</a>
       </li>
-      <li><a href="#">Resources</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+         Resources <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+         <li><a href="{{ url_for('entity_listing', entity='Article') }}">Articles</a></li> 
+         <li><a href="{{ url_for('entity_listing', entity='BlogPosting') }}">Blog Postings</a></li> 
+         <li><a href="{{ url_for('entity_listing', entity='Book') }}">Books</a></li> 
+         <li><a href="{{ url_for('entity_listing', entity='MediaObject') }}">Media Objects</a></li> 
+         <li><a href="{{ url_for('entity_listing', entity='Organization') }}">Organizations</a></li> 
+         <li><a href="{{ url_for('entity_listing', entity='Person') }}">People</a></li> 
+         <li><a href="{{ url_for('entity_listing', entity='SoftwareApplication') }}">Software Applications</a></li> 
+         <li><a href="{{ url_for('entity_listing', entity='WebPage') }}">Web Pages</a></li> 
+        </ul>
+      </li>
       <li><a href="#">Presentations</a></li>
       <li><a href="#">Assessments</a></li>
     </ul>

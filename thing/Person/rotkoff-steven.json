@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/rotkoff-steven", 
+  "@type": "Person", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-18T18:23:32.365000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "Rotkoff", 
+  "givenName": "Steven", 
+  "honorificPrefix": "Col.",
+  "name": "Col. Steven Rotkoff (Ret.)", 
+  "url": "http://intro2libsys.info/Person/StevenRotkoff"
+}

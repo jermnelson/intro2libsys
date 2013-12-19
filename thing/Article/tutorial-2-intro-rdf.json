@@ -1,0 +1,9 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/" 
+  }, 
+  "@id": "http://intro2libsys.info/Article/tutorial-2-intro-rdf", 
+  "@type": "TechArticle", 
+  "headline": "Tutorial 2: Introducing RDF/XML", 
+  "url": "http://www.linkeddatatools.com/introducing-rdf-part-2"
+}

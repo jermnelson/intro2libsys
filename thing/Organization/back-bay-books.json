@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Corporation/back-bay-books", 
+  "@type": "Corporation", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-18T18:58:23.020000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "name": "Back Bay Books"
+}

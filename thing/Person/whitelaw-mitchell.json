@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/Person/whitelaw-mitchell", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-18T17:15:38.823000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "Whitelaw", 
+  "givenName": "Mitchell", 
+  "idloc:url": "http://id.loc.gov/authorities/names/n2003013212", 
+  "url": "http://intro2libsys.info/Person/MitchellWhitelaw"
+}

@@ -1,0 +1,9 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/" 
+  }, 
+  "@id": "http://intro2libsys.info/TechArticle/python-tutorial", 
+  "@type": "TechArticle", 
+  "headline": "The Python Tutorial", 
+  "url": "http://docs.python.org/tutorial/index.html"
+}

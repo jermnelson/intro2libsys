@@ -3,14 +3,13 @@
     "@vocab": "http://schema.org/", 
     "idloc": "http://id.loc.gov"
   }, 
-  "@id": "http://intro2libsys.info/resource/19", 
+  "@id": "http://intro2libsys.info/Article/future-apps-web", 
   "@type": "TechArticle", 
   "authors": [
     {
-      "familyName": "Rainie", 
-      "givenName": "Lee"
+     "@id": "http://intro2libsys.info/Person/rainie-lee" 
     }
   ], 
-  "name": "The Future of Apps and Web", 
+  "headline": "The Future of Apps and Web", 
   "url": "http://pewinternet.com/Reports/2012/Future-of-Apps-and-Web/Overview.aspx"
 }

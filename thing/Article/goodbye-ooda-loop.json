@@ -1,0 +1,17 @@
+{
+  "@context": {
+   "@vocab": "http://schema.org/"
+ },
+ "@type": "Article",
+ "@id": "http://intro2libsys.info/Article/goodbye-ooda-loop",
+ "author": [{
+  "@id": "http://intro2libsys.info/Person/benson-kevin"
+  },
+  {
+  "@id": "http://intro2libsys.info/Person/rotkoff-steven"
+  }],
+ "copyrightYear": 2011,
+ "name": "Goodbye, OODA Loop",
+ "headline": "Goodbye, OODA Loop: A complex world demands a different kind of decision-making",
+ "url": "http://www.armedforcesjournal.com/2011/10/6777464/"
+}

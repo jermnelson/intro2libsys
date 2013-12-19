@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/" 
+  }, 
+  "@id": "http://intro2libsys.info/Article/use-rfid-in-libraries", 
+  "@type": "SholarlyArticle", 
+  "authors": [
+    {
+     "@id": "http://intro2libsys.info/Person/shahid-syed"
+   }
+  ], 
+  "headline": "Use of RFID Technology in Libraries: a New Approach to Circulation, Tracking, Inventorying, and Security of Library Materials", 
+  "url": "http://unllib.unl.edu/LPP/shahid.htm"
+}

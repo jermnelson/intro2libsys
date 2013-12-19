@@ -1,0 +1,27 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/"
+  }, 
+  "@id": "http://intro2libsys.info/Book/tipping-point", 
+  "@type": "Book", 
+  "author": [{
+    "@id": "http://intro2libsys.info/Person/gladwell-malcolm"
+   }], 
+  "copyrightYear": [
+    2002, 
+    2000
+  ], 
+  "headline": "The Tipping Point How Little Things Can Make a Big Difference", 
+  "isbn": "0-316-31696-2 (HC)", 
+  "keywords": [
+    "Social psychology", 
+    "Contagion (Social psychology)", 
+    "Causation", 
+    "Context effects (Psychology)"
+  ], 
+  "name": "The Tipping Point", 
+  "publisher": {
+    "@id": "http://intro2libsys.info/Corporation/back-bay-books"
+  },
+  "thumbnailUrl": "tipping-point-thumbnail.png" 
+}

@@ -12,11 +12,9 @@
   ], 
   "datePublished": "2013-04-02",
   "keywords": ["ILS", "library automation", "library vendors"],
-  "name": "Automation Marketplace 2013: The Rush to Innovate",
+  "headline": "Automation Marketplace 2013: The Rush to Innovate",
   "publisher": {
-     "@type": "Corporation",
-     "name": "The Digital Shift",
-     "url": "http://www.thedigitalshift.com/"
+     "@id": "http://intro2libsys.info/Organization/digital-shift"
   },    
   "url": "http://www.thedigitalshift.com/2013/04/ils/automation-marketplace-2013-the-rush-to-innovate/"
 }

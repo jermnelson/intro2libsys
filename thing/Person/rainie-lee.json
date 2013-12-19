@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/rainie-lee", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-18T23:46:12.396000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "Rainie", 
+  "givenName": "Lee", 
+  "url": "http://intro2libsys.info/Person/LeeRainie"
+}

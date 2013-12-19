@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/" 
+  }, 
+  "@id": "http://intro2libsys.info/BlogPosting/unit-testing-for-developers-managers", 
+  "@type": "BlogPosting", 
+  "authors": [
+    {
+      "@id": "http://intro2libsys.info/Person/dahan-udi"
+    }
+  ], 
+  "headline": "Unit Testing for Developers and Managers", 
+  "url": "http://www.udidahan.com/2008/09/30/unit-testing-for-developers-and-managers/"
+}

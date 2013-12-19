@@ -1,10 +1,9 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "idloc": "http://id.loc.gov"
+    "@vocab": "http://schema.org/" 
   }, 
-  "@id": "http://intro2libsys.info/resource/12", 
+  "@id": "http://intro2libsys.info/Article/evaluating-usage-library-networked-electronic-resources", 
   "@type": "Article", 
-  "name": "Evaluating the Usage of Library Networked Electronic Resources", 
+  "headline": "Evaluating the Usage of Library Networked Electronic Resources", 
   "url": "http://www.arl.org/bm~doc/lac-greece-2005.pdf"
 }
