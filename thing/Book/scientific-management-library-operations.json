@@ -1,0 +1,21 @@
+{
+  "@context": {
+   "@vocab": "http://schema.org/",
+   "bf": "http://bibframe.org/"
+ },
+ "@type": "Book",
+ "@id": "http://intro2libsys.info/Book/scientific-management-of-library-operations",
+ "author": [{
+    "@id": "http://intro2libsys.info/Person/dougherty-richard"
+   },
+   {
+   "@id": "http://intro2libsys.info/Person/heinritz-frederick"
+  }],
+ "copyrightYear": 1966,
+ "headline": "Scientific Management of Library Operations",
+ "name": "Scientific Management of Library Operations",
+ "publisher" : {
+   "@id": "http://intro2libsys.info/Organization/scarecrow-press"
+ },
+ "bf:title": "Scientific Management of Library Operations"
+}

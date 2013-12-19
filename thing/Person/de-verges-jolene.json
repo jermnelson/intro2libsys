@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/de-verges-jolene", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-18T17:32:11.513000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "de Verges", 
+  "givenName": "Jolene", 
+  "url": "http://intro2libsys.info/Person/JoleneDeVerges"
+}

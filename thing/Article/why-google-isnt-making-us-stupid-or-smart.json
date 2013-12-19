@@ -1,0 +1,25 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/" 
+  }, 
+  "@id": "http://intro2libsys.info/Article/why-google-isnt-making-us-stupid-or-smart", 
+  "@type": "NewsArticle", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/wellmon-chad"
+    }
+  ], 
+  "datePublished": "Spring, 2012",
+  "keywords": ["google", "library futures"],
+  "headline": "Why Google Isn't Making Us Stupid...or Smart", 
+  "partOfPeriodical": {
+     "@type": "Periodical",
+     "name": "The Hedgehog Review"
+  },
+  "partOfPeriodicalIssue": {
+     "@type": "PeriodicalIssue",
+     "issueNumber": 1,
+     "volumeNumber": 14
+  },
+  "url": "http://www.iasc-culture.org/THR/THR_article_2012_Spring_Wellmon.php"
+}

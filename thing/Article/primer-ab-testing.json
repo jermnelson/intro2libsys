@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/" 
+  }, 
+  "@id": "http://intro2libsys.info/Article/primer-ab-testing", 
+  "@type": "TechArticle", 
+  "authors": [
+    {
+      "@id": "http://intro2libsys.info/Person/swanson-lara"
+    }
+  ], 
+  "headline": "A Primer on A/B Testing", 
+  "url": "http://www.alistapart.com/articles/a-primer-on-a-b-testing/"
+}

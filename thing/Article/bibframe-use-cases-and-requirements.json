@@ -3,17 +3,11 @@
     "@vocab": "http://schema.org/", 
     "bf": "http://bibframe.org/vocab"
   }, 
+  "@id": "http://intro2libsys.info/Article/bibframe-use-cases-and-requirements",
+  "@type": "Article",
   "headline": "BIBFRAME Use Cases and Requirements", 
-  "name": "bibframe-use-cases-and-requirements", 
   "publisher": {
-    "@type": "GovernmentOrganization", 
-    "address": {
-      "@type": "PostalAddress", 
-      "addressLocality": "Washington", 
-      "addressRegion": "DC"
-    }, 
-    "name": "Library of Congress", 
-    "url": "http://loc.gov/"
+    "@id": "http://intro2libsys.info/Organization/library-of-congress"
   }, 
   "url": "http://bibframe.org/documentation/bibframe-usecases/"
 }

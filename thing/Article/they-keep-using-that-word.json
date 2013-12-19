@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/" 
+  }, 
+  "@id": "http://intro2libsys.info/Article/they-keep-using-that-word", 
+  "@type": "Article", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/sleight-david"
+    }
+  ], 
+  "dateCreated": "2013-07-11T17:46:06.094000", 
+  "datePublished": "2013-03-14", 
+  "headline": "They Keep Using That Word", 
+  "name": "A List Apart", 
+  "url": "http://alistapart.com/column/they-keep-using-that-word"
+}

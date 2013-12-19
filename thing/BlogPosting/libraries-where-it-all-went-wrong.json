@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/"
+  }, 
+  "@id": "http://intro2libsys.info/BlogPosting/libraries-where-it-all-went-wrong", 
+  "@type": "BlogPosting", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/torkington-nate"
+    }
+  ], 
+  "copyrightYear": 2011, 
+  "datePublished": "2011-11-23", 
+  "headline": "Libraries: Where It All Went Wrong", 
+  "name": "libraries-where-it-all-went-wrong", 
+  "url": "http://nathan.torkington.com/blog/2011/11/23/libraries-where-it-all-went-wrong/"
+}

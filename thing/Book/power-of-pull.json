@@ -2,28 +2,22 @@
   "@context": {
     "@vocab": "http://schema.org/"
   }, 
-  "@id": "/Resources/power-of-pull", 
+  "@id": "http://intro2libsys.info/Books/power-of-pull", 
   "@type": "Book", 
   "author": [
     {
-      "@type": "Person", 
-      "familyName": "Hagel", 
-      "givenName": "John", 
-      "name": "John Hagel III"
+      "@id": "http://intro2libsys.info/Person/hagel-john"
     }, 
     {
-      "@type": "Person", 
-      "familyName": "Brown", 
-      "givenName": "John", 
-      "name": "John Seely Brown"
+     "@id": "http://intro2libsys.info/Person/brown-john-seely" 
     }
   ], 
   "copyrightYear": 2010, 
   "headline": "The Power of Pull: How Small Moves, Smartly made, Can Set Big Things in Motion", 
   "keywords": [], 
-  "name": "power-of-pull", 
+  "name": "The Power of Pull", 
   "publisher": {
-    "name": "Basic Books"
+    "@id": "http://intro2libsys.info/Organization/basic-books"
   },
   "thumbnailUrl": "power-of-pull-thumbnail.png"
 

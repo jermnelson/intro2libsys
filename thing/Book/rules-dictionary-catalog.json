@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/" 
+  }, 
+  "@id": "http://intro2libsys.info/Book/rules-dictionary-catalog",
+  "@type": "Book", 
+  "authors": [
+    {
+      "@id": "http://intro2libsys.info/Person/cutter-charles"
+    }
+  ], 
+  "bookFormat": "EBook", 
+  "name": "Rules for a dictionary catalog", 
+  "url": "http://books.google.com/books?id=2rQYAAAAMAAJ"
+}

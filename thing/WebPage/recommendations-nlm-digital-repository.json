@@ -1,0 +1,9 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/" 
+  }, 
+  "@id": "http://intro2libsys.info/WebPage/recommendations-nlm-digital-repository", 
+  "@type": "WebPage", 
+  "headline": "Recommendations on NLM Digital Repository Software", 
+  "url": "http://www.nlm.nih.gov/digitalrepository/DRESWG-Report.pdf"
+}

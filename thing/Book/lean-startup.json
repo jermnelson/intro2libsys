@@ -1,0 +1,22 @@
+{
+  "@context": {
+   "@vocab": "http://schema.org/",
+   "bf": "http://bibframe.org/"
+ },
+ "@type": "Book",
+ "@id": "http://intro2libsys.info/Book/lean-startup",
+ "author": [{
+    "@id": "http://intro2libsys.info/Person/ries-eric"
+ }],
+ "copyrightYear": 2011,
+ "headline": "The Lean Startup",
+ "keywords": ["New business enterprises", 
+              "Consumers' preferences",
+              "Organizational effectiveness"], 
+ "name": "The Lean Startup",
+ "publisher": {
+   "@id": "http://intro2libsys.info/Organization/crown-business"
+ },
+ "thumbnailUrl": "lean-startup-thumbnail.png",
+ "url": "http://theleanstartup.com/"
+}

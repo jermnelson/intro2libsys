@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/retooling-libraries-for-the-data-challenge", 
+  "@type": "ScholarlyArticle", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/salo-dorothea"
+     }
+  ], 
+  "copyrightYear": 2010, 
+  "datePublished": "2010-08", 
+  "headline": "Retooling libraries for the data challenge", 
+  "name": "retooling-libraries-for-the-data-challenge", 
+  "publisher": {
+    "@id": "http://intro2libsys.info/Organization/ariadne"
+  }, 
+  "url": "http://www.ariadne.ac.uk/issue64/salo/"
+}

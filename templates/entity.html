@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div class="container">
+ <div class="row">
+  {% include 'snippets/navbar.html' %}
+ </div>
+
+<div class="row">
+ <div class="col-md-8">
+  <div itemscope itemtype="{{ entity['@type'] }}">
+   <h1 itemprop=
+   {% if entity.headline %}
+    "headline">
+    {{ entity.headline }}
+   {% else %}
+    "name">
+    {{ entity.name }}
+   {% endif %}
+   </h1>
+   <div class="row">
+    <div class="col-md-4">
+     <div class="panel panel-info">
+      <div class="panel-heading">
+       <h2 class="panel-title">
+       {% if 'author' in entity %}Authors{% endif %}
+       {% if 'creator' in entity %}Creators{% endif %}
+       </h2>
+      </div>
+      <div class="panel-body">
+      {% for author in entity.author %}
+       <li itemscope itemtype="{{ author['@type'] }}">
+         <span itemprop="name">{{ author.name }}</span>
+
+       </li>
+      {% endfor %}
+      </div>
+      </div>
+    </div>
+   </div>
+ </div>
+</div>
+
+</div>
+{% endblock %}

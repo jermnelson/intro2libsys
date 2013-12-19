@@ -1,0 +1,19 @@
+{
+ "@context": {
+  "@vocab": "http://schema.org/",
+  "bf": "http://bibframe.org/"
+ },
+  "@type": "Book",
+  "@id": "/Resources/toyota-way",
+  "author": [{
+   "@id": "http://intro2libsys.info/Person/liker-jeffrey"
+  }],
+  "copyrightYear": 2004,
+  "headline": "The Toyota Way: 14 Management Principles from the World's Greatest Manufacture",
+  "keywords": ["Lean Manufacturing",
+               "Toyota Manufacturing Process"],
+  "publisher": {
+   "@id": "http://intro2libsys.info/Organization/mcgraw-hill"
+ },
+  "thumbnailUrl": "toyota-way-thumbnail.png"
+}

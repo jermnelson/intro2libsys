@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/Person/dohaish-abdullatif", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-19T00:05:44.992000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "Dohaish", 
+  "givenName": "Abdullatif", 
+  "idloc:url": "http://id.loc.gov/authorities/names/n85092233", 
+  "url": "http://intro2libsys.info/Person/AbdullatifDohaish"
+}

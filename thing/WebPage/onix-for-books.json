@@ -1,0 +1,9 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+  }, 
+  "@id": "http://intro2libsys.info/WebPage/onix-for-books", 
+  "@type": "WebPage", 
+  "headline": "ONIX for Books", 
+  "url": "http://www.bisg.org/what-we-do-21-15-onix-for-books.php"
+}

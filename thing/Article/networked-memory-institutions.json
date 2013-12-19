@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/networked-memory-institutions", 
+  "@type": "ScholarlyArticle", 
+  "author": [{
+    "@id": "http://intro2libsys.info/Person/pessach-guy"
+  }], 
+  "copyrightYear": 2008, 
+  "headline": "[Networked] Memory Institutions: Social Remembering, Privatization and its Discontents", 
+  "name": "[Networked] Memory Institutions: Social Remembering, Privatization and its Discontents", 
+  "url": "http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1085267"
+}

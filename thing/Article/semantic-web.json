@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/Article/semantic-web", 
+  "@type": "ScholarlyArticle", 
+  "authors": [
+    {
+      "@id": "http://intro2libsys.info/Person/berners-lee-tim" 
+    },
+    {
+      "@id": "http://intro2libsys.info/Person/hendler-james"
+    },
+    {
+      "@id": "http://intro2libsys.info/Person/lassila-ora"
+    }
+  ], 
+  "datePublished": "2001-05-17",
+  "headline": "The Semantic Web", 
+  "url": "http://www.scientificamerican.com/article.cfm?id=the-semantic-web"
+}

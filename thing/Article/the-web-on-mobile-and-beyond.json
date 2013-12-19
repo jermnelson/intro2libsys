@@ -1,0 +1,24 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/Article/the-web-on-mobile-and-beyond", 
+  "@type": "Article", 
+  "author": [
+    {
+    "@id": "http://intro2libsys.info/Person/hazaeumll-massieux-dominique"
+    }
+  ], 
+  "dateCreated": "2013-07-11T18:06:40.785000", 
+  "datePublished": "2013-03-19", 
+  "headline": "The Web on Mobile and Beyond", 
+  "keywords": [
+    "mobile", 
+    "information architecture", 
+    "multidevice", 
+    "web design"
+  ], 
+  "name": "A List Apart", 
+  "url": "http://alistapart.com/column/the-web-on-mobile-and-beyond"
+}

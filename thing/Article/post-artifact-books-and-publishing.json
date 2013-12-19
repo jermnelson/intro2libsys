@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/post-artifact-books-and-publishing", 
+  "@type": "Article", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/mod-craig"
+    }
+  ], 
+  "copyrightYear": 2011, 
+  "datePublished": "2011-06", 
+  "headline": "Post-Artifact Books and Publishing: Digital's effect on how we produce, distribute and consume content.", 
+  "name": "post-artifact-books-and-publishing", 
+  "url": "http://craigmod.com/journal/post_artifact/"
+}

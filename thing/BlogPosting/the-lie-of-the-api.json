@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/"
+  }, 
+  "@id": "http://intro2libsys.info/BlogPosting/the-lie-of-the-api", 
+  "@type": "BlogPosting", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/verborgh-ruben"
+    }
+  ], 
+  "headline": "The lie of the API", 
+  "name": "the-lie-of-the-api", 
+  "url": "http://ruben.verborgh.org/blog/2013/11/29/the-lie-of-the-api/"
+}

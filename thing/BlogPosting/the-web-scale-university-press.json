@@ -1,0 +1,36 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/"
+  }, 
+  "@id": "http://intro2libsys.info/BlogPosting/the-web-scale-university-press", 
+  "@type": "BlogPosting", 
+  "author": [
+    {
+     "@id": "http://intro2libsys.info/Person/esposito-joseph" 
+    }
+  ], 
+  "copyrightYear": 2013, 
+  "datePublished": "2013-11-07", 
+  "headline": "The Web-scale University Press", 
+  "keywords": [
+    "ALA", 
+    "Beatles", 
+    "ePub", 
+    "Facebook", 
+    "Google Plus", 
+    "HTML", 
+    "New York Times", 
+    "Open Access", 
+    "PDF", 
+    "POD", 
+    "Project MUSE", 
+    "Shana Kimball", 
+    "SMS", 
+    "Twitter"
+  ], 
+  "name": "the-web-scale-university-press", 
+  "publisher": {
+    "@id": "http://intro2libsys.info/Organization/scholarly-kitchen"
+  }, 
+  "url": "http://scholarlykitchen.sspnet.org/2013/11/07/the-web-scale-university-press/"
+}

@@ -1,0 +1,9 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/" 
+  }, 
+  "@id": "http://intro2libsys.info/Article/rdfa-primer", 
+  "@type": "TechArticle", 
+  "headline": "RDFa 1.1 Primer", 
+  "url": "http://www.w3.org/TR/xhtml-rdfa-primer/"
+}

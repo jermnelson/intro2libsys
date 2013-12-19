@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/WebPage/use-rfid-in-libraries", 
+  "@type": "WebPage", 
+  "authors": [
+    {
+      "@id": "http://intro2libsys.info/Person/de-verges-jolene"
+      "familyName": "de Verges", 
+      "givenName": "Jolene"
+    }
+  ], 
+  "name": "VRA Core 4.0 an introduction", 
+  "url": "http://www.vraweb.org/projects/vracore4/pdfs/VRACore4SEI2009deVerges.pdf"
+}

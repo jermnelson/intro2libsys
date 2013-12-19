@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/Article/special-considerations-individual-user", 
+  "@type": "ScholarlyArticle", 
+  "author": [
+    {
+    "@id": "http://intro2libsys.info/Person/engelbart-douglas"
+    }
+  ], 
+  "headline": "Special considerations of the individual as a user, generator, and retriever of information", 
+  "url": "http://onlinelibrary.wiley.com/doi/10.1002/asi.5090120207/"
+}

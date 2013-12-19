@@ -6,11 +6,39 @@ __copyright__ = '(c) 2012-2014 by Jeremy Nelson'
 
 import json
 import os
+from thing import get_article
 
 from flask import Flask, g, jsonify, redirect, render_template
 
+PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
+PROJECT_HOME = os.path.split(PROJECT_ROOT)[0]
+
 app = Flask(__name__)
 
+
+@app.route("/<entity>/<name>.json")
+def entity_json_view(entity,
+              name):
+    entity_filepath = os.path.join(PROJECT_ROOT,
+                                    "thing",
+                                    entity,
+                                    "{0}.json".format(name))
+    entity = json.load(open(entity_filepath))
+    return jsonify(entity)
+
+@app.route("/<entity>/<name>")
+def entity_view(entity,
+            name):
+    ""
+    entity_filepath = os.path.join(PROJECT_ROOT,
+                                    "thing",
+                                    entity,
+                                    "{0}.json".format(name))
+    if os.path.exists(entity_filepath):
+        entity = json.load(open(entity_filepath))
+
+        return render_template('entity.html',
+                               entity=entity)
 
 @app.route("/JeremyNelson/<md_page>.html")
 def JeremyNelson(md_page):
@@ -27,6 +55,26 @@ def topics():
     return render_template('topics.html',
                            page='topics',
                            topics={})
+
+@app.route('/<entity>s')
+def entity_listing(entity):
+    entity_folderpath = os.path.join(PROJECT_ROOT,
+                                     "thing",
+                                     entity)
+    entities = []
+    if os.path.exists(entity_folderpath):
+        results = next(os.walk(entity_folderpath))
+        for filename in results[2]:
+            if not filename.endswith("json"):
+                continue
+            filepath = os.path.join(PROJECT_ROOT,
+                                    'thing',
+                                    entity,
+                                    filename)
+            entities.append(json.load(open(filepath)))
+    return render_template('entity-listing.html',
+                           entity=entity,
+                           entities=entities)
 
 @app.route('/<page>')
 def page_router(page):
