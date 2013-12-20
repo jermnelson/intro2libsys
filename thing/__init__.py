@@ -88,3 +88,12 @@ def generate_adminInfo():
     return {'bf:creationDate': datetime.datetime.utcnow().isoformat(),
             "bf:descriptionConventions": "Using schema.org for descriptive metadata",
             "bf:descriptionLanguage": "English"}
+
+def quick_dump(obj, category, id):
+    json.dump(obj,
+              open(os.path.join(PROJECT_HOME,
+                                category,
+                                '{0}.json'.format(id)),
+                   'wb'),
+              indent=2,
+              sort_keys=True)

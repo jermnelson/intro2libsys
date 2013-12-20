@@ -1,0 +1,30 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/BlogPosting/a-lesson-in-metadata-harvard-bomb-hoax", 
+  "@type": "BlogPosting", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/budish-ryan"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-20T18:54:43.467000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2013, 
+  "datePublished": "2013-12-18", 
+  "headline": "A Lesson in Metadata: Harvard Bomb Hoax", 
+  "keywords": [
+    "United States", 
+    "Massachusetts", 
+    "Anonymity", 
+    "Criminal", 
+    "Identity", 
+    "Privacy"
+  ], 
+  "url": "http://www.dmlp.org/blog/2013/lesson-metadata-harvard-bomb-hoax"
+}

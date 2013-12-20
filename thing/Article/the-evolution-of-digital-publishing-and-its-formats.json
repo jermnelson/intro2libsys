@@ -1,0 +1,31 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/the-evolution-of-digital-publishing-and-its-formats", 
+  "@type": "VideoObject", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/meadows-alice"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-20T19:26:50.565000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2013, 
+  "datePublished": "2013-12-06", 
+  "headline": "The Evolution of Digital Publishing and its Formats", 
+  "keywords": [
+    "ASCII", 
+    "HTML", 
+    "PDF", 
+    "publishing"
+  ], 
+  "publisher": {
+    "@id": "http://intro2libsys.info/Organization/scholarly-kitchen"
+  }, 
+  "url": "http://scholarlykitchen.sspnet.org/2013/12/06/the-evolution-of-digital-publishing-and-its-formats/"
+}

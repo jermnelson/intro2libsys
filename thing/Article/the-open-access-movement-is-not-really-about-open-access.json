@@ -1,0 +1,31 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/the-open-access-movement-is-not-really-about-open-access", 
+  "@type": "ScholarlyArticle", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/beall-jeffrey"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-20T19:17:45.189000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2013, 
+  "headline": "The Open Access Movement is Not Really about Open Access", 
+  "partOfPeriodicalIssue": {
+    "@type": "PeriodicalIssue", 
+    "issueNumber": 2, 
+    "partOfPeriodical": {
+      "@type": "Periodical", 
+      "issn": "1726-670X", 
+      "name": "tripleC - Communication, Capitalism, & Critique"
+    }, 
+    "volumeNumber": 11
+  }, 
+  "url": "http://www.triple-c.at/index.php/tripleC/article/view/525/514"
+}

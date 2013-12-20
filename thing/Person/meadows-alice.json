@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/meadows-alice", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-20T19:27:35.287000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "Meadows", 
+  "givenName": "Alice", 
+  "name": "Alice Meadows", 
+  "url": "http://intro2libsys.info/Person/AliceMeadows"
+}

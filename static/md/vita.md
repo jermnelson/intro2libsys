@@ -1,5 +1,5 @@
-JEREMY NELSON VITA
-==================
+JEREMY PAUL NELSON CURRICULUM VITAE
+===================================
 
 Tutt Library 1021 North Cascade Avenue Colorado College Colorado
 Springs, CO 80903 Office Telephone: (719) 389-6895 Cell Telephone: (719)
@@ -37,17 +37,17 @@ Finance Librarianship, 9(1), 90-93
 
 PRESENTATIONS AND WEBINARS
 --------------------------
-Nelson, J. (October, 2013). Presentation at CALCON 2013
-http://tuttdemo.coloradocollege.edu/calcon-2013-session/
+Nelson, J. (October, 2013). BIBFRAME & RDA. Presentation at CALCON 2013,
+http://tuttdemo.coloradocollege.edu/calcon-2013-session/.
 Loveland, CO
 
-Nelson, J. (September, 2013). Presentation at ADR Metadata Day,
-http://tuttdemo.coloradocollege.edu/metadata-day-2013/
+Nelson, J. (September, 2013). MARC & MODS to BIBFRAME LinkedData. Presentation at ADR Metadata Day,
+http://tuttdemo.coloradocollege.edu/metadata-day-2013/.
 Denver, CO
 
 Nelson, J. (October, 2013). Library Technology Collaboration in 2018. 
-Webinar for CALLI Cohorts.
-http://tuttdemo.coloradocollege.edu/calli-2013-presentation/
+Webinar for CALLI Cohorts,
+http://tuttdemo.coloradocollege.edu/calli-2013-presentation/.
 
 Nelson, J. (June, 2013). Experimenting with BIBFRAME & Redis. Presentation 
 at ALA Annual Bibliographic Framework Forum, 
@@ -65,7 +65,8 @@ Nelson, J. (November, 2012). The Library as a Lean Start-up. University
 of Denver Student ASSIS&T TechBytes Presentation,
 http://intro2libsys.info/techbytes/, Denver, CO
 
-Nelson, J., Driscoll, J. (March, 2012).
+Nelson, J., Driscoll, J. (March, 2012). Presentation at CoALA.
+Denver, CO
 
 Nelson, J. (February, 2012). NoSQL Bibliographic Records: Implementing a
 Native FRBR Datastore with Redis. Presentation at Code4Lib 2012 Annual
@@ -107,8 +108,7 @@ Denver, CO
 
 Bramble, J., Lombardo, N, Craigle, V., Nelson, J., (May, 2005). There is No Time Like The Present:
 Librarians Learning The Digital Language Of The Future. Group
-presentation at the Utah Library Association: Times They Are A
-Changin. 
+presentation at the Utah Library Association: Times They Are A Changin.
 Ogden, UT
 
 OPEN-SOURCE PROJECTS
@@ -122,15 +122,21 @@ Source code at https://github.com/jermnelson/adr-cc-utilities.
 Aristotle Library Apps (May 2012/Present)
 Aristotle Library Apps are HTML5 Django mobile and tablet apps for discovering, 
 accessing, and managing library information. Bibliographic records along with 
-other library and organizational specific informations are linked, stored, and 
+other library and organizational specific   are linked, stored, and 
 managed using Redis and Fedora Commons.
 Wiki at https://github.com/jermnelson/aristotle-library-apps
 Source code at https://github.com/jermnelson/aristotle-library-apps
 
+BIBFRAME Datastore (October 2012/Present)
+BIBFRAME Datastore is a Redis-based project for managing bibliographic records and 
+operational data focused on libraries and other similar information-based organizations.
+Source code is available at https://github.com/jermnelson/BIBFRAME-Datastore, wiki
+available at https://github.com/jermnelson/BIBFRAME-Datastore/wiki
+
 Colorado College Electronic Thesis Dissertation (June 2011/Present)
 The CCETD is a web app that allows senior students at Colorado College self-submit
 their thesis, capstone project, final film, or other media to the Colorado College 
-Digitial Repository. This web app started as a standalone project that first ran under 
+Digital Repository. This web app started as a standalone project that first ran under 
 the Discover Aristotle Discovery Layer but later migrated to run as a web app 
 under the Aristotle Library Apps project and is its functionality is  being considered 
 to migrated to the catalog push platform.
@@ -138,9 +144,35 @@ Source code at https://github.com/jermnelson/ccetd/
 
 Colorado Springs Friends Meeting Website (February 2012/Present)
 Colorado Springs Quaker Monthly Meeting's website, including the Meeting's 
-offical minutes, reports, queries, and friends reformated as Markdown files
+official minutes, reports, queries, and friends reformatted as Markdown files
 for tracking through git. Website is at http://www.coloradospringsquakers.org/.
 Source code at https://github.com/jermnelson/Colorado-Springs-Friends-Meeting-Website/
+
+Discover Aristotle (September 2011/December 2012)
+Aristotle is an Django-based bibliographic Discovery Layer originally forked from the Kochief
+project and access project. Is the active Colorado College Discovery Layer at 
+http://discovery.coloradocollege.edu/. Active development on this project has ceased although
+maintenance is ongoing. Source code is available at https://github.com/jermnelson/Discover-Aristotle
+
+Flask-FedoraCommons (November 2013/Present)
+Flask-FedoraCommons is an extension to Flask that provides an interface to the 
+open-source Fedora Commons digital repository. Certain modules from the Eulfedora 
+project were forked and included as libraries in this extension. Source code is hosted 
+on github at https://github.com/jermnelson/flask-fedora-commons and documentation 
+including installing and using is available at http://pythonhosted.org//Flask-FedoraCommons.
+
+Flask-Solr (November 2013/Present)
+Flask-Solr is a Flask extension that provides helper functions for indexing documents 
+into an Apache Solr search server.
+This source code for this project is on github at https://github.com/jermnelson/flask-solr.
+
+FRBR-Redis Datastore (November 2011/April 2012)
+The frbr-redis-datastore project is a proof-of-concept native NoSQL 
+bibiliographic datastore that interoperates with Library of Congress's MARC 
+MODS, VRA Core, CIDOC CRM, RDA Vocabularies, and others into native Redis 
+keys-values structured as FRBR, FRBRoo and FRAD entities. This project also includes
+a bottle application for the 2012 Code4Lib presentation in Seattle, WA. Source code is
+available at https://github.com/jermnelson/FRBR-Redis-Datastore
 
 HONORS AND AWARDS
 -----------------
@@ -168,7 +200,7 @@ Member, ADR Services Committee, Colorado Alliance of Research Libraries,
 Member, ITAL Committee, Colorado College, 
 2010/2013
 
-Member, Web Admin Search Comittee, 2012 
+Member, Web Admin Search Committee, 2012 
 
 Chair, Discovery Systems Working Group, Colorado College, 
 2010/2012 
@@ -184,7 +216,6 @@ Member, Academic Faculty Senate, Western State College, 2006/2009
 Member, Curriculum Committee, Western State College, 2009/2010
 
 ### Continuing Education
-
 Graduate, Colorado Association of Libraries Leadership Institute, 2012-2013.
 
 Data Curation Profiles Workshop, CARL and Colorado State University,
@@ -235,7 +266,7 @@ groups. Direct supervisor of three full-time staff. Created new web
 service record normalization of MARC records from database vendors which
 significantly reduced the time and errors of formal manual process for
 cataloging department. Lead the development and release of a new
-open-source Discovery layer for the library’s ILS with direct
+open-source Discovery layer for the library's ILS with direct
 integration with college’s digital repository and other third-party
 services. Lead research and developer of the FRBR-Redis Datastore with
 end-user mobile and tablet library discovery, access, and productivity
@@ -245,7 +276,7 @@ and weekends. Colorado Springs, CO
 
 2006/2010 Leslie J. Savage Library, Western State College: Electronic
 Services/Government Documents/Periodicals Librarian. Responsible for
-\$120k electronic database and \$40k print periodical budgets. Managed
+$120k electronic database and \$40k print periodical budgets. Managed
 Federal Document depository program at Western State College.
 Responsible for library website. Lead for library projects including
 chat reference, federated searching, eLibrary. Worked 9-15 hours a week
@@ -276,15 +307,15 @@ introducing library systems. This website includes
 presentations, and badge assessments on various historical and current
 while also offering the following professional services:
 
-*  Coaching and consulting on extending library resources into the larger
-   linked data ecosystem using AJAX, REST API, NoSQL, and semantic web 
-   systems.
+*   Coaching and consulting on extending library resources into the larger
+    linked data ecosystem using AJAX, REST API, NoSQL, and semantic web 
+    systems.
 
-*  Software development and support for custom web apps developed to support
-   internal and public linked-data, bibligraphic and digital archives using
-   including but limited to the following Python, Flask, Django, Redis, Bootstrap,
-   Knockoutjs, Redis, Solr, MySQL, Fedora Commons, MongoDB, all running on 
-   Ubuntu virtual machines on both public and private clouds. 
+*   Software development and support for custom web apps developed to support
+    internal and public linked-data, bibliographic and digital archives using
+    including but limited to the following Python, Flask, Django, Redis, Bootstrap,
+    Knockoutjs, Redis, Solr, MySQL, Fedora Commons, MongoDB, all running on 
+    Ubuntu virtual machines on both public and private clouds. 
 
 
 2009/2012 Tomichi Informatics LLC: Founder/Primary Principal. Primary

@@ -1,0 +1,31 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/principles-of-transparency-and-best-practice-in-scholarly-publishing", 
+  "@type": "Article", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/redhead-claire"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-20T18:42:54.985000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2013, 
+  "datePublished": "2013-12-19", 
+  "headline": "Principles of Transparency and Best Practice in Scholarly Publishing", 
+  "keywords": [
+    "open access", 
+    "transparency", 
+    "best practices", 
+    "scholarly publishing"
+  ], 
+  "publisher": {
+    "@id": "http://intro2libsys.info/Organization/oaspa.json"
+  }, 
+  "url": "http://oaspa.org/principles-of-transparency-and-best-practice-in-scholarly-publishing/"
+}

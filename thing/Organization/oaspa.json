@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Organization/open-access-scholarly-publishers-association", 
+  "@type": "NGO", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-20T18:45:19.614000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "name": "Open Access Scholarly Publishers Association", 
+  "url": "http://oaspa.org/"
+}

@@ -1,0 +1,25 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/BlogPosting/to-market-we-go", 
+  "@type": "BlogPosting", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/covitz-akiba"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-20T19:06:48.626000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2013, 
+  "datePublished": "2013-12-13", 
+  "headline": "To Market We Go", 
+  "keywords": [
+    "MOOCs"
+  ], 
+  "url": "http://www.insidehighered.com/blogs/higher-ed-beta/market-we-go-1"
+}

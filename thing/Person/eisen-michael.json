@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/eisen-michael", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-20T19:12:19.816000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "Eisen", 
+  "givenName": "Michael", 
+  "name": "Michael Eisen", 
+  "url": "http://intro2libsys.info/Person/MichaelEisen"
+}
