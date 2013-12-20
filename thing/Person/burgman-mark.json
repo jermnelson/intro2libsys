@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/burgman-mark", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-19T19:32:14.285000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "Burgman", 
+  "givenName": "Mark", 
+  "name": "Mark A. Burgman", 
+  "url": "http://intro2libsys.info/Person/MarkBurgman"
+}

@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/budiu-raluca", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-19T19:55:04.610000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "Budiu", 
+  "givenName": "Raluca", 
+  "name": "Raluca Budiu", 
+  "url": "http://intro2libsys.info/Person/RalucaBudiu"
+}

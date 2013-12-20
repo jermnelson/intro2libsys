@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/sutherland-william", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-19T19:30:12.612000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "Sutherland", 
+  "givenName": "William", 
+  "name": "William J. Sutherland", 
+  "url": "http://intro2libsys.info/Person/WilliamSutherland"
+}

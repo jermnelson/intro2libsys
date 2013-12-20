@@ -1,0 +1,25 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/librarians-face-existential-crisis", 
+  "@type": "Article", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/sternstein-aliya"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-19T18:40:52.630000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2005, 
+  "datePublished": "2005-04-15", 
+  "headline": "Librarians face existential crisis", 
+  "publisher": {
+     "@id": "http://intro2libsys.info/Organization/fcw"
+  },
+  "url": "http://fcw.com/articles/2005/04/15/librarians-face-existential-crisis.aspx"
+}

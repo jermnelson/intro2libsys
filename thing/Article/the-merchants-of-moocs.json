@@ -1,0 +1,27 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/the-merchants-of-moocs", 
+  "@type": "ScholarlyArticle", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/grimmelmann-james"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-19T19:09:38.107000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2013, 
+  "headline": "The Merchants of MOOCs", 
+  "keywords": [
+    "MOOCs", 
+    "higher education", 
+    "online education"
+  ], 
+  "publishedDate": "2013-11-21", 
+  "url": "http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2358253"
+}

@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/BlogPosting/ebooks-and-the-existential-crises-of-libraries", 
+  "@type": "BlogPosting", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/williams-mita"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-19T19:04:17.526000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2011, 
+  "datePublished": "2011-03-12", 
+  "headline": "Ebooks and the existential crises of libraries", 
+  "url": "http://librarian.newjackalmanac.ca/2011/03/ebooks-and-existential-crises-of.html"
+}

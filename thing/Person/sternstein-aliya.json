@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/sternstein-aliya", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-19T18:43:31.327000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "Sternstein", 
+  "givenName": "Aliya", 
+  "name": "Aliya Sternstein", 
+  "url": "http://intro2libsys.info/Person/AliyaSternstein"
+}
