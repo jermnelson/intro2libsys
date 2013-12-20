@@ -45,7 +45,7 @@ def add_person(info,
                            filename.strip())),
               'wb') as json_file:
         json.dump(info, json_file, indent=2, sort_keys=True)
-    print("Finished adding {0}".format(filename))
+    print("Finished adding {0}".format(info['@id']))
 
 def add_organization(info,
                      file_location=PROJECT_HOME):
