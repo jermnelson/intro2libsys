@@ -4,7 +4,7 @@
   "bf": "http://bibframe.org/"
  },
   "@type": "Book",
-  "@id": "/Resources/toyota-way",
+  "@id": "http://intro2libsys/Book/toyota-way",
   "author": [{
    "@id": "http://intro2libsys.info/Person/liker-jeffrey"
   }],

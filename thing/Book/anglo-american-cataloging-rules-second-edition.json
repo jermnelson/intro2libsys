@@ -2,12 +2,12 @@
   "@context": {
     "@vocab": "http://schema.org/", 
     "bf": "http://bibframe.org/vocab"
-  }, 
+  },
+  "@id": "http://intro2libsys.info/Book/anglo-american-cataloging-rules-second-edition", 
   "@type": "Book", 
   "copyrightYear": 2005, 
   "datePublished": "2005-07-31", 
   "headline": "Anglo-American Cataloging Rules Second Edition 2002 Revision", 
-  "name": "anglo-american-cataloging-rules-second-edition", 
   "publisher": {
     "@type": "Organization", 
     "address": {

@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/Person/carr-nicholas", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-21T22:39:00.245744", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "Carr", 
+  "givenName": "Nicholas", 
+  "idloc:url": "http://id.loc.gov/authorities/names/n00102292", 
+  "url": "http://intro2libsys.info/Person/NicholasCarr"
+}

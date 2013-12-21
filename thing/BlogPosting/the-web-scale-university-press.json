@@ -28,7 +28,6 @@
     "SMS", 
     "Twitter"
   ], 
-  "name": "the-web-scale-university-press", 
   "publisher": {
     "@id": "http://intro2libsys.info/Organization/scholarly-kitchen"
   }, 

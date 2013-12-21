@@ -13,7 +13,7 @@
  "keywords": ["New business enterprises", 
               "Consumers' preferences",
               "Organizational effectiveness"], 
- "name": "The Lean Startup",
+ "headline": "The Lean Startup",
  "publisher": {
    "@id": "http://intro2libsys.info/Organization/crown-business"
  },

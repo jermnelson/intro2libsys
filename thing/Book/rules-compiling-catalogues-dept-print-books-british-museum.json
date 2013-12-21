@@ -1,6 +1,6 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
+    "@vocab": "http://schema.org/" 
   }, 
   "@id": "http://intro2libsys.info/Book/rules-compiling-catalogues-dept-print-books-british-museum", 
   "@type": "Book", 
@@ -10,6 +10,6 @@
     }
   ], 
   "bookFormat": "Hardcover", 
-  "name": "Rules for compiling the catalogues in the Department of Printed Books in the British Museum: Printed by order of the Trustees", 
+  "headline": "Rules for compiling the catalogues in the Department of Printed Books in the British Museum: Printed by order of the Trustees", 
   "url": "http://books.google.com/books?id=PIYLAQAAIAAJ"
 }

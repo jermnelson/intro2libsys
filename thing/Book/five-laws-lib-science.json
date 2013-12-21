@@ -3,16 +3,14 @@
     "@vocab": "http://schema.org/", 
     "idloc": "http://id.loc.gov"
   }, 
-  "@id": "http://intro2libsys.info/resource/17", 
+  "@id": "http://intro2libsys.info/Book/laws-of-library-science", 
   "@type": "Book", 
   "authors": [
     {
-      "familyName": "Ranganathan", 
-      "givenName": "Shiyali", 
-      "idloc:url": "http://id.loc.gov/authorities/names/n50053919"
+      "@id": "http://intro2libsys.info/Person/ranganathan-shiyali"      
     }
   ], 
   "bookFormat": "EBook", 
-  "name": "The Five Laws of Library Science ", 
+  "headline": "The Five Laws of Library Science", 
   "url": "http://home.ubalt.edu/nicole.kerber/idia642/Final_Usability_Report.pdf"
 }

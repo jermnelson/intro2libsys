@@ -13,7 +13,6 @@
   }],
  "copyrightYear": 1966,
  "headline": "Scientific Management of Library Operations",
- "name": "Scientific Management of Library Operations",
  "publisher" : {
    "@id": "http://intro2libsys.info/Organization/scarecrow-press"
  },

@@ -1,11 +1,10 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "idloc": "http://id.loc.gov"
+    "@vocab": "http://schema.org/" 
   }, 
-  "@id": "http://intro2libsys.info/resource/18", 
+  "@id": "http://intro2libsys.info/Book/frbr-final-report", 
   "@type": "http://schema.org/Book", 
   "bookFormat": "EBook", 
-  "name": "Functional Requirements for Bibliographic Records Final Report", 
+  "headline": "Functional Requirements for Bibliographic Records Final Report", 
   "url": "http://archive.ifla.org/VII/s13/frbr/frbr.pdf"
 }

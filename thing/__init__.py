@@ -1,9 +1,8 @@
 import datetime
 import json
 import os
+import re
 
-def slugify():
-    return ""
 
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 PROJECT_HOME = os.path.split(PROJECT_ROOT)[0]
@@ -18,6 +17,15 @@ THINGS = { 'Article': [],
            'SoftwareApplication': [],
            'WebPage': []}
 
+
+def slugify(value):
+    """
+    Converts to lowercase, removes non-word characters (alphanumerics and
+    underscores) and converts spaces to hyphens. Also strips leading and
+    trailing whitespace.
+    """
+    value = re.sub('[^\w\s-]', '', value).strip().lower()
+    return re.sub('[-\s]+', '-', value)
 
 def add_entity(info,
                file_location=PROJECT_HOME):

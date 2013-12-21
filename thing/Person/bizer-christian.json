@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/Person/bizer-christian", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-21T22:51:08.530833", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "Bizer", 
+  "givenName": "Christian", 
+  "idloc:url": "http://id.loc.gov/authorities/names/no2011070118", 
+  "url": "http://intro2libsys.info/Person/ChristianBizer"
+}

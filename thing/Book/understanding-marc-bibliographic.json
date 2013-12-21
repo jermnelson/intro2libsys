@@ -3,6 +3,7 @@
     "@vocab": "http://schema.org/", 
     "bf": "http://bibframe.org/vocab"
   }, 
+  "@id": "http://intro2libsys.info/Book/
   "@type": "Book",
   "bf:adminInfo": {
     "bf:changeDate": "2013-12-06T20:54:25.317000Z",
@@ -23,7 +24,6 @@
   }], 
   "copyrightYear": 2009, 
   "headline": "Understanding MARC Bibliographic: Machine-Readable Cataloging", 
-  "name": "understanding-marc-bibliographic", 
   "publisher": {
     "@type": "GovernmentOrganization", 
     "address": {

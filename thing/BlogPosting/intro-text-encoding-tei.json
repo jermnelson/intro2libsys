@@ -5,6 +5,6 @@
   }, 
   "@id": "http://intro2libsys.info/resource/40", 
   "@type": "BlogPosting", 
-  "name": "Introduction to Text Encoding and the TEI", 
+  "headline": "Introduction to Text Encoding and the TEI", 
   "url": "http://tbe.kantl.be/TBE/modules/TBED00v00.htm"
 }

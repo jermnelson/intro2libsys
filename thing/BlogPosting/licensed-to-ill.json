@@ -7,11 +7,9 @@
   "@type": "BlogPosting", 
   "authors": [
     {
-      "familyName": "Carr", 
-      "givenName": "Nicholas", 
-      "idloc:url": "http://id.loc.gov/authorities/names/n00102292"
+     "@id": "http://intro2libsys.info/Person/carr-nicholas"
     }
   ], 
-  "name": "Licensed to ILL", 
+  "headline": "Licensed to ILL", 
   "url": "http://www.roughtype.com/?p=1795"
 }
