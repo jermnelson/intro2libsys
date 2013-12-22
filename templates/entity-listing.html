@@ -10,7 +10,7 @@
    <h1>All {{ entity }}</h1> 
    <ol>
    {% for row in entities %}
-   <li>{{ row['name'] }} - {{ row['@id'] }} </li>  
+   <li><a href="{{ row['@id'] }}">{{ row['headline'] }}</a> - {{ row['@id'] }}</p></li>  
  
    {% endfor %}
    </ol>
