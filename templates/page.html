@@ -1,0 +1,39 @@
+{% extends 'topic-base.html' %}
+
+{% block title %}Topic Page{% endblock %}
+
+
+{% block main-content %}
+<div class="row-fluid">
+ <div class="span12">
+  <h3>Introduction to Library Systems</h3>
+  <h1>{{ topic.name }}</h1>
+ </div>
+</div>
+<div class="row-fluid">
+ <div class="span12">
+{% autoescape off %}
+  {{ content }}
+{% endautoescape off %}
+ </div>
+</div>
+<hr>
+{# START Topic Navigation #}
+<div class="row-fluid">
+ <div class="span6 offset3">
+  <div class="btn-group">
+   <a class="btn" href="{{ previous }}"><i class="icon-circle-arrow-left"></i> Previous</a>
+   <a class="btn" href="#" data-bind="click: pageQuiz"><i class="icon-lightbulb"></i> Quiz</a> 
+   <a class="btn" href="{{ next }}">Next <i class="icon-circle-arrow-right"></i></a>
+  </div>
+ </div>
+{# END Topic Navigation #}
+</div> 
+
+{% endblock %}
+
+{% block more-js %}
+<script>
+ko.applyBindings(new {{ topic.view_model }}());
+</script>
+{% endblock %}

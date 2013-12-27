@@ -1,0 +1,149 @@
+{% load i18n %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Introduction to Library Systems Special Topic -- {% block title %}{% endblock %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Special Topic">
+    <meta name="author" content="Jeremy Nelson">
+
+    <!-- Le styles -->
+    <link href="{{ STATIC_URL }}css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ STATIC_URL }}css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    
+    
+    {% block more-css %}
+    {% endblock %}
+    <style type="text/css">
+      body {
+        padding-top: 20px;
+        padding-bottom: 40px;
+      }
+
+      /* Custom container */
+      .container-narrow {
+        margin: 0 auto;
+        max-width: 700px;
+      }
+      .container-narrow > hr {
+        margin: 30px 0;
+      }
+
+      /* Main marketing message and sign up button */
+      .jumbotron {
+        margin: 60px 0;
+        text-align: center;
+      }
+      .jumbotron h1 {
+        font-size: 72px;
+        line-height: 1;
+      }
+      .jumbotron .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+      }
+
+      /* Supporting marketing content */
+      .marketing {
+        margin: 60px 0;
+      }
+      .marketing p + h4 {
+        margin-top: 28px;
+      }
+    </style>
+    <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="shortcut icon" href="../assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+  </head>
+  <body>
+  <div class="container-narrow">
+  {% block masthead %}
+      <div class="masthead">
+        <ul class="nav nav-pills pull-right">
+          <li {% if section == 'home' %}class="active"{% endif %}><a href="/topics/">Home</a></li>
+          <li class="dropdown{% if section == 'presentation' %} active{% endif %}">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Topics</a>
+            <ul class="dropdown-menu" role="menu">
+             {% for row in topics %}
+               {% for key, value in row.iteritems %}
+               <li><a href="/topics/{{ key }}">{{ value.name }}</a></li>
+               {% endfor %}
+             {% endfor %}
+            </ul>
+          </li>
+          <li class="dropdown{% if section == 'addendum' %} active{% endif %}">
+           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Addendum</a>
+           <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Help</a></li>
+			{% comment %}
+            <li><a href="{% url techbytes.views.task_summary %}">Task Summary</a></li>
+            <li><a href="{% url techbytes.views.manager_summary %}">Managerial Summary</a></li>
+            <li><a href="{% url techbytes.views.leader_summary %}">Leadership Summary</a></li>
+			{% endcomment %}
+           </ul>
+          </li>
+        </ul>
+        <h3 class="muted"><img src="{{ STATIC_URL }}img/du_logo.gif" /><br/> Special Topic</h3>
+      </div>	  
+  {% endblock %}
+  <hr />
+  {% block main-content %}
+  {% endblock %}
+  <hr />
+  {% block support-content %}
+  {% endblock %}
+  <hr />
+  <div class="row-fluid marketing">
+    <div class="span12 jumbotron">
+    <h1>{% if next_slide_title %}{{ next_slide_title }}{% else %}{% endif %}</h1>
+    {% block next-slide %}
+    {% endblock %}
+    </div>
+  </div>
+  <hr /> 
+  {% block footer %}
+   <div class="footer">
+     <p>&copy; Jeremy Nelson 2013</p>
+	 <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Introduction to Library Systems</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.intro2libys.info/techbytes/" property="cc:attributionName" rel="cc:attributionURL">Jeremy Nelson</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
+   </div>
+ {% endblock %}
+  
+  
+  </div> <!-- /container -->
+        
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="{{ STATIC_URL }}js/jquery.js"></script>
+    <script src="{{ STATIC_URL }}js/bootstrap-transition.js"></script>
+    <script src="{{ STATIC_URL }}js/bootstrap-alert.js"></script>
+    <script src="{{ STATIC_URL }}js/bootstrap-modal.js"></script>
+    <script src="{{ STATIC_URL }}js/bootstrap-dropdown.js"></script>
+    <script src="{{ STATIC_URL }}js/bootstrap-scrollspy.js"></script>
+    <script src="{{ STATIC_URL }}js/bootstrap-tab.js"></script>
+    <script src="{{ STATIC_URL }}js/bootstrap-tooltip.js"></script>
+    <script src="{{ STATIC_URL }}js/bootstrap-popover.js"></script>
+    <script src="{{ STATIC_URL }}js/bootstrap-button.js"></script>
+    <script src="{{ STATIC_URL }}js/bootstrap-collapse.js"></script>
+    <script src="{{ STATIC_URL }}js/bootstrap-carousel.js"></script>
+    <script src="{{ STATIC_URL }}js/bootstrap-typeahead.js"></script>
+    <script src="{{ STATIC_URL }}js/knockout.js"></script>
+    <script src="{{ STATIC_URL }}js/topics.js"></script>
+    {% block more-js %}{% endblock %}
+    {% block dialogs %}{% endblock %}  
+  </body>
+</html>
+  

@@ -1,0 +1,19 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "pages": null
+  }, 
+  "@id": "http://www.intro2libsys.info/topics/lean-startup", 
+  "@type": "Article", 
+  "name": "The Library as a Lean Startup ", 
+  "pages": [
+    "what-is", 
+    "method", 
+    "validated-learning", 
+    "build-measure-learn", 
+    "innovation-accounting", 
+    "cohort-testing", 
+    "pivot"
+  ], 
+  "url": "http://www.intro2libsys.info/topics/lean-startup"
+}

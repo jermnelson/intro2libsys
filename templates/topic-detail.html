@@ -1,0 +1,70 @@
+{% extends 'topic-base.html' %}
+
+{% load topic_extras %}
+
+{% block title %}Topic Page{% endblock %}
+
+
+{% block main-content %}
+<div class="row-fluid">
+ <div class="span12 jumbotron">
+  <h2>Introduction to Library Systems</h2>
+  <h1>{{ topic.name }}</h2>
+ </div>
+</div>
+<div class="row-fluid">
+ <div class="span3 well well-small">
+  <h3>Pages</h3>
+   <ol>
+   {% for page_name in topic.pages %}
+    <li><a href="/topics/{{ key_name }}/{{ page_name }}">{{ page_name }}</a></li>
+   {% endfor %}
+   </ol>
+ </div>
+ <div class="span9">
+  <h3>Badges</h3>
+  <div class="row-fluid">
+  {# START Badge #}
+   <div class="span5"> 
+    <div class="alert alert-info">
+      <a href="#" data-bind="click: topicQuiz" class="btn btn-info">Knowledge <i class="icon-info-sign"></i></a>
+      <p>
+       Take an online quiz to earn your <a href="http://openbadges.org/"><b>OpenBadge</b></a> 
+       for <em>{{ topic.name }}</em>.
+      </p>
+    </div>
+  {# END of Learner Badge #}
+  </div>
+  {% if developer_badge %}
+  {# START Developer Badge #}
+  <div class="span4">
+    <div class="alert">
+      <a href="#" onclick="alert('TBD')" class="btn btn-success">Developer Badge <i class="icon-wrench"></i></a>
+      <p>
+       Complete these programming exercises to earn your Developer 
+       <a href="http://openbadges.org/">OpenBadge</a> for <em>{{ topic.name }}</em>.
+      </p>
+    </div>
+  {# END Developer Badge #} 
+   </div>
+  {% endif %}
+  </div>
+ </div>
+</div>
+<div class="row-fluid">
+ <div class="span8">
+  <h3>Readings</h3>
+  <ul>
+  {% for reading in topic.readings %}
+   <li>{{ reading|get_resource }}</li>
+  {% endfor %}
+  </ul>
+ </div>
+</div>
+{% endblock %}
+
+{% block more-js %}
+<script>
+ko.applyBindings(new {{ topic.view_model }}());
+</script>
+{% endblock %}

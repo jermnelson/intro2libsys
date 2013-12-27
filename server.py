@@ -15,6 +15,30 @@ PROJECT_HOME = os.path.split(PROJECT_ROOT)[0]
 
 app = Flask(__name__)
 
+TOPIC_MAPS, TOPICS = [], {}
+topic_maps_location = os.path.join(PROJECT_HOME,
+                                   "intro2libsys",
+                                   "topics",
+                                   "topic-maps.json")
+topic_maps = json.load(open(topic_maps_location))
+topic_walker = os.walk(os.path.join(PROJECT_HOME,
+                                    "intro2libsys",
+                                    "topics"))
+results = next(topic_walker)
+for dir_name in results[1]:
+    if not dir_name.startswith("template") and not dir_name.startswith("assets"):
+        topic = json.load(open(os.path.join(PROJECT_HOME,
+                                            "intro2libsys",
+                                            "topics", 
+                                            dir_name, 
+                                            "{0}.json".format(dir_name))))
+        TOPICS[dir_name] = topic
+for topic_map in topic_maps.get('maps'):
+    output = {'name': topic_map.get('jtm:name'), 'topics':[]}
+    for topic_id in topic_map.get('jtm:topics'):
+        output.get('topics').append(TOPICS[topic_id])
+    TOPIC_MAPS.append(output)
+
 
 @app.route("/<entity>/<name>.json")
 def entity_json_view(entity,
@@ -56,6 +80,14 @@ def topics():
                            page='topics',
                            topics={})
 
+@app.route("/topics/<topic>")
+def display_topic(topic):
+    "Individual topic view"
+    if not topic in TOPICS:
+        return "{0} not found".format(topic)
+    return render_template('topic.html',
+                           topic=TOPICS.get(topic))
+
 @app.route('/<entity>s')
 def entity_listing(entity):
     entity_folderpath = os.path.join(PROJECT_ROOT,
@@ -83,7 +115,8 @@ def page_router(page):
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('index.html',
+                           topics=TOPICS)
 
 
 if __name__ == '__main__':

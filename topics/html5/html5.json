@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "pages": null,
+    "readings": null
+  }, 
+  "@id": "http://intro2libsys.info/topics/html5", 
+  "@type": "Article", 
+  "dateCreated": "2013-03-19T02:17:37.768895", 
+  "name": "HTML5 for Librarians", 
+  "pages": [
+    "history-html"
+  ], 
+  "readings": [
+   "data-monday-impact-responsive-design",
+   "improving-ux-through-front-end-performance", 
+   "slow-web",
+   "the-web-on-mobile-and-beyond"
+  ],
+  "url": "http://intro2libsys.info/topics/html5"
+}

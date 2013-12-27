@@ -15,13 +15,20 @@
     <div class="collapse navbar-collapse" id="intro2libsys-navbar">
     <ul class="nav navbar-nav">
       <li {% if page == 'about' %}class="active"{% endif %}><a href="/about">About</a></li>
-      <li {% if page == 'topics' %}class="active"{% endif %}>
-        <a href="{{ url_for('topics') }}">Topics</a>
+      <li class="dropdown{% if page == 'topics' %} active{% endif %}">
+        <a href="{{ url_for('topics') }}" class="dropdown-toggle" data-toggle="dropdown">
+          Topics <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+        {% for topic in topics %}
+         <li><a href="#">{{ topic }}</a></li>
+        {% endfor %}
+        </ul> 
       </li>
       <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
          Resources <b class="caret"></b></a>
         <ul class="dropdown-menu">
+         <li class="dropdown-header">Citations</li>
          <li><a href="{{ url_for('entity_listing', entity='Article') }}">Articles</a></li> 
          <li><a href="{{ url_for('entity_listing', entity='BlogPosting') }}">Blog Postings</a></li> 
          <li><a href="{{ url_for('entity_listing', entity='Book') }}">Books</a></li> 
@@ -30,9 +37,22 @@
          <li><a href="{{ url_for('entity_listing', entity='Person') }}">People</a></li> 
          <li><a href="{{ url_for('entity_listing', entity='SoftwareApplication') }}">Software Applications</a></li> 
          <li><a href="{{ url_for('entity_listing', entity='WebPage') }}">Web Pages</a></li> 
+         <li class="dropdown-header">IPython Notebooks</li>
+         
         </ul>
       </li>
-      <li><a href="#">Presentations</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+         Presentations <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+         <li class="dropdown-header">2014</li>
+         <li><a href="/lita-webinar-2013">LITA Linked Data Webinar, January 16th 2014</a></li>
+         <li class="dropdown-header">2013</li>
+         <li><a href="/code4lib">
+             Code4Lib Presentation, February 2013</a></li>
+         <li><a href="/ala2013">ALA 2013 Presentation, June 30th, 2013</a></li>
+        </ul>
+      </li>
       <li><a href="#">Assessments</a></li>
     </ul>
     <form class="navbar-form navbar-left" role="search">

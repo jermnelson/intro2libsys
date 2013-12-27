@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "pages": null,
+    "readings": null
+  },
+ "@id": "http://www.intro2libsys.info/topics/future-scenarios",
+ "@type": "Article",
+ "about": "An examination of future scenarios of libraries and library systems",
+ "name": "Future Scenarios for Libraries and Library Systems",
+ "pages":  [],
+ "readings": [
+   "why-google-isnt-making-us-stupid-or-smart" 
+ ],
+ "url":  "http://www.intro2libsys.info/topics/future-scenarios"
+}   

@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "pages": null
+  }, 
+  "@id": "http://intro2libsys.info/topics/mods", 
+  "@type": "Article", 
+  "dateCreated": "2013-03-19T03:40:36.804115", 
+  "name": "Metadata Object Description Schema (MODS)", 
+  "pages": [
+    "what-is", 
+    "example"
+  ], 
+  "url": "http://intro2libsys.info/topics/mods"
+}
