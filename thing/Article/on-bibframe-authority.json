@@ -3,13 +3,11 @@
     "@vocab": "http://schema.org/", 
     "bf": "http://bibframe.org/vocab"
   }, 
+  "@id": "http://intro2libsys.info/Article/on-bibframe-authority",
   "@type": "Article", 
   "author": [
     {
-      "@type": "Person", 
-      "familyName": "Ford", 
-      "givenName": "Kevin", 
-      "name": "Kevin Ford"
+      "@id": "http://intro2libsys.info/Person/ford-kevin" 
     }
   ], 
   "copyrightYear": 2013, 

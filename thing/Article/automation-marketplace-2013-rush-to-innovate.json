@@ -1,9 +1,8 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "idloc": "http://id.loc.gov"
+    "@vocab": "http://schema.org/" 
   }, 
-  "@id": "http://intro2libsys.info/resources/automation-marketplace-2013-rush-to-innovate", 
+  "@id": "http://intro2libsys.info/Article/automation-marketplace-2013-rush-to-innovate", 
   "@type": "TechArticle", 
   "author": [
     {

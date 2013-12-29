@@ -7,17 +7,12 @@
   "@type": "ScholarlyArticle", 
   "author": [
     {
-      "@type": "Person", 
-      "bf:authorizedAccessPoint": "Summers, Ed", 
-      "familyName": "Summers", 
-      "givenName": "Ed", 
-      "name": "Ed Summers"
+      "@id": "http://intro2libsys.info/Person/summers-ed", 
+      "bf:authorizedAccessPoint": "Summers, Ed" 
     }, 
     {
-      "@type": "Person", 
-      "bf:authorizedAccessPoint": "Salo, Dorothea", 
-      "familyName": "Salo", 
-      "givenName": "Dorothea"
+      "@id": "http://intro2libsys.info/Person/salo-dorothea", 
+      "bf:authorizedAccessPoint": "Salo, Dorothea" 
     }
   ], 
   "bf:adminInfo": {

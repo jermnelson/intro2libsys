@@ -1,3 +1,5 @@
+Title: What is Agile Development?
+
 Technology is complex and can fail spectacularly or present subtle errors with
 bizarre side effects. By being transparent along with an adaptable approach to problems, library
 systems can be unified with the larger purpose and goals of the library. The Agile Software Development 

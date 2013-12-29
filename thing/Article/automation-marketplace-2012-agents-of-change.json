@@ -3,7 +3,7 @@
     "@vocab": "http://schema.org/",
 	"bf": "http://bibframe.org/vocab/"
   }, 
-  "@id": "http://intro2libsys.info/resources/automation-marketplace-2012-agents-of-change", 
+  "@id": "http://intro2libsys.info/Article/automation-marketplace-2012-agents-of-change", 
   "@type": "TechArticle", 
   "author": [
     {

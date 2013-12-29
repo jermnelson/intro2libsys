@@ -39,7 +39,7 @@
      <span class="glyphicon glyphicon-link"></span>
     </a>
    {% endif %}
-    <a href="#" class="btn btn-default">
+    <a href="{{ request.path }}.json" class="btn btn-default">
       <img src="{{ url_for('static', filename='img/json-ld-data-24.png') }}">
     </a>
    </div>
@@ -78,6 +78,9 @@
      &copy; <span itemprop="copyrightYear">
      {{ entity.copyrightYear }}</span>
     {% endif %} 
+    {% if entity.url %}
+     URL is <a href="{{ entity.url }}">{{ entity.url }}</a>
+    {% endif %}
     </p>
     {% if entity.datePublished %}
     <p>{{ entity }}</p>

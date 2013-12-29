@@ -1,4 +1,3 @@
-{% load i18n %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -15,7 +14,7 @@
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     
     
-    {% block more-css %}
+    {% block more_css %}
     {% endblock %}
     <style type="text/css">
       body {
@@ -88,28 +87,27 @@
            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Addendum</a>
            <ul class="dropdown-menu" role="menu">
             <li><a href="#">Help</a></li>
-			{% comment %}
+            {#
             <li><a href="{% url techbytes.views.task_summary %}">Task Summary</a></li>
             <li><a href="{% url techbytes.views.manager_summary %}">Managerial Summary</a></li>
             <li><a href="{% url techbytes.views.leader_summary %}">Leadership Summary</a></li>
-			{% endcomment %}
-           </ul>
+          #} </ul>
           </li>
         </ul>
         <h3 class="muted"><img src="{{ STATIC_URL }}img/du_logo.gif" /><br/> Special Topic</h3>
       </div>	  
   {% endblock %}
   <hr />
-  {% block main-content %}
+  {% block main_content %}
   {% endblock %}
   <hr />
-  {% block support-content %}
+  {% block support_content %}
   {% endblock %}
   <hr />
   <div class="row-fluid marketing">
     <div class="span12 jumbotron">
     <h1>{% if next_slide_title %}{{ next_slide_title }}{% else %}{% endif %}</h1>
-    {% block next-slide %}
+    {% block next_slide %}
     {% endblock %}
     </div>
   </div>
@@ -142,7 +140,7 @@
     <script src="{{ STATIC_URL }}js/bootstrap-typeahead.js"></script>
     <script src="{{ STATIC_URL }}js/knockout.js"></script>
     <script src="{{ STATIC_URL }}js/topics.js"></script>
-    {% block more-js %}{% endblock %}
+    {% block more_js %}{% endblock %}
     {% block dialogs %}{% endblock %}  
   </body>
 </html>

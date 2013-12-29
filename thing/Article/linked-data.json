@@ -7,10 +7,7 @@
   "@type": "TechArticle", 
   "author": [
     {
-      "@type": "Person",
-      "familyName": "Berners-Lee", 
-      "givenName": "Tim", 
-      "idloc:url": "http://id.loc.gov/authorities/names/no99010609"
+      "@id": "http://intro2libsys.info/Person/berners-lee-tim"
     }
   ], 
   "datePublished": "2006-07-27",

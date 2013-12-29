@@ -19,8 +19,8 @@
         <a href="{{ url_for('topics') }}" class="dropdown-toggle" data-toggle="dropdown">
           Topics <b class="caret"></b></a>
         <ul class="dropdown-menu">
-        {% for topic in topics %}
-         <li><a href="#">{{ topic }}</a></li>
+        {% for topic in topics|dictsort %}
+         <li><a href="/topics/{{ topic[0] }}">{{ topic[1].headline }}</a></li>
         {% endfor %}
         </ul> 
       </li>

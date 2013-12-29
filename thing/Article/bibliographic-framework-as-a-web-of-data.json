@@ -3,6 +3,7 @@
     "@vocab": "http://schema.org/", 
     "bf": "http://bibframe.org/vocab"
   }, 
+  "@id": "http://intro2libsys.info/Article/bibliographic-framework-as-a-web-of-data",
   "@type": "Article", 
   "bf:Class": "Article", 
   "copyrightYear": 2012, 

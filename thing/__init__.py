@@ -2,22 +2,42 @@ import datetime
 import json
 import os
 import re
+import sys
 
 
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 PROJECT_HOME = os.path.split(PROJECT_ROOT)[0]
 
 
-THINGS = { 'Article': [],
-           'BlogPosting': [],
-           'Book': [],
-           'MediaObject': [],
-           'Organization': [],
-           'Person': [],
-           'SoftwareApplication': [],
-           'WebPage': []}
+THINGS = { 'Article': {},
+           'BlogPosting': {},
+           'Book': {},
+           'MediaObject': {},
+           'Organization': {},
+           'Person': {},
+           'SoftwareApplication': {},
+           'WebPage': {}}
+
+for key in THINGS.keys():
+    result = next(os.walk(os.path.join(
+        PROJECT_HOME,
+        'thing',
+        key)))
+    for row in result[2]:
+        name = row.split(".")[0]
+        try:
+            entity = json.load(
+                open(os.path.join(PROJECT_ROOT,
+                                  key,
+                                  row),
+                     "rb"))
+        except:
+            print(name, sys.exc_info()[0])
+        THINGS[key][name] = entity
 
 
+
+        
 def slugify(value):
     """
     Converts to lowercase, removes non-word characters (alphanumerics and
@@ -46,7 +66,9 @@ def add_person(info,
     info['url'] = 'http://intro2libsys.info/Person/{0}{1}'.format(
         info.get('givenName'),
         info.get('familyName')).strip()
-
+    if not 'name' in info:
+        info['name'] = "{0} {1}".format(info.get('givenName', ''),
+                                        info.get('familyName'))
     with open(os.path.join(file_location,
                            "Person",
                            "{0}.json".format(

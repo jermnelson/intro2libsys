@@ -7,14 +7,45 @@
  </div>
  <div class="row">
   <div class="col-md-8">
-   <h1>All {{ entity }}</h1> 
+   <h1>All {{ entity }}s</h1> 
    <ol>
    {% for row in entities %}
-   <li><a href="{{ row['@id'] }}">{{ row['headline'] }}</a> - {{ row['@id'] }}</p></li>  
- 
+   <li><a href="{{ row['@id']|local_url }}">
+    {% if row.headline %}{{ row['headline'] }}{% else %}{{ row['name'] }}{% endif %}</a>
+     - {% if row.author %}by
+        {% for person in row.author %}{{ person['@id']|author_name|safe }}{% endfor %}{% endif %} 
+    {% if row.datePublished %}<strong>Date Published:</strong> {{ row.datePublished }}{% endif %}
+
+   </li>  
    {% endfor %}
    </ol>
   </div>
  </div>
 </div>
+{% endblock %}
+
+{% block more_js %}
+<script>
+function getAuthor(entity_id) {
+  if(entity_id.length < 1) {
+        return '';
+    }
+   var entity_elements = entity_id.split("/");
+   var length = entity_elements.length;
+    self.author_url = "/" + entity_elements[length - 2] + "/" + entity_elements[length - 1] + ".json";
+     $.getJSON(author_url, function(data) {
+       return data['name'];
+   });
+
+}
+
+function EntityListViewModel() {
+  var self = this;
+  self.getAuthor = function(entity_id) {
+    return getAuthor(entity_id);
+ }
+}
+var entity_vm = new EntityListViewModel();
+ko.applyBindings(entity_vm);
+</script>
 {% endblock %}

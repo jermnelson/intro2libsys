@@ -1,13 +1,12 @@
 {
   "@context": {
     "@vocab": "http://schema.org/"
-  }, 
+  },
+  "@id": "http://intro2libsys.info/Article/the-library-as-catalyst-for-civic-engagment-reinventing-libraries",
+  "@type": "Article", 
   "author": [
     {
-      "@type": "Person", 
-      "familyName": "Ptacek", 
-      "givenName": "Bill", 
-      "name": "Bill Ptacek"
+      "@id": "http://intro2libsys.info/Person/ptacek-bill" 
     }
   ], 
   "copyrightYear": 2013, 

@@ -7,9 +7,7 @@
   "@type": "Article", 
   "author": [
     {
-      "@type": "Person", 
-      "givenName": "Lara", 
-      "familyName": "Swanson"
+      "@id": "http://intro2libsys.info/Person/swanson-lara" 
     }
   ], 
   "dateCreated": "2013-07-11T17:29:35.867000", 

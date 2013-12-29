@@ -2,7 +2,7 @@
   "@context": {
     "@vocab": "http://schema.org/"
   }, 
-  "@id": "http://intro2libsys.info/resources/as-we-may-think", 
+  "@id": "http://intro2libsys.info/Article/as-we-may-think", 
   "@type": "NewsArticle", 
   "bf:adminInfo": {
     "bf:creationDate": "2013-12-17T23:55:33.317000", 

@@ -1,7 +1,6 @@
 {
   "@context": {
     "@vocab": "http://schema.org/", 
-    "idloc": "http://id.loc.gov",
     "issue": null,
     "volume": null
   }, 
@@ -9,10 +8,7 @@
   "@type": "ScholarlyArticle", 
   "author": [
     {
-      "@type": "Person",
-      "familyName": "Lewis", 
-      "givenName": "David", 
-      "idloc:url": "http://id.loc.gov/authorities/names/no2007086408"
+      "@id": "http://intro2libsys.info/Person/lewis-david"
     }
   ],
   "datePublished": "2013-07",

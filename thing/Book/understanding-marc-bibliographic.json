@@ -3,7 +3,7 @@
     "@vocab": "http://schema.org/", 
     "bf": "http://bibframe.org/vocab"
   }, 
-  "@id": "http://intro2libsys.info/Book/
+  "@id": "http://intro2libsys.info/Book/understanding-marc-bibliographic",
   "@type": "Book",
   "bf:adminInfo": {
     "bf:changeDate": "2013-12-06T20:54:25.317000Z",

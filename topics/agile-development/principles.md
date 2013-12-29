@@ -1,3 +1,5 @@
+Title: Principles of Agile Software Development
+
 [Manifesto]: http://agilemanifesto.org/
 
 Agile Software Development Principles
