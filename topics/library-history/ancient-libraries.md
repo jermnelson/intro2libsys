@@ -1,3 +1,5 @@
+Title: Ancient Libraries
+
 Mesopotamia
 -----------
 The oldest known library, from around 1650 B.C.E, served a population size of 
@@ -33,7 +35,7 @@ Pharaohs (i.e. they existed but were likely reserved for religious purposes), wh
 Egypt was later conquered by Alexander the Great and then the Roman Empire, the 
 most famous library ever was started in Alexandria and continued to grow in collection
 size and prestige through-out the classical period in history. This clip
-from Carl Sagan's show "Cosmos" offers a more elioquent view on the Alexandra Library:
+from Carl Sagan's show "Cosmos" offers a more eloquent view on the Alexandra Library:
 
 <iframe width="420" height="315" src="http://www.youtube.com/embed/jixnM7S9tLw" frameborder="0" allowfullscreen></iframe>
 

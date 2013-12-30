@@ -3,7 +3,7 @@
     "@vocab": "http://schema.org/", 
     "bf": "http://bibframe.org/vocab"
   }, 
-  "@id": "http://www.python.org", 
+  "@id": "http://intro2libsys.info/SoftwareApplication/python", 
   "@type": "SoftwareApplication", 
   "bf:adminInfo": {
     "bf:creationDate": "2013-12-13T23:01:52.252000", 

@@ -1,17 +1,28 @@
 {
   "@context": {
     "@vocab": "http://schema.org/", 
-    "pages": null
+    "pages": null,
+    "readings": null
   }, 
   "@id": "http://intro2libsys.info/topics/dynamic-languages", 
   "@type": "Article", 
   "dateCreated": "2013-07-16T22:40:58.855000", 
-  "name": "Dynamic Languauges", 
+  "headline": "Dynamic Programming Languages", 
+  "name": "Dynamic Programming Languages", 
   "pages": [
     "static-vs-dynamic",
     "python",
     "perl",
-    "ruby"
+    "ruby",
+    "javascript"
   ], 
+  "readings": [
+     "python",
+     "javascript", 
+     "knockoutjs",
+     "jquery",
+     "svgjs",
+     "reveal-js"
+  ],
   "url": "http://intro2libsys.info/topics/dynamic-languages"
 }

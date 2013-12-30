@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/ronacher-armin", 
+  "@type": "Person", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-30T17:37:31.716142", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "email": "armin.ronacher@active-4.com", 
+  "familyName": "Ronacher", 
+  "givenName": "Armin", 
+  "name": "Armin Ronacher", 
+  "url": "http://intro2libsys.info/Person/ArminRonacher"
+}

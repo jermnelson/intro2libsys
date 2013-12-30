@@ -1,3 +1,5 @@
+Title: New World, Colonial, and Frontier Libraries
+
 The beginnings of the libraries in the newly discovered Americas, can be
 broken down by geographic longitude, that of North and South America. 
 
@@ -17,7 +19,7 @@ North America started with government libraries for British colonies in
 the 1600 and 1700s. Other important early collections were associated with
 some of the first institutions of higher learning that were founded in the 
 United States including the Harvard library in 1638 soon followed by the
-founding of the Yale and the University of Virgina libraries in the early
+founding of the Yale and the University of Virginia libraries in the early
 1700s.
 
 Benjamin Franklin, Early Lending Libraries, and the Revolution

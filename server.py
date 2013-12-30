@@ -122,8 +122,10 @@ def JeremyNelson(md_page):
 @app.route('/topics')
 def topics():
     return render_template('topics.html',
+                           comment_form = UserCommentsForm(),
                            page='topics',
-                           topics=TOPICS)
+                           topics=TOPICS,
+                           topic_maps=TOPIC_MAPS)
 
 @app.route("/topics/<topic>")
 def display_topic(topic):
@@ -150,6 +152,7 @@ def display_page(topic, page):
     raw_mrkdwn = open(file_path, 'rb').read()
     mrkdwn_html = meta_mrkdwn.convert(raw_mrkdwn)
     return render_template('topic-page.html',
+                           comment_form = UserCommentsForm(),
                            content=mrkdwn_html,
                            page='topics',
                            topics=TOPICS)
@@ -177,16 +180,29 @@ def entity_listing(entity):
                            entities=entities,
                            topics=TOPICS)
 
+@app.route('/search',
+           methods=['POST', 'GET'])
+def search():
+    results = None
+    return render_template('search.html',
+                           comment_form = UserCommentsForm(),
+                           results=results,
+                           topics=TOPICS)
+                           
+
 @app.route('/<page>')
 def page_router(page):
     return render_template('{0}.html'.format(page),
+                           comment_form = UserCommentsForm(),
                            page=page,
                            topics=TOPICS)
 
 @app.route('/')
 def index():
     return render_template('index.html',
+                           comment_form = UserCommentsForm(),
                            topics=TOPICS)
+
 
 
 if __name__ == '__main__':

@@ -1,16 +1,17 @@
-{% extends 'topic-base.html' %}
+{% extends 'base.html' %}
 
 {% block title %}All Topics{% endblock %}
 
 
-{% block main-content %}
-<div class="row-fluid">
+{% block body %}
+<div class="container">
+<div class="row">
  <div class="span12 jumbotron">
   <h2>Introduction to Library Systems</h2>
   <h1>Topics</h2>
  </div>
 </div>
-<div class="row-fluid">
+<div class="row">
   {% for map in topic_maps %}
    <div class="span4 alert alert-block alert-info">
     <a href="#" class="close" data-dismiss="alert">&times;</a>
@@ -32,6 +33,7 @@
   {% endfor %}
  </div>
 
+</div>
 </div>
 {% endblock %}
 

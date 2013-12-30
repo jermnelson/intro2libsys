@@ -1,3 +1,5 @@
+Title: Industrialization to World War II
+
 Sir Anthony Panizzi
 -------------------
 Sir Anthony Panizzi (1797-1879) was a naturalized British Italian who after immigrating

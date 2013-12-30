@@ -1,3 +1,5 @@
+Title: Postwar to the 1980s
+
 World War II's massive destruction of buildings in Europe and Asia, which not 
 surprisingly included a larger number of libraries in those regions including 
 an estimated 1/2 of all books in China [#]_ . Recovering ... 
