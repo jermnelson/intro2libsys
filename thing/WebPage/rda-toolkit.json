@@ -2,20 +2,14 @@
   "@context": {
     "@vocab": "http://schema.org/", 
     "bf": "http://bibframe.org/vocab"
-  }, 
+  },
+  "@id": "http://intro2libsys.info/WebPage/rda-toolkit", 
   "@type": "WebApplication", 
   "copyrightYear": 2010, 
   "headline": "RDA Toolkit", 
   "name": "rda-toolkit", 
   "publisher": {
-    "@type": "Organization", 
-    "address": {
-      "@type": "PostalAddress", 
-      "addressLocality": "Chicago", 
-      "addressRegion": "Illinois"
-    }, 
-    "name": "American Library Association", 
-    "url": "http://www.ala.org/"
+     "@id": "http://intro2libsys.info/Organization/american-library-association"
   }, 
   "url": "http://access.rdatoolkit.org/"
 }

@@ -20,54 +20,25 @@
   <h3>Pages</h3>
    <ol>
    {% for page in topic.pages %}
-    <li><a href="/topics/{{ page.url }}">{{ page.name }}</a></li>
+    <li><a href="/topics/{{ page.url }}">{{ page.name.0 }}</a></li>
    {% endfor %}
    </ol>
  </div>
- <div class="col-md-9">
-  <h3>Badges</h3>
-  <div class="row">
-  {# START Badge #}
-   <div class="col-md-5"> 
-    <div class="alert alert-info">
-      <a href="#" data-bind="click: topicQuiz" class="btn btn-info">Knowledge <i class="icon-info-sign"></i></a>
-      <p>
-       Take an online quiz to earn your <a href="http://openbadges.org/"><b>OpenBadge</b></a> 
-       for <em>{{ topic.name }}</em>.
-      </p>
-    </div>
-  {# END of Learner Badge #}
-  </div>
-  {% if developer_badge %}
-  {# START Developer Badge #}
-  <div class="span4">
-    <div class="alert">
-      <a href="#" onclick="alert('TBD')" class="btn btn-success">Developer Badge <i class="icon-wrench"></i></a>
-      <p>
-       Complete these programming exercises to earn your Developer 
-       <a href="http://openbadges.org/">OpenBadge</a> for <em>{{ topic.name }}</em>.
-      </p>
-    </div>
-  {# END Developer Badge #} 
-   </div>
-  {% endif %}
-  </div>
- </div>
-</div>
-<div class="row-fluid">
- <div class="span8">
-  <h3>Readings</h3>
+ <div class="col-md-6">
+  <h3>Resources</h3>
   <ul>
-  {% for reading in topic.readings %}
-   <li>{{ reading }}</li>
+  {% for resource in topic.resources %}
+   <li>{% include 'snippets/thing-brief.html' %}</li> 
   {% endfor %}
   </ul>
+ </div>
+ <div class="col-md-3">
+  <div class="btn-group">
+   <button class="btn btn-default" data-toggle="modal" data-target="#comment-dlg">
+   <span class="glyphicon glyphicon-comment"></span>
+   </button>
+  </div>
  </div>
 </div>
 {% endblock %}
 
-{% block more_js %}
-<script>
-ko.applyBindings(new {{ topic.view_model }}());
-</script>
-{% endblock %}

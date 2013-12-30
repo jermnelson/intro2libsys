@@ -5,7 +5,7 @@
   }, 
   "@id": "http://intro2libsys.info/Article/future-u-rise-dig-humanities", 
   "@type": "TechArticle", 
-  "authors": [
+  "author": [
     {
    "@id": "http://intro2libsys.info/Person/hopkins-curt"
     }

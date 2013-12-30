@@ -4,18 +4,27 @@ __author__ = "Jeremy Nelson"
 __license__ = 'MIT'
 __copyright__ = '(c) 2012-2014 by Jeremy Nelson'
 
+import datetime
 import json
 import markdown
 import os
 import urllib2
 from thing import get_article, THINGS
+from thing.UserInteraction import UserCommentsForm, add_comment, get_comments
 from topics import TOPICS
-from flask import abort, Flask, g, jsonify, redirect, render_template
+from flask import abort, Flask, g, jsonify, redirect, render_template, request
+from flask.ext.login import LoginManager, login_user, login_required, logout_user
+from flask.ext.login import make_secure_token, UserMixin, current_user
+
+
 
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 PROJECT_HOME = os.path.split(PROJECT_ROOT)[0]
 
 app = Flask(__name__)
+app.config.from_pyfile('intro2libsys.cfg')
+login_manager = LoginManager()
+login_manager.init_app(app)
 
 TOPIC_MAPS = []
 topic_maps_location = os.path.join(PROJECT_HOME,
@@ -29,6 +38,8 @@ for topic_map in topic_maps.get('maps'):
     for topic_id in topic_map.get('jtm:topics'):
         output.get('topics').append(TOPICS[topic_id])
     TOPIC_MAPS.append(output)
+
+
 
 @app.template_filter('author_name')
 def author_name(author_id):
@@ -52,20 +63,49 @@ def entity_json_view(entity,
     entity = THINGS[entity][name]
     return jsonify(entity)
 
+##@app.route("/<entity>/<name>/UserComments")
+##def entity_comments(entity,
+##                    name)
+
+@app.route("/<entity>/<name>/UserComments/add",
+           methods=['POST'])
+def entity_comment_add(entity,
+                       name):
+    if not entity in THINGS or not name in THINGS[entity]:
+        abort(404)
+    user_id = request.form.get('creator')
+    comment_text = request.form.get('commentText')
+    comment_time = datetime.datetime.strptime(
+        request.form.get('commentTime'),
+        "%Y-%m-%d %H:%M:%S")
+    discusses = THINGS[entity][name].get('@id')
+    redis_id = add_comment(commentText=comment_text,
+                           commentTime=comment_time,
+                           creator=user_id,
+                           discusses=discusses)
+                           
+    return jsonify({'result': redis_id})
+
+
 @app.route("/<entity>/<name>")
 def entity_view(entity,
                 name):
     ""
+    
     if not entity in THINGS or not name in THINGS[entity]:
+        print(entity, name, THINGS[entity].keys())
         abort(404)
     entity = THINGS[entity][name]
-    for i, person_id in enumerate(entity.get('author')):
+    for i, person_id in enumerate(entity.get('author', [])):
         author_id = person_id['@id'].split("/")[-1]
         if not author_id in THINGS['Person']:
             entity['author'][i] = person_id
         else:
             entity['author'][i] = THINGS['Person'][author_id]
     return render_template('entity.html',
+                           comments=get_comments(
+                               entity_id=entity.get('@id')),
+                           comment_form = UserCommentsForm(),
                            entity=entity,
                            topics=TOPICS)
 
@@ -89,8 +129,9 @@ def topics():
 def display_topic(topic):
     "Individual topic view"
     if not topic in TOPICS:
-        return "{0} not found".format(topic)
+        abort(404)
     return render_template('topic-detail.html',
+                           comment_form = UserCommentsForm(),
                            page='topics',
                            topic=TOPICS.get(topic),
                            topics=TOPICS)
@@ -131,6 +172,7 @@ def entity_listing(entity):
                                     filename)
             entities.append(json.load(open(filepath)))
     return render_template('entity-listing.html',
+                           comment_form = UserCommentsForm(),
                            entity=entity,
                            entities=entities,
                            topics=TOPICS)

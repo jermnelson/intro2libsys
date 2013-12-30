@@ -3,9 +3,9 @@
     "@vocab": "http://schema.org/", 
     "idloc": "http://id.loc.gov"
   }, 
-  "@id": "http://intro2libsys.info/Article/future-u-lib-3.0", 
+  "@id": "http://intro2libsys.info/Article/future-u-lib-3", 
   "@type": "TechArticle", 
-  "authors": [
+  "author": [
     {
      "@id": "http://intro2libsys.info/Person/hopkins-curt"
     }

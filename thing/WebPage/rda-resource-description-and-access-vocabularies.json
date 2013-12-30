@@ -3,19 +3,14 @@
     "@vocab": "http://schema.org/", 
     "bf": "http://bibframe.org/vocab"
   }, 
+  "@id": "http://intro2libsys.info/WebPage/rda-resource-description-and-access-vocabularies",
   "@type": "WebApplication", 
   "author": [
     {
-      "@type": "Person", 
-      "familyName": "Hillman", 
-      "givenName": "Diane", 
-      "name": "Diane Hillmann"
+      "@id": "http://intro2libsys.info/Person/hillman-diane" 
     }, 
     {
-      "@type": "Person", 
-      "familyName": "Phipps", 
-      "givenName": "Jon", 
-      "name": "Jon Phipps"
+      "@id": "http://intro2libsys.info/Person/phipps-jon"
     }
   ], 
   "copyrightYear": 2010, 

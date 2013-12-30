@@ -15,6 +15,7 @@ class Topic(object):
         self.name, self.pages, self.resources = None, [], []
         if os.path.exists(json_file):
             entity_json = json.load(open(json_file))
+            setattr(self, '@id', entity_json.get('@id'))
             self.name = os.path.split(entity_json.get('@id'))[-1]
             for i, page in enumerate(entity_json.get('pages')):
                 meta_mrkdwn = markdown.Markdown(extensions=['meta'])

@@ -44,6 +44,9 @@
     </a>
    </div>
    </h1>
+   {% if entity.description %}
+   <p class="lead">{{ entity.description }}</p>
+   {% endif %}
    <div class="row">
     {# START column #}
     <div class="col-md-4">
@@ -91,6 +94,76 @@
    </div>
  </div>
 </div>
+ <div class="col-md-4">
+  <h4>Comment</h4>
+  <form method='POST'
+        class="form"
+        id="comment-form"
+        action='comment'>
+     {{ comment_form.csrf_token }}
+   <div class="form-group">
+    <label class="control-label" for='commentTime'>
+     Commented on:
+    </label>
+   {{ comment_form.commentTime(class_="form-control") }}
+   </div>
 
+   <div class="form-group">
+    <label class="control-label" for='creator'>
+      Your email or URI
+    </label>
+   {{ comment_form.creator(class_="form-control") }}
+   </div>
+   <div class="form-group">
+    <label class="control-label" for='commentText'>
+      Comment (use either Raw text or Markdown)
+    </label>
+   {{ comment_form.commentText(class_="form-control") }}
+   </div>
+   <div class="form-group">
+    <button class="btn btn-primary"
+            data-bind="click: addComment">Add</button>
+    <input type="reset" class="btn btn-warning"
+            data-bind="click: resetForm"></input>
+   </div>
+  </form>
+  <h4>Prior Comments</h4>
+  <ul>
+  {% for comment in comments %}
+   <li>{{ comment.commentTime }} by {{ comment.creator }}
+       <p>{{ comment.commentText }}</p>
+   </li>
+  {% endfor %}
+  </ul>
+ </div>
 </div>
+{% endblock %}
+
+{% block more_js %}
+<script>
+ function CommentFromViewModel() {
+   var self = this;
+   self.commentText = ko.observable();
+   self.commentTime = ko.observable();
+   self.creator = ko.observable();
+
+   self.addComment = function() {
+     $.ajax({
+      type: 'POST',
+      url: '{{ entity['@id']|local_url }}/UserComments/add',
+      data: $('#comment-form').serialize(),
+      success: function(response) {
+       alert("Comment added " + response['result']);
+       $('#comment').reset();
+      } 
+    });
+  }
+  self.resetForm = function() {
+    self.commentTime('');
+
+  }
+ }
+
+ ko.applyBindings(new CommentFromViewModel());
+</script>
 {% endblock %}

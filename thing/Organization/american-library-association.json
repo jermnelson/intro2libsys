@@ -1,0 +1,20 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Organization/american-library-association", 
+  "@type": "Organization", 
+  "address": {
+    "@type": "PostalAddress", 
+    "addressLocality": "Chicago", 
+    "addressRegion": "Illinois"
+  }, 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-29T16:00:01.354674", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "name": "American Library Association", 
+  "url": "http://www.ala.org/"
+}

@@ -5,7 +5,7 @@
   }, 
   "@id": "http://intro2libsys.info/Article/everything-in-right-pace", 
   "@type": "TechArticle", 
-  "authors": [
+  "author": [
     {
       "@id": "http://intro2libsys.info/Person/donovan-hannah"
     }

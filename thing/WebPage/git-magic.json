@@ -3,12 +3,11 @@
     "@vocab": "http://schema.org/", 
     "idloc": "http://id.loc.gov"
   }, 
-  "@id": "http://intro2libsys.info/resource/28", 
+  "@id": "http://intro2libsys.info/Webpage/git-magic", 
   "@type": "http://schema.org/WebPage", 
-  "author": {
-    "familyName": "Lynn", 
-    "givenName": "Ben"
-  }, 
+  "author": [{
+    "@id": "http://intro2libsys.info/Person/lynn-ben"
+  }], 
   "name": "Git Magic", 
   "url": "http://www-cs-students.stanford.edu/~blynn/gitmagic/"
 }

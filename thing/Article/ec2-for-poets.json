@@ -4,11 +4,13 @@
   }, 
   "@id": "http://intro2libsys.info/Article/ec2-for-poets",
   "@type": "TechArticle", 
-  "authors": [
+  "author": [
     {
       "@id": "http://intro2libsys.info/Person/winer-dave"
     }
   ], 
+  "description": "EC2 for Poets is a tutorial that shows you how to set up a server in Amazon's \"cloud.\" All you need is a net connection, credit card, and a basic understanding of how to use computers.",
   "headline": "EC2 for Poets", 
+  "datePublished": "2012-06-13",
   "url": "http://ec2.forpoets.org/"
 }

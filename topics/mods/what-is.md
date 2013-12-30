@@ -1,4 +1,5 @@
 Date: 2013-03-19
+Title: Metadata Object Description Schema (MODS)
 
 Metadata Object Description Schema (MODS)
 -----------------------------------------

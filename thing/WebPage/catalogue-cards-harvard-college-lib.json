@@ -7,9 +7,7 @@
   "@type": "WebPage", 
   "author": [
     {
-      "@type": "Person",
-      "familyName": "Nix", 
-      "givenName": "Larry"
+      "@id": "http://intro2libsys.info/Person/nix-larry"
     }
   ], 
   "name": "The Catalogue Cards of the Harvard College Library", 

@@ -1,3 +1,6 @@
+Title: Examples of MODS Records
+
+
 Examples of MODS Records
 ------------------------
 Here is an example of Jane Austen's **Pride and Prejudice** encoded using the MODS:

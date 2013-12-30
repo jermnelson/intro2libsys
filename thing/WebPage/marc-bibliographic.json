@@ -3,6 +3,7 @@
     "@vocab": "http://schema.org/", 
     "bf": "http://bibframe.org/vocab"
   }, 
+  "@id": "http://www.intro2libsys.info/WebPage/marc-bibliographic",
   "@type": "CollectionPage", 
   "bf:adminInfo": {
     "bf:creationDate": "2013-12-14T23:24:36.240635", 

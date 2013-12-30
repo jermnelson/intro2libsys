@@ -13,7 +13,7 @@
     "what-is", 
     "marc21",
     "marc-xml"],
-  "readings": [
+  "resources": [
     "marc21-format-bib-data",
     "metadata-cataloging-practices"
   ],

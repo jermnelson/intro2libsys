@@ -1,15 +1,12 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "idloc": "http://id.loc.gov"
+    "@vocab": "http://schema.org/" 
   }, 
-  "@id": "http://intro2libsys.info/resources/data-monday-impact-responsive-design", 
+  "@id": "http://intro2libsys.info/BlogPosting/data-monday-impact-responsive-design", 
   "@type": "BlogPosting", 
   "author": [
     {
-      "@type": "Person", 
-      "familyName": "Wroblewski", 
-      "givenName": "Luke"
+      "@id": "http://intro2libsys.info/Person/wroblewski-luke" 
     }
   ], 
   "datePublished": "2013-02-25", 

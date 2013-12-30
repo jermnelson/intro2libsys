@@ -11,7 +11,8 @@
   "pages": [
     "what-is", 
     "rdf",
-    "rdfa", 
+    "rdfa",
+    "microdata", 
     "json"
   ],
   "readings": [

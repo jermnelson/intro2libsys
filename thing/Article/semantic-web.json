@@ -5,7 +5,7 @@
   }, 
   "@id": "http://intro2libsys.info/Article/semantic-web", 
   "@type": "ScholarlyArticle", 
-  "authors": [
+  "author": [
     {
       "@id": "http://intro2libsys.info/Person/berners-lee-tim" 
     },

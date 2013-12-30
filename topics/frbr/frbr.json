@@ -1,7 +1,8 @@
 {
   "@context": {
     "@vocab": "http://schema.org/", 
-    "pages": null
+    "pages": null,
+    "readings": null
   }, 
   "@id": "http://www.intro2libsys.info/topics/frbr", 
   "@type": "Article", 
@@ -14,5 +15,9 @@
     "item", 
     "other-entities"
   ], 
+  "readings": [
+    
+
+  ],
   "url": "http://www.intro2libsys.info/topics/frbr"
 }

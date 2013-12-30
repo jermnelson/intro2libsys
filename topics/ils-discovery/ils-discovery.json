@@ -2,7 +2,7 @@
   "@context": {
     "@vocab": "http://schema.org/", 
     "pages": null,
-    "readings": null
+    "resources": null
   }, 
   "@id": "http://intro2libsys.info/topics/ ", 
   "@type": "Article", 
@@ -10,7 +10,7 @@
   "name": "Integrated Library Systems and Discovery Layers", 
   "pages": [
   ], 
-  "readings": [
+  "resources": [
      "automation-marketplace-2013-rush-to-innovate"     
   ],
   "url": "http://intro2libsys.info/topics/publisher-library"

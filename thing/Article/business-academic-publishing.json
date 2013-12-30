@@ -3,9 +3,9 @@
     "@vocab": "http://schema.org/", 
     "idloc": "http://id.loc.gov"
   }, 
-  "@id": "http://intro2libsys.info/Articles/business-academic-publishing", 
+  "@id": "http://intro2libsys.info/Article/business-academic-publishing", 
   "@type": "ScholarlyArticle", 
-  "authors": [
+  "author": [
     {
       "@id": "http://intro2libsys.info/Person/russell-robert"
     }

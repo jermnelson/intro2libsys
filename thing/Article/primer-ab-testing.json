@@ -4,7 +4,7 @@
   }, 
   "@id": "http://intro2libsys.info/Article/primer-ab-testing", 
   "@type": "TechArticle", 
-  "authors": [
+  "author": [
     {
       "@id": "http://intro2libsys.info/Person/swanson-lara"
     }

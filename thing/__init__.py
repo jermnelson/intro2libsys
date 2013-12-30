@@ -60,14 +60,14 @@ def add_person(info,
     info['bf:adminInfo'] = generate_adminInfo()
     if 'idloc:url' in info:
         info['@context']['idloc'] = "http://id.loc.gov"
-    filename = slugify("{0} {1}".format(info.get('familyName'),
+    filename = slugify(u"{0} {1}".format(info.get('familyName'),
                                         info.get('givenName', '')))
     info['@id'] = 'http://intro2libsys.info/Person/{0}'.format(filename.strip())
-    info['url'] = 'http://intro2libsys.info/Person/{0}{1}'.format(
+    info['url'] = u'http://intro2libsys.info/Person/{0}{1}'.format(
         info.get('givenName'),
         info.get('familyName')).strip()
     if not 'name' in info:
-        info['name'] = "{0} {1}".format(info.get('givenName', ''),
+        info['name'] = u"{0} {1}".format(info.get('givenName', ''),
                                         info.get('familyName'))
     with open(os.path.join(file_location,
                            "Person",

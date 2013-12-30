@@ -3,8 +3,8 @@
     "@vocab": "http://schema.org/", 
     "idloc": "http://id.loc.gov"
   }, 
-  "@id": "http://intro2libsys.info/resource/52", 
+  "@id": "http://intro2libsys.info/WebPage/marc21-format-bib-data/", 
   "@type": "WebPage", 
-  "name": "MARC 21 Format for Bibliographic data -- Introduction", 
+  "headline": "MARC 21 Format for Bibliographic data -- Introduction", 
   "url": "http://www.loc.gov/marc/bibliographic/bdintro.html"
 }

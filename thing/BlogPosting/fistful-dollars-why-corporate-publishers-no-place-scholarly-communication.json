@@ -7,9 +7,7 @@
   "@type": "BlogPosting", 
   "author": [
     {
-      "@type": "Person",
-      "familyName": "Brembs", 
-      "givenName": "Bj\u00f6rn"
+      "@id": "http://intro2libsys.info/Person/brembs-bjrn"
     }
   ], 
   "datePublished": "2012-01-10",
