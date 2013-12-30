@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/PeriodicalIssue/information-standards-quarterly-winter-2013", 
+  "@type": "PeriodicalIssue", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-30T22:31:39.780000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2013, 
+  "datePublished": "Winter 2013", 
+  "hasArticle": [], 
+  "issueNumber": 4, 
+  "partOfPeriodical": {
+    "@id": "http://intro2libsys.info/Periodical/information-standards-quarterly"
+  }, 
+  "volumeNumber": 25
+}

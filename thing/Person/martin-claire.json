@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/martin-claire", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-30T21:59:43.947000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "Martin", 
+  "givenName": "Claire", 
+  "name": "Claire Martin", 
+  "url": "http://intro2libsys.info/Person/ClaireMartin"
+}

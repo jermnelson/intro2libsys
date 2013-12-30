@@ -3,6 +3,7 @@ import json
 import os
 import re
 import sys
+import urllib2
 
 
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
@@ -37,7 +38,7 @@ for key in THINGS.keys():
 
 
 
-        
+
 def slugify(value):
     """
     Converts to lowercase, removes non-word characters (alphanumerics and
@@ -46,6 +47,22 @@ def slugify(value):
     """
     value = re.sub('[^\w\s-]', '', value).strip().lower()
     return re.sub('[-\s]+', '-', value)
+
+def add_article(info,
+                file_location=PROJECT_HOME):
+    info = add_entity(info)
+    filename = slugify(info.get('headline'))
+    info['@id'] = urllib2.urlparse.urljoin(
+        'http://intro2libsys.info',
+        'Article/{0}'.format(filename))
+    with open(os.path.join(file_location,
+                           "Article",
+                           "{0}.json".format(filename)),
+              'wb') as json_file:
+        json.dump(info, json_file, indent=2, sort_keys=True)
+    print("Finished adding {0}".format(info.get('@id')))
+
+
 
 def add_entity(info,
                file_location=PROJECT_HOME):

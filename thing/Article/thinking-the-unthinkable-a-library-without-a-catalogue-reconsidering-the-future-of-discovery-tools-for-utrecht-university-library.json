@@ -3,15 +3,15 @@
     "@vocab": "http://schema.org/", 
     "bf": "http://bibframe.org/vocab/"
   }, 
-  "@id": "http://intro2libsys.info/Article/thinking-the-unthinkable-a-library-without-a-catalogue", 
+  "@id": "http://intro2libsys.info/Article/thinking-the-unthinkable-a-library-without-a-catalogue-reconsidering-the-future-of-discovery-tools-for-utrecht-university-library", 
   "@type": "ScholarlyArticle", 
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/ortekaas-simone"
+      "@id": "http://intro2libsys.info/Person/kortekaas-simone"
     }
   ], 
   "bf:adminInfo": {
-    "bf:creationDate": "2013-12-19T19:39:15.261000", 
+    "bf:creationDate": "2013-12-30T22:15:39.454000", 
     "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
     "bf:descriptionLanguage": "English"
   }, 

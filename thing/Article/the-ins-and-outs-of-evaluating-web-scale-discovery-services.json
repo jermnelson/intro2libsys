@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/the-ins-and-outs-of-evaluating-web-scale-discovery-services", 
+  "@type": "ScholarlyArticle", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/hoeppner-athena"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2013-12-30T22:11:50.386000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2012, 
+  "datePublished": "2012-04", 
+  "headline": "The Ins and Outs of Evaluating Web-Scale Discovery Services", 
+  "url": "http://www.infotoday.com/cilmag/apr12/Hoeppner-Web-Scale-Discovery-Services.shtml"
+}

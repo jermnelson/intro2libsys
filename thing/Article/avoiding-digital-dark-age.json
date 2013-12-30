@@ -6,13 +6,14 @@
     "pages": null,
     "volume": null
   }, 
-  "@id": "http://intro2libsys.info/resources/avoiding-digital-dark-age", 
+  "@id": "http://intro2libsys.info/Article/avoiding-digital-dark-age", 
   "@type": "ScholarlyArticle", 
   "author": [
     {
       "@id": "http://intro2libsys.info/Person/bollacker-kurt"
     }
   ], 
+  "copyrightYear": 2010,
   "datePublished": "March-April 2010",
   "headline": "Avoiding a Digital Dark Age",
   "issue": 2, 
