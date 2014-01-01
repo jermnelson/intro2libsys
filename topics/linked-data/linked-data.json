@@ -7,7 +7,7 @@
   "@id": "http://intro2libsys.info/topics/linked-data", 
   "@type": "Article", 
   "dateCreated": "2013-03-19T04:28:55.950323", 
-  "name": "Linked Data", 
+  "name": "Linked Data and the Semantic Web", 
   "pages": [
     "what-is", 
     "rdf",
@@ -18,7 +18,8 @@
   "readings": [
    "linked-data",
    "linked-data-evolving-web-global-namespace",
-   "rdfa-primer"
+   "rdfa-primer",
+   "semantic-web"
   ],
   "url": "http://intro2libsys.info/topics/linked-data"
 }

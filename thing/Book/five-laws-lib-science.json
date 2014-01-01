@@ -5,7 +5,7 @@
   }, 
   "@id": "http://intro2libsys.info/Book/laws-of-library-science", 
   "@type": "Book", 
-  "authors": [
+  "author": [
     {
       "@id": "http://intro2libsys.info/Person/ranganathan-shiyali"      
     }

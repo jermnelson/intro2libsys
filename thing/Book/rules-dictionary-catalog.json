@@ -4,7 +4,7 @@
   }, 
   "@id": "http://intro2libsys.info/Book/rules-dictionary-catalog",
   "@type": "Book", 
-  "authors": [
+  "author": [
     {
       "@id": "http://intro2libsys.info/Person/cutter-charles"
     }

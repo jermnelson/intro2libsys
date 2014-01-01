@@ -12,15 +12,7 @@
     "bf:descriptionLanguage": "English"
   }, 
   "author": [{
-    "@type": "Person", 
-    "bf:authorizedAccessPoint": "Furrie, Betty",
-    "familyName": "Furrie", 
-    "givenName": "Betty", 
-    "bf:lccn": {
-      "bf:identifierAssigner": "http://id.loc.gov/authorities/names",
-      "bf:identifierValue": "no92020283"
-    },
-    "name": "Betty Furrie"
+    "@id": "http://intro2libsys.info/Person/furrie-betty"
   }], 
   "copyrightYear": 2009, 
   "headline": "Understanding MARC Bibliographic: Machine-Readable Cataloging", 
