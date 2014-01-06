@@ -1,9 +1,8 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "idloc": "http://id.loc.gov"
+    "@vocab": "http://schema.org/" 
   }, 
-  "@id": "http://intro2libsys.info/resources/manifesto-agile-software", 
+  "@id": "http://intro2libsys.info/WebPage/manifesto-agile-software", 
   "@type": "WebPage", 
   "keywords": ["agile software development"],
   "name": "Manifesto for Agile Software Development", 

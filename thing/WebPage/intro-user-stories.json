@@ -3,7 +3,7 @@
     "@vocab": "http://schema.org/", 
     "idloc": "http://id.loc.gov"
   }, 
-  "@id": "http://intro2libsys.info/resources/intro-user-stories", 
+  "@id": "http://intro2libsys.info/WebPage/intro-user-stories", 
   "@type": "WebPage", 
   "copyrightYear": "2001",
   "keywords": ["agile software development", "user stories"],

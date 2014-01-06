@@ -10,7 +10,9 @@
   "name": "HTML5 for Librarians", 
   "pages": [
     "history-html",
-    "what-is"
+    "what-is",
+    "css",
+    "javascript"
   ], 
   "readings": [
    "data-monday-impact-responsive-design",

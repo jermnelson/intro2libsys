@@ -12,5 +12,9 @@
     "what-is", 
     "examples"
   ], 
+  "readings": [
+   "rda-resource-description-and-access-vocabularies",
+   "rda-toolkit"
+  ],
   "url": "http://intro2libsys.info/topics/rda"
 }

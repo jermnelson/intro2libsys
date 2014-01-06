@@ -3,7 +3,7 @@
     "@vocab": "http://schema.org/", 
     "idloc": "http://id.loc.gov"
   }, 
-  "@id": "http://intro2libsys.info/Book/laws-of-library-science", 
+  "@id": "http://intro2libsys.info/Book/five-laws-of-lib-science", 
   "@type": "Book", 
   "author": [
     {

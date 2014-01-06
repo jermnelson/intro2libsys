@@ -1,4 +1,4 @@
-Date: 2013-03-19
+Title: Resource Description and Access (RDA)
 
 # What is Resource Description and Access (RDA)
 

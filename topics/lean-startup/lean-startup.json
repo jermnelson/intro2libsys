@@ -15,5 +15,10 @@
     "cohort-testing", 
     "pivot"
   ], 
+  "readings": [
+   "lean-startup",
+   "toyota-way",
+   "power-pull"
+  ],
   "url": "http://www.intro2libsys.info/topics/lean-startup"
 }
