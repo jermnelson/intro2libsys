@@ -1,0 +1,25 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/cool-uris-for-the-semantic-web", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/sauermann-leo"
+    }, 
+    {
+      "@id": "http://intro2libsys.info/Person/cyganiak-richard"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-06T19:03:01.749000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2008, 
+  "datePublished": "2008-12-03", 
+  "description": "The Resource Description Framework RDF allows users to describe both Web documents and concepts from the real world\u2014people, organisations, topics, things\u2014in a computer-processable way. Publishing such descriptions on the Web creates the Semantic Web. URIs (Uniform Resource Identifiers) are very important, providing both the core of the framework itself and the link between RDF and the Web. This document presents guidelines for their effective use. It discusses two strategies, called 303 URIs and hash URIs. It gives pointers to several Web sites that use these solutions, and briefly discusses why several other proposals have problems.", 
+  "headline": "Cool URIs for the Semantic Web", 
+  "url": "http://www.w3.org/TR/cooluris/"
+}

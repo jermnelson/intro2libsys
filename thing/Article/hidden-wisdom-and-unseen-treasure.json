@@ -3,9 +3,9 @@
     "@vocab": "http://schema.org/", 
     "idloc": "http://id.loc.gov"
   }, 
-  "@id": "http://intro2libsys.info/resource/32", 
+  "@id": "http://intro2libsys.info/Article/hidden-wisdom-and-unseen-treasure", 
   "@type": "ScholarlyArticle", 
-  "authors": [
+  "author": [
     {
     "@id": "http://intro2libsys.info/Person/whittaker-beth"
     }

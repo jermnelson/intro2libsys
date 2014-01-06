@@ -1,0 +1,29 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/BlogPosting/straw", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/summers-ed"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-06T17:36:37.092000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2012, 
+  "datePublished": "2012-07-06", 
+  "headline": "straw", 
+  "keywords": [
+    "html", 
+    "metadata", 
+    "microdata", 
+    "oclc", 
+    "schema.org", 
+    "standards"
+  ], 
+  "url": "http://inkdroid.org/journal/2012/07/06/straw/"
+}

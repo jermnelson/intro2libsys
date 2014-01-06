@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/plum-terry", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-06T22:42:47.101000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "Plum", 
+  "givenName": "Terry", 
+  "name": "Terry Plum", 
+  "url": "http://intro2libsys.info/Person/TerryPlum"
+}

@@ -3,7 +3,7 @@
     "@vocab": "http://schema.org/", 
     "bf": "http://bibframe.org/vocab"
   }, 
-  "@id": "http://arxiv.org/abs/1302.4591", 
+  "@id": "http://intro2libys.info/Article/linking-things-on-the-web", 
   "@type": "ScholarlyArticle", 
   "author": [
     {

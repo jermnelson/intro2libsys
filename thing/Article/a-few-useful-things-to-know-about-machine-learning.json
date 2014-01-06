@@ -1,0 +1,20 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/a-few-useful-things-to-know-about-machine-learning", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/domingos-pedro"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-06T18:23:13.124000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2012, 
+  "headline": "A Few Useful Things to Know about Machine Learning", 
+  "url": "http://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf"
+}

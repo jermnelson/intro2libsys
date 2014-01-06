@@ -1,0 +1,25 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/PeriodicalIssue/journal-of-library-history-1974-1987-summer-1981", 
+  "@type": "PeriodicalIssue", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-06T23:06:26.117000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 1981, 
+  "datePublished": "Summer 1981", 
+  "hasArticle": [
+    {
+      "@id": "http://intro2libsys.info/Article/ebla-world-oldest-library"
+    }
+  ], 
+  "issueNumber": 3, 
+  "partOfPeriodical": {
+    "@id": "http://intro2libsys.info/Periodical/journal-of-library-history-1974-1987.json"
+  }, 
+  "volumeNumber": 16
+}

@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/sauermann-leo", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-06T19:00:11.243000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "Sauermann", 
+  "givenName": "Leo", 
+  "name": "Leo Sauermann", 
+  "url": "http://intro2libsys.info/Person/LeoSauermann"
+}

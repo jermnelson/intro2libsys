@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/elsevier-clamps-down-on-academics-posting-their-own-papers-online", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/solon-oliva"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-06T18:00:44.902000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2013, 
+  "datePublished": "2013-12-17", 
+  "headline": "Elsevier clamps down on academics posting their own papers online", 
+  "url": "http://www.wired.co.uk/news/archive/2013-12/17/elsevier-versus-open-access"
+}

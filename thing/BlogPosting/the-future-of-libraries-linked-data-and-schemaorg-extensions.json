@@ -1,0 +1,25 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/BlogPosting/the-future-of-libraries-linked-data-and-schemaorg-extensions", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/zaino-jennifer"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-06T18:09:17.456000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2013,
+  "datePublished": "2013-02-13",
+  "headline": "The Future of Libraries, Linked Data and Schema.Org Extensions", 
+  "keywords": [
+    "schema.org", 
+    "linked data"
+  ], 
+  "url": "http://semanticweb.com/the-future-of-libraries-linked-data-and-schema-org-extensions_b35315"
+}

@@ -3,13 +3,11 @@
     "@vocab": "http://schema.org/", 
     "idloc": "http://id.loc.gov"
   }, 
-  "@id": "http://intro2libsys.info/resource/45", 
+  "@id": "http://intro2libsys.info/Article/library-of-utopia", 
   "@type": "TechArticle", 
-  "authors": [
+  "author": [
     {
-      "familyName": "Carr", 
-      "givenName": "Nicholas", 
-      "idloc:url": "http://id.loc.gov/authorities/names/n00102292"
+      "@id": "http://intro2libsys.info/Person/carr-nicholas"
     }
   ], 
   "name": "The Library of Utopia", 

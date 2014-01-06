@@ -26,6 +26,8 @@ for key in THINGS.keys():
         key)))
     for row in result[2]:
         name = row.split(".")[0]
+        if len(name) < 1:
+            continue
         try:
             entity = json.load(
                 open(os.path.join(PROJECT_ROOT,
@@ -52,6 +54,8 @@ def add_article(info,
                 file_location=PROJECT_HOME):
     info = add_entity(info)
     filename = slugify(info.get('headline'))
+    if not '@type' in info:
+        info['@type'] = 'Article'
     info['@id'] = urllib2.urlparse.urljoin(
         'http://intro2libsys.info',
         'Article/{0}'.format(filename))
@@ -61,6 +65,23 @@ def add_article(info,
               'wb') as json_file:
         json.dump(info, json_file, indent=2, sort_keys=True)
     print("Finished adding {0}".format(info.get('@id')))
+
+
+def add_blog_posting(info,
+                     file_location=PROJECT_HOME):
+    info = add_entity(info)
+    filename = slugify(info.get('headline'))
+    info['@id'] = urllib2.urlparse.urljoin(
+        'http://intro2libsys.info',
+        'BlogPosting/{0}'.format(filename))
+    with open(os.path.join(file_location,
+                           'BlogPosting',
+                           '{0}.json'.format(filename)),
+              'wb') as json_file:
+        json.dump(info, json_file, indent=2, sort_keys=True)
+    print("Finished adding {0}".format(info.get('@id')))
+
+
 
 
 

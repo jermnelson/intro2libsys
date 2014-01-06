@@ -2,13 +2,15 @@
   "@context": {
     "@vocab": "http://schema.org/" 
   }, 
-  "@id": "http://intro2libsys.info/Article/ ", 
+  "@id": "http://intro2libsys.info/Article/future-publishing-veteran-perspective", 
   "@type": "NewsArticle", 
-  "authors": [
+  "author": [
     {
      "@id": "http://intro2libsys.info/Person/epstein-jason" 
     }
   ], 
+  "copyrightYear": 2011,
+  "datePublished": "2011-06",
   "headline": "The Future of Publishing - A Veteran's Perspective", 
   "url": "http://www.wipo.int/wipo_magazine/en/2011/06/article_0005.html"
 }

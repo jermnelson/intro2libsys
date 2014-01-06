@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/domingos-pedro", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-06T18:21:09.250000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "email": "pedrod@cs.washington.edu", 
+  "familyName": "Domingos", 
+  "givenName": "Pedro", 
+  "name": "Pedro Domingos", 
+  "url": "http://intro2libsys.info/Person/PedroDomingos"
+}

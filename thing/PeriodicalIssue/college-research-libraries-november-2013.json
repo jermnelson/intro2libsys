@@ -1,0 +1,25 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libys.info/PeriodicalIssue/college-research-libraries-november-2013", 
+  "@type": "PeriodicalIssue", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-06T23:41:24.812000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2013, 
+  "datePublished": "2013-11", 
+  "hasArticle": [
+    {
+      "@id": "http://intro2libsys.info/Article/paths-of-discovery"
+    }
+  ], 
+  "issueNumber": 6, 
+  "partOfPeriodical": {
+    "@id": "http://intro2libys.info/Periodical/college-research-libraries"
+  }, 
+  "volumeNumber": 74
+}

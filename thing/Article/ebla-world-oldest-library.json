@@ -2,9 +2,7 @@
   "@context": {
     "@vocab": "http://schema.org/", 
     "idloc": "http://id.loc.gov",
-    "issue": null,
-    "pages": null,
-    "volume": null
+    "pages": null
   }, 
   "@id": "http://intro2libsys.info/Article/ebla-world-oldest-library", 
   "@type": "ScholarlyArticle", 
@@ -14,7 +12,6 @@
     }
   ], 
   "datePublished": "Summer, 1981",
-  "issue": 3,
   "keywords": ["library history", "middle east"],
   "headline": "Ebla: The World's Oldest Library", 
   "name": "The Journal of Library History (1974-1987)",
@@ -23,6 +20,5 @@
     "@type": "NGO",
     "name": "University of Texas Press"
   },
-  "url": "http://www.jstor.org/stable/25541212",
-  "volume": 16
+  "url": "http://www.jstor.org/stable/25541212"
 }

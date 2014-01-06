@@ -5,11 +5,16 @@
   }, 
   "@id": "http://intro2libsys.info/Article/future-apps-web", 
   "@type": "TechArticle", 
-  "authors": [
+  "author": [
+    {
+     "@id": "http://intro2libsys.info/Person/anderson-janna"
+    },
     {
      "@id": "http://intro2libsys.info/Person/rainie-lee" 
     }
   ], 
+  "copyrightYear": 2012,
+  "datePublished": "2012-03-23",
   "headline": "The Future of Apps and Web", 
   "url": "http://pewinternet.com/Reports/2012/Future-of-Apps-and-Web/Overview.aspx"
 }
