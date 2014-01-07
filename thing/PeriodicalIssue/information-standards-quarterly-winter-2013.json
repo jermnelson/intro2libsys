@@ -12,10 +12,14 @@
   }, 
   "copyrightYear": 2013, 
   "datePublished": "Winter 2013", 
-  "hasArticle": [], 
+  "hasArticle": [
+    {"@id": "http://intro2libsys.info/Article/are-current-bibliographic-models-suitable-for-integration-with-the-web"}
+  ], 
   "issueNumber": 4, 
+  "name": "Evolution Of Bibliographic Data Exchange",
   "partOfPeriodical": {
     "@id": "http://intro2libsys.info/Periodical/information-standards-quarterly"
   }, 
-  "volumeNumber": 25
+  "volumeNumber": 25,
+  "url": "http://www.niso.org/apps/group_public/download.php/11942/"
 }

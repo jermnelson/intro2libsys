@@ -49,6 +49,21 @@ def author_name(author_id):
     author = THINGS['Person'][author_id]
     return author.get('name')
 
+@app.template_filter('organization_name')
+def organization_name(org_id):
+    """
+    Template filter takes an organization ID and returns the organization's
+    name.
+
+    :param org_id: Organization's ID
+    """
+    org_id = org_id.split("/")[-1]
+    if not org_id in THINGS['Organization']:
+        return
+    org = THINGS['Organization'][org_id]
+    return org.get('name')
+
+
 @app.template_filter('local_url')
 def local_url(absolute_url):
     result = urllib2.urlparse.urlparse(absolute_url)
@@ -83,7 +98,7 @@ def entity_comment_add(entity,
                            commentTime=comment_time,
                            creator=user_id,
                            discusses=discusses)
-                           
+
     return jsonify({'result': redis_id})
 
 
@@ -91,7 +106,7 @@ def entity_comment_add(entity,
 def entity_view(entity,
                 name):
     ""
-    
+
     if not entity in THINGS or not name in THINGS[entity]:
         print(entity, name, THINGS[entity].keys())
         abort(404)
@@ -156,7 +171,7 @@ def display_page(topic, page):
                            content=mrkdwn_html,
                            page='topics',
                            topics=TOPICS)
-                           
+
 
 @app.route('/<entity>s')
 def entity_listing(entity):
@@ -188,7 +203,7 @@ def search():
                            comment_form = UserCommentsForm(),
                            results=results,
                            topics=TOPICS)
-                           
+
 
 @app.route('/<page>')
 def page_router(page):

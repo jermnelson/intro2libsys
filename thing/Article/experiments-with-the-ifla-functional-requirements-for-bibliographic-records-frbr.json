@@ -1,0 +1,35 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/experiments-with-the-ifla-functional-requirements-for-bibliographic-records-frbr", 
+  "@type": "ScholarlyArticle", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/hickey-thomas"
+    }, 
+    {
+      "@id": "http://intro2libsys.info/Person/oneill-edward"
+    }, 
+    {
+      "@id": "http://intro2libsys.info/Person/toves-jenny"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-07T17:56:52.052000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2002, 
+  "datePublished": "2002-09", 
+  "description": "OCLC is investigating how best to implement IFLA's Functional Requirements for Bibliographic Records (FRBR). As part of that work, we have undertaken a series of experiments with algorithms to group existing bibliographic records into works and expressions. Working with both subsets of records and the whole WorldCat database, the algorithm we developed achieved reasonable success identifying all manifestations of a work.", 
+  "headline": "Experiments with the IFLA Functional Requirements for Bibliographic Records (FRBR)", 
+  "partOfPeriodical": {
+    "@id": "http://intro2libsys.info/Periodical/d-lib-magazine"
+  }, 
+  "partOfPeriodicalIssue": {
+    "@id": "http://intro2libsys.info/PeriodicalIssue/d-lib-magazine-september-2002"
+  }, 
+  "url": "http://www.dlib.org/dlib/september02/hickey/09hickey.html"
+}

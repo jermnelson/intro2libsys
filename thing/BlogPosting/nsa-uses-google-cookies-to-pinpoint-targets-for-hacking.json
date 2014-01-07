@@ -1,0 +1,27 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/BlogPosting/nsa-uses-google-cookies-to-pinpoint-targets-for-hacking", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/soltani-ashkan"
+    }, 
+    {
+      "@id": "http://intro2libsys.info/Person/peterson-andrea"
+    }, 
+    {
+      "@id": "http://intro2libsys.info/Person/gellman-barton"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-07T18:11:01.054000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2013, 
+  "datePublished": "2013-12-10", 
+  "headline": "NSA uses Google cookies to pinpoint targets for hacking", 
+  "url": "http://www.washingtonpost.com/blogs/the-switch/wp/2013/12/10/nsa-uses-google-cookies-to-pinpoint-targets-for-hacking/"
+}

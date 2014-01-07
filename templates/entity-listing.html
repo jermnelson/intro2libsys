@@ -13,7 +13,7 @@
    <li><a href="{{ row['@id']|local_url }}">
     {% if row.headline %}{{ row['headline'] }}{% else %}{{ row['name'] }}{% endif %}</a>
      - {% if row.author %}by
-        {% for person in row.author %}{{ person['@id']|author_name|safe }}{% endfor %}{% endif %} 
+        {% for person in row.author %}{{ person['@id']|author_name|safe }} {% endfor %}{% endif %} 
     {% if row.datePublished %}<strong>Date Published:</strong> {{ row.datePublished }}{% endif %}
 
    </li>  

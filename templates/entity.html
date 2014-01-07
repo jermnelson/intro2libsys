@@ -65,7 +65,6 @@
       {% for author in entity.author %}
        <li itemscope itemtype="{{ author['@type'] }}">
          <span itemprop="name">{{ author.name }}</span>
-
        </li>
       {% endfor %}
       {# END panel-body #}
@@ -82,11 +81,20 @@
      {{ entity.copyrightYear }}</span>
     {% endif %} 
     {% if entity.url %}
-     URL is <a href="{{ entity.url }}">{{ entity.url }}</a>
+     URL is <a href="{{ entity.url }}" itemprop="url">{{ entity.url }}</a>
     {% endif %}
     </p>
+    <p>
+    {% for item in entity %}
+    {{ item }}
+    {% endfor %}
+    </p>
     {% if entity.datePublished %}
-    <p>{{ entity }}</p>
+    <p class="lead">Published on <span itemprop="datePublished">{{ entity.datePublished }}</span>
+    {% if entity.publisher %}by {{ entity.publisher['@id']|organization_name }}{% endif %}.
+
+    </p>
+
     {% endif %}
     {# END column #}
     </div>

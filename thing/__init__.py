@@ -66,6 +66,29 @@ def add_article(info,
         json.dump(info, json_file, indent=2, sort_keys=True)
     print("Finished adding {0}".format(info.get('@id')))
 
+def add_book(info,
+             file_location=PROJECT_ROOT):
+    """
+    Function adds a schema.org/Book to intro2libsys collection.
+
+    :param info: Dictionary of schema.org properties for the book
+    :param file_location: Location of the thing directory, defaults to
+                          PROJECT_ROOT
+    """
+    info = add_entity(info)
+    filename = slugify(info.get('headline'))
+    if not '@type' in info:
+        info['@type'] = 'Book'
+    info['@id'] = urllib2.urlparse.urljoin(
+        'http://intro2libsys.info',
+        'Book/{0}'.format(filename))
+    with open(os.path.join(file_location,
+                           "Book",
+                           "{0}.json".format(filename)),
+              'wb') as json_file:
+        json.dump(info, json_file, indent=2, sort_keys=True)
+    print("Finished adding {0}".format(info.get('@id')))
+
 
 def add_blog_posting(info,
                      file_location=PROJECT_HOME):
@@ -91,6 +114,76 @@ def add_entity(info,
     info['bf:adminInfo'] = generate_adminInfo()
     return info
 
+def add_organization(info,
+                     file_location=PROJECT_HOME):
+    info['@context'] = get_context()
+    info['bf:adminInfo'] = generate_adminInfo()
+    filename = slugify(info.get('name')).strip()
+    if not '@type' in info:
+        info['@type'] = 'Organization'
+    info['@id'] = 'http://intro2libsys.info/Organization/{0}'.format(
+                   filename)
+    with open(os.path.join(file_location,
+                           "Organization",
+                           "{0}.json".format(filename)),
+              "wb") as json_file:
+        json.dump(info,
+                  json_file,
+                  indent=2,
+                  sort_keys=True)
+    print("Finished adding {0}.json".format(filename))
+
+def add_periodical(info,
+                   file_location=PROJECT_HOME):
+    """
+    Function adds a proposed schema.org/Periodical to intro2libsys collection.
+    See http://www.w3.org/community/schemabibex/wiki/Periodical for more info.
+
+    :param info: Dictionary of schema.org properties for the periodical
+    :param file_location: Location of the thing directory, defaults to
+                          PROJECT_ROOT
+    """
+    info['@context'] = get_context()
+    info['bf:adminInfo'] = generate_adminInfo()
+    if not '@type' in info:
+        info['@type'] = 'Periodical'
+    filename = slugify(info.get('name'))
+    info['@id'] = urllib2.urlparse.urljoin(
+        'http://intro2libsys.info',
+        'Periodical/{0}'.format(filename))
+    with open(os.path.join(file_location,
+                           'Periodical',
+                           '{0}.json'.format(filename)),
+              'wb') as json_file:
+        json.dump(info, json_file, indent=2, sort_keys=True)
+    print("Finished adding {0}".format(info.get('@id')))
+
+def add_periodical_issue(info,
+                         file_location=PROJECT_HOME):
+    """
+    Function adds a proposed schema.org/Periodical to intro2libsys collection.
+    See http://www.w3.org/community/schemabibex/wiki/Periodical#Thing_.3E_CreativeWork_.3E_Periodical
+    for more info.
+
+    :param info: Dictionary of schema.org properties for the PeriodicalIssue
+    :param file_location: Location of the thing directory, defaults to
+                          PROJECT_ROOT
+    """
+    info['@context'] = get_context()
+    info['bf:adminInfo'] = generate_adminInfo()
+    if not '@type' in info:
+        info['@type'] = 'PeriodicalIssue'
+    filename = slugify(info.get('name'))
+    info['@id'] = urllib2.urlparse.urljoin(
+        'http://intro2libsys.info',
+        'PeriodicalIssue/{0}'.format(filename))
+    with open(os.path.join(file_location,
+                           'PeriodicalIssue',
+                           '{0}.json'.format(filename)),
+              'wb') as json_file:
+        json.dump(info, json_file, indent=2, sort_keys=True)
+    print("Finished adding {0}".format(info.get('@id')))
+
 
 def add_person(info,
                file_location=PROJECT_HOME):
@@ -115,24 +208,7 @@ def add_person(info,
         json.dump(info, json_file, indent=2, sort_keys=True)
     print("Finished adding {0}".format(info['@id']))
 
-def add_organization(info,
-                     file_location=PROJECT_HOME):
-    info['@context'] = get_context()
-    info['bf:adminInfo'] = generate_adminInfo()
-    filename = slugify(info.get('name')).strip()
-    if not '@type' in info:
-        info['@type'] = 'Organization'
-    info['@id'] = 'http://intro2libsys.info/Organization/{0}'.format(
-                   filename)
-    with open(os.path.join(file_location,
-                           "Organization",
-                           "{0}.json".format(filename)),
-              "wb") as json_file:
-        json.dump(info,
-                  json_file,
-                  indent=2,
-                  sort_keys=True)
-    print("Finished adding {0}.json".format(filename))
+
 
 
 def get_article(article_string):
