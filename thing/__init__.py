@@ -16,6 +16,8 @@ THINGS = { 'Article': {},
            'MediaObject': {},
            'Organization': {},
            'Person': {},
+           'Periodical': {},
+           'PeriodicalIssue': {},
            'SoftwareApplication': {},
            'WebPage': {}}
 

@@ -4,11 +4,13 @@
   }, 
   "@id": "http://intro2libsys.info/Article/siege-of-academe", 
   "@type": "ScholarlyArticle", 
-  "authors": [
+  "author": [
     {
       "@id": "http://intro2libsys.info/Person/carey-kevin"
     }
   ], 
+  "copyrightYear": 2012,
+  "datePublished": "2012-09/10",
   "name": "The Siege of Academe", 
   "url": "http://www.washingtonmonthly.com/magazine/septemberoctober_2012/features/_its_three_oclock_in039373.php"
 }

@@ -10,11 +10,12 @@
     "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
     "bf:descriptionLanguage": "English"
   }, 
+  "datePublished": "2002-09",
   "hasArticle": [
    {"@id": "http://intro2libsys.info/Article/experiments-with-the-ifla-functional-requirements-for-bibliographic-records-frbr"}    
   ], 
   "issueNumber": 8, 
-  "name": "D-Lib Magazine September 2002", 
+  "name": "D-Lib Magazine 9(8) September 2002", 
   "partOfPeriodical": {
     "@id": "http://intro2libsys.info/Periodical/d-lib-magazine"
   }, 

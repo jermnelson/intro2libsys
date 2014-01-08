@@ -1,0 +1,23 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Organization/j-willard-marriott-library", 
+  "@type": "Organization", 
+  "address": {
+    "@type": "PostalAddress", 
+    "addressCountry": "United States of America", 
+    "addressLocality": "Salt Lake City", 
+    "addressRegion": "Utah", 
+    "postalCode": "84112-0860", 
+    "streetAddress": "295 S 1500 E"
+  }, 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-07T22:56:24.587000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "name": "J. Willard Marriott Library", 
+  "url": "http://lib.utah.edu/"
+}

@@ -21,7 +21,10 @@
   "headline": "Are Current Bibliographic Models Suitable for Integration with the Web?", 
   "pagination": "6-13",
   "partOfPeriodical": {
-    "@id": "
+    "@id": "http://intro2libsys.info/Periodical/information-standards-quarterly" 
+  },
+  "partOfPeriodicalIssue": {
+    "@id": "http://intro2libsys.info/PeriodicalIssue/information-standards-quarterly-winter-2013"     
   },
   "url": "http://www.niso.org/publications/isq/2013/v25no4/svensson/"
 }

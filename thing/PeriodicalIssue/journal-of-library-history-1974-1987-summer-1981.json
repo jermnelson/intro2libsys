@@ -18,6 +18,7 @@
     }
   ], 
   "issueNumber": 3, 
+  "name": "Journal of Library History (1974-1987) 16(3) Summer 1981",
   "partOfPeriodical": {
     "@id": "http://intro2libsys.info/Periodical/journal-of-library-history-1974-1987.json"
   }, 

@@ -1,0 +1,20 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Organization/university-of-utah", 
+  "@type": "CollegeOrUniversity", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-07T23:59:21.707000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "name": "University of Utah", 
+  "subOrganization": [
+    {
+      "@id": "http://intro2libys.info/Organization/j-willard-marriott-library"
+    }
+  ], 
+  "url": "http://www.utah.edu/"
+}

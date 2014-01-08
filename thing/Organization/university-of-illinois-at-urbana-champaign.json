@@ -1,0 +1,30 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Organization/university-of-illinois-at-urbana-champaign", 
+  "@type": "CollegeOrUniversity", 
+  "address": {
+    "@type": "PostalAddress", 
+    "addressCountry": "United States of America", 
+    "addressLocality": "Urbana", 
+    "addressRegion": "Illinois", 
+    "postalCode": 61801
+  }, 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-07T19:53:07.247000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "name": "University of Illinois at Urbana-Champaign", 
+  "subOrganization": [
+    {
+      "@id": "http://intro2libsys.info/Organization/graduate-school-library-information-science"
+    }, 
+    {
+      "@id": "http://intro2libsys.info/Organization/business-information-services"
+    }
+  ], 
+  "url": "http://illinois.edu/"
+}

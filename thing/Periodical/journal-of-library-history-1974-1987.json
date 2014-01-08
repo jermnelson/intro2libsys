@@ -3,7 +3,7 @@
     "@vocab": "http://schema.org/", 
     "bf": "http://bibframe.org/vocab/"
   }, 
-  "@id": "http://intro2libsys.info/Periodical/journal-of-library-history-1974-1987.json", 
+  "@id": "http://intro2libsys.info/Periodical/journal-of-library-history-1974-1987", 
   "@type": "Periodical", 
   "bf:adminInfo": {
     "bf:creationDate": "2014-01-06T23:04:17.070000", 
