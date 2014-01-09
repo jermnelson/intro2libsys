@@ -3,9 +3,9 @@
     "@vocab": "http://schema.org/", 
     "idloc": "http://id.loc.gov"
   }, 
-  "@id": "http://intro2libsys.info/BlogPosting/ ", 
+  "@id": "http://intro2libsys.info/BlogPosting/proposed-list-60-things-journal-publishers-do", 
   "@type": "BlogPosting", 
-  "authors": [
+  "author": [
     {
       "@id": "http://intro2libsys.info/Person/anderson-kent"
     }

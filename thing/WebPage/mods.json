@@ -3,7 +3,7 @@
     "@vocab": "http://schema.org/", 
     "bf": "http://bibframe.org/vocab"
   }, 
-  "@id": "http://www.loc.gov/standards/mods", 
+  "@id": "http://intro2libsys.info/WebPage/mods", 
   "@type": "CollectionPage", 
   "bf:adminInfo": {
     "bf:creationDate": "2013-12-14T22:57:25.618666", 

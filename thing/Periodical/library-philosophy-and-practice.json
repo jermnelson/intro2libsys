@@ -1,0 +1,19 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Periodical/library-philosophy-and-practice", 
+  "@type": "Periodical", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-08T23:42:21.722000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "hasPeriodicalIssue": [
+   {"@id": "http://intro2libsys.info/PeriodicalIssue/library-philosophy-and-practice-fall-2005"}
+  ], 
+  "issn": "1522-0222", 
+  "name": "Library Philosophy and Practice", 
+  "url": "http://unllib.unl.edu/LPP/lpp.htm"
+}

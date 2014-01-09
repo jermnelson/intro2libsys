@@ -3,7 +3,7 @@
     "@vocab": "http://schema.org/", 
     "bf": "http://bibframe.org/vocab"
   }, 
-  "@id": "http://www.w3.org/community/schemabibex/wiki/Main_Page", 
+  "@id": "http://intro2libsys.info/WebPage/schema-bib-extend-community-group", 
   "@type": "CollectionPage", 
   "bf:adminInfo": {
     "bf:creationDate": "2013-12-14T22:25:31.341854", 

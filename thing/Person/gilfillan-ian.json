@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/Person/gilfillan-ian", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-08T23:03:30.628000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "Gilfillan", 
+  "givenName": "Ian", 
+  "idloc:url": "http://id.loc.gov/authorities/names/nr2003011853", 
+  "name": "Ian Gilfillan", 
+  "url": "http://intro2libsys.info/Person/IanGilfillan"
+}

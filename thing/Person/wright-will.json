@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/Person/wright-will", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-09T02:44:33.065000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "Wright", 
+  "givenName": "Will", 
+  "idloc:url": "http://id.loc.gov/authorities/names/n2008018258", 
+  "name": "Will Wright", 
+  "url": "http://intro2libsys.info/Person/WillWright"
+}

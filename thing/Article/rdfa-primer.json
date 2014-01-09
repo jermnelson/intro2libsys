@@ -4,6 +4,14 @@
   }, 
   "@id": "http://intro2libsys.info/Article/rdfa-primer", 
   "@type": "TechArticle", 
-  "headline": "RDFa 1.1 Primer", 
+  "author": [
+    {"@id": "http://intro2libsys.info/Person/herman-ivan"},
+    {"@id": "http://intro2libsys.info/Person/adida-ben"},
+    {"@id": "http://intro2libsys.info/Person/sporny-manu"},
+    {"@id": "http://intro2libsys.info/Person/birbeck-mark"}
+  ],
+  "copyrightYear": 2013,
+  "datePublished": "2013-08-22",
+  "headline": "RDFa 1.1 Primer - Second Edition", 
   "url": "http://www.w3.org/TR/xhtml-rdfa-primer/"
 }

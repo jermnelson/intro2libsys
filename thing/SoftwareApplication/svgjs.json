@@ -11,7 +11,8 @@
       "@id": "http://intro2libsys.info/Person/fierens-wout" 
     }
   ], 
-  "headline": "SVG.JS A lightweight library for manipulating and animating SVG.", 
+  "description": "A lightweight library for manipulating and animating SVG.",
+  "headline": "SVG.JS", 
   "name": "svgjs", 
   "url": "http://svgjs.com/"
 }

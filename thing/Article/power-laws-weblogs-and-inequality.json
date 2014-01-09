@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/power-laws-weblogs-and-inequality", 
+  "@type": "Article", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/shirky-clay"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-09T00:06:33.912000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2003, 
+  "datePublished": "2003-02-08", 
+  "headline": "Power Laws, Weblogs, and Inequality", 
+  "url": "http://www.shirky.com/writings/herecomeseverybody/powerlaw_weblog.html"
+}

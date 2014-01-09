@@ -1,10 +1,13 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "idloc": "http://id.loc.gov"
+    "@vocab": "http://schema.org/" 
   }, 
-  "@id": "http://intro2libsys.info/resource/3", 
+  "@id": "http://intro2libsys.info/WebPage/agile-lean-documentation", 
   "@type": "WebPage", 
+  "author": [
+    {"@id": "http://intro2libsys.info/Person/ambler-scott"}
+  ],
+  "copyrightYear": 2012,
   "name": "Agile/Lean Documentation: Strategies for Agile Software Development", 
   "url": "http://www.agilemodeling.com/essays/agileDocumentation.htm"
 }

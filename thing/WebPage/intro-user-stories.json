@@ -5,7 +5,10 @@
   }, 
   "@id": "http://intro2libsys.info/WebPage/intro-user-stories", 
   "@type": "WebPage", 
-  "copyrightYear": "2001",
+  "author": [
+    {"@id": "http://intro2libsys.info/Person/ambler-scott"}
+  ],
+  "copyrightYear": 2012,
   "keywords": ["agile software development", "user stories"],
   "name": "Introduction to User Stories", 
   "publisher": {

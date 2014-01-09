@@ -3,13 +3,14 @@
     "@vocab": "http://schema.org/", 
     "idloc": "http://id.loc.gov"
   }, 
-  "@id": "http://intro2libsys.info/resources/catalogue-cards-harvard-college-lib", 
+  "@id": "http://intro2libsys.info/Webpage/catalogue-cards-harvard-college-lib", 
   "@type": "WebPage", 
   "author": [
     {
       "@id": "http://intro2libsys.info/Person/nix-larry"
     }
   ], 
+  "copyrightYear": 2008,
   "name": "The Catalogue Cards of the Harvard College Library", 
   "url": "http://www.libraryhistorybuff.org/catalog-cards-harvard.htm"
 }

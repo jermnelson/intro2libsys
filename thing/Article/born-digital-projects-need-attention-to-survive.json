@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/born-digital-projects-need-attention-to-survive", 
+  "@type": "Article", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/howard-jennifer"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-08T20:38:54.454000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2014, 
+  "datePublished": "2014-01-06", 
+  "headline": "Born Digital, Projects Need Attention to Survive", 
+  "url": "http://chronicle.com/article/Born-Digital-Projects-Need/143799/"
+}

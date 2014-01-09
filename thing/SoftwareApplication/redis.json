@@ -5,7 +5,8 @@
   },
   "@id": "http://intro2libsys.info/SoftwareApplication/redis", 
   "@type": "WebApplication", 
-  "headline": "Redis is an open source, BSD licensed, advanced key-value store.", 
+  "headline": "Redis",
+  "description": "Redis is an open source, BSD licensed, advanced key-value store.", 
   "name": "redis", 
   "url": "http://redis.io/"
 }

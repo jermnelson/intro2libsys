@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/Person/klim-george", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-08T21:01:38.152000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "Klim", 
+  "givenName": "George", 
+  "idloc:url": "http://id.loc.gov/authorities/names/n93070114", 
+  "name": "George Klim", 
+  "url": "http://intro2libsys.info/Person/GeorgeKlim"
+}

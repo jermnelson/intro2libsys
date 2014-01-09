@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/stross-charlie", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-08T21:46:02.492000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "Stross", 
+  "givenName": "Charlie", 
+  "name": "Charlie Stross", 
+  "url": "http://intro2libsys.info/Person/CharlieStross"
+}

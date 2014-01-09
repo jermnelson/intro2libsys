@@ -3,7 +3,7 @@
     "@vocab": "http://schema.org/", 
     "bf": "http://bibframe.org/vocab"
   }, 
-  "@id": "http://schema.org", 
+  "@id": "http://intro2libsys.info/WebPage/schema.org", 
   "@type": "CollectionPage", 
   "bf:adminInfo": {
     "bf:creationDate": "2013-12-13T23:41:56.504000", 

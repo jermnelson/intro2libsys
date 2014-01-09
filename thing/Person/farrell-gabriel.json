@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/farrell-gabriel", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-09T01:26:48.355000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "Farrell", 
+  "givenName": "Gabriel", 
+  "name": "Gabriel Farrell", 
+  "url": "http://intro2libsys.info/Person/GabrielFarrell"
+}

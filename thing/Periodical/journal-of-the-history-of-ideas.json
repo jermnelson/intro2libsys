@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Periodical/journal-of-the-history-of-ideas", 
+  "@type": "Periodical", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-08T23:21:39.838000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "hadPeriodicalIssue": [
+    {"@id": " http://intro2libsys.info/PeriodicalIssue/journal-of-the-history-of-ideas-73-june-1946"}
+  ], 
+  "issn": "00225037", 
+  "name": "Journal of the History of Ideas"
+}

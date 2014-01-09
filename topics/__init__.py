@@ -30,8 +30,8 @@ class Topic(object):
                     name = meta_mrkdwn.Meta.get('title')
                 else:
                     name = page
-                self.pages.append({'url': os.path.join(self.name,
-                                                      page),
+                self.pages.append({'url': "{0}/{1}".format(self.name,
+                                                           page),
                                   'name': name})
             for i, resource in enumerate(entity_json.get('readings', [])):
                 for key in THINGS.keys():

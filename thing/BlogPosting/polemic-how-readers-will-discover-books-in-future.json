@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/BlogPosting/polemic-how-readers-will-discover-books-in-future", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/stross-charlie"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-08T21:47:34.703000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2013, 
+  "datePublished": "2013-10-10", 
+  "headline": "Polemic: how readers will discover books in future", 
+  "url": "http://www.antipope.org/charlie/blog-static/2013/10/polemic-how-readers-will-disco.html"
+}

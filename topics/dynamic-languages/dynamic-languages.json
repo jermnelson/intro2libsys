@@ -18,9 +18,11 @@
   ], 
   "readings": [
      "python",
+     "python-tips-tricks-hacks",
      "javascript", 
      "knockoutjs",
      "jquery",
+     "bootstrap",
      "svgjs",
      "reveal-js"
   ],

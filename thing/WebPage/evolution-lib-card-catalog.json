@@ -3,14 +3,14 @@
     "@vocab": "http://schema.org/", 
     "idloc": "http://id.loc.gov"
   }, 
-  "@id": "http://intro2libsys.info/resource/14", 
+  "@id": "http://intro2libsys.info/WebPage/evolution-lib-card-catalog", 
   "@type": "WebPage", 
-  "authors": [
+  "author": [
     {
-      "familyName": "Nix", 
-      "givenName": "Larry"
+     "@id": "http://intro2libsys.info/Person/nix-larry"
     }
   ], 
+  "copyrightYear": 2008,
   "name": "Evolution of the Library Card Catalog", 
   "url": "http://www.libraryhistorybuff.org/cardcatalog-evolution.htm"
 }

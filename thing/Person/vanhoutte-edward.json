@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/vanhoutte-edward", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-09T01:14:12.973000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "Vanhoutte", 
+  "givenName": "Edward", 
+  "name": "Edward Vanhoutte", 
+  "url": "http://intro2libsys.info/Person/EdwardVanhoutte"
+}

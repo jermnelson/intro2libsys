@@ -1,0 +1,28 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/discoverability-not-discovery-is-publishings-next-big-challenge", 
+  "@type": "Article", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/rhomberg-andrew"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-08T20:50:32.207000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2014, 
+  "datePublished": "2014-01-06", 
+  "headline": "Discoverability, Not Discovery, Is Publishing's Next Big Challenge", 
+  "keywords": [
+    "Discoverability", 
+    "discovery", 
+    "goodreads", 
+    "small demons"
+  ], 
+  "url": "http://www.digitalbookworld.com/2014/discoverability-not-discovery-is-publishings-next-big-challenge/"
+}

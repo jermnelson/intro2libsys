@@ -13,12 +13,11 @@
   "copyrightYear": 2013, 
   "creator": [
     {
-     "@id": "http://intro2libsys.info/Person/el-hattab-hakim",
-     "name": "Hakim El Hattab"
+     "@id": "http://intro2libsys.info/Person/el-hattab-hakim"
     }
   ], 
-  "description": "Reveal.js is the Javascript framework used for this presentation", 
-  "headline": "Reveal.js HTML Presentations Made Easy", 
+  "description": "Reveal.js HTML Presentations Made Easy", 
+  "headline": "Reveal.js", 
   "name": "reveal-js", 
   "url": "http://lab.hakim.se/reveal-js/"
 }

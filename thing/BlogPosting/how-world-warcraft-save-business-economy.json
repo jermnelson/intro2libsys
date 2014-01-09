@@ -3,14 +3,13 @@
     "@vocab": "http://schema.org/", 
     "idloc": "http://id.loc.gov"
   }, 
-  "@id": "http://intro2libsys.info/resource/33", 
+  "@id": "http://intro2libsys.info/BlogPosting/how-world-warcraft-save-business-economy", 
   "@type": "BlogPosting", 
-  "authors": [
-    {
-      "familyName": "Gots", 
-      "givenName": "Jason"
-    }
+  "author": [
+    {"@id": "http://intro2libsys.info/Person/gots-jason"}
   ], 
+  "copyrightYear": 2012,
+  "datePublished": "2012-08-07",
   "headline": "How World of Warcraft Could Save Your Business and The Economy", 
   "url": "http://bigthink.com/think-tank/how-world-of-warcraft-could-save-your-business-and-the-economy"
 }

@@ -1,14 +1,12 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "idloc": "http://id.loc.gov"
+    "@vocab": "http://schema.org/" 
   }, 
-  "@id": "http://intro2libsys.info/resource/15", 
+  "@id": "http://intro2libsys.info/BlogPosting/ffl-fab-lab", 
   "@type": "BlogPosting", 
-  "authors": [
+  "author": [
     {
-      "familyName": "O'Duinn", 
-      "givenName": "Fiacre"
+      "@id": "http://intro2libsys.info/Person/oduinn-fiacre"
     }
   ], 
   "headline": "FFL Fab Lab: first Makerspace in a public library!", 

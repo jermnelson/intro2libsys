@@ -1,0 +1,32 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/how-americans-value-public-libraries-in-their-communities", 
+  "@type": "Article", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/zickuhr-kathryn"
+    }, 
+    {
+      "@id": "http://intro2libsys.info/Person/rainie-lee"
+    }, 
+    {
+      "@id": "http://intro2libsys.info/Person/purcell-kristen"
+    }, 
+    {
+      "@id": "http://intro2libsys.info/Person/duggan-maeve"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-08T22:45:19.186000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2013, 
+  "datePublished": "2013-12-11", 
+  "description": "Americans strongly value the role of public libraries in their communities, both for providing access to materials and resources and for promoting literacy and improving the overall quality of life. Most Americans say they have only had positive experiences at public libraries, and value a range of library resources and services.", 
+  "headline": "How Americans Value Public Libraries in Their Communities", 
+  "url": "http://libraries.pewinternet.org/2013/12/11/libraries-in-communities/"
+}

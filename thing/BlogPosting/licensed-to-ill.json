@@ -3,9 +3,9 @@
     "@vocab": "http://schema.org/", 
     "idloc": "http://id.loc.gov"
   }, 
-  "@id": "http://intro2libsys.info/resource/46", 
+  "@id": "http://intro2libsys.info/BlogPosting/licensed-to-ill", 
   "@type": "BlogPosting", 
-  "authors": [
+  "author": [
     {
      "@id": "http://intro2libsys.info/Person/carr-nicholas"
     }

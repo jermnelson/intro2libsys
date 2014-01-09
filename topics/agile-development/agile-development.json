@@ -23,8 +23,10 @@
   ], 
   "readings": [
     "manifesto-agile-software",
+    "agile-lean-documentation",
     "intro-user-stories",
-    "getting-real-agile-design"
+    "getting-real-agile-design",
+    "lean-startup"
   ],
   "url": "http://www.intro2libsys.info/topics/agile-development",
   "view_model": "AgileDevelopmentViewModel"

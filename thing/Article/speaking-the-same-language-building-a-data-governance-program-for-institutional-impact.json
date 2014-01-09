@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/speaking-the-same-language-building-a-data-governance-program-for-institutional-impact", 
+  "@type": "Article", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/chapple-michael"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-08T21:40:08.004000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2013, 
+  "datePublished": "2013-12-06", 
+  "headline": "Speaking the Same Language: Building a Data Governance Program for Institutional Impact", 
+  "url": "http://www.educause.edu/ero/article/speaking-same-language-building-data-governance-program-institutional-impact"
+}

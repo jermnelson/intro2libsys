@@ -3,8 +3,10 @@
     "@vocab": "http://schema.org/", 
     "idloc": "http://id.loc.gov"
   }, 
-  "@id": "http://intro2libsys.info/resources/gentle-introduction-to-xml", 
-  "@type": "WebPage", 
+  "@id": "http://intro2libsys.info/WebPage/gentle-introduction-to-xml", 
+  "@type": "WebPage",
+  "copyrightYear": 2013,
+  "datePublished": "2013-07",
   "name": "A Gentle Introduction to XML",
   "keywords": ["xml", "markup language"], 
   "url": "http://www.tei-c.org/release/doc/tei-p5-doc/en/html/SG.html"

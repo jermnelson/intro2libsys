@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/Person/kibre-pearl", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-08T23:18:06.227000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "Kibre", 
+  "givenName": "Pearl", 
+  "idloc:url": "http://id.loc.gov/authorities/names/n85174095", 
+  "name": "Pearl Kibre", 
+  "url": "http://intro2libsys.info/Person/PearlKibre"
+}

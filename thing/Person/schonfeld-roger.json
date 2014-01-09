@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/schonfeld-roger", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-08T21:31:26.865000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "Schonfeld", 
+  "givenName": "Roger", 
+  "name": "Roger C. Schonfeld", 
+  "url": "http://intro2libsys.info/Person/RogerSchonfeld"
+}

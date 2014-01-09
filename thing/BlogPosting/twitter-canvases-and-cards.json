@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/BlogPosting/twitter-canvases-and-cards", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/evans-benedict"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-08T21:51:11.515000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2013, 
+  "datePublished": "2013-06-18", 
+  "headline": "Twitter, canvases and cards", 
+  "url": "http://ben-evans.com/benedictevans/2013/6/18/canvases"
+}

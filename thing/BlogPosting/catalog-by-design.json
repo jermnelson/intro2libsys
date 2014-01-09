@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/BlogPosting/catalog-by-design", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/schmidt-aaron"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-08T21:56:41.978000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2013, 
+  "datePublished": "2013-09-24", 
+  "headline": "Catalog by Design", 
+  "url": "http://www.walkingpaper.org/5979"
+}

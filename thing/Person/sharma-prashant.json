@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/Person/sharma-prashant", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-08T23:07:31.284000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "Sharma", 
+  "givenName": "Prashant", 
+  "idloc:url": "http://id.loc.gov/authorities/names/no2002009577", 
+  "name": "Prashant Sharma", 
+  "url": "http://intro2libsys.info/Person/PrashantSharma"
+}

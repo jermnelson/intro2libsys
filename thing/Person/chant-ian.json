@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/chant-ian", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-08T22:37:50.471000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "Chant", 
+  "givenName": "Ian", 
+  "name": "Ian Chant", 
+  "url": "http://intro2libsys.info/Person/IanChant"
+}

@@ -3,7 +3,8 @@
     "@vocab": "http://schema.org/", 
     "bf": "http://bibframe.org/vocab"
   }, 
-  "@id": "http://loc.gov/marc/", 
+  "@id": "http://intro2libsys/WebPage/marc", 
+  "@type": "CollectionPage",
   "bf:adminInfo": {
     "bf:creationDate": "2013-12-14T23:11:15.153127", 
     "bf:descriptionConventions": "Using schema.org for descriptive metadata", 

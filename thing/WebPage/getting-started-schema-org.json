@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/" 
+  }, 
+  "@id": "http://intro2libsys.info/WebPage/getting-started-schema-org", 
+  "@type": "WebPage", 
+  "copyrightYear": 2011,
+  "datePublished": "2011-06-29",
+  "name": "Getting started with schema.org", 
+  "url": "http://schema.org/docs/gs.html"
+}

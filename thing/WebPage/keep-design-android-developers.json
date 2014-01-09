@@ -3,7 +3,7 @@
     "@vocab": "http://schema.org/", 
     "idloc": "http://id.loc.gov"
   }, 
-  "@id": "http://intro2libsys.info/resource/43", 
+  "@id": "http://intro2libsys.info/WebPage/keep-design-android-developers ", 
   "@type": "CollectionPage", 
   "name": "Design | Android Developers -- Get Started", 
   "url": "http://developer.android.com/design/index.html"

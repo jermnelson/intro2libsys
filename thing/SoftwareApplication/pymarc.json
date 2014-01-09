@@ -3,7 +3,7 @@
     "@vocab": "http://schema.org/", 
     "bf": "http://bibframe.org/vocab"
   }, 
-  "@id": "https://pypi.python.org/pypi/pymarc", 
+  "@id": "http://intro2libsys", 
   "@type": "SoftwareApplication", 
   "bf:adminInfo": {
     "bf:creationDate": "2013-12-13T22:39:53.785000", 
@@ -13,22 +13,13 @@
   "copyrightYear": 2012, 
   "creator": [
     {
-      "@type": "Person", 
-      "familyName": "Summers", 
-      "givenName": "Ed", 
-      "name": "Ed Summers"
+     "@id": " http://intro2libsys.info/Person/summers-ed" 
     }, 
     {
-      "@type": "Person", 
-      "familyName": "Farrell", 
-      "givenName": "Gabriel", 
-      "name": "Gabriel Farrell"
+      "@id": " http://intro2libsys.info/Person/farrell-gabriel" 
     }, 
     {
-      "@type": "Person", 
-      "familyName": "Matienzo", 
-      "givenName": "Mark", 
-      "name": "Mark Matienzo"
+      "@id": "http://intro2libsys.info/Person/matienzo-mark" 
     }
   ], 
   "description": "A python module by Ed Summers for reading, writing and modifing MARC bibliographic data", 

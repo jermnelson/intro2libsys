@@ -1,0 +1,26 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/the-lean-ux-manifesto-principle-driven-design", 
+  "@type": "Article", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/viviano-anthony"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-09T00:02:50.235000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2014, 
+  "datePublished": "2014-01-08", 
+  "headline": "The Lean UX Manifesto: Principle-Driven Design", 
+  "keywords": [
+    "Usability", 
+    "User Experience"
+  ], 
+  "url": "http://uxdesign.smashingmagazine.com/2014/01/08/lean-ux-manifesto-principle-driven-design/"
+}

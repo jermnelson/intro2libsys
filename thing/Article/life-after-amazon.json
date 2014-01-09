@@ -1,0 +1,23 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/life-after-amazon", 
+  "@type": "Article", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/white-randall"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-08T20:46:37.993000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2014, 
+  "datePublished": "2014-01-03", 
+  "description": "A publisher has no regrets after cutting ties to the online retailer", 
+  "headline": "Life After Amazon", 
+  "url": "http://publishersweekly.com/pw/by-topic/columns-and-blogs/soapbox/article/60517-life-after-amazon.html"
+}

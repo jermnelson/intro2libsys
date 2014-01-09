@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/BlogPosting/peer-review-is-fed-up-lets-fix-it", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/eisen-michael"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-08T22:32:05.237000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2011, 
+  "datePublished": "2011-10-28", 
+  "headline": "Peer review is f***ed up \u2013 let\u2019s fix it", 
+  "url": "http://www.michaeleisen.org/blog/?p=694"
+}

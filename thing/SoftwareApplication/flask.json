@@ -6,7 +6,8 @@
   "@id": "http://intro2libsys.info/SoftwareApplication/flask",
   "@type": "WebApplication", 
   "copyrightYear": 2010, 
-  "headline": "Flask web development, one drop at a time", 
+  "headline": "Flask Web Microframework",
+  "description": "Flask web development, one drop at a time", 
   "name": "flask", 
   "publisher": {
     "@id": "http://intro2libsys.info/Organization/pocoo-team"  

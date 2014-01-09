@@ -50,6 +50,7 @@
    <div class="row">
     {# START column #}
     <div class="col-md-4">
+     {% if 'author' in entity or 'creator' in entity %}
      {# START author/creator Panel #}
      <div class="panel panel-info">
       {# START panel-heading #}
@@ -71,6 +72,7 @@
       </div>
      {# END author/creator Panel #}
      </div>
+     {% endif %}
     {# END column #}
     </div>
     {# START column #}

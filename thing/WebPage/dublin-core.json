@@ -3,7 +3,7 @@
     "@vocab": "http://schema.org/", 
     "bf": "http://bibframe.org/vocab"
   }, 
-  "@id": "http://dublincore.org/", 
+  "@id": "http://intro2libsys.info/WebPage/dublin-core", 
   "@type": "CollectionPage", 
   "bf:adminInfo": {
     "bf:creationDate": "2013-12-14T22:43:25.748237", 

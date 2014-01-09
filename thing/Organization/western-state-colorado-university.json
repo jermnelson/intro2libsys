@@ -1,0 +1,20 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Organization/western-state-colorado-university", 
+  "@type": "CollegeOrUniversity", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-09T02:29:38.307000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "name": "Western State Colorado University", 
+  "subOrganization": [
+    {
+      "@id": "http://intro2libsys.info/Organization/leslie-j-savage-library"
+    }
+  ], 
+  "url": "http://www.western.edu/"
+}

@@ -4,11 +4,12 @@
   }, 
   "@id": "http://intro2libsys.info/Article/use-rfid-in-libraries", 
   "@type": "SholarlyArticle", 
-  "authors": [
+  "author": [
     {
      "@id": "http://intro2libsys.info/Person/shahid-syed"
    }
-  ], 
+  ],
+  "copyrightYear": 2005,
   "headline": "Use of RFID Technology in Libraries: a New Approach to Circulation, Tracking, Inventorying, and Security of Library Materials", 
   "url": "http://unllib.unl.edu/LPP/shahid.htm"
 }

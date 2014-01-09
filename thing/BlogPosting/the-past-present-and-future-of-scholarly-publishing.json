@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/BlogPosting/the-past-present-and-future-of-scholarly-publishing", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/eisen-michael"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-08T22:36:38.732000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2013, 
+  "datePublished": "2013-03-28", 
+  "headline": "The Past, Present and Future of Scholarly Publishing", 
+  "url": "http://www.michaeleisen.org/blog/?p=1346"
+}

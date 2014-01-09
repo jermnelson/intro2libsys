@@ -5,11 +5,12 @@
   }, 
   "@id": "http://intro2libsys.info/WebPage/python-tips-tricks-hacks", 
   "@type": "WebPage", 
-  "authors": [
+  "author": [
     {
       "@id": "http://intro2libsys.info/Person/isaacson-david"
     }
   ], 
   "headline": "Python Tips, Tricks, and Hacks", 
+  "description": " Want to write shorter, cleaner code? Have an unfortunate situation where you need to fit as much as you can in one expression? Prefer a quick dose of hacks to spending the rest of your life reading the docs? You've come to the right place.", 
   "url": "http://www.siafoo.net/article/52"
 }
