@@ -1,0 +1,32 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/from-exponential-technologies-to-exponential-innovation", 
+  "@type": "Article", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/hagel-john"
+    }, 
+    {
+      "@id": "http://intro2libsys.info/Person/brown-john-seely"
+    }, 
+    {
+      "@id": "http://intro2libsys.info/Person/samoylova-tamara"
+    }, 
+    {
+      "@id": "http://intro2libsys.info/Person/lui-michael"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-09T22:24:40.999000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2013, 
+  "datePublished": "2013-10-04", 
+  "description": "Exponentially advancing digital technologies have led to exponentially accelerating innovation, making the environment increasingly difficult to navigate-but also opening the door to opportunity.", 
+  "headline": "From exponential technologies to exponential innovation", 
+  "url": "http://dupress.com/articles/from-exponential-technologies-to-exponential-innovation/"
+}

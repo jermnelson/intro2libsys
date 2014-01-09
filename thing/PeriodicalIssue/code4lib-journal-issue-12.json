@@ -1,0 +1,23 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/PeriodicalIssue/code4lib-journal-issue-12", 
+  "@type": "PeriodicalIssue", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-09T22:58:13.620000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "datePublished": "2010-12-21", 
+  "hasArticle": [
+   {"@id": "http://intro2libsys.info/Article/frbrizing-an-e-library-migrating-from-dublin-core-to-frbr-and-mods"}
+  ], 
+  "issueNumber": 12, 
+  "name": "Code4Lib Journal Issue 12", 
+  "partOfPeriodical": {
+    "@id": "http://intro2libsys.info/Periodical/code4lib-journal"
+  }, 
+  "url": "http://journal.code4lib.org/issues/issues/issue19"
+}

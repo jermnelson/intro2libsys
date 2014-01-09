@@ -1,0 +1,28 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/a-few-scrambled-thoughts-about-library-web-content", 
+  "@type": "Article", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/schofield-michael"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-09T19:08:35.077000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2013, 
+  "datePublished": "2013-10-13", 
+  "headline": "A Few Scrambled Thoughts about Library Web Content", 
+  "keywords": [
+    "Content Strategy", 
+    "Web Design", 
+    "Public Libraries", 
+    "User Experience"
+  ], 
+  "url": "http://ns4lib.com/scrambled-thoughts-about-library-web-content/"
+}

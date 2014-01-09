@@ -211,7 +211,19 @@ def add_person(info,
     print("Finished adding {0}".format(info['@id']))
 
 
-
+def add_webpage(info,
+                file_location=PROJECT_HOME):
+    info['@context'] = get_context()
+    info['bf:adminInfo'] = generate_adminInfo()
+    filename = slugify(info.get('name'))
+    info['@id'] = 'http://intro2libsys.info/WebPage/{0}'.format(filename.strip())
+    with open(os.path.join(file_location,
+                           "WebPage",
+                           "{0}.json".format(
+                           filename.strip())),
+              'wb') as json_file:
+        json.dump(info, json_file, indent=2, sort_keys=True)
+    print("Finished adding {0}".format(info['@id']))
 
 def get_article(article_string):
     # Checks to see if article_string is a URI

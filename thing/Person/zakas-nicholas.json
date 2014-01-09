@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/zakas-nicholas", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-09T19:22:26.115000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "Zakas", 
+  "givenName": "Nicholas", 
+  "name": "Nicholas C. Zakas", 
+  "url": "http://intro2libsys.info/Person/NicholasZakas"
+}

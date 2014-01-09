@@ -1,0 +1,31 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/frbrizing-an-e-library-migrating-from-dublin-core-to-frbr-and-mods", 
+  "@type": "ScholarlyArticle", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/nelson-jeremy"
+    }, 
+    {
+      "@id": "http://intro2libsys.info/Person/cleary-alan"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-09T23:05:52.033000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2010, 
+  "datePublished": "2010-12-21", 
+  "headline": "FRBRizing an E-Library : Migrating from Dublin Core to FRBR and MODS", 
+  "partOfPeriodical": {
+    "@id": "http://intro2libsys.info/Periodical/code4lib-journal"
+  }, 
+  "partOfPeriodicalIssue": {
+    "@id": "http://intro2libsys.info/PeriodicalIssue/code4lib-journal-issue-12"
+  }, 
+  "url": "http://journal.code4lib.org/articles/4357"
+}

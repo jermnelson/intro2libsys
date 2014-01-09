@@ -1,0 +1,25 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/PeriodicalIssue/code4lib-journal-issue-19", 
+  "@type": "PeriodicalIssue", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-09T22:54:27.525000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "datePublished": "2013-01-15", 
+  "hasArticle": [
+    {
+      "@id": "http://intro2libsys.info/Article/building-a-library-app-portfolio-with-redis-and-django"
+    }
+  ], 
+  "issueNumber": 19, 
+  "name": "Code4Lib Journal Issue 19",
+  "partOfPeriodical": {
+    "@id": "http://intro2libsys.info/Periodical/code4lib-journal"
+  },  
+  "url": "http://journal.code4lib.org/issues/issues/issue19"
+}

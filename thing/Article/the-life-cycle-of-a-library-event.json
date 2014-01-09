@@ -1,0 +1,26 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/the-life-cycle-of-a-library-event", 
+  "@type": "Article", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/schofield-michael"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-09T19:05:24.317000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2013, 
+  "datePublished": "2013-11-23", 
+  "headline": "The Life Cycle of a Library Event", 
+  "keywords": [
+    "Content Strategy", 
+    "Web Design"
+  ], 
+  "url": "http://ns4lib.com/life-cycle-library-event/"
+}

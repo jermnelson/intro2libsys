@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/schofield-michael", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-09T19:03:23.717000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "Schofield", 
+  "givenName": "Michael", 
+  "name": "Michael Schofield", 
+  "url": "http://intro2libsys.info/Person/MichaelSchofield"
+}

@@ -13,9 +13,11 @@
     "what-is", 
     "marc21",
     "marc-xml"],
-  "resources": [
+  "readings": [
+    "marc",
     "marc21-format-bib-data",
-    "metadata-cataloging-practices"
+    "metadata-cataloging-practices",
+    "marc21rdf"
   ],
   "url": "http://intro2libsys.info/topics/marc"
 }
