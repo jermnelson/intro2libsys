@@ -123,16 +123,26 @@ def entity_view(entity,
                            comment_form = UserCommentsForm(),
                            entity=entity,
                            topics=TOPICS)
+@app.route("/JeremyNelson/services.html")
+def services():
+    return "In Services"
 
-@app.route("/JeremyNelson/<md_page>.html")
-def JeremyNelson(md_page):
-    markdown = None
-    with open(os.path.join('static',
+@app.route("/JeremyNelson/<page>.html")
+def JeremyNelson(page):
+    page_path = os.path.join('static',
                             'md',
-                            '{0}.md'.format(md_page))) as raw_md:
-        markdown = raw_md.read()
-    return render_template('markdown.html',
-                           markdown=markdown)
+                            '{0}.md'.format(page))
+    if os.path.exists(page_path):
+        with open(page_path) as raw_md:
+            raw_mrkdwn = raw_md.read()
+        meta_mrkdwn = markdown.Markdown(extensions=['meta'])
+        mrkdwn_html = meta_mrkdwn.convert(raw_mrkdwn)
+        return render_template('markdown.html',
+                                markdown=mrkdwn_html,
+                                comment_form = UserCommentsForm(),
+                                topics=TOPICS)
+    else:
+        abort(404)
 
 @app.route('/topics')
 def topics():

@@ -1,10 +1,14 @@
 JEREMY PAUL NELSON CURRICULUM VITAE
 ===================================
 
-Tutt Library 1021 North Cascade Avenue Colorado College Colorado
-Springs, CO 80903 Office Telephone: (719) 389-6895 Cell Telephone: (719)
-290-6466 Email: <jeremy.nelson@coloradocollege.edu>
-<jermnelson@gmail.com>
+Tutt Library, Colorado College<br>
+1021 North Cascade Avenue<br>
+Colorado Springs, CO 80903 
+
+Office Telephone: (719) 389-6895<br>
+Cell Telephone: (719) 290-6466 
+
+Email: <jeremy.nelson@coloradocollege.edu>, <jermnelson@gmail.com>
 
 EDUCATION
 ---------
@@ -38,39 +42,39 @@ Finance Librarianship, 9(1), 90-93
 PRESENTATIONS AND WEBINARS
 --------------------------
 Nelson, J. (October, 2013). BIBFRAME & RDA. Presentation at CALCON 2013,
-http://tuttdemo.coloradocollege.edu/calcon-2013-session/.
+<http://tuttdemo.coloradocollege.edu/calcon-2013-session/>.
 Loveland, CO
 
 Nelson, J. (September, 2013). MARC & MODS to BIBFRAME LinkedData. Presentation at ADR Metadata Day,
-http://tuttdemo.coloradocollege.edu/metadata-day-2013/.
+<http://tuttdemo.coloradocollege.edu/metadata-day-2013/>.
 Denver, CO
 
 Nelson, J. (October, 2013). Library Technology Collaboration in 2018. 
 Webinar for CALLI Cohorts,
-http://tuttdemo.coloradocollege.edu/calli-2013-presentation/.
+<http://tuttdemo.coloradocollege.edu/calli-2013-presentation/>.
 
 Nelson, J. (June, 2013). Experimenting with BIBFRAME & Redis. Presentation 
 at ALA Annual Bibliographic Framework Forum, 
-http://tuttdemo.coloradocollege.edu/ala2013/.
+<http://tuttdemo.coloradocollege.edu/ala2013/>.
 Chicago, IL
 
 Nelson, J. (April, 2013). Lightening Talk at NISO Bibliographic Roadmap.
 Baltimore, MD
 
 Nelson, J., Yeh, S. (February, 2013). Presentation at Code4Lib 2013
-Annual Conference, http://tuttdemo.coloradocollege.edu/code4lib/,
+Annual Conference, <http://tuttdemo.coloradocollege.edu/code4lib/>,
 Chicago, IL
 
 Nelson, J. (November, 2012). The Library as a Lean Start-up. University
 of Denver Student ASSIS&T TechBytes Presentation,
-http://intro2libsys.info/techbytes/, Denver, CO
+<http://intro2libsys.info/techbytes/>, Denver, CO
 
 Nelson, J., Driscoll, J. (March, 2012). Presentation at CoALA.
 Denver, CO
 
 Nelson, J. (February, 2012). NoSQL Bibliographic Records: Implementing a
 Native FRBR Datastore with Redis. Presentation at Code4Lib 2012 Annual
-Conference, http://discovery.coloradocollege.edu/code4lib/, 
+Conference, <http://discovery.coloradocollege.edu/code4lib/>, 
 Seattle, WA
 
 Dean, R. Nelson, J., Fugikawa, E. (June, 2011). The Occasional (Un)Realities of Managing,
@@ -79,7 +83,7 @@ Group presentation at Open Repositories 2011,
 https://docs.google.com/present/view?id=dcgrqjbk_276pq6hnxdx,
 Austin, TX
 
-Nelson, J. (November, 2009). Computing in the Cloud: Google App Engine for Academic Libraries .
+Nelson, J. (November, 2009). Computing in the Cloud: Google App Engine for Academic Libraries. 
 Poster session at the Colorado Library Association annual conference.
 http://docs.google.com/present/view?id=dcgrqjbk_212d9czj6c6,
 Denver, CO
@@ -267,7 +271,7 @@ service record normalization of MARC records from database vendors which
 significantly reduced the time and errors of formal manual process for
 cataloging department. Lead the development and release of a new
 open-source Discovery layer for the library's ILS with direct
-integration with college’s digital repository and other third-party
+integration with college's digital repository and other third-party
 services. Lead research and developer of the FRBR-Redis Datastore with
 end-user mobile and tablet library discovery, access, and productivity
 apps. Active contributor to campus and library committees and working
@@ -316,7 +320,6 @@ while also offering the following professional services:
     including but limited to the following Python, Flask, Django, Redis, Bootstrap,
     Knockoutjs, Redis, Solr, MySQL, Fedora Commons, MongoDB, all running on 
     Ubuntu virtual machines on both public and private clouds. 
-
 
 2009/2012 Tomichi Informatics LLC: Founder/Primary Principal. Primary
 principal in consulting and custom software development focusing on
