@@ -8,3 +8,4 @@
 intro2libsys/intro/static*
 _build*
 local_settings.*
+index/*
