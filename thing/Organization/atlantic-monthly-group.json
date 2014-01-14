@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Organization/atlantic-monthly-group", 
+  "@type": "Corporation", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-10T23:30:09.918000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "name": "Atlantic Monthly Group", 
+  "url": "http://www.theatlantic.com/"
+}

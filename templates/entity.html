@@ -86,6 +86,12 @@
      URL is <a href="{{ entity.url }}" itemprop="url">{{ entity.url }}</a>
     {% endif %}
     </p>
+    {% if entity.keywords %}
+    <p>
+     <strong>Keywords:</strong>
+     {{ ', '.join(entity.keywords) }}
+    </p>
+    {% endif %}
     <p>
     {% for item in entity %}
     {{ item }}

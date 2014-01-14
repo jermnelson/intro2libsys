@@ -19,9 +19,7 @@
   "name": "The Atlantic Magazine", 
   "headline": "As We May Think",
   "publisher": {
-    "@type": "Corporation",
-    "name": "The Atlantic Monthly Group",
-    "url": "http://www.theatlantic.com/" 
+    "@id": "http://intro2libsys.info/Organization/atlantic-monthly-group"
   },
   "url": "http://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/"
 }
