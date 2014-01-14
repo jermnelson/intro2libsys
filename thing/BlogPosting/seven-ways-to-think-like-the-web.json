@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/BlogPosting/seven-ways-to-think-like-the-web", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/udell-jon"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-14T05:24:16.483430", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2011, 
+  "datePublished": "2011-01-24", 
+  "headline": "Seven ways to think like the web", 
+  "url": "http://blog.jonudell.net/2011/01/24/seven-ways-to-think-like-the-web/"
+}
