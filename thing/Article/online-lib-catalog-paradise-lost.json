@@ -4,7 +4,7 @@
   }, 
   "@id": "http://intro2libsys.info/Article/online-lib-catalog-paradise-lost", 
   "@type": "http://schema.org/ScholarlyArticle", 
-  "authors": [
+  "author": [
     {
      "@id": "http://intro2libsys.info/Person/markey-karen"
     }
