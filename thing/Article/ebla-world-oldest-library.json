@@ -17,8 +17,7 @@
   "name": "The Journal of Library History (1974-1987)",
   "pages": {"start": 488, "end": 500},
   "publisher": {
-    "@type": "NGO",
-    "name": "University of Texas Press"
+    "@id": "http://intro2libsys.info/Organization/university-of-texas-press"
   },
   "url": "http://www.jstor.org/stable/25541212"
 }

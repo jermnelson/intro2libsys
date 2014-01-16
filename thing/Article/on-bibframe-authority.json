@@ -15,14 +15,7 @@
   "headline": "On BIBFRAME Authority", 
   "name": "on-bibframe-authority", 
   "publisher": {
-    "@type": "GovernmentOrganization", 
-    "address": {
-      "@type": "PostalAddress", 
-      "addressLocality": "Washington", 
-      "addressRegion": "DC"
-    }, 
-    "name": "Library of Congress", 
-    "url": "http://loc.gov/"
+    "@id": "http://intro2libsys.info/Organization/library-of-congress" 
   }, 
   "url": "http://bibframe.org/documentation/bibframe-authority/"
 }

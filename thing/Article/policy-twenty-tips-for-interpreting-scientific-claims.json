@@ -5,7 +5,7 @@
   }, 
   "@id": "http://intro2libsys.info/Article/policy-twenty-tips-for-interpreting-scientific-claims", 
   "@type": "Article", 
-  "authors": [
+  "author": [
     {
       "@id": "http://intro2libsys.info/Person/sutherland-william"
     }, 

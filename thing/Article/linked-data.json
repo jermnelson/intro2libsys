@@ -1,9 +1,8 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "idloc": "http://id.loc.gov"
+    "@vocab": "http://schema.org/" 
   }, 
-  "@id": "http://intro2libsys.info/resources/linked-data", 
+  "@id": "http://intro2libsys.info/Article/linked-data", 
   "@type": "TechArticle", 
   "author": [
     {

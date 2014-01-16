@@ -1,9 +1,8 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "idloc": "http://id.loc.gov"
+    "@vocab": "http://schema.org/" 
   }, 
-  "@id": "http://intro2libsys.info/resources/improving-ux-through-front-end-performance", 
+  "@id": "http://intro2libsys.info/Article/improving-ux-through-front-end-performance", 
   "@type": "Article", 
   "author": [
     {

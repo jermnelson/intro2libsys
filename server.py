@@ -16,6 +16,7 @@ from flask import abort, Flask, g, jsonify, redirect, render_template, request
 from flask.ext.login import LoginManager, login_user, login_required, logout_user
 from flask.ext.login import make_secure_token, UserMixin, current_user
 
+from search import Search
 
 
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
@@ -106,9 +107,8 @@ def entity_comment_add(entity,
 def entity_view(entity,
                 name):
     ""
-
+    entity_class = entity
     if not entity in THINGS or not name in THINGS[entity]:
-        print(entity, name, THINGS[entity].keys())
         abort(404)
     entity = THINGS[entity][name]
     for i, person_id in enumerate(entity.get('author', [])):
@@ -122,6 +122,7 @@ def entity_view(entity,
                                entity_id=entity.get('@id')),
                            comment_form = UserCommentsForm(),
                            entity=entity,
+                           entity_class=entity_class,
                            topics=TOPICS)
 @app.route("/JeremyNelson/services.html")
 def services():
@@ -208,9 +209,22 @@ def entity_listing(entity):
 @app.route('/search',
            methods=['POST', 'GET'])
 def search():
-    results = None
+    if 'query' in request.args:
+        query_phrase = request.args.get('query')
+    elif 'query' in request.form:
+        query_phrase = request.form.get('query')
+    else:
+        query_phrase = ''
+    if 'page' in request.args:
+        page = request.args.get('page')
+    elif 'page' in request.form:
+        page = request.form.get('page')
+    else:
+        page = 1
+    results = Search(query_phrase, page)
     return render_template('search.html',
                            comment_form = UserCommentsForm(),
+                           query_phrase=query_phrase,
                            results=results,
                            topics=TOPICS)
 
