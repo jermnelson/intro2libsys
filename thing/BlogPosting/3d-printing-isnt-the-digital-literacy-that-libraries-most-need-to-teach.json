@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/BlogPosting/3d-printing-isnt-the-digital-literacy-that-libraries-most-need-to-teach", 
+  "author": [
+    {
+      "@id": "\"http://intro2libsys.info/Person/udell-jon\""
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-16T13:57:43.823998", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2014, 
+  "datePublished": "2014-01-17", 
+  "headline": "3D printing isn't the digital literacy that libraries most need to teach", 
+  "url": "http://blog.jonudell.net/2014/01/07/3d-printing-isnt-the-digital-literacy-that-libraries-most-need-to-teach/"
+}
