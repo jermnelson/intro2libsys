@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Introduction to Library Systems</title>
+    <title>Introduction to Library Systems {% block view_title %}{% endblock %}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <!-- Latest compiled and minified CSS -->
@@ -21,13 +21,15 @@
     <h1></h1>
     </div>
     {% endblock %}
+    
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
    <script src="https://code.jquery.com/jquery.js"></script>
    <script src="https://raw2.github.com/coreyti/showdown/master/compressed/showdown.js"></script>
-   <script src="{{ url_for('static', filename='js/data-markdown.user.js') }}"></script>
    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
    <script src="//cdnjs.cloudflare.com/ajax/libs/knockout/2.3.0/knockout-min.js"></script>
    {% block more_js %}{% endblock %}
    {% include "snippets/comment-dlg.html" %}
+   {% block dialogs %}{% endblock %}
+
   </body>
 </html>

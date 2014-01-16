@@ -70,6 +70,14 @@ def local_url(absolute_url):
     result = urllib2.urlparse.urlparse(absolute_url)
     return result.path
 
+# Catalog Pull Platform
+@app.route("/catalog-pull-platform")
+def catalog_pull_platform():
+
+    return render_template('catalog-pull-platform.html',
+                           comment_form = UserCommentsForm(),
+                           topics=TOPICS)
+
 
 @app.route("/<entity>/<name>.json")
 def entity_json_view(entity,
@@ -124,6 +132,7 @@ def entity_view(entity,
                            entity=entity,
                            entity_class=entity_class,
                            topics=TOPICS)
+
 @app.route("/JeremyNelson/services.html")
 def services():
     return "In Services"
