@@ -108,7 +108,6 @@ def Search(query_string,
         output['total'] = len(results)
         for i, hit in enumerate(results):
             fields = hit.fields()
-            print(fields.get('creator'), fields.get('keywords'))
             output['hits'].append({'uri': fields.get('resource_key'),
                                    'name': fields.get('name'),
                                    'creator': fields.get('creator').split(",")})

@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Organization/library-journal", 
+  "@type": "Organization", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-18T00:14:36.479000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "name": "Library Journal", 
+  "url": "http://lj.libraryjournal.com/"
+}

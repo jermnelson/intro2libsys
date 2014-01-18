@@ -50,6 +50,22 @@ def author_name(author_id):
     author = THINGS['Person'][author_id]
     return author.get('name')
 
+@app.template_filter('copyright_year')
+def copyright_year(thing_id):
+    thing_key = thing_id.split("/")[-1]
+    for key in THINGS.keys():
+        if thing_key in THINGS[key]:
+            if 'copyrightYear' in THINGS[key][thing_key]:
+                return THINGS[key][thing_key].get('copyrightYear')
+            # Tries date published, usually in YYYY-MM-DD
+            elif 'datePublished' in THINGS[key][thing_key]:
+                first_four = THINGS[key][thing_key]['datePublished'][0:4]
+                try:
+                    int(first_four)
+                    return first_four
+                except:
+                    pass
+
 @app.template_filter('organization_name')
 def organization_name(org_id):
     """

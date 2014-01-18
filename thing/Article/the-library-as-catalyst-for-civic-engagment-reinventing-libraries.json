@@ -14,9 +14,7 @@
   "headline": "The Library as Catalyst for Civic Engagment | Reinventing Libraries", 
   "name": "the-library-as-catalyst-for-civic-engagment-reinventing-libraries", 
   "publisher": {
-    "@type": "Organization", 
-    "name": "Library Journal", 
-    "url": "http://lj.libraryjournal.com/"
+    "@id": "http://intro2libsys.info/Organization/library-journal" 
   }, 
   "url": "http://lj.libraryjournal.com/2013/09/future-of-libraries/the-library-as-catalyst-for-civic-engagment-reinventing-libraries/"
 }
