@@ -1,0 +1,31 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/making-it", 
+  "@type": "Article", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/morozov-evgeny"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-19T14:59:55.200706", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2014, 
+  "datePublished": "2014-01-13", 
+  "headline": "Making It", 
+  "keywords": [
+    "Hacking", 
+    "Arts and Crafts", 
+    "Books", 
+    "Personal Manufacturing", 
+    "Stewart Brand", 
+    "Makers", 
+    "Chris Anderson"
+  ], 
+  "url": "http://www.newyorker.com/arts/critics/atlarge/2014/01/13/140113crat_atlarge_morozov?currentPage=all"
+}
