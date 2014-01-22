@@ -4,6 +4,7 @@
     "bf": "http://bibframe.org/vocab/"
   }, 
   "@id": "http://intro2libsys.info/Person/blum-dan", 
+  "@type": "Person", 
   "bf:adminInfo": {
     "bf:creationDate": "2014-01-08T23:13:36.045000", 
     "bf:descriptionConventions": "Using schema.org for descriptive metadata", 

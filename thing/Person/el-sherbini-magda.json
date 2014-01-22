@@ -4,6 +4,7 @@
     "bf": "http://bibframe.org/vocab/"
   }, 
   "@id": "http://intro2libsys.info/Person/el-sherbini-magda", 
+  "@type": "Person", 
   "bf:adminInfo": {
     "bf:creationDate": "2014-01-09T00:12:25.448000", 
     "bf:descriptionConventions": "Using schema.org for descriptive metadata", 

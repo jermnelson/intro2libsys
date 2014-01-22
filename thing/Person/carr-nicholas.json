@@ -5,6 +5,7 @@
     "idloc": "http://id.loc.gov"
   }, 
   "@id": "http://intro2libsys.info/Person/carr-nicholas", 
+  "@type": "Person", 
   "bf:adminInfo": {
     "bf:creationDate": "2013-12-21T22:39:00.245744", 
     "bf:descriptionConventions": "Using schema.org for descriptive metadata", 

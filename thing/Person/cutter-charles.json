@@ -5,6 +5,7 @@
     "idloc": "http://id.loc.gov"
   }, 
   "@id": "http://intro2libsys.info/Person/cutter-charles", 
+  "@type": "Person", 
   "bf:adminInfo": {
     "bf:creationDate": "2013-12-18T16:46:43.443000", 
     "bf:descriptionConventions": "Using schema.org for descriptive metadata", 

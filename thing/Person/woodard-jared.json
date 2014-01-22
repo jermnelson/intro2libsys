@@ -4,6 +4,7 @@
     "bf": "http://bibframe.org/vocab/"
   }, 
   "@id": "http://intro2libsys.info/Person/woodard-jared", 
+  "@type": "Person", 
   "bf:adminInfo": {
     "bf:creationDate": "2013-12-18T16:42:02.115000", 
     "bf:descriptionConventions": "Using schema.org for descriptive metadata", 

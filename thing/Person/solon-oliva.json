@@ -4,6 +4,7 @@
     "bf": "http://bibframe.org/vocab/"
   }, 
   "@id": "http://intro2libsys.info/Person/solon-oliva", 
+  "@type": "Person", 
   "bf:adminInfo": {
     "bf:creationDate": "2014-01-06T17:59:00.220000", 
     "bf:descriptionConventions": "Using schema.org for descriptive metadata", 

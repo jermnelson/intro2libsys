@@ -4,6 +4,7 @@
     "bf": "http://bibframe.org/vocab/"
   }, 
   "@id": "http://intro2libsys.info/Person/budish-ryan", 
+  "@type": "Person", 
   "bf:adminInfo": {
     "bf:creationDate": "2013-12-20T18:56:17.520000", 
     "bf:descriptionConventions": "Using schema.org for descriptive metadata", 

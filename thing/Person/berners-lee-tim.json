@@ -5,6 +5,7 @@
     "idloc": "http://id.loc.gov"
   }, 
   "@id": "http://intro2libsys.info/Person/berners-lee-tim", 
+  "@type": "Person", 
   "bf:adminInfo": {
     "bf:creationDate": "2013-12-18T16:51:11.197000", 
     "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
@@ -12,8 +13,8 @@
   }, 
   "familyName": "Berners-Lee", 
   "givenName": "Tim", 
-  "honorificPrefix": "Sir",
+  "honorificPrefix": "Sir", 
   "idloc:url": "http://id.loc.gov/authorities/names/no99010609", 
-  "name": "Sir Tim Berners-Lee",
+  "name": "Sir Tim Berners-Lee", 
   "url": "http://intro2libsys.info/Person/TimBerners-Lee"
 }

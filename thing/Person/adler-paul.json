@@ -4,6 +4,7 @@
     "bf": "http://bibframe.org/vocab/"
   }, 
   "@id": "http://intro2libsys.info/Person/adler-paul", 
+  "@type": "Person", 
   "bf:adminInfo": {
     "bf:creationDate": "2014-01-21T13:50:57.964239", 
     "bf:descriptionConventions": "Using schema.org for descriptive metadata", 

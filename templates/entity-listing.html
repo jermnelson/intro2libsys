@@ -15,7 +15,11 @@
      - {% if row.author %}by
         {% for person in row.author %}{{ person['@id']|author_name|safe }} {% endfor %}{% endif %} 
     {% if row.datePublished %}<strong>Date Published:</strong> {{ row.datePublished }}{% endif %}
-
+    {% if row['@type'] == 'Person' %}
+     {% for work,count in  (row['@id']|author_works).iteritems() %}
+      {{ count }} {{ work }}s
+     {% endfor %} 
+    {% endif %}
    </li>  
    {% endfor %}
    </ol>

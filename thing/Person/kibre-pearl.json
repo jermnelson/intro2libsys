@@ -5,6 +5,7 @@
     "idloc": "http://id.loc.gov"
   }, 
   "@id": "http://intro2libsys.info/Person/kibre-pearl", 
+  "@type": "Person", 
   "bf:adminInfo": {
     "bf:creationDate": "2014-01-08T23:18:06.227000", 
     "bf:descriptionConventions": "Using schema.org for descriptive metadata", 

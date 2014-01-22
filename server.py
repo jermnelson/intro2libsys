@@ -8,19 +8,27 @@ import datetime
 import json
 import markdown
 import os
+import redis
+import sys
 import urllib2
-from thing import get_article, THINGS
-from thing.UserInteraction import UserCommentsForm, add_comment, get_comments
-from topics import TOPICS
+
+try:
+    REDIS_DS = redis.StrictRedis(port=6380)
+except:
+    REDIS_DS = None
+
 from flask import abort, Flask, g, jsonify, redirect, render_template, request
 from flask.ext.login import LoginManager, login_user, login_required, logout_user
 from flask.ext.login import make_secure_token, UserMixin, current_user
 
-from search import Search
-
-
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 PROJECT_HOME = os.path.split(PROJECT_ROOT)[0]
+
+sys.path.append(os.path.join(PROJECT_HOME, 'intro2libsys'))
+from search import Search
+from thing import get_article, THINGS
+from thing.UserInteraction import UserCommentsForm, add_comment, get_comments
+from topics import TOPICS
 
 app = Flask(__name__)
 app.config.from_pyfile('intro2libsys.cfg')
@@ -49,6 +57,20 @@ def author_name(author_id):
         return
     author = THINGS['Person'][author_id]
     return author.get('name')
+
+@app.template_filter('author_works')
+def author_works(author_id):
+    author_id = author_id.split("/")[-1]
+    if not author_id in THINGS['Person'] or REDIS_DS is None:
+        return
+    all_work_keys = REDIS_DS.keys("{0}:*".format(author_id))
+    totals = {}
+    for row in all_work_keys:
+        cw_type = row.split(":")[-1]
+        totals[cw_type] = REDIS_DS.scard(row)
+    return totals
+
+
 
 @app.template_filter('copyright_year')
 def copyright_year(thing_id):

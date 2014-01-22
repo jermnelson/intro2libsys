@@ -4,6 +4,7 @@
     "bf": "http://bibframe.org/vocab/"
   }, 
   "@id": "http://intro2libsys.info/Person/beall-jeffrey", 
+  "@type": "Person", 
   "bf:adminInfo": {
     "bf:creationDate": "2013-12-20T19:18:41.721000", 
     "bf:descriptionConventions": "Using schema.org for descriptive metadata", 

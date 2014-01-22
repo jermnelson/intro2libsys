@@ -5,6 +5,7 @@
     "idloc": "http://id.loc.gov"
   }, 
   "@id": "http://intro2libsys.info/Person/panizzi-antonio", 
+  "@type": "Person", 
   "bf:adminInfo": {
     "bf:creationDate": "2013-12-18T16:44:19.426000", 
     "bf:descriptionConventions": "Using schema.org for descriptive metadata", 

@@ -4,6 +4,7 @@
     "bf": "http://bibframe.org/vocab/"
   }, 
   "@id": "http://intro2libsys.info/Person/isaacson-david", 
+  "@type": "Person", 
   "bf:adminInfo": {
     "bf:creationDate": "2013-12-18T16:34:04.168000", 
     "bf:descriptionConventions": "Using schema.org for descriptive metadata", 

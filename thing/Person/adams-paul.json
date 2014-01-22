@@ -4,6 +4,7 @@
     "bf": "http://bibframe.org/vocab/"
   }, 
   "@id": "http://intro2libsys.info/Person/adams-paul", 
+  "@type": "Person",
   "bf:adminInfo": {
     "bf:creationDate": "2014-01-08T21:51:51.852000", 
     "bf:descriptionConventions": "Using schema.org for descriptive metadata", 

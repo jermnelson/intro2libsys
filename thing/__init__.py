@@ -9,7 +9,6 @@ import urllib2
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 PROJECT_HOME = os.path.split(PROJECT_ROOT)[0]
 
-
 THINGS = { 'Article': {},
            'BlogPosting': {},
            'Book': {},
@@ -190,6 +189,8 @@ def add_periodical_issue(info,
 def add_person(info,
                file_location=PROJECT_HOME):
     info['@context'] = get_context()
+    if not '@type' in info:
+        info['@type'] = 'Person'
     info['bf:adminInfo'] = generate_adminInfo()
     if 'idloc:url' in info:
         info['@context']['idloc'] = "http://id.loc.gov"

@@ -5,6 +5,7 @@
     "idloc": "http://id.loc.gov"
   }, 
   "@id": "http://intro2libsys.info/Person/bizer-christian", 
+  "@type": "Person", 
   "bf:adminInfo": {
     "bf:creationDate": "2013-12-21T22:51:08.530833", 
     "bf:descriptionConventions": "Using schema.org for descriptive metadata", 

@@ -5,6 +5,7 @@
     "idloc": "http://id.loc.gov"
   }, 
   "@id": "http://intro2libsys.info/Person/dohaish-abdullatif", 
+  "@type": "Person", 
   "bf:adminInfo": {
     "bf:creationDate": "2013-12-19T00:05:44.992000", 
     "bf:descriptionConventions": "Using schema.org for descriptive metadata", 

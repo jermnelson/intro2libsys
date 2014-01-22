@@ -10,7 +10,7 @@
     "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
     "bf:descriptionLanguage": "English"
   }, 
-  "creator": [
+  "author": [
     {
       "@id": "http://intro2libsys.info/Person/wilson-greg"
     }

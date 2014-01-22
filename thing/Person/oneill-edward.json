@@ -4,6 +4,7 @@
     "bf": "http://bibframe.org/vocab/"
   }, 
   "@id": "http://intro2libsys.info/Person/oneill-edward", 
+  "@type": "Person", 
   "bf:adminInfo": {
     "bf:creationDate": "2014-01-07T17:19:07.159000", 
     "bf:descriptionConventions": "Using schema.org for descriptive metadata", 

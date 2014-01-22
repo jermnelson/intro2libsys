@@ -4,6 +4,7 @@
     "bf": "http://bibframe.org/vocab/"
   }, 
   "@id": "http://intro2libsys.info/Person/morozov-evgeny", 
+  "@type": "Person", 
   "bf:adminInfo": {
     "bf:creationDate": "2014-01-19T14:48:53.384548", 
     "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
