@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/perseverance-and-disrupting-big-tech", 
+  "@type": "Article", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/sinofsky-steven"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-23T17:54:35.049000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2014, 
+  "datePublished": "2014-01-19", 
+  "headline": "Perseverance and Disrupting Big Tech", 
+  "url": "http://www.linkedin.com/today/post/article/20140119170759-2293107-perseverance-and-disrupting-big-tech"
+}

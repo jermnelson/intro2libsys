@@ -18,6 +18,7 @@ except:
     REDIS_DS = None
 
 from flask import abort, Flask, g, jsonify, redirect, render_template, request
+from flask import url_for
 from flask.ext.login import LoginManager, login_user, login_required, logout_user
 from flask.ext.login import make_secure_token, UserMixin, current_user
 
@@ -171,12 +172,11 @@ def entity_view(entity,
                            entity_class=entity_class,
                            topics=TOPICS)
 
-@app.route("/JeremyNelson/services.html")
-def services():
-    return "In Services"
 
 @app.route("/JeremyNelson/<page>.html")
-def JeremyNelson(page):
+def JeremyNelson(page=None):
+    if not page:
+        return url_for('page_router', page='about')
     page_path = os.path.join('static',
                             'md',
                             '{0}.md'.format(page))

@@ -12,6 +12,8 @@ PROJECT_HOME = os.path.split(PROJECT_ROOT)[0]
 THINGS = { 'Article': {},
            'BlogPosting': {},
            'Book': {},
+           'DataCatalog': {},
+           'Dataset': {},
            'MediaObject': {},
            'Organization': {},
            'Person': {},
