@@ -1,7 +1,0 @@
-{% load i18n %}
-<li><a href="/about">About</a></li>
-{% comment %}
-<li {% if page.name == 'instructor' %}class="active"{% endif %}><a href="{% url background-instructor %}">{% trans "Instructor" %}</a></li>
-<li {% if page.name == 'prerequisites' %}class="active"{% endif %}><a href="{% url background-prerequisites %}">{% trans "Prerequisites" %}</a></li>
-<li {% if page.name == 'syllabus' %}class="active"{% endif %}><a href="{% url background-syllabus %}">{% trans "Syllabus" %}</a></li>
-{% endcomment %}

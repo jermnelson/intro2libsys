@@ -1,2 +1,0 @@
-JSON in Linked Data
--------------------

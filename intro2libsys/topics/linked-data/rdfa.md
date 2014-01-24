@@ -1,4 +1,0 @@
-Title: RDFa
-
-RDFa
-----

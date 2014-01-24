@@ -1,2 +1,0 @@
-Examples of RDA Records
------------------------
