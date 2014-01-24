@@ -1,0 +1,762 @@
+{
+  "2014-01-15": [
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/a-few-scrambled-thoughts-about-library-web-content"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document A Few Scrambled Thoughts about Library Web Content into Whoosh", 
+      "schema:startDate": "2014-01-15T23:08:51.712000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/a-very-brief-introduction-to-open-access"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document A Very Brief Introduction to Open Access into Whoosh", 
+      "schema:startDate": "2014-01-15T23:13:55.183000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/amazon-workers-face-increased-risk-of-mental-illness"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document Amazon workers face 'increased risk of mental illness' into Whoosh", 
+      "schema:startDate": "2014-01-15T23:18:16.136000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/as-we-may-think"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document As We May Think into Whoosh", 
+      "schema:startDate": "2014-01-15T23:20:44.368000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/automation-marketplace-2012-agents-of-change"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document Agents of Change Automation Marketplace 2012 into Whoosh", 
+      "schema:startDate": "2014-01-15T23:23:46.364000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/automation-marketplace-2013-rush-to-innovate"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document Automation Marketplace 2013: The Rush to Innovate into Whoosh", 
+      "schema:startDate": "2014-01-15T23:25:36.113000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/avoid-category-names-that-suck"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document Avoid Category Names That Suck into Whoosh", 
+      "schema:startDate": "2014-01-15T23:28:53.455000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/avoiding-digital-dark-age"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document Avoiding a Digital Dark Age into Whoosh", 
+      "schema:startDate": "2014-01-15T23:31:12.036000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/banner-blindness-old-and-new-findings"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document Banner Blindness: Old and New Findings into Whoosh", 
+      "schema:startDate": "2014-01-15T23:39:28.025000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/bibframe-annotation-model"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document BIBFRAME Annotation Model into Whoosh", 
+      "schema:startDate": "2014-01-15T23:41:11.981000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/bibframe-resource-types-discussion-paper"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document BIBFRAME Resource Types Discussion Paper into Whoosh", 
+      "schema:startDate": "2014-01-15T23:42:49.409000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/bibframe-use-cases-and-requirements"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document BIBFRAME Use Cases and Requirements into Whoosh", 
+      "schema:startDate": "2014-01-15T23:44:00.612000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/born-digital-projects-need-attention-to-survive"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document Born Digital, Projects Need Attention to Survive into Whoosh", 
+      "schema:startDate": "2014-01-15T23:51:53.758000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/business-academic-publishing"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document The Business of Academic Publishing: A Strategic Analysis of the Academic Journal Publishing Industry and its Impact on the Future of Scholarly Publishing into Whoosh", 
+      "schema:startDate": "2014-01-15T23:53:40.592000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/coherency-in-contradiction"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document Coherency in contradiction into Whoosh", 
+      "schema:startDate": "2014-01-15T23:56:42.774000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/cool-uris-for-the-semantic-web"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document Cool URIs for the Semantic Web into Whoosh", 
+      "schema:startDate": "2014-01-15T23:58:40.546000", 
+      "storageMedium": "har"
+    }
+  ], 
+  "2014-01-16": [
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/discoverability-not-discovery-is-publishings-next-big-challenge"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document Discoverability, Not Discovery, Is Publishing's Next Big Challenge into Whoosh", 
+      "schema:startDate": "2014-01-16T00:01:53.282000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/douglas-county-model-gives-libraries-new-e-book-leverage"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document \"Douglas County Model\" gives libraries new e-book leverage into Whoosh", 
+      "schema:startDate": "2014-01-16T00:07:11.247000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/ec2-for-poets"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document EC2 for Poets into Whoosh", 
+      "schema:startDate": "2014-01-16T00:11:39.651000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/elsevier-clamps-down-on-academics-posting-their-own-papers-online"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document Elsevier clamps down on academics posting their own papers online into Whoosh", 
+      "schema:startDate": "2014-01-16T00:13:35.869000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/evaluating-usage-library-networked-electronic-resources"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document Evaluating the Usage of Library Networked Electronic Resources into Whoosh", 
+      "schema:startDate": "2014-01-16T00:15:52.154000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/everything-in-right-pace"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document Everything in its Right Pace into Whoosh", 
+      "schema:startDate": "2014-01-16T00:17:32", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/experiments-with-the-ifla-functional-requirements-for-bibliographic-records-frbr"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document Experiments with the IFLA Functional Requirements for Bibliographic Records (FRBR) into Whoosh", 
+      "schema:startDate": "2014-01-16T00:19:21.956000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/frbrizing-an-e-library-migrating-from-dublin-core-to-frbr-and-mods"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document FRBRizing an E-Library : Migrating from Dublin Core to FRBR and MODS into Whoosh", 
+      "schema:startDate": "2014-01-16T00:21:05.440000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/from-exponential-technologies-to-exponential-innovation"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document From exponential technologies to exponential innovation into Whoosh", 
+      "schema:startDate": "2014-01-16T00:23:08.511000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/future-apps-web"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document The Future of Apps and Web into Whoosh", 
+      "schema:startDate": "2014-01-16T00:25:15.704000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/future-publishing-veteran-perspective"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document The Future of Publishing - A Veteran's Perspective into Whoosh", 
+      "schema:startDate": "2014-01-16T00:28:45.287000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/future-u-lib-3"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document Future U: Library 3.0 has more resources, greater challenges into Whoosh", 
+      "schema:startDate": "2014-01-16T00:31:02.584000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/future-u-rise-dig-humanities"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document Future U: Rise of the digital humanities into Whoosh", 
+      "schema:startDate": "2014-01-16T00:32:14.292000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/futures-thinking-basics"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document Futures Thinking: The Basics into Whoosh", 
+      "schema:startDate": "2014-01-16T00:33:36.295000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/gartner-reveals-top-predications-2012"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document Gartner Reveals Top Predictions for IT Organizations and Users for 2012 and Beyond into Whoosh", 
+      "schema:startDate": "2014-01-16T00:35:10.233000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/getting-real-agile-design"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document Getting Real About Agile Design into Whoosh", 
+      "schema:startDate": "2014-01-16T00:37:33.136000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/how-americans-value-public-libraries-in-their-communities"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document How Americans Value Public Libraries in Their Communities into Whoosh", 
+      "schema:startDate": "2014-01-16T00:40:09.134000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": ""
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document  into Whoosh", 
+      "schema:startDate": "2014-01-16T00:50:51.026000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/how-do-e-books-change-the-reading-experience"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document http://intro2libsys.info/Article/how-do-e-books-change-the-reading-experience into Whoosh", 
+      "schema:startDate": "2014-01-16T01:04:19.338000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/how-netflix-reverse-engineered-hollywood"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document How Netflix Reverse Engineered Hollywood into Whoosh", 
+      "schema:startDate": "2014-01-16T01:06:42.674000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/how-to-defeat-big-brother"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document How to defeat Big Brother into Whoosh", 
+      "schema:startDate": "2014-01-16T01:08:52.845000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/hybrid-it-cloud-services-transforming-it"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document Hybrid IT: How Internal and External Cloud Services Are Transforming IT into Whoosh", 
+      "schema:startDate": "2014-01-16T01:11:07.869000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/improving-ux-through-front-end-performance"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document Improving UX Through Front-End Performance into Whoosh", 
+      "schema:startDate": "2014-01-16T01:16:32.438000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/ins-and-outs-of-evaluating-web-scale-discovery-services"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document The Ins and Outs of Evaluating Web-Scale Discovery Services into Whoosh", 
+      "schema:startDate": "2014-01-16T01:23:54.233000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/intro-relational-databases"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document Introduction to Relational Databases into Whoosh", 
+      "schema:startDate": "2014-01-16T01:29:55.261000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/its-time-to-take-mesh-networks-seriously"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document It's Time to Take Mesh Networks Seriously into Whoosh", 
+      "schema:startDate": "2014-01-16T01:31:33.110000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/librarians-face-existential-crisis"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document Librarians face existential crisis into Whoosh", 
+      "schema:startDate": "2014-01-16T01:33:15.822000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/library-of-utopia"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document The Library of Utopia into Whoosh", 
+      "schema:startDate": "2014-01-16T02:50:03.290000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/library-technology-forecast-for-2014-and-beyond"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document Library Technology Forecast for 2014 and Beyond into Whoosh", 
+      "schema:startDate": "2014-01-16T02:52:09.388000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/life-after-amazon"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document Life After Amazon into Whoosh", 
+      "schema:startDate": "2014-01-16T02:53:22.134000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/linked-data"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document Linked Data into Whoosh", 
+      "schema:startDate": "2014-01-16T02:55:52.836000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/mobile-native-apps-web-apps-and-hybrid-apps"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document Mobile: Native Apps, Web Apps, and Hybrid Apps into Whoosh", 
+      "schema:startDate": "2014-01-16T02:57:46.982000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/on-bibframe-authority"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document On BIBFRAME Authority into Whoosh", 
+      "schema:startDate": "2014-01-16T03:04:35.443000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/online-catalog-design-models"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document Online Catalog Design Models: Are We Moving in the Right Direction? into Whoosh", 
+      "schema:startDate": "2014-01-16T03:09:30.696000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/online-lib-catalog-paradise-lost"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document The Online Library Catalog Paradise Lost and Paradise Regained? into Whoosh", 
+      "schema:startDate": "2014-01-16T03:11:24.301000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/opening-up-next-steps-for-moocs-and-libraries"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document Opening Up | Next Steps for MOOCs and Libraries into Whoosh", 
+      "schema:startDate": "2014-01-16T03:12:41.091000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/policy-twenty-tips-for-interpreting-scientific-claims"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document Policy: Twenty tips for interpreting scientific claims into Whoosh", 
+      "schema:startDate": "2014-01-16T03:15:47.825000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/post-artifact-books-and-publishing"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document Post-Artifact Books and Publishing: Digital's effect on how we produce, distribute and consume content. into Whoosh", 
+      "schema:startDate": "2014-01-16T03:18:05.754000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/power-laws-weblogs-and-inequality"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document Power Laws, Weblogs, and Inequality into Whoosh", 
+      "schema:startDate": "2014-01-16T03:22:53.929000", 
+      "storageMedium": "har"
+    }
+  ], 
+  "2014-01-17": [
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/primer-ab-testing"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document A Primer on A/B Testing into Whoosh", 
+      "schema:startDate": "2014-01-17T21:48:52.556000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/principles-of-transparency-and-best-practice-in-scholarly-publishing"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document Principles of Transparency and Best Practice in Scholarly Publishing into Whoosh", 
+      "schema:startDate": "2014-01-17T21:53:17.982000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/rdfa-primer"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document RDFa 1.1 Primer - Second Edition into Whoosh", 
+      "schema:startDate": "2014-01-17T21:56:25.537000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/retooling-libraries-for-the-data-challenge"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document Retooling libraries for the data challenge into Whoosh", 
+      "schema:startDate": "2014-01-17T23:02:42.246000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/self-service-libraries-to-allow-night-time-checkouts"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document Self-service libraries to allow night-time checkouts into Whoosh", 
+      "schema:startDate": "2014-01-17T23:05:42.103000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/semantic-web"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document The Semantic Web into Whoosh", 
+      "schema:startDate": "2014-01-17T23:24:06.852000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/siege-of-academe"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document The Siege of Academe into Whoosh", 
+      "schema:startDate": "2014-01-17T23:41:34.789000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/speaking-the-same-language-building-a-data-governance-program-for-institutional-impact"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document Speaking the Same Language: Building a Data Governance Program for Institutional Impact into Whoosh", 
+      "schema:startDate": "2014-01-17T23:43:37.958000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/special-considerations-individual-user"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document Special considerations of the individual as a user, generator, and retriever of information into Whoosh", 
+      "schema:startDate": "2014-01-17T23:47:43.217000", 
+      "storageMedium": "har"
+    }
+  ], 
+  "2014-01-18": [
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/success-or-struggle-roa-as-a-true-measure-of-business-performance"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document Success or struggle: ROA as a true measure of business performance into Whoosh", 
+      "schema:startDate": "2014-01-18T00:00:55.330000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/the-information\""
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document The Information: How the Internet gets inside us into Whoosh", 
+      "schema:startDate": "2014-01-18T00:04:19.491000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/the-ins-and-outs-of-evaluating-web-scale-discovery-services"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document The Ins and Outs of Evaluating Web-Scale Discovery Services into Whoosh", 
+      "schema:startDate": "2014-01-18T00:05:57.136000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/the-lean-ux-manifesto-principle-driven-design"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document The Lean UX Manifesto: Principle-Driven Design into Whoosh", 
+      "schema:startDate": "2014-01-18T00:11:32.771000", 
+      "storageMedium": "har"
+    }
+  ], 
+  "@context": {
+    "@vocab": "http://id.loc.gov/vocabulary/preservation", 
+    "schema": "http://schema.org"
+  }
+}
