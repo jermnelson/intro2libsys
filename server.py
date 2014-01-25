@@ -157,7 +157,13 @@ def entity_view(entity,
     entity_class = entity
     if not entity in THINGS or not name in THINGS[entity]:
         abort(404)
-    entity = THINGS[entity][name]
+    entity_filepath = os.path.join(PROJECT_ROOT,
+                                   "thing",
+                                   entity,
+                                   "{0}.json".format(name))
+    if not os.path.exists(entity_filepath):
+        abort(404)
+    entity = json.load(open(entity_filepath))
     for i, person_id in enumerate(entity.get('author', [])):
         author_id = person_id['@id'].split("/")[-1]
         if not author_id in THINGS['Person']:
