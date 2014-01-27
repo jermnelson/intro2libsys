@@ -6,7 +6,7 @@ Tutt Library, Colorado College<br>
 Colorado Springs, CO 80903 
 
 Office Telephone: (719) 389-6895<br>
-Cell Telephone: (719) 290-6466 
+Cell Telephone: (719) 299-1073  
 
 Email: <jeremy.nelson@coloradocollege.edu>, <jermnelson@gmail.com>
 

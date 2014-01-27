@@ -183,7 +183,8 @@ def entity_view(entity,
 def JeremyNelson(page=None):
     if not page:
         return url_for('page_router', page='about')
-    page_path = os.path.join('static',
+    page_path = os.path.join(PROJECT_ROOT,
+                            'static',
                             'md',
                             '{0}.md'.format(page))
     if os.path.exists(page_path):
