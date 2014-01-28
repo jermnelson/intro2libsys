@@ -755,6 +755,43 @@
       "storageMedium": "har"
     }
   ], 
+  "2014-01-27": [
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/pixel-dust-illusions-of-innovation-in-scholarly-publishing"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document Pixel Dust: Illusions of Innovation in Scholarly Publishing into Whoosh", 
+      "schema:startDate": "2014-01-27T17:56:17.182000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/pragmatic-ux-techniques-for-smarter-websites"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document Pragmatic UX Techniques For Smarter Websites into Whoosh", 
+      "schema:startDate": "2014-01-27T18:33:01.609000", 
+      "storageMedium": "har"
+    }
+  ], 
+  "2014-01-28": [
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/paper-versus-pixel"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document Paper Versus Pixel into Whoosh", 
+      "schema:startDate": "2014-01-28T00:06:09.503000", 
+      "storageMedium": "har"
+    }
+  ], 
   "@context": {
     "@vocab": "http://id.loc.gov/vocabulary/preservation", 
     "schema": "http://schema.org"

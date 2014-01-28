@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/paper-versus-pixel", 
+  "@type": "Article", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/carr-nicholas"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-28T00:04:26.382000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2013, 
+  "datePublished": "2013-08-29", 
+  "headline": "Paper Versus Pixel", 
+  "url": "http://nautil.us/issue/4/the-unlikely/paper-versus-pixel"
+}

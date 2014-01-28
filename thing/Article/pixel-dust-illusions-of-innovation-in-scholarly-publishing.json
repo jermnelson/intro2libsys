@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/pixel-dust-illusions-of-innovation-in-scholarly-publishing", 
+  "@type": "Article", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/drucker-johanna"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-27T17:46:44.366000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2014, 
+  "datePublished": "2014-01-16", 
+  "headline": "Pixel Dust: Illusions of Innovation in Scholarly Publishing", 
+  "url": "http://lareviewofbooks.org/essay/pixel-dust-illusions-innovation-scholarly-publishing"
+}

@@ -1,0 +1,27 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/pragmatic-ux-techniques-for-smarter-websites", 
+  "@type": "Article", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/dugonji-marko"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-27T18:23:17.534000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2014, 
+  "datePublished": "2014-01-27", 
+  "headline": "Pragmatic UX Techniques For Smarter Websites", 
+  "keywords": [
+    "Usability", 
+    "User Experience", 
+    "User Research"
+  ], 
+  "url": "http://uxdesign.smashingmagazine.com/2014/01/27/pragmatic-ux-techniques-for-smarter-websites/"
+}
