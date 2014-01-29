@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/blank-steve", 
+  "@type": "Person", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-29T16:17:02.083795", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "Blank", 
+  "givenName": "Steve", 
+  "name": "Steve Blank", 
+  "url": "http://intro2libsys.info/Person/SteveBlank"
+}

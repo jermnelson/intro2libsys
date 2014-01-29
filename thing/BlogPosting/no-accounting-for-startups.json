@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/BlogPosting/no-accounting-for-startups", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/blank-steve"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-29T16:18:33.754521", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2010, 
+  "datePublished": "2010-02-22", 
+  "headline": "No Accounting For Startups", 
+  "url": "http://steveblank.com/2010/02/22/no-accounting-for-startups/"
+}

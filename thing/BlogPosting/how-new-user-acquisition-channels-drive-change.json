@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/BlogPosting/how-new-user-acquisition-channels-drive-change", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/balfour-brian"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-29T19:05:04.127843", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2013, 
+  "datePublished": "2013-08-20", 
+  "headline": "How New User Acquisition Channels Drive Change", 
+  "url": "http://brianbalfour.com/post/58798523560/new-user-acquisition-channels"
+}

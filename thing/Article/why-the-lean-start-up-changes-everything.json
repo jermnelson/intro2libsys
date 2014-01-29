@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/why-the-lean-start-up-changes-everything", 
+  "@type": "ScholarArticle", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/blank-steve"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-29T17:40:37.672920", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2013, 
+  "datePublished": "2013-05-06", 
+  "headline": "Why the Lean Start-Up Changes Everything", 
+  "url": "https://archive.harvardbusiness.org/cla/web/pl/product.seam?c=29512&i=29514&cs=72931baa3b05f76aca8090b33db139b0"
+}
