@@ -50,7 +50,6 @@ for topic_map in topic_maps.get('maps'):
     TOPIC_MAPS.append(output)
 
 
-
 @app.template_filter('author_name')
 def author_name(author_id):
     author_id = author_id.split("/")[-1]
