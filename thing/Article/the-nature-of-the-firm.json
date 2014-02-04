@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/the-nature-of-the-firm", 
+  "@type": "ScholarlyArticle", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/coase-ronald"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-02-03T21:05:54.515000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 1937, 
+  "datePublished": "1937-11", 
+  "headline": "The Nature of the Firm", 
+  "url": "http://onlinelibrary.wiley.com/doi/10.1111/j.1468-0335.1937.tb00002.x/full"
+}
