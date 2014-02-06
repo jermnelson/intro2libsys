@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/BlogPosting/the-library-of-utility", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/kelly-kevin"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-02-06T04:37:09.991000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2011, 
+  "datePublished": "2011-04-24", 
+  "headline": "The Library of Utility", 
+  "url": "http://kk.org/thetechnium/archives/2011/04/the_library_of.php"
+}

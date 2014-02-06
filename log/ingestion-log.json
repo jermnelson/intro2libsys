@@ -792,6 +792,52 @@
       "storageMedium": "har"
     }
   ], 
+  "2014-02-06": [
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/why-the-lean-start-up-changes-everything"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document Why the Lean Start-Up Changes Everything into Whoosh", 
+      "schema:startDate": "2014-02-06T04:21:58.534000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/why-google-isnt-making-us-stupid-or-smart"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document Why Google Isn't Making Us Stupid...or Smart into Whoosh", 
+      "schema:startDate": "2014-02-06T04:28:59.784000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/Article/scan-this-book"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document Scan This Book! into Whoosh", 
+      "schema:startDate": "2014-02-06T04:42:25.539000", 
+      "storageMedium": "har"
+    }, 
+    {
+      "agentType": "sof", 
+      "eventRelatedObjectRole": {
+        "out": "http://intro2libsys.info/BlogPosting/the-library-of-utility"
+      }, 
+      "eventType": "ingestion", 
+      "objectCategory": "representation", 
+      "schema:description": "Index document The Library of Utility into Whoosh", 
+      "schema:startDate": "2014-02-06T04:44:07.689000", 
+      "storageMedium": "har"
+    }
+  ], 
   "@context": {
     "@vocab": "http://id.loc.gov/vocabulary/preservation", 
     "schema": "http://schema.org"

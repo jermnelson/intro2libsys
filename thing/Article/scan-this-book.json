@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/scan-this-book", 
+  "@type": "Article", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/kelly-kevin"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-02-06T04:33:21.468000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2006, 
+  "datePublished": "2006-05-14", 
+  "headline": "Scan This Book!", 
+  "url": "http://www.nytimes.com/2006/05/14/magazine/14publishing.html?pagewanted=all&_r=0"
+}
