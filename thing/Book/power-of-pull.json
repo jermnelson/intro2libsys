@@ -2,7 +2,7 @@
   "@context": {
     "@vocab": "http://schema.org/"
   }, 
-  "@id": "http://intro2libsys.info/Books/power-of-pull", 
+  "@id": "http://intro2libsys.info/Book/power-of-pull", 
   "@type": "Book", 
   "author": [
     {
