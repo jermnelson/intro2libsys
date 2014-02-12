@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/knecht-lou", 
+  "@type": "Person", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-02-12T03:49:56.742219", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "Knecht", 
+  "givenName": "Lou", 
+  "name": "Lou Wave S. Knecht", 
+  "url": "http://intro2libsys.info/Person/LouKnecht"
+}

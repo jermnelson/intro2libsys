@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/mapping-of-medical-acronyms-and-initialisms-to-medical-subject-headings-mesh-across-selected-systems", 
+  "@type": "ScholarlyArticle", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/shultz-mary"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-02-12T03:56:58.860976", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2006, 
+  "datePublished": "2006-10", 
+  "headline": "Mapping of medical acronyms and initialisms to Medical Subject Headings (MeSH) across selected systems", 
+  "url": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1629436/"
+}
