@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/packer-george", 
+  "@type": "Person", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-02-12T14:35:20.521107", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "Packer", 
+  "givenName": "George", 
+  "name": "George Packer", 
+  "url": "http://intro2libsys.info/Person/GeorgePacker"
+}

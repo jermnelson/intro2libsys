@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/cheap-words", 
+  "@type": "Article", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/packer-george"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-02-12T14:37:06.907367", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2014, 
+  "datePublished": "2014-02-17", 
+  "headline": "Cheap Words", 
+  "url": "http://www.newyorker.com/reporting/2014/02/17/140217fa_fact_packer"
+}
