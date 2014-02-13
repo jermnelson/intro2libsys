@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/BlogPosting/anchoring-communities-keynote-to-ilms-webwise-2014", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/poole-nick"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-02-13T13:22:13.568914", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2014, 
+  "datePublished": "2014-02-12", 
+  "headline": "Anchoring Communities - keynote to ILMS WebWise 2014", 
+  "url": "http://www.collectionslink.org.uk/blog/2145-anchoring-communities-keynote-to-ilms-webwise-2014"
+}
