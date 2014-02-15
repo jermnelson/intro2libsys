@@ -2,7 +2,7 @@
   "@context": {
     "@vocab": "http://schema.org/" 
   }, 
-  "@id": "http://intro2libsys.info/Book/linked-data-evolving-the-web-into-a-global-data-space", 
+  "@id": "http://intro2libsys.info/Book/linked-data-evolving-web-into-a-global-data-space", 
   "@type": "Book", 
   "author": [
     {

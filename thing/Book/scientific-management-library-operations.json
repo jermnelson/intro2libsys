@@ -4,7 +4,7 @@
    "bf": "http://bibframe.org/"
  },
  "@type": "Book",
- "@id": "http://intro2libsys.info/Book/scientific-management-of-library-operations",
+ "@id": "http://intro2libsys.info/Book/scientific-management-library-operations",
  "author": [{
     "@id": "http://intro2libsys.info/Person/dougherty-richard"
    },
