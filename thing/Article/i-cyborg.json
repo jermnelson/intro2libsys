@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/i-cyborg", 
+  "@type": "Article", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/martin-glen"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-02-19T19:43:51.076829", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2014, 
+  "datePublished": "2014-02-18", 
+  "headline": "I, Cyborg", 
+  "url": "http://radar.oreilly.com/2014/02/i-cyborg.html"
+}
