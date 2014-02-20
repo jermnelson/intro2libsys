@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/BlogPosting/self-publishing-truism-bingo", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/wendig-chuck"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-02-20T03:44:43.656000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2014, 
+  "datePublished": "2014-02-16", 
+  "headline": "SELF-PUBLISHING TRUISM BINGO", 
+  "url": "http://terribleminds.com/ramble/2014/02/16/self-publishing-truism-bingo/"
+}
