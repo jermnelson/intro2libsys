@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/kato-shinobu", 
+  "@type": "Person", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-02-20T15:58:16.806758", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "Kato", 
+  "givenName": "Shinobu", 
+  "name": "Shinobu Kato", 
+  "url": "http://intro2libsys.info/Person/ShinobuKato"
+}
