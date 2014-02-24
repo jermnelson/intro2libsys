@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/BlogPosting/internet-of-things-the-basket-of-remotes-problem", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/gassee-jean-louis"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-02-24T18:29:35.855000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2014, 
+  "datePublished": "2014-01-12", 
+  "headline": "Internet of Things: The \"Basket of Remotes\" Problem", 
+  "url": "http://www.mondaynote.com/2014/01/12/internet-of-things-the-basket-of-remotes-problem/"
+}

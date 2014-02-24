@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/gassee-jean-louis", 
+  "@type": "Person", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-02-24T18:28:00.035000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "Gassee", 
+  "givenName": "Jean-Louis", 
+  "name": "Jean-Louis Gassee", 
+  "url": "http://intro2libsys.info/Person/Jean-LouisGassee"
+}
