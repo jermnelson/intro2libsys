@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/BlogPosting/the-powerlessness-of-positive-thinking", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/alter-adam"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-02-26T13:04:37.061529", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2014, 
+  "datePublished": "2014-02-19", 
+  "headline": "The Powerlessness of Positive Thinking", 
+  "url": "http://www.newyorker.com/online/blogs/currency/2014/02/the-powerlessness-of-positive-thinking.html"
+}
