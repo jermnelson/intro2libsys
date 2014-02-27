@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/langella-carla", 
+  "@type": "Person", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-02-27T15:37:22.189511", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "Langella", 
+  "givenName": "Carla", 
+  "name": "Carla Langella", 
+  "url": "http://intro2libsys.info/Person/CarlaLangella"
+}

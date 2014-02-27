@@ -1,0 +1,28 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/material-addicts-when-open-access-becomes-a-cult", 
+  "@type": "Article", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/langella-carla"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-02-27T15:43:03.124190", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2014, 
+  "datePublished": "2014=02-27", 
+  "headline": "Material addicts: when open access becomes a cult ", 
+  "keywords": [
+    "Articles", 
+    "Design", 
+    "Essays", 
+    "Open Culture"
+  ], 
+  "url": "http://www.digicult.it/news/material-addicts-when-open-access-becomes-a-cult/"
+}
