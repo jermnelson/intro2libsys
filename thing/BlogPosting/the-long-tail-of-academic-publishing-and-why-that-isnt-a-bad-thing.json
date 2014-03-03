@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/BlogPosting/the-long-tail-of-academic-publishing-and-why-that-isnt-a-bad-thing", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/glance-david"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-03-03T17:33:15.183000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2012, 
+  "datePublished": "2012-08-22", 
+  "headline": "The long tail of academic publishing and why that isn't a bad thing", 
+  "url": "http://blogs.lse.ac.uk/impactofsocialsciences/2012/08/22/the-long-tail-of-academic-publishing-and-why-that-isnt-a-bad-thing/"
+}

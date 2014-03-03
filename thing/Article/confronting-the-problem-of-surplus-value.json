@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/confronting-the-problem-of-surplus-value", 
+  "@type": "Article", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/anderson-rick"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-03-03T18:33:37.280000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2013, 
+  "datePublished": "2013-05-02", 
+  "headline": "Confronting the Problem of Surplus Value", 
+  "url": "http://lj.libraryjournal.com/2013/05/opinion/peer-to-peer-review/confronting-the-problem-of-surplus-value/"
+}

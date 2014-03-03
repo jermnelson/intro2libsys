@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/anderson-rick", 
+  "@type": "Person", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-03-03T18:33:14.609000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "Anderson", 
+  "givenName": "Rick", 
+  "name": "Rick Anderson", 
+  "url": "http://intro2libsys.info/Person/RickAnderson"
+}

@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/is-it-time-to-get-rid-of-libraries", 
+  "@type": "Article", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/greenfield-daniel"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-03-03T18:54:01.267000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2013, 
+  "datePublished": "2013-07-01", 
+  "headline": "Is It Time to Get Rid of Libraries?", 
+  "url": "http://www.frontpagemag.com/2013/dgreenfield/is-it-time-to-get-rid-of-libraries/"
+}

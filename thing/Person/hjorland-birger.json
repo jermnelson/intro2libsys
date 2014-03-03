@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/hjorland-birger", 
+  "@type": "Person", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-03-03T19:07:59.430000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "Hj\u00d8Rland", 
+  "givenName": "Birger", 
+  "name": "Birger Hj\u00d8Rland", 
+  "url": "http://intro2libsys.info/Person/BirgerHj\u00d8Rland"
+}

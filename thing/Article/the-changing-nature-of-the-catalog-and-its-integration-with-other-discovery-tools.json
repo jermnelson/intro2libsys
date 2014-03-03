@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/the-changing-nature-of-the-catalog-and-its-integration-with-other-discovery-tools", 
+  "@type": "Article", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/calhoun-karen"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-03-03T18:01:40.413000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2006, 
+  "datePublished": "2006-03-17", 
+  "headline": "The Changing Nature of the Catalog and its Integration with Other Discovery Tools", 
+  "url": "http://www.loc.gov/catdir/calhoun-report-final.pdf"
+}

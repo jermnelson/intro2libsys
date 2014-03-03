@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/killing-sir-walter-scott-a-philosophical-exploration-of-weeding", 
+  "@type": "Article", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/raphael-laura"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-03-03T18:29:34.358000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2013, 
+  "datePublished": "2013-07-24", 
+  "headline": "Killing Sir Walter Scott: A Philosophical Exploration of Weeding", 
+  "url": "http://www.inthelibrarywiththeleadpipe.org/2013/killing-sir-walter-scott-a-philosophical-exploration-of-weeding/"
+}

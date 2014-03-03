@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/BlogPosting/random-musing-on-the-headless-library-and-other-search-trends", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/chamberlain-ed"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-03-03T18:13:40.204000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2013, 
+  "datePublished": "2013-07-16", 
+  "headline": "Random musing on the 'headless library' and other search trends", 
+  "url": "http://edchamberlain.wordpress.com/2013/07/16/random-musing-on-the-headless-library-and-other-search-trends/"
+}

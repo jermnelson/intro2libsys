@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/BlogPosting/tacit-knowledge-and-the-student-researcher", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/fister-barbara"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-03-03T17:41:34.479000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2013, 
+  "datePublished": "2013-06-25", 
+  "headline": "Tacit Knowledge and the Student Researcher", 
+  "url": "http://www.insidehighered.com/blogs/library-babel-fish/tacit-knowledge-and-student-researcher"
+}

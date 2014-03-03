@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/one-big-workbench", 
+  "@type": "NewsArticle", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/kurutz-steven"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-03-03T17:45:22.814000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2013, 
+  "datePublished": "2013-05-01", 
+  "headline": "One Big Workbench", 
+  "url": "http://www.nytimes.com/2013/05/02/garden/the-rise-of-the-hacker-space.html?pagewanted=all&_r=3&&pagewanted=print"
+}

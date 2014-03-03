@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/fister-barbara", 
+  "@type": "Person", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-03-03T17:38:37.534000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "Fister", 
+  "givenName": "Barbara", 
+  "name": "Barbara Fister", 
+  "url": "http://intro2libsys.info/Person/BarbaraFister"
+}
