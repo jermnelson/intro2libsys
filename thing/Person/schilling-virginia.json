@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/schilling-virginia", 
+  "@type": "Person", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-03-04T15:48:14.155000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "familyName": "Schilling", 
+  "givenName": "Virginia", 
+  "name": "Virginia Schilling", 
+  "url": "http://intro2libsys.info/Person/VirginiaSchilling"
+}

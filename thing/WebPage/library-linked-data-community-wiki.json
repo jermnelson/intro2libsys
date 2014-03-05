@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/WebPage/library-linked-data-community-wiki", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-03-04T15:58:17.312000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "headline": "Library Linked Data Community Wiki", 
+  "name": "Library Linked Data Community Wiki", 
+  "significantLink": [
+    "http://www.w3.org/2001/sw/wiki/Library_terminology_informally_explained"
+  ], 
+  "url": "http://www.w3.org/2001/sw/wiki/LLD"
+}
