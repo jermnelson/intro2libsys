@@ -1,0 +1,23 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/data-science-is-dead", 
+  "@type": "Article", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/matsumura-miko"
+    }
+  ], 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-03-06T04:44:28.301000", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "copyrightYear": 2014, 
+  "datePublished": "2014-03-05", 
+  "description": "Not only is Data Science not a science, it\u2019s not even a good job prospect.", 
+  "headline": "Data Science Is Dead", 
+  "url": "http://slashdot.org/topic/bi/data-science-is-dead/"
+}
