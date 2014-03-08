@@ -5,11 +5,12 @@
  <div class="row">
   {% include 'snippets/navbar.html' %}
  </div>
+ <h1>All {{ entity }}s</h1> 
  <div class="row">
-  <div class="col-md-8">
-   <h1>All {{ entity }}s</h1> 
-   <ol>
-   {% for row in entities %}
+  {% for batch in entities|batch(25) %}
+  <div class="col-md-6">
+    <ul class="list-unstyled">
+    {% for row in batch %}
    <li><a href="{{ row['@id']|local_url }}">
     {% if row.headline %}{{ row['headline'] }}{% else %}{{ row['name'] }}{% endif %}</a>
      - {% if row.author %}by
@@ -20,10 +21,11 @@
       {{ count }} {{ work }}s
      {% endfor %} 
     {% endif %}
-   </li>  
+   </li> 
    {% endfor %}
-   </ol>
-  </div>
+   </ul>
+    </div>
+  {% endfor %}
  </div>
 </div>
 {% endblock %}
