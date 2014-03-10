@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -23,10 +23,10 @@
     {% endblock %}
     
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-   <script src="https://code.jquery.com/jquery.js"></script>
+   <script src="{{ url_for('static', filename='js/jquery.js') }}"></script>
    <script src="https://raw2.github.com/coreyti/showdown/master/compressed/showdown.js"></script>
-   <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-   <script src="//cdnjs.cloudflare.com/ajax/libs/knockout/2.3.0/knockout-min.js"></script>
+   <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+   <script src="{{ url_for('static', filename='js/knockout-min.js') }}"></script>
    <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
