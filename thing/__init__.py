@@ -18,7 +18,8 @@ THINGS = { 'Article': {},
            'Organization': {},
            'Person': {},
            'Periodical': {},
-           'PeriodicalIssue': {},
+           'PublicationIssue': {},
+           'PublicationVolume': {},
            'SoftwareApplication': {},
            'WebPage': {}}
 
@@ -37,9 +38,11 @@ for key in THINGS.keys():
                                   key,
                                   row),
                      "rb"))
+            THINGS[key][name] = entity
         except:
             print(name, sys.exc_info()[0])
-        THINGS[key][name] = entity
+
+
 
 
 
@@ -246,9 +249,9 @@ def get_context():
             'bf': 'http://bibframe.org/vocab/'}
 
 def generate_adminInfo():
-    return {'bf:creationDate': datetime.datetime.utcnow().isoformat(),
-            "bf:descriptionConventions": "Using schema.org for descriptive metadata",
-            "bf:descriptionLanguage": "English"}
+    return {'loc:recordCreationDate': datetime.datetime.utcnow().isoformat(),
+            "loc:descriptionStandards": "Using schema.org for descriptive metadata",
+            "loc:languageOfCataloging": "English"}
 
 def quick_dump(obj, category, id):
     json.dump(obj,
