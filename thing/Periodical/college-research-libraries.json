@@ -10,7 +10,9 @@
     "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
     "bf:descriptionLanguage": "English"
   }, 
-  "hasPeriodicalIssue": [], 
+  "hasPart": [
+    {"@id": ""http://intro2libsys.info/PublicationVolume/college-research-libraries-volume-74"}
+  ], 
   "issn": "0010-0870", 
   "name": "College & Research Libraries"
 }
