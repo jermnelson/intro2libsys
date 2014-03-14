@@ -117,13 +117,13 @@ def add_blog_posting(info,
 def add_entity(info,
                file_location=PROJECT_HOME):
     info['@context'] = get_context()
-    info['bf:adminInfo'] = generate_adminInfo()
+    info['mads:recordInfo'] = generate_adminInfo()
     return info
 
 def add_organization(info,
                      file_location=PROJECT_HOME):
     info['@context'] = get_context()
-    info['bf:adminInfo'] = generate_adminInfo()
+    info['mads:recordInfo'] = generate_adminInfo()
     filename = slugify(info.get('name')).strip()
     if not '@type' in info:
         info['@type'] = 'Organization'
@@ -150,7 +150,7 @@ def add_periodical(info,
                           PROJECT_ROOT
     """
     info['@context'] = get_context()
-    info['bf:adminInfo'] = generate_adminInfo()
+    info['mads:recordInfo'] = generate_adminInfo()
     if not '@type' in info:
         info['@type'] = 'Periodical'
     filename = slugify(info.get('name'))
@@ -164,27 +164,56 @@ def add_periodical(info,
         json.dump(info, json_file, indent=2, sort_keys=True)
     print("Finished adding {0}".format(info.get('@id')))
 
-def add_periodical_issue(info,
-                         file_location=PROJECT_HOME):
+def add_publication_issue(info,
+                          file_location=PROJECT_HOME):
     """
-    Function adds a proposed schema.org/Periodical to intro2libsys collection.
-    See http://www.w3.org/community/schemabibex/wiki/Periodical#Thing_.3E_CreativeWork_.3E_Periodical
+    Function adds a proposed schema.org/PublicationIssue to intro2libsys collection.
+    See http://www.w3.org/community/schemabibex/wiki/Article#New_Type:_PublicationVolume
     for more info.
 
-    :param info: Dictionary of schema.org properties for the PeriodicalIssue
-    :param file_location: Location of the thing directory, defaults to
-                          PROJECT_ROOT
+    Args:
+        info: Dictionary of schema.org properties for the PublicationIssue
+        file_location: Location of the thing directory, defaults to
+            PROJECT_ROOT
     """
     info['@context'] = get_context()
-    info['bf:adminInfo'] = generate_adminInfo()
+    info['mads:recordInfo'] = generate_adminInfo()
     if not '@type' in info:
-        info['@type'] = 'PeriodicalIssue'
+        info['@type'] = 'PublicationIssue'
     filename = slugify(info.get('name'))
     info['@id'] = urllib2.urlparse.urljoin(
         'http://intro2libsys.info',
-        'PeriodicalIssue/{0}'.format(filename))
+        'PublicationIssue/{0}'.format(filename))
     with open(os.path.join(file_location,
-                           'PeriodicalIssue',
+                           'PublicationIssue',
+                           '{0}.json'.format(filename)),
+              'wb') as json_file:
+        json.dump(info, json_file, indent=2, sort_keys=True)
+    print("Finished adding {0}".format(info.get('@id')))
+
+
+def add_publication_volume(info,
+                           file_location=PROJECT_HOME):
+    """
+    Function adds a proposed schema.org/PublicationVolume to intro2libsys collection.
+    See http://www.w3.org/community/schemabibex/wiki/Article#New_Type:_PublicationVolume
+    for more info.
+
+    Args:
+        info: Dictionary of schema.org properties for the PublicationVolume
+        file_location: Location of the thing directory, defaults to
+            PROJECT_ROOT
+    """
+    info['@context'] = get_context()
+    info['mads:recordInfo'] = generate_adminInfo()
+    if not '@type' in info:
+        info['@type'] = 'PublicationVolume'
+    filename = slugify(info.get('name'))
+    info['@id'] = urllib2.urlparse.urljoin(
+        'http://intro2libsys.info',
+        'PublicationVolume/{0}'.format(filename))
+    with open(os.path.join(file_location,
+                           'PublicationVolume',
                            '{0}.json'.format(filename)),
               'wb') as json_file:
         json.dump(info, json_file, indent=2, sort_keys=True)
@@ -196,7 +225,7 @@ def add_person(info,
     info['@context'] = get_context()
     if not '@type' in info:
         info['@type'] = 'Person'
-    info['bf:adminInfo'] = generate_adminInfo()
+    info['mads:recordInfo'] = generate_adminInfo()
     if 'idloc:url' in info:
         info['@context']['idloc'] = "http://id.loc.gov"
     filename = slugify(u"{0} {1}".format(info.get('familyName'),
@@ -220,7 +249,7 @@ def add_person(info,
 def add_webpage(info,
                 file_location=PROJECT_HOME):
     info['@context'] = get_context()
-    info['bf:adminInfo'] = generate_adminInfo()
+    info['mods:adminInfo'] = generate_adminInfo()
     filename = slugify(info.get('name'))
     info['@id'] = 'http://intro2libsys.info/WebPage/{0}'.format(filename.strip())
     with open(os.path.join(file_location,
@@ -246,7 +275,8 @@ def get_article(article_string):
 
 def get_context():
     return {'@vocab': 'http://schema.org/',
-            'bf': 'http://bibframe.org/vocab/'}
+            'bf': 'http://bibframe.org/vocab/',
+            'loc': 'http://www.loc.gov/standards/mads/'}
 
 def generate_adminInfo():
     return {'loc:recordCreationDate': datetime.datetime.utcnow().isoformat(),

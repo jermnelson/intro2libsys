@@ -3,8 +3,8 @@
     "@vocab": "http://schema.org/", 
     "bf": "http://bibframe.org/vocab/"
   }, 
-  "@id": "http://intro2libsys.info/PeriodicalIssue/code4lib-journal-issue-19", 
-  "@type": "PeriodicalIssue", 
+  "@id": "http://intro2libsys.info/PublicationIssue/code4lib-journal-issue-19", 
+  "@type": "PublicationIssue", 
   "bf:adminInfo": {
     "bf:creationDate": "2014-01-09T22:54:27.525000", 
     "bf:descriptionConventions": "Using schema.org for descriptive metadata", 

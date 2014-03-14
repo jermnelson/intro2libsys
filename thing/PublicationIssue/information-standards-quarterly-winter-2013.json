@@ -3,8 +3,8 @@
     "@vocab": "http://schema.org/", 
     "bf": "http://bibframe.org/vocab/"
   }, 
-  "@id": "http://intro2libsys.info/PeriodicalIssue/information-standards-quarterly-winter-2013", 
-  "@type": "PeriodicalIssue", 
+  "@id": "http://intro2libsys.info/PublicationIssue/information-standards-quarterly-winter-2013", 
+  "@type": "PublicationIssue", 
   "bf:adminInfo": {
     "bf:creationDate": "2013-12-30T22:31:39.780000", 
     "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
@@ -12,14 +12,13 @@
   }, 
   "copyrightYear": 2013, 
   "datePublished": "Winter 2013", 
-  "hasArticle": [
+  "hasPart": [
     {"@id": "http://intro2libsys.info/Article/are-current-bibliographic-models-suitable-for-integration-with-the-web"}
   ], 
   "issueNumber": 4, 
   "name": "Information Standards Quarterly 25(4) Winter 2013 - Evolution Of Bibliographic Data Exchange",
-  "partOfPeriodical": {
-    "@id": "http://intro2libsys.info/Periodical/information-standards-quarterly"
+  "isPartOf": {
+    "@id": "http://intro2libsys.info/PublicationVolume/information-standards-quarterly-volume-25"
   }, 
-  "volumeNumber": 25,
   "url": "http://www.niso.org/apps/group_public/download.php/11942/"
 }

@@ -3,22 +3,21 @@
     "@vocab": "http://schema.org/", 
     "bf": "http://bibframe.org/vocab/"
   }, 
-  "@id": "http://intro2libsys.info/PeriodicalIssue/d-lib-magazine-september-2002", 
-  "@type": "PeriodicalIssue", 
+  "@id": "http://intro2libsys.info/PublicationIssue/d-lib-magazine-september-2002", 
+  "@type": "PublicationIssue", 
   "bf:adminInfo": {
     "bf:creationDate": "2014-01-07T17:48:22.542000", 
     "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
     "bf:descriptionLanguage": "English"
   }, 
   "datePublished": "2002-09",
-  "hasArticle": [
+  "hasPart": [
    {"@id": "http://intro2libsys.info/Article/experiments-with-the-ifla-functional-requirements-for-bibliographic-records-frbr"}    
   ], 
   "issueNumber": 8, 
   "name": "D-Lib Magazine 9(8) September 2002", 
-  "partOfPeriodical": {
-    "@id": "http://intro2libsys.info/Periodical/d-lib-magazine"
+  "isPartOf": {
+    "@id": "http://intro2libsys.info/PublicationVolume/d-lib-magazine-volume-9"
   }, 
-  "url": "http://www.dlib.org/dlib/september02/09contents.html", 
-  "volumeNumber": 9
+  "url": "http://www.dlib.org/dlib/september02/09contents.html" 
 }

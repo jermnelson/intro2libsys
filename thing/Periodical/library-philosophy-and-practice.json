@@ -10,8 +10,8 @@
     "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
     "bf:descriptionLanguage": "English"
   }, 
-  "hasPeriodicalIssue": [
-   {"@id": "http://intro2libsys.info/PeriodicalIssue/library-philosophy-and-practice-fall-2005"}
+  "hasPart": [
+   {"@id": "http://intro2libsys.info/PublicationVolume/library-philosophy-and-practice-volume-15"}
   ], 
   "issn": "1522-0222", 
   "name": "Library Philosophy and Practice", 

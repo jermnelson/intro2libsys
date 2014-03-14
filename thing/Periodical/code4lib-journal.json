@@ -10,7 +10,7 @@
     "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
     "bf:descriptionLanguage": "English"
   }, 
-  "hasPeriodicalIssue": [
+  "hasPart": [
    {"@id": "http://intro2libsys.info/PeriodicalIssue/code4lib-journal-issue-12"},
    {"@id": "http://intro2libsys.info/PeriodicalIssue/code4lib-journal-issue-19"}
   ], 

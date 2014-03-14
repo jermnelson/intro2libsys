@@ -1,0 +1,23 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/ebooks-the-wave-of-the-future-for-af-library", 
+  "@type": "NewsArticle", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/lyon-havilah"
+    }
+  ], 
+  "copyrightYear": 2013, 
+  "datePublished": "2013-08-14", 
+  "headline": "Ebooks: The wave of the future for A.F. Library", 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-03-14T18:14:44.369000"
+  }, 
+  "url": "http://www.press-times.com/2013/08/14/ebooks-the-wave-of-the-future-for-a-f-library/"
+}

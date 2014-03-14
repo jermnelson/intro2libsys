@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/BlogPosting/libraries-leading-the-local-movement", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/robb-john"
+    }
+  ], 
+  "copyrightYear": 2013, 
+  "datePublished": "2013-10-17", 
+  "headline": "Libraries Leading the Local Movement", 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-03-14T18:32:45.871000"
+  }, 
+  "url": "http://www.resilientcommunities.com/libraries-leading-the-local-movement/"
+}

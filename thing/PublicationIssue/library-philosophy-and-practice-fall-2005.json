@@ -3,20 +3,20 @@
     "@vocab": "http://schema.org/", 
     "bf": "http://bibframe.org/vocab/"
   }, 
-  "@id": "http://intro2libsys.info/PeriodicalIssue/library-philosophy-and-practice-fall-2005", 
-  "@type": "PeriodicalIssue", 
+  "@id": "http://intro2libsys.info/PublicationIssue/library-philosophy-and-practice-fall-2005", 
+  "@type": "PublicationIssue", 
   "bf:adminInfo": {
     "bf:creationDate": "2014-01-08T23:44:52.096000", 
     "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
     "bf:descriptionLanguage": "English"
   }, 
-  "hasArticle": [
+  "hasPart": [
     {
       "@id": "http://intro2libsys.info/Article/use-rfid-in-libraries"
     }
   ], 
+  "isPartOf": {"@id": "http://intro2libsys.info/PublicationVolume/library-philosophy-and-practice-volume-15"},
   "issueNumber": 1, 
   "name": "Library Philosophy and Practice Fall 2005", 
-  "url": "http://unllib.unl.edu/LPP/lppv8n1.htm", 
-  "volumeNumber": 8
+  "url": "http://unllib.unl.edu/LPP/lppv8n1.htm" 
 }

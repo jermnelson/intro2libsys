@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/rose-joel", 
+  "@type": "Person", 
+  "familyName": "Rose", 
+  "givenName": "Joel", 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-03-14T18:20:27.637000"
+  }, 
+  "name": "Joel Rose", 
+  "url": "http://intro2libsys.info/Person/JoelRose"
+}

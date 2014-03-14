@@ -88,6 +88,17 @@ def copyright_year(thing_id):
                 except:
                     pass
 
+@app.template_filter('expand_part')
+def expand_part(part):
+    part_id = part.split("/")[-1]
+    for name in ['Periodical', 'PublicationIssue', 'PublicationVolume']:
+        if part_id in THINGS[name]:
+            return """<a href="{}">{}</a>""".format(part,
+                THINGS[name][part_id].get('name'))
+    return
+
+
+
 @app.template_filter('organization_name')
 def organization_name(org_id):
     """
@@ -101,6 +112,8 @@ def organization_name(org_id):
         return
     org = THINGS['Organization'][org_id]
     return org.get('name')
+
+
 
 
 @app.template_filter('local_url')

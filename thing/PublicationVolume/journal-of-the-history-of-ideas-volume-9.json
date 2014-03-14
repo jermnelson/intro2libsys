@@ -1,0 +1,24 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/PublicationVolume/journal-of-the-history-of-ideas-volume-9", 
+  "@type": "PublicationVolume", 
+  "hasPart": [
+    {
+      "@id": "http://intro2libsys.info/PublicationIssue/journal-of-the-history-of-ideas-73-june-1946"
+    }
+  ], 
+  "isPartOf": {
+    "@id": "http://intro2libsys.info/Periodical/journal-of-the-history-of-ideas"
+  }, 
+  "loc:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-03-14T17:08:33.160000"
+  }, 
+  "name": "Journal of the History of Ideas Volume 9", 
+  "volumeNumber": 7
+}

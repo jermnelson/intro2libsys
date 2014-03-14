@@ -21,6 +21,16 @@
       {{ count }} {{ work }}s
      {% endfor %} 
     {% endif %}
+    {% if row.isPartOf %}
+       is part of {{ row.isPartOf['@id']|expand_part|local_url|safe }}
+    {% endif %}
+    {% if row.hasPart %} with the following:
+      <ul>
+      {% for part in row.hasPart %}
+        <li>{{ part['@id']|expand_part|local_url|safe }}</li>
+      {% endfor %}
+      </ul>
+    {% endif %}
    </li> 
    {% endfor %}
    </ul>

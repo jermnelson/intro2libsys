@@ -1,0 +1,24 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/PublicationVolume/d-lib-magazine-volume-9", 
+  "@type": "PublicationVolume", 
+  "hasPart": [
+    {
+      "@id": "http://intro2libsys.info/PublicationlIssue/d-lib-magazine-september-2002"
+    }
+  ], 
+  "isPartOf": {
+    "@id": "http://intro2libsys.info/Periodical/d-lib-magazine"
+  }, 
+  "loc:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-03-14T16:57:27.347000"
+  }, 
+  "name": "D-Lib Magazine Volume 9", 
+  "volumeNumber": 9
+}
