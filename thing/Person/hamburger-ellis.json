@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/hamburger-ellis", 
+  "@type": "Person", 
+  "familyName": "Hamburger", 
+  "givenName": "Ellis", 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-03-17T16:37:51.970000"
+  }, 
+  "name": "Ellis Hamburger", 
+  "url": "http://intro2libsys.info/Person/EllisHamburger"
+}

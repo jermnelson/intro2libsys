@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/lankes-r", 
+  "@type": "Person", 
+  "familyName": "Lankes", 
+  "givenName": "R", 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-03-17T22:46:23.154000"
+  }, 
+  "name": "R. David Lankes", 
+  "url": "http://intro2libsys.info/Person/RLankes"
+}
