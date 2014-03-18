@@ -11,7 +11,7 @@
     "bf:descriptionLanguage": "English"
   }, 
   "hasPart": [
-    {"@id": ""http://intro2libsys.info/PublicationVolume/college-research-libraries-volume-74"}
+    {"@id": "http://intro2libsys.info/PublicationVolume/college-research-libraries-volume-74"}
   ], 
   "issn": "0010-0870", 
   "name": "College & Research Libraries"

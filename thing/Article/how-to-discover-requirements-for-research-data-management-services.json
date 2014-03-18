@@ -1,0 +1,26 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/how-to-discover-requirements-for-research-data-management-services", 
+  "@type": "Article", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/whyte-angus"
+    }, 
+    {
+      "@id": "http://intro2libsys.info/Person/allard-suzie"
+    }
+  ], 
+  "copyrightYear": 2014, 
+  "datePublished": "2014-03-03", 
+  "headline": "How to Discover Requirements for Research Data Management Services", 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-03-18T18:15:37.267000"
+  }, 
+  "url": "http://www.dcc.ac.uk/how-discover-requirements"
+}

@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/allard-suzie", 
+  "@type": "Person", 
+  "familyName": "Allard", 
+  "givenName": "Suzie", 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-03-18T18:13:37.575000"
+  }, 
+  "name": "Suzie Allard", 
+  "url": "http://intro2libsys.info/Person/SuzieAllard"
+}
