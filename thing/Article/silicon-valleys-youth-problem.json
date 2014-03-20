@@ -1,0 +1,23 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/silicon-valleys-youth-problem", 
+  "@type": "NewsArticle", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/lu-yiren"
+    }
+  ], 
+  "copyrightYear": 2014, 
+  "datePublished": "2014-03-12", 
+  "headline": "Silicon Valley's Youth Problem", 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-03-20T15:02:01.469000"
+  }, 
+  "url": "http://www.nytimes.com/2014/03/16/magazine/silicon-valleys-youth-problem.html?pagewanted=all&_r=1"
+}

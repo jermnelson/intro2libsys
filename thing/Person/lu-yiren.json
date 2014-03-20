@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/lu-yiren", 
+  "@type": "Person", 
+  "familyName": "Lu", 
+  "givenName": "Yiren", 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-03-20T15:00:10.007000"
+  }, 
+  "name": "Yiren Lu", 
+  "url": "http://intro2libsys.info/Person/YirenLu"
+}
