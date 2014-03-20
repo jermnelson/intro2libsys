@@ -1,0 +1,33 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/report-on-drm-preservation", 
+  "@type": "Article", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/kaur-kirnn"
+    }, 
+    {
+      "@id": "http://intro2libsys.info/Person/hein-stefan"
+    }, 
+    {
+      "@id": "http://intro2libsys.info/Person/schrimpf-sabine"
+    }
+  ], 
+  "copyrightYear": 2014, 
+  "datePublished": "2014-01-17", 
+  "headline": "Report on DRM Preservation", 
+  "keywords": [
+    "Digital rights", 
+    "digital rights management"
+  ], 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-03-20T13:29:25.288836"
+  }, 
+  "url": "http://www.alliancepermanentaccess.org/wp-content/uploads/downloads/2014/02/APARSEN-REP-D31_1-01-1_4.pdf"
+}

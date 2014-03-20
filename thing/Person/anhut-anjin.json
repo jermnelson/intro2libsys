@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/anhut-anjin", 
+  "@type": "Person", 
+  "familyName": "Anhut", 
+  "givenName": "Anjin", 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-03-20T14:50:58.161532"
+  }, 
+  "name": "Anjin Anhut", 
+  "url": "http://intro2libsys.info/Person/AnjinAnhut"
+}

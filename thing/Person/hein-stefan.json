@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/hein-stefan", 
+  "@type": "Person", 
+  "familyName": "Hein", 
+  "givenName": "Stefan", 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-03-20T13:23:39.074523"
+  }, 
+  "name": "Stefan Hein", 
+  "url": "http://intro2libsys.info/Person/StefanHein"
+}
