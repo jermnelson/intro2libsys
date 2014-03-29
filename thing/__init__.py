@@ -3,8 +3,7 @@ import json
 import os
 import re
 import sys
-import urllib2
-
+import urllib.parse
 
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 PROJECT_HOME = os.path.split(PROJECT_ROOT)[0]
@@ -37,7 +36,7 @@ for key in THINGS.keys():
                 open(os.path.join(PROJECT_ROOT,
                                   key,
                                   row),
-                     "rb"))
+                     "r"))
             THINGS[key][name] = entity
         except:
             print(name, sys.exc_info()[0])
@@ -56,19 +55,24 @@ def slugify(value):
     value = re.sub('[^\w\s-]', '', value).strip().lower()
     return re.sub('[-\s]+', '-', value)
 
+def __create_id__(info, filename):
+    """Creates a schema.org id """
+    if not '@type' in info:
+        info['@type'] = 'Thing'
+    return urllib.parse.urljoin('http://intro2libsys.info',
+                                '{}/{}'.format(info['@type'], filename)
+
+        
+
 def add_article(info,
                 file_location=PROJECT_HOME):
     info = add_entity(info)
     filename = slugify(info.get('headline'))
-    if not '@type' in info:
-        info['@type'] = 'Article'
-    info['@id'] = urllib2.urlparse.urljoin(
-        'http://intro2libsys.info',
-        'Article/{0}'.format(filename))
+    info['@id'] = __create_id__(info, filename)
     with open(os.path.join(file_location,
                            "Article",
                            "{0}.json".format(filename)),
-              'wb') as json_file:
+              'w') as json_file:
         json.dump(info, json_file, indent=2, sort_keys=True)
     print("Finished adding {0}".format(info.get('@id')))
 
@@ -85,13 +89,11 @@ def add_book(info,
     filename = slugify(info.get('headline'))
     if not '@type' in info:
         info['@type'] = 'Book'
-    info['@id'] = urllib2.urlparse.urljoin(
-        'http://intro2libsys.info',
-        'Book/{0}'.format(filename))
+    info['@id'] = __create_id__(info, filename)
     with open(os.path.join(file_location,
                            "Book",
                            "{0}.json".format(filename)),
-              'wb') as json_file:
+              'w') as json_file:
         json.dump(info, json_file, indent=2, sort_keys=True)
     print("Finished adding {0}".format(info.get('@id')))
 
@@ -99,14 +101,14 @@ def add_book(info,
 def add_blog_posting(info,
                      file_location=PROJECT_HOME):
     info = add_entity(info)
+    if not '@type' in info:
+        info['@type'] = 'BlogPosting'
     filename = slugify(info.get('headline'))
-    info['@id'] = urllib2.urlparse.urljoin(
-        'http://intro2libsys.info',
-        'BlogPosting/{0}'.format(filename))
+    info['@id'] = __create_id__(info, filename)
     with open(os.path.join(file_location,
                            'BlogPosting',
                            '{0}.json'.format(filename)),
-              'wb') as json_file:
+              'w') as json_file:
         json.dump(info, json_file, indent=2, sort_keys=True)
     print("Finished adding {0}".format(info.get('@id')))
 
@@ -127,8 +129,7 @@ def add_organization(info,
     filename = slugify(info.get('name')).strip()
     if not '@type' in info:
         info['@type'] = 'Organization'
-    info['@id'] = 'http://intro2libsys.info/Organization/{0}'.format(
-                   filename)
+    info['@id'] = __create_id__(info, filename)
     with open(os.path.join(file_location,
                            "Organization",
                            "{0}.json".format(filename)),
@@ -154,13 +155,11 @@ def add_periodical(info,
     if not '@type' in info:
         info['@type'] = 'Periodical'
     filename = slugify(info.get('name'))
-    info['@id'] = urllib2.urlparse.urljoin(
-        'http://intro2libsys.info',
-        'Periodical/{0}'.format(filename))
+    info['@id'] = __create_id__(info, filename)
     with open(os.path.join(file_location,
                            'Periodical',
                            '{0}.json'.format(filename)),
-              'wb') as json_file:
+              'w') as json_file:
         json.dump(info, json_file, indent=2, sort_keys=True)
     print("Finished adding {0}".format(info.get('@id')))
 
@@ -181,13 +180,11 @@ def add_publication_issue(info,
     if not '@type' in info:
         info['@type'] = 'PublicationIssue'
     filename = slugify(info.get('name'))
-    info['@id'] = urllib2.urlparse.urljoin(
-        'http://intro2libsys.info',
-        'PublicationIssue/{0}'.format(filename))
+    info['@id'] = __create_id__(info, filename)
     with open(os.path.join(file_location,
                            'PublicationIssue',
                            '{0}.json'.format(filename)),
-              'wb') as json_file:
+              'w') as json_file:
         json.dump(info, json_file, indent=2, sort_keys=True)
     print("Finished adding {0}".format(info.get('@id')))
 
@@ -215,7 +212,7 @@ def add_publication_volume(info,
     with open(os.path.join(file_location,
                            'PublicationVolume',
                            '{0}.json'.format(filename)),
-              'wb') as json_file:
+              'w') as json_file:
         json.dump(info, json_file, indent=2, sort_keys=True)
     print("Finished adding {0}".format(info.get('@id')))
 
@@ -230,7 +227,7 @@ def add_person(info,
         info['@context']['idloc'] = "http://id.loc.gov"
     filename = slugify(u"{0} {1}".format(info.get('familyName'),
                                         info.get('givenName', '')))
-    info['@id'] = 'http://intro2libsys.info/Person/{0}'.format(filename.strip())
+    info['@id'] = __create_id__(info, filename)
     info['url'] = u'http://intro2libsys.info/Person/{0}{1}'.format(
         info.get('givenName'),
         info.get('familyName')).strip()
@@ -241,7 +238,7 @@ def add_person(info,
                            "Person",
                            "{0}.json".format(
                            filename.strip())),
-              'wb') as json_file:
+              'w') as json_file:
         json.dump(info, json_file, indent=2, sort_keys=True)
     print("Finished adding {0}".format(info['@id']))
 
@@ -251,12 +248,12 @@ def add_webpage(info,
     info['@context'] = get_context()
     info['mods:adminInfo'] = generate_adminInfo()
     filename = slugify(info.get('name'))
-    info['@id'] = 'http://intro2libsys.info/WebPage/{0}'.format(filename.strip())
+    info['@id'] = __create_id__(info, filename)
     with open(os.path.join(file_location,
                            "WebPage",
                            "{0}.json".format(
                            filename.strip())),
-              'wb') as json_file:
+              'w') as json_file:
         json.dump(info, json_file, indent=2, sort_keys=True)
     print("Finished adding {0}".format(info['@id']))
 
@@ -271,7 +268,7 @@ def get_article(article_string):
                                 "Article",
                                 "{0}.json".format(article_name))
     if os.path.exists(article_path):
-        return json.load(open(article_name, 'rb'))
+        return json.load(open(article_name, 'r'))
 
 def get_context():
     return {'@vocab': 'http://schema.org/',
@@ -288,6 +285,6 @@ def quick_dump(obj, category, id):
               open(os.path.join(PROJECT_HOME,
                                 category,
                                 '{0}.json'.format(id)),
-                   'wb'),
+                   'w'),
               indent=2,
               sort_keys=True)
