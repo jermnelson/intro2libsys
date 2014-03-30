@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/wallis-richard", 
+  "@type": "Person", 
+  "familyName": "Wallis", 
+  "givenName": "Richard", 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-03-29T14:32:21.803983"
+  }, 
+  "name": "Richard Wallis", 
+  "url": "http://intro2libsys.info/Person/RichardWallis"
+}

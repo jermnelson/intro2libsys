@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/BlogPosting/visualising-schemaorg", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/wallis-richard"
+    }
+  ], 
+  "copyrightYear": 2014, 
+  "datePublished": "2014-03-25", 
+  "headline": "Visualising Schema.org", 
+  "keywords": [
+    "Consuming Data", 
+    "Data Publishing", 
+    "Google", 
+    "Linked Data", 
+    "OCLC", 
+    "Open Data", 
+    "schema.org", 
+    "Web", 
+    "WorldCat", 
+    "Chrome", 
+    "Google", 
+    "Green Turtle", 
+    "schema.org", 
+    "Triples", 
+    "WorldCat"
+  ], 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-03-29T14:39:00.232370"
+  }, 
+  "url": "http://dataliberate.com/2014/03/visualising-schema-org/"
+}
