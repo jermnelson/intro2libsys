@@ -1,0 +1,23 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/film-preservation-20", 
+  "@type": "Article", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/dessem-matthew"
+    }
+  ], 
+  "copyrightYear": 2014, 
+  "datePublished": "2014-02-24", 
+  "headline": "Film preservation 2.0", 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-03-30T21:47:22.054000"
+  }, 
+  "url": "http://thedissolve.com/features/exposition/429-film-preservation-20/"
+}
