@@ -1,0 +1,23 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/the-z-axis-designing-for-the-future", 
+  "@type": "Article", 
+  "author": [
+    {
+      "@id": " http://intro2libsys.info/Person/lanier-wren"
+    }
+  ], 
+  "copyrightYear": 2014, 
+  "datePublished": "2014-04-08", 
+  "headline": "The Z-Axis: Designing for the Future", 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-04-08T19:02:13.874022"
+  }, 
+  "url": "http://alistapart.com/article/the-z-axis-designing-for-the-future"
+}

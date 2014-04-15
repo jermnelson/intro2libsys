@@ -1,0 +1,23 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/the-problem-with-counting", 
+  "@type": "Article", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/pan-jennifer"
+    }
+  ], 
+  "copyrightYear": 2014, 
+  "datePublished": "2014-04-03", 
+  "headline": "The Problem with Counting", 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-04-11T15:31:51.018220"
+  }, 
+  "url": "http://www.dissentmagazine.org/blog/the-problem-with-counting"
+}

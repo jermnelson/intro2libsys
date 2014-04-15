@@ -1,0 +1,23 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/the-computer-did-it-technology-and-inequality", 
+  "@type": "Article", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/gordon-colin"
+    }
+  ], 
+  "copyrightYear": 2014, 
+  "datePublished": "Spring 2014", 
+  "headline": "The Computer Did It? Technology and Inequality", 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-04-11T15:29:04.991771"
+  }, 
+  "url": "http://www.dissentmagazine.org/article/the-computer-did-it-technology-and-inequality"
+}
