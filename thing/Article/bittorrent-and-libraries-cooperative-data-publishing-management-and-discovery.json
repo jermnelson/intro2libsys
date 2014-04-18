@@ -1,0 +1,25 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/bittorrent-and-libraries-cooperative-data-publishing-management-and-discovery", 
+  "@type": "Article", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/markman-chris"
+    }, 
+    {
+      "@id": "http://intro2libsys.info/Person/zavras-constantine"
+    }
+  ], 
+  "copyrightYear": 2014, 
+  "headline": "BitTorrent and Libraries: Cooperative Data Publishing, Management and Discovery", 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-04-17T19:01:51.611308"
+  }, 
+  "url": "http://www.dlib.org/dlib/march14/markman/03markman.html"
+}
