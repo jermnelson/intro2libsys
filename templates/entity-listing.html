@@ -6,7 +6,23 @@
   {% include 'snippets/navbar.html' %}
  </div>
  <h1>All {{ entity }}s ({{ entities|length }})</h1> 
- <div class="row">
+ <ul class="pagination">
+  {% for key in entities.keys() %}
+   <li><a href="#{{ key }}">{{ key }}</a></li>
+  {% endfor %}
+ </ul>
+ {% for row in entities|slice(2) %}
+   <p>
+   {% for a in row %}
+     <h1>{{ a }}</h1>
+     {% for h in entities.get(a) %}
+       {{ h.get('headline') }}
+     {% endfor %}
+   {% endfor %}
+   </p>
+ {% endfor %}
+  
+{#
   {% for batch in entities|batch(25) %}
   <div class="col-md-6">
     <ul class="list-unstyled">
@@ -37,6 +53,7 @@
     </div>
   {% endfor %}
  </div>
+#}
 </div>
 {% endblock %}
 

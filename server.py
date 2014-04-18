@@ -17,6 +17,8 @@ try:
 except:
     REDIS_DS = None
 
+from collections import OrderedDict
+
 from flask import abort, Flask, g, jsonify, redirect, render_template, request
 from flask import url_for
 from flask.ext.login import LoginManager, login_user, login_required, logout_user
@@ -255,7 +257,7 @@ def entity_listing(entity):
     entity_folderpath = os.path.join(PROJECT_ROOT,
                                      "thing",
                                      entity)
-    entities = []
+    things = {}
     if os.path.exists(entity_folderpath):
         results = next(os.walk(entity_folderpath))
         for filename in results[2]:
@@ -265,11 +267,19 @@ def entity_listing(entity):
                                     'thing',
                                     entity,
                                     filename)
-            entities.append(json.load(open(filepath)))
+            entity_dict = json.load(open(filepath))
+
+            if 'headline' in entity_dict:
+                first_char = entity_dict.get('headline')[0].lower()
+            elif 'name' in entity_dict:
+                first_char = entity_dict.get('name')[0].lower()
+            if not first_char in things:
+                things[first_char] = []
+            things[first_char].append(entity_dict)
     return render_template('entity-listing.html',
                            comment_form = UserCommentsForm(),
                            entity=entity,
-                           entities=entities,
+                           entities=things,
                            topics=TOPICS)
 
 @app.route('/search',
