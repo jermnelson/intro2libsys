@@ -1,0 +1,23 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/the-creep-factor-how-to-think-about-big-data-and-privacy", 
+  "@type": "NewsArticle", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/oreilly-tim"
+    }
+  ], 
+  "copyrightYear": 2014, 
+  "datePublished": "2014-03-06", 
+  "headline": "The Creep Factor: How To Think About Big Data And Privacy", 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-04-25T15:08:23.938898"
+  }, 
+  "url": "http://www.forbes.com/sites/oreillymedia/2014/03/06/the-creep-factor-how-to-think-about-big-data-and-privacy/"
+}

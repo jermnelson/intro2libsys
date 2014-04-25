@@ -1,0 +1,29 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/BlogPosting/the-decentered-library-network-presence", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/dempsey-lorcan"
+    }
+  ], 
+  "copyrightYear": 2014, 
+  "datePublished": "2014-04-20", 
+  "headline": "The decentered library network presence", 
+  "keywords": [
+    "Analytics and measurement", 
+    "Libraries - distributed environments", 
+    "Libraries - organization and services", 
+    "Social networking", 
+    "Websites: design and role"
+  ], 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-04-25T15:01:49.766270"
+  }, 
+  "url": "http://orweblog.oclc.org/archives/002216.html"
+}
