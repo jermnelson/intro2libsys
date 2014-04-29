@@ -28,8 +28,7 @@ INTRO_SCHEMA = Schema(
     name=TEXT(stored=True),
     creator=KEYWORD(stored=True),
     keywords=KEYWORD(stored=True),
-    content=TEXT)
-
+    content=TEXT(stored=True))
 
 
 SITE_ROOT = os.path.abspath(os.path.dirname(__file__))

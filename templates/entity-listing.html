@@ -14,9 +14,21 @@
  {% for row in entities|slice(2) %}
    <p>
    {% for a in row %}
-     <h1>{{ a }}</h1>
+     <h1>{{ a }} ({{ entities.get(a)|length }}) </h1>
      {% for h in entities.get(a) %}
-       {{ h.get('headline') }}
+     <ul>
+       <li>
+       <a href="{{ h['@id']|local_url }}">
+       {% if h.headline %}{{ h['headline'] }}{% else %}{{ h['name'] }}{% endif %}
+        </a>
+        {% if h.copyrightYear %}&copy; {{h.copyrightYear }}{% endif %}
+        {% if h.author %}by
+         {% for person in h.author %}{{ person['@id']|author_name|safe }}{% if not loop.last %},{% endif %} 
+         {% endfor %}
+        {% endif %}
+
+      </li>
+     </ul>
      {% endfor %}
    {% endfor %}
    </p>

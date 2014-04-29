@@ -9,6 +9,7 @@
       "@id": "http://intro2libsys.info/Person/swanson-lara"
     }
   ], 
+  "copyrightYear": 2011,
   "datePublished": "2011-08-23",
   "headline": "A Primer on A/B Testing", 
   "keywords": ["JavaScript", "Usability", "User Research"], 
