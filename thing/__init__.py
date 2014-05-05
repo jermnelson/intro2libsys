@@ -100,6 +100,8 @@ def add_blog_posting(info,
                      file_location=PROJECT_HOME):
     info = add_entity(info)
     filename = slugify(info.get('headline'))
+    if not '@type' in info:
+        info['@type'] = 'BlogPosting'
     info['@id'] = urllib2.urlparse.urljoin(
         'http://intro2libsys.info',
         'BlogPosting/{0}'.format(filename))

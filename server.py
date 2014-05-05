@@ -8,6 +8,7 @@ import datetime
 import json
 import markdown
 import os
+import re
 import redis
 import sys
 import urllib2
@@ -37,6 +38,8 @@ app = Flask(__name__)
 app.config.from_pyfile('intro2libsys.cfg')
 login_manager = LoginManager()
 login_manager.init_app(app)
+
+FIRST_CHAR_RE = re.compile(r"[a-z]")
 
 TOPIC_MAPS = []
 topic_maps_location = os.path.join(PROJECT_HOME,
@@ -123,13 +126,58 @@ def local_url(absolute_url):
     result = urllib2.urlparse.urlparse(absolute_url)
     return result.path
 
+@app.route("/archive/fall-2012")
+@app.route("/archive/textbook")
+def textbook_archive():
+    return """Original Textbook for <a href="/">Introduction to Library Systems</a>
+is currently being migrated to <a href="http://www.gitbook.io/">GitBook</a>."""
+
+
 # Catalog Pull Platform
 @app.route("/catalog-pull-platform")
 def catalog_pull_platform():
-
     return render_template('catalog-pull-platform.html',
                            comment_form = UserCommentsForm(),
                            topics=TOPICS)
+
+@app.route('/semantic-server')
+def semantic_server():
+    return render_template('semantic-server.html',
+                           comment_form = UserCommentsForm(),
+                           topics=TOPICS)
+
+# Special route handling for Person
+@app.route("/Person/<name>")
+def person_view(name):
+    if not name in THINGS['Person']:
+        abort(404)
+    person_filepath = os.path.join(
+        PROJECT_ROOT,
+        "thing",
+        "Person",
+        "{0}.json".format(name))
+    if not os.path.exists(person_filepath):
+        abort(404)
+    person = json.load(open(person_filepath))
+    works = []
+    for key in THINGS.keys():
+        if not key.startswith('Person'):
+            for entity_key in THINGS[key]:
+                entity = THINGS[key][entity_key]
+                if 'author' in entity:
+                    if {"@id": person.get('@id')} in entity.get('author'):
+                        works.append(entity)
+                if 'creator' in entity:
+                    if {"@id": person.get('@id')} in entity.get('creator'):
+                        works.append(entity)
+    return render_template('person.html',
+                           comments=get_comments(
+                               entity_id=person.get('@id')),
+                           comment_form = UserCommentsForm(),
+                           entity=person,
+                           entity_class='Person',
+                           topics=TOPICS,
+                           works=works)
 
 
 @app.route("/<entity>/<name>.json")
@@ -162,6 +210,8 @@ def entity_comment_add(entity,
                            discusses=discusses)
 
     return jsonify({'result': redis_id})
+
+
 
 
 @app.route("/<entity>/<name>")
@@ -252,6 +302,7 @@ def display_page(topic, page):
                            topics=TOPICS)
 
 
+first_char_re = re.compile(r"[a-z]")
 @app.route('/<entity>s')
 def entity_listing(entity):
     entity_folderpath = os.path.join(PROJECT_ROOT,
@@ -260,6 +311,7 @@ def entity_listing(entity):
     things = {}
     if os.path.exists(entity_folderpath):
         results = next(os.walk(entity_folderpath))
+        total = 0
         for filename in results[2]:
             if not filename.endswith("json"):
                 continue
@@ -270,17 +322,30 @@ def entity_listing(entity):
             entity_dict = json.load(open(filepath))
 
             if 'headline' in entity_dict:
-                first_char = entity_dict.get('headline')[0].lower()
+                all_chars = entity_dict.get('headline').lower()
+
             elif 'name' in entity_dict:
-                first_char = entity_dict.get('name')[0].lower()
+                all_chars = entity_dict.get('name').lower()
+            first_char = all_chars[0]
+            if not FIRST_CHAR_RE.search(first_char):
+                for char in all_chars:
+                    if FIRST_CHAR_RE.search(char):
+                        first_char = char
+                        print("First char is {} for {}".format(first_char, all_chars))
+                        break
             if not first_char in things:
                 things[first_char] = []
             things[first_char].append(entity_dict)
+            total += 1
+    sorted_things = OrderedDict()
+    for key in sorted(things):
+        sorted_things[key] = things.get(key)
     return render_template('entity-listing.html',
                            comment_form = UserCommentsForm(),
                            entity=entity,
-                           entities=things,
-                           topics=TOPICS)
+                           entities=sorted_things,
+                           topics=TOPICS,
+                           total=total)
 
 @app.route('/search',
            methods=['POST', 'GET'])

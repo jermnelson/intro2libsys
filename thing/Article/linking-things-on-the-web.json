@@ -21,6 +21,8 @@
     "bf:descriptionLanguage": "English"
   }, 
   "bookFormat": "EBook", 
+  "copyrightYear": 2013,
+  "datePublished": "2013-02-19",
   "description": "Short Ebook on Linked Data in the cultural heritage sector: libraries, archives and museums", 
   "headline": "Linking Things on the Web: A Pragmatic Examination of Linked Data for Libraries, Archives and Museums", 
   "name": "linking-things-on-the-web-a-pragmatic-examination-of-linked-data-for-libraries-archives-and-museums", 

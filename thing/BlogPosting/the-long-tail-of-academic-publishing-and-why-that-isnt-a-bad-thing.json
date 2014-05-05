@@ -4,6 +4,7 @@
     "bf": "http://bibframe.org/vocab/"
   }, 
   "@id": "http://intro2libsys.info/BlogPosting/the-long-tail-of-academic-publishing-and-why-that-isnt-a-bad-thing", 
+  "@type": "BlogPosting", 
   "author": [
     {
       "@id": "http://intro2libsys.info/Person/glance-david"

@@ -4,6 +4,7 @@
     "bf": "http://bibframe.org/vocab/"
   }, 
   "@id": "http://intro2libsys.info/BlogPosting/what-is-a-scholarly-book", 
+  "@type": "BlogPosting", 
   "author": [
     {
       "@id": "http://intro2libsys.info/Person/schnapp-jeffrey"

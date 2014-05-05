@@ -4,6 +4,7 @@
     "bf": "http://bibframe.org/vocab/"
   }, 
   "@id": "http://intro2libsys.info/BlogPosting/introducing-linked-data-part-1-without-all-the-techie-stuff", 
+  "@type": "BlogPosting", 
   "author": [
     {
       "@id": "http://intro2libsys.info/Person/hitchens-alison"

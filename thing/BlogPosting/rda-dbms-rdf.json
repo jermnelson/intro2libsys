@@ -1,6 +1,6 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/" 
+    "@vocab": "http://schema.org/"
   }, 
   "@id": "http://intro2libsys.info/BlogPosting/rda-dbms-rdf", 
   "@type": "BlogPosting", 
@@ -9,7 +9,7 @@
       "@id": "http://intro2libsys.info/Person/coyle-karen"
     }
   ], 
-  "copyrightYear": 2012,
+  "copyrightYear": 2012, 
   "headline": "RDA, DBMS, RDF", 
   "url": "http://kcoyle.blogspot.com/2012/05/rda-dbms-rdf.html"
 }

@@ -5,7 +5,7 @@
  <div class="row">
   {% include 'snippets/navbar.html' %}
  </div>
- <h1>All {{ entity }}s ({{ entities|length }})</h1> 
+ <h1>All {{ entity }}s ({{ total }})</h1> 
  <ul class="pagination">
   {% for key in entities.keys() %}
    <li><a href="#{{ key }}">{{ key }}</a></li>
@@ -14,6 +14,7 @@
  {% for row in entities|slice(2) %}
    <p>
    {% for a in row %}
+     <a name="{{ a }}"></a>
      <h1>{{ a }} ({{ entities.get(a)|length }}) </h1>
      {% for h in entities.get(a) %}
      <ul>

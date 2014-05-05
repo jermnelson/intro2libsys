@@ -4,6 +4,7 @@
     "bf": "http://bibframe.org/vocab/"
   }, 
   "@id": "http://intro2libsys.info/BlogPosting/self-publishing-truism-bingo", 
+  "@type": "BlogPosting", 
   "author": [
     {
       "@id": "http://intro2libsys.info/Person/wendig-chuck"

@@ -1,0 +1,93 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div class="container">
+ <div class="row">
+  {% include 'snippets/navbar.html' %}
+ </div>
+
+<div class="row">
+ <div class="col-md-12">
+  <ol class="breadcrumb">
+    <li><a href="{{ url_for('index') }}">Home</a></li>
+    <li><a href="{{ url_for('entity_listing', entity=entity_class) }}">{{ entity_class }}</a></li>
+    <li class="active"> 
+    {{ entity.get('name') }}
+    </li>
+  </ol>
+ </div>
+</div>
+
+<div class="row">
+ <div class="col-md-8">
+  <div itemscope itemtype="{{ entity['@type'] }}">
+   <h1 itemprop="name">
+    {{ entity.name }}
+   <div class="btn-group">
+   {% if entity.url %}
+    <a href="{{ entity.url }}" class="btn btn-default">
+     <span class="glyphicon glyphicon-link"></span>
+    </a>
+   {% endif %}
+    <a href="{{ request.path }}.json" class="btn btn-default">
+      <img src="{{ url_for('static', filename='img/json-ld-data-24.png') }}">
+    </a>
+   </div>
+   </h1>
+   {% if entity.description %}
+   <p class="lead">{{ entity.description }}</p>
+   {% endif %}
+   <div class="row">
+    {# START column #}
+    <div class="col-md-6">
+    {# START author/creator Panel #}
+     <div class="panel panel-success">
+      {# START panel-heading #}
+      <div class="panel-heading">
+       <h2 class="panel-title">Works ({{ works|length }})</h2>
+       </h2>
+      {# END panel-heading #}
+      </div>
+      {# START panel-body #}
+      <div class="panel-body">
+      {% for work in works %}
+       <li itemscope itemtype="{{ work['@type'] }}">
+         <span itemprop="{% if headline in work %}headline{% else %}name{% endif %}">
+         <a href="{{ work['@id']|local_url }}">
+         {% if work.headline %}{{ work['headline'] }}{% else %}{{ work['name'] }}{% endif %}
+         </a>
+         </span> 
+         {{ work['@type'] }}
+         {% if work.copyrightYear %}
+          published in <span itemprop="copyrightYear">
+         {{ work.copyrightYear }}</span>
+        {% endif %} 
+       </li>
+      {% endfor %}
+      {# END panel-body #}
+      </div>
+     {# END author/creator Panel #}
+     </div>
+    {# END column #}
+    </div>
+    {# START column #}
+    <div class="col-md-6 well well-sm">
+    <p class="lead">
+     {% if entity.givenName %}<label>Given name:</label><span itemprop="givenName">{{ entity.givenName }}</span><br>{% endif %}
+     {% if entity.familyName %}<label>Family name:</label><span itemprop="familyName">{{ entity.familyName }}</span><br>{% endif %}
+
+    </p>
+    {# END column #}
+    </div>
+   {# END row #}
+   </div>
+ </div>
+</div>
+
+</div>
+{% endblock %}
+
+{% block more_js %}
+<script>
+</script>
+{% endblock %}

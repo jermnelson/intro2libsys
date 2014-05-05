@@ -4,6 +4,7 @@
     "bf": "http://bibframe.org/vocab/"
   }, 
   "@id": "http://intro2libsys.info/BlogPosting/the-past-present-and-future-of-scholarly-publishing", 
+  "@type": "BlogPosting", 
   "author": [
     {
       "@id": "http://intro2libsys.info/Person/eisen-michael"

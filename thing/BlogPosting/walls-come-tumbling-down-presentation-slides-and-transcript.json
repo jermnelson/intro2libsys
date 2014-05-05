@@ -5,6 +5,7 @@
     "loc": "http://www.loc.gov/standards/mads/"
   }, 
   "@id": "http://intro2libsys.info/BlogPosting/walls-come-tumbling-down-presentation-slides-and-transcript", 
+  "@type": "BlogPosting", 
   "author": [
     {
       "@id": "http://intro2libsys.info/Person/clarke-andrew"

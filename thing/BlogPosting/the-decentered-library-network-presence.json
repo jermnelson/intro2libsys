@@ -5,6 +5,7 @@
     "loc": "http://www.loc.gov/standards/mads/"
   }, 
   "@id": "http://intro2libsys.info/BlogPosting/the-decentered-library-network-presence", 
+  "@type": "BlogPosting", 
   "author": [
     {
       "@id": "http://intro2libsys.info/Person/dempsey-lorcan"

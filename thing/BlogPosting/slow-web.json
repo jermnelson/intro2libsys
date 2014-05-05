@@ -1,15 +1,18 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/" 
+    "@vocab": "http://schema.org/"
   }, 
   "@id": "http://intro2libsys.info/BlogPosting/slow-web", 
   "@type": "BlogPosting", 
   "author": [
     {
-     "@id": "http://intro2libsys.info/Person/cheng-jack"      
+      "@id": "http://intro2libsys.info/Person/cheng-jack"
     }
   ], 
-  "headline": "The Slow Web",
-  "keywords": ["web development", "long now"],
+  "headline": "The Slow Web", 
+  "keywords": [
+    "web development", 
+    "long now"
+  ], 
   "url": "http://blog.jackcheng.com/post/25160553986/the-slow-web"
 }

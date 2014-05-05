@@ -5,6 +5,7 @@
     "loc": "http://www.loc.gov/standards/mads/"
   }, 
   "@id": "http://intro2libsys.info/BlogPosting/visualising-schemaorg", 
+  "@type": "BlogPosting", 
   "author": [
     {
       "@id": "http://intro2libsys.info/Person/wallis-richard"

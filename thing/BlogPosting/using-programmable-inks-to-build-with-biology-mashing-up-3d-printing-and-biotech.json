@@ -5,6 +5,7 @@
     "loc": "http://www.loc.gov/standards/mads/"
   }, 
   "@id": "http://intro2libsys.info/BlogPosting/using-programmable-inks-to-build-with-biology-mashing-up-3d-printing-and-biotech", 
+  "@type": "BlogPosting", 
   "author": [
     {
       "@id": "http://intro2libsys.info/Person/carlson-rob"

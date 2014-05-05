@@ -4,9 +4,10 @@
     "bf": "http://bibframe.org/vocab/"
   }, 
   "@id": "http://intro2libsys.info/BlogPosting/3d-printing-isnt-the-digital-literacy-that-libraries-most-need-to-teach", 
+  "@type": "BlogPosting", 
   "author": [
     {
-      "@id": "\"http://intro2libsys.info/Person/udell-jon\""
+      "@id": "http://intro2libsys.info/Person/udell-jon"
     }
   ], 
   "bf:adminInfo": {

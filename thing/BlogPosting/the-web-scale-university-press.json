@@ -6,7 +6,7 @@
   "@type": "BlogPosting", 
   "author": [
     {
-     "@id": "http://intro2libsys.info/Person/esposito-joseph" 
+      "@id": "http://intro2libsys.info/Person/esposito-joseph"
     }
   ], 
   "copyrightYear": 2013, 

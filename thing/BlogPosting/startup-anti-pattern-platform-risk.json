@@ -4,6 +4,7 @@
     "bf": "http://bibframe.org/vocab/"
   }, 
   "@id": "http://intro2libsys.info/BlogPosting/startup-anti-pattern-platform-risk", 
+  "@type": "BlogPosting", 
   "bf:adminInfo": {
     "bf:creationDate": "2014-01-30T14:54:06.896905", 
     "bf:descriptionConventions": "Using schema.org for descriptive metadata", 

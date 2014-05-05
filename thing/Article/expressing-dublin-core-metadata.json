@@ -3,7 +3,7 @@
     "@vocab": "http://schema.org/", 
     "bf": "http://bibframe.org/vocab"
   }, 
-  "@id": "http://dublincore.org/documents/2008/01/14/dc-rdf/", 
+  "@id": "http://intro2libsys.info/Article/expressing-dublin-core-metadata", 
   "@type": "Article", 
   "bf:adminInfo": {
     "bf:changedDate": "2013-12-18T00:15:08.345000",

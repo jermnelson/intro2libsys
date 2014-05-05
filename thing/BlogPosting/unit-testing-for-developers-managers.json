@@ -1,6 +1,6 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/" 
+    "@vocab": "http://schema.org/"
   }, 
   "@id": "http://intro2libsys.info/BlogPosting/unit-testing-for-developers-managers", 
   "@type": "BlogPosting", 

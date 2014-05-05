@@ -1,15 +1,18 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/" 
+    "@vocab": "http://schema.org/"
   }, 
   "@id": "http://intro2libsys.info/BlogPosting/data-monday-impact-responsive-design", 
   "@type": "BlogPosting", 
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/wroblewski-luke" 
+      "@id": "http://intro2libsys.info/Person/wroblewski-luke"
     }
   ], 
   "datePublished": "2013-02-25", 
-  "keywords": ["web design", "responsive design"],
-  "headline": "Data Monday: Impact of Responsive Designs" 
+  "headline": "Data Monday: Impact of Responsive Designs", 
+  "keywords": [
+    "web design", 
+    "responsive design"
+  ]
 }

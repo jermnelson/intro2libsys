@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/clancy-ryan", 
+  "@type": "Person", 
+  "familyName": "Clancy", 
+  "givenName": "Ryan", 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-05-05T17:53:06.367000"
+  }, 
+  "name": "Ryan Clancy", 
+  "url": "http://intro2libsys.info/Person/RyanClancy"
+}

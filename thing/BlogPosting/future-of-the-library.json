@@ -2,11 +2,11 @@
   "@context": {
     "@vocab": "http://schema.org/"
   }, 
+  "@id": "http://intro2libsys.info/BlogPosting/future-of-the-library", 
   "@type": "BlogPosting", 
-  "@id": "http://intro2libsys.info/BlogPosting/future-of-the-library",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/godin-seth" 
+      "@id": "http://intro2libsys.info/Person/godin-seth"
     }
   ], 
   "copyrightYear": 2011, 

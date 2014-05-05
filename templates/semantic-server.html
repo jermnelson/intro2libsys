@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block view_title %}Semantic Server{% endblock %}
+
+
+{% block body %}
+<div class="container">
+ {# START navbar #}
+ <div class="row">
+  <div class="col-md-12">
+  {% include 'snippets/navbar.html' %}
+  </div>
+ {# END navbar #}
+ </div>
+ {# START Main Visual row #}
+ <div class="row">
+  <div class="col-md-10 jumbotron">
+   <h2>Catalog Pull Platform's</h2>
+   <h1>Semantic Server</h1>
+   <p class="lead">
+    A critical component of the <a href="/catalog-pull-platform">Catalog Pull Platform</a> is 
+    the Linked-Data and JSON-based Semantic Server. The Semantic Server provides a REST API
+    for managing different artifacts vocabularies that are stored internally in JSON-base 
+    documents. The core code-base of the Semantic Server is licensed under the MIT software license
+    with other components licensed under various open-source or open-source friendly licenses.
+   </p>
+  </div>
+ {# END Main Visual row #}
+ </div>
+{% endblock %}
