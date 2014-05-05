@@ -331,7 +331,6 @@ def entity_listing(entity):
                 for char in all_chars:
                     if FIRST_CHAR_RE.search(char):
                         first_char = char
-                        print("First char is {} for {}".format(first_char, all_chars))
                         break
             if not first_char in things:
                 things[first_char] = []
