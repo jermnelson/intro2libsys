@@ -1,0 +1,23 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/can-we-avoid-a-surveillance-state-dystopia", 
+  "@type": "Article", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/naam-ramez"
+    }
+  ], 
+  "copyrightYear": 2014, 
+  "datePublished": "2014-03-18", 
+  "headline": "Can We Avoid a Surveillance State Dystopia?", 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-05-05T17:35:40.912115"
+  }, 
+  "url": "http://ieet.org/index.php/IEET/more/naam20140318"
+}

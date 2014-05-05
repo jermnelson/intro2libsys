@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/gruman-galen", 
+  "@type": "Person", 
+  "familyName": "Gruman", 
+  "givenName": "Galen", 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-05-05T17:26:46.288713"
+  }, 
+  "name": "Galen Gruman", 
+  "url": "http://intro2libsys.info/Person/GalenGruman"
+}

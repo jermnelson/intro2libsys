@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/BlogPosting/how-the-robots-will-take-over", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/adams-scott"
+    }
+  ], 
+  "copyrightYear": 2014, 
+  "datePublished": "2014-04-09", 
+  "headline": "How the Robots Will Take Over", 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-05-05T17:31:41.840004"
+  }, 
+  "url": "http://dilbert.com/blog/entry/how_the_robots_will_take_over/"
+}
