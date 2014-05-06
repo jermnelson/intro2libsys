@@ -3,14 +3,14 @@
     "@vocab": "http://schema.org/", 
     "idloc": "http://id.loc.gov"
   }, 
-  "@id": "http://intro2libsys.info/Article/", 
+  "@id": "http://intro2libsys.info/Article/mosques-libraries-islamic-civilization", 
   "@type": "http://schema.org/ScholarlyArticle", 
-  "authors": [
+  "author": [
     {
-      "familyName": "BenAicha", 
-      "givenName": "Hedi"
+      "@id": "http://intro2libsys.info/Person/benaicha-hedi"
     }
   ], 
+  "copyrightYear": 1986,
   "name": "Mosques as Libraries in Islamic Civilization, 700-1400 A.D.", 
   "url": "http://www.jstor.org/stable/25541694"
 }

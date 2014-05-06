@@ -5,6 +5,8 @@
   }, 
   "@id": "http://intro2libsys.info/Article/bibframe-use-cases-and-requirements",
   "@type": "Article",
+  "copyrightYear": 2012,
+  "datePublished": "2012-08-21",
   "headline": "BIBFRAME Use Cases and Requirements", 
   "publisher": {
     "@id": "http://intro2libsys.info/Organization/library-of-congress"

@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/benaicha-hedi", 
+  "@type": "Person", 
+  "familyName": "BenAicha", 
+  "givenName": "Hedi", 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-05-05T23:04:11.505000"
+  }, 
+  "name": "Hedi BenAicha", 
+  "url": "http://intro2libsys.info/Person/HediBenAicha"
+}

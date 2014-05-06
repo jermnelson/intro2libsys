@@ -15,7 +15,7 @@
     "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
     "bf:descriptionLanguage": "English"
   }, 
-  "copyrightDate": 2012, 
+  "copyrightYear": 2012, 
   "headline": "Transforming Library Metadata into Linked Library Data", 
   "url": "http://www.ala.org/alcts/resources/org/cat/research/linked-data"
 }
