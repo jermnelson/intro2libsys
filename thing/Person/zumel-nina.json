@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/zumel-nina", 
+  "@type": "Person", 
+  "familyName": "Zumel", 
+  "givenName": "Nina", 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-05-09T19:16:47.059796"
+  }, 
+  "name": "Nina Zumel", 
+  "url": "http://intro2libsys.info/Person/NinaZumel"
+}

@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/chediak-mark", 
+  "@type": "Person", 
+  "familyName": "Chediak", 
+  "givenName": "Mark", 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-05-12T16:23:25.749029"
+  }, 
+  "name": "Mark Chediak", 
+  "url": "http://intro2libsys.info/Person/MarkChediak"
+}

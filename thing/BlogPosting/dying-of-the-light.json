@@ -1,0 +1,23 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/BlogPosting/dying-of-the-light", 
+  "@type": "BlogPosting", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/wright-jim"
+    }
+  ], 
+  "copyrightYear": 2014, 
+  "datePublished": "2014-04-19", 
+  "headline": "Dying Of The Light", 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-05-12T16:27:35.560751"
+  }, 
+  "url": "http://www.stonekettle.com/2014/04/dying-of-light.html"
+}

@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/watters-ethan", 
+  "@type": "Person", 
+  "familyName": "Watters", 
+  "givenName": "Ethan", 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-05-12T16:14:20.205303"
+  }, 
+  "name": "Ethan Watters", 
+  "url": "http://intro2libsys.info/Person/EthanWatters"
+}

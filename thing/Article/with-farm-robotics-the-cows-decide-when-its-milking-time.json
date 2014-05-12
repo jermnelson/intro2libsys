@@ -1,0 +1,23 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/with-farm-robotics-the-cows-decide-when-its-milking-time", 
+  "@type": "Article", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/mckinley-jesse"
+    }
+  ], 
+  "copyrightYear": 2014, 
+  "datePublished": "2014-04-22", 
+  "headline": "With Farm Robotics, the Cows Decide When It's Milking Time", 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-05-12T16:21:25.223823"
+  }, 
+  "url": "http://www.nytimes.com/2014/04/23/nyregion/with-farm-robotics-the-cows-decide-when-its-milking-time.html"
+}

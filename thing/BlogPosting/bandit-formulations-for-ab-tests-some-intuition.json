@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/BlogPosting/bandit-formulations-for-ab-tests-some-intuition", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/zumel-nina"
+    }
+  ], 
+  "copyrightYear": 2014, 
+  "datePublished": "2014-04-24", 
+  "headline": "Bandit Formulations for A/B Tests: Some Intuition", 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-05-09T19:18:53.152947"
+  }, 
+  "url": "http://www.win-vector.com/blog/2014/04/bandit-formulations-for-ab-tests-some-intuition/"
+}
