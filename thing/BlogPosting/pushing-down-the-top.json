@@ -1,0 +1,23 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/BlogPosting/pushing-down-the-top", 
+  "@type": "BlogPosting", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/resnikoff-ned"
+    }
+  ], 
+  "copyrightYear": 2014, 
+  "datePublished": "2014-05-06", 
+  "headline": "Pushing Down the Top", 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-05-13T14:39:57.129182"
+  }, 
+  "url": "http://thebaffler.com/blog/2014/05/pushing_down_the_top"
+}

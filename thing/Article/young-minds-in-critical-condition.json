@@ -1,0 +1,23 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/young-minds-in-critical-condition", 
+  "@type": "Article", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/roth-michael"
+    }
+  ], 
+  "copyrightYear": 2014, 
+  "datePublished": "2014-05-10", 
+  "headline": "Young Minds in Critical Condition", 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-05-13T14:31:56.775380"
+  }, 
+  "url": "http://opinionator.blogs.nytimes.com/2014/05/10/young-minds-in-critical-condition/"
+}

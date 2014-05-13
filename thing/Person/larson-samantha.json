@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/larson-samantha", 
+  "@type": "Person", 
+  "familyName": "Larson", 
+  "givenName": "Samantha", 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-05-13T14:40:59.331632"
+  }, 
+  "name": "Samantha Larson", 
+  "url": "http://intro2libsys.info/Person/SamanthaLarson"
+}
