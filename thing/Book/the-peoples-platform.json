@@ -1,0 +1,27 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/Book/the-peoples-platform", 
+  "@type": "Book", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/taylor-astra"
+    }
+  ], 
+  "copyrightYear": 2014, 
+  "headline": "The People's Platform", 
+  "isbn": "978-0-8050-9356-8", 
+  "keywords": [
+    "Internet-Social Aspects", 
+    "Virtual reality", 
+    "Equality"
+  ], 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-05-14T12:57:51.155086"
+  }
+}

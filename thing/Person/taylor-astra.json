@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/taylor-astra", 
+  "@type": "Person", 
+  "familyName": "Taylor", 
+  "givenName": "Astra", 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-05-14T12:54:33.738565"
+  }, 
+  "name": "Astra Taylor", 
+  "url": "http://intro2libsys.info/Person/AstraTaylor"
+}
