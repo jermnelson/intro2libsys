@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/kopp-rochelle", 
+  "@type": "Person", 
+  "familyName": "Kopp", 
+  "givenName": "Rochelle", 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-05-20T16:33:01.597637"
+  }, 
+  "name": "Rochelle Kopp", 
+  "url": "http://intro2libsys.info/Person/RochelleKopp"
+}

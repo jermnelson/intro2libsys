@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/gender-technology-and-libraries", 
+  "@type": "ScholarlyArticle", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/lamont-melissa"
+    }
+  ], 
+  "copyrightYear": 2009, 
+  "headline": "Gender, Technology, and Libraries", 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-05-19T16:19:04.069989"
+  }, 
+  "url": "http://ejournals.bc.edu/ojs/index.php/ital/article/view/3221/2834"
+}
