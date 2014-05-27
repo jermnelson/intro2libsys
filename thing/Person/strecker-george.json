@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/strecker-george", 
+  "@type": "Person", 
+  "familyName": "Strecker", 
+  "givenName": "George", 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-05-27T15:04:38.281000"
+  }, 
+  "name": "George E. Strecker", 
+  "url": "http://intro2libsys.info/Person/GeorgeStrecker"
+}
