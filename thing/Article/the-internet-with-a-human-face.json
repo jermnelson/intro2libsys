@@ -1,0 +1,23 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/the-internet-with-a-human-face", 
+  "@type": "Article", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/cegowski-maciej"
+    }
+  ], 
+  "copyrightYear": 2014, 
+  "datePublished": "2014-05-20", 
+  "headline": "The Internet With a Human Face", 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-05-28T21:09:52.313000"
+  }, 
+  "url": "http://idlewords.com/bt14.htm"
+}

@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/cegowski-maciej", 
+  "@type": "Person", 
+  "familyName": "Ceg\u0142owski", 
+  "givenName": "Maciej", 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-05-28T20:58:26.604000"
+  }, 
+  "name": "Maciej Ceg\u0142owski", 
+  "url": "http://intro2libsys.info/Person/MaciejCeg\u0142owski"
+}
