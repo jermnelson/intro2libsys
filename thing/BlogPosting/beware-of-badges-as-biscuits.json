@@ -1,0 +1,29 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/BlogPosting/beware-of-badges-as-biscuits", 
+  "@type": "BlogPosting", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/bull-bernard"
+    }
+  ], 
+  "copyrightYear": 2014, 
+  "datePublished": "2014-05-27", 
+  "headline": "Beware of Badges as Biscuits", 
+  "keywords": [
+    "badges", 
+    "digital badges", 
+    "educational design", 
+    "educational technology"
+  ], 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-06-02T13:41:11.963622"
+  }, 
+  "url": "http://etale.org/main/2014/05/27/beware-of-badges-as-biscuits/"
+}
