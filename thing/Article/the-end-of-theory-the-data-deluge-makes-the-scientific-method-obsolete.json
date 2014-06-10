@@ -1,0 +1,23 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/the-end-of-theory-the-data-deluge-makes-the-scientific-method-obsolete", 
+  "@type": "Article", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/anderson-chris"
+    }
+  ], 
+  "copyrightYear": 2008, 
+  "datePublished": "2008-06-23", 
+  "headline": "The End of Theory: The Data Deluge Makes the Scientific Method Obsolete", 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-06-10T13:20:06.030838"
+  }, 
+  "url": "http://archive.wired.com/science/discoveries/magazine/16-07/pb_theory"
+}

@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/crawford-kate", 
+  "@type": "Person", 
+  "familyName": "Crawford", 
+  "givenName": "Kate", 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-06-10T13:21:20.487300"
+  }, 
+  "name": "Kate Crawford", 
+  "url": "http://intro2libsys.info/Person/KateCrawford"
+}

@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/anderson-chris", 
+  "@type": "Person", 
+  "familyName": "Anderson", 
+  "givenName": "Chris", 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-06-10T13:16:57.393148"
+  }, 
+  "name": "Chris Anderson", 
+  "url": "http://intro2libsys.info/Person/ChrisAnderson"
+}
