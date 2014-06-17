@@ -4,15 +4,15 @@
     "bf": "http://bibframe.org/vocab/", 
     "loc": "http://www.loc.gov/standards/mads/"
   }, 
-  "@id": "http://intro2libsys.info/Person/anderson-janna", 
+  "@id": "http://intro2libsys.info/Person/farmer-randy", 
   "@type": "Person", 
-  "familyName": "Anderson", 
-  "givenName": "Janna", 
+  "familyName": "Farmer", 
+  "givenName": "Randy", 
   "mads:recordInfo": {
     "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
     "loc:languageOfCataloging": "English", 
-    "loc:recordCreationDate": "2014-06-03T16:47:12.404000"
+    "loc:recordCreationDate": "2014-06-17T23:07:56.892000"
   }, 
-  "name": "Janna Anderson", 
-  "url": "http://intro2libsys.info/Person/JannaAnderson"
+  "name": "Randy Farmer", 
+  "url": "http://intro2libsys.info/Person/RandyFarmer"
 }
