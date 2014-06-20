@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/kugelberg-johan", 
+  "@type": "Person", 
+  "familyName": "Kugelberg", 
+  "givenName": "Johan", 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-06-19T14:51:05.903428"
+  }, 
+  "name": "Johan Kugelberg", 
+  "url": "http://intro2libsys.info/Person/JohanKugelberg"
+}

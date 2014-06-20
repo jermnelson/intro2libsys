@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/Person/rao-venkatesh", 
+  "@type": "Person", 
+  "familyName": "Rao", 
+  "givenName": "Venkatesh", 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-06-19T22:50:29.113598"
+  }, 
+  "name": "Venkatesh Rao", 
+  "url": "http://intro2libsys.info/Person/VenkateshRao"
+}

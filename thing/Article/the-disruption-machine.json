@@ -1,0 +1,23 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/the-disruption-machine", 
+  "@type": "Article", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/lepore-jill"
+    }
+  ], 
+  "copyrightYear": 2014, 
+  "datePublished": "2014-06-23", 
+  "headline": "The Disruption Machine", 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-06-17T20:55:18.190048"
+  }, 
+  "url": "http://www.newyorker.com/reporting/2014/06/23/140623fa_fact_lepore?currentPage=all"
+}
