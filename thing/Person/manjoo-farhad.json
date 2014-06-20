@@ -4,15 +4,15 @@
     "bf": "http://bibframe.org/vocab/", 
     "loc": "http://www.loc.gov/standards/mads/"
   }, 
-  "@id": "http://intro2libsys.info/Person/anderson-janna", 
+  "@id": "http://intro2libsys.info/Person/manjoo-farhad", 
   "@type": "Person", 
-  "familyName": "Anderson", 
-  "givenName": "Janna", 
+  "familyName": "Manjoo", 
+  "givenName": "Farhad", 
   "mads:recordInfo": {
     "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
     "loc:languageOfCataloging": "English", 
-    "loc:recordCreationDate": "2014-06-03T16:47:12.404000"
+    "loc:recordCreationDate": "2014-06-02T17:33:13.633000"
   }, 
-  "name": "Janna Anderson", 
-  "url": "http://intro2libsys.info/Person/JannaAnderson"
+  "name": "Farhad Manjoo", 
+  "url": "http://intro2libsys.info/Person/FarhadManjoo"
 }
