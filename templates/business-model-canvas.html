@@ -1,0 +1,101 @@
+{% extends 'base.html' %}
+
+{% block view_title %}Business Model Canvas for {{ org.get('name') }}{% endblock %}
+
+{% block more_css %}
+<style>
+  .map { border: 2px solid black } 
+ 
+
+</style>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+ {# START navbar #}
+ <div class="row">
+  <div class="col-md-12">
+  {% include 'snippets/navbar.html' %}
+   <h1>Business Model Canvas for {{ org.get('name') }}</h1>
+  </div>
+ {# END navbar #}
+ </div>
+ <div>
+ {# START Main Visual row #}
+ <div class="row">
+  <div class="col-md-2 col-md-offset-1">
+   <div class="map">
+    <h2>Key Partners <i class="glyphicon glyphicon-link pull-right"></i></h2>
+    <ul>
+   {% for partner in org.get('partner') %}
+     <li>{{ partner.get('name') }} 
+      <ul>
+      {% for activity in partner.get('activity') %}
+      <li><a href="{{ activity.get('url') }}">
+          {{ activity.get('name') }}
+         </a>
+       </li>
+      {% endfor %}
+       </li>
+     {% endfor %}
+     </ul>
+    </div>
+    
+  </div> 
+  <div class="col-md-2">
+   <div class="map">
+    <h2>Key Activities <i class="glyphicon glyphicon-ok-sign pull-right"></i>
+    <ul>
+    {% for activity in org.get('activity') %}
+     <li><a name="{{ activity.get('@id') }}"></a>
+        {{ activity.get('name') }} 
+     </li>
+    {% endfor %}
+    </ul>
+   </div>
+   <div class="map">
+     <h2>Key Resources<i class="glyphicon glyphicon-usd pull-right"></i></h2>
+    </div>
+  </div>
+  <div class="col-md-2 map">
+  <h2>Value Propositions <i class="glyphicon glyphicon-globe pull-left"></i></h2>
+   <ul>
+   {% for proposition in org.get('proposition') %}
+    <li><a name="{{ proposition.get('@id') }}"></a>
+        {{ proposition.get('name') }} 
+     </li>
+   {% endfor %}
+   </ul>
+
+  </div>
+  <div class="col-md-2">
+   <div class="map">
+     <h2><i class="glyphicon glyphicon-heart pull-left"></i> 
+       Customer Relationships</h2>
+   </div>
+   <div class="map">
+     <h2><i class="glyphicon glyphicon-earphone"></i>
+       Channels
+     </h2>
+   </div>
+  </div>
+  <div class="col-md-2 map">
+   
+   <h2>Customer Segments <i class="glyphicon glyphicon-user"></i></h2>
+
+  </div>
+ </div>
+ <div class="row">
+  <div class="map col-md-5 col-md-offset-1">
+   <h2>Cost Structure</h2> 
+  </div>
+  <div class="col-md-5 map">
+   <h2>Revenue Stream <i class="glyphicon glyphicon-usd pull-right"></i></h2>
+
+  </div>
+ </div> 
+</div>
+{% endblock %}
+
+{% block dialogs %}
+{% endblock %}

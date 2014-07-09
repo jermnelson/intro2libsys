@@ -1,0 +1,19 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/Organization/ppjpc-peace-camp", 
+  "@type": "Organization", 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-07-09T17:14:29.850901"
+  }, 
+  "memberOf": {
+    "@id": "http://intro2libsys.info/Organizations/pikes-peak-justice-and-peace-commission"
+  }, 
+  "name": "PPJPC Peace Camp", 
+  "url": "http://www.ppjpc.org/peace-camp/"
+}

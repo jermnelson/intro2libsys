@@ -132,6 +132,18 @@ def textbook_archive():
     return """Original Textbook for <a href="/">Introduction to Library Systems</a>
 is currently being migrated to <a href="http://www.gitbook.io/">GitBook</a>."""
 
+# Business Model Canvases
+@app.route("/business-model-canvas/<name>")
+def bmc(name):
+    json_path = os.path.join(PROJECT_ROOT,
+                             "business-model-canvases",
+                             "{}.json".format(name))
+    if not os.path.exists(json_path):
+        raise(404)
+    return render_template('business-model-canvas.html',
+                           org= json.load(open(json_path, 'r')),
+                           comment_form = UserCommentsForm(),
+                           topics=TOPICS)
 
 # Catalog Pull Platform
 @app.route("/catalog-pull-platform")
