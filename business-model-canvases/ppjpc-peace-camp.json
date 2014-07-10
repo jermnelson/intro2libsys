@@ -1,14 +1,139 @@
 {
-  "@type": "BusinessModelCanvas", 
-  "activity": [], 
-  "channel": [], 
-  "cost": [], 
-  "customer-relationship": [], 
-  "customer-segments": [], 
-  "name": "PPJC Peace Camp", 
-  "partner": [], 
-  "proposition": [], 
-  "resource": [], 
-  "revenue-stream": [], 
+  "@type": "http://schema.org/CreativeWork/BusinessModelCanvas", 
+  "activity": [
+    {
+      "@id": "six-day-camp", 
+      "@type": "EducationalEvent", 
+      "name": "Annual Six Day Summer Camp", 
+      "organizer": {
+        "@id": "http://intro2libsys.info/Organization/pikes-peak-justice-and-peace-commission", 
+        "name": "Pikes Peak Justice and Peace Commission"
+      }, 
+      "subEvent": []
+    }
+  ], 
+  "channel": [
+    {
+      "@id": "email", 
+      "name": "Email", 
+      "phase": "awareness"
+    }, 
+    {
+      "@id": "telephone", 
+      "name": "Telephone", 
+      "phase": "awareness"
+    }, 
+    {
+      "@id": "website", 
+      "name": "PPJPC Website"
+    }
+  ], 
+  "cost": [
+    {
+      "@id": "camp-director-solary", 
+      "@type": "FixedCost", 
+      "name": "Camp Director Solary"
+    }, 
+    {
+      "@id": "rent-for-church", 
+      "@type": "FixedCost", 
+      "name": "Rent for Church"
+    }, 
+    {
+      "@id": "rent-for-overnight-camp", 
+      "@type": "FixedCost", 
+      "name": "Rent for Overnight Camp"
+    }, 
+    {
+      "@id": "craft-supplies", 
+      "@type": "FixedCost", 
+      "name": "Craft Supplies"
+    }, 
+    {
+      "@id": "advertising", 
+      "@type": "FixedCost", 
+      "name": "Advertising"
+    }
+  ], 
+  "creator": "Jeremy Nelson", 
+  "customer-relationship": [
+    {
+      "@id": "educational", 
+      "name": "Education on Peace topics for day campers"
+    }, 
+    {
+      "@id": "advocacy", 
+      "name": "Advocacy on Peace Issues"
+    }, 
+    {
+      "@id": "training", 
+      "name": "Training on Peace and Environmental Sustainablity"
+    }
+  ], 
+  "customer-segment": [
+    {
+      "@id": "beginning-peacemakers", 
+      "description": "Provide activities and crafts for day campers ages 6-9", 
+      "name": "Beginning Peacemaker"
+    }, 
+    {
+      "@id": "advanced-peacemakers", 
+      "description": "Provide activities and crafts for day campers ages 10-13", 
+      "name": "Advanced Peacemaker"
+    }, 
+    {
+      "@id": "parent-caregiver", 
+      "description": "Parent or caregiver for day camper", 
+      "name": "Parent or Caregiver"
+    }, 
+    {
+      "@id": "ppjpc-donor", 
+      "description": "PPJPC Donor for Peace Camp", 
+      "name": "PPJPC Donor"
+    }
+  ], 
+  "dateCreated": "2014-07-09", 
+  "name": "PPJPC Peace Camp", 
+  "partner": [
+    {
+      "@id": "http://intro2libsys.info/Place/beth-el-mennonite-church", 
+      "activity": [
+        {
+          "@id": "six-day-camp", 
+          "name": "Location for Annual Summer Peace Camp"
+        }
+      ], 
+      "name": "Beth-El Mennonite Church"
+    }
+  ], 
+  "proposition": [
+    {
+      "@id": "peace-education", 
+      "description": "Educates campers on Peace with Self, Peace with Neighbors, Peace with the Earth, Peace with the World, and Becomking Peace Builders", 
+      "name": "Peace Education"
+    }
+  ], 
+  "resource": [
+    {
+      "@id": "melissa-allen", 
+      "@type": "Person", 
+      "jobTitle": "Assistant Camp Director", 
+      "name": "Melissa Allen"
+    }
+  ], 
+  "revenue-stream": [
+    {
+      "@id": "camp-registration", 
+      "name": "Day Camper Registration"
+    }, 
+    {
+      "@id": "donation", 
+      "name": "Donation supporting Peace Camp"
+    }, 
+    {
+      "@id": "grant", 
+      "name": "Grant"
+    }
+  ], 
   "url": "http://intro2libsys.info/business-model-canvas/ppjpc-peace-camp"
 }

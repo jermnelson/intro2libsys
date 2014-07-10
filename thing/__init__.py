@@ -18,6 +18,7 @@ THINGS = { 'Article': {},
            'Organization': {},
            'Person': {},
            'Periodical': {},
+           'Place': {},
            'PublicationIssue': {},
            'PublicationVolume': {},
            'SoftwareApplication': {},
@@ -188,6 +189,23 @@ def add_publication_issue(info,
         'PublicationIssue/{0}'.format(filename))
     with open(os.path.join(file_location,
                            'PublicationIssue',
+                           '{0}.json'.format(filename)),
+              'wb') as json_file:
+        json.dump(info, json_file, indent=2, sort_keys=True)
+    print("Finished adding {0}".format(info.get('@id')))
+
+
+def add_place(info, file_location=os.path.join(PROJECT_HOME, 'Place')):
+    info['@context'] = get_context()
+    info['mads:recordInfo'] = generate_adminInfo()
+    if not '@type' in info:
+        info['@type'] = 'Place'
+    filename = slugify(info.get('name'))
+    info['@id'] = urllib2.urlparse.urljoin(
+        'http://intro2libsys.info',
+        'Place/{0}'.format(filename))
+    with open(os.path.join(file_location,
+                           'Place',
                            '{0}.json'.format(filename)),
               'wb') as json_file:
         json.dump(info, json_file, indent=2, sort_keys=True)

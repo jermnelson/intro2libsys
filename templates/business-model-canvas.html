@@ -4,8 +4,12 @@
 
 {% block more_css %}
 <style>
-  .map { border: 2px solid black } 
- 
+  .map { border: 2px solid black;
+         padding: .5em; }
+
+  .map ul, li {
+    left-margin: -5px;
+  }
 
 </style>
 {% endblock %}
@@ -16,22 +20,41 @@
  <div class="row">
   <div class="col-md-12">
   {% include 'snippets/navbar.html' %}
-   <h1>Business Model Canvas for {{ org.get('name') }}</h1>
   </div>
  {# END navbar #}
  </div>
+ 
+ <div class="row"> 
+  <div class="col-md-6">
+   <h1>Business Model Canvas</h1>
+  </div>
+  <div class="col-md-2 well well-sm">
+    <em>Designed for</em><br> 
+    {{ org.get('name') }}
+  </div>
+  <div class="col-md-2">
+    <em>Designed by</em><br>
+    {{ org.get('creator') }}
+  </div>
+   <div class="col-md-1 well well-sm">
+    <em>Date:</em><br>
+    {{ org.get('dateCreated') }}
+   </div>
+ </div>
+
  <div>
  {# START Main Visual row #}
  <div class="row">
   <div class="col-md-2 col-md-offset-1">
    <div class="map">
-    <h2>Key Partners <i class="glyphicon glyphicon-link pull-right"></i></h2>
+    <h2 class="glyphicon glyphicon-link pull-right"></h2>
+    <h3>Key Partners</h3>
     <ul>
    {% for partner in org.get('partner') %}
      <li>{{ partner.get('name') }} 
       <ul>
       {% for activity in partner.get('activity') %}
-      <li><a href="{{ activity.get('url') }}">
+      <li><a href="#{{ activity.get('@id') }}">
           {{ activity.get('name') }}
          </a>
        </li>
@@ -43,8 +66,10 @@
     
   </div> 
   <div class="col-md-2">
-   <div class="map">
-    <h2>Key Activities <i class="glyphicon glyphicon-ok-sign pull-right"></i>
+   <div class="map" style="background-color: rgb(207, 245, 219)">
+    <h2 class="glyphicon glyphicon-ok-sign pull-right"
+        style="color: green"></h2>
+    <h3>Key Activities</h3>
     <ul>
     {% for activity in org.get('activity') %}
      <li><a name="{{ activity.get('@id') }}"></a>
@@ -53,47 +78,119 @@
     {% endfor %}
     </ul>
    </div>
-   <div class="map">
-     <h2>Key Resources<i class="glyphicon glyphicon-usd pull-right"></i></h2>
+   <br>
+   <div class="map" style="background-color: rgb(255, 211, 168)">
+     <h2 class="glyphicon glyphicon-home pull-right"
+         style="color: brown"></h2>
+     <h3>Key Resources</h3>
+     <ul style="margin: 2px, padding: 1px">
+      {% for resource in org.get('resource') %}
+      <li><a name="{{ resource.get('@id') }}"></a>
+        {{ resource.get('name') }} <strong>Type:</strong>
+        {{ resource.get('@type') }}
+      </li>
+      {% endfor %}
+     </ul> 
     </div>
   </div>
-  <div class="col-md-2 map">
-  <h2>Value Propositions <i class="glyphicon glyphicon-globe pull-left"></i></h2>
-   <ul>
-   {% for proposition in org.get('proposition') %}
-    <li><a name="{{ proposition.get('@id') }}"></a>
-        {{ proposition.get('name') }} 
-     </li>
-   {% endfor %}
-   </ul>
-
+  <div class="col-md-2">
+   <div class="map" style="background-color: rgb(213, 213, 255)">
+    <h2 class="glyphicon glyphicon-globe pull-right"
+        style="color: blue"></h2>
+    <h3>Value Propositions </h3>
+    <ul>
+    {% for proposition in org.get('proposition') %}
+     <li><a name="{{ proposition.get('@id') }}"></a>
+      <strong>{{ proposition.get('name') }}</strong>
+      {{ proposition.get('description') }}
+      </li>
+    {% endfor %}
+    </ul>
+   </div>
   </div>
   <div class="col-md-2">
-   <div class="map">
-     <h2><i class="glyphicon glyphicon-heart pull-left"></i> 
-       Customer Relationships</h2>
+   <div class="map" style="background-color: rgb(255, 206, 206)">
+     <h2 class="glyphicon glyphicon-heart pull-right"
+         style="color: red"></h2> 
+     <h3>Customer Relationships</h3>
+     <ul>
+      {% for relationship in org.get('customer-relationship') %}
+      <li><a name="{{ relationship.get('@id') }}"></a>
+         {{ relationship.get('name') }}
+       </li>
+      {% endfor %}
+     </ul> 
    </div>
+   <br>
    <div class="map">
-     <h2><i class="glyphicon glyphicon-earphone"></i>
+     <h2 class="glyphicon glyphicon-earphone pull-right"></h2>
+     <h3>
        Channels
-     </h2>
+     </h3>
+     <ul>
+     {% for channel in org.get('channel') %}
+     <li><a name="{{ channel.get('@id') }}"></a>
+         {{ channel.get('name') }}
+     </li>
+     {% endfor %} 
+     </ul>
    </div>
   </div>
   <div class="col-md-2 map">
-   
-   <h2>Customer Segments <i class="glyphicon glyphicon-user"></i></h2>
-
+   <h2 class="glyphicon glyphicon-user pull-right"></h2>
+   <h3>Customer Segments</h3>
+   <ul>
+    {% for segment in org.get('customer-segment') %}
+    <li><a name="{{ segment.get('@id') }}"></a>
+     {{ segment.get('name') }}
+    </li>
+    {% endfor %}
+   </ul>
   </div>
  </div>
+ <br>
  <div class="row">
-  <div class="map col-md-5 col-md-offset-1">
-   <h2>Cost Structure</h2> 
+  <div class="col-md-5 col-md-offset-1">
+   <div class="map"> 
+    <h2 class="glyphicon glyphicon-warning-sign pull-right"
+        style="color: yellow"></h2>
+    <h3>Cost Structure</h3> 
+    <ul>
+     {% for cost in org.get('cost') %}
+     <li><a name="{{ cost.get('@id') }}"></a>
+      <strong>Type:</strong> {{ cost.get('@type') }}
+       {{ cost.get('name') }}
+     </li>
+     {% endfor %}
+    </ul>
+   </div>
   </div>
-  <div class="col-md-5 map">
-   <h2>Revenue Stream <i class="glyphicon glyphicon-usd pull-right"></i></h2>
-
+  <div class="col-md-5">
+   <div class="map">
+    <h2 class="glyphicon glyphicon-usd pull-right" 
+        style="color: green"></h2>
+    <h3>Revenue Streams</h3> 
+    <ul>
+    {% for stream in org.get('revenue-stream') %}
+     <li><a name="{{ stream.get('@id') }}"></a>
+      {{ stream.get('name') }}
+     </li>
+    {% endfor %}
+    </ul>
+   </div>
   </div>
  </div> 
+</div>
+<hr>
+<div class="row">
+
+ <div class="col-md-12 well">
+  This business model canvas is licensed under the Creative Commons Attribution-Share Alike 3.0 
+  Unported License. To view a copy of this license, visit:
+  <a href="http://creativecommons.org/licenses/by-sa/3.0/">http://creativecommons.org/licenses/by-sa/3.0/</a> 
+  or send a letter to Creative Commons, 171 Second Street, Suite 300, San 
+  Francisco, California, 94105, USA.
+ </div>
 </div>
 {% endblock %}
 
