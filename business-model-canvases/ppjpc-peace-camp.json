@@ -121,11 +121,11 @@
   "resource": [
     {
       "@type": "Person", 
-      "jobTitle": "Camp Director", 
+      "jobTitle": "Camp Director" 
     },
     {
       "@type": "Person", 
-      "jobTitle": "Assistant Camp Director", 
+      "jobTitle": "Assistant Camp Director" 
     },
     {
       "@type": "Person", 
