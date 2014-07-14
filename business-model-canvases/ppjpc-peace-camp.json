@@ -109,17 +109,32 @@
   "proposition": [
     {
       "@id": "peace-education", 
-      "description": "Educates campers on Peace with Self, Peace with Neighbors, Peace with the Earth, Peace with the World, and Becomking Peace Builders", 
+      "description": "Educates campers on Peace with Self, Peace with Neighbors, Peace with the Earth, Peace with the World, and Becoming Peace Builders", 
       "name": "Peace Education"
-    }
+    },
+   {
+      "@id": "ppjpc-support",
+      "description": "Futhers PPJPC's greater mission and specific programming.",
+      "name": "PPJPC Support"
+   }
   ], 
   "resource": [
     {
-      "@id": "cayla-schreibman", 
       "@type": "Person", 
       "jobTitle": "Camp Director", 
-      "name": "Cayla Schrebman"
-    }
+    },
+    {
+      "@type": "Person", 
+      "jobTitle": "Assistant Camp Director", 
+    },
+    {
+      "@type": "Person", 
+      "jobTitle": "Camp Counselors (4-6)"
+    },
+    {
+      "@type": "Person", 
+      "jobTitle": "Counselors-in-Training (2-4)"
+    } 
   ], 
   "revenue-stream": [
     {

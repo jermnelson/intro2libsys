@@ -86,7 +86,7 @@
      <ul style="margin: 2px, padding: 1px">
       {% for resource in org.get('resource') %}
       <li><a name="{{ resource.get('@id') }}"></a>
-        {{ resource.get('name') }} <strong>Type:</strong>
+        {{ resource.get('jobTitle') }} <strong>Type:</strong>
         {{ resource.get('@type') }}
       </li>
       {% endfor %}
@@ -189,7 +189,8 @@
   Unported License. To view a copy of this license, visit:
   <a href="http://creativecommons.org/licenses/by-sa/3.0/">http://creativecommons.org/licenses/by-sa/3.0/</a> 
   or send a letter to Creative Commons, 171 Second Street, Suite 300, San 
-  Francisco, California, 94105, USA.
+  Francisco, California, 94105, USA. Design adapted from this
+  <a href="http://www.businessmodelgeneration.com/downloads/business_model_canvas_poster.pdf">pdf</a>.
  </div>
 </div>
 {% endblock %}
