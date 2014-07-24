@@ -1,0 +1,23 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/doomed-to-repeat-it", 
+  "@type": "Article", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/ford-paul"
+    }
+  ], 
+  "copyrightYear": 2014, 
+  "datePublished": "2014-07-14", 
+  "headline": "Doomed to Repeat It", 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-07-24T03:51:35.783000"
+  }, 
+  "url": "https://medium.com/message/doomed-to-repeat-it-fb03757dfcca"
+}

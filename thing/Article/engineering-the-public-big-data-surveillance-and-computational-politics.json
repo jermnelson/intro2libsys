@@ -1,0 +1,30 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/Article/engineering-the-public-big-data-surveillance-and-computational-politics", 
+  "@type": "ScholarlyArticle", 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/tufekci-zeynep"
+    }
+  ], 
+  "copyrightYear": 2014, 
+  "datePublished": "2014-07-07", 
+  "headline": "Engineering the public: Big data, surveillance and computational politics", 
+  "keywords": [
+    "Big Data", 
+    "Surveillance", 
+    "Public Sphere", 
+    "Political Campaigns", 
+    "Persuasive Communication"
+  ], 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-07-24T03:48:13.839000"
+  }, 
+  "url": "http://journals.uic.edu/ojs/index.php/fm/article/view/4901"
+}

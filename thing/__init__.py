@@ -251,9 +251,7 @@ def add_person(info,
     filename = slugify(u"{0} {1}".format(info.get('familyName'),
                                         info.get('givenName', '')))
     info['@id'] = 'http://intro2libsys.info/Person/{0}'.format(filename.strip())
-    info['url'] = u'http://intro2libsys.info/Person/{0}{1}'.format(
-        info.get('givenName'),
-        info.get('familyName')).strip()
+    info['url'] = info['@id']
     if not 'name' in info:
         info['name'] = u"{0} {1}".format(info.get('givenName', ''),
                                         info.get('familyName'))
