@@ -3,7 +3,6 @@ import json
 import os
 import re
 import sys
-import urllib2
 
 
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
@@ -38,7 +37,7 @@ for key in THINGS.keys():
                 open(os.path.join(PROJECT_ROOT,
                                   key,
                                   row),
-                     "rb"))
+                     "r"))
             THINGS[key][name] = entity
         except:
             print(name, sys.exc_info()[0])
@@ -63,9 +62,9 @@ def add_article(info,
     filename = slugify(info.get('headline'))
     if not '@type' in info:
         info['@type'] = 'Article'
-    info['@id'] = urllib2.urlparse.urljoin(
+    info['@id'] = "/".join([
         'http://intro2libsys.info',
-        'Article/{0}'.format(filename))
+        'Article/{0}'.format(filename)])
     with open(os.path.join(file_location,
                            "Article",
                            "{0}.json".format(filename)),
@@ -86,9 +85,9 @@ def add_book(info,
     filename = slugify(info.get('headline'))
     if not '@type' in info:
         info['@type'] = 'Book'
-    info['@id'] = urllib2.urlparse.urljoin(
+    info['@id'] = "/".join([
         'http://intro2libsys.info',
-        'Book/{0}'.format(filename))
+        'Book/{0}'.format(filename)])
     with open(os.path.join(file_location,
                            "Book",
                            "{0}.json".format(filename)),
@@ -103,9 +102,9 @@ def add_blog_posting(info,
     filename = slugify(info.get('headline'))
     if not '@type' in info:
         info['@type'] = 'BlogPosting'
-    info['@id'] = urllib2.urlparse.urljoin(
+    info['@id'] = "/".join([
         'http://intro2libsys.info',
-        'BlogPosting/{0}'.format(filename))
+        'BlogPosting/{0}'.format(filename)])
     with open(os.path.join(file_location,
                            'BlogPosting',
                            '{0}.json'.format(filename)),
@@ -125,8 +124,7 @@ def add_entity(info,
 
 def add_organization(info,
                      file_location=PROJECT_HOME):
-    info['@context'] = get_context()
-    info['mads:recordInfo'] = generate_adminInfo()
+    info = add_entity(info)
     filename = slugify(info.get('name')).strip()
     if not '@type' in info:
         info['@type'] = 'Organization'
@@ -152,14 +150,13 @@ def add_periodical(info,
     :param file_location: Location of the thing directory, defaults to
                           PROJECT_ROOT
     """
-    info['@context'] = get_context()
-    info['mads:recordInfo'] = generate_adminInfo()
+    info=add_entity(info)
     if not '@type' in info:
         info['@type'] = 'Periodical'
     filename = slugify(info.get('name'))
-    info['@id'] = urllib2.urlparse.urljoin(
+    info['@id'] = "/".join([
         'http://intro2libsys.info',
-        'Periodical/{0}'.format(filename))
+        'Periodical/{0}'.format(filename)])
     with open(os.path.join(file_location,
                            'Periodical',
                            '{0}.json'.format(filename)),
@@ -179,14 +176,13 @@ def add_publication_issue(info,
         file_location: Location of the thing directory, defaults to
             PROJECT_ROOT
     """
-    info['@context'] = get_context()
-    info['mads:recordInfo'] = generate_adminInfo()
+    info=add_entity(info)
     if not '@type' in info:
         info['@type'] = 'PublicationIssue'
     filename = slugify(info.get('name'))
-    info['@id'] = urllib2.urlparse.urljoin(
+    info['@id'] = "/".join([
         'http://intro2libsys.info',
-        'PublicationIssue/{0}'.format(filename))
+        'PublicationIssue/{0}'.format(filename)])
     with open(os.path.join(file_location,
                            'PublicationIssue',
                            '{0}.json'.format(filename)),
@@ -196,14 +192,13 @@ def add_publication_issue(info,
 
 
 def add_place(info, file_location=os.path.join(PROJECT_HOME, 'Place')):
-    info['@context'] = get_context()
-    info['mads:recordInfo'] = generate_adminInfo()
+    info=add_entity(info)
     if not '@type' in info:
         info['@type'] = 'Place'
     filename = slugify(info.get('name'))
-    info['@id'] = urllib2.urlparse.urljoin(
+    info['@id'] = "/".join([
         'http://intro2libsys.info',
-        'Place/{0}'.format(filename))
+        'Place/{0}'.format(filename)])
     with open(os.path.join(file_location,
                            'Place',
                            '{0}.json'.format(filename)),
@@ -224,14 +219,13 @@ def add_publication_volume(info,
         file_location: Location of the thing directory, defaults to
             PROJECT_ROOT
     """
-    info['@context'] = get_context()
-    info['mads:recordInfo'] = generate_adminInfo()
+    info=add_entity(info)
     if not '@type' in info:
         info['@type'] = 'PublicationVolume'
     filename = slugify(info.get('name'))
-    info['@id'] = urllib2.urlparse.urljoin(
+    info['@id'] = "/".join([
         'http://intro2libsys.info',
-        'PublicationVolume/{0}'.format(filename))
+        'PublicationVolume/{0}'.format(filename)])
     with open(os.path.join(file_location,
                            'PublicationVolume',
                            '{0}.json'.format(filename)),
@@ -242,10 +236,9 @@ def add_publication_volume(info,
 
 def add_person(info,
                file_location=PROJECT_HOME):
-    info['@context'] = get_context()
+    info=add_entity(info)
     if not '@type' in info:
         info['@type'] = 'Person'
-    info['mads:recordInfo'] = generate_adminInfo()
     if 'idloc:url' in info:
         info['@context']['idloc'] = "http://id.loc.gov"
     filename = slugify(u"{0} {1}".format(info.get('familyName'),
@@ -266,8 +259,7 @@ def add_person(info,
 
 def add_webpage(info,
                 file_location=PROJECT_HOME):
-    info['@context'] = get_context()
-    info['mods:adminInfo'] = generate_adminInfo()
+    info=add_entity(info)
     filename = slugify(info.get('name'))
     info['@id'] = 'http://intro2libsys.info/WebPage/{0}'.format(filename.strip())
     with open(os.path.join(file_location,
@@ -294,18 +286,66 @@ def get_article(article_string):
 def get_context():
     return {'@vocab': 'http://schema.org/',
             'bf': 'http://bibframe.org/vocab/',
-            'loc': 'http://www.loc.gov/standards/mads/'}
+            'mads': 'http://www.loc.gov/standards/mads/'}
 
 def generate_adminInfo():
-    return {'loc:recordCreationDate': datetime.datetime.utcnow().isoformat(),
-            "loc:descriptionStandards": "Using schema.org for descriptive metadata",
-            "loc:languageOfCataloging": "English"}
+    return {'mads:recordCreationDate': {"@value": datetime.datetime.utcnow().isoformat()},
+            "mads:descriptionStandards": [{"@value":"Using schema.org for descriptive metadata"}],
+            "mads:languageOfCataloging": [{"@value": "English"}]}
+
+
 
 def quick_dump(obj, category, id):
     json.dump(obj,
-              open(os.path.join(PROJECT_HOME,
+              open(os.path.join(PROJECT_ROOT,
                                 category,
                                 '{0}.json'.format(id)),
                    'wb'),
               indent=2,
               sort_keys=True)
+
+def update_entity(entity):
+    if 'bf' in entity['@context']:
+        entity['@context'].pop('bf')
+    if 'loc' in entity['@context']:
+        entity['@context'].pop('loc')
+    if not 'mads' in entity['@context']:
+        entity['@context']['mads'] = 'http://www.loc.gov/standards/mads/'
+    if not 'mads:recordInfo' in entity:
+        entity['mads:recordInfo'] = {
+            'mads:descriptionStandards': [{"@value": ""}],
+            'mads:languageOfCataloging': [{"@value": ""}],
+            'mads:recordCreationDate': [{'@value': "" }],
+            "mads:recordChangeDate": [
+                {"@value": datetime.datetime.utcnow().isoformat()}]}
+    else:
+        for key in entity['mads:recordInfo'].keys():
+            if key.startswith("loc:"):
+                value = entity['mads:recordInfo'].pop(key)
+                entity['mads:recordInfo'][key.replace("loc:", "mads:")] = \
+                    value
+
+    if 'bf:adminInfo' in entity:
+        bf_adminInfo = entity.pop('bf:adminInfo')
+        entity['mads:recordInfo']['mads:descriptionStandards'][0]['@value'] = \
+            bf_adminInfo["bf:descriptionConventions"]
+        entity['mads:recordInfo']['mads:languageOfCataloging'][0]['@value'] = \
+            bf_adminInfo["bf:descriptionLanguage"]
+        entity['mads:recordInfo']['mads:recordCreationDate'][0]['@value'] = \
+            bf_adminInfo["bf:creationDate"]
+    for key, value in entity.items():
+        if not key.startswith("@") and not key.startswith("mads:"):
+            if type(value) != list:
+                entity[key] = [{"@value": value}]
+            elif type(value[0]) == dict:
+                continue
+            else:
+                new_list = []
+                for row in value:
+                    new_list.append({"@value": row})
+                entity[key] = new_list
+
+
+
+
+

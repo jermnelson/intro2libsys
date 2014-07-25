@@ -13,9 +13,9 @@
     <li><a href="{{ url_for('entity_listing', entity=entity_class) }}">{{ entity_class }}</a></li>
     <li class="active"> 
    {% if entity.headline %}
-    {{ entity.headline }}
+    {{ entity.headline[0]['@value'] }}
    {% else %}
-    {{ entity.name }}
+    {{ entity.name[0]['@value'] }}
    {% endif %}
     </li>
   </ol>
@@ -28,14 +28,14 @@
    <h1 itemprop=
    {% if entity.headline %}
     "headline">
-    {{ entity.headline }}
+    {{ entity.headline[0]['@value'] }}
    {% else %}
     "name">
-    {{ entity.name }}
+    {{ entity.name[0]['@value'] }}
    {% endif %}
    <div class="btn-group">
    {% if entity.url %}
-    <a href="{{ entity.url }}" class="btn btn-default">
+    <a href="{{ entity.url[0]['@value'] }}" class="btn btn-default">
      <span class="glyphicon glyphicon-link"></span>
     </a>
    {% endif %}
@@ -45,7 +45,7 @@
    </div>
    </h1>
    {% if entity.description %}
-   <p class="lead">{{ entity.description }}</p>
+   <p class="lead">{{ entity.description[0]['@value'] }}</p>
    {% endif %}
    <div class="row">
     {# START column #}
@@ -80,10 +80,10 @@
      <p class="lead">
     {% if entity.copyrightYear %}
      &copy; <span itemprop="copyrightYear">
-     {{ entity.copyrightYear }}</span>
+     {{ entity.copyrightYear[0]['@value'] }}</span>
     {% endif %} 
     {% if entity.url %}
-     URL is <a href="{{ entity.url }}" itemprop="url">{{ entity.url }}</a>
+     URL is <a href="{{ entity.url[0]['@value'] }}" itemprop="url">{{ entity.url[0]['@value'] }}</a>
     {% endif %}
     </p>
     {% if entity.keywords %}
@@ -98,7 +98,7 @@
     {% endfor %}
     </p>
     {% if entity.datePublished %}
-    <p class="lead">Published on <span itemprop="datePublished">{{ entity.datePublished }}</span>
+    <p class="lead">Published on <span itemprop="datePublished">{{ entity.datePublished[0]['@value'] }}</span>
     {% if entity.publisher %}by {{ entity.publisher['@id']|organization_name }}{% endif %}.
 
     </p>
