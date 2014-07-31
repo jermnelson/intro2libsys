@@ -1,23 +1,52 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/", 
-    "loc": "http://www.loc.gov/standards/mads/"
-  }, 
-  "@id": "http://intro2libsys.info/Article/hansei-apologizing-japanese-style", 
-  "@type": "Article", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/hansei-apologizing-japanese-style",
+  "@type": "Article",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/kopp-rochelle"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/kopp-rochelle"
+      }
     }
-  ], 
-  "copyrightYear": 2010, 
-  "datePublished": "2010-02-24", 
-  "headline": "Hansei - Apologizing Japanese Style", 
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2010
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2010-02-24"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Hansei - Apologizing Japanese Style"
+    }
+  ],
   "mads:recordInfo": {
-    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
-    "loc:languageOfCataloging": "English", 
-    "loc:recordCreationDate": "2014-05-20T16:35:10.956713"
-  }, 
-  "url": "http://www.japanintercultural.com/en/news/default.aspx?newsID=52"
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-05-20T16:35:10.956713"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.japanintercultural.com/en/news/default.aspx?newsID=52"
+    }
+  ]
 }

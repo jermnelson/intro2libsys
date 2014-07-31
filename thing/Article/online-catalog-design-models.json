@@ -1,16 +1,53 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "idloc": "http://id.loc.gov"
-  }, 
-  "@id": "http://intro2libsys.info/Article/online-catalog-design-models", 
-  "@type": "TechArticle", 
+    "@vocab": "http://schema.org/",
+    "idloc": "http://id.loc.gov",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/online-catalog-design-models",
+  "@type": "TechArticle",
   "author": [
     {
-     "@id": "http://intro2libsys.info/Person/hildreth-charles"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/hildreth-charles"
+      }
     }
   ],
-  "copyrightYear": 1995, 
-  "headline": "Online Catalog Design Models: Are We Moving in the Right Direction?", 
-  "url": "http://myweb.cwpost.liu.edu/childret/clr-opac.html"
+  "copyrightYear": [
+    {
+      "@value": 1995
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Online Catalog Design Models: Are We Moving in the Right Direction?"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.266202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://myweb.cwpost.liu.edu/childret/clr-opac.html"
+    }
+  ]
 }

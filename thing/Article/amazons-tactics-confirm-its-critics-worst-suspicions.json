@@ -1,23 +1,52 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/", 
-    "loc": "http://www.loc.gov/standards/mads/"
-  }, 
-  "@id": "http://intro2libsys.info/Article/amazons-tactics-confirm-its-critics-worst-suspicions", 
-  "@type": "Article", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/amazons-tactics-confirm-its-critics-worst-suspicions",
+  "@type": "Article",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/manjoo-farhad"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/manjoo-farhad"
+      }
     }
-  ], 
-  "copyrightYear": 2014, 
-  "datePublished": "2014-05-23", 
-  "headline": "Amazon's Tactics Confirm Its Critics' Worst Suspicions", 
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2014
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2014-05-23"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Amazon's Tactics Confirm Its Critics' Worst Suspicions"
+    }
+  ],
   "mads:recordInfo": {
-    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
-    "loc:languageOfCataloging": "English", 
-    "loc:recordCreationDate": "2014-06-02T17:34:54.005000"
-  }, 
-  "url": "http://bits.blogs.nytimes.com/2014/05/23/amazons-tactics-confirm-its-critics-worst-suspicions"
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-06-02T17:34:54.005000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://bits.blogs.nytimes.com/2014/05/23/amazons-tactics-confirm-its-critics-worst-suspicions"
+    }
+  ]
 }

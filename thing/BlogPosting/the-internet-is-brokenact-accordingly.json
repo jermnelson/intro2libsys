@@ -1,22 +1,57 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/BlogPosting/the-internet-is-brokenact-accordingly", 
-  "@type": "BlogPosting", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/BlogPosting/the-internet-is-brokenact-accordingly",
+  "@type": "BlogPosting",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/fisher-dennis"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/fisher-dennis"
+      }
     }
-  ], 
-  "bf:adminInfo": {
-    "bf:creationDate": "2014-02-10T17:39:32.983000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "copyrightYear": 2014, 
-  "datePublished": "2014-02-07", 
-  "headline": "The Internet is Broken\u2013Act Accordingly", 
-  "url": "http://threatpost.com/the-internet-is-broken-act-accordingly/104141"
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2014
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2014-02-07"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "The Internet is Broken\u2013Act Accordingly"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:44:01.975702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-02-10T17:39:32.983000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://threatpost.com/the-internet-is-broken-act-accordingly/104141"
+    }
+  ]
 }

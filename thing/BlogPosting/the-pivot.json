@@ -1,23 +1,52 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/", 
-    "loc": "http://www.loc.gov/standards/mads/"
-  }, 
-  "@id": "http://intro2libsys.info/BlogPosting/the-pivot", 
-  "@type": "BlogPosting", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/BlogPosting/the-pivot",
+  "@type": "BlogPosting",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/adams-scott"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/adams-scott"
+      }
     }
-  ], 
-  "copyrightYear": 2014, 
-  "datePublished": "2014-06-16", 
-  "headline": "The Pivot", 
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2014
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2014-06-16"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "The Pivot"
+    }
+  ],
   "mads:recordInfo": {
-    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
-    "loc:languageOfCataloging": "English", 
-    "loc:recordCreationDate": "2014-06-19T14:57:50.347869"
-  }, 
-  "url": "http://dilbert.com/blog/entry/the_pivot/"
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-06-19T14:57:50.347869"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://dilbert.com/blog/entry/the_pivot/"
+    }
+  ]
 }

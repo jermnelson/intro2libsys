@@ -1,23 +1,52 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/", 
-    "loc": "http://www.loc.gov/standards/mads/"
-  }, 
-  "@id": "http://intro2libsys.info/Article/for-disaster-preparedness-pack-a-library-card", 
-  "@type": "NewsArticle", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/for-disaster-preparedness-pack-a-library-card",
+  "@type": "NewsArticle",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/rose-joel"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/rose-joel"
+      }
     }
-  ], 
-  "copyrightYear": 2013, 
-  "datePublished": "2013-08-12", 
-  "headline": "For Disaster Preparedness: Pack A Library Card?", 
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2013-08-12"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "For Disaster Preparedness: Pack A Library Card?"
+    }
+  ],
   "mads:recordInfo": {
-    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
-    "loc:languageOfCataloging": "English", 
-    "loc:recordCreationDate": "2014-03-14T18:28:43.543000"
-  }, 
-  "url": "http://www.npr.org/2013/08/12/210541233/for-disasters-pack-a-first-aid-kit-bottled-water-and-a-library-card"
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-03-14T18:28:43.543000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.npr.org/2013/08/12/210541233/for-disasters-pack-a-first-aid-kit-bottled-water-and-a-library-card"
+    }
+  ]
 }

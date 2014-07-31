@@ -1,23 +1,52 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/", 
-    "loc": "http://www.loc.gov/standards/mads/"
-  }, 
-  "@id": "http://intro2libsys.info/Article/the-fantasy-and-abuse-of-the-manipulable-user", 
-  "@type": "Article", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/the-fantasy-and-abuse-of-the-manipulable-user",
+  "@type": "Article",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/haibel-betsy"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/haibel-betsy"
+      }
     }
-  ], 
-  "copyrightYear": 2014, 
-  "datePublished": "2014-04-28", 
-  "headline": "The Fantasy and Abuse of the Manipulable User", 
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2014
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2014-04-28"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "The Fantasy and Abuse of the Manipulable User"
+    }
+  ],
   "mads:recordInfo": {
-    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
-    "loc:languageOfCataloging": "English", 
-    "loc:recordCreationDate": "2014-05-14T13:00:33.807353"
-  }, 
-  "url": "http://modelviewculture.com/pieces/the-fantasy-and-abuse-of-the-manipulable-user"
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-05-14T13:00:33.807353"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://modelviewculture.com/pieces/the-fantasy-and-abuse-of-the-manipulable-user"
+    }
+  ]
 }

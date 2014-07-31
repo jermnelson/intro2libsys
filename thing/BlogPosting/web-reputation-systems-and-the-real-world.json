@@ -1,23 +1,52 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/", 
-    "loc": "http://www.loc.gov/standards/mads/"
-  }, 
-  "@id": "http://intro2libsys.info/BlogPosting/web-reputation-systems-and-the-real-world", 
-  "@type": "BlogPosting", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/BlogPosting/web-reputation-systems-and-the-real-world",
+  "@type": "BlogPosting",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/farmer-randy"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/farmer-randy"
+      }
     }
-  ], 
-  "copyrightYear": 2014, 
-  "datePublished": "2014-06-14", 
-  "headline": "Web Reputation Systems and the Real World", 
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2014
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2014-06-14"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Web Reputation Systems and the Real World"
+    }
+  ],
   "mads:recordInfo": {
-    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
-    "loc:languageOfCataloging": "English", 
-    "loc:recordCreationDate": "2014-06-17T23:09:18.143000"
-  }, 
-  "url": "http://buildingreputation.com/writings/2014/06/web_reputation_systems_and_the.html"
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-06-17T23:09:18.143000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://buildingreputation.com/writings/2014/06/web_reputation_systems_and_the.html"
+    }
+  ]
 }

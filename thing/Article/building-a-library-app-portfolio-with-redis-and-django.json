@@ -1,18 +1,62 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab"
-  }, 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
   "@id": "http://intro2libsys.info/Article/building-a-library-app-portfolio-with-redis-and-django",
-  "@type": "ScholarlyArticle", 
+  "@type": "ScholarlyArticle",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/nelson-jeremy"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/nelson-jeremy"
+      }
     }
-  ], 
-  "copyrightYear": 2013, 
-  "datePublished": "2013-01-15", 
-  "headline": "Building a Library App Portfolio with Redis and Django", 
-  "name": "building-a-library-app-portfolio-with-redis-and-django", 
-  "url": "http://journal.code4lib.org/articles/7349"
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2013-01-15"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Building a Library App Portfolio with Redis and Django"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.353702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "building-a-library-app-portfolio-with-redis-and-django"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://journal.code4lib.org/articles/7349"
+    }
+  ]
 }

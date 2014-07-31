@@ -1,22 +1,57 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Article/born-digital-projects-need-attention-to-survive", 
-  "@type": "Article", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/born-digital-projects-need-attention-to-survive",
+  "@type": "Article",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/howard-jennifer"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/howard-jennifer"
+      }
     }
-  ], 
-  "bf:adminInfo": {
-    "bf:creationDate": "2014-01-08T20:38:54.454000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "copyrightYear": 2014, 
-  "datePublished": "2014-01-06", 
-  "headline": "Born Digital, Projects Need Attention to Survive", 
-  "url": "http://chronicle.com/article/Born-Digital-Projects-Need/143799/"
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2014
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2014-01-06"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Born Digital, Projects Need Attention to Survive"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.277202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-08T20:38:54.454000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://chronicle.com/article/Born-Digital-Projects-Need/143799/"
+    }
+  ]
 }

@@ -1,18 +1,45 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/", 
-    "loc": "http://www.loc.gov/standards/mads/"
-  }, 
-  "@id": "http://intro2libsys.info/Person/gordon-colin", 
-  "@type": "Person", 
-  "familyName": "Gordon", 
-  "givenName": "Colin", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/gordon-colin",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Gordon"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Colin"
+    }
+  ],
   "mads:recordInfo": {
-    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
-    "loc:languageOfCataloging": "English", 
-    "loc:recordCreationDate": "2014-04-11T15:27:02.938753"
-  }, 
-  "name": "Colin Gordon", 
-  "url": "http://intro2libsys.info/Person/ColinGordon"
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:02.954702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-04-11T15:27:02.938753"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Colin Gordon"
+    }
+  ]
 }

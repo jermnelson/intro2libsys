@@ -1,17 +1,45 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Person/dugonji-marko", 
-  "@type": "Person", 
-  "bf:adminInfo": {
-    "bf:creationDate": "2014-01-27T18:18:58.104000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "familyName": "Dugonji\u0107", 
-  "givenName": "Marko", 
-  "name": "Marko Dugonji\u0107", 
-  "url": "http://intro2libsys.info/Person/MarkoDugonji\u0107"
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/dugonji-marko",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Dugonji\u0107"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Marko"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:02.903702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-27T18:18:58.104000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Marko Dugonji\u0107"
+    }
+  ]
 }

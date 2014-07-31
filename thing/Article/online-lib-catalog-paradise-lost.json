@@ -1,16 +1,57 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/" 
-  }, 
-  "@id": "http://intro2libsys.info/Article/online-lib-catalog-paradise-lost", 
-  "@type": "http://schema.org/ScholarlyArticle", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/online-lib-catalog-paradise-lost",
+  "@type": "http://schema.org/ScholarlyArticle",
   "author": [
     {
-     "@id": "http://intro2libsys.info/Person/markey-karen"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/markey-karen"
+      }
     }
-  ], 
-  "copyrightYear": 2007,
-  "datePublished": "January/February 2007",
-  "headline": "The Online Library Catalog Paradise Lost and Paradise Regained?", 
-  "url": "http://www.dlib.org/dlib/january07/markey/01markey.html"
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2007
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "January/February 2007"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "The Online Library Catalog Paradise Lost and Paradise Regained?"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:07.857702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.dlib.org/dlib/january07/markey/01markey.html"
+    }
+  ]
 }

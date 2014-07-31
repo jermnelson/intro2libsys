@@ -1,18 +1,45 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/", 
-    "loc": "http://www.loc.gov/standards/mads/"
-  }, 
-  "@id": "http://intro2libsys.info/Person/markman-chris", 
-  "@type": "Person", 
-  "familyName": "Markman", 
-  "givenName": "Chris", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/markman-chris",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Markman"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Chris"
+    }
+  ],
   "mads:recordInfo": {
-    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
-    "loc:languageOfCataloging": "English", 
-    "loc:recordCreationDate": "2014-04-17T18:57:52.363638"
-  }, 
-  "name": "Chris Markman", 
-  "url": "http://intro2libsys.info/Person/ChrisMarkman"
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:01.856202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-04-17T18:57:52.363638"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Chris Markman"
+    }
+  ]
 }

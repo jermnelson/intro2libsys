@@ -1,16 +1,57 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/"
-  }, 
-  "@id": "http://intro2libsys.info/BlogPosting/future-of-the-library", 
-  "@type": "BlogPosting", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/BlogPosting/future-of-the-library",
+  "@type": "BlogPosting",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/godin-seth"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/godin-seth"
+      }
     }
-  ], 
-  "copyrightYear": 2011, 
-  "datePublished": "2011-05-16", 
-  "headline": "The future of the library: What is a public library for?", 
-  "url": "http://sethgodin.typepad.com/seths_blog/2011/05/the-future-of-the-library.html"
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2011
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2011-05-16"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "The future of the library: What is a public library for?"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:44:01.977202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://sethgodin.typepad.com/seths_blog/2011/05/the-future-of-the-library.html"
+    }
+  ]
 }

@@ -1,36 +1,87 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/", 
-    "loc": "http://www.loc.gov/standards/mads/"
-  }, 
-  "@id": "http://intro2libsys.info/BlogPosting/frederick-taylor-has-been-reincarnated-and-he-works-for-ups-now", 
-  "@type": "BlogPosting", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/BlogPosting/frederick-taylor-has-been-reincarnated-and-he-works-for-ups-now",
+  "@type": "BlogPosting",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/hagan-alex"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/hagan-alex"
+      }
     }
-  ], 
-  "copyrightYear": 2014, 
-  "datePublished": "2014-05-05", 
-  "headline": "Frederick Taylor has been reincarnated, and he works for UPS now", 
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2014
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2014-05-05"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Frederick Taylor has been reincarnated, and he works for UPS now"
+    }
+  ],
   "keywords": [
-    "Analytics", 
-    "Data Science", 
-    "Future of Work", 
-    "HR Strategy, Management Principles", 
-    "Technology", 
-    "Neo-Taylorism", 
-    "Environment Scanning", 
-    "UPS", 
-    "NPR", 
-    "Optimisation", 
-    "Workforce Analytics"
-  ], 
+    {
+      "@value": "Analytics"
+    },
+    {
+      "@value": "Data Science"
+    },
+    {
+      "@value": "Future of Work"
+    },
+    {
+      "@value": "HR Strategy, Management Principles"
+    },
+    {
+      "@value": "Technology"
+    },
+    {
+      "@value": "Neo-Taylorism"
+    },
+    {
+      "@value": "Environment Scanning"
+    },
+    {
+      "@value": "UPS"
+    },
+    {
+      "@value": "NPR"
+    },
+    {
+      "@value": "Optimisation"
+    },
+    {
+      "@value": "Workforce Analytics"
+    }
+  ],
   "mads:recordInfo": {
-    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
-    "loc:languageOfCataloging": "English", 
-    "loc:recordCreationDate": "2014-06-02T20:36:12.812222"
-  }, 
-  "url": "http://www.kienco.com.au/blog/workforce-analytics-and-neotaylorism"
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-06-02T20:36:12.812222"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.kienco.com.au/blog/workforce-analytics-and-neotaylorism"
+    }
+  ]
 }

@@ -1,23 +1,52 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/", 
-    "loc": "http://www.loc.gov/standards/mads/"
-  }, 
-  "@id": "http://intro2libsys.info/Article/what-is-data-mining", 
-  "@type": "Article", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/what-is-data-mining",
+  "@type": "Article",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/maggioni-mauro"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/maggioni-mauro"
+      }
     }
-  ], 
-  "copyrightYear": 2012, 
-  "datePublished": "2012-04", 
-  "headline": "What is... Data Mining?", 
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2012
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2012-04"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "What is... Data Mining?"
+    }
+  ],
   "mads:recordInfo": {
-    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
-    "loc:languageOfCataloging": "English", 
-    "loc:recordCreationDate": "2014-03-20T13:21:55.397555"
-  }, 
-  "url": "http://www.ams.org/notices/201204/rtx120400532p.pdf"
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-03-20T13:21:55.397555"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.ams.org/notices/201204/rtx120400532p.pdf"
+    }
+  ]
 }

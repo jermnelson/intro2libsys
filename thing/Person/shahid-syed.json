@@ -1,17 +1,45 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Person/shahid-syed", 
-  "@type": "Person", 
-  "bf:adminInfo": {
-    "bf:creationDate": "2013-12-18T17:29:32.308000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "familyName": "Shahid", 
-  "givenName": "Syed", 
-  "name": "Syed Shahid", 
-  "url": "http://intro2libsys.info/Person/SyedShahid"
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/shahid-syed",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Shahid"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Syed"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:03.042202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-18T17:29:32.308000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Syed Shahid"
+    }
+  ]
 }

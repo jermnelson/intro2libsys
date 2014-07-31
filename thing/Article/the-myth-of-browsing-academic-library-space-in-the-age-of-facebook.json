@@ -1,23 +1,52 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/", 
-    "loc": "http://www.loc.gov/standards/mads/"
-  }, 
-  "@id": "http://intro2libsys.info/Article/the-myth-of-browsing-academic-library-space-in-the-age-of-facebook", 
-  "@type": "Article", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/the-myth-of-browsing-academic-library-space-in-the-age-of-facebook",
+  "@type": "Article",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/barclay-donald"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/barclay-donald"
+      }
     }
-  ], 
-  "copyrightYear": 2010, 
-  "datePublished": "2010-05-19", 
-  "headline": "The Myth of Browsing : Academic library space in the age of Facebook", 
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2010
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2010-05-19"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "The Myth of Browsing : Academic library space in the age of Facebook"
+    }
+  ],
   "mads:recordInfo": {
-    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
-    "loc:languageOfCataloging": "English", 
-    "loc:recordCreationDate": "2014-05-28T19:42:47.625000"
-  }, 
-  "url": "http://www.americanlibrariesmagazine.org/article/myth-browsing"
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-05-28T19:42:47.625000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.americanlibrariesmagazine.org/article/myth-browsing"
+    }
+  ]
 }

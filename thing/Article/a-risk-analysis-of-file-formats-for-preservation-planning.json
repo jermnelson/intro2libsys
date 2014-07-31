@@ -1,25 +1,62 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Article/a-risk-analysis-of-file-formats-for-preservation-planning", 
-  "@type": "Article", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/a-risk-analysis-of-file-formats-for-preservation-planning",
+  "@type": "Article",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/graf-roman"
-    }, 
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/graf-roman"
+      }
+    },
     {
-      "@id": "http://intro2libsys.info/Person/gordea-sergiu"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/gordea-sergiu"
+      }
     }
-  ], 
-  "bf:adminInfo": {
-    "bf:creationDate": "2014-01-08T22:52:42.678000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "copyrightYear": 2013, 
-  "datePublished": "2013-12-12", 
-  "headline": "A Risk Analysis of File Formats for Preservation Planning", 
-  "url": "http://www.scape-project.eu/wp-content/uploads/2013/11/iPres2013_Graf_RiskAnalysisFileFormats.pdf"
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2013-12-12"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "A Risk Analysis of File Formats for Preservation Planning"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.055202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-08T22:52:42.678000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.scape-project.eu/wp-content/uploads/2013/11/iPres2013_Graf_RiskAnalysisFileFormats.pdf"
+    }
+  ]
 }

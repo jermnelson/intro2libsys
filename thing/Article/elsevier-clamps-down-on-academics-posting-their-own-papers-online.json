@@ -1,21 +1,56 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Article/elsevier-clamps-down-on-academics-posting-their-own-papers-online", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/elsevier-clamps-down-on-academics-posting-their-own-papers-online",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/solon-oliva"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/solon-oliva"
+      }
     }
-  ], 
-  "bf:adminInfo": {
-    "bf:creationDate": "2014-01-06T18:00:44.902000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "copyrightYear": 2013, 
-  "datePublished": "2013-12-17", 
-  "headline": "Elsevier clamps down on academics posting their own papers online", 
-  "url": "http://www.wired.co.uk/news/archive/2013-12/17/elsevier-versus-open-access"
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2013-12-17"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Elsevier clamps down on academics posting their own papers online"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.031202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-06T18:00:44.902000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.wired.co.uk/news/archive/2013-12/17/elsevier-versus-open-access"
+    }
+  ]
 }

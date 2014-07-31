@@ -1,32 +1,77 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Article/success-or-struggle-roa-as-a-true-measure-of-business-performance", 
-  "@type": "Article", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/success-or-struggle-roa-as-a-true-measure-of-business-performance",
+  "@type": "Article",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/hagel-john"
-    }, 
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/hagel-john"
+      }
+    },
     {
-      "@id": "http://intro2libsys.info/Person/brown-john-seely"
-    }, 
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/brown-john-seely"
+      }
+    },
     {
-      "@id": "http://intro2libsys.info/Person/samoylova-tamara"
-    }, 
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/samoylova-tamara"
+      }
+    },
     {
-      "@id": "http://intro2libsys.info/Person/lui-michael"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/lui-michael"
+      }
     }
-  ], 
-  "bf:adminInfo": {
-    "bf:creationDate": "2014-01-09T22:28:04.677000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "copyrightYear": 2013, 
-  "datePublished": "2013-10-30", 
-  "description": "Declining return on assets (ROA) doesn\u2019t fit with the stories commonly reported about firm performance and the business environment.", 
-  "headline": "Success or struggle: ROA as a true measure of business performance", 
-  "url": "http://dupress.com/articles/success-or-struggle-roa-as-a-true-measure-of-business-performance/"
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2013-10-30"
+    }
+  ],
+  "description": [
+    {
+      "@value": "Declining return on assets (ROA) doesn\u2019t fit with the stories commonly reported about firm performance and the business environment."
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Success or struggle: ROA as a true measure of business performance"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:07.725202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-09T22:28:04.677000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://dupress.com/articles/success-or-struggle-roa-as-a-true-measure-of-business-performance/"
+    }
+  ]
 }

@@ -1,22 +1,57 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/BlogPosting/saas-metrics-20-a-guide-to-measuring-and-improving-what-matters", 
-  "@type": "BlogPosting", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/BlogPosting/saas-metrics-20-a-guide-to-measuring-and-improving-what-matters",
+  "@type": "BlogPosting",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/skok-david"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/skok-david"
+      }
     }
-  ], 
-  "bf:adminInfo": {
-    "bf:creationDate": "2014-01-29T18:57:47.018928", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "copyrightYear": 2013, 
-  "datePublished": "2013-01-16", 
-  "headline": "SaaS Metrics 2.0 - A Guide to Measuring and Improving what Matters", 
-  "url": "http://www.forentrepreneurs.com/saas-metrics-2/"
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2013-01-16"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "SaaS Metrics 2.0 - A Guide to Measuring and Improving what Matters"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:44:01.975702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-29T18:57:47.018928"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.forentrepreneurs.com/saas-metrics-2/"
+    }
+  ]
 }

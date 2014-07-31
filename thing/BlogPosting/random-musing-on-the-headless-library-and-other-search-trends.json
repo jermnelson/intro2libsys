@@ -1,22 +1,57 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/BlogPosting/random-musing-on-the-headless-library-and-other-search-trends", 
-  "@type": "BlogPosting", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/BlogPosting/random-musing-on-the-headless-library-and-other-search-trends",
+  "@type": "BlogPosting",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/chamberlain-ed"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/chamberlain-ed"
+      }
     }
-  ], 
-  "bf:adminInfo": {
-    "bf:creationDate": "2014-03-03T18:13:40.204000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "copyrightYear": 2013, 
-  "datePublished": "2013-07-16", 
-  "headline": "Random musing on the 'headless library' and other search trends", 
-  "url": "http://edchamberlain.wordpress.com/2013/07/16/random-musing-on-the-headless-library-and-other-search-trends/"
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2013-07-16"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Random musing on the 'headless library' and other search trends"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:44:01.977202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-03-03T18:13:40.204000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://edchamberlain.wordpress.com/2013/07/16/random-musing-on-the-headless-library-and-other-search-trends/"
+    }
+  ]
 }

@@ -1,22 +1,57 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Article/ask-devops-guest-mobile-first-is-no-longer-enough", 
-  "@type": "Article", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/ask-devops-guest-mobile-first-is-no-longer-enough",
+  "@type": "Article",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/mann-andi"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/mann-andi"
+      }
     }
-  ], 
-  "bf:adminInfo": {
-    "bf:creationDate": "2014-02-21T14:50:00.353539", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "copyrightYear": 2014, 
-  "datePublished": "2014-02-19", 
-  "headline": "Ask DevOps Guest: 'Mobile First' is no longer enough", 
-  "url": "http://devopsangle.com/2014/02/19/ask-devops-guest-mobile-first-is-no-longer-enough/"
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2014
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2014-02-19"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Ask DevOps Guest: 'Mobile First' is no longer enough"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.237202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-02-21T14:50:00.353539"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://devopsangle.com/2014/02/19/ask-devops-guest-mobile-first-is-no-longer-enough/"
+    }
+  ]
 }

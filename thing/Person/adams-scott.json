@@ -1,17 +1,45 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Person/adams-scott", 
-  "@type": "Person", 
-  "bf:adminInfo": {
-    "bf:creationDate": "2014-02-12T03:12:54.070008", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "familyName": "Adams", 
-  "givenName": "Scott", 
-  "name": "Scott Adams", 
-  "url": "http://intro2libsys.info/Person/ScottAdams"
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/adams-scott",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Adams"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Scott"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:01.767202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-02-12T03:12:54.070008"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Scott Adams"
+    }
+  ]
 }

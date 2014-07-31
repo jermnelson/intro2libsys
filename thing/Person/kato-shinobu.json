@@ -1,17 +1,45 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Person/kato-shinobu", 
-  "@type": "Person", 
-  "bf:adminInfo": {
-    "bf:creationDate": "2014-02-20T15:58:16.806758", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "familyName": "Kato", 
-  "givenName": "Shinobu", 
-  "name": "Shinobu Kato", 
-  "url": "http://intro2libsys.info/Person/ShinobuKato"
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/kato-shinobu",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Kato"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Shinobu"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:02.512702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-02-20T15:58:16.806758"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Shinobu Kato"
+    }
+  ]
 }

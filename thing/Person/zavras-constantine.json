@@ -1,18 +1,45 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/", 
-    "loc": "http://www.loc.gov/standards/mads/"
-  }, 
-  "@id": "http://intro2libsys.info/Person/zavras-constantine", 
-  "@type": "Person", 
-  "familyName": "Zavras", 
-  "givenName": "Constantine", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/zavras-constantine",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Zavras"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Constantine"
+    }
+  ],
   "mads:recordInfo": {
-    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
-    "loc:languageOfCataloging": "English", 
-    "loc:recordCreationDate": "2014-04-17T18:59:16.051005"
-  }, 
-  "name": "Constantine Zavras", 
-  "url": "http://intro2libsys.info/Person/ConstantineZavras"
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:02.497202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-04-17T18:59:16.051005"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Constantine Zavras"
+    }
+  ]
 }

@@ -1,18 +1,45 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/", 
-    "loc": "http://www.loc.gov/standards/mads/"
-  }, 
-  "@id": "http://intro2libsys.info/Person/ahmed-nafeez", 
-  "@type": "Person", 
-  "familyName": "Ahmed", 
-  "givenName": "Nafeez", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/ahmed-nafeez",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Ahmed"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Nafeez"
+    }
+  ],
   "mads:recordInfo": {
-    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
-    "loc:languageOfCataloging": "English", 
-    "loc:recordCreationDate": "2014-07-10T12:09:53.961898"
-  }, 
-  "name": "Nafeez Ahmed", 
-  "url": "http://intro2libsys.info/Person/NafeezAhmed"
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:02.908202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-07-10T12:09:53.961898"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Nafeez Ahmed"
+    }
+  ]
 }

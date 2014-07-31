@@ -1,17 +1,62 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/"
-  }, 
-  "@id": "http://intro2libsys.info/Article/post-artifact-books-and-publishing", 
-  "@type": "Article", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/post-artifact-books-and-publishing",
+  "@type": "Article",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/mod-craig"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/mod-craig"
+      }
     }
-  ], 
-  "copyrightYear": 2011, 
-  "datePublished": "2011-06", 
-  "headline": "Post-Artifact Books and Publishing: Digital's effect on how we produce, distribute and consume content.", 
-  "name": "post-artifact-books-and-publishing", 
-  "url": "http://craigmod.com/journal/post_artifact/"
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2011
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2011-06"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Post-Artifact Books and Publishing: Digital's effect on how we produce, distribute and consume content."
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:07.824702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "post-artifact-books-and-publishing"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://craigmod.com/journal/post_artifact/"
+    }
+  ]
 }

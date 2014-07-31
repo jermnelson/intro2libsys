@@ -1,30 +1,67 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/", 
-    "loc": "http://www.loc.gov/standards/mads/"
-  }, 
-  "@id": "http://intro2libsys.info/Article/the-internet-of-things-will-thrive-by-2025", 
-  "@type": "Article", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/the-internet-of-things-will-thrive-by-2025",
+  "@type": "Article",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/anderson-janna"
-    }, 
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/anderson-janna"
+      }
+    },
     {
-      "@id": "http://intro2libsys.info/Person/rainie-lee"
-    }, 
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/rainie-lee"
+      }
+    },
     {
-      "@id": "http://intro2libsys.info/Person/duggan-maeve"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/duggan-maeve"
+      }
     }
-  ], 
-  "copyrightYear": 2014, 
-  "datePublished": "2014-05-14", 
-  "description": "Many experts say the rise of embedded and wearable computing will bring the next revolution in digital technology.", 
-  "headline": "The Internet of Things Will Thrive by 2025", 
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2014
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2014-05-14"
+    }
+  ],
+  "description": [
+    {
+      "@value": "Many experts say the rise of embedded and wearable computing will bring the next revolution in digital technology."
+    }
+  ],
+  "headline": [
+    {
+      "@value": "The Internet of Things Will Thrive by 2025"
+    }
+  ],
   "mads:recordInfo": {
-    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
-    "loc:languageOfCataloging": "English", 
-    "loc:recordCreationDate": "2014-06-03T16:52:42.978000"
-  }, 
-  "url": "http://www.pewinternet.org/files/2014/05/PIP_Internet-of-things_0514142.pdf"
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-06-03T16:52:42.978000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.pewinternet.org/files/2014/05/PIP_Internet-of-things_0514142.pdf"
+    }
+  ]
 }

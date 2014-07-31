@@ -1,22 +1,57 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Article/a-common-sense-look-at-aikido", 
-  "@type": "Article", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/a-common-sense-look-at-aikido",
+  "@type": "Article",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/kuroiwa-yoshio"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/kuroiwa-yoshio"
+      }
     }
-  ], 
-  "bf:adminInfo": {
-    "bf:creationDate": "2014-02-27T21:36:22.103000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "copyrightYear": 2012, 
-  "datePublished": "2012-12-19", 
-  "headline": "A Common Sense Look at Aikido", 
-  "url": "http://members.aikidojournal.com/public/a-common-sense-look-at-aikido/"
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2012
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2012-12-19"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "A Common Sense Look at Aikido"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.101202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-02-27T21:36:22.103000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://members.aikidojournal.com/public/a-common-sense-look-at-aikido/"
+    }
+  ]
 }

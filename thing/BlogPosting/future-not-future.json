@@ -1,18 +1,45 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/", 
-    "loc": "http://www.loc.gov/standards/mads/"
-  }, 
-  "@id": "http://intro2libsys.info/BlogPosting/future-not-future", 
-  "@type": "BlogPosting", 
-  "copyrightYear": 2014, 
-  "datePublished": "2014-05-04", 
-  "headline": "Future, Not Future", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/BlogPosting/future-not-future",
+  "@type": "BlogPosting",
+  "copyrightYear": [
+    {
+      "@value": 2014
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2014-05-04"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Future, Not Future"
+    }
+  ],
   "mads:recordInfo": {
-    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
-    "loc:languageOfCataloging": "English", 
-    "loc:recordCreationDate": "2014-05-05T21:22:53.988000"
-  }, 
-  "url": "http://librarianry.tumblr.com/post/84727057857/future-not-future"
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-05-05T21:22:53.988000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://librarianry.tumblr.com/post/84727057857/future-not-future"
+    }
+  ]
 }

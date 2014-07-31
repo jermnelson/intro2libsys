@@ -1,22 +1,47 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/", 
-    "loc": "http://www.loc.gov/standards/mads/"
-  }, 
-  "@id": "http://intro2libsys.info/Article/counting-on-counter-the-current-state-of-e-resource-usage-data-in-libraries", 
-  "@type": "Article", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/counting-on-counter-the-current-state-of-e-resource-usage-data-in-libraries",
+  "@type": "Article",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/welker-josh"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/welker-josh"
+      }
     }
-  ], 
-  "copyrightYear": 2012, 
-  "headline": "Counting on COUNTER: The Current State of E-Resource Usage Data in Libraries", 
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2012
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Counting on COUNTER: The Current State of E-Resource Usage Data in Libraries"
+    }
+  ],
   "mads:recordInfo": {
-    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
-    "loc:languageOfCataloging": "English", 
-    "loc:recordCreationDate": "2014-06-02T13:09:27.365086"
-  }, 
-  "url": "http://www.infotoday.com/cilmag/nov12/Welker--Counting-on-COUNTER.shtml"
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-06-02T13:09:27.365086"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.infotoday.com/cilmag/nov12/Welker--Counting-on-COUNTER.shtml"
+    }
+  ]
 }

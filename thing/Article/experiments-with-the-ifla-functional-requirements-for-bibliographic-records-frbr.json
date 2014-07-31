@@ -1,35 +1,86 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Article/experiments-with-the-ifla-functional-requirements-for-bibliographic-records-frbr", 
-  "@type": "ScholarlyArticle", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/experiments-with-the-ifla-functional-requirements-for-bibliographic-records-frbr",
+  "@type": "ScholarlyArticle",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/hickey-thomas"
-    }, 
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/hickey-thomas"
+      }
+    },
     {
-      "@id": "http://intro2libsys.info/Person/oneill-edward"
-    }, 
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/oneill-edward"
+      }
+    },
     {
-      "@id": "http://intro2libsys.info/Person/toves-jenny"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/toves-jenny"
+      }
     }
-  ], 
-  "bf:adminInfo": {
-    "bf:creationDate": "2014-01-07T17:56:52.052000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "copyrightYear": 2002, 
-  "datePublished": "2002-09", 
-  "description": "OCLC is investigating how best to implement IFLA's Functional Requirements for Bibliographic Records (FRBR). As part of that work, we have undertaken a series of experiments with algorithms to group existing bibliographic records into works and expressions. Working with both subsets of records and the whole WorldCat database, the algorithm we developed achieved reasonable success identifying all manifestations of a work.", 
-  "headline": "Experiments with the IFLA Functional Requirements for Bibliographic Records (FRBR)", 
-  "partOfPeriodical": {
-    "@id": "http://intro2libsys.info/Periodical/d-lib-magazine"
-  }, 
-  "partOfPeriodicalIssue": {
-    "@id": "http://intro2libsys.info/PeriodicalIssue/d-lib-magazine-september-2002"
-  }, 
-  "url": "http://www.dlib.org/dlib/september02/hickey/09hickey.html"
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2002
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2002-09"
+    }
+  ],
+  "description": [
+    {
+      "@value": "OCLC is investigating how best to implement IFLA's Functional Requirements for Bibliographic Records (FRBR). As part of that work, we have undertaken a series of experiments with algorithms to group existing bibliographic records into works and expressions. Working with both subsets of records and the whole WorldCat database, the algorithm we developed achieved reasonable success identifying all manifestations of a work."
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Experiments with the IFLA Functional Requirements for Bibliographic Records (FRBR)"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.209702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-07T17:56:52.052000"
+      }
+    ]
+  },
+  "partOfPeriodical": [
+    {
+      "@value": {
+        "@id": "http://intro2libsys.info/Periodical/d-lib-magazine"
+      }
+    }
+  ],
+  "partOfPeriodicalIssue": [
+    {
+      "@value": {
+        "@id": "http://intro2libsys.info/PeriodicalIssue/d-lib-magazine-september-2002"
+      }
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://www.dlib.org/dlib/september02/hickey/09hickey.html"
+    }
+  ]
 }

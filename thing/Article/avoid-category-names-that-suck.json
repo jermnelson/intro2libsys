@@ -1,31 +1,80 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Article/avoid-category-names-that-suck", 
-  "@type": "Article", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/avoid-category-names-that-suck",
+  "@type": "Article",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/loranger-hoa"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/loranger-hoa"
+      }
     }
-  ], 
-  "bf:adminInfo": {
-    "bf:creationDate": "2013-12-20T19:01:07.284000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "copyrightYear": 2013, 
-  "datePublished": "2013-12-15", 
-  "description": "Categories and hypertext act as signs and should give people a strong indication of what will happen even before they click on the link. People avoid clicking on unknown items or, even worse, ignore them all together.", 
-  "headline": "Avoid Category Names That Suck", 
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2013-12-15"
+    }
+  ],
+  "description": [
+    {
+      "@value": "Categories and hypertext act as signs and should give people a strong indication of what will happen even before they click on the link. People avoid clicking on unknown items or, even worse, ignore them all together."
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Avoid Category Names That Suck"
+    }
+  ],
   "keywords": [
-    "Information Architecture", 
-    "Navigation", 
-    "Writing for the Web"
-  ], 
-  "publisher": {
-    "@id": "http://intro2libsys.info/Organization/nng-nielsen-norman-group"
-  }, 
-  "url": "http://www.nngroup.com/articles/category-names-suck/"
+    {
+      "@value": "Information Architecture"
+    },
+    {
+      "@value": "Navigation"
+    },
+    {
+      "@value": "Writing for the Web"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.107702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-20T19:01:07.284000"
+      }
+    ]
+  },
+  "publisher": [
+    {
+      "@value": {
+        "@id": "http://intro2libsys.info/Organization/nng-nielsen-norman-group"
+      }
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://www.nngroup.com/articles/category-names-suck/"
+    }
+  ]
 }

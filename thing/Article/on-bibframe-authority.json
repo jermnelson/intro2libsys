@@ -1,21 +1,69 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab"
-  }, 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
   "@id": "http://intro2libsys.info/Article/on-bibframe-authority",
-  "@type": "Article", 
+  "@type": "Article",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/ford-kevin" 
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/ford-kevin"
+      }
     }
-  ], 
-  "copyrightYear": 2013, 
-  "datePublished": "2013-08-26", 
-  "headline": "On BIBFRAME Authority", 
-  "name": "on-bibframe-authority", 
-  "publisher": {
-    "@id": "http://intro2libsys.info/Organization/library-of-congress" 
-  }, 
-  "url": "http://bibframe.org/documentation/bibframe-authority/"
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2013-08-26"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "On BIBFRAME Authority"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:07.863202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "on-bibframe-authority"
+    }
+  ],
+  "publisher": [
+    {
+      "@value": {
+        "@id": "http://intro2libsys.info/Organization/library-of-congress"
+      }
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://bibframe.org/documentation/bibframe-authority/"
+    }
+  ]
 }

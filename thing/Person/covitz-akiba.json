@@ -1,17 +1,45 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Person/covitz-akiba", 
-  "@type": "Person", 
-  "bf:adminInfo": {
-    "bf:creationDate": "2013-12-20T19:07:35.485000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "familyName": "Covitz", 
-  "givenName": "Akiba", 
-  "name": "Akiba J. Covitz", 
-  "url": "http://intro2libsys.info/Person/AkibaCovitz"
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/covitz-akiba",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Covitz"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Akiba"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:02.554202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-20T19:07:35.485000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Akiba J. Covitz"
+    }
+  ]
 }

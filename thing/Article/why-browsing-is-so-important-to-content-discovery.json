@@ -1,23 +1,52 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/", 
-    "loc": "http://www.loc.gov/standards/mads/"
-  }, 
-  "@id": "http://intro2libsys.info/Article/why-browsing-is-so-important-to-content-discovery", 
-  "@type": "Article", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/why-browsing-is-so-important-to-content-discovery",
+  "@type": "Article",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/larsell-laura"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/larsell-laura"
+      }
     }
-  ], 
-  "copyrightYear": 2011, 
-  "datePublished": "2011-09-06", 
-  "headline": "Why Browsing Is So Important to Content Discovery", 
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2011
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2011-09-06"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Why Browsing Is So Important to Content Discovery"
+    }
+  ],
   "mads:recordInfo": {
-    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
-    "loc:languageOfCataloging": "English", 
-    "loc:recordCreationDate": "2014-05-28T19:38:24.267000"
-  }, 
-  "url": "http://mashable.com/2011/09/06/browsing-content-discovery/"
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-05-28T19:38:24.267000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://mashable.com/2011/09/06/browsing-content-discovery/"
+    }
+  ]
 }

@@ -1,19 +1,64 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/"
-  }, 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
   "@id": "http://intro2libsys.info/Article/futures-thinking-basics",
-  "@type": "Article", 
+  "@type": "Article",
   "author": [
     {
-     "@id": "http://intro2libsys.info/Person/cascio-jamais"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/cascio-jamais"
+      }
     }
-  ], 
-  "copyrightYear": 2009, 
-  "headline": "Futures Thinking: The Basics", 
-  "name": "futures-thinking-basics", 
-  "publisher": {
-    "@id": "http://intro2libsys.info/Organization/fast-company"
-  }, 
-  "url": "http://www.fastcompany.com/1362037/futures-thinking-basics"
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2009
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Futures Thinking: The Basics"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:07.680702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "futures-thinking-basics"
+    }
+  ],
+  "publisher": [
+    {
+      "@value": {
+        "@id": "http://intro2libsys.info/Organization/fast-company"
+      }
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://www.fastcompany.com/1362037/futures-thinking-basics"
+    }
+  ]
 }

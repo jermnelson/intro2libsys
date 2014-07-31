@@ -1,23 +1,52 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/", 
-    "loc": "http://www.loc.gov/standards/mads/"
-  }, 
-  "@id": "http://intro2libsys.info/BlogPosting/using-programmable-inks-to-build-with-biology-mashing-up-3d-printing-and-biotech", 
-  "@type": "BlogPosting", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/BlogPosting/using-programmable-inks-to-build-with-biology-mashing-up-3d-printing-and-biotech",
+  "@type": "BlogPosting",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/carlson-rob"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/carlson-rob"
+      }
     }
-  ], 
-  "copyrightYear": 2014, 
-  "datePublished": "2014-04-18", 
-  "headline": "Using programmable inks to build with biology: mashing up 3D printing and biotech", 
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2014
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2014-04-18"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Using programmable inks to build with biology: mashing up 3D printing and biotech"
+    }
+  ],
   "mads:recordInfo": {
-    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
-    "loc:languageOfCataloging": "English", 
-    "loc:recordCreationDate": "2014-05-01T14:30:34.240677"
-  }, 
-  "url": "http://www.synthesis.cc/2014/04/programmable-inks-mashing-up-3d-printing-and-biotech.html"
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-05-01T14:30:34.240677"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.synthesis.cc/2014/04/programmable-inks-mashing-up-3d-printing-and-biotech.html"
+    }
+  ]
 }

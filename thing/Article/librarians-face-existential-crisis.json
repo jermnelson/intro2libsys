@@ -1,25 +1,64 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Article/librarians-face-existential-crisis", 
-  "@type": "Article", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/librarians-face-existential-crisis",
+  "@type": "Article",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/sternstein-aliya"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/sternstein-aliya"
+      }
     }
-  ], 
-  "bf:adminInfo": {
-    "bf:creationDate": "2013-12-19T18:40:52.630000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "copyrightYear": 2005, 
-  "datePublished": "2005-04-15", 
-  "headline": "Librarians face existential crisis", 
-  "publisher": {
-     "@id": "http://intro2libsys.info/Organization/fcw"
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2005
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2005-04-15"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Librarians face existential crisis"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:07.794702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-19T18:40:52.630000"
+      }
+    ]
   },
-  "url": "http://fcw.com/articles/2005/04/15/librarians-face-existential-crisis.aspx"
+  "publisher": [
+    {
+      "@value": {
+        "@id": "http://intro2libsys.info/Organization/fcw"
+      }
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://fcw.com/articles/2005/04/15/librarians-face-existential-crisis.aspx"
+    }
+  ]
 }

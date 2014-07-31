@@ -1,20 +1,63 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "idloc": "http://id.loc.gov"
-  }, 
-  "@id": "http://intro2libsys.info/Article/future-apps-web", 
-  "@type": "TechArticle", 
+    "@vocab": "http://schema.org/",
+    "idloc": "http://id.loc.gov",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/future-apps-web",
+  "@type": "TechArticle",
   "author": [
     {
-     "@id": "http://intro2libsys.info/Person/anderson-janna"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/anderson-janna"
+      }
     },
     {
-     "@id": "http://intro2libsys.info/Person/rainie-lee" 
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/rainie-lee"
+      }
     }
-  ], 
-  "copyrightYear": 2012,
-  "datePublished": "2012-03-23",
-  "headline": "The Future of Apps and Web", 
-  "url": "http://pewinternet.com/Reports/2012/Future-of-Apps-and-Web/Overview.aspx"
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2012
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2012-03-23"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "The Future of Apps and Web"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:07.728202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://pewinternet.com/Reports/2012/Future-of-Apps-and-Web/Overview.aspx"
+    }
+  ]
 }

@@ -1,18 +1,45 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/", 
-    "loc": "http://www.loc.gov/standards/mads/"
-  }, 
-  "@id": "http://intro2libsys.info/Article/are-we-thinking-about-digital-all-wrong", 
-  "@type": "Article", 
-  "copyrightYear": 2014, 
-  "datePublished": "2014-03-14", 
-  "headline": "Are We Thinking About Digital All Wrong?", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/are-we-thinking-about-digital-all-wrong",
+  "@type": "Article",
+  "copyrightYear": [
+    {
+      "@value": 2014
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2014-03-14"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Are We Thinking About Digital All Wrong?"
+    }
+  ],
   "mads:recordInfo": {
-    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
-    "loc:languageOfCataloging": "English", 
-    "loc:recordCreationDate": "2014-03-18T18:01:43.369752"
-  }, 
-  "url": "http://www.smashingmagazine.com/2014/03/14/are-we-thinking-about-digital-all-wrong/"
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-03-18T18:01:43.369752"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.smashingmagazine.com/2014/03/14/are-we-thinking-about-digital-all-wrong/"
+    }
+  ]
 }

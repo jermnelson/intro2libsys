@@ -1,19 +1,51 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/", 
-    "idloc": "http://id.loc.gov"
-  }, 
-  "@id": "http://intro2libsys.info/Person/wright-will", 
-  "@type": "Person", 
-  "bf:adminInfo": {
-    "bf:creationDate": "2014-01-09T02:44:33.065000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "familyName": "Wright", 
-  "givenName": "Will", 
-  "idloc:url": "http://id.loc.gov/authorities/names/n2008018258", 
-  "name": "Will Wright", 
-  "url": "http://intro2libsys.info/Person/WillWright"
+    "@vocab": "http://schema.org/",
+    "idloc": "http://id.loc.gov",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/wright-will",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Wright"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Will"
+    }
+  ],
+  "idloc:url": [
+    {
+      "@value": "http://id.loc.gov/authorities/names/n2008018258"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:02.532702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-09T02:44:33.065000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Will Wright"
+    }
+  ]
 }

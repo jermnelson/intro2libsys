@@ -1,22 +1,57 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Article/documents-memory-institutions-and-information-science", 
-  "@type": "Article", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/documents-memory-institutions-and-information-science",
+  "@type": "Article",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/hjrland-birger"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/hjrland-birger"
+      }
     }
-  ], 
-  "bf:adminInfo": {
-    "bf:creationDate": "2014-03-03T21:45:42.134000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "copyrightYear": 2000, 
-  "datePublished": "2000-01", 
-  "headline": "DOCUMENTS, MEMORY INSTITUTIONS AND INFORMATION SCIENCE", 
-  "url": "http://iva.dk/bh/Core%20Concepts%20in%20LIS/articles%20a-z/Documents_memory%20institutions%20and%20IS.pdf"
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2000
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2000-01"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "DOCUMENTS, MEMORY INSTITUTIONS AND INFORMATION SCIENCE"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.225202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-03-03T21:45:42.134000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://iva.dk/bh/Core%20Concepts%20in%20LIS/articles%20a-z/Documents_memory%20institutions%20and%20IS.pdf"
+    }
+  ]
 }

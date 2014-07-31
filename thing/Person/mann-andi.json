@@ -1,17 +1,45 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Person/mann-andi", 
-  "@type": "Person", 
-  "bf:adminInfo": {
-    "bf:creationDate": "2014-02-21T14:28:05.449604", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "familyName": "Mann", 
-  "givenName": "Andi", 
-  "name": "Andi Mann", 
-  "url": "http://intro2libsys.info/Person/AndiMann"
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/mann-andi",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Mann"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Andi"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:01.798202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-02-21T14:28:05.449604"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Andi Mann"
+    }
+  ]
 }

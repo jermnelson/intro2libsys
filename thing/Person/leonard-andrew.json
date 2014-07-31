@@ -1,17 +1,45 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Person/leonard-andrew", 
-  "@type": "Person", 
-  "bf:adminInfo": {
-    "bf:creationDate": "2014-01-09T00:47:03.958000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "familyName": "Leonard", 
-  "givenName": "Andrew", 
-  "name": "Andrew Leonard", 
-  "url": "http://intro2libsys.info/Person/AndrewLeonard"
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/leonard-andrew",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Leonard"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Andrew"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:02.888202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-09T00:47:03.958000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Andrew Leonard"
+    }
+  ]
 }

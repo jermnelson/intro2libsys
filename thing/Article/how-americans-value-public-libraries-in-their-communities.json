@@ -1,32 +1,77 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Article/how-americans-value-public-libraries-in-their-communities", 
-  "@type": "Article", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/how-americans-value-public-libraries-in-their-communities",
+  "@type": "Article",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/zickuhr-kathryn"
-    }, 
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/zickuhr-kathryn"
+      }
+    },
     {
-      "@id": "http://intro2libsys.info/Person/rainie-lee"
-    }, 
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/rainie-lee"
+      }
+    },
     {
-      "@id": "http://intro2libsys.info/Person/purcell-kristen"
-    }, 
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/purcell-kristen"
+      }
+    },
     {
-      "@id": "http://intro2libsys.info/Person/duggan-maeve"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/duggan-maeve"
+      }
     }
-  ], 
-  "bf:adminInfo": {
-    "bf:creationDate": "2014-02-04T14:07:49.905773", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "copyrightYear": 2013, 
-  "datePublished": "2013-12-11", 
-  "description": "Americans strongly value the role of public libraries in their communities, both for providing access to materials and resources and for promoting literacy and improving the overall quality of life. Most Americans say they have only had positive experiences at public libraries, and value a range of library resources and services.", 
-  "headline": "How Americans Value Public Libraries in Their Communities", 
-  "url": "http://libraries.pewinternet.org/2013/12/11/libraries-in-communities/"
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2013-12-11"
+    }
+  ],
+  "description": [
+    {
+      "@value": "Americans strongly value the role of public libraries in their communities, both for providing access to materials and resources and for promoting literacy and improving the overall quality of life. Most Americans say they have only had positive experiences at public libraries, and value a range of library resources and services."
+    }
+  ],
+  "headline": [
+    {
+      "@value": "How Americans Value Public Libraries in Their Communities"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.074702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-02-04T14:07:49.905773"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://libraries.pewinternet.org/2013/12/11/libraries-in-communities/"
+    }
+  ]
 }

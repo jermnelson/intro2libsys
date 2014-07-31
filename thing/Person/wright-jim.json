@@ -1,18 +1,45 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/", 
-    "loc": "http://www.loc.gov/standards/mads/"
-  }, 
-  "@id": "http://intro2libsys.info/Person/wright-jim", 
-  "@type": "Person", 
-  "familyName": "Wright", 
-  "givenName": "Jim", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/wright-jim",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Wright"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Jim"
+    }
+  ],
   "mads:recordInfo": {
-    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
-    "loc:languageOfCataloging": "English", 
-    "loc:recordCreationDate": "2014-05-12T16:26:10.517592"
-  }, 
-  "name": "Jim Wright", 
-  "url": "http://intro2libsys.info/Person/JimWright"
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:02.640202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-05-12T16:26:10.517592"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Jim Wright"
+    }
+  ]
 }

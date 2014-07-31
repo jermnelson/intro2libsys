@@ -1,34 +1,82 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab"
-  }, 
-  "@id": "http://intro2libsys.info/Article/expressing-dublin-core-metadata", 
-  "@type": "Article", 
-  "bf:adminInfo": {
-    "bf:changedDate": "2013-12-18T00:15:08.345000",
-    "bf:creationDate": "2013-12-14T00:03:52.947000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "copyrightYear": 2008, 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/expressing-dublin-core-metadata",
+  "@type": "Article",
+  "copyrightYear": [
+    {
+      "@value": 2008
+    }
+  ],
   "creator": [
     {
-      "@id": "http://intro2libsys.info/Person/nilsson-mikael" 
-    }, 
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/nilsson-mikael"
+      }
+    },
     {
-      "@id": "http://intro2libsys.info/Person/powell-andy"
-    }, 
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/powell-andy"
+      }
+    },
     {
-      "@id": "http://intro2libsys.info/Person/johnston-pete" 
-    }, 
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/johnston-pete"
+      }
+    },
     {
-      "@id": "http://intro2libsys.info/Person/naeve-ambju00f6rn"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/naeve-ambju00f6rn"
+      }
     }
-  ], 
-  "datePublished": "2008-01-14", 
-  "description": "This document provides recommendations for expressing Dublin Core metadata using RDF, the Resource Description Framework", 
-  "headline": "Expressing Dublin Core metadata using the Resource Description Framework (RDF)", 
-  "name": "expressing-dublin-core-metadata", 
-  "url": "http://dublincore.org/documents/dc-rdf/"
+  ],
+  "datePublished": [
+    {
+      "@value": "2008-01-14"
+    }
+  ],
+  "description": [
+    {
+      "@value": "This document provides recommendations for expressing Dublin Core metadata using RDF, the Resource Description Framework"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Expressing Dublin Core metadata using the Resource Description Framework (RDF)"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.215202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-14T00:03:52.947000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "expressing-dublin-core-metadata"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://dublincore.org/documents/dc-rdf/"
+    }
+  ]
 }

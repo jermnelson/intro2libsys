@@ -1,17 +1,45 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Person/ries-eric", 
-  "@type": "Person", 
-  "bf:adminInfo": {
-    "bf:creationDate": "2013-12-18T18:30:39.722000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "familyName": "Ries", 
-  "givenName": "Eric", 
-  "name": "Eric Ries", 
-  "url": "http://intro2libsys.info/Person/EricRies"
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/ries-eric",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Ries"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Eric"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:01.770702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-18T18:30:39.722000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Eric Ries"
+    }
+  ]
 }

@@ -1,20 +1,64 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab"
-  }, 
-  "@id": "http://intro2libsys.info/Article/metadata-cataloging-practices", 
-  "@type": "ScholarlyArticle", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/metadata-cataloging-practices",
+  "@type": "ScholarlyArticle",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/el-sherbini-magda"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/el-sherbini-magda"
+      }
     },
     {
-      "@id": "http://intro2libsys.info/Person/klim-george" 
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/klim-george"
+      }
     }
   ],
-  "bf:Instance": { "bf:doi": "10.1108/02640470410541633" },
-  "copyrightYear": 2004, 
-  "name": "Metadata and Cataloging Practices", 
-  "url": "http://hdl.handle.net/1811/51389"
+  "bf:Instance": [
+    {
+      "@value": {
+        "bf:doi": "10.1108/02640470410541633"
+      }
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2004
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:07.738702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Metadata and Cataloging Practices"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://hdl.handle.net/1811/51389"
+    }
+  ]
 }

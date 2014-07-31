@@ -1,23 +1,52 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/", 
-    "loc": "http://www.loc.gov/standards/mads/"
-  }, 
-  "@id": "http://intro2libsys.info/Article/a-little-list-rare-book-trade-thoughts-in-gilbert-and-sullivan-mode", 
-  "@type": "Article", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/a-little-list-rare-book-trade-thoughts-in-gilbert-and-sullivan-mode",
+  "@type": "Article",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/kugelberg-johan"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/kugelberg-johan"
+      }
     }
-  ], 
-  "copyrightYear": 2014, 
-  "datePublished": "2014-06-11", 
-  "headline": "A Little List: Rare Book Trade Thoughts in Gilbert-and-Sullivan Mode", 
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2014
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2014-06-11"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "A Little List: Rare Book Trade Thoughts in Gilbert-and-Sullivan Mode"
+    }
+  ],
   "mads:recordInfo": {
-    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
-    "loc:languageOfCataloging": "English", 
-    "loc:recordCreationDate": "2014-06-19T14:53:07.256954"
-  }, 
-  "url": "http://www.huffingtonpost.co.uk/johan-kugelberg/a-little-list-rare-book-t_b_5469181.html"
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-06-19T14:53:07.256954"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.huffingtonpost.co.uk/johan-kugelberg/a-little-list-rare-book-t_b_5469181.html"
+    }
+  ]
 }

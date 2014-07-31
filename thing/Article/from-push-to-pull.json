@@ -1,25 +1,62 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Article/from-push-to-pull", 
-  "@type": "ScholarlyArticle", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/from-push-to-pull",
+  "@type": "ScholarlyArticle",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/brown-john-seely"
-    }, 
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/brown-john-seely"
+      }
+    },
     {
-      "@id": "http://intro2libsys.info/Person/hagel-john"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/hagel-john"
+      }
     }
-  ], 
-  "bf:adminInfo": {
-    "bf:creationDate": "2013-12-30T22:20:55.696000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "copyrightYear": 2008, 
-  "description": "\nThe signs are around us.  We are on the cusp of a shift to a new common sense model that will re-shape many facets of our life, including how we identify ourselves, participate with others, connect with others, mobilize resources and learn.  This paper will focus on only one facet of this new common sense model \u2013 emerging approaches for mobilizing resources.", 
-  "headline": "From Push To Pull: Emerging Models For Mobilizing Resources", 
-  "url": "http://www.cluteinstitute.com/ojs/index.php/JSS/article/view/4305"
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2008
+    }
+  ],
+  "description": [
+    {
+      "@value": "\nThe signs are around us.  We are on the cusp of a shift to a new common sense model that will re-shape many facets of our life, including how we identify ourselves, participate with others, connect with others, mobilize resources and learn.  This paper will focus on only one facet of this new common sense model \u2013 emerging approaches for mobilizing resources."
+    }
+  ],
+  "headline": [
+    {
+      "@value": "From Push To Pull: Emerging Models For Mobilizing Resources"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:07.855202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-30T22:20:55.696000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.cluteinstitute.com/ojs/index.php/JSS/article/view/4305"
+    }
+  ]
 }

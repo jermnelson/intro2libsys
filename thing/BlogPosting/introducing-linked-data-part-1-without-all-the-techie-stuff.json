@@ -1,20 +1,47 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/BlogPosting/introducing-linked-data-part-1-without-all-the-techie-stuff", 
-  "@type": "BlogPosting", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/BlogPosting/introducing-linked-data-part-1-without-all-the-techie-stuff",
+  "@type": "BlogPosting",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/hitchens-alison"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/hitchens-alison"
+      }
     }
-  ], 
-  "bf:adminInfo": {
-    "bf:creationDate": "2014-01-09T20:28:27.994000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "headline": "Introducing Linked Data Part 1 (Without all the techie stuff!)", 
-  "url": "http://www.accessola2.com/olita/insideolita/wordpress/?p=60029"
+  ],
+  "headline": [
+    {
+      "@value": "Introducing Linked Data Part 1 (Without all the techie stuff!)"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:44:01.977202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-09T20:28:27.994000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.accessola2.com/olita/insideolita/wordpress/?p=60029"
+    }
+  ]
 }

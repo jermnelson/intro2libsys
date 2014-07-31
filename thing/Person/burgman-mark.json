@@ -1,17 +1,45 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Person/burgman-mark", 
-  "@type": "Person", 
-  "bf:adminInfo": {
-    "bf:creationDate": "2013-12-19T19:32:14.285000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "familyName": "Burgman", 
-  "givenName": "Mark", 
-  "name": "Mark A. Burgman", 
-  "url": "http://intro2libsys.info/Person/MarkBurgman"
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/burgman-mark",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Burgman"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Mark"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:01.895202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-19T19:32:14.285000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Mark A. Burgman"
+    }
+  ]
 }

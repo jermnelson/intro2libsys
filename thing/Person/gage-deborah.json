@@ -1,7 +1,6 @@
 {
   "@context": {
     "@vocab": "http://schema.org/",
-    "bf": "http://bibframe.org/vocab/",
     "mads": "http://www.loc.gov/standards/mads/"
   },
   "@id": "http://intro2libsys.info/Person/gage-deborah",
@@ -27,6 +26,11 @@
         "@value": "English"
       }
     ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:02.364702"
+      }
+    ],
     "mads:recordCreationDate": [
       {
         "@value": "2014-07-29T22:02:55.413459"
@@ -36,11 +40,6 @@
   "name": [
     {
       "@value": "Deborah Gage"
-    }
-  ],
-  "url": [
-    {
-      "@value": "http://intro2libsys.info/Person/gage-deborah"
     }
   ]
 }

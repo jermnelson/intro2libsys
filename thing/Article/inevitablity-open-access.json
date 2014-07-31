@@ -1,22 +1,82 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
+    "@vocab": "http://schema.org/",
     "issue": null,
+    "mads": "http://www.loc.gov/standards/mads/",
     "volume": null
-  }, 
-  "@id": "http://intro2libsys.info/Article/inevitablity-open-access", 
-  "@type": "ScholarlyArticle", 
+  },
+  "@id": "http://intro2libsys.info/Article/inevitablity-open-access",
+  "@type": "ScholarlyArticle",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/lewis-david"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/lewis-david"
+      }
     }
   ],
-  "copyrightYear": 2013,
-  "datePublished": "2013-07",
-  "headline": "The Inevitablity of Open Access", 
-  "issue": 5,
-  "keywords": ["open access", "disruptive innovation"], 
-  "name": "College and Research Libraries",
-  "volume": 73,
-  "url": "http://crl.acrl.org/content/early/2011/09/21/crl-299.full.pdf+html"
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2013-07"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "The Inevitablity of Open Access"
+    }
+  ],
+  "issue": [
+    {
+      "@value": 5
+    }
+  ],
+  "keywords": [
+    {
+      "@value": "open access"
+    },
+    {
+      "@value": "disruptive innovation"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.186702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "College and Research Libraries"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://crl.acrl.org/content/early/2011/09/21/crl-299.full.pdf+html"
+    }
+  ],
+  "volume": [
+    {
+      "@value": 73
+    }
+  ]
 }

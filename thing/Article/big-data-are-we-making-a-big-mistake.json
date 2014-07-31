@@ -1,23 +1,52 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/", 
-    "loc": "http://www.loc.gov/standards/mads/"
-  }, 
-  "@id": "http://intro2libsys.info/Article/big-data-are-we-making-a-big-mistake", 
-  "@type": "NewsArticle", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/big-data-are-we-making-a-big-mistake",
+  "@type": "NewsArticle",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/harford-tim"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/harford-tim"
+      }
     }
-  ], 
-  "copyrightYear": 2014, 
-  "datePublished": "2014-03-28", 
-  "headline": "Big data: are we making a big mistake?", 
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2014
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2014-03-28"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Big data: are we making a big mistake?"
+    }
+  ],
   "mads:recordInfo": {
-    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
-    "loc:languageOfCataloging": "English", 
-    "loc:recordCreationDate": "2014-04-13T20:26:34.619263"
-  }, 
-  "url": "http://www.ft.com/intl/cms/s/2/21a6e7d8-b479-11e3-a09a-00144feabdc0.html#axzz2xlNF6IjV"
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-04-13T20:26:34.619263"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.ft.com/intl/cms/s/2/21a6e7d8-b479-11e3-a09a-00144feabdc0.html#axzz2xlNF6IjV"
+    }
+  ]
 }

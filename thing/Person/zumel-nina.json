@@ -1,18 +1,45 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/", 
-    "loc": "http://www.loc.gov/standards/mads/"
-  }, 
-  "@id": "http://intro2libsys.info/Person/zumel-nina", 
-  "@type": "Person", 
-  "familyName": "Zumel", 
-  "givenName": "Nina", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/zumel-nina",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Zumel"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Nina"
+    }
+  ],
   "mads:recordInfo": {
-    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
-    "loc:languageOfCataloging": "English", 
-    "loc:recordCreationDate": "2014-05-09T19:16:47.059796"
-  }, 
-  "name": "Nina Zumel", 
-  "url": "http://intro2libsys.info/Person/NinaZumel"
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:01.763702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-05-09T19:16:47.059796"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Nina Zumel"
+    }
+  ]
 }

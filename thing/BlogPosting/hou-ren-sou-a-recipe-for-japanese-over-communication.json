@@ -1,22 +1,57 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/BlogPosting/hou-ren-sou-a-recipe-for-japanese-over-communication", 
-  "@type": "BlogPosting", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/BlogPosting/hou-ren-sou-a-recipe-for-japanese-over-communication",
+  "@type": "BlogPosting",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/kato-shinobu"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/kato-shinobu"
+      }
     }
-  ], 
-  "bf:adminInfo": {
-    "bf:creationDate": "2014-02-20T16:00:45.079147", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "copyrightYear": 2011, 
-  "datePublished": "2011-10-24", 
-  "headline": "Hou-Ren-Sou: A Recipe for Japanese (Over) Communication", 
-  "url": "http://shinobukato.com/2011/10/24/hou-ren-sou-a-recipe-for-japanese-over-communication/"
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2011
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2011-10-24"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Hou-Ren-Sou: A Recipe for Japanese (Over) Communication"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:44:01.977202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-02-20T16:00:45.079147"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://shinobukato.com/2011/10/24/hou-ren-sou-a-recipe-for-japanese-over-communication/"
+    }
+  ]
 }

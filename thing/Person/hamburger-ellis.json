@@ -1,18 +1,45 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/", 
-    "loc": "http://www.loc.gov/standards/mads/"
-  }, 
-  "@id": "http://intro2libsys.info/Person/hamburger-ellis", 
-  "@type": "Person", 
-  "familyName": "Hamburger", 
-  "givenName": "Ellis", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/hamburger-ellis",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Hamburger"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Ellis"
+    }
+  ],
   "mads:recordInfo": {
-    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
-    "loc:languageOfCataloging": "English", 
-    "loc:recordCreationDate": "2014-03-17T16:37:51.970000"
-  }, 
-  "name": "Ellis Hamburger", 
-  "url": "http://intro2libsys.info/Person/EllisHamburger"
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:02.447202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-03-17T16:37:51.970000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Ellis Hamburger"
+    }
+  ]
 }

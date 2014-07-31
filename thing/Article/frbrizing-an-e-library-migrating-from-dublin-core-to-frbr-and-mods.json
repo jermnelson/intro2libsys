@@ -1,31 +1,76 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Article/frbrizing-an-e-library-migrating-from-dublin-core-to-frbr-and-mods", 
-  "@type": "ScholarlyArticle", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/frbrizing-an-e-library-migrating-from-dublin-core-to-frbr-and-mods",
+  "@type": "ScholarlyArticle",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/nelson-jeremy"
-    }, 
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/nelson-jeremy"
+      }
+    },
     {
-      "@id": "http://intro2libsys.info/Person/cleary-alan"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/cleary-alan"
+      }
     }
-  ], 
-  "bf:adminInfo": {
-    "bf:creationDate": "2014-01-09T23:05:52.033000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "copyrightYear": 2010, 
-  "datePublished": "2010-12-21", 
-  "headline": "FRBRizing an E-Library : Migrating from Dublin Core to FRBR and MODS", 
-  "partOfPeriodical": {
-    "@id": "http://intro2libsys.info/Periodical/code4lib-journal"
-  }, 
-  "partOfPeriodicalIssue": {
-    "@id": "http://intro2libsys.info/PeriodicalIssue/code4lib-journal-issue-12"
-  }, 
-  "url": "http://journal.code4lib.org/articles/4357"
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2010
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2010-12-21"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "FRBRizing an E-Library : Migrating from Dublin Core to FRBR and MODS"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.307202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-09T23:05:52.033000"
+      }
+    ]
+  },
+  "partOfPeriodical": [
+    {
+      "@value": {
+        "@id": "http://intro2libsys.info/Periodical/code4lib-journal"
+      }
+    }
+  ],
+  "partOfPeriodicalIssue": [
+    {
+      "@value": {
+        "@id": "http://intro2libsys.info/PeriodicalIssue/code4lib-journal-issue-12"
+      }
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://journal.code4lib.org/articles/4357"
+    }
+  ]
 }

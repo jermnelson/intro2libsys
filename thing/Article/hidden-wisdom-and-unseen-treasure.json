@@ -1,16 +1,53 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "idloc": "http://id.loc.gov"
-  }, 
-  "@id": "http://intro2libsys.info/Article/hidden-wisdom-and-unseen-treasure", 
-  "@type": "ScholarlyArticle", 
+    "@vocab": "http://schema.org/",
+    "idloc": "http://id.loc.gov",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/hidden-wisdom-and-unseen-treasure",
+  "@type": "ScholarlyArticle",
   "author": [
     {
-    "@id": "http://intro2libsys.info/Person/whittaker-beth"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/whittaker-beth"
+      }
     }
-  ], 
-  "copyrightYear": 1998,
-  "headline": "Hidden Wisdom and Unseen Treasure: Revisiting Cataloging in Medieval Libraries", 
-  "url": "http://hdl.handle.net/1811/47377"
+  ],
+  "copyrightYear": [
+    {
+      "@value": 1998
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Hidden Wisdom and Unseen Treasure: Revisiting Cataloging in Medieval Libraries"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.247202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://hdl.handle.net/1811/47377"
+    }
+  ]
 }

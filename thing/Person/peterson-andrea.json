@@ -1,17 +1,45 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Person/peterson-andrea", 
-  "@type": "Person", 
-  "bf:adminInfo": {
-    "bf:creationDate": "2014-01-07T18:09:06.572000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "familyName": "Peterson", 
-  "givenName": "Andrea", 
-  "name": "Andrea Peterson", 
-  "url": "http://intro2libsys.info/Person/AndreaPeterson"
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/peterson-andrea",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Peterson"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Andrea"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:02.669202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-07T18:09:06.572000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Andrea Peterson"
+    }
+  ]
 }

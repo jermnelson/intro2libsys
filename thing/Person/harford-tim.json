@@ -1,18 +1,45 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/", 
-    "loc": "http://www.loc.gov/standards/mads/"
-  }, 
-  "@id": "http://intro2libsys.info/Person/harford-tim", 
-  "@type": "Person", 
-  "familyName": "Harford", 
-  "givenName": "Tim", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/harford-tim",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Harford"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Tim"
+    }
+  ],
   "mads:recordInfo": {
-    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
-    "loc:languageOfCataloging": "English", 
-    "loc:recordCreationDate": "2014-04-13T20:24:12.713045"
-  }, 
-  "name": "Tim Harford", 
-  "url": "http://intro2libsys.info/Person/TimHarford"
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:02.490202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-04-13T20:24:12.713045"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Tim Harford"
+    }
+  ]
 }

@@ -1,22 +1,57 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/BlogPosting/ebooks-and-the-existential-crises-of-libraries", 
-  "@type": "BlogPosting", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/BlogPosting/ebooks-and-the-existential-crises-of-libraries",
+  "@type": "BlogPosting",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/williams-mita"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/williams-mita"
+      }
     }
-  ], 
-  "bf:adminInfo": {
-    "bf:creationDate": "2013-12-19T19:04:17.526000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "copyrightYear": 2011, 
-  "datePublished": "2011-03-12", 
-  "headline": "Ebooks and the existential crises of libraries", 
-  "url": "http://librarian.newjackalmanac.ca/2011/03/ebooks-and-existential-crises-of.html"
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2011
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2011-03-12"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Ebooks and the existential crises of libraries"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:44:01.975202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-19T19:04:17.526000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://librarian.newjackalmanac.ca/2011/03/ebooks-and-existential-crises-of.html"
+    }
+  ]
 }

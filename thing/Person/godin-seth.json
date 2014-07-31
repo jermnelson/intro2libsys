@@ -1,12 +1,45 @@
 {
- "@context": {
-    "@vocab": "http://schema.org/"
-  }, 
- "@type": "Person", 
- "@id": "http://intro2libsys.info/Person/godin-seth", 
- "familyName": "Godin", 
- "givenName": "Seth", 
- "name": "Seth Godin",
- "url": "http://intro2libsys.info/Person/SethGodin"
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/godin-seth",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Godin"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Seth"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:01.886702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Seth Godin"
+    }
+  ]
 }
-

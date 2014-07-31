@@ -1,23 +1,52 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/", 
-    "loc": "http://www.loc.gov/standards/mads/"
-  }, 
-  "@id": "http://intro2libsys.info/BlogPosting/walls-come-tumbling-down-presentation-slides-and-transcript", 
-  "@type": "BlogPosting", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/BlogPosting/walls-come-tumbling-down-presentation-slides-and-transcript",
+  "@type": "BlogPosting",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/clarke-andrew"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/clarke-andrew"
+      }
     }
-  ], 
-  "copyrightYear": 2009, 
-  "datePublished": "2009-06-28", 
-  "headline": "Walls Come Tumbling Down presentation slides and transcript", 
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2009
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2009-06-28"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Walls Come Tumbling Down presentation slides and transcript"
+    }
+  ],
   "mads:recordInfo": {
-    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
-    "loc:languageOfCataloging": "English", 
-    "loc:recordCreationDate": "2014-04-30T16:08:18.858441"
-  }, 
-  "url": "http://stuffandnonsense.co.uk/blog/about/walls_come_tumbling_down_presentation_slides_and_transcript/"
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-04-30T16:08:18.858441"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://stuffandnonsense.co.uk/blog/about/walls_come_tumbling_down_presentation_slides_and_transcript/"
+    }
+  ]
 }

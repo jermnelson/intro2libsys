@@ -1,30 +1,69 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/", 
-    "loc": "http://www.loc.gov/standards/mads/"
-  }, 
-  "@id": "http://intro2libsys.info/Article/engineering-the-public-big-data-surveillance-and-computational-politics", 
-  "@type": "ScholarlyArticle", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/engineering-the-public-big-data-surveillance-and-computational-politics",
+  "@type": "ScholarlyArticle",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/tufekci-zeynep"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/tufekci-zeynep"
+      }
     }
-  ], 
-  "copyrightYear": 2014, 
-  "datePublished": "2014-07-07", 
-  "headline": "Engineering the public: Big data, surveillance and computational politics", 
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2014
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2014-07-07"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Engineering the public: Big data, surveillance and computational politics"
+    }
+  ],
   "keywords": [
-    "Big Data", 
-    "Surveillance", 
-    "Public Sphere", 
-    "Political Campaigns", 
-    "Persuasive Communication"
-  ], 
+    {
+      "@value": "Big Data"
+    },
+    {
+      "@value": "Surveillance"
+    },
+    {
+      "@value": "Public Sphere"
+    },
+    {
+      "@value": "Political Campaigns"
+    },
+    {
+      "@value": "Persuasive Communication"
+    }
+  ],
   "mads:recordInfo": {
-    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
-    "loc:languageOfCataloging": "English", 
-    "loc:recordCreationDate": "2014-07-24T03:48:13.839000"
-  }, 
-  "url": "http://journals.uic.edu/ojs/index.php/fm/article/view/4901"
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-07-24T03:48:13.839000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://journals.uic.edu/ojs/index.php/fm/article/view/4901"
+    }
+  ]
 }

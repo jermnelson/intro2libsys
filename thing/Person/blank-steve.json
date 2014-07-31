@@ -1,17 +1,45 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Person/blank-steve", 
-  "@type": "Person", 
-  "bf:adminInfo": {
-    "bf:creationDate": "2014-01-29T16:17:02.083795", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "familyName": "Blank", 
-  "givenName": "Steve", 
-  "name": "Steve Blank", 
-  "url": "http://intro2libsys.info/Person/SteveBlank"
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/blank-steve",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Blank"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Steve"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:02.474202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-29T16:17:02.083795"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Steve Blank"
+    }
+  ]
 }

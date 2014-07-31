@@ -1,17 +1,58 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "idloc": "http://id.loc.gov"
-  }, 
-  "@id": "http://intro2libsys.info/Article/future-u-rise-dig-humanities", 
-  "@type": "TechArticle", 
+    "@vocab": "http://schema.org/",
+    "idloc": "http://id.loc.gov",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/future-u-rise-dig-humanities",
+  "@type": "TechArticle",
   "author": [
     {
-   "@id": "http://intro2libsys.info/Person/hopkins-curt"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/hopkins-curt"
+      }
     }
-  ], 
-  "copyrightYear": 2012,
-  "datePublished": "2012-06-17",
-  "headline": "Future U: Rise of the digital humanities", 
-  "url": "http://arstechnica.com/business/2012/06/future-u-rise-of-the-digital-humanities/"
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2012
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2012-06-17"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Future U: Rise of the digital humanities"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:07.874202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://arstechnica.com/business/2012/06/future-u-rise-of-the-digital-humanities/"
+    }
+  ]
 }

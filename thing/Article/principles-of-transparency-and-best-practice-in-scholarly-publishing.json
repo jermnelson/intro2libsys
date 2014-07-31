@@ -1,31 +1,78 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Article/principles-of-transparency-and-best-practice-in-scholarly-publishing", 
-  "@type": "Article", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/principles-of-transparency-and-best-practice-in-scholarly-publishing",
+  "@type": "Article",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/redhead-claire"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/redhead-claire"
+      }
     }
-  ], 
-  "bf:adminInfo": {
-    "bf:creationDate": "2013-12-20T18:42:54.985000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "copyrightYear": 2013, 
-  "datePublished": "2013-12-19", 
-  "headline": "Principles of Transparency and Best Practice in Scholarly Publishing", 
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2013-12-19"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Principles of Transparency and Best Practice in Scholarly Publishing"
+    }
+  ],
   "keywords": [
-    "open access", 
-    "transparency", 
-    "best practices", 
-    "scholarly publishing"
-  ], 
-  "publisher": {
-    "@id": "http://intro2libsys.info/Organization/oaspa.json"
-  }, 
-  "url": "http://oaspa.org/principles-of-transparency-and-best-practice-in-scholarly-publishing/"
+    {
+      "@value": "open access"
+    },
+    {
+      "@value": "transparency"
+    },
+    {
+      "@value": "best practices"
+    },
+    {
+      "@value": "scholarly publishing"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.111202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-20T18:42:54.985000"
+      }
+    ]
+  },
+  "publisher": [
+    {
+      "@value": {
+        "@id": "http://intro2libsys.info/Organization/oaspa.json"
+      }
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://oaspa.org/principles-of-transparency-and-best-practice-in-scholarly-publishing/"
+    }
+  ]
 }

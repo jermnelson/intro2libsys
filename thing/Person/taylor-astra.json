@@ -1,18 +1,45 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/", 
-    "loc": "http://www.loc.gov/standards/mads/"
-  }, 
-  "@id": "http://intro2libsys.info/Person/taylor-astra", 
-  "@type": "Person", 
-  "familyName": "Taylor", 
-  "givenName": "Astra", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/taylor-astra",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Taylor"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Astra"
+    }
+  ],
   "mads:recordInfo": {
-    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
-    "loc:languageOfCataloging": "English", 
-    "loc:recordCreationDate": "2014-05-14T12:54:33.738565"
-  }, 
-  "name": "Astra Taylor", 
-  "url": "http://intro2libsys.info/Person/AstraTaylor"
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:03.030202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-05-14T12:54:33.738565"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Astra Taylor"
+    }
+  ]
 }

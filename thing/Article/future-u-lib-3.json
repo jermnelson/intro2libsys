@@ -1,17 +1,58 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "idloc": "http://id.loc.gov"
-  }, 
-  "@id": "http://intro2libsys.info/Article/future-u-lib-3", 
-  "@type": "TechArticle", 
+    "@vocab": "http://schema.org/",
+    "idloc": "http://id.loc.gov",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/future-u-lib-3",
+  "@type": "TechArticle",
   "author": [
     {
-     "@id": "http://intro2libsys.info/Person/hopkins-curt"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/hopkins-curt"
+      }
     }
-  ], 
-  "copyrightYear": 2012,
-  "datePublished": "2012-05-20",
-  "headline": "Future U: Library 3.0 has more resources, greater challenges", 
-  "url": "http://arstechnica.com/business/2012/05/future-u-library-3-0-has-more-resources-greater-challenges/"
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2012
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2012-05-20"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Future U: Library 3.0 has more resources, greater challenges"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.058202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://arstechnica.com/business/2012/05/future-u-library-3-0-has-more-resources-greater-challenges/"
+    }
+  ]
 }

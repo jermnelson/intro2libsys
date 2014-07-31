@@ -1,18 +1,45 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/", 
-    "loc": "http://www.loc.gov/standards/mads/"
-  }, 
-  "@id": "http://intro2libsys.info/Person/singer-clark-tyler", 
-  "@type": "Person", 
-  "familyName": "Singer-Clark", 
-  "givenName": "Tyler", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/singer-clark-tyler",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Singer-Clark"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Tyler"
+    }
+  ],
   "mads:recordInfo": {
-    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
-    "loc:languageOfCataloging": "English", 
-    "loc:recordCreationDate": "2014-07-09T18:41:42.952563"
-  }, 
-  "name": "Tyler Singer-Clark", 
-  "url": "http://intro2libsys.info/Person/TylerSinger-Clark"
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:01.725202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-07-09T18:41:42.952563"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Tyler Singer-Clark"
+    }
+  ]
 }

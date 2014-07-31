@@ -1,18 +1,45 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/", 
-    "loc": "http://www.loc.gov/standards/mads/"
-  }, 
-  "@id": "http://intro2libsys.info/Person/lyon-havilah", 
-  "@type": "Person", 
-  "familyName": "Lyon", 
-  "givenName": "Havilah", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/lyon-havilah",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Lyon"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Havilah"
+    }
+  ],
   "mads:recordInfo": {
-    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
-    "loc:languageOfCataloging": "English", 
-    "loc:recordCreationDate": "2014-03-14T18:12:30.449000"
-  }, 
-  "name": "Havilah Lyon", 
-  "url": "http://intro2libsys.info/Person/HavilahLyon"
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:01.913202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-03-14T18:12:30.449000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Havilah Lyon"
+    }
+  ]
 }

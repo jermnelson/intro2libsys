@@ -1,11 +1,45 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/"
-  },  
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
   "@id": "http://intro2libsys.info/Person/nelson-jeremy",
-  "@type": "Person", 
-  "familyName": "Nelson", 
-  "givenName": "Jeremy", 
-  "name": "Jeremy Nelson",
-  "url": "http://intro2libsys.info/Person/JeremyNelson"
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Nelson"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Jeremy"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:02.656202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Jeremy Nelson"
+    }
+  ]
 }

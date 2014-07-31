@@ -1,19 +1,70 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/" 
-  }, 
-  "@id": "http://intro2libsys.info/Article/automation-marketplace-2013-rush-to-innovate", 
-  "@type": "TechArticle", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/automation-marketplace-2013-rush-to-innovate",
+  "@type": "TechArticle",
   "author": [
     {
-	  "@id": "http://intro2libsys.info/Person/breeding-marshall"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/breeding-marshall"
+      }
     }
-  ], 
-  "datePublished": "2013-04-02",
-  "keywords": ["ILS", "library automation", "library vendors"],
-  "headline": "Automation Marketplace 2013: The Rush to Innovate",
-  "publisher": {
-     "@id": "http://intro2libsys.info/Organization/digital-shift"
-  },    
-  "url": "http://www.thedigitalshift.com/2013/04/ils/automation-marketplace-2013-the-rush-to-innovate/"
+  ],
+  "datePublished": [
+    {
+      "@value": "2013-04-02"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Automation Marketplace 2013: The Rush to Innovate"
+    }
+  ],
+  "keywords": [
+    {
+      "@value": "ILS"
+    },
+    {
+      "@value": "library automation"
+    },
+    {
+      "@value": "library vendors"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:07.889702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "publisher": [
+    {
+      "@value": {
+        "@id": "http://intro2libsys.info/Organization/digital-shift"
+      }
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://www.thedigitalshift.com/2013/04/ils/automation-marketplace-2013-the-rush-to-innovate/"
+    }
+  ]
 }

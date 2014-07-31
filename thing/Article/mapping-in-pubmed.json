@@ -1,25 +1,62 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Article/mapping-in-pubmed", 
-  "@type": "ScholarlyArticle", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/mapping-in-pubmed",
+  "@type": "ScholarlyArticle",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/knecht-lou"
-    }, 
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/knecht-lou"
+      }
+    },
     {
-      "@id": "http://intro2libsys.info/Person/nelson-stuart"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/nelson-stuart"
+      }
     }
-  ], 
-  "bf:adminInfo": {
-    "bf:creationDate": "2014-02-12T03:53:08.786026", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "copyrightYear": 2002, 
-  "datePublished": "2002-10", 
-  "headline": "Mapping in PubMed", 
-  "url": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC128965/"
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2002
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2002-10"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Mapping in PubMed"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.091202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-02-12T03:53:08.786026"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC128965/"
+    }
+  ]
 }

@@ -1,25 +1,92 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
+    "@vocab": "http://schema.org/",
     "idloc": "http://id.loc.gov",
     "issue": null,
+    "mads": "http://www.loc.gov/standards/mads/",
     "pages": null,
     "volume": null
-  }, 
-  "@id": "http://intro2libsys.info/Article/avoiding-digital-dark-age", 
-  "@type": "ScholarlyArticle", 
+  },
+  "@id": "http://intro2libsys.info/Article/avoiding-digital-dark-age",
+  "@type": "ScholarlyArticle",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/bollacker-kurt"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/bollacker-kurt"
+      }
     }
-  ], 
-  "copyrightYear": 2010,
-  "datePublished": "March-April 2010",
-  "headline": "Avoiding a Digital Dark Age",
-  "issue": 2, 
-  "keywords": ["digital dark age", "digital preservation"],
-  "name": "American Scientist",
-  "pages": {"start": 106, "end": 106},
-  "url": "http://www.americanscientist.org/issues/pub/avoiding-a-digital-dark-age/",
-  "volume": 98
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2010
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "March-April 2010"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Avoiding a Digital Dark Age"
+    }
+  ],
+  "issue": [
+    {
+      "@value": 2
+    }
+  ],
+  "keywords": [
+    {
+      "@value": "digital dark age"
+    },
+    {
+      "@value": "digital preservation"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:07.843202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "American Scientist"
+    }
+  ],
+  "pages": [
+    {
+      "@value": {
+        "end": 106,
+        "start": 106
+      }
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://www.americanscientist.org/issues/pub/avoiding-a-digital-dark-age/"
+    }
+  ],
+  "volume": [
+    {
+      "@value": 98
+    }
+  ]
 }

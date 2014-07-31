@@ -1,17 +1,45 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Person/phipps-jon", 
-  "@type": "Person", 
-  "bf:adminInfo": {
-    "bf:creationDate": "2013-12-29T15:55:31.238217", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "familyName": "Phipps", 
-  "givenName": "Jon", 
-  "name": "Jon Phipps", 
-  "url": "http://intro2libsys.info/Person/JonPhipps"
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/phipps-jon",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Phipps"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Jon"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:01.692202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-29T15:55:31.238217"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Jon Phipps"
+    }
+  ]
 }

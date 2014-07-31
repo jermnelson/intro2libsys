@@ -1,16 +1,53 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "idloc": "http://id.loc.gov"
-  }, 
-  "@id": "http://intro2libsys.info/Article/mosques-libraries-islamic-civilization", 
-  "@type": "http://schema.org/ScholarlyArticle", 
+    "@vocab": "http://schema.org/",
+    "idloc": "http://id.loc.gov",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/mosques-libraries-islamic-civilization",
+  "@type": "http://schema.org/ScholarlyArticle",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/benaicha-hedi"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/benaicha-hedi"
+      }
     }
-  ], 
-  "copyrightYear": 1986,
-  "name": "Mosques as Libraries in Islamic Civilization, 700-1400 A.D.", 
-  "url": "http://www.jstor.org/stable/25541694"
+  ],
+  "copyrightYear": [
+    {
+      "@value": 1986
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.199702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Mosques as Libraries in Islamic Civilization, 700-1400 A.D."
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://www.jstor.org/stable/25541694"
+    }
+  ]
 }

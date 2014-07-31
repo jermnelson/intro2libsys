@@ -1,18 +1,45 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/", 
-    "loc": "http://www.loc.gov/standards/mads/"
-  }, 
-  "@id": "http://intro2libsys.info/Person/anderson-janna", 
-  "@type": "Person", 
-  "familyName": "Anderson", 
-  "givenName": "Janna", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/anderson-janna",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Anderson"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Janna"
+    }
+  ],
   "mads:recordInfo": {
-    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
-    "loc:languageOfCataloging": "English", 
-    "loc:recordCreationDate": "2014-06-03T16:47:12.404000"
-  }, 
-  "name": "Janna Anderson", 
-  "url": "http://intro2libsys.info/Person/JannaAnderson"
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:02.899202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-06-03T16:47:12.404000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Janna Anderson"
+    }
+  ]
 }

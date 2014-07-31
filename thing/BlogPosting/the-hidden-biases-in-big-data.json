@@ -1,23 +1,52 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/", 
-    "loc": "http://www.loc.gov/standards/mads/"
-  }, 
-  "@id": "http://intro2libsys.info/BlogPosting/the-hidden-biases-in-big-data", 
-  "@type": "BlogPosting", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/BlogPosting/the-hidden-biases-in-big-data",
+  "@type": "BlogPosting",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/crawford-kate"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/crawford-kate"
+      }
     }
-  ], 
-  "copyrightYear": 2013, 
-  "datePublished": "2013-04-01", 
-  "headline": "The Hidden Biases in Big Data", 
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2013-04-01"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "The Hidden Biases in Big Data"
+    }
+  ],
   "mads:recordInfo": {
-    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
-    "loc:languageOfCataloging": "English", 
-    "loc:recordCreationDate": "2014-06-10T13:24:45.437768"
-  }, 
-  "url": "http://intro2libsys.info/Article/the-end-of-theory-the-data-deluge-makes-the-scientific-method-obsolete"
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-06-10T13:24:45.437768"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://intro2libsys.info/Article/the-end-of-theory-the-data-deluge-makes-the-scientific-method-obsolete"
+    }
+  ]
 }

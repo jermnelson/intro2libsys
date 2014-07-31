@@ -1,19 +1,51 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/", 
-    "idloc": "http://id.loc.gov"
-  }, 
-  "@id": "http://intro2libsys.info/Person/kibre-pearl", 
-  "@type": "Person", 
-  "bf:adminInfo": {
-    "bf:creationDate": "2014-01-08T23:18:06.227000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "familyName": "Kibre", 
-  "givenName": "Pearl", 
-  "idloc:url": "http://id.loc.gov/authorities/names/n85174095", 
-  "name": "Pearl Kibre", 
-  "url": "http://intro2libsys.info/Person/PearlKibre"
+    "@vocab": "http://schema.org/",
+    "idloc": "http://id.loc.gov",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/kibre-pearl",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Kibre"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Pearl"
+    }
+  ],
+  "idloc:url": [
+    {
+      "@value": "http://id.loc.gov/authorities/names/n85174095"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:01.731702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-08T23:18:06.227000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Pearl Kibre"
+    }
+  ]
 }

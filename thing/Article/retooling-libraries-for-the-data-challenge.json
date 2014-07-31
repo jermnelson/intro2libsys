@@ -1,21 +1,69 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/"
-  }, 
-  "@id": "http://intro2libsys.info/Article/retooling-libraries-for-the-data-challenge", 
-  "@type": "ScholarlyArticle", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/retooling-libraries-for-the-data-challenge",
+  "@type": "ScholarlyArticle",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/salo-dorothea"
-     }
-  ], 
-  "copyrightYear": 2010, 
-  "datePublished": "2010-08", 
-  "headline": "Retooling libraries for the data challenge", 
-  "name": "retooling-libraries-for-the-data-challenge", 
-  "publisher": {
-    "@id": "http://intro2libsys.info/Organization/ariadne"
-  }, 
-  "url": "http://www.ariadne.ac.uk/issue64/salo/"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/salo-dorothea"
+      }
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2010
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2010-08"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Retooling libraries for the data challenge"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.319702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "retooling-libraries-for-the-data-challenge"
+    }
+  ],
+  "publisher": [
+    {
+      "@value": {
+        "@id": "http://intro2libsys.info/Organization/ariadne"
+      }
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://www.ariadne.ac.uk/issue64/salo/"
+    }
+  ]
 }

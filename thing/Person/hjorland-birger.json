@@ -1,17 +1,45 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Person/hjorland-birger", 
-  "@type": "Person", 
-  "bf:adminInfo": {
-    "bf:creationDate": "2014-03-03T19:07:59.430000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "familyName": "Hj\u00d8Rland", 
-  "givenName": "Birger", 
-  "name": "Birger Hj\u00d8Rland", 
-  "url": "http://intro2libsys.info/Person/BirgerHj\u00d8Rland"
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/hjorland-birger",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Hj\u00d8Rland"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Birger"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:01.972202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-03-03T19:07:59.430000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Birger Hj\u00d8Rland"
+    }
+  ]
 }

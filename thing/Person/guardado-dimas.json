@@ -1,18 +1,45 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/", 
-    "loc": "http://www.loc.gov/standards/mads/"
-  }, 
-  "@id": "http://intro2libsys.info/Person/guardado-dimas", 
-  "@type": "Person", 
-  "familyName": "Guardado", 
-  "givenName": "Dimas", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/guardado-dimas",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Guardado"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Dimas"
+    }
+  ],
   "mads:recordInfo": {
-    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
-    "loc:languageOfCataloging": "English", 
-    "loc:recordCreationDate": "2014-07-24T03:53:37.064000"
-  }, 
-  "name": "Dimas Guardado", 
-  "url": "http://intro2libsys.info/Person/DimasGuardado"
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:02.458202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-07-24T03:53:37.064000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Dimas Guardado"
+    }
+  ]
 }

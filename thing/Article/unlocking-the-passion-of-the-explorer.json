@@ -1,29 +1,72 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Article/unlocking-the-passion-of-the-explorer", 
-  "@type": "Article", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/unlocking-the-passion-of-the-explorer",
+  "@type": "Article",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/hagel-john"
-    }, 
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/hagel-john"
+      }
+    },
     {
-      "@id": "http://intro2libsys.info/Person/brown-john-seely"
-    }, 
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/brown-john-seely"
+      }
+    },
     {
-      "@id": "http://intro2libsys.info/Person/samoylova-tamara"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/samoylova-tamara"
+      }
     }
-  ], 
-  "bf:adminInfo": {
-    "bf:creationDate": "2014-01-09T22:18:30.999000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "copyrightYear": 2013, 
-  "datePublished": "2013-09-17",
-  "description": "By adopting new ways of working focused on eliciting and amplifying the passion of certain workers, organizations will benefit from the sustained performance improvement that these individuals create.", 
-  "headline": "Unlocking the passion of the Explorer", 
-  "url": "http://dupress.com/articles/unlocking-the-passion-of-the-explorer/"
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2013-09-17"
+    }
+  ],
+  "description": [
+    {
+      "@value": "By adopting new ways of working focused on eliciting and amplifying the passion of certain workers, organizations will benefit from the sustained performance improvement that these individuals create."
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Unlocking the passion of the Explorer"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:07.811202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-09T22:18:30.999000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://dupress.com/articles/unlocking-the-passion-of-the-explorer/"
+    }
+  ]
 }

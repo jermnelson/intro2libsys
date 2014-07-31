@@ -1,28 +1,63 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/", 
-    "loc": "http://www.loc.gov/standards/mads/"
-  }, 
-  "@id": "http://intro2libsys.info/BlogPosting/full-library-discovery", 
-  "@type": "BlogPosting", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/BlogPosting/full-library-discovery",
+  "@type": "BlogPosting",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/dempsey-lorcan"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/dempsey-lorcan"
+      }
     }
-  ], 
-  "copyrightYear": 2013, 
-  "datePublished": "2013-09-15", 
-  "headline": "Full library discovery", 
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2013-09-15"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Full library discovery"
+    }
+  ],
   "keywords": [
-    "Search", 
-    "User experience", 
-    "Websites: design and role\t"
-  ], 
+    {
+      "@value": "Search"
+    },
+    {
+      "@value": "User experience"
+    },
+    {
+      "@value": "Websites: design and role\t"
+    }
+  ],
   "mads:recordInfo": {
-    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
-    "loc:languageOfCataloging": "English", 
-    "loc:recordCreationDate": "2014-04-25T15:04:20.222407"
-  }, 
-  "url": "http://orweblog.oclc.org/archives/002214.html"
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-04-25T15:04:20.222407"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://orweblog.oclc.org/archives/002214.html"
+    }
+  ]
 }

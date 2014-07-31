@@ -325,7 +325,7 @@ def update_entity(entity):
             if key.startswith("loc:"):
                 value = entity['mads:recordInfo'].pop(key)
                 entity['mads:recordInfo'][key.replace("loc:", "mads:")] = \
-                    value
+                    [{"@value": value}]
 
     if 'bf:adminInfo' in entity:
         bf_adminInfo = entity.pop('bf:adminInfo')
@@ -339,7 +339,7 @@ def update_entity(entity):
         if not key.startswith("@") and not key.startswith("mads:"):
             if type(value) != list:
                 entity[key] = [{"@value": value}]
-            elif type(value[0]) == dict:
+            elif type(value) == dict:
                 continue
             else:
                 new_list = []

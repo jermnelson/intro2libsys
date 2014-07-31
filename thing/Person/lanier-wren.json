@@ -1,18 +1,45 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/", 
-    "loc": "http://www.loc.gov/standards/mads/"
-  }, 
-  "@id": "http://intro2libsys.info/Person/lanier-wren", 
-  "@type": "Person", 
-  "familyName": "Lanier", 
-  "givenName": "Wren", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/lanier-wren",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Lanier"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Wren"
+    }
+  ],
   "mads:recordInfo": {
-    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
-    "loc:languageOfCataloging": "English", 
-    "loc:recordCreationDate": "2014-04-08T18:58:04.439416"
-  }, 
-  "name": "Wren Lanier", 
-  "url": "http://intro2libsys.info/Person/WrenLanier"
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:01.980202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-04-08T18:58:04.439416"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Wren Lanier"
+    }
+  ]
 }

@@ -1,22 +1,57 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/BlogPosting/self-publishing-truism-bingo", 
-  "@type": "BlogPosting", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/BlogPosting/self-publishing-truism-bingo",
+  "@type": "BlogPosting",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/wendig-chuck"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/wendig-chuck"
+      }
     }
-  ], 
-  "bf:adminInfo": {
-    "bf:creationDate": "2014-02-20T03:44:43.656000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "copyrightYear": 2014, 
-  "datePublished": "2014-02-16", 
-  "headline": "SELF-PUBLISHING TRUISM BINGO", 
-  "url": "http://terribleminds.com/ramble/2014/02/16/self-publishing-truism-bingo/"
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2014
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2014-02-16"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "SELF-PUBLISHING TRUISM BINGO"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:44:01.976702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-02-20T03:44:43.656000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://terribleminds.com/ramble/2014/02/16/self-publishing-truism-bingo/"
+    }
+  ]
 }

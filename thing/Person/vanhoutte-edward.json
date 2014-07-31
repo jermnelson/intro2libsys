@@ -1,17 +1,45 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Person/vanhoutte-edward", 
-  "@type": "Person", 
-  "bf:adminInfo": {
-    "bf:creationDate": "2014-01-09T01:14:12.973000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "familyName": "Vanhoutte", 
-  "givenName": "Edward", 
-  "name": "Edward Vanhoutte", 
-  "url": "http://intro2libsys.info/Person/EdwardVanhoutte"
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/vanhoutte-edward",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Vanhoutte"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Edward"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:01.655202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-09T01:14:12.973000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Edward Vanhoutte"
+    }
+  ]
 }

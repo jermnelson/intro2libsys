@@ -1,21 +1,52 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Article/stop-the-presses-is-the-monograph-headed-toward-an-e-only-future", 
-  "@type": "ScholarlyArticle", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/stop-the-presses-is-the-monograph-headed-toward-an-e-only-future",
+  "@type": "ScholarlyArticle",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/schonfeld-roger"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/schonfeld-roger"
+      }
     }
-  ], 
-  "bf:adminInfo": {
-    "bf:creationDate": "2014-01-08T21:36:15.363000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "copyrightYear": 2013, 
-  "headline": "Stop The Presses: Is the Monograph Headed Toward an E-Only Future?", 
-  "url": "http://www.sr.ithaka.org/sites/all/modules/contrib/pubdlcnt/pubdlcnt.php?file=http://www.sr.ithaka.org/sites/default/files/files/SR_BriefingPaper_Presses_120913.pdf&nid=697"
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Stop The Presses: Is the Monograph Headed Toward an E-Only Future?"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.234702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-08T21:36:15.363000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.sr.ithaka.org/sites/all/modules/contrib/pubdlcnt/pubdlcnt.php?file=http://www.sr.ithaka.org/sites/default/files/files/SR_BriefingPaper_Presses_120913.pdf&nid=697"
+    }
+  ]
 }

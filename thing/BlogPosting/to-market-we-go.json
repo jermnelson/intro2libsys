@@ -1,25 +1,62 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/BlogPosting/to-market-we-go", 
-  "@type": "BlogPosting", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/BlogPosting/to-market-we-go",
+  "@type": "BlogPosting",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/covitz-akiba"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/covitz-akiba"
+      }
     }
-  ], 
-  "bf:adminInfo": {
-    "bf:creationDate": "2013-12-20T19:06:48.626000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "copyrightYear": 2013, 
-  "datePublished": "2013-12-13", 
-  "headline": "To Market We Go", 
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2013-12-13"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "To Market We Go"
+    }
+  ],
   "keywords": [
-    "MOOCs"
-  ], 
-  "url": "http://www.insidehighered.com/blogs/higher-ed-beta/market-we-go-1"
+    {
+      "@value": "MOOCs"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:44:01.977702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-20T19:06:48.626000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.insidehighered.com/blogs/higher-ed-beta/market-we-go-1"
+    }
+  ]
 }

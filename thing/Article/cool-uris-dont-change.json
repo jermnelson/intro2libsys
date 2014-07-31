@@ -1,21 +1,52 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Article/cool-uris-dont-change", 
-  "@type": "Article", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/cool-uris-dont-change",
+  "@type": "Article",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/berners-lee-tim"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/berners-lee-tim"
+      }
     }
-  ], 
-  "bf:adminInfo": {
-    "bf:creationDate": "2014-03-10T22:19:04.309000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "copyrightYear": 1992, 
-  "headline": "Cool URIs don't change", 
-  "url": "http://www.w3.org/Provider/Style/URI.html"
+  ],
+  "copyrightYear": [
+    {
+      "@value": 1992
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Cool URIs don't change"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.322202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-03-10T22:19:04.309000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.w3.org/Provider/Style/URI.html"
+    }
+  ]
 }

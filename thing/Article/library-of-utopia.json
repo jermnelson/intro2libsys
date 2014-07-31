@@ -1,18 +1,63 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "idloc": "http://id.loc.gov"
-  }, 
-  "@id": "http://intro2libsys.info/Article/library-of-utopia", 
-  "@type": "TechArticle", 
+    "@vocab": "http://schema.org/",
+    "idloc": "http://id.loc.gov",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/library-of-utopia",
+  "@type": "TechArticle",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/carr-nicholas"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/carr-nicholas"
+      }
     }
-  ], 
-  "copyrightDate": 2012,
-  "datePublished": "2012-04-25",
-  "description": "Google's ambitious book-scanning program is foundering in the courts. Now a Harvard-led group is launching its own sweeping effort to put our literary heritage online. Will the Ivy League succeed where Silicon Valley failed?", 
-  "headline": "The Library of Utopia", 
-  "url": "http://www.technologyreview.com/featured-story/427628/the-library-of-utopia/"
+  ],
+  "copyrightDate": [
+    {
+      "@value": 2012
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2012-04-25"
+    }
+  ],
+  "description": [
+    {
+      "@value": "Google's ambitious book-scanning program is foundering in the courts. Now a Harvard-led group is launching its own sweeping effort to put our literary heritage online. Will the Ivy League succeed where Silicon Valley failed?"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "The Library of Utopia"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:07.915702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.technologyreview.com/featured-story/427628/the-library-of-utopia/"
+    }
+  ]
 }

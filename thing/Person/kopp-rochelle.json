@@ -1,18 +1,45 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/", 
-    "loc": "http://www.loc.gov/standards/mads/"
-  }, 
-  "@id": "http://intro2libsys.info/Person/kopp-rochelle", 
-  "@type": "Person", 
-  "familyName": "Kopp", 
-  "givenName": "Rochelle", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/kopp-rochelle",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Kopp"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Rochelle"
+    }
+  ],
   "mads:recordInfo": {
-    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
-    "loc:languageOfCataloging": "English", 
-    "loc:recordCreationDate": "2014-05-20T16:33:01.597637"
-  }, 
-  "name": "Rochelle Kopp", 
-  "url": "http://intro2libsys.info/Person/RochelleKopp"
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:02.944702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-05-20T16:33:01.597637"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Rochelle Kopp"
+    }
+  ]
 }

@@ -1,18 +1,45 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/", 
-    "loc": "http://www.loc.gov/standards/mads/"
-  }, 
-  "@id": "http://intro2libsys.info/Person/schrimpf-sabine", 
-  "@type": "Person", 
-  "familyName": "Schrimpf", 
-  "givenName": "Sabine", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/schrimpf-sabine",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Schrimpf"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Sabine"
+    }
+  ],
   "mads:recordInfo": {
-    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
-    "loc:languageOfCataloging": "English", 
-    "loc:recordCreationDate": "2014-03-20T13:24:18.914554"
-  }, 
-  "name": "Sabine Schrimpf", 
-  "url": "http://intro2libsys.info/Person/SabineSchrimpf"
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:02.526202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-03-20T13:24:18.914554"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Sabine Schrimpf"
+    }
+  ]
 }

@@ -1,22 +1,58 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Person/furrie-betty", 
-  "@type": "Person", 
-  "bf:adminInfo": {
-    "bf:creationDate": "2013-12-31T21:19:38.356375", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "bf:authorizedAccessPoint": "Furrie, Betty", 
-  "bf:lccn": {
-    "bf:identifierAssigner": "http://id.loc.gov/authorities/names", 
-    "bf:identifierValue": "no92020283"
-  }, 
-  "familyName": "Furrie", 
-  "givenName": "Betty", 
-  "name": "Betty Furrie", 
-  "url": "http://intro2libsys.info/Person/NoneFurrie"
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/furrie-betty",
+  "@type": "Person",
+  "bf:authorizedAccessPoint": [
+    {
+      "@value": "Furrie, Betty"
+    }
+  ],
+  "bf:lccn": [
+    {
+      "@value": {
+        "bf:identifierAssigner": "http://id.loc.gov/authorities/names",
+        "bf:identifierValue": "no92020283"
+      }
+    }
+  ],
+  "familyName": [
+    {
+      "@value": "Furrie"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Betty"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:02.912702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-31T21:19:38.356375"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Betty Furrie"
+    }
+  ]
 }

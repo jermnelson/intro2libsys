@@ -1,17 +1,58 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "idloc": "http://id.loc.gov"
-  }, 
-  "@id": "http://intro2libsys.info/BlogPosting/how-world-warcraft-save-business-economy", 
-  "@type": "BlogPosting", 
+    "@vocab": "http://schema.org/",
+    "idloc": "http://id.loc.gov",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/BlogPosting/how-world-warcraft-save-business-economy",
+  "@type": "BlogPosting",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/gots-jason"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/gots-jason"
+      }
     }
-  ], 
-  "copyrightYear": 2012, 
-  "datePublished": "2012-08-07", 
-  "headline": "How World of Warcraft Could Save Your Business and The Economy", 
-  "url": "http://bigthink.com/think-tank/how-world-of-warcraft-could-save-your-business-and-the-economy"
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2012
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2012-08-07"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "How World of Warcraft Could Save Your Business and The Economy"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:44:01.975202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://bigthink.com/think-tank/how-world-of-warcraft-could-save-your-business-and-the-economy"
+    }
+  ]
 }

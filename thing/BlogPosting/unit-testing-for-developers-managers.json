@@ -1,14 +1,47 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/"
-  }, 
-  "@id": "http://intro2libsys.info/BlogPosting/unit-testing-for-developers-managers", 
-  "@type": "BlogPosting", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/BlogPosting/unit-testing-for-developers-managers",
+  "@type": "BlogPosting",
   "authors": [
     {
-      "@id": "http://intro2libsys.info/Person/dahan-udi"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/dahan-udi"
+      }
     }
-  ], 
-  "headline": "Unit Testing for Developers and Managers", 
-  "url": "http://www.udidahan.com/2008/09/30/unit-testing-for-developers-and-managers/"
+  ],
+  "headline": [
+    {
+      "@value": "Unit Testing for Developers and Managers"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:44:01.977202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.udidahan.com/2008/09/30/unit-testing-for-developers-and-managers/"
+    }
+  ]
 }

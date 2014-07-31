@@ -1,7 +1,6 @@
 {
   "@context": {
     "@vocab": "http://schema.org/",
-    "bf": "http://bibframe.org/vocab/",
     "mads": "http://www.loc.gov/standards/mads/"
   },
   "@id": "http://intro2libsys.info/Person/losse-kate",
@@ -31,6 +30,11 @@
         "@value": "English"
       }
     ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:02.881202"
+      }
+    ],
     "mads:recordCreationDate": [
       {
         "@value": "2014-07-30T15:21:09.180975"
@@ -40,11 +44,6 @@
   "name": [
     {
       "@value": "Kate Losse"
-    }
-  ],
-  "url": [
-    {
-      "@value": "http://intro2libsys.info/Person/losse-kate"
     }
   ]
 }

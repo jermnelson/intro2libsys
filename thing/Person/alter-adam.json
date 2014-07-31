@@ -1,17 +1,45 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Person/alter-adam", 
-  "@type": "Person", 
-  "bf:adminInfo": {
-    "bf:creationDate": "2014-02-26T13:02:06.212624", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "familyName": "Alter", 
-  "givenName": "Adam", 
-  "name": "Adam Alter", 
-  "url": "http://intro2libsys.info/Person/AdamAlter"
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/alter-adam",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Alter"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Adam"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:01.661202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-02-26T13:02:06.212624"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Adam Alter"
+    }
+  ]
 }

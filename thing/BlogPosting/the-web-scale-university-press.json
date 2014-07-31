@@ -1,35 +1,108 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/"
-  }, 
-  "@id": "http://intro2libsys.info/BlogPosting/the-web-scale-university-press", 
-  "@type": "BlogPosting", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/BlogPosting/the-web-scale-university-press",
+  "@type": "BlogPosting",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/esposito-joseph"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/esposito-joseph"
+      }
     }
-  ], 
-  "copyrightYear": 2013, 
-  "datePublished": "2013-11-07", 
-  "headline": "The Web-scale University Press", 
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2013-11-07"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "The Web-scale University Press"
+    }
+  ],
   "keywords": [
-    "ALA", 
-    "Beatles", 
-    "ePub", 
-    "Facebook", 
-    "Google Plus", 
-    "HTML", 
-    "New York Times", 
-    "Open Access", 
-    "PDF", 
-    "POD", 
-    "Project MUSE", 
-    "Shana Kimball", 
-    "SMS", 
-    "Twitter"
-  ], 
-  "publisher": {
-    "@id": "http://intro2libsys.info/Organization/scholarly-kitchen"
-  }, 
-  "url": "http://scholarlykitchen.sspnet.org/2013/11/07/the-web-scale-university-press/"
+    {
+      "@value": "ALA"
+    },
+    {
+      "@value": "Beatles"
+    },
+    {
+      "@value": "ePub"
+    },
+    {
+      "@value": "Facebook"
+    },
+    {
+      "@value": "Google Plus"
+    },
+    {
+      "@value": "HTML"
+    },
+    {
+      "@value": "New York Times"
+    },
+    {
+      "@value": "Open Access"
+    },
+    {
+      "@value": "PDF"
+    },
+    {
+      "@value": "POD"
+    },
+    {
+      "@value": "Project MUSE"
+    },
+    {
+      "@value": "Shana Kimball"
+    },
+    {
+      "@value": "SMS"
+    },
+    {
+      "@value": "Twitter"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:44:01.975202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "publisher": [
+    {
+      "@value": {
+        "@id": "http://intro2libsys.info/Organization/scholarly-kitchen"
+      }
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://scholarlykitchen.sspnet.org/2013/11/07/the-web-scale-university-press/"
+    }
+  ]
 }

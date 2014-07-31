@@ -1,21 +1,52 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Article/why-cards-are-the-future-of-the-web", 
-  "@type": "Article", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/why-cards-are-the-future-of-the-web",
+  "@type": "Article",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/adams-paul"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/adams-paul"
+      }
     }
-  ], 
-  "bf:adminInfo": {
-    "bf:creationDate": "2014-01-08T21:53:42.773000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "copyrightYear": 2013, 
-  "headline": "Why cards are the future of the web", 
-  "url": "http://insideintercom.io/why-cards-are-the-future-of-the-web/"
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Why cards are the future of the web"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.071702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-08T21:53:42.773000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://insideintercom.io/why-cards-are-the-future-of-the-web/"
+    }
+  ]
 }

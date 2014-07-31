@@ -1,22 +1,57 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Article/your-body-does-not-want-to-be-an-interface", 
-  "@type": "Article", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/your-body-does-not-want-to-be-an-interface",
+  "@type": "Article",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/pavlus-john"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/pavlus-john"
+      }
     }
-  ], 
-  "bf:adminInfo": {
-    "bf:creationDate": "2014-03-03T17:49:01.495000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "copyrightYear": 2013, 
-  "datePublished": "2013-04-24", 
-  "headline": "Your Body Does Not Want to Be an Interface", 
-  "url": "http://www.technologyreview.com/view/514136/your-body-does-not-want-to-be-an-interface/"
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2013-04-24"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Your Body Does Not Want to Be an Interface"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.146702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-03-03T17:49:01.495000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.technologyreview.com/view/514136/your-body-does-not-want-to-be-an-interface/"
+    }
+  ]
 }

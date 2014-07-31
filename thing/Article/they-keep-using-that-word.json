@@ -1,18 +1,67 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/" 
-  }, 
-  "@id": "http://intro2libsys.info/Article/they-keep-using-that-word", 
-  "@type": "Article", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/they-keep-using-that-word",
+  "@type": "Article",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/sleight-david"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/sleight-david"
+      }
     }
-  ], 
-  "copyrightYear": 2013,
-  "dateCreated": "2013-07-11T17:46:06.094000", 
-  "datePublished": "2013-03-14", 
-  "headline": "They Keep Using That Word", 
-  "name": "A List Apart", 
-  "url": "http://alistapart.com/column/they-keep-using-that-word"
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "dateCreated": [
+    {
+      "@value": "2013-07-11T17:46:06.094000"
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2013-03-14"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "They Keep Using That Word"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.250702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "A List Apart"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://alistapart.com/column/they-keep-using-that-word"
+    }
+  ]
 }

@@ -1,18 +1,50 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Person/robinson-henry", 
-  "@type": "Person", 
-  "bf:adminInfo": {
-    "bf:creationDate": "2013-12-19T19:24:41.809000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "email": "henry.robinson@gmail.com", 
-  "familyName": "Robinson", 
-  "givenName": "Henry", 
-  "name": "Henry Robinson", 
-  "url": "http://intro2libsys.info/Person/HenryRobinson"
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/robinson-henry",
+  "@type": "Person",
+  "email": [
+    {
+      "@value": "henry.robinson@gmail.com"
+    }
+  ],
+  "familyName": [
+    {
+      "@value": "Robinson"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Henry"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:02.961202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-19T19:24:41.809000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Henry Robinson"
+    }
+  ]
 }

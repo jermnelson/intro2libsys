@@ -1,17 +1,45 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Person/turchin-peter", 
-  "@type": "Person", 
-  "bf:adminInfo": {
-    "bf:creationDate": "2014-02-04T00:14:20.737000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "familyName": "Turchin", 
-  "givenName": "Peter", 
-  "name": "Peter Turchin", 
-  "url": "http://intro2libsys.info/Person/PeterTurchin"
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/turchin-peter",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Turchin"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Peter"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:02.001202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-02-04T00:14:20.737000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Peter Turchin"
+    }
+  ]
 }

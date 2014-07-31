@@ -1,23 +1,52 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/", 
-    "loc": "http://www.loc.gov/standards/mads/"
-  }, 
-  "@id": "http://intro2libsys.info/BlogPosting/why-marketers-fear-the-female-geek", 
-  "@type": "BlogPosting", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/BlogPosting/why-marketers-fear-the-female-geek",
+  "@type": "BlogPosting",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/anhut-anjin"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/anhut-anjin"
+      }
     }
-  ], 
-  "copyrightYear": 2013, 
-  "datePublished": "2013-12-21", 
-  "headline": "Why Marketers Fear The Female Geek", 
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2013-12-21"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Why Marketers Fear The Female Geek"
+    }
+  ],
   "mads:recordInfo": {
-    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
-    "loc:languageOfCataloging": "English", 
-    "loc:recordCreationDate": "2014-03-20T14:52:57.374426"
-  }, 
-  "url": "http://howtonotsuckatgamedesign.com/2013/12/marketers-fear-female-geek-2/"
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-03-20T14:52:57.374426"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://howtonotsuckatgamedesign.com/2013/12/marketers-fear-female-geek-2/"
+    }
+  ]
 }

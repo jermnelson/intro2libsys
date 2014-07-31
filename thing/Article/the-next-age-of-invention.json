@@ -1,23 +1,52 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/", 
-    "loc": "http://www.loc.gov/standards/mads/"
-  }, 
-  "@id": "http://intro2libsys.info/Article/the-next-age-of-invention", 
-  "@type": "Article", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/the-next-age-of-invention",
+  "@type": "Article",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/mokyr-joel"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/mokyr-joel"
+      }
     }
-  ], 
-  "copyrightYear": 2014, 
-  "datePublished": "2014-winter", 
-  "headline": "The Next Age of Invention", 
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2014
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2014-winter"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "The Next Age of Invention"
+    }
+  ],
   "mads:recordInfo": {
-    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
-    "loc:languageOfCataloging": "English", 
-    "loc:recordCreationDate": "2014-05-12T16:12:53.043697"
-  }, 
-  "url": "http://www.city-journal.org/2014/24_1_invention.html"
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-05-12T16:12:53.043697"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.city-journal.org/2014/24_1_invention.html"
+    }
+  ]
 }

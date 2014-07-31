@@ -1,15 +1,57 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab"
-  }, 
-  "@type": "Article", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
   "@id": "http://intro2libsys.info/Article/bibframe-annotation-model",
-  "copyrightYear": 2013, 
-  "datePublished": "2013-08-26", 
-  "headline": "BIBFRAME Annotation Model", 
-  "publisher": {
-    "@id": "http://intro2libsys.info/Organization/library-of-congress" 
-  }, 
-  "url": "http://bibframe.org/documentation/annotations/"
+  "@type": "Article",
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2013-08-26"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "BIBFRAME Annotation Model"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.232202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "publisher": [
+    {
+      "@value": {
+        "@id": "http://intro2libsys.info/Organization/library-of-congress"
+      }
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://bibframe.org/documentation/annotations/"
+    }
+  ]
 }

@@ -1,20 +1,63 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/"
-  }, 
-  "@type": "Article", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/a-very-brief-introduction-to-open-access",
+  "@type": "Article",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/suber-peter"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/suber-peter"
+      }
     }
-  ], 
-  "copyrightYear": 2004, 
-  "headline": "A Very Brief Introduction to Open Access", 
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2004
+    }
+  ],
+  "headline": [
+    {
+      "@value": "A Very Brief Introduction to Open Access"
+    }
+  ],
   "keywords": [
-    "open access", 
-    "journals", 
-    "publishing"
-  ], 
-  "@id": "http://intro2libsys.info/Article/a-very-brief-introduction-to-open-access", 
-  "url": "http://legacy.earlham.edu/~peters/fos/brief.htm"
+    {
+      "@value": "open access"
+    },
+    {
+      "@value": "journals"
+    },
+    {
+      "@value": "publishing"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:07.947202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://legacy.earlham.edu/~peters/fos/brief.htm"
+    }
+  ]
 }

@@ -1,17 +1,45 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Person/isaacson-david", 
-  "@type": "Person", 
-  "bf:adminInfo": {
-    "bf:creationDate": "2013-12-18T16:34:04.168000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "familyName": "Isaacson", 
-  "givenName": "David", 
-  "name": "David Isaacson", 
-  "url": "http://intro2libsys.info/Person/DavidIsaacson"
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/isaacson-david",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Isaacson"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "David"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:01.573202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-18T16:34:04.168000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "David Isaacson"
+    }
+  ]
 }

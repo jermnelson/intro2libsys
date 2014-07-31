@@ -1,26 +1,77 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/"
-  }, 
-  "@id": "http://intro2libsys.info/Article/as-we-may-think", 
-  "@type": "NewsArticle", 
-  "bf:adminInfo": {
-    "bf:creationDate": "2013-12-17T23:55:33.317000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  },   
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/as-we-may-think",
+  "@type": "NewsArticle",
   "author": [
     {
-	  "@id": "http://intro2libsys.info/Person/bush-vannevar"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/bush-vannevar"
+      }
     }
-  ], 
-  "copyrightYear": 1945,
-  "datePublished": "1945-07-01",
-  "keywords": ["memex", "Vannevar Bush"],
-  "name": "The Atlantic Magazine", 
-  "headline": "As We May Think",
-  "publisher": {
-    "@id": "http://intro2libsys.info/Organization/atlantic-monthly-group"
+  ],
+  "copyrightYear": [
+    {
+      "@value": 1945
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "1945-07-01"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "As We May Think"
+    }
+  ],
+  "keywords": [
+    {
+      "@value": "memex"
+    },
+    {
+      "@value": "Vannevar Bush"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.348702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-17T23:55:33.317000"
+      }
+    ]
   },
-  "url": "http://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/"
+  "name": [
+    {
+      "@value": "The Atlantic Magazine"
+    }
+  ],
+  "publisher": [
+    {
+      "@value": {
+        "@id": "http://intro2libsys.info/Organization/atlantic-monthly-group"
+      }
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/"
+    }
+  ]
 }

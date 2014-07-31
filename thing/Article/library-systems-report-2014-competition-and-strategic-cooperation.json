@@ -1,23 +1,52 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/", 
-    "loc": "http://www.loc.gov/standards/mads/"
-  }, 
-  "@id": "http://intro2libsys.info/Article/library-systems-report-2014-competition-and-strategic-cooperation", 
-  "@type": "Article", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/library-systems-report-2014-competition-and-strategic-cooperation",
+  "@type": "Article",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/breeding-marshall"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/breeding-marshall"
+      }
     }
-  ], 
-  "copyrightYear": 2014, 
-  "datePublished": "2014-04-15", 
-  "headline": "Library Systems Report 2014: Competition and strategic cooperation", 
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2014
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2014-04-15"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Library Systems Report 2014: Competition and strategic cooperation"
+    }
+  ],
   "mads:recordInfo": {
-    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
-    "loc:languageOfCataloging": "English", 
-    "loc:recordCreationDate": "2014-05-05T22:55:16.935000"
-  }, 
-  "url": "http://www.americanlibrariesmagazine.org/article/library-systems-report-2014"
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-05-05T22:55:16.935000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.americanlibrariesmagazine.org/article/library-systems-report-2014"
+    }
+  ]
 }

@@ -1,23 +1,62 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Article/data-science-is-dead", 
-  "@type": "Article", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/data-science-is-dead",
+  "@type": "Article",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/matsumura-miko"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/matsumura-miko"
+      }
     }
-  ], 
-  "bf:adminInfo": {
-    "bf:creationDate": "2014-03-06T04:44:28.301000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "copyrightYear": 2014, 
-  "datePublished": "2014-03-05", 
-  "description": "Not only is Data Science not a science, it\u2019s not even a good job prospect.", 
-  "headline": "Data Science Is Dead", 
-  "url": "http://slashdot.org/topic/bi/data-science-is-dead/"
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2014
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2014-03-05"
+    }
+  ],
+  "description": [
+    {
+      "@value": "Not only is Data Science not a science, it\u2019s not even a good job prospect."
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Data Science Is Dead"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.026202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-03-06T04:44:28.301000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://slashdot.org/topic/bi/data-science-is-dead/"
+    }
+  ]
 }

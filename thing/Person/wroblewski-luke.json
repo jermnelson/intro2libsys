@@ -1,17 +1,45 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Person/wroblewski-luke", 
-  "@type": "Person", 
-  "bf:adminInfo": {
-    "bf:creationDate": "2013-12-29T22:03:09.185440", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "familyName": "Wroblewski", 
-  "givenName": "Luke", 
-  "name": "Luke Wroblewski", 
-  "url": "http://intro2libsys.info/Person/LukeWroblewski"
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/wroblewski-luke",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Wroblewski"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Luke"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:01.991702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-29T22:03:09.185440"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Luke Wroblewski"
+    }
+  ]
 }

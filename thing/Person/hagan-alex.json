@@ -1,18 +1,45 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/", 
-    "loc": "http://www.loc.gov/standards/mads/"
-  }, 
-  "@id": "http://intro2libsys.info/Person/hagan-alex", 
-  "@type": "Person", 
-  "familyName": "Hagan", 
-  "givenName": "Alex", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/hagan-alex",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Hagan"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Alex"
+    }
+  ],
   "mads:recordInfo": {
-    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
-    "loc:languageOfCataloging": "English", 
-    "loc:recordCreationDate": "2014-06-02T20:30:48.940795"
-  }, 
-  "name": "Alex Hagan", 
-  "url": "http://intro2libsys.info/Person/AlexHagan"
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:01.576202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-06-02T20:30:48.940795"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Alex Hagan"
+    }
+  ]
 }

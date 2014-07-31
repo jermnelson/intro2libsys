@@ -1,32 +1,83 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/BlogPosting/librarianship-how-to-solve-our-existential-crisis", 
-  "@type": "BlogPosting", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/BlogPosting/librarianship-how-to-solve-our-existential-crisis",
+  "@type": "BlogPosting",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/steeleworthy-michael"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/steeleworthy-michael"
+      }
     }
-  ], 
-  "bf:adminInfo": {
-    "bf:creationDate": "2013-12-19T18:54:06.711000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "copyrightYear": 2010, 
-  "datePublished": "2010-05-20", 
-  "headline": "Librarianship: How to solve our existential crisis", 
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2010
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2010-05-20"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Librarianship: How to solve our existential crisis"
+    }
+  ],
   "keywords": [
-    "Ethics", 
-    "Information Profession", 
-    "Information Society", 
-    "LibrarianshipCBC", 
-    "communities", 
-    "culture", 
-    "Jian Ghomeshi", 
-    "professionalism"
-  ], 
-  "url": "http://librariesetc.wordpress.com/2010/05/20/whats-a-librarian/"
+    {
+      "@value": "Ethics"
+    },
+    {
+      "@value": "Information Profession"
+    },
+    {
+      "@value": "Information Society"
+    },
+    {
+      "@value": "LibrarianshipCBC"
+    },
+    {
+      "@value": "communities"
+    },
+    {
+      "@value": "culture"
+    },
+    {
+      "@value": "Jian Ghomeshi"
+    },
+    {
+      "@value": "professionalism"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:44:01.977202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-19T18:54:06.711000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://librariesetc.wordpress.com/2010/05/20/whats-a-librarian/"
+    }
+  ]
 }
