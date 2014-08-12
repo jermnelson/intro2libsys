@@ -7,9 +7,7 @@
   "@type": "TechArticle",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/winer-dave"
-      }
+      "@id": "http://intro2libsys.info/Person/winer-dave"
     }
   ],
   "datePublished": [

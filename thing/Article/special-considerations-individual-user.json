@@ -8,9 +8,7 @@
   "@type": "ScholarlyArticle",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/engelbart-douglas"
-      }
+      "@id": "http://intro2libsys.info/Person/engelbart-douglas"
     }
   ],
   "headline": [

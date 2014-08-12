@@ -7,14 +7,10 @@
   "@type": "Article",
   "author": [
     {
-      "@value": {
         "@id": "http://intro2libsys.info/Person/graf-roman"
-      }
     },
     {
-      "@value": {
         "@id": "http://intro2libsys.info/Person/gordea-sergiu"
-      }
     }
   ],
   "copyrightYear": [

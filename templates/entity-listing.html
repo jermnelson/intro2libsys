@@ -20,11 +20,11 @@
      <ul>
        <li>
        <a href="{{ h['@id']|local_url }}">
-       {% if h.headline %}{{ h['headline'] }}{% else %}{{ h['name'] }}{% endif %}
+       {% if h.headline %}{{ h['headline'][0]['@value'] }}{% else %}{{ h['name'][0]['@value'] }}{% endif %}
         </a>
-        {% if h.copyrightYear %}&copy; {{h.copyrightYear }}{% endif %}
+        {% if h.copyrightYear %}&copy; {{h.copyrightYear[0]['@value'] }}{% endif %}
         {% if h.author %}by
-         {% for person in h.author %}{{ person['@id']|author_name|safe }}{% if not loop.last %},{% endif %} 
+         {% for person in h.author %}{{ person['@id']|author_name }}{% if not loop.last %},{% endif %} 
          {% endfor %}
         {% endif %}
 

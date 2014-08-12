@@ -8,9 +8,7 @@
   "@type": "ScholarlyArticle",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/whittaker-beth"
-      }
+      "@id": "http://intro2libsys.info/Person/whittaker-beth"
     }
   ],
   "copyrightYear": [

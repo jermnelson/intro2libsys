@@ -7,9 +7,7 @@
   "@type": "Article",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/adams-paul"
-      }
+      "@id": "http://intro2libsys.info/Person/adams-paul"
     }
   ],
   "copyrightYear": [

@@ -7,14 +7,10 @@
   "@type": "ScholarlyArticle",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/knecht-lou"
-      }
+      "@id": "http://intro2libsys.info/Person/knecht-lou"
     },
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/nelson-stuart"
-      }
+      "@id": "http://intro2libsys.info/Person/nelson-stuart"
     }
   ],
   "copyrightYear": [

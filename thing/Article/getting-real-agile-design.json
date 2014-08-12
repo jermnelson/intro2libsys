@@ -10,9 +10,7 @@
   "@type": "TechArticle",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/bowles-cennydd"
-      }
+      "@id": "http://intro2libsys.info/Person/bowles-cennydd"
     }
   ],
   "datePublished": [

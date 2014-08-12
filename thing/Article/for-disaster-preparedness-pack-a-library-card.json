@@ -7,9 +7,7 @@
   "@type": "NewsArticle",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/rose-joel"
-      }
+      "@id": "http://intro2libsys.info/Person/rose-joel"
     }
   ],
   "copyrightYear": [

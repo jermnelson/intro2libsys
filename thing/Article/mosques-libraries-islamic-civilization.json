@@ -8,9 +8,7 @@
   "@type": "http://schema.org/ScholarlyArticle",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/benaicha-hedi"
-      }
+      "@id": "http://intro2libsys.info/Person/benaicha-hedi"
     }
   ],
   "copyrightYear": [

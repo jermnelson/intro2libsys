@@ -7,19 +7,13 @@
   "@type": "ScholarlyArticle",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/hickey-thomas"
-      }
+      "@id": "http://intro2libsys.info/Person/hickey-thomas"
     },
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/oneill-edward"
-      }
+      "@id": "http://intro2libsys.info/Person/oneill-edward"
     },
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/toves-jenny"
-      }
+      "@id": "http://intro2libsys.info/Person/toves-jenny"
     }
   ],
   "copyrightYear": [

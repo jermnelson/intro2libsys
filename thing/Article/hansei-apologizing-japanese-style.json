@@ -7,9 +7,7 @@
   "@type": "Article",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/kopp-rochelle"
-      }
+      "@id": "http://intro2libsys.info/Person/kopp-rochelle"
     }
   ],
   "copyrightYear": [

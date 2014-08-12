@@ -6,9 +6,7 @@
   "@id": "http://intro2libsys.info/Article/elsevier-clamps-down-on-academics-posting-their-own-papers-online",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/solon-oliva"
-      }
+      "@id": "http://intro2libsys.info/Person/solon-oliva"
     }
   ],
   "copyrightYear": [

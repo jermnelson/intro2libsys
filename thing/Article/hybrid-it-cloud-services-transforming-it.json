@@ -8,9 +8,7 @@
   "@type": "TechArticle",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/blum-dan"
-      }
+      "@id": "http://intro2libsys.info/Person/blum-dan"
     }
   ],
   "copyrightYear": [

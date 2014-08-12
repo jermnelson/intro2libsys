@@ -6,9 +6,7 @@
   "@id": "http://intro2libsys.info/Article/how-netflix-reverse-engineered-hollywood",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/madrigal-alexis"
-      }
+      "@id": "http://intro2libsys.info/Person/madrigal-alexis"
     }
   ],
   "copyrightYear": [

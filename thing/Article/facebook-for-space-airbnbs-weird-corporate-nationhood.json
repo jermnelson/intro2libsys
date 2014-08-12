@@ -11,9 +11,7 @@
   ],
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/losse-kate"
-      }
+      "@id": "http://intro2libsys.info/Person/losse-kate"
     }
   ],
   "copyrightYear": [
@@ -32,9 +30,7 @@
   ],
   "headline": [
     {
-      "@value": {
-        "@value": "Facebook for Space? Airbnb's Weird Corporate Nationhood"
-      }
+      "@value": "Facebook for Space? Airbnb's Weird Corporate Nationhood"
     }
   ],
   "mads:recordInfo": {

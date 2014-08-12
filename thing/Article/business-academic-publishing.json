@@ -8,9 +8,7 @@
   "@type": "ScholarlyArticle",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/russell-robert"
-      }
+      "@id": "http://intro2libsys.info/Person/russell-robert"
     }
   ],
   "copyrightYear": [

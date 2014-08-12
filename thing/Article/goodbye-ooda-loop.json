@@ -7,14 +7,10 @@
   "@type": "Article",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/benson-kevin"
-      }
+      "@id": "http://intro2libsys.info/Person/benson-kevin"
     },
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/rotkoff-steven"
-      }
+      "@id": "http://intro2libsys.info/Person/rotkoff-steven"
     }
   ],
   "copyrightYear": [

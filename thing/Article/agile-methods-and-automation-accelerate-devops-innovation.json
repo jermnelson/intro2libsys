@@ -7,9 +7,7 @@
   "@type": "Thing",
   "author": [
     {
-      "@value": {
         "@id": "http://intro2libsys.info/Person/kar-saroj"
-      }
     }
   ],
   "copyrightYear": [

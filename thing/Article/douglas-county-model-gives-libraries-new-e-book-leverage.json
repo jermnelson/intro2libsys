@@ -7,9 +7,7 @@
   "@type": "NewsArticle",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/martin-claire"
-      }
+      "@id": "http://intro2libsys.info/Person/martin-claire"
     }
   ],
   "copyrightYear": [

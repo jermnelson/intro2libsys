@@ -7,16 +7,12 @@
   "@type": "ScholarlyArticle",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/summers-ed",
-        "bf:authorizedAccessPoint": "Summers, Ed"
-      }
+      "@id": "http://intro2libsys.info/Person/summers-ed",
+      "bf:authorizedAccessPoint": "Summers, Ed"
     },
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/salo-dorothea",
-        "bf:authorizedAccessPoint": "Salo, Dorothea"
-      }
+      "@id": "http://intro2libsys.info/Person/salo-dorothea",
+      "bf:authorizedAccessPoint": "Salo, Dorothea"
     }
   ],
   "bookFormat": [

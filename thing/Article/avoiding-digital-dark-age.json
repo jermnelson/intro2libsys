@@ -11,9 +11,7 @@
   "@type": "ScholarlyArticle",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/bollacker-kurt"
-      }
+      "@id": "http://intro2libsys.info/Person/bollacker-kurt"
     }
   ],
   "copyrightYear": [

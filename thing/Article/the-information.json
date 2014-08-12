@@ -7,9 +7,7 @@
   "@type": "NewsArticle",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/gopnik-adam"
-      }
+      "@id": "http://intro2libsys.info/Person/gopnik-adam"
     }
   ],
   "copyrightYear": [

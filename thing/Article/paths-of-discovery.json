@@ -6,19 +6,13 @@
   "@id": "http://intro2libsys.info/Article/paths-of-discovery",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/asher-andrew"
-      }
+      "@id": "http://intro2libsys.info/Person/asher-andrew"
     },
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/duke-lynda"
-      }
+      "@id": "http://intro2libsys.info/Person/duke-lynda"
     },
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/wilson-suzanne"
-      }
+      "@id": "http://intro2libsys.info/Person/wilson-suzanne"
     }
   ],
   "copyrightYear": [

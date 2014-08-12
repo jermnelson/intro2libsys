@@ -7,19 +7,13 @@
   "@type": "Article",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/anderson-janna"
-      }
+      "@id": "http://intro2libsys.info/Person/anderson-janna"
     },
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/rainie-lee"
-      }
+      "@id": "http://intro2libsys.info/Person/rainie-lee"
     },
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/duggan-maeve"
-      }
+      "@id": "http://intro2libsys.info/Person/duggan-maeve"
     }
   ],
   "copyrightYear": [

@@ -7,14 +7,10 @@
   "@type": "Article",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/whyte-angus"
-      }
+      "@id": "http://intro2libsys.info/Person/whyte-angus"
     },
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/allard-suzie"
-      }
+      "@id": "http://intro2libsys.info/Person/allard-suzie"
     }
   ],
   "copyrightYear": [

@@ -7,14 +7,10 @@
   "@type": "Article",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/hamid-mohsin"
-      }
+      "@id": "http://intro2libsys.info/Person/hamid-mohsin"
     },
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/holmes-anna"
-      }
+      "@id": "http://intro2libsys.info/Person/holmes-anna"
     }
   ],
   "copyrightYear": [

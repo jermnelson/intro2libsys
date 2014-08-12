@@ -8,9 +8,7 @@
   "@type": "TechArticle",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/longbotton-clive"
-      }
+      "@id": "http://intro2libsys.info/Person/longbotton-clive"
     }
   ],
   "copyrightYear": [

@@ -6,14 +6,10 @@
   "@id": "http://intro2libsys.info/Article/cool-uris-for-the-semantic-web",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/sauermann-leo"
-      }
+      "@id": "http://intro2libsys.info/Person/sauermann-leo"
     },
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/cyganiak-richard"
-      }
+      "@id": "http://intro2libsys.info/Person/cyganiak-richard"
     }
   ],
   "copyrightYear": [

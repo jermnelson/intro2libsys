@@ -8,9 +8,7 @@
   "@type": "TechArticle",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/hildreth-charles"
-      }
+      "@id": "http://intro2libsys.info/Person/hildreth-charles"
     }
   ],
   "copyrightYear": [

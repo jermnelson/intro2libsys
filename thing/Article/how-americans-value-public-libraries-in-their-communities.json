@@ -7,24 +7,16 @@
   "@type": "Article",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/zickuhr-kathryn"
-      }
+      "@id": "http://intro2libsys.info/Person/zickuhr-kathryn"
     },
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/rainie-lee"
-      }
+      "@id": "http://intro2libsys.info/Person/rainie-lee"
     },
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/purcell-kristen"
-      }
+      "@id": "http://intro2libsys.info/Person/purcell-kristen"
     },
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/duggan-maeve"
-      }
+      "@id": "http://intro2libsys.info/Person/duggan-maeve"
     }
   ],
   "copyrightYear": [

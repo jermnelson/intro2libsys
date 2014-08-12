@@ -9,9 +9,7 @@
   "@type": "ScholarlyArticle",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/lewis-david"
-      }
+      "@id": "http://intro2libsys.info/Person/lewis-david"
     }
   ],
   "copyrightYear": [

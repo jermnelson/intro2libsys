@@ -7,14 +7,10 @@
   "@type": "ScholarlyArticle",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/brown-john-seely"
-      }
+      "@id": "http://intro2libsys.info/Person/brown-john-seely"
     },
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/hagel-john"
-      }
+      "@id": "http://intro2libsys.info/Person/hagel-john"
     }
   ],
   "copyrightYear": [

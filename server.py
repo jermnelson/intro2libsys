@@ -61,7 +61,7 @@ def author_name(author_id):
     if not author_id in THINGS['Person']:
         return
     author = THINGS['Person'][author_id]
-    return author.get('name')
+    return author.get('name')[0]['@value']
 
 @app.template_filter('author_works')
 def author_works(author_id):
@@ -334,10 +334,10 @@ def entity_listing(entity):
             entity_dict = json.load(open(filepath))
 
             if 'headline' in entity_dict:
-                all_chars = entity_dict.get('headline').lower()
+                all_chars = entity_dict.get('headline')[0]['@value'].lower()
 
             elif 'name' in entity_dict:
-                all_chars = entity_dict.get('name').lower()
+                all_chars = entity_dict.get('name')[0]['@value'].lower()
             first_char = all_chars[0]
             if not FIRST_CHAR_RE.search(first_char):
                 for char in all_chars:

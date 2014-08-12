@@ -7,9 +7,7 @@
   "@type": "VideoObject",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/meadows-alice"
-      }
+      "@id": "http://intro2libsys.info/Person/meadows-alice"
     }
   ],
   "copyrightYear": [

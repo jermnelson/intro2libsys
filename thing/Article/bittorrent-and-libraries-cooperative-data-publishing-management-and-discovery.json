@@ -7,14 +7,10 @@
   "@type": "Article",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/markman-chris"
-      }
+      "@id": "http://intro2libsys.info/Person/markman-chris"
     },
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/zavras-constantine"
-      }
+      "@id": "http://intro2libsys.info/Person/zavras-constantine"
     }
   ],
   "copyrightYear": [

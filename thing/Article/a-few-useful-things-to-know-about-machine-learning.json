@@ -6,9 +6,7 @@
   "@id": "http://intro2libsys.info/Article/a-few-useful-things-to-know-about-machine-learning",
   "author": [
     {
-      "@value": {
         "@id": "http://intro2libsys.info/Person/domingos-pedro"
-      }
     }
   ],
   "copyrightYear": [

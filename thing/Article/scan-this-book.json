@@ -7,9 +7,7 @@
   "@type": "Article",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/kelly-kevin"
-      }
+      "@id": "http://intro2libsys.info/Person/kelly-kevin"
     }
   ],
   "copyrightYear": [

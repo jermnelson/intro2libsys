@@ -7,19 +7,13 @@
   "@type": "Article",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/kaur-kirnn"
-      }
+      "@id": "http://intro2libsys.info/Person/kaur-kirnn"
     },
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/hein-stefan"
-      }
+      "@id": "http://intro2libsys.info/Person/hein-stefan"
     },
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/schrimpf-sabine"
-      }
+      "@id": "http://intro2libsys.info/Person/schrimpf-sabine"
     }
   ],
   "copyrightYear": [

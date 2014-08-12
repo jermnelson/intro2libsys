@@ -8,9 +8,7 @@
   "@type": "Article",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/hazaeumll-massieux-dominique"
-      }
+      "@id": "http://intro2libsys.info/Person/hazaeumll-massieux-dominique"
     }
   ],
   "copyrightYear": [

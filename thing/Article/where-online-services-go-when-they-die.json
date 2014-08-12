@@ -11,9 +11,7 @@
   ],
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/edwards-benj"
-      }
+      "@id": "http://intro2libsys.info/Person/edwards-benj"
     }
   ],
   "copyrightYear": [
@@ -32,9 +30,7 @@
   ],
   "headline": [
     {
-      "@value": {
-        "@value": "Where Online Services Go When They Die"
-      }
+      "@value": "Where Online Services Go When They Die"
     }
   ],
   "mads:recordInfo": {

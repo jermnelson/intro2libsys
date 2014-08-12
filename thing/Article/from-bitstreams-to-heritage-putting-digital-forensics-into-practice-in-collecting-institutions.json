@@ -7,24 +7,16 @@
   "@type": "Article",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/lee-christopher"
-      }
+      "@id": "http://intro2libsys.info/Person/lee-christopher"
     },
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/woods-kam"
-      }
+      "@id": "http://intro2libsys.info/Person/woods-kam"
     },
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/kirschenbaum-matthew"
-      }
+      "@id": "http://intro2libsys.info/Person/kirschenbaum-matthew"
     },
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/chassanoff-alexandra"
-      }
+      "@id": "http://intro2libsys.info/Person/chassanoff-alexandra"
     }
   ],
   "copyrightYear": [

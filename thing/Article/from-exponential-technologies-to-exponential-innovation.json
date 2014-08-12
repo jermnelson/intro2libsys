@@ -7,24 +7,16 @@
   "@type": "Article",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/hagel-john"
-      }
+      "@id": "http://intro2libsys.info/Person/hagel-john"
     },
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/brown-john-seely"
-      }
+      "@id": "http://intro2libsys.info/Person/brown-john-seely"
     },
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/samoylova-tamara"
-      }
+      "@id": "http://intro2libsys.info/Person/samoylova-tamara"
     },
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/lui-michael"
-      }
+      "@id": "http://intro2libsys.info/Person/lui-michael"
     }
   ],
   "copyrightYear": [

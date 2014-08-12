@@ -9,9 +9,7 @@
   "@type": "ScholarlyArticle",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/wellisch-hans"
-      }
+      "@id": "http://intro2libsys.info/Person/wellisch-hans"
     }
   ],
   "copyrightYear": [

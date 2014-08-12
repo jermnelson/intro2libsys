@@ -7,9 +7,7 @@
   "@type": "Article",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/hoeppner-athena"
-      }
+      "@id": "http://intro2libsys.info/Person/hoeppner-athena"
     }
   ],
   "copyrightYear": [

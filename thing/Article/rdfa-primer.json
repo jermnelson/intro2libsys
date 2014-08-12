@@ -7,24 +7,16 @@
   "@type": "TechArticle",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/herman-ivan"
-      }
+      "@id": "http://intro2libsys.info/Person/herman-ivan"
     },
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/adida-ben"
-      }
+      "@id": "http://intro2libsys.info/Person/adida-ben"
     },
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/sporny-manu"
-      }
+      "@id": "http://intro2libsys.info/Person/sporny-manu"
     },
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/birbeck-mark"
-      }
+      "@id": "http://intro2libsys.info/Person/birbeck-mark"
     }
   ],
   "copyrightYear": [

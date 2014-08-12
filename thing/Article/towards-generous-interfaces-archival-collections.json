@@ -7,9 +7,7 @@
   "@type": "ScholarlyArticle",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/whitelaw-mitchell"
-      }
+      "@id": "http://intro2libsys.info/Person/whitelaw-mitchell"
     }
   ],
   "copyrightYear": [

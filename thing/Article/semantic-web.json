@@ -8,19 +8,13 @@
   "@type": "ScholarlyArticle",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/berners-lee-tim"
-      }
+      "@id": "http://intro2libsys.info/Person/berners-lee-tim"
     },
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/hendler-james"
-      }
+      "@id": "http://intro2libsys.info/Person/hendler-james"
     },
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/lassila-ora"
-      }
+      "@id": "http://intro2libsys.info/Person/lassila-ora"
     }
   ],
   "datePublished": [

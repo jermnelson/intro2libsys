@@ -7,9 +7,7 @@
   "@type": "ScholarlyArticle",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/nelson-jeremy"
-      }
+      "@id": "http://intro2libsys.info/Person/nelson-jeremy"
     }
   ],
   "copyrightYear": [
