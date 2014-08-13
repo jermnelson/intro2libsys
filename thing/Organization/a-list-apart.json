@@ -1,15 +1,40 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Organization/a-list-apart", 
-  "@type": "Corporation", 
-  "bf:adminInfo": {
-    "bf:creationDate": "2013-12-19T00:00:34.868000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "name": "A List Apart", 
-  "url": "http://www.alistapart.com/"
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Organization/a-list-apart",
+  "@type": "Corporation",
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:21:23.133268"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-19T00:00:34.868000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "A List Apart"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://www.alistapart.com/"
+    }
+  ]
 }

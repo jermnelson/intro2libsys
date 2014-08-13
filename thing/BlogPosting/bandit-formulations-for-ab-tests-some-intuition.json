@@ -6,9 +6,7 @@
   "@id": "http://intro2libsys.info/BlogPosting/bandit-formulations-for-ab-tests-some-intuition",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/zumel-nina"
-      }
+      "@id": "http://intro2libsys.info/Person/zumel-nina"
     }
   ],
   "copyrightYear": [

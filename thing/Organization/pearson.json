@@ -1,16 +1,45 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Organization/pearson", 
-  "@type": "Organization", 
-  "alternateName": "Pearson Education Technologies", 
-  "bf:adminInfo": {
-    "bf:creationDate": "2014-01-09T02:33:39.670000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "name": "Pearson", 
-  "url": "http://www.pearsoned.com/"
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Organization/pearson",
+  "@type": "Organization",
+  "alternateName": [
+    {
+      "@value": "Pearson Education Technologies"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:21:23.275282"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-09T02:33:39.670000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Pearson"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://www.pearsoned.com/"
+    }
+  ]
 }

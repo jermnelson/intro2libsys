@@ -1,22 +1,57 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/WebPage/the-cap-faq", 
-  "@type": "CollectionPage", 
-  "bf:adminInfo": {
-    "bf:creationDate": "2013-12-19T19:22:51.775000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "copyrightYear": 2013, 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/WebPage/the-cap-faq",
+  "@type": "CollectionPage",
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
   "creator": [
     {
-      "@id": "http://intro2libsys.info/Person/robinson-henry"
+      "@value": {
+        "@id": "http://intro2libsys.info/Person/robinson-henry"
+      }
     }
-  ], 
-  "datePublished": "2013-05-09", 
-  "name": "The CAP FAQ", 
-  "url": "http://henryr.github.io/cap-faq/"
+  ],
+  "datePublished": [
+    {
+      "@value": "2013-05-09"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:36:44.571403"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-19T19:22:51.775000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "The CAP FAQ"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://henryr.github.io/cap-faq/"
+    }
+  ]
 }

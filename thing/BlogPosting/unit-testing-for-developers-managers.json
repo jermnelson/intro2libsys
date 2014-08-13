@@ -5,6 +5,7 @@
   },
   "@id": "http://intro2libsys.info/BlogPosting/unit-testing-for-developers-managers",
   "@type": "BlogPosting",
+  "author": [],
   "authors": [
     {
       "@value": {

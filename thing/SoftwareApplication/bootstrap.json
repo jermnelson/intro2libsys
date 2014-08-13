@@ -1,18 +1,55 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab"
-  }, 
-  "@id": "http://intro2libsys.info/SoftwareApplication/bootstrap", 
-  "@type": "SoftwareApplication", 
-  "bf:adminInfo": {
-    "bf:creationDate": "2013-12-13T23:34:58.451000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "copyrightYear": 2013, 
-  "description": "Sleek, intuitive, and powerful mobile first front-end framework used in this presentation", 
-  "headline": "Bootstrap", 
-  "name": "bootstrap", 
-  "url": "http://getbootstrap.com/"
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/SoftwareApplication/bootstrap",
+  "@type": "SoftwareApplication",
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "description": [
+    {
+      "@value": "Sleek, intuitive, and powerful mobile first front-end framework used in this presentation"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Bootstrap"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:35:45.930539"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-13T23:34:58.451000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "bootstrap"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://getbootstrap.com/"
+    }
+  ]
 }

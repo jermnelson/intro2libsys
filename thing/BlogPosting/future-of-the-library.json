@@ -7,9 +7,7 @@
   "@type": "BlogPosting",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/godin-seth"
-      }
+      "@id": "http://intro2libsys.info/Person/godin-seth"
     }
   ],
   "copyrightYear": [

@@ -1,25 +1,64 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/PublicationIssue/college-research-libraries-november-2013", 
-  "@type": "PublicationIssue", 
-  "bf:adminInfo": {
-    "bf:creationDate": "2014-01-06T23:41:24.812000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "copyrightYear": 2013, 
-  "datePublished": "2013-11", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/PublicationIssue/college-research-libraries-november-2013",
+  "@type": "PublicationIssue",
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2013-11"
+    }
+  ],
   "hasPart": [
     {
-      "@id": "http://intro2libsys.info/Article/paths-of-discovery"
+      "@value": {
+        "@id": "http://intro2libsys.info/Article/paths-of-discovery"
+      }
     }
-  ], 
-  "issueNumber": 6, 
-  "name": "College & Research Libraries 74(6) November 2013", 
-  "isPartOf": {
-    "@id": "http://intro2libsys.info/PublicationVolume/college-research-libraries-volume-74"
-  } 
+  ],
+  "isPartOf": [
+    {
+      "@value": {
+        "@id": "http://intro2libsys.info/PublicationVolume/college-research-libraries-volume-74"
+      }
+    }
+  ],
+  "issueNumber": [
+    {
+      "@value": 6
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:23:18.218775"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-06T23:41:24.812000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "College & Research Libraries 74(6) November 2013"
+    }
+  ]
 }

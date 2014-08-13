@@ -1,17 +1,62 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "idloc": "http://id.loc.gov"
-  }, 
-  "@id": "http://intro2libsys.info/WebPage/intro-text-encoding-tei", 
-  "@type": "CollectionPage", 
+    "@vocab": "http://schema.org/",
+    "idloc": "http://id.loc.gov",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/WebPage/intro-text-encoding-tei",
+  "@type": "CollectionPage",
   "author": [
-    {"@id": "http://intro2libsys.info/Person/van-den-branden-ron"},
-    {"@id": "http://intro2libsys.info/Person/terras-melissa"},
-    {"@id": "http://intro2libsys.info/Person/vanhoutte-edward"}
+    {
+      "@id": "http://intro2libsys.info/Person/van-den-branden-ron"
+    },
+    {
+      "@id": "http://intro2libsys.info/Person/terras-melissa"
+    },
+    {
+      "@id": "http://intro2libsys.info/Person/vanhoutte-edward"
+    }
   ],
-  "copyrightYear": 2012,
-  "datePublished": "2012-12-23",
-  "name": "Introduction to Text Encoding and the TEI", 
-  "url": "http://tbe.kantl.be/TBE/modules/TBED00v00.htm"
+  "copyrightYear": [
+    {
+      "@value": 2012
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2012-12-23"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:36:44.552401"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Introduction to Text Encoding and the TEI"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://tbe.kantl.be/TBE/modules/TBED00v00.htm"
+    }
+  ]
 }

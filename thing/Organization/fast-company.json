@@ -1,9 +1,40 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/"
-  },   
-  "@type": "Organization", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
   "@id": "http://intro2libsys.info/Organization/fast-company",
-  "name": "Fast Company", 
-  "url": "http://www.fastcompany.com"
+  "@type": "Organization",
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:21:23.467301"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Fast Company"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://www.fastcompany.com"
+    }
+  ]
 }

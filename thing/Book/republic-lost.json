@@ -1,23 +1,50 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/", 
-    "loc": "http://www.loc.gov/standards/mads/"
-  }, 
-  "@id": "http://intro2libsys.info/Book/republic-lost", 
-  "@type": "Book", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Book/republic-lost",
+  "@type": "Book",
   "author": [
     {
       "@id": "http://intro2libsys.info/Person/lessig-lawrence"
     }
-  ], 
-  "copyrightYear": 2011, 
-  "headline": "Republic, Lost", 
-  "isbn": "978-0-446-57643-7", 
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2011
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Republic, Lost"
+    }
+  ],
+  "isbn": [
+    {
+      "@value": "978-0-446-57643-7"
+    }
+  ],
   "mads:recordInfo": {
-    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
-    "loc:languageOfCataloging": "English", 
-    "loc:recordCreationDate": "2014-04-01T00:55:41.528271"
-  }, 
-  "url": "http://lesterland.lessig.org/pdf/republic-lost.pdf"
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-04-01T00:55:41.528271"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://lesterland.lessig.org/pdf/republic-lost.pdf"
+    }
+  ]
 }

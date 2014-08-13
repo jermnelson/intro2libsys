@@ -1,16 +1,45 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/WebPage/marc21rdf", 
-  "@type": "CollectionPage", 
-  "bf:adminInfo": {
-    "bf:creationDate": "2014-01-09T21:00:23.729000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "description": "The MARC21 Vocabularies from Metadata Management Associates", 
-  "name": "marc21rdf", 
-  "url": "http://www.marc21rdf.info/"
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/WebPage/marc21rdf",
+  "@type": "CollectionPage",
+  "description": [
+    {
+      "@value": "The MARC21 Vocabularies from Metadata Management Associates"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:36:44.560402"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-09T21:00:23.729000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "marc21rdf"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://www.marc21rdf.info/"
+    }
+  ]
 }

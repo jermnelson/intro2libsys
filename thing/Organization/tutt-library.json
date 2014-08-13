@@ -1,26 +1,59 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Organization/tutt-library", 
-  "@type": "Library", 
-  "address": {
-    "@type": "PostalAddress", 
-    "addressCountry": "United States of America", 
-    "addressLocality": "Colorado Springs", 
-    "addressRegion": "Colorado", 
-    "postalCode": "80903-3252", 
-    "streetAddress": "1021 N. Cascade Avenue"
-  }, 
-  "bf:adminInfo": {
-    "bf:creationDate": "2014-01-06T17:53:09.400000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "department": {
-    "@id": "http://intro2libsys.info/Organization/colorado-college"
-  }, 
-  "name": "Tutt Library", 
-  "url": "http://www.coloradocollege.edu/library/"
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Organization/tutt-library",
+  "@type": "Library",
+  "address": [
+    {
+      "@value": {
+        "@type": "PostalAddress",
+        "addressCountry": "United States of America",
+        "addressLocality": "Colorado Springs",
+        "addressRegion": "Colorado",
+        "postalCode": "80903-3252",
+        "streetAddress": "1021 N. Cascade Avenue"
+      }
+    }
+  ],
+  "department": [
+    {
+      "@value": {
+        "@id": "http://intro2libsys.info/Organization/colorado-college"
+      }
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:21:23.326287"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-06T17:53:09.400000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Tutt Library"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://www.coloradocollege.edu/library/"
+    }
+  ]
 }

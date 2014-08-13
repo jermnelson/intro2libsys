@@ -5,6 +5,7 @@
   },
   "@id": "http://intro2libsys.info/BlogPosting/pig-ignorant-entitlement-and-its-uses",
   "@type": "BlogPosting",
+  "author": [],
   "copyrightYear": [
     {
       "@value": 2013

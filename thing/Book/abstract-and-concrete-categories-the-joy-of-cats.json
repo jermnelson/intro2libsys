@@ -1,31 +1,66 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/", 
-    "loc": "http://www.loc.gov/standards/mads/"
-  }, 
-  "@id": "http://intro2libsys.info/Book/abstract-and-concrete-categories-the-joy-of-cats", 
-  "@type": "Book", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Book/abstract-and-concrete-categories-the-joy-of-cats",
+  "@type": "Book",
   "author": [
     {
       "@id": "http://intro2libsys.info/Person/adamek-jir"
-    }, 
+    },
     {
       "@id": "http://intro2libsys.info/Person/herrlich-horst"
-    }, 
+    },
     {
       "@id": "http://intro2libsys.info/Person/strecker-george"
     }
-  ], 
-  "bookEdition": "Online", 
-  "bookFormat": "EBook", 
-  "copyrightYear": 2004, 
-  "datePublished": "2004-01-12", 
-  "headline": "Abstract and Concrete Categories The Joy of Cats", 
+  ],
+  "bookEdition": [
+    {
+      "@value": "Online"
+    }
+  ],
+  "bookFormat": [
+    {
+      "@value": "EBook"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2004
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2004-01-12"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Abstract and Concrete Categories The Joy of Cats"
+    }
+  ],
   "mads:recordInfo": {
-    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
-    "loc:languageOfCataloging": "English", 
-    "loc:recordCreationDate": "2014-05-27T15:08:27.956000"
-  }, 
-  "url": "http://katmat.math.uni-bremen.de/acc/acc.pdf"
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-05-27T15:08:27.956000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://katmat.math.uni-bremen.de/acc/acc.pdf"
+    }
+  ]
 }

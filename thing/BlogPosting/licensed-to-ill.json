@@ -8,9 +8,7 @@
   "@type": "BlogPosting",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/carr-nicholas"
-      }
+      "@id": "http://intro2libsys.info/Person/carr-nicholas"
     }
   ],
   "headline": [

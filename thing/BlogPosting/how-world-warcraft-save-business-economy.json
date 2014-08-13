@@ -8,9 +8,7 @@
   "@type": "BlogPosting",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/gots-jason"
-      }
+      "@id": "http://intro2libsys.info/Person/gots-jason"
     }
   ],
   "copyrightYear": [

@@ -1,15 +1,57 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab"
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
   },
-  "@id": "http://intro2libsys.info/WebPage/rda-toolkit", 
-  "@type": "WebApplication", 
-  "copyrightYear": 2010, 
-  "headline": "RDA Toolkit", 
-  "name": "rda-toolkit", 
-  "publisher": {
-     "@id": "http://intro2libsys.info/Organization/american-library-association"
-  }, 
-  "url": "http://access.rdatoolkit.org/"
+  "@id": "http://intro2libsys.info/WebPage/rda-toolkit",
+  "@type": "WebApplication",
+  "copyrightYear": [
+    {
+      "@value": 2010
+    }
+  ],
+  "headline": [
+    {
+      "@value": "RDA Toolkit"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:36:44.508396"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "rda-toolkit"
+    }
+  ],
+  "publisher": [
+    {
+      "@value": {
+        "@id": "http://intro2libsys.info/Organization/american-library-association"
+      }
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://access.rdatoolkit.org/"
+    }
+  ]
 }

@@ -1,15 +1,40 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Organization/bbc", 
-  "@type": "Corporation", 
-  "bf:adminInfo": {
-    "bf:creationDate": "2013-12-19T19:19:33.355000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "name": "BBC", 
-  "url": "http://www.bbc.co.uk"
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Organization/bbc",
+  "@type": "Corporation",
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:21:23.107265"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-19T19:19:33.355000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "BBC"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://www.bbc.co.uk"
+    }
+  ]
 }

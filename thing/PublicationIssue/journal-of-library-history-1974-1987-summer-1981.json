@@ -1,25 +1,64 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/PeriodicalIssue/journal-of-library-history-1974-1987-summer-1981", 
-  "@type": "PeriodicalIssue", 
-  "bf:adminInfo": {
-    "bf:creationDate": "2014-01-06T23:06:26.117000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "copyrightYear": 1981, 
-  "datePublished": "Summer 1981", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/PeriodicalIssue/journal-of-library-history-1974-1987-summer-1981",
+  "@type": "PeriodicalIssue",
+  "copyrightYear": [
+    {
+      "@value": 1981
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "Summer 1981"
+    }
+  ],
   "hasPart": [
     {
-      "@id": "http://intro2libsys.info/Article/ebla-world-oldest-library"
+      "@value": {
+        "@id": "http://intro2libsys.info/Article/ebla-world-oldest-library"
+      }
     }
-  ], 
-  "issueNumber": 3, 
-  "name": "Journal of Library History (1974-1987) 16(3) Summer 1981",
-  "isPartOf": {
-    "@id": "http://intro2libsys.info/PublicationVolume/journal-of-library-history-1974-1987-volume-15"
-  } 
+  ],
+  "isPartOf": [
+    {
+      "@value": {
+        "@id": "http://intro2libsys.info/PublicationVolume/journal-of-library-history-1974-1987-volume-15"
+      }
+    }
+  ],
+  "issueNumber": [
+    {
+      "@value": 3
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:23:18.211775"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-06T23:06:26.117000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Journal of Library History (1974-1987) 16(3) Summer 1981"
+    }
+  ]
 }

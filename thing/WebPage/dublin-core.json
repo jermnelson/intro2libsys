@@ -1,17 +1,50 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab"
-  }, 
-  "@id": "http://intro2libsys.info/WebPage/dublin-core", 
-  "@type": "CollectionPage", 
-  "bf:adminInfo": {
-    "bf:creationDate": "2013-12-14T22:43:25.748237", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "description": "The Dublin Core Metadata Initiative (DCMI) supports shared innovation in metadata design and best practices across a broad range of purposes and business models.", 
-  "headline": "Dublin Core Metadata Initiative", 
-  "name": "dublin-core", 
-  "url": "http://dublincore.org/"
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/WebPage/dublin-core",
+  "@type": "CollectionPage",
+  "description": [
+    {
+      "@value": "The Dublin Core Metadata Initiative (DCMI) supports shared innovation in metadata design and best practices across a broad range of purposes and business models."
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Dublin Core Metadata Initiative"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:36:44.494395"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-14T22:43:25.748237"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "dublin-core"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://dublincore.org/"
+    }
+  ]
 }

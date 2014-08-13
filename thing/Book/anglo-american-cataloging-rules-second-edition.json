@@ -1,22 +1,64 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab"
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
   },
-  "@id": "http://intro2libsys.info/Book/anglo-american-cataloging-rules-second-edition", 
-  "@type": "Book", 
-  "copyrightYear": 2005, 
-  "datePublished": "2005-07-31", 
-  "headline": "Anglo-American Cataloging Rules Second Edition 2002 Revision", 
-  "publisher": {
-    "@type": "Organization", 
-    "address": {
-      "@type": "PostalAddress", 
-      "addressLocality": "Chicago", 
-      "addressRegion": "Illinois"
-    }, 
-    "name": "American Library Association", 
-    "url": "http://www.ala.org/"
-  }, 
-  "url": "http://access.rdatoolkit.org/"
+  "@id": "http://intro2libsys.info/Book/anglo-american-cataloging-rules-second-edition",
+  "@type": "Book",
+  "copyrightYear": [
+    {
+      "@value": 2005
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2005-07-31"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Anglo-American Cataloging Rules Second Edition 2002 Revision"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:19:50.694025"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "publisher": [
+    {
+      "@value": {
+        "@type": "Organization",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chicago",
+          "addressRegion": "Illinois"
+        },
+        "name": "American Library Association",
+        "url": "http://www.ala.org/"
+      }
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://access.rdatoolkit.org/"
+    }
+  ]
 }

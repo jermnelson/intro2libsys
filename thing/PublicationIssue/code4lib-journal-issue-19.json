@@ -1,25 +1,64 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/PublicationIssue/code4lib-journal-issue-19", 
-  "@type": "PublicationIssue", 
-  "bf:adminInfo": {
-    "bf:creationDate": "2014-01-09T22:54:27.525000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "datePublished": "2013-01-15", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/PublicationIssue/code4lib-journal-issue-19",
+  "@type": "PublicationIssue",
+  "datePublished": [
+    {
+      "@value": "2013-01-15"
+    }
+  ],
   "hasArticle": [
     {
-      "@id": "http://intro2libsys.info/Article/building-a-library-app-portfolio-with-redis-and-django"
+      "@value": {
+        "@id": "http://intro2libsys.info/Article/building-a-library-app-portfolio-with-redis-and-django"
+      }
     }
-  ], 
-  "issueNumber": 19, 
-  "name": "Code4Lib Journal Issue 19",
-  "partOfPeriodical": {
-    "@id": "http://intro2libsys.info/Periodical/code4lib-journal"
-  },  
-  "url": "http://journal.code4lib.org/issues/issues/issue19"
+  ],
+  "issueNumber": [
+    {
+      "@value": 19
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:23:18.226776"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-09T22:54:27.525000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Code4Lib Journal Issue 19"
+    }
+  ],
+  "partOfPeriodical": [
+    {
+      "@value": {
+        "@id": "http://intro2libsys.info/Periodical/code4lib-journal"
+      }
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://journal.code4lib.org/issues/issues/issue19"
+    }
+  ]
 }

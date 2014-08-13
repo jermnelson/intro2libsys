@@ -1,24 +1,65 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Book/machine-learning-in-action", 
-  "@type": "Book", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Book/machine-learning-in-action",
+  "@type": "Book",
   "author": [
     {
       "@id": "http://intro2libsys.info/Person/harrington-peter"
     }
-  ], 
-  "bf:adminInfo": {
-    "bf:creationDate": "2014-01-07T17:12:33.662000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "copyrightYear": 2012, 
-  "datePublished": "2012-04", 
-  "description": "Machine Learning in Action is unique book that blends the foundational theories of machine learning with the practical realities of building tools for everyday data analysis. You'll use the flexible Python programming language to build programs that implement algorithms for data classification, forecasting, recommendations, and higher-level features like summarization and simplification.", 
-  "headline": "Machine Learning in Action", 
-  "isbn": "9781617290183", 
-  "numberOfPages": 384
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2012
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2012-04"
+    }
+  ],
+  "description": [
+    {
+      "@value": "Machine Learning in Action is unique book that blends the foundational theories of machine learning with the practical realities of building tools for everyday data analysis. You'll use the flexible Python programming language to build programs that implement algorithms for data classification, forecasting, recommendations, and higher-level features like summarization and simplification."
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Machine Learning in Action"
+    }
+  ],
+  "isbn": [
+    {
+      "@value": "9781617290183"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:19:50.720028"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-07T17:12:33.662000"
+      }
+    ]
+  },
+  "numberOfPages": [
+    {
+      "@value": 384
+    }
+  ]
 }

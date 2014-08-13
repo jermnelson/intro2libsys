@@ -1,12 +1,51 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "idloc": "http://id.loc.gov"
-  }, 
-  "@id": "http://intro2libsys.info/WebPage/marc21-format-bib-data", 
-  "@type": "WebPage", 
-  "copyrightYear": 2006,
-  "datePublished": "2006-10",
-  "headline": "MARC 21 Format for Bibliographic data -- Introduction", 
-  "url": "http://www.loc.gov/marc/bibliographic/bdintro.html"
+    "@vocab": "http://schema.org/",
+    "idloc": "http://id.loc.gov",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/WebPage/marc21-format-bib-data",
+  "@type": "WebPage",
+  "copyrightYear": [
+    {
+      "@value": 2006
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2006-10"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "MARC 21 Format for Bibliographic data -- Introduction"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:36:44.486394"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.loc.gov/marc/bibliographic/bdintro.html"
+    }
+  ]
 }

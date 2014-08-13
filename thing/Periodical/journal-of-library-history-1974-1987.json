@@ -1,16 +1,41 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Periodical/journal-of-library-history-1974-1987", 
-  "@type": "Periodical", 
-  "bf:adminInfo": {
-    "bf:creationDate": "2014-01-06T23:04:17.070000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "hasPeriodicalIssue": [], 
-  "issn": "02753650", 
-  "name": "The Journal of Library History (1974-1987)"
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Periodical/journal-of-library-history-1974-1987",
+  "@type": "Periodical",
+  "hasPeriodicalIssue": [],
+  "issn": [
+    {
+      "@value": "02753650"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:22:40.824036"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-06T23:04:17.070000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "The Journal of Library History (1974-1987)"
+    }
+  ]
 }

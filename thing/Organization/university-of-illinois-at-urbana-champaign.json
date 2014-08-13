@@ -1,30 +1,63 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Organization/university-of-illinois-at-urbana-champaign", 
-  "@type": "CollegeOrUniversity", 
-  "address": {
-    "@type": "PostalAddress", 
-    "addressCountry": "United States of America", 
-    "addressLocality": "Urbana", 
-    "addressRegion": "Illinois", 
-    "postalCode": 61801
-  }, 
-  "bf:adminInfo": {
-    "bf:creationDate": "2014-01-07T19:53:07.247000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "name": "University of Illinois at Urbana-Champaign", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Organization/university-of-illinois-at-urbana-champaign",
+  "@type": "CollegeOrUniversity",
+  "address": [
+    {
+      "@value": {
+        "@type": "PostalAddress",
+        "addressCountry": "United States of America",
+        "addressLocality": "Urbana",
+        "addressRegion": "Illinois",
+        "postalCode": 61801
+      }
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:21:23.136268"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-07T19:53:07.247000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "University of Illinois at Urbana-Champaign"
+    }
+  ],
   "subOrganization": [
     {
-      "@id": "http://intro2libsys.info/Organization/graduate-school-library-information-science"
-    }, 
+      "@value": {
+        "@id": "http://intro2libsys.info/Organization/graduate-school-library-information-science"
+      }
+    },
     {
-      "@id": "http://intro2libsys.info/Organization/business-information-services"
+      "@value": {
+        "@id": "http://intro2libsys.info/Organization/business-information-services"
+      }
     }
-  ], 
-  "url": "http://illinois.edu/"
+  ],
+  "url": [
+    {
+      "@value": "http://illinois.edu/"
+    }
+  ]
 }

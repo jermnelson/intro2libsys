@@ -1,16 +1,45 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Organization/python-software-foundation", 
-  "@type": "Organization", 
-  "addressLocality": "Beaverton", 
-  "addressRegion": "Oregon", 
-  "bf:adminInfo": {
-    "bf:creationDate": "2013-12-30T17:41:18.483485", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "name": "Python Software Foundation"
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Organization/python-software-foundation",
+  "@type": "Organization",
+  "addressLocality": [
+    {
+      "@value": "Beaverton"
+    }
+  ],
+  "addressRegion": [
+    {
+      "@value": "Oregon"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:21:23.130268"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-30T17:41:18.483485"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Python Software Foundation"
+    }
+  ]
 }

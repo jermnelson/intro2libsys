@@ -1,18 +1,43 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Organization/the-scarecrow-press-inc", 
-  "@type": "Organization", 
-  "bf:adminInfo": {
-    "bf:creationDate": "2013-12-18T18:48:04.608000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "name": "The Scarecrow Press, Inc", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Organization/the-scarecrow-press-inc",
+  "@type": "Organization",
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:21:23.455300"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-18T18:48:04.608000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "The Scarecrow Press, Inc"
+    }
+  ],
   "place": [
-    "New York", 
-    "London"
+    {
+      "@value": "New York"
+    },
+    {
+      "@value": "London"
+    }
   ]
 }

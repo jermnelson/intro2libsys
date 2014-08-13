@@ -8,9 +8,7 @@
   "@type": "BlogPosting",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/neylon-cameron"
-      }
+      "@id": "http://intro2libsys.info/Person/neylon-cameron"
     }
   ],
   "copyrightYear": [

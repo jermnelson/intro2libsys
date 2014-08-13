@@ -1,18 +1,55 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab"
-  }, 
-  "@id": "http://knockoutjs.com", 
-  "@type": "SoftwareApplication", 
-  "bf:adminInfo": {
-    "bf:creationDate": "2013-12-13T23:39:01.891000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "copyrightYear": 2013, 
-  "description": "Library for building simple and dynamic Javascript UIs with the Model-View-View-Model (MVVM) pattern", 
-  "headline": "Knockout.js", 
-  "name": "knockout-js", 
-  "url": "http://knockoutjs.com/"
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://knockoutjs.com",
+  "@type": "SoftwareApplication",
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "description": [
+    {
+      "@value": "Library for building simple and dynamic Javascript UIs with the Model-View-View-Model (MVVM) pattern"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Knockout.js"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:35:45.902536"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-13T23:39:01.891000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "knockout-js"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://knockoutjs.com/"
+    }
+  ]
 }

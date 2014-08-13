@@ -336,6 +336,8 @@ def update_entity(entity):
         entity['mads:recordInfo']['mads:recordCreationDate'][0]['@value'] = \
             bf_adminInfo["bf:creationDate"]
     for key, value in entity.items():
+        if key.startswith('author'):
+            continue
         if not key.startswith("@") and not key.startswith("mads:"):
             if type(value) != list:
                 entity[key] = [{"@value": value}]

@@ -7,19 +7,13 @@
   "@type": "BlogPosting",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/soltani-ashkan"
-      }
+      "@id": "http://intro2libsys.info/Person/soltani-ashkan"
     },
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/peterson-andrea"
-      }
+      "@id": "http://intro2libsys.info/Person/peterson-andrea"
     },
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/gellman-barton"
-      }
+      "@id": "http://intro2libsys.info/Person/gellman-barton"
     }
   ],
   "copyrightYear": [

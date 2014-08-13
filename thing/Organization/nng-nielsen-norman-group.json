@@ -1,15 +1,40 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Organization/nng-nielsen-norman-group", 
-  "@type": "Corporation", 
-  "bf:adminInfo": {
-    "bf:creationDate": "2013-12-19T19:53:06.383000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "name": "NN/g Nielsen Norman Group", 
-  "url": "http://www.nngroup.com/"
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Organization/nng-nielsen-norman-group",
+  "@type": "Corporation",
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:21:23.360291"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-19T19:53:06.383000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "NN/g Nielsen Norman Group"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://www.nngroup.com/"
+    }
+  ]
 }

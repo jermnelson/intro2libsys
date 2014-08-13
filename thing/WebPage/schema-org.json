@@ -1,17 +1,50 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab"
-  }, 
-  "@id": "http://intro2libsys.info/WebPage/schema.org", 
-  "@type": "CollectionPage", 
-  "bf:adminInfo": {
-    "bf:creationDate": "2013-12-13T23:41:56.504000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "description": "This site provides a collection of schemas, i.e., html tags, that webmasters can use to markup their pages in ways recognized by major search providers.", 
-  "headline": "Schema.org", 
-  "name": "schema-org", 
-  "url": "http://schema.org/"
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/WebPage/schema.org",
+  "@type": "CollectionPage",
+  "description": [
+    {
+      "@value": "This site provides a collection of schemas, i.e., html tags, that webmasters can use to markup their pages in ways recognized by major search providers."
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Schema.org"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:36:44.506396"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-13T23:41:56.504000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "schema-org"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://schema.org/"
+    }
+  ]
 }

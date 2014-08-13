@@ -5,6 +5,7 @@
   },
   "@id": "http://intro2libsys.info/BlogPosting/future-not-future",
   "@type": "BlogPosting",
+  "author": [],
   "copyrightYear": [
     {
       "@value": 2014

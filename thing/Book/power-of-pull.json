@@ -1,23 +1,61 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/"
-  }, 
-  "@id": "http://intro2libsys.info/Book/power-of-pull", 
-  "@type": "Book", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Book/power-of-pull",
+  "@type": "Book",
   "author": [
     {
       "@id": "http://intro2libsys.info/Person/hagel-john"
-    }, 
+    },
     {
-     "@id": "http://intro2libsys.info/Person/brown-john-seely" 
+      "@id": "http://intro2libsys.info/Person/brown-john-seely"
     }
-  ], 
-  "copyrightYear": 2010, 
-  "headline": "The Power of Pull: How Small Moves, Smartly made, Can Set Big Things in Motion", 
-  "keywords": [], 
-  "publisher": {
-    "@id": "http://intro2libsys.info/Organization/basic-books"
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2010
+    }
+  ],
+  "headline": [
+    {
+      "@value": "The Power of Pull: How Small Moves, Smartly made, Can Set Big Things in Motion"
+    }
+  ],
+  "keywords": [],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:19:50.690025"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
   },
-  "thumbnailUrl": "power-of-pull-thumbnail.png"
-
+  "publisher": [
+    {
+      "@value": {
+        "@id": "http://intro2libsys.info/Organization/basic-books"
+      }
+    }
+  ],
+  "thumbnailUrl": [
+    {
+      "@value": "power-of-pull-thumbnail.png"
+    }
+  ]
 }

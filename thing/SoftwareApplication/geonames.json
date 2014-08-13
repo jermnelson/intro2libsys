@@ -1,17 +1,50 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/SoftwareApplication/geonames", 
-  "@type": "WebApplication", 
-  "additionalType": "DataCatalog", 
-  "bf:adminInfo": {
-    "bf:creationDate": "2014-01-09T21:27:04.370000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "description": "The GeoNames geographical database covers all countries and contains over eight million placenames that are available for download free of charge.", 
-  "name": "GeoNames", 
-  "url": "http://www.geonames.org/"
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/SoftwareApplication/geonames",
+  "@type": "WebApplication",
+  "additionalType": [
+    {
+      "@value": "DataCatalog"
+    }
+  ],
+  "description": [
+    {
+      "@value": "The GeoNames geographical database covers all countries and contains over eight million placenames that are available for download free of charge."
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:35:45.921538"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-09T21:27:04.370000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "GeoNames"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://www.geonames.org/"
+    }
+  ]
 }

@@ -1,26 +1,79 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/"
-  }, 
-  "@id": "http://intro2libsys.info/Book/tipping-point", 
-  "@type": "Book", 
-  "author": [{
-    "@id": "http://intro2libsys.info/Person/gladwell-malcolm"
-   }], 
-  "copyrightYear": [
-    2002, 
-    2000
-  ], 
-  "headline": "The Tipping Point How Little Things Can Make a Big Difference", 
-  "isbn": "0-316-31696-2 (HC)", 
-  "keywords": [
-    "Social psychology", 
-    "Contagion (Social psychology)", 
-    "Causation", 
-    "Context effects (Psychology)"
-  ], 
-  "publisher": {
-    "@id": "http://intro2libsys.info/Corporation/back-bay-books"
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
   },
-  "thumbnailUrl": "tipping-point-thumbnail.png" 
+  "@id": "http://intro2libsys.info/Book/tipping-point",
+  "@type": "Book",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/gladwell-malcolm"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2002
+    },
+    {
+      "@value": 2000
+    }
+  ],
+  "headline": [
+    {
+      "@value": "The Tipping Point How Little Things Can Make a Big Difference"
+    }
+  ],
+  "isbn": [
+    {
+      "@value": "0-316-31696-2 (HC)"
+    }
+  ],
+  "keywords": [
+    {
+      "@value": "Social psychology"
+    },
+    {
+      "@value": "Contagion (Social psychology)"
+    },
+    {
+      "@value": "Causation"
+    },
+    {
+      "@value": "Context effects (Psychology)"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:19:50.676023"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "publisher": [
+    {
+      "@value": {
+        "@id": "http://intro2libsys.info/Corporation/back-bay-books"
+      }
+    }
+  ],
+  "thumbnailUrl": [
+    {
+      "@value": "tipping-point-thumbnail.png"
+    }
+  ]
 }

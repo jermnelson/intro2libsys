@@ -1,18 +1,55 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab"
-  }, 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
   "@id": "http://intro2libsys.info/SoftwareApplication/svgjs",
-  "@type": "WebApplication", 
+  "@type": "WebApplication",
   "author": [
     {
-
-      "@id": "http://intro2libsys.info/Person/fierens-wout" 
+      "@id": "http://intro2libsys.info/Person/fierens-wout"
     }
-  ], 
-  "description": "A lightweight library for manipulating and animating SVG.",
-  "headline": "SVG.JS", 
-  "name": "svgjs", 
-  "url": "http://svgjs.com/"
+  ],
+  "description": [
+    {
+      "@value": "A lightweight library for manipulating and animating SVG."
+    }
+  ],
+  "headline": [
+    {
+      "@value": "SVG.JS"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:35:45.906537"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "svgjs"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://svgjs.com/"
+    }
+  ]
 }

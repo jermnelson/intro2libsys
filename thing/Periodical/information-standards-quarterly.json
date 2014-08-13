@@ -1,20 +1,47 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/Periodical/information-standards-quarterly", 
-  "@type": "Periodical", 
-  "bf:adminInfo": {
-    "bf:creationDate": "2013-12-30T22:28:09.279000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Periodical/information-standards-quarterly",
+  "@type": "Periodical",
   "hasPeriodicalIssue": [
     {
-     "@id": "http://intro2libsys.info/PeriodicalIssue/information-standards-quarterly-winter-2013"
+      "@value": {
+        "@id": "http://intro2libsys.info/PeriodicalIssue/information-standards-quarterly-winter-2013"
+      }
     }
-  ], 
-  "issn": "1041-0031", 
-  "name": "Information Standards Quarterly"
+  ],
+  "issn": [
+    {
+      "@value": "1041-0031"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:22:40.811035"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-30T22:28:09.279000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Information Standards Quarterly"
+    }
+  ]
 }

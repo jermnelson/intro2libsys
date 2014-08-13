@@ -1,14 +1,35 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/SoftwareApplication/javascript", 
-  "@type": "WebApplication", 
-  "bf:adminInfo": {
-    "bf:creationDate": "2013-12-30T18:24:29.471071", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "headline": "Javascript Programming Language"
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/SoftwareApplication/javascript",
+  "@type": "WebApplication",
+  "headline": [
+    {
+      "@value": "Javascript Programming Language"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:35:45.951541"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-30T18:24:29.471071"
+      }
+    ]
+  }
 }

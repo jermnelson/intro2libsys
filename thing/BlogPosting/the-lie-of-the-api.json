@@ -7,9 +7,7 @@
   "@type": "BlogPosting",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/verborgh-ruben"
-      }
+      "@id": "http://intro2libsys.info/Person/verborgh-ruben"
     }
   ],
   "headline": [

@@ -1,16 +1,62 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab"
-  }, 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
   "@id": "http://intro2libsys.info/SoftwareApplication/flask",
-  "@type": "WebApplication", 
-  "copyrightYear": 2010, 
-  "headline": "Flask Web Microframework",
-  "description": "Flask web development, one drop at a time", 
-  "name": "flask", 
-  "publisher": {
-    "@id": "http://intro2libsys.info/Organization/pocoo-team"  
-  }, 
-  "url": "http://flask.pocoo.org/"
+  "@type": "WebApplication",
+  "copyrightYear": [
+    {
+      "@value": 2010
+    }
+  ],
+  "description": [
+    {
+      "@value": "Flask web development, one drop at a time"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Flask Web Microframework"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:35:45.940540"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "flask"
+    }
+  ],
+  "publisher": [
+    {
+      "@value": {
+        "@id": "http://intro2libsys.info/Organization/pocoo-team"
+      }
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://flask.pocoo.org/"
+    }
+  ]
 }

@@ -1,23 +1,64 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab/"
-  }, 
-  "@id": "http://intro2libsys.info/PublicationIssue/code4lib-journal-issue-12", 
-  "@type": "PublicationIssue", 
-  "bf:adminInfo": {
-    "bf:creationDate": "2014-01-09T22:58:13.620000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "datePublished": "2010-12-21", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/PublicationIssue/code4lib-journal-issue-12",
+  "@type": "PublicationIssue",
+  "datePublished": [
+    {
+      "@value": "2010-12-21"
+    }
+  ],
   "hasArticle": [
-   {"@id": "http://intro2libsys.info/Article/frbrizing-an-e-library-migrating-from-dublin-core-to-frbr-and-mods"}
-  ], 
-  "issueNumber": 12, 
-  "name": "Code4Lib Journal Issue 12", 
-  "partOfPeriodical": {
-    "@id": "http://intro2libsys.info/Periodical/code4lib-journal"
-  }, 
-  "url": "http://journal.code4lib.org/issues/issues/issue19"
+    {
+      "@value": {
+        "@id": "http://intro2libsys.info/Article/frbrizing-an-e-library-migrating-from-dublin-core-to-frbr-and-mods"
+      }
+    }
+  ],
+  "issueNumber": [
+    {
+      "@value": 12
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:23:18.222776"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-09T22:58:13.620000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Code4Lib Journal Issue 12"
+    }
+  ],
+  "partOfPeriodical": [
+    {
+      "@value": {
+        "@id": "http://intro2libsys.info/Periodical/code4lib-journal"
+      }
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://journal.code4lib.org/issues/issues/issue19"
+    }
+  ]
 }

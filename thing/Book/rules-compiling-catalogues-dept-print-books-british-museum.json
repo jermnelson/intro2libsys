@@ -1,15 +1,50 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/" 
-  }, 
-  "@id": "http://intro2libsys.info/Book/rules-compiling-catalogues-dept-print-books-british-museum", 
-  "@type": "Book", 
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Book/rules-compiling-catalogues-dept-print-books-british-museum",
+  "@type": "Book",
   "author": [
     {
       "@id": "http://intro2libsys.info/Person/panizzi-antonio"
     }
-  ], 
-  "bookFormat": "Hardcover", 
-  "headline": "Rules for compiling the catalogues in the Department of Printed Books in the British Museum: Printed by order of the Trustees", 
-  "url": "http://books.google.com/books?id=PIYLAQAAIAAJ"
+  ],
+  "bookFormat": [
+    {
+      "@value": "Hardcover"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Rules for compiling the catalogues in the Department of Printed Books in the British Museum: Printed by order of the Trustees"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:19:50.686024"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://books.google.com/books?id=PIYLAQAAIAAJ"
+    }
+  ]
 }

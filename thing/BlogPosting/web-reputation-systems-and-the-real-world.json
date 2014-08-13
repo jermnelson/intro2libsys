@@ -7,9 +7,7 @@
   "@type": "BlogPosting",
   "author": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Person/farmer-randy"
-      }
+      "@id": "http://intro2libsys.info/Person/farmer-randy"
     }
   ],
   "copyrightYear": [

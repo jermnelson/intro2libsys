@@ -1,18 +1,55 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab"
-  }, 
-  "@id": "https://github.com/RDFLib/rdflib", 
-  "@type": "SoftwareApplication", 
-  "bf:adminInfo": {
-    "bf:creationDate": "2013-12-13T23:12:28.755000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "copyrightYear": 2013, 
-  "description": "RDFLib is a pure Python package work working with RDF", 
-  "headline": "RDFLib", 
-  "name": "rdflib", 
-  "url": "https://github.com/RDFLib/rdflib"
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "https://github.com/RDFLib/rdflib",
+  "@type": "SoftwareApplication",
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "description": [
+    {
+      "@value": "RDFLib is a pure Python package work working with RDF"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "RDFLib"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:35:45.945541"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-13T23:12:28.755000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "rdflib"
+    }
+  ],
+  "url": [
+    {
+      "@value": "https://github.com/RDFLib/rdflib"
+    }
+  ]
 }

@@ -1,18 +1,55 @@
 {
   "@context": {
-    "@vocab": "http://schema.org/", 
-    "bf": "http://bibframe.org/vocab"
-  }, 
-  "@id": "http://intro2libsys.info/SoftwareApplication/jquery", 
-  "@type": "WebApplication", 
-  "bf:adminInfo": {
-    "bf:creationDate": "2013-12-13T23:30:19.868000", 
-    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
-    "bf:descriptionLanguage": "English"
-  }, 
-  "copyrightYear": 2013, 
-  "description": "jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers", 
-  "headline": "jQuery - write less, do more", 
-  "name": "jquery", 
-  "url": "http://jquery.com/"
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/SoftwareApplication/jquery",
+  "@type": "WebApplication",
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "description": [
+    {
+      "@value": "jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "jQuery - write less, do more"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:35:45.937540"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-13T23:30:19.868000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "jquery"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://jquery.com/"
+    }
+  ]
 }
