@@ -1,4 +1,4 @@
-__version_info__ = ('0', '1', '0')
+__version_info__ = ('0', '1', '1')
 __version__ = '.'.join(__version_info__)
 __author__ = "Jeremy Nelson"
 __license__ = 'MIT'
@@ -11,7 +11,11 @@ import os
 import re
 import redis
 import sys
-import urllib2
+
+try:
+    import urllib2.urlparse as urlparse
+except ImportError:
+    import urllib.parse as urlparse
 
 try:
     REDIS_DS = redis.StrictRedis(port=6380)
@@ -30,7 +34,7 @@ PROJECT_HOME = os.path.split(PROJECT_ROOT)[0]
 
 sys.path.append(os.path.join(PROJECT_HOME, 'intro2libsys'))
 from search import Search
-from thing import get_article, THINGS
+from thing import get_article, COMMENTS, THINGS
 from thing.UserInteraction import UserCommentsForm, add_comment, get_comments
 from topics import TOPICS
 
@@ -116,14 +120,14 @@ def organization_name(org_id):
     if not org_id in THINGS['Organization']:
         return
     org = THINGS['Organization'][org_id]
-    return org.get('name')
+    return org.get('name')[0]['@value']
 
 
 
 
 @app.template_filter('local_url')
 def local_url(absolute_url):
-    result = urllib2.urlparse.urlparse(absolute_url)
+    result = urlparse.urlparse(absolute_url)
     return result.path
 
 @app.route("/archive/fall-2012")
@@ -210,20 +214,45 @@ def entity_comment_add(entity,
                        name):
     if not entity in THINGS or not name in THINGS[entity]:
         abort(404)
-    user_id = request.form.get('creator')
-    comment_text = request.form.get('commentText')
+    entity = THINGS[entity][name]
     comment_time = datetime.datetime.strptime(
         request.form.get('commentTime'),
         "%Y-%m-%d %H:%M:%S")
-    discusses = THINGS[entity][name].get('@id')
-    redis_id = add_comment(commentText=comment_text,
-                           commentTime=comment_time,
-                           creator=user_id,
-                           discusses=discusses)
+    comment_file = os.path.join(
+        PROJECT_ROOT,
+        "thing",
+        "UserInteraction",
+        comment_time.strftime("%Y-%m-%d.json"))
+    user_comment = {"@type": "UserComments",
+                    "@context": {"@vocab": "http://schema.org/"},
+                    "creator": [
+                        {"@id": request.form.get('creator')}],
+                    "commentText": [
+                        {"@value": request.form.get('commentText')}],
+                    "commentTime": [
+                        {"@value": comment_time.isoformat()}],
+                    "discusses": [
+                        {"@id":  entity.get('@id')}]}
+    if name in COMMENTS:
+        COMMENTS[name].append(user_comment)
+    else:
+        COMMENTS[name] = [user_comment,]
+    if os.path.exists(comment_file):
+        comments = json.load(open(comment_file))
+        comments.append(user_comment)
+    else:
+        comments =[user_comment,]
+    json.dump(
+        comments,
+        open(comment_file, 'w'),
+        indent=2,
+        sort_keys=True)
 
-    return jsonify({'result': redis_id})
+    return jsonify({'result': True})
 
-
+@app.route("/<entity>/<name>/UserComments")
+def entity_comments_listing(entity, name):
+    return "Entity {} {}".format(entity, name)
 
 
 @app.route("/<entity>/<name>")
@@ -247,8 +276,7 @@ def entity_view(entity,
         else:
             entity['author'][i] = THINGS['Person'][author_id]
     return render_template('entity.html',
-                           comments=get_comments(
-                               entity_id=entity.get('@id')),
+                           comments=COMMENTS.get(name, []),
                            comment_form = UserCommentsForm(),
                            entity=entity,
                            entity_class=entity_class,

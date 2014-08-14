@@ -1,0 +1,80 @@
+[
+  {
+    "@context": {
+      "@vocab": "http://schema.org/"
+    },
+    "@type": "UserComments",
+    "commentText": [
+      {
+        "@value": "Requires mathematical knowledge"
+      }
+    ],
+    "commentTime": [
+      {
+        "@value": "2014-08-14T20:51:56"
+      }
+    ],
+    "creator": [
+      {
+        "@id": "http://intro2libsys.info/Person/nelson-jeremy"
+      }
+    ],
+    "discusses": [
+      {
+        "@id": "http://intro2libsys.info/BlogPosting/bandit-formulations-for-ab-tests-some-intuition"
+      }
+    ]
+  },
+  {
+    "@context": {
+      "@vocab": "http://schema.org/"
+    },
+    "@type": "UserComments",
+    "commentText": [
+      {
+        "@value": "Although I agree with all of these points made in this Blog Posting, I like point 4 as a jumping off point for catalog pull platform."
+      }
+    ],
+    "commentTime": [
+      {
+        "@value": "2014-08-14T21:28:39"
+      }
+    ],
+    "creator": [
+      {
+        "@id": "http://intro2libsys.info/Person/nelson-jeremy"
+      }
+    ],
+    "discusses": [
+      {
+        "@id": "http://intro2libsys.info/BlogPosting/future-not-future"
+      }
+    ]
+  },
+  {
+    "@context": {
+      "@vocab": "http://schema.org/"
+    },
+    "@type": "UserComments",
+    "commentText": [
+      {
+        "@value": "Our data, as used by companies, accumulates with little control on how and why certain online ads are directed towards us; even if the data crumbs we leave may not accurately reflect our personal characteristics."
+      }
+    ],
+    "commentTime": [
+      {
+        "@value": "2014-08-14T22:34:45"
+      }
+    ],
+    "creator": [
+      {
+        "@id": "http://intro2libsys.info/Person/nelson-jeremy"
+      }
+    ],
+    "discusses": [
+      {
+        "@id": "http://intro2libsys.info/Article/data-doppelg\u00e4ngers-and-the-uncanny-valley-of-personalization"
+      }
+    ]
+  }
+]

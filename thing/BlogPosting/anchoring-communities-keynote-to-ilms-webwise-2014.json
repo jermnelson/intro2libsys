@@ -38,6 +38,9 @@
     ],
     "mads:recordChangeDate": [
       {
+        "@value": "2014-08-14T20:49:43.326114"
+      },
+      {
         "@value": "2014-07-31T21:44:01.975202"
       }
     ],
@@ -49,7 +52,7 @@
   },
   "url": [
     {
-      "@value": "http://www.collectionslink.org.uk/blog/2145-anchoring-communities-keynote-to-ilms-webwise-2014"
+      "@value": "http://www.collectionstrust.org.uk/past-posts/anchoring-communities-keynote-to-ilms-webwise-2014"
     }
   ]
 }

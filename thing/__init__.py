@@ -8,6 +8,30 @@ import sys
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 PROJECT_HOME = os.path.split(PROJECT_ROOT)[0]
 
+COMMENTS = {}
+
+walk_result = next(os.walk(
+        os.path.join(
+            PROJECT_HOME,
+            "thing",
+            "UserInteraction")))
+
+for filename in walk_result[2]:
+    if filename.endswith(".json"):
+        daily_comment = json.load(open(os.path.join(
+            PROJECT_HOME,
+            "thing",
+            "UserInteraction",
+            filename)))
+        for comment in daily_comment:
+            for row in comment['discusses']:
+                entity_id = row['@id'].split("/")[-1].split(".")[0]
+                if entity_id in COMMENTS:
+                    COMMENTS[entity_id].append(comment)
+                else:
+                    COMMENTS[entity_id] = [comment,]
+
+
 THINGS = { 'Article': {},
            'BlogPosting': {},
            'Book': {},

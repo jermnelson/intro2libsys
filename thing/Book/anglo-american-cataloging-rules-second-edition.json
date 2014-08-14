@@ -33,6 +33,9 @@
     ],
     "mads:recordChangeDate": [
       {
+        "@value": "2014-08-14T22:15:18.870351"
+      },
+      {
         "@value": "2014-08-13T21:19:50.694025"
       }
     ],
@@ -42,20 +45,11 @@
       }
     ]
   },
-  "publisher": [
+  "publisher": 
     {
-      "@value": {
-        "@type": "Organization",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Chicago",
-          "addressRegion": "Illinois"
-        },
-        "name": "American Library Association",
-        "url": "http://www.ala.org/"
-      }
+      "@id": "http://intro2libsys.info/Organization/american-library-association"
     }
-  ],
+  ,
   "url": [
     {
       "@value": "http://access.rdatoolkit.org/"

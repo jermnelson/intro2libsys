@@ -12,7 +12,7 @@
     <li><a href="{{ url_for('index') }}">Home</a></li>
     <li><a href="{{ url_for('entity_listing', entity=entity_class) }}">{{ entity_class }}</a></li>
     <li class="active"> 
-    {{ entity.get('name') }}
+    {{ entity.get('name')[0]['@value'] }}
     </li>
   </ol>
  </div>
@@ -22,7 +22,7 @@
  <div class="col-md-8">
   <div itemscope itemtype="{{ entity['@type'] }}">
    <h1 itemprop="name">
-    {{ entity.name }}
+    {{ entity.name[0]['@value'] }}
    <div class="btn-group">
    {% if entity.url %}
     <a href="{{ entity.url }}" class="btn btn-default">
@@ -54,13 +54,13 @@
        <li itemscope itemtype="{{ work['@type'] }}">
          <span itemprop="{% if headline in work %}headline{% else %}name{% endif %}">
          <a href="{{ work['@id']|local_url }}">
-         {% if work.headline %}{{ work['headline'] }}{% else %}{{ work['name'] }}{% endif %}
+         {% if work.headline %}{{ work['headline'][0]['@value'] }}{% else %}{{ work['name'][0]['@value'] }}{% endif %}
          </a>
          </span> 
          {{ work['@type'] }}
          {% if work.copyrightYear %}
           published in <span itemprop="copyrightYear">
-         {{ work.copyrightYear }}</span>
+         {{ work.copyrightYear[0]['@value'] }}</span>
         {% endif %} 
        </li>
       {% endfor %}
@@ -73,8 +73,8 @@
     {# START column #}
     <div class="col-md-6 well well-sm">
     <p class="lead">
-     {% if entity.givenName %}<label>Given name:</label><span itemprop="givenName">{{ entity.givenName }}</span><br>{% endif %}
-     {% if entity.familyName %}<label>Family name:</label><span itemprop="familyName">{{ entity.familyName }}</span><br>{% endif %}
+     {% if entity.givenName %}<label>Given name:</label> <span itemprop="givenName">{{ entity.givenName[0]['@value'] }}</span><br>{% endif %}
+     {% if entity.familyName %}<label>Family name:</label> <span itemprop="familyName">{{ entity.familyName[0]['@value'] }}</span><br>{% endif %}
 
     </p>
     {# END column #}

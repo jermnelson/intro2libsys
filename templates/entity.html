@@ -65,7 +65,7 @@
       <div class="panel-body">
       {% for author in entity.author %}
        <li itemscope itemtype="{{ author['@type'] }}">
-         <span itemprop="name">{{ author.name }}</span>
+         <span itemprop="name">{{ author.name[0]['@value'] }}</span>
        </li>
       {% endfor %}
       {# END panel-body #}
@@ -89,9 +89,13 @@
     {% if entity.keywords %}
     <p>
      <strong>Keywords:</strong>
-     {{ ', '.join(entity.keywords) }}
+     {% for keyword in entity.keywords %}
+      {{ keyword['@value'] }}
+     {% endfor %}
+
     </p>
     {% endif %}
+    
     <p>
     {% for item in entity %}
     {{ item }}
@@ -100,8 +104,24 @@
     {% if entity.datePublished %}
     <p class="lead">Published on <span itemprop="datePublished">{{ entity.datePublished[0]['@value'] }}</span>
     {% if entity.publisher %}by {{ entity.publisher['@id']|organization_name }}{% endif %}.
-
     </p>
+
+    <table class="table table-bordered">
+     <tr>
+      <th>Record Event</th>
+      <th>Date</th> 
+     </tr>
+     <tr>
+      <td>Created</td>
+      <td>{{ entity['mads:recordInfo']['mads:recordCreationDate'][0]['@value'] }}</td>
+     </tr>
+     {% for change in entity['mads:recordInfo']["mads:recordChangeDate"] %}
+     <tr>
+      <td>Modified</td>
+      <td>{{ change['@value'] }}</td>
+     </tr>
+     {% endfor %}
+    </table>
 
     {% endif %}
     {# END column #}
@@ -115,7 +135,7 @@
   <form method='POST'
         class="form"
         id="comment-form"
-        action='comment'>
+        action='{{ request.url }}/UserComments/add'>
      {{ comment_form.csrf_token }}
    <div class="form-group">
     <label class="control-label" for='commentTime'>
@@ -146,8 +166,8 @@
   <h4>Prior Comments</h4>
   <ul>
   {% for comment in comments %}
-   <li>{{ comment.commentTime }} by {{ comment.creator }}
-       <p>{{ comment.commentText }}</p>
+   <li>{{ comment.commentTime[0]['@value'] }} by {{ comment.creator[0]['@id'] }}
+       <p>{{ comment.commentText[0]['@value'] }}</p>
    </li>
   {% endfor %}
   </ul>
