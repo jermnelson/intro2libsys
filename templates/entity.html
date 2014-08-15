@@ -65,7 +65,7 @@
       <div class="panel-body">
       {% for author in entity.author %}
        <li itemscope itemtype="{{ author['@type'] }}">
-         <span itemprop="name">{{ author.name[0]['@value'] }}</span>
+         <span itemprop="name">{{ author['@id']|author_name }}</span> 
        </li>
       {% endfor %}
       {# END panel-body #}
@@ -103,7 +103,7 @@
     </p>
     {% if entity.datePublished %}
     <p class="lead">Published on <span itemprop="datePublished">{{ entity.datePublished[0]['@value'] }}</span>
-    {% if entity.publisher %}by {{ entity.publisher['@id']|organization_name }}{% endif %}.
+    {% if entity.publisher %}by {{ entity.publisher[0]['@id']|organization_name }}{% endif %}.
     </p>
 
     <table class="table table-bordered">

@@ -7,7 +7,7 @@
   "@type": "Article",
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/hjrland-birger"
+      "@id": "http://intro2libsys.info/Person/hjørland-birger"
     }
   ],
   "copyrightYear": [
@@ -37,6 +37,9 @@
       }
     ],
     "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-15T20:22:44.835737"
+      },
       {
         "@value": "2014-07-31T21:42:08.225202"
       }

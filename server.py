@@ -187,8 +187,7 @@ def person_view(name):
                     if {"@id": person.get('@id')} in entity.get('creator'):
                         works.append(entity)
     return render_template('person.html',
-                           comments=get_comments(
-                               entity_id=person.get('@id')),
+                           comments=[],
                            comment_form = UserCommentsForm(),
                            entity=person,
                            entity_class='Person',
