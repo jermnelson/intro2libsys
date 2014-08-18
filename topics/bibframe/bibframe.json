@@ -2,7 +2,7 @@
   "@context": {
     "@vocab": "http://schema.org/", 
     "pages": null,
-    "resources": null
+    "readings": null
   }, 
   "@id": "http://intro2libsys.info/topics/bibframe", 
   "@type": "Article", 
@@ -11,8 +11,11 @@
   "pages": [
     "what-is" 
   ], 
-  "resources": [
-
+  "readings": [
+    "bibframe-annotation-model",
+    "bibframe-av-modeling-study-defining-a-flexible-model-for-description-of-audiovisual-resources",
+    "bibframe-resource-types-discussion-paper",
+    "bibframe-use-cases-and-requirements"
 
   ],
   "url": "http://intro2libsys.info/topics/bibframe"

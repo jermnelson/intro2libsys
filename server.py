@@ -34,6 +34,7 @@ PROJECT_HOME = os.path.split(PROJECT_ROOT)[0]
 
 sys.path.append(os.path.join(PROJECT_HOME, 'intro2libsys'))
 from search import Search
+from user import Admin
 from thing import get_article, COMMENTS, THINGS
 from thing.UserInteraction import UserCommentsForm, add_comment, get_comments
 from topics import TOPICS
@@ -57,6 +58,7 @@ for topic_map in topic_maps.get('maps'):
     for topic_id in topic_map.get('jtm:topics'):
         output.get('topics').append(TOPICS[topic_id])
     TOPIC_MAPS.append(output)
+
 
 
 @app.template_filter('author_name')
@@ -155,6 +157,20 @@ def catalog_pull_platform():
     return render_template('catalog-pull-platform.html',
                            comment_form = UserCommentsForm(),
                            topics=TOPICS)
+
+# Login
+@app.route("/login",
+           method=["POST"])
+def login():
+    if request.method == 'POST':
+        iri = request.POST.get('iri')
+        raw_pwd = request.POST.get('pwd')
+
+        login_user()
+
+
+
+
 
 @app.route('/semantic-server')
 def semantic_server():

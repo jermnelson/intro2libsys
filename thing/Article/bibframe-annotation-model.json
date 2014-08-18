@@ -33,6 +33,9 @@
     ],
     "mads:recordChangeDate": [
       {
+        "@value": "2014-08-18T16:36:45.202045"
+      },
+      {
         "@value": "2014-07-31T21:42:08.232202"
       }
     ],
@@ -44,9 +47,7 @@
   },
   "publisher": [
     {
-      "@value": {
         "@id": "http://intro2libsys.info/Organization/library-of-congress"
-      }
     }
   ],
   "url": [

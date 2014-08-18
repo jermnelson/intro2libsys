@@ -1,6 +1,6 @@
 <a href="{{ resource['@id']|local_url }}">
-{% if resource.headline %}{{ resource['headline'] }}{% else %}{{ resource['name'] }}{% endif %}</a>
+{% if resource.headline %}{{ resource['headline'][0]['@value'] }}{% else %}{{ resource['name'][0]['@value'] }}{% endif %}</a>
 - {% if resource.author %}by
 {% for person in resource.author %}{{ person['@id']|author_name|safe }}{% endfor %}{% endif %}
-{% if resource.datePublished %}<strong>Date Published:</strong> {{ resource.datePublished }}{% endif %}
+{% if resource.datePublished %}<strong>Date Published:</strong> {{ resource.datePublished[0]['@value'] }}{% endif %}
 

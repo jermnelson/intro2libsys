@@ -33,10 +33,13 @@
     ],
     "mads:languageOfCataloging": [
       {
-        "@value": ""
+        "@value": "English"
       }
     ],
     "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-18T16:42:13.233026"
+      },
       {
         "@value": "2014-07-31T21:42:08.309702"
       }
@@ -49,9 +52,7 @@
   },
   "publisher": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Organization/library-of-congress"
-      }
+      "@id": "http://intro2libsys.info/Organization/library-of-congress"
     }
   ],
   "url": [

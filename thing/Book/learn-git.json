@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "bf": "http://bibframe.org/vocab/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Book/learn-git",
+  "@type": [
+    {
+      "@value": "Book"
+    }
+  ],
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/chacon-scott"
+    }
+  ],
+  "bookFormat": [
+    {
+      "@value": "EBook"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2014
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Learn Git"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-08-18T16:56:02.507024"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Learn Git"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://gitbookio.gitbooks.io/progit/"
+    }
+  ]
+}

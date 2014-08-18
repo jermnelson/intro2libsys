@@ -1,7 +1,8 @@
 {
   "@context": {
     "@vocab": "http://schema.org/", 
-    "pages": null
+    "pages": null,
+    "readings": null
   }, 
   "@id": "http://intro2libsys.info/topics/git", 
   "@type": "Article", 
@@ -11,5 +12,8 @@
     "what-is", 
     "commands"
   ], 
+  "readings": [
+    "learn-git"
+  ],
   "url": "http://intro2libsys.info/topics/git"
 }
