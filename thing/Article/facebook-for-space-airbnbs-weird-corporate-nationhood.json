@@ -16,16 +16,12 @@
   ],
   "copyrightYear": [
     {
-      "@value": {
         "@value": 2014
-      }
     }
   ],
   "datePublished": [
     {
-      "@value": {
         "@value": "2014-07-26"
-      }
     }
   ],
   "headline": [
@@ -44,6 +40,11 @@
         "@value": "English"
       }
     ],
+    "mads:recordChangeDate": [
+    {
+        "@value": "2014-08-19T15:17:47.580581"
+    }
+    ],
     "mads:recordCreationDate": [
       {
         "@value": "2014-07-30T15:22:59.346397"
@@ -52,9 +53,7 @@
   },
   "url": [
     {
-      "@value": {
-        "@id": "http://www.dissentmagazine.org/blog/facebook-for-space-airbnbs-weird-corporate-nationhood"
-      }
+        "@value": "http://www.dissentmagazine.org/blog/facebook-for-space-airbnbs-weird-corporate-nationhood"
     }
   ]
 }

@@ -29,6 +29,9 @@
     ],
     "mads:recordChangeDate": [
       {
+        "@value": "2014-08-19T14:59:49.844984"
+      },
+      {
         "@value": "2014-07-31T21:42:08.244202"
       }
     ],
@@ -40,7 +43,7 @@
   },
   "url": [
     {
-      "@value": "http://sloan.stanford.edu/mousesite/Archive/Post68/Special1961.html"
+      "@value": "http://web.stanford.edu/dept/SUL/library/extra4/sloan/mousesite/Archive/Post68/Special1961.html"
     }
   ]
 }

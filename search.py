@@ -63,8 +63,7 @@ def add_document(key,
     ingestion_log = json.load(open(os.path.join(
         os.path.dirname(__file__),
         'log',
-        'ingestion-log.json'),
-        'rb'))
+        'ingestion-log.json')))
     writer = INDEXER.writer()
     writer.add_document(resource_key=key,
                         name=name,

@@ -160,7 +160,7 @@ def catalog_pull_platform():
 
 # Login
 @app.route("/login",
-           method=["POST"])
+           methods=["POST"])
 def login():
     if request.method == 'POST':
         iri = request.POST.get('iri')

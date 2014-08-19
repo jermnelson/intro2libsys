@@ -39,10 +39,13 @@
     ],
     "mads:languageOfCataloging": [
       {
-        "@value": ""
+        "@value": "English"
       }
     ],
     "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-19T15:26:44.288702"
+      },
       {
         "@value": "2014-07-31T21:42:08.271202"
       }
@@ -59,7 +62,7 @@
         "oa:annotatedAt": "2013-07-08T21:21:49.355000",
         "oa:annotatedBy": "jeremy.nelson@intro2libsys.info",
         "oa:hasBody": "Often design considerations are absent from Agile Software development, this article introduces the concept of Agile Design",
-        "oa:hasTarget": "http://intro2libsys.info/resources/getting-real-agile-design",
+        "oa:hasTarget": "http://intro2libsys.info/Article/getting-real-agile-design",
         "oa:motivatedBy": "oa:commenting"
       }
     }
@@ -73,7 +76,7 @@
   ],
   "url": [
     {
-      "@value": "http://www.alistapart.com/articles/gettingrealaboutagiledesign/"
+      "@value": "http://alistapart.com/articles/gettingrealaboutagiledesign/"
     }
   ]
 }
