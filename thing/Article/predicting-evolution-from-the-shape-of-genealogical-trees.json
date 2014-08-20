@@ -4,11 +4,21 @@
     "bf": "http://bibframe.org/vocab/",
     "mads": "http://www.loc.gov/standards/mads/"
   },
-  "@id": "http://intro2libsys.info/Article/data-doppelg\u00e4ngers-and-the-uncanny-valley-of-personalization",
-  "@type": "NewsArticle",
+  "@id": "http://intro2libsys.info/Article/predicting-evolution-from-the-shape-of-genealogical-trees",
+  "@type": [
+    {
+      "@value": "ScholarlyArticle"
+    }
+  ],
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/watson-sara"
+      "@id": "http://intro2libsys.info/Person/neher-richard"
+    },
+    {
+      "@id": "http://intro2libsys.info/Person/russell-colin"
+    },
+    {
+      "@id": "http://intro2libsys.info/Person/shraiman-boris"
     }
   ],
   "copyrightYear": [
@@ -18,12 +28,12 @@
   ],
   "datePublished": [
     {
-      "@value": "2014-06-16"
+      "@value": "2014-06-03"
     }
   ],
   "headline": [
     {
-      "@value": "Data Doppelg\u00e4ngers and the Uncanny Valley of Personalization"
+      "@value": "Predicting evolution from the shape of genealogical trees"
     }
   ],
   "mads:recordInfo": {
@@ -39,13 +49,13 @@
     ],
     "mads:recordCreationDate": [
       {
-        "@value": "2014-08-14T22:32:18.275748"
+        "@value": "2014-08-20T16:46:33.308864"
       }
     ]
   },
   "url": [
     {
-      "@value": "http://www.theatlantic.com/technology/archive/2014/06/data-doppelgangers-and-the-uncanny-valley-of-personalization/372780/"
+      "@value": "http://arxiv.org/abs/1406.0789"
     }
   ]
 }
