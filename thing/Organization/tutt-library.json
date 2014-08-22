@@ -9,11 +9,11 @@
     {
       "@value": {
         "@type": "PostalAddress",
-        "addressCountry": "United States of America",
-        "addressLocality": "Colorado Springs",
-        "addressRegion": "Colorado",
-        "postalCode": "80903-3252",
-        "streetAddress": "1021 N. Cascade Avenue"
+        "addressCountry": [{"@id": ""United States of America",
+        "addressLocality": [{"@id": "http://intro2libsys.info/Place/colorado-springs"}],
+        "addressRegion": [{"@id": "http://intro2libsys.info/Place/colorado"}],
+        "postalCode": [{"@value": "80903-3252"}],
+        "streetAddress": [{"@value":"1021 N. Cascade Avenue"}]
       }
     }
   ],
@@ -36,6 +36,10 @@
       }
     ],
     "mads:recordChangeDate": [
+      {
+
+        "@value": "2014-08-22T20:17:13.672360"
+      },
       {
         "@value": "2014-08-13T21:21:23.326287"
       }
