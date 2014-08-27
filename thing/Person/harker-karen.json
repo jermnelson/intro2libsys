@@ -4,8 +4,22 @@
     "bf": "http://bibframe.org/vocab/",
     "mads": "http://www.loc.gov/standards/mads/"
   },
-  "@id": "http://intro2libsys.info/Place/united-states-of-america",
-  "@type": "Country",
+  "@id": "http://intro2libsys.info/Person/harker-karen",
+  "@type": [
+    {
+      "@value": "Person"
+    }
+  ],
+  "familyName": [
+    {
+      "@value": "Harker"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Karen"
+    }
+  ],
   "mads:recordInfo": {
     "mads:descriptionStandards": [
       {
@@ -19,13 +33,18 @@
     ],
     "mads:recordCreationDate": [
       {
-        "@value": "2014-08-27T19:36:13.248541"
+        "@value": "2014-08-27T20:08:15.449541"
       }
     ]
   },
   "name": [
     {
-      "@value": "United States of America"
+      "@value": "Karen R. Harker"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://intro2libsys.info/Person/harker-karen"
     }
   ]
 }

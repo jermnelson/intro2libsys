@@ -42,6 +42,9 @@
     ],
     "mads:recordChangeDate": [
       {
+        "@value": "2014-08-27T20:46:00.608995"
+      },
+      {
         "@value": "2014-07-31T21:42:07.728202"
       }
     ],
@@ -53,7 +56,7 @@
   },
   "url": [
     {
-      "@value": "http://pewinternet.com/Reports/2012/Future-of-Apps-and-Web/Overview.aspx"
+      "@value": "http://www.pewinternet.org/2012/03/23/the-future-of-apps-and-web/"
     }
   ]
 }

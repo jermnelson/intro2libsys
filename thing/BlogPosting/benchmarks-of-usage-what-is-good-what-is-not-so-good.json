@@ -1,32 +1,33 @@
 {
   "@context": {
     "@vocab": "http://schema.org/",
+    "bf": "http://bibframe.org/vocab/",
     "mads": "http://www.loc.gov/standards/mads/"
   },
-  "@id": "http://intro2libsys.info/Article/where-online-services-go-when-they-die",
+  "@id": "http://intro2libsys.info/BlogPosting/benchmarks-of-usage-what-is-good-what-is-not-so-good",
   "@type": [
     {
-      "@value": "Article"
+      "@value": "BlogPosting"
     }
   ],
   "author": [
     {
-      "@id": "http://intro2libsys.info/Person/edwards-benj"
+      "@id": "http://intro2libsys.info/Person/harker-karen"
     }
   ],
   "copyrightYear": [
     {
-        "@value": 2014
+      "@value": 2014
     }
   ],
   "datePublished": [
     {
-        "@value": "2014-07-12"
+      "@value": "2014-08-14"
     }
   ],
   "headline": [
     {
-      "@value": "Where Online Services Go When They Die"
+      "@value": "Benchmarks of usage: What is good? What is not-so-good?"
     }
   ],
   "mads:recordInfo": {
@@ -40,20 +41,15 @@
         "@value": "English"
       }
     ],
-    "mads:recordChangeDate": [
-      {
-        "@value": "2014-08-27T20:37:04.316371"
-      }
-    ],
     "mads:recordCreationDate": [
       {
-        "@value": "2014-07-30T15:04:03.720284"
+        "@value": "2014-08-27T20:13:18.829541"
       }
     ]
   },
   "url": [
     {
-        "@id": "http://www.theatlantic.com/technology/archive/2014/07/where-online-services-go-when-they-die/374099/"
+      "@value": "http://librariesareforuse.wordpress.com/2014/08/14/benchmarks-of-usage-what-is-good-what-is-not-so-good/"
     }
   ]
 }
