@@ -1,0 +1,28 @@
+[
+  {
+    "@context": {
+      "@vocab": "http://schema.org/"
+    },
+    "@type": "UserComments",
+    "commentText": [
+      {
+        "@value": "Frost Data Capital is a Venture Capital that tries to apply \"Big Data\" analytic to their own investing in start-ups with a focus on established and seasoned professionals."
+      }
+    ],
+    "commentTime": [
+      {
+        "@value": "2014-09-01T22:52:52"
+      }
+    ],
+    "creator": [
+      {
+        "@id": "http://intro2libsys.info/Person/nelson-jeremy"
+      }
+    ],
+    "discusses": [
+      {
+        "@id": "http://intro2libsys.info/Article/a-big-data-startup-factory-frost-data-capitals-novel-recipe"
+      }
+    ]
+  }
+]
