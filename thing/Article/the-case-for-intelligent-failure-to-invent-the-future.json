@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "bf": "http://bibframe.org/vocab/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/the-case-for-intelligent-failure-to-invent-the-future",
+  "@type": [
+    {
+      "@value": "Article"
+    }
+  ],
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/khosla-vinod"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2014
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2014-09-02"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "The Case For Intelligent Failure To Invent The Future"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-09-04T14:51:25.262626"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://techcrunch.com/2014/09/02/the-case-for-intelligent-failure-to-invent-the-future/?ncid=rss"
+    }
+  ]
+}
