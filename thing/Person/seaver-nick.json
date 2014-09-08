@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "bf": "http://bibframe.org/vocab/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/seaver-nick",
+  "@type": [
+    {
+      "@value": "Person"
+    }
+  ],
+  "familyName": [
+    {
+      "@value": "Seaver"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Nick"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-09-05T20:15:39.264078"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Nick Seaver"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://intro2libsys.info/Person/seaver-nick"
+    }
+  ]
+}
