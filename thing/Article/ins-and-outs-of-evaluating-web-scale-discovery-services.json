@@ -38,6 +38,9 @@
     ],
     "mads:recordChangeDate": [
       {
+        "@value": "2014-09-11T17:24:37.844742"
+      },
+      {
         "@value": "2014-07-31T21:42:08.263702"
       }
     ],
@@ -49,9 +52,7 @@
   },
   "publisher": [
     {
-      "@value": {
-        "@id": "http://intro2libsys.info/Organization/information-today-inc"
-      }
+     "@id": "http://intro2libsys.info/Organization/information-today-inc"
     }
   ],
   "url": [
