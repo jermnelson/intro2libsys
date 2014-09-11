@@ -108,6 +108,28 @@ def expand_part(part):
                 THINGS[name][part_id].get('name'))
     return
 
+@app.template_filter('get_name')
+def get_name(entity_id):
+    entity_id = entity_id.split("/")[-1]
+    for thing_type in THINGS.keys():
+        if entity_id in THINGS[thing_type]:
+            entity = THINGS[thing_type][entity_id]
+            if 'name' in entity:
+                return entity.get('name')[0]['@value']
+            if 'headline' in entity:
+                return entity.get('headline')[0]['@value']
+
+
+@app.template_filter('get_type')
+def get_type(entity_id):
+    entity_id = entity_id.split("/")[-1]
+    for thing_type in THINGS.keys():
+        if entity_id in THINGS[thing_type]:
+            entity = THINGS[thing_type][entity_id]
+            if type(entity['@type']) == list:
+                return entity['@type'][0]['@value']
+            else:
+                return entity['@type']
 
 
 @app.template_filter('organization_name')

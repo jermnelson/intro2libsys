@@ -73,6 +73,8 @@
      {# END author/creator Panel #}
      </div>
      {% endif %}
+
+
     {# END column #}
     </div>
     {# START column #}
@@ -103,9 +105,27 @@
     </p>
     {% if entity.datePublished %}
     <p class="lead">Published on <span itemprop="datePublished">{{ entity.datePublished[0]['@value'] }}</span>
+    {% endif %}
     {% if entity.publisher %}by {{ entity.publisher[0]['@id']|organization_name }}{% endif %}.
     </p>
 
+    {% if entity.isPartOf %}
+    <h4>Smaller part of:</h4> 
+    <ul>
+    {% for parent in entity.isPartOf %}
+     <li>{{ parent['@id']|get_type }} - <a href="{{ parent['@id']|local_url }}">{{ parent['@id']|get_name }}</a></li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if entity.hasPart %}
+    <h4>Contains:</h4>
+    <ul>
+    {% for child in entity.hasPart %}
+    <li>{{ child['@id']|get_type }} - <a href="{{ child['@id']|local_url }}">{{ child['@id']|get_name }}</a></li>
+    {% endfor %}
+    </ul>
+    {% endif %}
     <table class="table table-bordered">
      <tr>
       <th>Record Event</th>
@@ -123,7 +143,6 @@
      {% endfor %}
     </table>
 
-    {% endif %}
     {# END column #}
     </div>
    {# END row #}
