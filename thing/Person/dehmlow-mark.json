@@ -1,18 +1,23 @@
 {
   "@context": {
     "@vocab": "http://schema.org/",
+    "bf": "http://bibframe.org/vocab/",
     "mads": "http://www.loc.gov/standards/mads/"
   },
-  "@id": "http://intro2libsys.info/Person/hjorland-birger",
-  "@type": "Person",
+  "@id": "http://intro2libsys.info/Person/dehmlow-mark",
+  "@type": [
+    {
+      "@value": "Person"
+    }
+  ],
   "familyName": [
     {
-      "@value": "Hj\u00d8Rland"
+      "@value": "Dehmlow"
     }
   ],
   "givenName": [
     {
-      "@value": "Birger"
+      "@value": "Mark"
     }
   ],
   "mads:recordInfo": {
@@ -26,20 +31,20 @@
         "@value": "English"
       }
     ],
-    "mads:recordChangeDate": [
-      {
-        "@value": "2014-07-31T21:26:01.972202"
-      }
-    ],
     "mads:recordCreationDate": [
       {
-        "@value": "2014-03-03T19:07:59.430000"
+        "@value": "2014-09-18T03:10:54.463651"
       }
     ]
   },
   "name": [
     {
-      "@value": "Birger Hj\u00d8Rland"
+      "@value": "Mark Dehmlow"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://intro2libsys.info/Person/dehmlow-mark"
     }
   ]
 }

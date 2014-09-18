@@ -28,22 +28,25 @@
   "mads:recordInfo": {
     "mads:descriptionStandards": [
       {
-        "@value": ""
+        "@value": "Metadata created using schema.org vocabulary"
       }
     ],
     "mads:languageOfCataloging": [
       {
-        "@value": ""
+        "@value": "English"
       }
     ],
     "mads:recordChangeDate": [
+      {
+        "@value": "2014-09-18T00:57:50.125676"
+      },
       {
         "@value": "2014-07-31T21:42:07.857702"
       }
     ],
     "mads:recordCreationDate": [
       {
-        "@value": ""
+        "@value": "2013-12-18"
       }
     ]
   },
