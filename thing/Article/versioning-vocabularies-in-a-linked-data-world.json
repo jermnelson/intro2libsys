@@ -1,0 +1,61 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "bf": "http://bibframe.org/vocab/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/versioning-vocabularies-in-a-linked-data-world",
+  "@type": [
+    {
+      "@value": "Article"
+    }
+  ],
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/hillman-diane"
+    },
+    {
+      "@id": "http://intro2libsys.info/Person/dunsire-gordon"
+    },
+    {
+      "@id": "http://intro2libsys.info/Person/phipps-jon"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2014
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2014-06-19"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Versioning Vocabularies in a Linked Data World"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-09-19T22:13:32.766370"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://ifla2014-satdata.bnf.fr/pdf/iflalld2014_submission_Hillmann_Dunsire_Phipps.pdf"
+    }
+  ]
+}

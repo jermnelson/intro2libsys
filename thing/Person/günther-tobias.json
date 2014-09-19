@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "bf": "http://bibframe.org/vocab/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/g\u00fcnther-tobias",
+  "@type": [
+    {
+      "@value": "Person"
+    }
+  ],
+  "familyName": [
+    {
+      "@value": "G\u00fcnther"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Tobias"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-09-19T22:33:33.826738"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Tobias G\u00fcnther"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://intro2libsys.info/Person/g\u00fcnther-tobias"
+    }
+  ]
+}
