@@ -251,6 +251,8 @@ def entity_comment_add(entity,
                        name):
     if not entity in THINGS or not name in THINGS[entity]:
         abort(404)
+    if not app.debug:
+        return jsonify({"result": False})
     entity = THINGS[entity][name]
     comment_time = datetime.datetime.strptime(
         request.form.get('commentTime'),
