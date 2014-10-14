@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "bf": "http://bibframe.org/vocab/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/haraway-donna",
+  "@type": [
+    {
+      "@value": "Person"
+    }
+  ],
+  "familyName": [
+    {
+      "@value": "Haraway"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Donna"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-10-09T14:55:35.926944"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Donna Haraway"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://intro2libsys.info/Person/haraway-donna"
+    }
+  ]
+}
