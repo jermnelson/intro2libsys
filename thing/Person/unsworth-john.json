@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "bf": "http://bibframe.org/vocab/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/unsworth-john",
+  "@type": [
+    {
+      "@value": "Person"
+    }
+  ],
+  "familyName": [
+    {
+      "@value": "Unsworth"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "John"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-10-27T18:08:43.390592"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "John Unsworth"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://intro2libsys.info/Person/unsworth-john"
+    }
+  ]
+}
