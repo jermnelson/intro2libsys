@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+
+{% block view_title %}Catalog Pull Platform{% endblock %}
+
+{% block body %}
+<div class="container">
+ {# START navbar #}
+ <div class="row">
+  <div class="col-md-12">
+  {% include 'snippets/navbar.html' %}
+  </div>
+ {# END navbar #}
+ </div>
+ {# START Main Visual row #}
+ <div class="row">
+   <div class="col-md-10 jumbtron">
+     <h2 style="color: #fde277">Colorado College</h2>
+     <h1>Big Idea Pitch</h1>
+     <p class="lead">
+      Software support and consulting start-up for a Catalog Pull Platform based
+      upon research being done at CC and for the Library of Congress. 
+      </p>
+   </div>
+  
+ {# END Main Visual row #}
+ </div>
+ <div class="row">
+   <div class="col-md-4">
+    <h2>The Opportunity</h2>
+    <p>
+      Jeremy Nelson, Colorado College's Metadata and System Librarian, research and software
+      development on library
+      linked data and the semantic web was a critical reason for the Library of Congress 
+      awarding him and a library user-interface design firm <a href="">Influx Design</a> a
+      contract for a new search and display catalog based on their new 
+     <a href="http://bibframe.org/vocab/">BIBFRAME</a> linked-data vocabulary.
+    </p>
+    <p>
+     The library enterprise software 
+      market is ripe for disruption for a new platform that better leverages open-source 
+      cloud-computing technology for significant cost savings for libraries and cultural
+      heritage organizations.
+    </p>
+   </div>
+   <div class="col-md-4 well well-sm">
+    <h2>Why?</h2>
+    <p>Libraries, Museums, &amp; other Cultural Heritage Institutions 
+      need better catalogs for managing and curating existing and new modes of creative
+      and scholarly expressions, data sets both large and small, for 
+      use by people now and future generations. 
+   </p>
+   </div>
+   <div class="col-md-4">
+     <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title">Quick links</h3>
+      </div>
+      <div class="panel-body">
+        <h4></h3>
+        <ul>
+         <li><a href="/dlf-forum-2014-poster">Catalog Pull Platform 60-second technology overview</a></li>
+         <li><a href="http://catalog.coloradocollege.edu">New TIGER Catalog</a></li>
+         <li><a href="https://en.wikipedia.org/wiki/Semantic_Web">Wikipedia article on the Semantic Web</a></li>
+         <li><a href="http://bibframe.org/">BIBFRAME.org</a></li>
+         <li><a href="http://www.americanlibrariesmagazine.org/article/library-systems-report-2014">2014 Library Systems Industry Report</a></li>
+        </ul>
+      </div>
+     </div>
+   </div>
+ </div>
+</div>
+{% endblock %}
+
