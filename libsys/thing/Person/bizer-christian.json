@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "idloc": "http://id.loc.gov",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/bizer-christian",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Bizer"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Christian"
+    }
+  ],
+  "idloc:url": [
+    {
+      "@value": "http://id.loc.gov/authorities/names/no2011070118"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:01.988702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-21T22:51:08.530833"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Christian Bizer"
+    }
+  ]
+}

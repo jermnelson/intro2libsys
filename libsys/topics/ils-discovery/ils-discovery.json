@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "pages": null,
+    "resources": null
+  }, 
+  "@id": "http://intro2libsys.info/topics/ ", 
+  "@type": "Article", 
+  "dateCreated": "2013-07-11T17:55:19.788000", 
+  "name": "Integrated Library Systems and Discovery Layers", 
+  "pages": [
+  ], 
+  "resources": [
+     "automation-marketplace-2013-rush-to-innovate"     
+  ],
+  "url": "http://intro2libsys.info/topics/publisher-library"
+}

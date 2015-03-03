@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/intellect-interests-lib-14th-15th",
+  "@type": "ScholarlyArticle",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/kibre-pearl"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 1946
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "1946-06"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "The Intellectual Interests Reflected in Libraries of the Fourteenth and Fifteenth Centuries"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:07.707202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.jstor.org/stable/2707402"
+    }
+  ]
+}

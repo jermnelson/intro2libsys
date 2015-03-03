@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/you-and-your-research",
+  "@type": "Article",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/hamming-richard"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 1986
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "1986-03-07"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "You and Your Research"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:07.937702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-03-03T18:56:22.139000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.cs.virginia.edu/~robins/YouAndYourResearch.html"
+    }
+  ]
+}

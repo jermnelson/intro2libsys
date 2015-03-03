@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/herman-ivan",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Herman"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Ivan"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:02.658202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-08T23:33:15.345000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Ivan Herman"
+    }
+  ]
+}

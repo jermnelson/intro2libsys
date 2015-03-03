@@ -1,0 +1,23 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "pages": null,
+    "readings": null
+  }, 
+  "@id": "http://intro2libsys.info/topics/publisher-library", 
+  "@type": "Article", 
+  "dateCreated": "2013-07-11T17:55:19.788000", 
+  "name": "The Library as Publisher", 
+  "pages": [
+    "intro",
+    "open-access",
+    "digital-repositories",
+    "ebook-platforms"
+  ], 
+  "readings": [
+    "inevitablity-open-access",
+    "the-web-scale-university-press",
+    "they-keep-using-that-word"
+  ],
+  "url": "http://intro2libsys.info/topics/publisher-library"
+}

@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "bf": "http://bibframe.org/vocab/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/BlogPosting/carpentry-vs-art-whats-the-difference",
+  "@type": [
+    {
+      "@value": "BlogPosting"
+    }
+  ],
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/bogost-ian"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2013-03-19"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Carpentry vs. Art: What\u2019s the Difference?"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-09-05T16:49:15.065470"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://bogost.com/blog/carpentry_vs_art_whats_the_dif/"
+    }
+  ]
+}

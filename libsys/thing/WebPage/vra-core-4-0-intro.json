@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "idloc": "http://id.loc.gov",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/WebPage/vra-core-4-0-intro",
+  "@type": "WebPage",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/de-verges-jolene"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2009
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:36:44.564402"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "VRA Core 4.0 an introduction"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://www.vraweb.org/projects/vracore4/pdfs/VRACore4SEI2009deVerges.pdf"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/growth-development-islamic-libraries",
+  "@type": "ScholarlyArticle",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/dohaish-abdullatif"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Growth and Development of Islamic Libraries"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:07.716702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.salaam.co.uk/knowledge/growth-development-islamic-libraries.pdf"
+    }
+  ]
+}

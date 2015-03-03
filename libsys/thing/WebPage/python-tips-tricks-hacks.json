@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "idloc": "http://id.loc.gov",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/WebPage/python-tips-tricks-hacks",
+  "@type": "WebPage",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/isaacson-david"
+    }
+  ],
+  "description": [
+    {
+      "@value": " Want to write shorter, cleaner code? Have an unfortunate situation where you need to fit as much as you can in one expression? Prefer a quick dose of hacks to spending the rest of your life reading the docs? You've come to the right place."
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Python Tips, Tricks, and Hacks"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:36:44.576403"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.siafoo.net/article/52"
+    }
+  ]
+}

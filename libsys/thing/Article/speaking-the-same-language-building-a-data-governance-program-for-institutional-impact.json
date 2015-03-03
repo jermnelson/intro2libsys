@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/speaking-the-same-language-building-a-data-governance-program-for-institutional-impact",
+  "@type": "Article",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/chapple-michael"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2013-12-06"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Speaking the Same Language: Building a Data Governance Program for Institutional Impact"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:07.921202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-08T21:40:08.004000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.educause.edu/ero/article/speaking-same-language-building-data-governance-program-institutional-impact"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/"
+  }, 
+  "@id": "http://intro2libsys.info/MediaObject/what-we-actually-know-about-software-development", 
+  "@type": "VideoObject", 
+  "bf:adminInfo": {
+    "bf:creationDate": "2014-01-14T04:58:48.623178", 
+    "bf:descriptionConventions": "Using schema.org for descriptive metadata", 
+    "bf:descriptionLanguage": "English"
+  }, 
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/wilson-greg"
+    }
+  ], 
+  "name": "What We Actually Know About Software Development, and Why We Believe It's True", 
+  "url": "http://player.vimeo.com/video/9270320"
+}

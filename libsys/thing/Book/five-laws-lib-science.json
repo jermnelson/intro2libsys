@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "idloc": "http://id.loc.gov",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Book/five-laws-lib-science",
+  "@type": "Book",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/ranganathan-shiyali"
+    }
+  ],
+  "bookFormat": [
+    {
+      "@value": "Book"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 1931
+    }
+  ],
+  "headline": [
+    {
+      "@value": "The Five Laws of Library Science"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:19:50.663022"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://hdl.handle.net/2027/uc1.$b99721"
+    }
+  ]
+}

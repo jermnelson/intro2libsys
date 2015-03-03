@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/BlogPosting/1000-true-fans",
+  "@type": "BlogPosting",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/kelly-kevin"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2008
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2008-03-04"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "1,000 True Fans"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:44:01.975202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-02-14T16:59:23.759905"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://kk.org/thetechnium/archives/2008/03/1000_true_fans.php"
+    }
+  ]
+}

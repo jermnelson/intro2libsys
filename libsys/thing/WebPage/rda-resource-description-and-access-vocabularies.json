@@ -1,0 +1,58 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/WebPage/rda-resource-description-and-access-vocabularies",
+  "@type": "WebApplication",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/hillman-diane"
+    },
+    {
+      "@id": "http://intro2libsys.info/Person/phipps-jon"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2010
+    }
+  ],
+  "headline": [
+    {
+      "@value": "The RDA (Resource Description and Access) Vocabularies"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:36:44.562402"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "rda-resource-description-and-access-vocabularies"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://rdvocab.info/"
+    }
+  ]
+}

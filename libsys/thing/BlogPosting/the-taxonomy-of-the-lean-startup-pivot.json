@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/BlogPosting/the-taxonomy-of-the-lean-startup-pivot",
+  "@type": "BlogPosting",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/kromer-tristan"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2010
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2010-04-13"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "The Taxonomy of the Lean Startup Pivot"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:44:01.977702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-30T14:30:58.414989"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://grasshopperherder.com/the-taxonomy-of-the-lean-startup-pivot/"
+    }
+  ]
+}

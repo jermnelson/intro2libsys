@@ -1,0 +1,66 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/banner-blindness-old-and-new-findings",
+  "@type": "Article",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/nielsen-jakob"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2007
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2007-08-20"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Banner Blindness: Old and New Findings"
+    }
+  ],
+  "keywords": [
+    {
+      "@value": "Advertising"
+    },
+    {
+      "@value": "Eyetracking"
+    },
+    {
+      "@value": "Web Usability"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.304702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-09T19:20:14.066000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.nngroup.com/articles/banner-blindness-old-and-new-findings/"
+    }
+  ]
+}

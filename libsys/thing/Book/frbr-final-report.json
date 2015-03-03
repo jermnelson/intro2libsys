@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Book/frbr-final-report",
+  "@type": "http://schema.org/Book",
+  "bookFormat": [
+    {
+      "@value": "EBook"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Functional Requirements for Bibliographic Records Final Report"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:19:50.670023"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://archive.ifla.org/VII/s13/frbr/frbr.pdf"
+    }
+  ]
+}

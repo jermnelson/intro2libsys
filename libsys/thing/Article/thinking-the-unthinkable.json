@@ -1,0 +1,58 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/thinking-the-unthinkable",
+  "@type": "ScholarlyArticle",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/kortekaas-simone"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2012
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2012-09-04"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Thinking the unthinkable: a library without a catalogue -- Reconsidering the future of discovery tools for Utrecht University library"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-27T21:01:48.462502"
+      },
+      {
+        "@value": "2014-07-31T21:42:08.333702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-19T19:39:15.261000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.libereurope.eu/blog/thinking-the-unthinkable-a-library-without-a-catalogue-reconsidering-the-future-of-discovery-to"
+    }
+  ]
+}

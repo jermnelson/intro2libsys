@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/blame-rich-overeducated-elites-as-our-society-frays",
+  "@type": "Article",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/turchin-peter"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2013-11-20"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Blame Rich, Overeducated Elites as Our Society Frays"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.152702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-02-04T00:15:57.781000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.bloomberg.com/news/2013-11-20/blame-rich-overeducated-elites-as-our-society-frays.html"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/PublicationVolume/library-philosophy-and-practice-volume-15",
+  "@type": "PublicationVolume",
+  "hasPart": [
+    {
+      "@value": {
+        "@id": "http://intro2libsys.info/PublicationIssue/library-philosophy-and-practice-fall-2005"
+      }
+    }
+  ],
+  "isPartOf": [
+    {
+      "@value": {
+        "@id": "http://intro2libsys.info/Periodical/library-philosophy-and-practice"
+      }
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-03-14T17:18:17.790000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Library Philosophy and Practice Volume 15"
+    }
+  ],
+  "volumeNumber": [
+    {
+      "@value": 8
+    }
+  ]
+}

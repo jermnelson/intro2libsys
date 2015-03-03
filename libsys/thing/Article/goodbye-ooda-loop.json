@@ -1,0 +1,58 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/goodbye-ooda-loop",
+  "@type": "Article",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/benson-kevin"
+    },
+    {
+      "@id": "http://intro2libsys.info/Person/rotkoff-steven"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2011
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Goodbye, OODA Loop: A complex world demands a different kind of decision-making"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.016202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Goodbye, OODA Loop"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://www.armedforcesjournal.com/2011/10/6777464/"
+    }
+  ]
+}

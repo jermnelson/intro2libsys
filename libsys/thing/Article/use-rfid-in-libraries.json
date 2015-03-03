@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/use-rfid-in-libraries",
+  "@type": "SholarlyArticle",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/shahid-syed"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2005
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Use of RFID Technology in Libraries: a New Approach to Circulation, Tracking, Inventorying, and Security of Library Materials"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:07.918202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://unllib.unl.edu/LPP/shahid.htm"
+    }
+  ]
+}

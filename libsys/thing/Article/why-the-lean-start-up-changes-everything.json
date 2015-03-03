@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/why-the-lean-start-up-changes-everything",
+  "@type": "ScholarArticle",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/blank-steve"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2013-05-06"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Why the Lean Start-Up Changes Everything"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.155202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-29T17:40:37.672920"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "https://archive.harvardbusiness.org/cla/web/pl/product.seam?c=29512&i=29514&cs=72931baa3b05f76aca8090b33db139b0"
+    }
+  ]
+}

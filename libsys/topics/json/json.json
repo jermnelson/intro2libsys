@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "pages": null
+  }, 
+  "@id": "http://intro2libsys.info/topics/json", 
+  "@type": "Article", 
+  "dateCreated": "2013-03-19T04:23:31.785669", 
+  "name": "JSON - Javascript Object Notation", 
+  "pages": [
+    "what-is"
+  ], 
+  "url": "http://intro2libsys.info/topics/json"
+}

@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/a-good-social-darwinism",
+  "@type": "Article",
+  "author": [
+    {
+        "@id": " http://intro2libsys.info/Person/wilson-david"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2013-07-04"
+    }
+  ],
+  "description": [
+    {
+      "@value": "Evolution has changed all we know about how humans behave, compete and co-operate. When will economics catch up?"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "A good social Darwinism"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-04-29T23:23:03.749000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://aeon.co/magazine/living-together/how-evolution-can-reform-economics/"
+    }
+  ]
+}

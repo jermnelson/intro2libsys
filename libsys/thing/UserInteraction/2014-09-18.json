@@ -1,0 +1,106 @@
+[
+  {
+    "@context": {
+      "@vocab": "http://schema.org/"
+    },
+    "@type": "UserComments",
+    "commentText": [
+      {
+        "@value": "La Grou starts off with a series of nice graphs showing various metrics for technology improvements including Magnetic Data Storage, Cost-per-transistor and predicts that Gestural control, total audio immersion with spherical audio moving towards cheap HUD display."
+      }
+    ],
+    "commentTime": [
+      {
+        "@value": "2014-09-18T00:30:08"
+      }
+    ],
+    "creator": [
+      {
+        "@id": "http://intro2libsys.info/Person/nelson-jeremy"
+      }
+    ],
+    "discusses": [
+      {
+        "@id": "http://intro2libsys.info/Article/the-future-of-audio-engineering"
+      }
+    ]
+  },
+  {
+    "@context": {
+      "@vocab": "http://schema.org/"
+    },
+    "@type": "UserComments",
+    "commentText": [
+      {
+        "@value": "La Grou mildly speculates about the new type of creative expression that will be made possible with these new technologies, saying \"Real-space physicality (e.g., pro audio gear) will be replaced with increasingly sophisticated head-worn virtuality. Trend charts suggest that by 2050, head-worn audio and visual 3D realism will be virtually indistinguishable from real-space. Microphones, cameras, and other front-end capture devices will become 360-degree spatial devices. Post-production will routinely mix, edit, sweeten, and master in head-worn immersion.\"\r\n\r\nHow does the library catalog handle these new and comping creative objects?"
+      }
+    ],
+    "commentTime": [
+      {
+        "@value": "2014-09-18T00:30:08"
+      }
+    ],
+    "creator": [
+      {
+        "@id": "http://intro2libsys.info/Person/nelson-jeremy"
+      }
+    ],
+    "discusses": [
+      {
+        "@id": "http://intro2libsys.info/Article/the-future-of-audio-engineering"
+      }
+    ]
+  },
+  {
+    "@context": {
+      "@vocab": "http://schema.org/"
+    },
+    "@type": "UserComments",
+    "commentText": [
+      {
+        "@value": "This quote from page 16 about how the infrastructure surrounding books has always been more complex and richer and are starting to provide IOT services starting in the pre-digital world:\r\n\"They [referring to the book infrastructure] combined to lend the book its most powerful qualities in the late age of print: ubiquity, fungibility, a finely-evolved balance of durability and disposability, the capacity to act as a consumer good that can be tracked from printing plant to bindery to shipping center to shop to resale network to pulping station\"\r\n"
+      }
+    ],
+    "commentTime": [
+      {
+        "@value": "2014-09-18T01:11:22"
+      }
+    ],
+    "creator": [
+      {
+        "@id": "http://intro2libsys.info/Person/nelson-jeremy"
+      }
+    ],
+    "discusses": [
+      {
+        "@id": "http://intro2libsys.info/Book/the-library-beyond-the-book"
+      }
+    ]
+  },
+  {
+    "@context": {
+      "@vocab": "http://schema.org/"
+    },
+    "@type": "UserComments",
+    "commentText": [
+      {
+        "@value": "Quote from page 18\r\n\r\n\"Nearly every book and every document now lives multichannel lives, raising a tangle of questions about the boundary between the world of information and the world of objects\""
+      }
+    ],
+    "commentTime": [
+      {
+        "@value": "2014-09-18T01:18:16"
+      }
+    ],
+    "creator": [
+      {
+        "@id": "http://intro2libsys.info/Person/nelson-jeremy"
+      }
+    ],
+    "discusses": [
+      {
+        "@id": "http://intro2libsys.info/Book/the-library-beyond-the-book"
+      }
+    ]
+  }
+]

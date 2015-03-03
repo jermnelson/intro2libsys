@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/adida-ben",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Adida"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Ben"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:03.044702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-08T23:33:53.242000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Ben Adida"
+    }
+  ]
+}

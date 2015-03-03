@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "bf": "http://bibframe.org/vocab/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/are-your-internal-systems-damaging-your-business",
+  "@type": [
+    {
+      "@value": "Article"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2014
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2014-09-12"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Are Your Internal Systems Damaging Your Business?"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-09-14T18:58:40.479886"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.smashingmagazine.com/2014/09/12/are-your-internal-systems-damaging-your-business/"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "pages": null,
+    "readings": null
+  }, 
+  "@id": "http://intro2libsys.info/topics/other-hardware-software", 
+  "@type": "Article", 
+  "dateCreated": "2013-03-19T04:28:55.950323", 
+  "name": "Other Library Technology Hardware and Software", 
+  "pages": [
+  ],
+  "readings": [
+  ],
+  "url": "http://intro2libsys.info/topics/other-hardware-software"
+}

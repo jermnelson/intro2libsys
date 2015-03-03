@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "bf": "http://bibframe.org/vocab/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/the-rise-of-data-and-the-death-of-politics",
+  "@type": "NewsArticle",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/morozov-evgeny"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2014
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2014-07-20"
+    }
+  ],
+  "description": [
+    {
+      "@value": "The rise of data and the death of politics\nTech pioneers in the US are advocating a new data-based approach to governance - 'algorithmic regulation'. But if technology provides the answers to society's problems, what happens to governments?"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "The rise of data and the death of politics"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-08-25T14:59:43.302191"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.theguardian.com/technology/2014/jul/20/rise-of-data-death-of-politics-evgeny-morozov-algorithmic-regulation"
+    }
+  ]
+}

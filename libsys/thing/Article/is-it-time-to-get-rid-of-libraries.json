@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/is-it-time-to-get-rid-of-libraries",
+  "@type": "Article",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/greenfield-daniel"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2013-07-01"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Is It Time to Get Rid of Libraries?"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:07.899202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-03-03T18:54:01.267000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.frontpagemag.com/2013/dgreenfield/is-it-time-to-get-rid-of-libraries/"
+    }
+  ]
+}

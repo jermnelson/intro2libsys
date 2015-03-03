@@ -1,0 +1,46 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "idloc": "http://id.loc.gov",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Webpage/git-magic",
+  "@type": "http://schema.org/WebPage",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/lynn-ben"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:36:44.491395"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Git Magic"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://www-cs-students.stanford.edu/~blynn/gitmagic/"
+    }
+  ]
+}

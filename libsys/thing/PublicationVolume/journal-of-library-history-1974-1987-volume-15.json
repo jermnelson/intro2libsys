@@ -1,0 +1,63 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/PublicationVolume/journal-of-library-history-1974-1987-volume-15",
+  "@type": "PublicationVolume",
+  "hasPart": [
+    {
+      "@value": {
+        "@id": "http://intro2libsys.info/PublicationIssue/journal-of-library-history-1974-1987-summer-1981"
+      }
+    }
+  ],
+  "isPartOf": [
+    {
+      "@value": {
+        "@id": "http://intro2libsys.info/Periodical/journal-of-library-history-1974-1987"
+      }
+    }
+  ],
+  "loc:recordInfo": [
+    {
+      "@value": {
+        "loc:descriptionStandards": "Using schema.org for descriptive metadata",
+        "loc:languageOfCataloging": "English",
+        "loc:recordCreationDate": "2014-03-14T17:05:08.705000"
+      }
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:23:53.033257"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Journal of Library History (1974-1987) Volume 15"
+    }
+  ],
+  "volumeNumber": [
+    {
+      "@value": 16
+    }
+  ]
+}

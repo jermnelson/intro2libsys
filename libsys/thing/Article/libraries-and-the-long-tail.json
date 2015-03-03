@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/libraries-and-the-long-tail",
+  "@type": "ScholarlyArticle",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/dempsey-lorcan"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2006
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2006-04"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Libraries and the Long Tail"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:07.665702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-28T13:44:58.824917"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.dlib.org/dlib/april06/dempsey/04dempsey.html"
+    }
+  ]
+}

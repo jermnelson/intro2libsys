@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/welker-josh",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Welker"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Josh"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:02.956702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-06-02T13:02:06.043034"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Josh Welker"
+    }
+  ]
+}

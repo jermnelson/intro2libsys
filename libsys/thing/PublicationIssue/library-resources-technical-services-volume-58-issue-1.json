@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "bf": "http://bibframe.org/vocab/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/PublicationIssue/library-resources-technical-services-volume-58-issue-1",
+  "@type": [
+    {
+      "@value": "PublicationIssue"
+    }
+  ],
+  "hasPart": [
+    {
+      "@id": "http://intro2libsys.info/Article/evaluating-library-discovery-tools-through-a-music-lens"
+    }
+  ],
+  "isPartOf": [
+    {
+      "@id": "http://intro2libsys.info/PublicationVolume/library-resources-technical-services-volume-58"
+    }
+  ],
+  "issueNumber": [
+    {
+      "@value": 1
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-09-11T23:19:35.672878"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Library Resources & Technical Services Volume 58 Issue 1"
+    }
+  ]
+}

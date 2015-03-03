@@ -1,0 +1,89 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/how-to-defeat-big-brother",
+  "@type": "Article",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/leonard-andrew"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2013-12-27"
+    }
+  ],
+  "description": [
+    {
+      "@value": "In 2013, we learned the terrifying scope of modern surveillance. Now it's time to fight back"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "How to defeat Big Brother"
+    }
+  ],
+  "keywords": [
+    {
+      "@value": "Surveillance"
+    },
+    {
+      "@value": "panopticon"
+    },
+    {
+      "@value": "Netflix"
+    },
+    {
+      "@value": "Facebook"
+    },
+    {
+      "@value": "Edward Snowden"
+    },
+    {
+      "@value": "Big Brother"
+    },
+    {
+      "@value": "Best of 2013"
+    },
+    {
+      "@value": "Technology News"
+    },
+    {
+      "@value": "Politics News"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.274202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-09T00:49:54.764000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.salon.com/2013/12/27/how_to_defeat_big_brother/"
+    }
+  ]
+}

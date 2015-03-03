@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys/WebPage/marc",
+  "@type": "CollectionPage",
+  "description": [
+    {
+      "@value": "The MARC formats are standards for the representation and communication of bibliographic and related information in machine-readable form."
+    }
+  ],
+  "headline": [
+    {
+      "@value": "MARC STANDARDS"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:36:44.542400"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-14T23:11:15.153127"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "marc"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://loc.gov/marc/"
+    }
+  ]
+}

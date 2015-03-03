@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "pages": null,
+    "readings": null
+  }, 
+  "@id": "http://intro2libsys.info/topics/bibframe", 
+  "@type": "Article", 
+  "dateCreated": "2013-03-19T04:02:21.855513", 
+  "name": "BIBFRAME - Bibliographic Framework Model", 
+  "pages": [
+    "what-is" 
+  ], 
+  "readings": [
+    "bibframe-annotation-model",
+    "bibframe-av-modeling-study-defining-a-flexible-model-for-description-of-audiovisual-resources",
+    "bibframe-resource-types-discussion-paper",
+    "bibframe-use-cases-and-requirements"
+
+  ],
+  "url": "http://intro2libsys.info/topics/bibframe"
+}

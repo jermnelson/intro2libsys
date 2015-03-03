@@ -1,0 +1,69 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/from-exponential-technologies-to-exponential-innovation",
+  "@type": "Article",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/hagel-john"
+    },
+    {
+      "@id": "http://intro2libsys.info/Person/brown-john-seely"
+    },
+    {
+      "@id": "http://intro2libsys.info/Person/samoylova-tamara"
+    },
+    {
+      "@id": "http://intro2libsys.info/Person/lui-michael"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2013-10-04"
+    }
+  ],
+  "description": [
+    {
+      "@value": "Exponentially advancing digital technologies have led to exponentially accelerating innovation, making the environment increasingly difficult to navigate-but also opening the door to opportunity."
+    }
+  ],
+  "headline": [
+    {
+      "@value": "From exponential technologies to exponential innovation"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:07.881702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-09T22:24:40.999000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://dupress.com/articles/from-exponential-technologies-to-exponential-innovation/"
+    }
+  ]
+}

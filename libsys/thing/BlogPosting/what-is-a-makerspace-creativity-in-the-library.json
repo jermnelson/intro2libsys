@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/BlogPosting/what-is-a-makerspace-creativity-in-the-library",
+  "@type": "BlogPosting",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/bagley-caitlin"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2012
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2012-12-20"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "What is a Makerspace? Creativity in the Library"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-03-14T18:19:10.552000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.alatechsource.org/blog/2012/12/what-is-a-makerspace-creativity-in-the-library.html"
+    }
+  ]
+}

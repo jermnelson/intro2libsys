@@ -1,0 +1,40 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Organization/pocoo-team",
+  "@type": "Organization",
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:21:23.428298"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-30T17:32:50.365343"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Pocoo Team"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://www.pocoo.org"
+    }
+  ]
+}

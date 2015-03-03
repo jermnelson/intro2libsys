@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "bf": "http://bibframe.org/vocab/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/the-importance-of-failure",
+  "@type": [
+    {
+      "@value": "Article"
+    }
+  ],
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/unsworth-john"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 1997
+    }
+  ],
+  "headline": [
+    {
+      "@value": "The Importance of Failure"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-10-27T18:12:59.241724"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "https://www.ideals.illinois.edu/handle/2142/192"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libys.info/Article/linking-things-on-the-web",
+  "@type": "ScholarlyArticle",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/summers-ed",
+      "bf:authorizedAccessPoint": "Summers, Ed"
+    },
+    {
+      "@id": "http://intro2libsys.info/Person/salo-dorothea",
+      "bf:authorizedAccessPoint": "Salo, Dorothea"
+    }
+  ],
+  "bookFormat": [
+    {
+      "@value": "EBook"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2013-02-19"
+    }
+  ],
+  "description": [
+    {
+      "@value": "Short Ebook on Linked Data in the cultural heritage sector: libraries, archives and museums"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Linking Things on the Web: A Pragmatic Examination of Linked Data for Libraries, Archives and Museums"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:07.992202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-12T23:22:13.566000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "linking-things-on-the-web-a-pragmatic-examination-of-linked-data-for-libraries-archives-and-museums"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://arxiv.org/abs/1302.4591"
+    }
+  ]
+}

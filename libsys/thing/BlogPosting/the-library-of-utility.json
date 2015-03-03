@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/BlogPosting/the-library-of-utility",
+  "@type": "BlogPosting",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/kelly-kevin"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2011
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2011-04-24"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "The Library of Utility"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:44:01.977202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-02-06T04:37:09.991000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://kk.org/thetechnium/archives/2011/04/the_library_of.php"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "idloc": "http://id.loc.gov",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/onix-the-metadata-standard",
+  "@type": "ScholarlyArticle",
+  "headline": [
+    {
+      "@value": "ONIX: The Metadata Standard for the Information and Entertainment Industries"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.018702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://webcentral.du.edu/cp/grouptools/fileshare/71820/7341/ONIXMetadataStandardforInformationEntertainmentIndustries.pdf"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "bf": "http://bibframe.org/vocab/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/big-brother-is-watching-youthrough-your-metadata",
+  "@type": [
+    {
+      "@value": "Article"
+    }
+  ],
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/sirota-david"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2014
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2014-10-09"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Big Brother Is Watching You\u2014Through Your Metadata"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-10-14T15:16:22.140750"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://inthesetimes.com/article/17242/how_big_brother_can_watch_you_with_metadata"
+    }
+  ]
+}

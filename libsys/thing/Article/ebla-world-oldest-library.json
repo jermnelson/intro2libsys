@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "idloc": "http://id.loc.gov",
+    "mads": "http://www.loc.gov/standards/mads/",
+    "pages": null
+  },
+  "@id": "http://intro2libsys.info/Article/ebla-world-oldest-library",
+  "@type": "ScholarlyArticle",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/wellisch-hans"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 1981
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "Summer, 1981"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Ebla: The World's Oldest Library"
+    }
+  ],
+  "keywords": [
+    {
+      "@value": "library history"
+    },
+    {
+      "@value": "middle east"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:07.942202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "The Journal of Library History (1974-1987)"
+    }
+  ],
+  "pages": [
+    {
+      "@value": {
+        "end": 500,
+        "start": 488
+      }
+    }
+  ],
+  "publisher": [
+    {
+      "@value": {
+        "@id": "http://intro2libsys.info/Organization/university-of-texas-press"
+      }
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://www.jstor.org/stable/25541212"
+    }
+  ]
+}

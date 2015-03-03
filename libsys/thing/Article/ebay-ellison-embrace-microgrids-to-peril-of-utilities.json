@@ -1,0 +1,53 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/ebay-ellison-embrace-microgrids-to-peril-of-utilities",
+  "@type": "Article",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/wells-ken"
+    },
+    {
+      "@id": "http://intro2libsys.info/Person/chediak-mark"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2013-10-20"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "EBay, Ellison Embrace Microgrids to Peril of Utilities"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-05-12T16:25:04.933343"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.bloomberg.com/news/2013-10-17/ebay-to-ellison-embrace-microgrids-in-threat-to-utilities.html"
+    }
+  ]
+}

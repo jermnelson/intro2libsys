@@ -1,0 +1,41 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Periodical/washington-post",
+  "@type": "Periodical",
+  "hasPeriodicalIssue": [],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:22:40.816036"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-07T18:05:28.896000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Washington Post"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://www.washingtonpost.com/"
+    }
+  ]
+}

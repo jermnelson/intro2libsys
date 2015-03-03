@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "bf": "http://bibframe.org/vocab/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/BlogPosting/who-are-you-empowering",
+  "@type": [
+    {
+      "@value": "BlogPosting"
+    }
+  ],
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/rundle-hugh"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2014
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2014-05-21"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Who are you empowering?"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-10-01T16:56:38.344667"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.inthelibrarywiththeleadpipe.org/2014/who-are-you-empowering/"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/rose-joel",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Rose"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Joel"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:01.977702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-03-14T18:20:27.637000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Joel Rose"
+    }
+  ]
+}

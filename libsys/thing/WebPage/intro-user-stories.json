@@ -1,0 +1,68 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "idloc": "http://id.loc.gov",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/WebPage/intro-user-stories",
+  "@type": "WebPage",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/ambler-scott"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2012
+    }
+  ],
+  "keywords": [
+    {
+      "@value": "agile software development"
+    },
+    {
+      "@value": "user stories"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:36:44.511397"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Introduction to User Stories"
+    }
+  ],
+  "publisher": [
+    {
+      "@value": {
+        "@type": "Corporation",
+        "name": "Scott Ambler + Associates",
+        "url": "http://scottambler.com/"
+      }
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://www.agilemodeling.com/artifacts/userStory.htm"
+    }
+  ]
+}

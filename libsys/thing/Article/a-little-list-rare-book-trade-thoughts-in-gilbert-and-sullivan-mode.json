@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/a-little-list-rare-book-trade-thoughts-in-gilbert-and-sullivan-mode",
+  "@type": "Article",
+  "author": [
+    {
+        "@id": "http://intro2libsys.info/Person/kugelberg-johan"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2014
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2014-06-11"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "A Little List: Rare Book Trade Thoughts in Gilbert-and-Sullivan Mode"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-06-19T14:53:07.256954"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.huffingtonpost.co.uk/johan-kugelberg/a-little-list-rare-book-t_b_5469181.html"
+    }
+  ]
+}

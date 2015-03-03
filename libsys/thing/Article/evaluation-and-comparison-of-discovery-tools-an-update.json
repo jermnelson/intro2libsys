@@ -1,0 +1,68 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "bf": "http://bibframe.org/vocab/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/evaluation-and-comparison-of-discovery-tools-an-update",
+  "@type": [
+    {
+      "@value": "Article"
+    }
+  ],
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/chickering-william"
+    },
+    {
+      "@id": "http://intro2libsys.info/Person/yang-sharon"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2014
+    }
+  ],
+  "description": [
+    {
+      "@value": "Selection and implementation of a web-scale discovery tool by the Rider University Libraries (RUL) in the 2011\u20132012 academic year revealed that the endeavor was a complex one. Research into the state of adoption of web-scale discovery tools in North America and the evolution of product effectiveness provided a good starting point. In the following study, we evaluated fourteen major discovery tools (three open source and ten proprietary), benchmarking sixteen criteria recognized as the advanced features of a \u201cnext generation catalog.\u201d Some of the features have been used in previous research on discovery tools. The purpose of the study was to evaluate and compare all the major discovery tools, and the findings serve to update librarians on the latest developments and user interfaces and to assist them in their adoption of a discovery tool."
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Evaluation and Comparison of Discovery Tools: An Update."
+    }
+  ],
+  "isPartOf": [
+    {
+      "@id": "http://intro2libsys.info/PublicationIssue/information-technology-libraries-volume-33-issue-2"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-09-11T17:41:38.203019"
+      }
+    ]
+  },
+  "pageEnd": [
+    {
+      "@value": 30
+    }
+  ],
+  "pageStart": [
+    {
+      "@value": 5
+    }
+  ]
+}

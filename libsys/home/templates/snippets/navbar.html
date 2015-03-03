@@ -1,0 +1,85 @@
+<nav class="navbar navbar-default" 
+        role="navigation">
+    <div class="navbar-header">
+     <button type="button" 
+             class="navbar-toggle" 
+             data-toggle="collapse" 
+             data-target="#intro2libsys-navbar">
+      <span class="sr-only">Toggle Naivation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="/">Introduction to Library Systems</a>
+    </div>
+    <div class="collapse navbar-collapse" id="intro2libsys-navbar">
+    <ul class="nav navbar-nav">
+      <li {% if page == 'about' %}class="active"{% endif %}><a href="/about">About</a></li>
+      <li class="dropdown{% if page == 'topics' %} active{% endif %}">
+        <a href="{{ url_for('topics') }}" class="dropdown-toggle" data-toggle="dropdown">
+          Topics <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+         <li><a href="/introduction-to-redis">Introduction to Redis</a></li>
+        {% for topic in topics|dictsort %}
+         <li><a href="/topics/{{ topic[0] }}">{{ topic[1].headline }}</a></li>
+        {% endfor %}
+        </ul> 
+      </li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+         Resources <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+         <li class="dropdown-header">Citations</li>
+         <li><a href="{{ url_for('entity_listing', entity='Article') }}">Articles</a></li> 
+         <li><a href="{{ url_for('entity_listing', entity='BlogPosting') }}">Blog Postings</a></li> 
+         <li><a href="{{ url_for('entity_listing', entity='Book') }}">Books</a></li> 
+         <li><a href="{{ url_for('entity_listing', entity='MediaObject') }}">Media Objects</a></li> 
+         <li><a href="{{ url_for('entity_listing', entity='Organization') }}">Organizations</a></li> 
+         <li><a href="{{ url_for('entity_listing', entity='Person') }}">People</a></li> 
+         <li><a href="{{ url_for('entity_listing', entity='Periodical') }}">Periodicals</a></li> 
+         <li><a href="{{ url_for('entity_listing', entity='PublicationIssue') }}">Publication Issues</a></li> 
+         <li><a href="{{ url_for('entity_listing', entity='PublicationVolume') }}">Publication Volumes</a></li> 
+         <li><a href="{{ url_for('entity_listing', entity='SoftwareApplication') }}">Software Applications</a></li> 
+         <li><a href="{{ url_for('entity_listing', entity='WebPage') }}">Web Pages</a></li> 
+         <li class="dropdown-header">IPython Notebooks</li>
+         <li class="dropdown-header">Archive</li>
+         <li><a href="/archive/fall-2012">Intro2libsys.info Fall 2012</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+         Presentations <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+         <li class="dropdown-header">2015</li>
+         <li><a href="/code4lib-2015">Code4Lib Lightning Talk, February 2015</a></li>
+         <li class="dropdown-header">2014</li>
+         <li><a href="/cc-big-idea-pitch">Colorado College Big Idea, December 18th 2014</a></li>
+         <li><a href="/dlf-forum-2014-poster">Digital Library Forum  Poster, October 27th 2014</a></li>
+         <li><a href="/islandora-camp-2014">Islandora CO Camp, October 15th 2014</a></li>
+         <li><a href="/pycon-2014-poster">PYCON 2014 Poster, April 13th 2014</a></li>
+         <li><a href="/next-library-systems-2014">Next Gen ILS, April 4th 2014</a></li>
+         <li><a href="/coasl-webinar-2014">CoASL RDA &amp; Linked Data Webinar, January 24th 2014</a></li>
+         <li><a href="/lita-webinar-2014">LITA Linked Data Webinar, January 16th 2014</a></li>
+         <li class="dropdown-header">2013</li>
+         <li><a href="http://tuttdemo.coloradocollege.edu/calcon-2013-session/">CALCON 2013 Presentation, October 16h, 2013</a></li>
+         <li><a href="http://tuttdemo.coloradocollege.edu/calli-2013-presentation/">CALLI Presentation, September 24th, 2013</a></li>
+         <li><a href="http://tuttdemo.coloradocollege.edu/metadata-day-2013/">ADR Metadata Day, September 5th, 2013</a></li>
+         <li><a href="http://tuttdemo.coloradocollege.edu/ala2013/">ALA 2013 Presentation, June 30th, 2013</a></li>
+         <li><a href="http://tuttdemo.coloradocollege.edu/code4lib/">
+             Code4Lib Presentation, February 2013</a></li>
+         <li class="dropdown-header">2012</a></li>
+         <li><a href="http://discovery.coloradocollege.edu/code4lib/">Code4Lib Presentation, February 2012</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Assessments</a></li>
+    </ul>
+    <form class="navbar-form navbar-left" 
+          role="search"
+          action="{{ url_for('search') }}"
+          method="GET">
+      <div class="form-group">
+        <input type="text" name="query" class="form-control" placeholder="Search">
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+   </nav>

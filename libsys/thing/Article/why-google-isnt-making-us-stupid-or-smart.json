@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/why-google-isnt-making-us-stupid-or-smart",
+  "@type": "NewsArticle",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/wellmon-chad"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2012
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "Spring, 2012"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Why Google Isn't Making Us Stupid...or Smart"
+    }
+  ],
+  "keywords": [
+    {
+      "@value": "google"
+    },
+    {
+      "@value": "library futures"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.189702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "partOfPeriodical": [
+    {
+      "@value": {
+        "@type": "Periodical",
+        "name": "The Hedgehog Review"
+      }
+    }
+  ],
+  "partOfPeriodicalIssue": [
+    {
+      "@value": {
+        "@type": "PeriodicalIssue",
+        "issueNumber": 1,
+        "volumeNumber": 14
+      }
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://www.iasc-culture.org/THR/THR_article_2012_Spring_Wellmon.php"
+    }
+  ]
+}

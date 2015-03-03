@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/evaluating-usage-library-networked-electronic-resources",
+  "@type": "Article",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/plum-terry"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2005
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Evaluating the Usage of Library Networked Electronic Resources"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:07.803702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.libqual.org/documents/admin/PlumEvaluating%20Networked%20Electronic%20ResourcesGreece050527.doc"
+    }
+  ]
+}

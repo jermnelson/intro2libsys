@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/douglas-county-model-gives-libraries-new-e-book-leverage",
+  "@type": "NewsArticle",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/martin-claire"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2013-11-21"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "\"Douglas County Model\" gives libraries new e-book leverage"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:07.719202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-30T22:01:49.352000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.denverpost.com/news/ci_24567880/douglas-county-model-gives-libraries-new-e-book"
+    }
+  ]
+}

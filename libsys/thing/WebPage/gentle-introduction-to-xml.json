@@ -1,0 +1,59 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "idloc": "http://id.loc.gov",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/WebPage/gentle-introduction-to-xml",
+  "@type": "WebPage",
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2013-07"
+    }
+  ],
+  "keywords": [
+    {
+      "@value": "xml"
+    },
+    {
+      "@value": "markup language"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:36:44.500396"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "A Gentle Introduction to XML"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://www.tei-c.org/release/doc/tei-p5-doc/en/html/SG.html"
+    }
+  ]
+}

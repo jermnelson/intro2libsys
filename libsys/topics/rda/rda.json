@@ -1,0 +1,20 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "pages": null
+  }, 
+  "@id": "http://intro2libsys.info/topics/rda", 
+  "@type": "Article", 
+  "dateCreated": "2013-03-19T03:52:45.885929", 
+  "dateModified": "2013-05-02T04:13:25.076084",
+  "name": "Resource Description and Access (RDA)", 
+  "pages": [
+    "what-is", 
+    "examples"
+  ], 
+  "readings": [
+   "rda-resource-description-and-access-vocabularies",
+   "rda-toolkit"
+  ],
+  "url": "http://intro2libsys.info/topics/rda"
+}

@@ -1,0 +1,57 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/amazon-workers-face-increased-risk-of-mental-illness",
+  "@type": "NewsArticle",
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2013-11-24"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Amazon workers face 'increased risk of mental illness'"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.346702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-19T19:17:30.683000"
+      }
+    ]
+  },
+  "publisher": [
+    {
+      "@value": {
+        "@id": "http://intro2libsys.info/Organization/bbc"
+      }
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://www.bbc.co.uk/news/business-25034598"
+    }
+  ]
+}

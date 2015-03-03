@@ -1,0 +1,35 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Organization/pikes-peak-justice-and-peace-commission",
+  "@type": "NGO",
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-07-09T17:10:32.023597"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Pikes Peak Justice and Peace Commission"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://www.ppjpc.org/"
+    }
+  ]
+}

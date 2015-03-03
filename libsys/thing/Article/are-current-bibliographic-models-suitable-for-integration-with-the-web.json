@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/are-current-bibliographic-models-suitable-for-integration-with-the-web",
+  "@type": "ScholarlyArticle",
+  "author": [
+    {
+        "@id": "http://intro2libsys.info/Person/svensson-lars"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "Winter 2013"
+    }
+  ],
+  "description": [
+    {
+      "@value": "To enable a better integration into modern, web-based workflows, it is important that library (meta) data is not only available on the web, but really an integral part of it, thus helping to build what Tim Berners-Lee calls the Giant Global Graph. Given the structure and rich interlinking of this information, an obvious option to realize this is to publish it as linked data. The publication of library data as linked data not only helps search engines to improve the findability of library resources, it also makes library data (authorities and bibliographic information) more accessible to organizations outside of the library sphere."
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Are Current Bibliographic Models Suitable for Integration with the Web?"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.167202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-07T18:27:24.276000"
+      }
+    ]
+  },
+  "pagination": [
+    {
+      "@value": "6-13"
+    }
+  ],
+  "partOfPeriodical": [
+    {
+      "@value": {
+        "@id": "http://intro2libsys.info/Periodical/information-standards-quarterly"
+      }
+    }
+  ],
+  "partOfPeriodicalIssue": [
+    {
+      "@value": {
+        "@id": "http://intro2libsys.info/PeriodicalIssue/information-standards-quarterly-winter-2013"
+      }
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://www.niso.org/publications/isq/2013/v25no4/svensson/"
+    }
+  ]
+}

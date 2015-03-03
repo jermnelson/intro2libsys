@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/martin-claire",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Martin"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Claire"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:02.389702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-30T21:59:43.947000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Claire Martin"
+    }
+  ]
+}

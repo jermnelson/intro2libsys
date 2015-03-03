@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/power-laws-weblogs-and-inequality",
+  "@type": "Article",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/shirky-clay"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2003
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2003-02-08"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Power Laws, Weblogs, and Inequality"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.315202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-09T00:06:33.912000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.shirky.com/writings/herecomeseverybody/powerlaw_weblog.html"
+    }
+  ]
+}

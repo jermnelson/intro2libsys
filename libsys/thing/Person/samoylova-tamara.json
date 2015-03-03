@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/samoylova-tamara",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Samoylova"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Tamara"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:01.821702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-09T22:12:13.526000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Tamara Samoylova"
+    }
+  ]
+}

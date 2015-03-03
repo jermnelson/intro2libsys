@@ -1,0 +1,64 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Book/understanding-marc-bibliographic",
+  "@type": "Book",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/furrie-betty"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2009
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Understanding MARC Bibliographic: Machine-Readable Cataloging"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:19:50.717027"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-10-10T10:15"
+      }
+    ]
+  },
+  "publisher": [
+    {
+      "@value": {
+        "@type": "GovernmentOrganization",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Washington",
+          "addressRegion": "District of Columbia"
+        },
+        "name": "Library of Congress",
+        "url": "http://loc.gov/"
+      }
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://www.loc.gov/marc/umb/"
+    }
+  ]
+}
