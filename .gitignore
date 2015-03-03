@@ -5,9 +5,8 @@
 *.db
 *.bundle
 *.DS*
-intro2libsys/intro/static*
+instance/*
 _build*
-local_settings.*
 index/*
 nohup.out
 fedora4/*

@@ -34,10 +34,6 @@ class Admin(User):
 
 
 
-
-
-
-
 def main():
     pass
 

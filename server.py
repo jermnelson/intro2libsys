@@ -2,7 +2,7 @@ __version_info__ = ('0', '1', '1')
 __version__ = '.'.join(__version_info__)
 __author__ = "Jeremy Nelson"
 __license__ = 'MIT'
-__copyright__ = '(c) 2012-2014 by Jeremy Nelson'
+__copyright__ = '(c) 2012-2015 by Jeremy Nelson and Intro2libsys.info LLC'
 
 import datetime
 import json
@@ -11,7 +11,7 @@ import os
 import re
 import redis
 import sys
-
+print("BEFORE Any conditional processing")
 try:
     import urllib2.urlparse as urlparse
 except ImportError:
@@ -51,6 +51,7 @@ topic_maps_location = os.path.join(PROJECT_HOME,
                                    "intro2libsys",
                                    "topics",
                                    "topic-maps.json")
+print("Topic map location {}".format(topic_maps_location))
 topic_maps = json.load(open(topic_maps_location))
 
 for topic_map in topic_maps.get('maps'):
@@ -61,90 +62,9 @@ for topic_map in topic_maps.get('maps'):
 
 
 
-@app.template_filter('author_name')
-def author_name(author_id):
-    author_id = author_id.split("/")[-1]
-    if not author_id in THINGS['Person']:
-        return
-    author = THINGS['Person'][author_id]
-    return author.get('name')[0]['@value']
-
-@app.template_filter('author_works')
-def author_works(author_id):
-    author_id = author_id.split("/")[-1]
-    if not author_id in THINGS['Person'] or REDIS_DS is None:
-        return
-    all_work_keys = REDIS_DS.keys("{0}:*".format(author_id))
-    totals = {}
-    for row in all_work_keys:
-        cw_type = row.split(":")[-1]
-        totals[cw_type] = REDIS_DS.scard(row)
-    return totals
 
 
 
-@app.template_filter('copyright_year')
-def copyright_year(thing_id):
-    thing_key = thing_id.split("/")[-1]
-    for key in THINGS.keys():
-        if thing_key in THINGS[key]:
-            if 'copyrightYear' in THINGS[key][thing_key]:
-                return THINGS[key][thing_key].get('copyrightYear')
-            # Tries date published, usually in YYYY-MM-DD
-            elif 'datePublished' in THINGS[key][thing_key]:
-                first_four = THINGS[key][thing_key]['datePublished'][0:4]
-                try:
-                    int(first_four)
-                    return first_four
-                except:
-                    pass
-
-@app.template_filter('expand_part')
-def expand_part(part):
-    part_id = part.split("/")[-1]
-    for name in ['Periodical', 'PublicationIssue', 'PublicationVolume']:
-        if part_id in THINGS[name]:
-            return """<a href="{}">{}</a>""".format(part,
-                THINGS[name][part_id].get('name'))
-    return
-
-@app.template_filter('get_name')
-def get_name(entity_id):
-    entity_id = entity_id.split("/")[-1]
-    for thing_type in THINGS.keys():
-        if entity_id in THINGS[thing_type]:
-            entity = THINGS[thing_type][entity_id]
-            if 'name' in entity:
-                return entity.get('name')[0]['@value']
-            if 'headline' in entity:
-                return entity.get('headline')[0]['@value']
-
-
-@app.template_filter('get_type')
-def get_type(entity_id):
-    entity_id = entity_id.split("/")[-1]
-    for thing_type in THINGS.keys():
-        if entity_id in THINGS[thing_type]:
-            entity = THINGS[thing_type][entity_id]
-            if type(entity['@type']) == list:
-                return entity['@type'][0]['@value']
-            else:
-                return entity['@type']
-
-
-@app.template_filter('organization_name')
-def organization_name(org_id):
-    """
-    Template filter takes an organization ID and returns the organization's
-    name.
-
-    :param org_id: Organization's ID
-    """
-    org_id = org_id.split("/")[-1]
-    if not org_id in THINGS['Organization']:
-        return
-    org = THINGS['Organization'][org_id]
-    return org.get('name')[0]['@value']
 
 
 
@@ -160,25 +80,7 @@ def textbook_archive():
     return """Original Textbook for <a href="/">Introduction to Library Systems</a>
 is currently being migrated to <a href="http://www.gitbook.io/">GitBook</a>."""
 
-# Business Model Canvases
-@app.route("/business-model-canvas/<name>")
-def bmc(name):
-    json_path = os.path.join(PROJECT_ROOT,
-                             "business-model-canvases",
-                             "{}.json".format(name))
-    if not os.path.exists(json_path):
-        raise(404)
-    return render_template('business-model-canvas.html',
-                           org= json.load(open(json_path, 'r')),
-                           comment_form = UserCommentsForm(),
-                           topics=TOPICS)
 
-# Catalog Pull Platform
-@app.route("/catalog-pull-platform")
-def catalog_pull_platform():
-    return render_template('catalog-pull-platform.html',
-                           comment_form = UserCommentsForm(),
-                           topics=TOPICS)
 
 # Login
 @app.route("/login",
@@ -194,43 +96,7 @@ def login():
 
 
 
-@app.route('/semantic-server')
-def semantic_server():
-    return render_template('semantic-server.html',
-                           comment_form = UserCommentsForm(),
-                           topics=TOPICS)
-
 # Special route handling for Person
-@app.route("/Person/<name>")
-def person_view(name):
-    if not name in THINGS['Person']:
-        abort(404)
-    person_filepath = os.path.join(
-        PROJECT_ROOT,
-        "thing",
-        "Person",
-        "{0}.json".format(name))
-    if not os.path.exists(person_filepath):
-        abort(404)
-    person = json.load(open(person_filepath))
-    works = []
-    for key in THINGS.keys():
-        if not key.startswith('Person'):
-            for entity_key in THINGS[key]:
-                entity = THINGS[key][entity_key]
-                if 'author' in entity:
-                    if {"@id": person.get('@id')} in entity.get('author'):
-                        works.append(entity)
-                if 'creator' in entity:
-                    if {"@id": person.get('@id')} in entity.get('creator'):
-                        works.append(entity)
-    return render_template('person.html',
-                           comments=[],
-                           comment_form = UserCommentsForm(),
-                           entity=person,
-                           entity_class='Person',
-                           topics=TOPICS,
-                           works=works)
 
 
 @app.route("/<entity>/<name>.json")
@@ -245,102 +111,16 @@ def entity_json_view(entity,
 ##def entity_comments(entity,
 ##                    name)
 
-@app.route("/<entity>/<name>/UserComments/add",
-           methods=['POST'])
-def entity_comment_add(entity,
-                       name):
-    if not entity in THINGS or not name in THINGS[entity]:
-        abort(404)
-    if not app.debug:
-        return jsonify({"result": False})
-    entity = THINGS[entity][name]
-    comment_time = datetime.datetime.strptime(
-        request.form.get('commentTime'),
-        "%Y-%m-%d %H:%M:%S")
-    comment_file = os.path.join(
-        PROJECT_ROOT,
-        "thing",
-        "UserInteraction",
-        comment_time.strftime("%Y-%m-%d.json"))
-    user_comment = {"@type": "UserComments",
-                    "@context": {"@vocab": "http://schema.org/"},
-                    "creator": [
-                        {"@id": request.form.get('creator')}],
-                    "commentText": [
-                        {"@value": request.form.get('commentText')}],
-                    "commentTime": [
-                        {"@value": comment_time.isoformat()}],
-                    "discusses": [
-                        {"@id":  entity.get('@id')}]}
-    if name in COMMENTS:
-        COMMENTS[name].append(user_comment)
-    else:
-        COMMENTS[name] = [user_comment,]
-    if os.path.exists(comment_file):
-        comments = json.load(open(comment_file))
-        comments.append(user_comment)
-    else:
-        comments =[user_comment,]
-    json.dump(
-        comments,
-        open(comment_file, 'w'),
-        indent=2,
-        sort_keys=True)
 
-    return jsonify({'result': True})
 
 @app.route("/<entity>/<name>/UserComments")
 def entity_comments_listing(entity, name):
     return "Entity {} {}".format(entity, name)
 
 
-@app.route("/<entity>/<name>")
-def entity_view(entity,
-                name):
-    ""
-    entity_class = entity
-    if not entity in THINGS or not name in THINGS[entity]:
-        abort(404)
-    entity_filepath = os.path.join(PROJECT_ROOT,
-                                   "thing",
-                                   entity,
-                                   "{0}.json".format(name))
-    if not os.path.exists(entity_filepath):
-        abort(404)
-    entity = json.load(open(entity_filepath))
-    for i, person_id in enumerate(entity.get('author', [])):
-        author_id = person_id['@id'].split("/")[-1]
-        if not author_id in THINGS['Person']:
-            entity['author'][i] = person_id
-        else:
-            entity['author'][i] = THINGS['Person'][author_id]
-    return render_template('entity.html',
-                           comments=COMMENTS.get(name, []),
-                           comment_form = UserCommentsForm(),
-                           entity=entity,
-                           entity_class=entity_class,
-                           topics=TOPICS)
 
 
-@app.route("/JeremyNelson/<page>.html")
-def JeremyNelson(page=None):
-    if not page:
-        return url_for('page_router', page='about')
-    page_path = os.path.join(PROJECT_ROOT,
-                            'static',
-                            'md',
-                            '{0}.md'.format(page))
-    if os.path.exists(page_path):
-        with open(page_path) as raw_md:
-            raw_mrkdwn = raw_md.read()
-        meta_mrkdwn = markdown.Markdown(extensions=['meta'])
-        mrkdwn_html = meta_mrkdwn.convert(raw_mrkdwn)
-        return render_template('markdown.html',
-                                markdown=mrkdwn_html,
-                                comment_form = UserCommentsForm(),
-                                topics=TOPICS)
-    else:
-        abort(404)
+
 
 @app.route('/topics')
 def topics():
@@ -361,24 +141,6 @@ def display_topic(topic):
                            topic=TOPICS.get(topic),
                            topics=TOPICS)
 
-@app.route("/topics/<topic>/<page>")
-def display_page(topic, page):
-    if not topic in TOPICS:
-        abort(404)
-    file_path = os.path.join(PROJECT_ROOT,
-                             "topics",
-                             topic,
-                             "{0}.md".format(page))
-    if not os.path.exists(file_path):
-        abort(404)
-    meta_mrkdwn = markdown.Markdown(extensions=['meta'])
-    raw_mrkdwn = open(file_path, 'rb').read()
-    mrkdwn_html = meta_mrkdwn.convert(raw_mrkdwn)
-    return render_template('topic-page.html',
-                           comment_form = UserCommentsForm(),
-                           content=mrkdwn_html,
-                           page='topics',
-                           topics=TOPICS)
 
 
 first_char_re = re.compile(r"[a-z]")
@@ -467,6 +229,7 @@ if __name__ == '__main__':
     host = '0.0.0.0'
     port = 8080 # Default
     port = 8081 # Debug
+    print("Before running app")
     app.run(host=host,
             port=port,
             debug=True)

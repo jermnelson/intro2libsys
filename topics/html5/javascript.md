@@ -1,3 +1,0 @@
-Title: Javascript
-
-# Javascript
