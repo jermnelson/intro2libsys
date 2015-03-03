@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<section class="container">
+<div class="row">
+  <section class="col-md-3">
+    <h2>Specifics</h2>
+    <ul>
+     {% for entity in entities|dictsort %}
+     <li><a href="{{ url_for('thing.entity_listing', entity=entity.0) }}">{{ entity.0 }}s</a> ({{ entity.1|length }})</li>
+
+     {% endfor %}
+    </ul>
+  </section>
+  <article class="col-md-8">
+   <h1>Controlled Listing of Resources and Authorities</h1>
+   <p class="lead">These resources are cataloged with <a href="http://schema.org/">schema.org</a> 
+    metadata</a>
+
+  </article>
+</div>
+</section>
+{% endblock %}

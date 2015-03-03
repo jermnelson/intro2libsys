@@ -311,7 +311,7 @@ def add_webpage(info,
 def get_article(article_string):
     # Checks to see if article_string is a URI
     if article_string.startswith("http"):
-        article_name = os.path.split(ariticle_string)[-1]
+        article_name = os.path.split(article_string)[-1]
     else:
         article_name = article_string
     article_path = os.path.join(PROJECT_HOME,
@@ -389,3 +389,4 @@ def update_entity(entity):
 
 
 
+from .views import *

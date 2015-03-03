@@ -143,93 +143,13 @@ def display_topic(topic):
 
 
 
-first_char_re = re.compile(r"[a-z]")
-@app.route('/<entity>s')
-def entity_listing(entity):
-    entity_folderpath = os.path.join(PROJECT_ROOT,
-                                     "thing",
-                                     entity)
-    things = {}
-    if os.path.exists(entity_folderpath):
-        results = next(os.walk(entity_folderpath))
-        total = 0
-        for filename in results[2]:
-            if not filename.endswith("json"):
-                continue
-            filepath = os.path.join(PROJECT_ROOT,
-                                    'thing',
-                                    entity,
-                                    filename)
-            entity_dict = json.load(open(filepath))
-
-            if 'headline' in entity_dict:
-                all_chars = entity_dict.get('headline')[0]['@value'].lower()
-
-            elif 'name' in entity_dict:
-                all_chars = entity_dict.get('name')[0]['@value'].lower()
-            first_char = all_chars[0]
-            if not FIRST_CHAR_RE.search(first_char):
-                for char in all_chars:
-                    if FIRST_CHAR_RE.search(char):
-                        first_char = char
-                        break
-            if not first_char in things:
-                things[first_char] = []
-            things[first_char].append(entity_dict)
-            total += 1
-    sorted_things = OrderedDict()
-    for key in sorted(things):
-        sorted_things[key] = things.get(key)
-    return render_template('entity-listing.html',
-                           comment_form = UserCommentsForm(),
-                           entity=entity,
-                           entities=sorted_things,
-                           topics=TOPICS,
-                           total=total)
-
-@app.route('/search',
-           methods=['POST', 'GET'])
-def search():
-    if 'query' in request.args:
-        query_phrase = request.args.get('query')
-    elif 'query' in request.form:
-        query_phrase = request.form.get('query')
-    else:
-        query_phrase = ''
-    if 'page' in request.args:
-        page = request.args.get('page')
-    elif 'page' in request.form:
-        page = request.form.get('page')
-    else:
-        page = 1
-    results = Search(query_phrase, page)
-    return render_template('search.html',
-                           comment_form = UserCommentsForm(),
-                           query_phrase=query_phrase,
-                           results=results,
-                           topics=TOPICS)
-
-
-@app.route('/<page>')
-def page_router(page):
-    return render_template('{0}.html'.format(page),
-                           comment_form = UserCommentsForm(),
-                           page=page,
-                           topics=TOPICS)
-
-@app.route('/')
-def index():
-    return render_template('index.html',
-                           comment_form = UserCommentsForm(),
-                           topics=TOPICS)
 
 
 
-if __name__ == '__main__':
-    host = '0.0.0.0'
-    port = 8080 # Default
-    port = 8081 # Debug
-    print("Before running app")
-    app.run(host=host,
-            port=port,
-            debug=True)
+
+
+
+
+
+
+

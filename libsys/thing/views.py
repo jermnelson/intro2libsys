@@ -5,11 +5,13 @@ import datetime
 import json
 import os
 import re
+import sys
+import urllib.parse
 from collections import OrderedDict
 from flask import abort, jsonify, render_template, request
 from . import thing, COMMENTS, PROJECT_ROOT, THINGS
 
-@thing.template_filter('author_name')
+@thing.app_template_filter('author_name')
 def author_name(author_id):
     author_id = author_id.split("/")[-1]
     if not author_id in THINGS['Person']:
@@ -17,21 +19,21 @@ def author_name(author_id):
     author = THINGS['Person'][author_id]
     return author.get('name')[0]['@value']
 
-@thing.template_filter('author_works')
+@thing.app_template_filter('author_works')
 def author_works(author_id):
     author_id = author_id.split("/")[-1]
     if not author_id in THINGS['Person']:
         return
-    all_work_keys = REDIS_DS.keys("{0}:*".format(author_id))
+ #   all_work_keys = REDIS_DS.keys("{0}:*".format(author_id))
     totals = {}
-    for row in all_work_keys:
-        cw_type = row.split(":")[-1]
-        totals[cw_type] = REDIS_DS.scard(row)
+#    for row in all_work_keys:
+#        cw_type = row.split(":")[-1]
+  #      totals[cw_type] = REDIS_DS.scard(row)
     return totals
 
 
 
-@thing.template_filter('copyright_year')
+@thing.app_template_filter('copyright_year')
 def copyright_year(thing_id):
     thing_key = thing_id.split("/")[-1]
     for key in THINGS.keys():
@@ -47,7 +49,7 @@ def copyright_year(thing_id):
                 except:
                     pass
 
-@thing.template_filter('expand_part')
+@thing.app_template_filter('expand_part')
 def expand_part(part):
     part_id = part.split("/")[-1]
     for name in ['Periodical', 'PublicationIssue', 'PublicationVolume']:
@@ -56,7 +58,7 @@ def expand_part(part):
                 THINGS[name][part_id].get('name'))
     return
 
-@thing.template_filter('get_name')
+@thing.app_template_filter('get_name')
 def get_name(entity_id):
     entity_id = entity_id.split("/")[-1]
     for thing_type in THINGS.keys():
@@ -68,9 +70,10 @@ def get_name(entity_id):
                 return entity.get('headline')[0]['@value']
 
 
-@thing.template_filter('get_type')
+@thing.app_template_filter('get_type')
 def get_type(entity_id):
     entity_id = entity_id.split("/")[-1]
+    print("Things length is {}".format(THINGS.keys()))
     for thing_type in THINGS.keys():
         if entity_id in THINGS[thing_type]:
             entity = THINGS[thing_type][entity_id]
@@ -79,7 +82,12 @@ def get_type(entity_id):
             else:
                 return entity['@type']
 
-@thing.template_filter('organization_name')
+@thing.app_template_filter('local_url')
+def local_url(absolute_url):
+    result = urllib.parse.urlparse(absolute_url)
+    return result.path
+
+@thing.app_template_filter('organization_name')
 def organization_name(org_id):
     """
     Template filter takes an organization ID and returns the organization's
@@ -98,6 +106,7 @@ def entity_view(entity,
                 name):
     ""
     entity_class = entity
+    print("in thing entity view {} {}".format(entity, name))
     if not entity in THINGS or not name in THINGS[entity]:
         abort(404)
     entity_filepath = os.path.join(PROJECT_ROOT,
@@ -197,7 +206,6 @@ first_char_re = re.compile(r"[a-z]")
 @thing.route('/<entity>s')
 def entity_listing(entity):
     entity_folderpath = os.path.join(PROJECT_ROOT,
-                                     "thing",
                                      entity)
     things = {}
     if os.path.exists(entity_folderpath):
@@ -207,7 +215,6 @@ def entity_listing(entity):
             if not filename.endswith("json"):
                 continue
             filepath = os.path.join(PROJECT_ROOT,
-                                    'thing',
                                     entity,
                                     filename)
             entity_dict = json.load(open(filepath))
@@ -230,7 +237,11 @@ def entity_listing(entity):
     sorted_things = OrderedDict()
     for key in sorted(things):
         sorted_things[key] = things.get(key)
-    return render_template('entity-listing.html',
+    return render_template('thing/entity-listing.html',
                            entity=entity,
                            entities=sorted_things,
-                           total=total)
+                           total=len(sorted_things))
+                           
+@thing.route("/")
+def index():
+    return render_template("thing/index.html", entities=THINGS)
