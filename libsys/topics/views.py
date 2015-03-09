@@ -3,45 +3,43 @@ __license__ = "MIT"
 
 import markdown
 import os
-from . import topics, PROJECT_ROOT, TOPICS, TOPIC_MAPS
-from .forms import UserCommentsForm
+from . import topic_blueprint, PROJECT_ROOT, TOPICS, TOPIC_MAPS
 
 from flask import abort, render_template
 
-@topics.route('/topics')
-def all_topics():
-    return render_template('topics.html',
-                           comment_form = UserCommentsForm(),
-                           page='topics',
-                           topics=TOPICS,
-                           topic_maps=TOPIC_MAPS)
-
-@topics.route("/topics/<topic>")
+@topic_blueprint.route("/<topic>")
 def display_topic(topic):
     "Individual topic view"
     if not topic in TOPICS:
         abort(404)
-    return render_template('topic-detail.html',
-                           comment_form = UserCommentsForm(),
+    return render_template('topics/detail.html',
+                         #  comment_form = UserCommentsForm(),
                            page='topics',
                            topic=TOPICS.get(topic),
                            topics=TOPICS)
 
-@topics.route("/topics/<topic>/<page>")
+@topic_blueprint.route("/<topic>/<page>")
 def display_page(topic, page):
-    if not topic in TOPICS:
+    topic_obj = TOPICS.get(topic)
+    if not topic_obj:
         abort(404)
     file_path = os.path.join(PROJECT_ROOT,
-                             "topics",
                              topic,
                              "{0}.md".format(page))
+    print("File path is {}".format(file_path)) 
     if not os.path.exists(file_path):
         abort(404)
     meta_mrkdwn = markdown.Markdown(extensions=['meta'])
-    raw_mrkdwn = open(file_path, 'rb').read()
+    raw_mrkdwn = open(file_path).read()
     mrkdwn_html = meta_mrkdwn.convert(raw_mrkdwn)
-    return render_template('topic-page.html',
-                           comment_form = UserCommentsForm(),
+    return render_template('topics/page.html',
                            content=mrkdwn_html,
                            page='topics',
                            topics=TOPICS)
+
+@topic_blueprint.route("/")
+def all_topic():
+    return render_template('topics/index.html',
+                           topics=TOPICS,
+                           topic_maps=TOPIC_MAPS)
+

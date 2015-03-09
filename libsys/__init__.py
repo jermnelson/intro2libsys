@@ -4,16 +4,17 @@ from .admin import admin
 from .badges import badges
 from .home import app 
 from .thing import thing
-from .topics import topics
+from .topics import topic_blueprint
 
 app.debug = True
 app.config.from_object('config.default')
 app.config.from_pyfile('config.py')
 
+
 app.register_blueprint(admin, url_prefix="/admin")
 app.register_blueprint(badges, url_prefix="/badges")
 app.register_blueprint(thing, url_prefix="/thing")
-app.register_blueprint(topics, url_prefix="/topics")
+app.register_blueprint(topic_blueprint, url_prefix="/topics")
 
 toolbar = DebugToolbarExtension(app)
 

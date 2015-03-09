@@ -1,0 +1,3 @@
+[submodule "libsys/datastore"]
+	path = libsys/datastore
+	url = https://github.com/jermnelson/BIBFRAME-Datastore.git

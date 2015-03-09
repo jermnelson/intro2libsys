@@ -25,16 +25,31 @@ class OpenBadgeView(View):
 
     
 class BadgeClassInfo(OpenBadgeView):
+    methods =['GET']
 
-    def output(self):
-        return {"name": self.name,
+    def __init__(self):
+        self.criteria = None
+        self.description = None
+        self.image = None
+        self.issuer = None
+        self.tags = []
+
+    def output(self, name):
+        return {"name": name,
                 "description": self.description,
                 "image": self.image,
                 "criteria": self.criteria,
                 "tags": self.tags,
-                "issure": self.issuer}
+                "issuer": self.issuer}
 
 class BadgeIssuerOrg(OpenBadgeView):
+
+    def __init__(self, **kwargs):
+        self.name = kwargs.get('name')
+        self.image = None
+        self.url = None
+        self.email = None
+        self.revocationList = None
 
     def output(self):
         return {"name": self.name,
@@ -46,5 +61,16 @@ class BadgeIssuerOrg(OpenBadgeView):
 class IssueBadge(OpenBadgeView):
 
     def output(self):
-        return {'message', self.message,
+        
+        return {'message': self.message,
                 'badge-url': self.assert_url}
+
+
+badges.add_url_rule(
+    "/<badge>/<name>", 
+    view_func=BadgeClassInfo.as_view('badgeclassinfo'))
+
+@badges.route("/")
+def home():
+    return render_template("badges/index.html")
+

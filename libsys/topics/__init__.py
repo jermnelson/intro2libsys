@@ -10,11 +10,12 @@ from flask import Blueprint
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 PROJECT_HOME = os.path.split(PROJECT_ROOT)[0]
 
-topics = Blueprint(
-    "topics", 
+topic_blueprint = Blueprint(
+    'topics', 
     __name__,
-    template_folder="templates",
+    template_folder='templates',
     static_folder="static")
+
 
 class Topic(object):
 
@@ -57,3 +58,17 @@ for dir_name in results[1]:
                                dir_name,
                                "{0}.json".format(dir_name)))
     TOPICS[dir_name] = topic
+
+TOPIC_MAPS = []
+topic_maps_location = os.path.join(PROJECT_HOME,
+                                   "topics",
+                                   "topic-maps.json")
+topic_maps = json.load(open(topic_maps_location))
+
+for topic_map in topic_maps.get('maps'):
+    output = {'name': topic_map.get('jtm:name'), 'topics':[]}
+    for topic_id in topic_map.get('jtm:topics'):
+        output.get('topics').append(TOPICS[topic_id])
+    TOPIC_MAPS.append(output)
+
+from .views import *

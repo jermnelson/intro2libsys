@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block title %}Topic Page{% endblock %}
+
+
+{% block body %}
+<div class="container">
+<div class="row">
+   {# include 'snippets/navbar.html' #}
+</div>
+
+<div class="row">
+ <div class="col-md-12 jumbotron">
+  <h2>Introduction to Library Systems -- Topic</h2>
+  <h1>{{ topic.headline }}</h2>
+ </div>
+</div>
+<div class="row">
+ <div class="col-md-3 well well-small">
+  <h3>Pages</h3>
+   <ol>
+   {% for page in topic.pages %}
+    <li><a href="/topics/{{ page.url }}">{{ page.name.0 }}</a></li>
+   {% endfor %}
+   </ol>
+ </div>
+ <div class="col-md-6">
+  <h3>Resources</h3>
+  <ul>
+  {% for resource in topic.resources %}
+   <li>{% include 'snippets/thing-brief.html' %}</li> 
+  {% endfor %}
+  </ul>
+ </div>
+ <div class="col-md-3">
+  <div class="btn-group">
+   <button class="btn btn-default" data-toggle="modal" data-target="#comment-dlg">
+   <span class="glyphicon glyphicon-comment"></span>
+   </button>
+  </div>
+ </div>
+</div>
+{% endblock %}
+

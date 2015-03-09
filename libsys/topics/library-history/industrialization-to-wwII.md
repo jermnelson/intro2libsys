@@ -76,11 +76,13 @@ S.R. Ranganathan (1892-1972) was Indian librarian and mathematician who made num
 contributions to the field of the library science including the five laws of library
 science:
 
+<quote>
     1. Books are for use.
     2. Every reader his [or her] book.
     3. Every book its reader.
     4. Save the time of the reader.
-    5. The library is a growing organism. [#]_
+    5. The library is a growing organism. [4][4]
+</quote>
 
 These laws influenced the design of not only the physical structure and layout 
 of libraries but also the philosophy and service ethos of libraries.
@@ -90,9 +92,8 @@ References
 .. [#] `"Ninety-One Cataloging Rules"`_ page 1
 .. [#] `"Ninety-One Cataloging Rules"`_ page 3
 .. [#] Cutter, Charles. `Rules for a Dictionary Catalog`_ 4th edition page 6
-.. [#] Ranganathan, S.R. `The five laws of library science`_ 
 
-.. _The five laws of library science: http://hdl.handle.net/2027/uc1.b99721
+[4]: Ranganathan, S.R. [The five laws of library science](http://hdl.handle.net/2027/uc1.b99721) 
 
 .. _"Ninety-One Cataloging Rules": http://books.google.com/books?id=PIYLAQAAIAAJ
 .. _Rules for a Dictionary Catalog: http://books.google.com/books?id=2rQYAAAAMAAJ
