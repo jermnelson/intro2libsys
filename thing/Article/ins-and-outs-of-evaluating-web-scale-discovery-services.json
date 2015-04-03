@@ -1,0 +1,63 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/ins-and-outs-of-evaluating-web-scale-discovery-services",
+  "@type": "Article",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/hoeppner-athena"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2012
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2012-04"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "The Ins and Outs of Evaluating Web-Scale Discovery Services"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-09-11T17:24:37.844742"
+      },
+      {
+        "@value": "2014-07-31T21:42:08.263702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-19T19:44:27.563000"
+      }
+    ]
+  },
+  "publisher": [
+    {
+     "@id": "http://intro2libsys.info/Organization/information-today-inc"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://www.infotoday.com/cilmag/apr12/Hoeppner-Web-Scale-Discovery-Services.shtml"
+    }
+  ]
+}

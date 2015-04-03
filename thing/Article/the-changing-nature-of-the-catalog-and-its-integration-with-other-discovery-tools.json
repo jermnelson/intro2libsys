@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/the-changing-nature-of-the-catalog-and-its-integration-with-other-discovery-tools",
+  "@type": "Article",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/calhoun-karen"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2006
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2006-03-17"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "The Changing Nature of the Catalog and its Integration with Other Discovery Tools"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.160202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-03-03T18:01:40.413000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.loc.gov/catdir/calhoun-report-final.pdf"
+    }
+  ]
+}

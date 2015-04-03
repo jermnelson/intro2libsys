@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/usability-testing-report",
+  "@type": "NewsArticle",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/kerber-nikki"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2010
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2010-05-12"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Usability Testing Report: Discovery (Search) Tools of Encore and Summons"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:07.897202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://home.ubalt.edu/nicole.kerber/idia642/Final_Usability_Report.pdf"
+    }
+  ]
+}

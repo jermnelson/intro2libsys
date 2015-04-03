@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/gordea-sergiu",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Gordea"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Sergiu"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:02.582202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-08T22:48:44.373000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Sergiu Gordea"
+    }
+  ]
+}

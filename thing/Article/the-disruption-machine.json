@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/the-disruption-machine",
+  "@type": "Article",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/lepore-jill"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2014
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2014-06-23"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "The Disruption Machine"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-06-17T20:55:18.190048"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.newyorker.com/reporting/2014/06/23/140623fa_fact_lepore?currentPage=all"
+    }
+  ]
+}

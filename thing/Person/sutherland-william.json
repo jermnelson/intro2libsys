@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/sutherland-william",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Sutherland"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "William"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:01.616702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-19T19:30:12.612000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "William J. Sutherland"
+    }
+  ]
+}

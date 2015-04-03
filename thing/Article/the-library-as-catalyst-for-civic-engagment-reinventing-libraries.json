@@ -1,0 +1,67 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/the-library-as-catalyst-for-civic-engagment-reinventing-libraries",
+  "@type": "Article",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/ptacek-bill"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2013-09-04"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "The Library as Catalyst for Civic Engagment | Reinventing Libraries"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:07.866202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "the-library-as-catalyst-for-civic-engagment-reinventing-libraries"
+    }
+  ],
+  "publisher": [
+    {
+      "@value": {
+        "@id": "http://intro2libsys.info/Organization/library-journal"
+      }
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://lj.libraryjournal.com/2013/09/future-of-libraries/the-library-as-catalyst-for-civic-engagment-reinventing-libraries/"
+    }
+  ]
+}

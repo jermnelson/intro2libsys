@@ -1,0 +1,40 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Organization/digital-shift",
+  "@type": "Corporation",
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:21:23.376292"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-18T23:34:52.064000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "The Digital Shift"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://www.thedigitalshift.com/"
+    }
+  ]
+}

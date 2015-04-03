@@ -1,0 +1,59 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/where-online-services-go-when-they-die",
+  "@type": [
+    {
+      "@value": "Article"
+    }
+  ],
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/edwards-benj"
+    }
+  ],
+  "copyrightYear": [
+    {
+        "@value": 2014
+    }
+  ],
+  "datePublished": [
+    {
+        "@value": "2014-07-12"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Where Online Services Go When They Die"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-27T20:37:04.316371"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-07-30T15:04:03.720284"
+      }
+    ]
+  },
+  "url": [
+    {
+        "@id": "http://www.theatlantic.com/technology/archive/2014/07/where-online-services-go-when-they-die/374099/"
+    }
+  ]
+}

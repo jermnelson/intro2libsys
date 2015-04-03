@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "idloc": "http://id.loc.gov",
+    "mads": "http://www.loc.gov/standards/mads/",
+    "oa": "http://www.w3.org/ns/oa#",
+    "prov": "http://www.w3.org/ns/prov#"
+  },
+  "@id": "http://intro2libsys.info/Article/getting-real-agile-design",
+  "@type": "TechArticle",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/bowles-cennydd"
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2008-12-08"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Getting Real About Agile Design"
+    }
+  ],
+  "keywords": [
+    {
+      "@value": "agile software development"
+    },
+    {
+      "@value": "agile design"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-19T15:26:44.288702"
+      },
+      {
+        "@value": "2014-07-31T21:42:08.271202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "oa:Annotation": [
+    {
+      "@value": {
+        "oa:annotatedAt": "2013-07-08T21:21:49.355000",
+        "oa:annotatedBy": "jeremy.nelson@intro2libsys.info",
+        "oa:hasBody": "Often design considerations are absent from Agile Software development, this article introduces the concept of Agile Design",
+        "oa:hasTarget": "http://intro2libsys.info/Article/getting-real-agile-design",
+        "oa:motivatedBy": "oa:commenting"
+      }
+    }
+  ],
+  "publisher": [
+    {
+      "@value": {
+        "@id": "http://intro2libsys.info/Organization/a-list-apart"
+      }
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://alistapart.com/articles/gettingrealaboutagiledesign/"
+    }
+  ]
+}

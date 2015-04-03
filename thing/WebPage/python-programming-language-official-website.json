@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/WebPage/python-programming-language-official-website",
+  "@type": "WebApplication",
+  "headline": [
+    {
+      "@value": "Python Programming Language - Official Website"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:36:44.463392"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "python-programming-language-official-website"
+    }
+  ],
+  "publisher": [
+    {
+      "@value": {
+        "@type": "Organization",
+        "addressLocality": "Beaverton",
+        "addressRegion": "Oregon",
+        "name": "Python Software Foundation"
+      }
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://www.python.org/"
+    }
+  ]
+}

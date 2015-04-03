@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/the-bootstrappers-guide-to-launching-new-products",
+  "@type": "Article",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/dahl-darren"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2009
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2009-10-01"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "The Bootstrapper's Guide to Launching New Products "
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.331202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-29T15:33:39.928921"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.inc.com/magazine/20091001/the-bootstrappers-guide-to-launching-new-products.html"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/agile-methods-and-automation-accelerate-devops-innovation",
+  "@type": "Thing",
+  "author": [
+    {
+        "@id": "http://intro2libsys.info/Person/kar-saroj"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2014
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2014-02-27"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Agile methods and automation accelerate DevOps innovation"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-03-29T04:40:45.040494"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://devopsangle.com/2014/02/27/agile-methods-and-automation-accelerate-devops-innovation/"
+    }
+  ]
+}

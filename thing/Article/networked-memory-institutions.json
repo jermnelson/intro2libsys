@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/networked-memory-institutions",
+  "@type": "ScholarlyArticle",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/pessach-guy"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2008
+    }
+  ],
+  "headline": [
+    {
+      "@value": "[Networked] Memory Institutions: Social Remembering, Privatization and its Discontents"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.021202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "[Networked] Memory Institutions: Social Remembering, Privatization and its Discontents"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1085267"
+    }
+  ]
+}

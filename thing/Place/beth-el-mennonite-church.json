@@ -1,0 +1,24 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "bf": "http://bibframe.org/vocab/", 
+    "loc": "http://www.loc.gov/standards/mads/"
+  }, 
+  "@id": "http://intro2libsys.info/Place/beth-el-mennonite-church", 
+  "@type": "Church", 
+  "address": {
+    "@type": "PostalAddress", 
+    "addressLocality": "Colorado Springs", 
+    "addressRegion": "Colorado", 
+    "postalCode": 80918, 
+    "streetAddress": "4625 Ranch Drive"
+  }, 
+  "mads:recordInfo": {
+    "loc:descriptionStandards": "Using schema.org for descriptive metadata", 
+    "loc:languageOfCataloging": "English", 
+    "loc:recordCreationDate": "2014-07-09T20:32:39.052000"
+  }, 
+  "name": "Beth-El Mennonite Church", 
+  "telephone": "17196362716", 
+  "url": "http://www.bethelmennonite.org/"
+}

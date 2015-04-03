@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "bf": "http://bibframe.org/vocab/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/evaluating-library-discovery-tools-through-a-music-lens",
+  "@type": [
+    {
+      "@value": "Article"
+    }
+  ],
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/belford-rebecca"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2014
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2014-01"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Evaluating Library Discovery Tools through a Music Lens"
+    }
+  ],
+  "isPartOf": [
+    {
+      "@id": "http://intro2libsys.info/PublicationIssue/library-resources-technical-services-volume-58-issue-1"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-09-11T23:17:37.693081"
+      }
+    ]
+  }
+}

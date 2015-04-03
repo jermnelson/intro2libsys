@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/lu-yiren",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Lu"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Yiren"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:02.492702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-03-20T15:00:10.007000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Yiren Lu"
+    }
+  ]
+}

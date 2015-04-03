@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/adamek-jir",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Ad'amek"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Ji\u02c7r'\u0131"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:03.024702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-05-27T15:02:44.816000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Ji\u02c7r'\u0131 Ad'amek"
+    }
+  ]
+}

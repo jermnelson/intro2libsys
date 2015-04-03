@@ -1,0 +1,62 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "bf": "http://bibframe.org/vocab/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/the-challenge-for-the-tiny-global-business",
+  "@type": [
+    {
+      "@value": "Article"
+    }
+  ],
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/andrew-rachel"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2015
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2015-01-08"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "The Challenge for the Tiny Global Business"
+    }
+  ],
+  "keywords": [
+    {
+      "@value": "Business"
+    },
+    {
+      "@value": "Industry"
+    },
+    {
+      "@value": "Interaction Design"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2015-01-21T16:53:17.782844"
+      }
+    ]
+  },
+  "url": "http://alistapart.com/column/the-challenge-for-the-tiny-global-business"
+}

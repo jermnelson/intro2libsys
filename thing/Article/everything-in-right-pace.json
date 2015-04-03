@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "idloc": "http://id.loc.gov",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/everything-in-right-pace",
+  "@type": "TechArticle",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/donovan-hannah"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2012
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2012-08-14"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Everything in its Right Pace"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:07.845702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.alistapart.com/articles/everything-in-its-right-pace/"
+    }
+  ]
+}

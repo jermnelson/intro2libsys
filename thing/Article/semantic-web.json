@@ -1,0 +1,57 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "idloc": "http://id.loc.gov",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/semantic-web",
+  "@type": "ScholarlyArticle",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/berners-lee-tim"
+    },
+    {
+      "@id": "http://intro2libsys.info/Person/hendler-james"
+    },
+    {
+      "@id": "http://intro2libsys.info/Person/lassila-ora"
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2001-05-17"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "The Semantic Web"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.284202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.scientificamerican.com/article.cfm?id=the-semantic-web"
+    }
+  ]
+}

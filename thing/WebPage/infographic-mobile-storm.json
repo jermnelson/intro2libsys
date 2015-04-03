@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "idloc": "http://id.loc.gov",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/WebPage/infographic-mobile-storm",
+  "@type": "WebPage",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/lynch-loreal"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2012
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2012-05-15"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:36:44.517397"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Infographic: A Mobile Storm in the Cloud"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://www.engineyard.com/blog/wp-content/uploads/platform-as-a-service-v2.jpg"
+    }
+  ]
+}

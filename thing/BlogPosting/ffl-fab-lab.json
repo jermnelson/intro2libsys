@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/BlogPosting/ffl-fab-lab",
+  "@type": "BlogPosting",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/oduinn-fiacre"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "FFL Fab Lab: first Makerspace in a public library!"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:44:01.977202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.librarycult.com/2011/10/ffl-fablab/"
+    }
+  ]
+}

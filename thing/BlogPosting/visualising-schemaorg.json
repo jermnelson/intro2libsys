@@ -1,0 +1,97 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/BlogPosting/visualising-schemaorg",
+  "@type": "BlogPosting",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/wallis-richard"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2014
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2014-03-25"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Visualising Schema.org"
+    }
+  ],
+  "keywords": [
+    {
+      "@value": "Consuming Data"
+    },
+    {
+      "@value": "Data Publishing"
+    },
+    {
+      "@value": "Google"
+    },
+    {
+      "@value": "Linked Data"
+    },
+    {
+      "@value": "OCLC"
+    },
+    {
+      "@value": "Open Data"
+    },
+    {
+      "@value": "schema.org"
+    },
+    {
+      "@value": "Web"
+    },
+    {
+      "@value": "WorldCat"
+    },
+    {
+      "@value": "Chrome"
+    },
+    {
+      "@value": "Google"
+    },
+    {
+      "@value": "Green Turtle"
+    },
+    {
+      "@value": "schema.org"
+    },
+    {
+      "@value": "Triples"
+    },
+    {
+      "@value": "WorldCat"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-03-29T14:39:00.232370"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://dataliberate.com/2014/03/visualising-schema-org/"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Periodical/journal-of-the-history-of-ideas",
+  "@type": "Periodical",
+  "hadPeriodicalIssue": [
+    {
+      "@value": {
+        "@id": " http://intro2libsys.info/PeriodicalIssue/journal-of-the-history-of-ideas-73-june-1946"
+      }
+    }
+  ],
+  "issn": [
+    {
+      "@value": "00225037"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:22:40.819036"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-08T23:21:39.838000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Journal of the History of Ideas"
+    }
+  ]
+}

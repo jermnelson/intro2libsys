@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Book/scientific-management-library-operations",
+  "@type": "Book",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/dougherty-richard"
+    },
+    {
+      "@id": "http://intro2libsys.info/Person/heinritz-frederick"
+    }
+  ],
+  "bf:title": [
+    {
+      "@value": "Scientific Management of Library Operations"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 1966
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Scientific Management of Library Operations"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:19:50.714027"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "publisher": [
+    {
+      "@value": {
+        "@id": "http://intro2libsys.info/Organization/scarecrow-press"
+      }
+    }
+  ]
+}

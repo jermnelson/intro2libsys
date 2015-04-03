@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/salmon-felix",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Salmon"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Felix"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:02.937702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-28T00:09:32.306000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Felix Salmon"
+    }
+  ]
+}

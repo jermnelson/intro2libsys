@@ -1,0 +1,62 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "idloc": "http://id.loc.gov",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/future-apps-web",
+  "@type": "TechArticle",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/anderson-janna"
+    },
+    {
+      "@id": "http://intro2libsys.info/Person/rainie-lee"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2012
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2012-03-23"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "The Future of Apps and Web"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-27T20:46:00.608995"
+      },
+      {
+        "@value": "2014-07-31T21:42:07.728202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.pewinternet.org/2012/03/23/the-future-of-apps-and-web/"
+    }
+  ]
+}

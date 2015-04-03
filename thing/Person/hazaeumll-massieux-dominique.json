@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/hazaeumll-massieux-dominique",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Haza&euml;l-Massieux"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Dominique"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:01.569702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-18T17:11:58.238000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Dominique Haza&euml;l-Massieux"
+    }
+  ]
+}

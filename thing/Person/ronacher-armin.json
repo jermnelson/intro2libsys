@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/ronacher-armin",
+  "@type": "Person",
+  "email": [
+    {
+      "@value": "armin.ronacher@active-4.com"
+    }
+  ],
+  "familyName": [
+    {
+      "@value": "Ronacher"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Armin"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:02.963702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-30T17:37:31.716142"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Armin Ronacher"
+    }
+  ]
+}

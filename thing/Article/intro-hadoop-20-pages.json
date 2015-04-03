@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "idloc": "http://id.loc.gov",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/intro-hadoop-20-pages",
+  "@type": "TechArticle",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/sharma-prashant"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2011
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2011-12-15"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.351202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Introducing Hadoop in 20 pages"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://blog.imaginea.com/hadoop-a-short-guide/"
+    }
+  ]
+}

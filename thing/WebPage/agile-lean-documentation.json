@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/WebPage/agile-lean-documentation",
+  "@type": "WebPage",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/ambler-scott"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2012
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:36:44.497395"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Agile/Lean Documentation: Strategies for Agile Software Development"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://www.agilemodeling.com/essays/agileDocumentation.htm"
+    }
+  ]
+}

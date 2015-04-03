@@ -1,0 +1,69 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/self-service-libraries-to-allow-night-time-checkouts",
+  "@type": "NewsArticle",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/kelly-olivia"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2013-12-30"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Self-service libraries to allow night-time checkouts"
+    }
+  ],
+  "keywords": [
+    {
+      "@value": "News"
+    },
+    {
+      "@value": "Consumer"
+    },
+    {
+      "@value": "Phil Hogan"
+    },
+    {
+      "@value": "Department Of The Environment"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.028202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-10T20:12:49.325000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.irishtimes.com/news/consumer/self-service-libraries-to-allow-night-time-checkouts-1.1640032"
+    }
+  ]
+}

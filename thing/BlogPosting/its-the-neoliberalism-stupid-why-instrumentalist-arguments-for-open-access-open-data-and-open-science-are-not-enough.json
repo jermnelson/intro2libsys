@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "bf": "http://bibframe.org/vocab/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/BlogPosting/its-the-neoliberalism-stupid-why-instrumentalist-arguments-for-open-access-open-data-and-open-science-are-not-enough",
+  "@type": [
+    {
+      "@value": "BlogPosting"
+    }
+  ],
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/kansa-eric"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2014
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2014-01-27"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "It\u2019s the Neoliberalism, Stupid: Why instrumentalist arguments for Open Access, Open Data, and Open Science are not enough."
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-09-25T18:32:16.906136"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://blogs.lse.ac.uk/impactofsocialsciences/2014/01/27/its-the-neoliberalism-stupid-kansa/"
+    }
+  ]
+}

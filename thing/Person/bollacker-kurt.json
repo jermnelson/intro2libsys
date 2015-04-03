@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/bollacker-kurt",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Bollacker"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Kurt"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:02.665202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-17T23:58:42.097000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Kurt Bollacker"
+    }
+  ]
+}

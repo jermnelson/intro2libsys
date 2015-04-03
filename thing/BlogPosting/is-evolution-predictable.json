@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "bf": "http://bibframe.org/vocab/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/BlogPosting/is-evolution-predictable",
+  "@type": [
+    {
+      "@value": "BlogPosting"
+    }
+  ],
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/neher-richard"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2014
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2014-06-05"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Is evolution predictable?"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-08-20T16:38:56.235144"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://neherlab.wordpress.com/2014/06/05/is-evolution-predictable/"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/hamming-richard",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Hamming"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Richard"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:01.689202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-03-03T18:54:46.088000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Richard Hamming"
+    }
+  ]
+}

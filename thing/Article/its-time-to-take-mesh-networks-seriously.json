@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/its-time-to-take-mesh-networks-seriously",
+  "@type": "Article",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/de-filippi-primavera"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2014
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2014-01-02"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "It\u2019s Time to Take Mesh Networks Seriously"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:07.833202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-10T20:38:35.711000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.wired.com/opinion/2014/01/its-time-to-take-mesh-networks-seriously-and-not-just-for-the-reasons-you-think/"
+    }
+  ]
+}

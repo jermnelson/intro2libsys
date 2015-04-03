@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/", 
+    "idloc": "http://id.loc.gov"
+  }, 
+  "@id": "http://intro2libsys.info/MediaObject/gaming-reality", 
+  "@type": "VideoObject", 
+  "author": [
+    {"@id": "http://intro2libsys.info/Person/wright-will"}
+  ], 
+  "copyrightYear": 2012,
+  "datePublished": "2012-04-25",
+  "name": "Will Wright, 'Gaming Reality,' Where 2012", 
+  "url": "http://www.ugotrade.com/2012/04/25/where-2012-will-wright-gaming-reality/"
+}

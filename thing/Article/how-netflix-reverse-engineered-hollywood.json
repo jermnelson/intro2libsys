@@ -1,0 +1,59 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/how-netflix-reverse-engineered-hollywood",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/madrigal-alexis"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2014
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2014-01-02"
+    }
+  ],
+  "description": [
+    {
+      "@value": "To understand how people look for movies, the video service created 76,897 micro-genres. We took the genre descriptions, broke them down to their key words, \u2026 and built our own new-genre generator."
+    }
+  ],
+  "headline": [
+    {
+      "@value": "How Netflix Reverse Engineered Hollywood"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.149702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-06T21:49:41.134000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.theatlantic.com/technology/archive/2014/01/how-netflix-reverse-engineered-hollywood/282679/"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "idloc": "http://id.loc.gov",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/the-web-on-mobile-and-beyond",
+  "@type": "Article",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/hazaeumll-massieux-dominique"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "dateCreated": [
+    {
+      "@value": "2013-07-11T18:06:40.785000"
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2013-03-19"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "The Web on Mobile and Beyond"
+    }
+  ],
+  "keywords": [
+    {
+      "@value": "mobile"
+    },
+    {
+      "@value": "information architecture"
+    },
+    {
+      "@value": "multidevice"
+    },
+    {
+      "@value": "web design"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:07.871702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "A List Apart"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://alistapart.com/column/the-web-on-mobile-and-beyond"
+    }
+  ]
+}

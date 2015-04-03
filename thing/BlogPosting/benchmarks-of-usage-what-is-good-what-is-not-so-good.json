@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "bf": "http://bibframe.org/vocab/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/BlogPosting/benchmarks-of-usage-what-is-good-what-is-not-so-good",
+  "@type": [
+    {
+      "@value": "BlogPosting"
+    }
+  ],
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/harker-karen"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2014
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2014-08-14"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Benchmarks of usage: What is good? What is not-so-good?"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-08-27T20:13:18.829541"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://librariesareforuse.wordpress.com/2014/08/14/benchmarks-of-usage-what-is-good-what-is-not-so-good/"
+    }
+  ]
+}

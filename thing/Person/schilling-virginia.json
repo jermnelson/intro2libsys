@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/schilling-virginia",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Schilling"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Virginia"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:01.625702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-03-04T15:48:14.155000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Virginia Schilling"
+    }
+  ]
+}

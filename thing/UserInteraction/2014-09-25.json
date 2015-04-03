@@ -1,0 +1,28 @@
+[
+  {
+    "@context": {
+      "@vocab": "http://schema.org/"
+    },
+    "@type": "UserComments",
+    "commentText": [
+      {
+        "@value": "I wish I had this article when writing my latest article for Code4Lib, maybe I can add it on the final copyedit."
+      }
+    ],
+    "commentTime": [
+      {
+        "@value": "2014-09-25T20:35:21"
+      }
+    ],
+    "creator": [
+      {
+        "@id": "http://intro2libsys.info/Person/nelson-jeremy"
+      }
+    ],
+    "discusses": [
+      {
+        "@id": "http://intro2libsys.info/Article/thirteen-ways-of-looking-at-libraries-discovery-and-the-catalog-scale-workflow-attention"
+      }
+    ]
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/SoftwareApplication/redis",
+  "@type": "WebApplication",
+  "description": [
+    {
+      "@value": "Redis is an open source, BSD licensed, advanced key-value store."
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Redis"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:35:45.924539"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "redis"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://redis.io/"
+    }
+  ]
+}

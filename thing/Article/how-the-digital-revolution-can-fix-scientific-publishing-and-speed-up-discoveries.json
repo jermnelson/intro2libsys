@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "bf": "http://bibframe.org/vocab/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/how-the-digital-revolution-can-fix-scientific-publishing-and-speed-up-discoveries",
+  "@type": [
+    {
+      "@value": "Article"
+    }
+  ],
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/marovitz-daniel"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2014
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2014-08-30"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "How The Digital Revolution Can Fix Scientific Publishing And Speed Up Discoveries"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-09-01T14:38:03.512228"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://techcrunch.com/2014/08/30/can-the-digital-revolution-fix-scientific-publishing-and-speed-up-discoveries/"
+    }
+  ]
+}

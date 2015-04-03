@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/perseverance-and-disrupting-big-tech",
+  "@type": "Article",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/sinofsky-steven"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2014
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2014-01-19"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Perseverance and Disrupting Big Tech"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:07.894702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-23T17:54:35.049000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.linkedin.com/today/post/article/20140119170759-2293107-perseverance-and-disrupting-big-tech"
+    }
+  ]
+}

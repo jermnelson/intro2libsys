@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/SoftwareApplication/python",
+  "@type": "SoftwareApplication",
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "description": [
+    {
+      "@value": "Python is a remarkably powerful dynamic programming language that is used in a wide variety of application domains."
+    }
+  ],
+  "downloadUrl": [
+    {
+      "@value": "http://www.python.org/download/"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Python Programming Language"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:35:45.927539"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-13T23:01:52.252000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "python-programming-language"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://www.python.org/"
+    }
+  ]
+}

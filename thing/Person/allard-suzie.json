@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/allard-suzie",
+  "@type": "Person",
+  "familyName": [
+    {
+      "@value": "Allard"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Suzie"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:26:02.596202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-03-18T18:13:37.575000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Suzie Allard"
+    }
+  ]
+}

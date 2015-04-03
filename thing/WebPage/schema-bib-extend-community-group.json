@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/WebPage/schema-bib-extend-community-group",
+  "@type": "CollectionPage",
+  "description": [
+    {
+      "@value": "The mission of this group is to discuss and prepare proposal(s) for extending Schema.org schemas for the improved representation of bibliographic information markup and sharing."
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Schema Bib Extend Community Group"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:36:44.544400"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-14T22:25:31.341854"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "schema-bib-extend-community-group"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://www.w3.org/community/schemabibex/wiki/Main_Page"
+    }
+  ]
+}

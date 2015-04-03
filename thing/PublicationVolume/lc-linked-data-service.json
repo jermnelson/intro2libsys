@@ -1,0 +1,58 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/SoftwareApplication/lc-linked-data-service",
+  "@type": "WebApplication",
+  "additionalType": [
+    {
+      "@value": "DataCatalog"
+    }
+  ],
+  "description": [
+    {
+      "@value": "The Linked Data Service provides access to commonly found standards and vocabularies promulgated by the Library of Congress. This includes data values and the controlled vocabularies that house them."
+    }
+  ],
+  "keywords": [
+    {
+      "@value": "linked data"
+    },
+    {
+      "@value": "library of congress"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:24:17.497703"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-09T20:39:43.933000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "LC Linked Data Service"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://id.loc.gov/"
+    }
+  ]
+}

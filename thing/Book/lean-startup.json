@@ -1,0 +1,73 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Book/lean-startup",
+  "@type": "Book",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/ries-eric"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2011
+    }
+  ],
+  "headline": [
+    {
+      "@value": "The Lean Startup"
+    }
+  ],
+  "keywords": [
+    {
+      "@value": "New business enterprises"
+    },
+    {
+      "@value": "Consumers' preferences"
+    },
+    {
+      "@value": "Organizational effectiveness"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:19:50.682024"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "publisher": [
+    {
+      "@value": {
+        "@id": "http://intro2libsys.info/Organization/crown-business"
+      }
+    }
+  ],
+  "thumbnailUrl": [
+    {
+      "@value": "lean-startup-thumbnail.png"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://theleanstartup.com/"
+    }
+  ]
+}

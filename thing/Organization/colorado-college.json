@@ -1,0 +1,59 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Organization/colorado-college",
+  "@type": "CollegeOrUniversity",
+  "address": [
+    {
+      "@value": {
+        "@type": "PostalAddress",
+        "addressCountry": "United States of America",
+        "addressLocality": "Colorado Springs",
+        "addressRegion": "Colorado",
+        "postalCode": "80903-3252",
+        "streetAddress": "14 East Cache La Poudre Street"
+      }
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:21:23.122267"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-06T17:57:18.288000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Colorado College"
+    }
+  ],
+  "subOrganization": [
+    {
+      "@value": {
+        "@id": "http://intro2libsys.info/Organization/tutt-library"
+      }
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://www.coloradocollege.edu/"
+    }
+  ]
+}

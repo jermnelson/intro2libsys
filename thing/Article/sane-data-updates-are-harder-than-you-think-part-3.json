@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/sane-data-updates-are-harder-than-you-think-part-3",
+  "@type": "Article",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/holovaty-adrian"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2013-08-15"
+    }
+  ],
+  "description": [
+    {
+      "@value": "Third in a three-part series by Adrian Holovaty about hairy data-parsing problems from a journalist's perspective"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Sane Data Updates Are Harder than You Think: Part 3"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-03-14T18:09:24.861000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "https://source.opennews.org/en-US/learning/sane-data-updates-are-harder-you-think-part-3/"
+    }
+  ]
+}

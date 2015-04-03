@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/improving-ux-through-front-end-performance",
+  "@type": "Article",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/swanson-lara"
+    }
+  ],
+  "dateCreated": [
+    {
+      "@value": "2013-07-11T17:29:35.867000"
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2013-03-12"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Improving UX Through Front-End Performance"
+    }
+  ],
+  "keywords": [
+    {
+      "@value": "css"
+    },
+    {
+      "@value": "html"
+    },
+    {
+      "@value": "javascript"
+    },
+    {
+      "@value": "user research"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.023202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "A List Apart"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://alistapart.com/article/improving-ux-through-front-end-performance"
+    }
+  ]
+}

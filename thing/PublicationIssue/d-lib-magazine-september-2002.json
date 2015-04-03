@@ -1,0 +1,64 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/PublicationIssue/d-lib-magazine-september-2002",
+  "@type": "PublicationIssue",
+  "datePublished": [
+    {
+      "@value": "2002-09"
+    }
+  ],
+  "hasPart": [
+    {
+      "@value": {
+        "@id": "http://intro2libsys.info/Article/experiments-with-the-ifla-functional-requirements-for-bibliographic-records-frbr"
+      }
+    }
+  ],
+  "isPartOf": [
+    {
+      "@value": {
+        "@id": "http://intro2libsys.info/PublicationVolume/d-lib-magazine-volume-9"
+      }
+    }
+  ],
+  "issueNumber": [
+    {
+      "@value": 8
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-13T21:23:18.215775"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-07T17:48:22.542000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "D-Lib Magazine 9(8) September 2002"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://www.dlib.org/dlib/september02/09contents.html"
+    }
+  ]
+}

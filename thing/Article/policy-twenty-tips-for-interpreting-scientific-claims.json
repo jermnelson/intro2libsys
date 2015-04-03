@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/policy-twenty-tips-for-interpreting-scientific-claims",
+  "@type": "Article",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/sutherland-william"
+    },
+    {
+      "@id": "http://intro2libsys.info/Person/spiegelhalter-david"
+    },
+    {
+      "@id": "http://intro2libsys.info/Person/burgman-mark"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2013-11-20"
+    }
+  ],
+  "description": [
+    {
+      "@value": "This list will help non-scientists to interrogate advisers and to grasp the limitations of evidence, say William J. Sutherland, David Spiegelhalter and Mark A. Burgman."
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Policy: Twenty tips for interpreting scientific claims"
+    }
+  ],
+  "keywords": [
+    {
+      "@value": "Government"
+    },
+    {
+      "@value": "Policy"
+    },
+    {
+      "@value": "Politics"
+    },
+    {
+      "@value": "Society"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.087202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-19T19:28:18.498000"
+      }
+    ]
+  },
+  "publisher": [
+    {
+      "@value": {
+        "@id": "http://intro2libsys.info/Organization/nature-publishing-group"
+      }
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://www.nature.com/news/policy-twenty-tips-for-interpreting-scientific-claims-1.14183"
+    }
+  ]
+}

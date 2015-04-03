@@ -1,0 +1,65 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Organization/tutt-library",
+  "@type": "Library",
+  "address": [
+    {
+      "@value": {
+        "@type": "PostalAddress",
+        "addressCountry": [{"@id": "http://intro2libsys.info/Place/united-states-of-america"}],
+        "addressLocality": [{"@id": "http://intro2libsys.info/Place/colorado-springs"}],
+        "addressRegion": [{"@id": "http://intro2libsys.info/Place/colorado"}],
+        "postalCode": [{"@value": "80903-3252"}],
+        "streetAddress": [{"@value":"1021 N. Cascade Avenue"}]
+      }
+    }
+  ],
+  "department": [
+    {
+      "@value": {
+        "@id": "http://intro2libsys.info/Organization/colorado-college"
+      }
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-27T19:37:11.329541"
+      },
+      {
+        "@value": "2014-08-22T20:17:13.672360"
+      },
+      {
+        "@value": "2014-08-13T21:21:23.326287"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-06T17:53:09.400000"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Tutt Library"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://www.coloradocollege.edu/library/"
+    }
+  ]
+}

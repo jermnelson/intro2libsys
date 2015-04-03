@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/the-z-axis-designing-for-the-future",
+  "@type": "Article",
+  "author": [
+    {
+      "@id": " http://intro2libsys.info/Person/lanier-wren"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2014
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2014-04-08"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "The Z-Axis: Designing for the Future"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-04-08T19:02:13.874022"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://alistapart.com/article/the-z-axis-designing-for-the-future"
+    }
+  ]
+}

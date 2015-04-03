@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "bf": "http://bibframe.org/vocab/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/algorithms-are-replacing-unions-as-the-champions-of-workers",
+  "@type": [
+    {
+      "@value": "Article"
+    }
+  ],
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/crichton-danny"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2014
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2014-08-17"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Algorithms Are Replacing Unions As The Champions of Workers"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-08-18T16:14:32.479900"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://techcrunch.com/2014/08/17/algorithm-overlords/"
+    }
+  ]
+}

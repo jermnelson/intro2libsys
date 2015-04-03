@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/BlogPosting/in-praise-of-electronic-serendipity",
+  "@type": "BlogPosting",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/brandow-elliot"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2014
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2014-01-02"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "In Praise of (Electronic) Serendipity"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-05-28T19:45:04.707000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://histsociety.blogspot.com/2014/01/in-praise-of-electronic-serendipity.html"
+    }
+  ]
+}

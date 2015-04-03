@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/BlogPosting/tacit-knowledge-and-the-student-researcher",
+  "@type": "BlogPosting",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/fister-barbara"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2013-06-25"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Tacit Knowledge and the Student Researcher"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:44:01.977702"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-03-03T17:41:34.479000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.insidehighered.com/blogs/library-babel-fish/tacit-knowledge-and-student-researcher"
+    }
+  ]
+}

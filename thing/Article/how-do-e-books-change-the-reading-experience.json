@@ -1,0 +1,58 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/how-do-e-books-change-the-reading-experience",
+  "@type": "Article",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/hamid-mohsin"
+    },
+    {
+      "@id": "http://intro2libsys.info/Person/holmes-anna"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2013-12-31"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "How Do E-Books Change the Reading Experience?"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.344202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-08T20:56:55.333000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.nytimes.com/2014/01/05/books/review/how-do-e-books-change-the-reading-experience.html"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "idloc": "http://id.loc.gov",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/managed-print-services-come-of-age",
+  "@type": "TechArticle",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/longbotton-clive"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2010
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Managed Print Services Come of Age"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.207202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.quocirca.com/media/reports/112010/545/Quocirca MPS Comes of Age Summary Report December 2010.pdf"
+    }
+  ]
+}

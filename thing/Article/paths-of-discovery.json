@@ -1,0 +1,65 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/paths-of-discovery",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/asher-andrew"
+    },
+    {
+      "@id": "http://intro2libsys.info/Person/duke-lynda"
+    },
+    {
+      "@id": "http://intro2libsys.info/Person/wilson-suzanne"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2013-11"
+    }
+  ],
+  "description": [
+    {
+      "@value": "n 2011, researchers at Bucknell University and Illinois Wesleyan University compared the search efficacy of Serial Solutions Summon, EBSCO Discovery Service, Google Scholar, and conventional library databases. Using a mixed-methods approach, qualitative and quantitative data were gathered on students\u2019 usage of these tools. Regardless of the search system, students exhibited a marked inability to effectively evaluate sources and a heavy reliance on default search settings. This article describes these results and makes recommendations for libraries considering these tools."
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Paths of Discovery: Comparing the Search Effectiveness of EBSCO Discovery Service, Summon, Google Scholar, and Conventional Library Resources"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:07.689202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-01-06T23:36:48.954000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://crl.acrl.org/content/74/5/464"
+    }
+  ]
+}

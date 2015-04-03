@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "idloc": "http://id.loc.gov",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/special-considerations-individual-user",
+  "@type": "ScholarlyArticle",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/engelbart-douglas"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Special considerations of the individual as a user, generator, and retriever of information"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-08-19T14:59:49.844984"
+      },
+      {
+        "@value": "2014-07-31T21:42:08.244202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://web.stanford.edu/dept/SUL/library/extra4/sloan/mousesite/Archive/Post68/Special1961.html"
+    }
+  ]
+}

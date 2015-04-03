@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/future-publishing-veteran-perspective",
+  "@type": "NewsArticle",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/epstein-jason"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2011
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2011-06"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "The Future of Publishing - A Veteran's Perspective"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": ""
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.220202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.wipo.int/wipo_magazine/en/2011/06/article_0005.html"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/save-our-stacks",
+  "@type": "Article",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/schuman-rebecca"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2014
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2014-05-12"
+    }
+  ],
+  "description": [
+    {
+      "@value": "It's not about the books. It\u2019s about the books representing the last place on campus where intellectual contemplation thrives."
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Save Our Stacks"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2014-05-28T19:33:12.852000"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.slate.com/articles/life/education/2014/05/college_libraries_should_keep_their_books_in_the_stacks.html"
+    }
+  ]
+}

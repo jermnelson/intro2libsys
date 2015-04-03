@@ -1,0 +1,76 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/library-technology-forecast-for-2014-and-beyond",
+  "@type": "Article",
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/breeding-marshall"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2013
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2013-12"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Library Technology Forecast for 2014 and Beyond"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordChangeDate": [
+      {
+        "@value": "2014-07-31T21:42:08.081202"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2013-12-20T18:33:13.071000"
+      }
+    ]
+  },
+  "partOfPeriodicalIssue": [
+    {
+      "@value": {
+        "@type": "PeriodicalIssue",
+        "issueNumber": 10,
+        "partOfPeriodical": {
+          "@type": "Periodical",
+          "issn": "1041-7615",
+          "name": "Computers in Libraries"
+        },
+        "volumeNumber": 22
+      }
+    }
+  ],
+  "publisher": [
+    {
+      "@value": {
+        "@id": "http://intro2libsys.info/Organization/information-today-inc"
+      }
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://www.infotoday.com/cilmag/dec13/Breeding--Library-Technology-Forecast%20-for-2014-and-Beyond.shtml"
+    }
+  ]
+}
