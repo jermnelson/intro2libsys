@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "bf": "http://bibframe.org/vocab/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Person/huang-andrew",
+  "@type": [
+    {
+      "@value": "Person"
+    }
+  ],
+  "familyName": [
+    {
+      "@value": "Huang"
+    }
+  ],
+  "givenName": [
+    {
+      "@value": "Andrew"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2015-04-10T18:00:56.678776"
+      }
+    ]
+  },
+  "name": [
+    {
+      "@value": "Andrew \"bunnie\" Huang"
+    }
+  ],
+  "url": [
+    {
+      "@value": "http://intro2libsys.info/Person/huang-andrew"
+    }
+  ]
+}

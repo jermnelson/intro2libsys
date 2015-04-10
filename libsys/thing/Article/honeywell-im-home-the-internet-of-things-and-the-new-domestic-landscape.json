@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "bf": "http://bibframe.org/vocab/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/honeywell-im-home-the-internet-of-things-and-the-new-domestic-landscape",
+  "@type": [
+    {
+      "@value": "Article"
+    }
+  ],
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/mcguirk-justin"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2015
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2015-03"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "Honeywell, I\u2019m Home! The Internet of Things and the New Domestic Landscape"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2015-04-10T18:12:45.207957"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.e-flux.com/journal/honeywell-im-home-the-internet-of-things-and-the-new-domestic-landscape/"
+    }
+  ]
+}

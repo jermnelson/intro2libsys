@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "bf": "http://bibframe.org/vocab/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/the-death-of-moores-law-will-spur-innovation",
+  "@type": [
+    {
+      "@value": "Article"
+    }
+  ],
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/huang-andrew"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2015
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2015-03-31"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "The Death of Moore\u2019s Law Will Spur Innovation"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2015-04-10T18:08:46.997957"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://spectrum.ieee.org/semiconductors/design/the-death-of-moores-law-will-spur-innovation"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "bf": "http://bibframe.org/vocab/",
+    "mads": "http://www.loc.gov/standards/mads/"
+  },
+  "@id": "http://intro2libsys.info/Article/the-future-of-library-resource-discovery",
+  "@type": [
+    {
+      "@value": "Article"
+    }
+  ],
+  "author": [
+    {
+      "@id": "http://intro2libsys.info/Person/breeding-marshall"
+    }
+  ],
+  "copyrightYear": [
+    {
+      "@value": 2015
+    }
+  ],
+  "datePublished": [
+    {
+      "@value": "2015-02"
+    }
+  ],
+  "headline": [
+    {
+      "@value": "The Future of Library Resource Discovery"
+    }
+  ],
+  "mads:recordInfo": {
+    "mads:descriptionStandards": [
+      {
+        "@value": "Using schema.org for descriptive metadata"
+      }
+    ],
+    "mads:languageOfCataloging": [
+      {
+        "@value": "English"
+      }
+    ],
+    "mads:recordCreationDate": [
+      {
+        "@value": "2015-04-10T18:17:00.316957"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@value": "http://www.niso.org/apps/group_public/download.php/14487/future_library_resource_discovery.pdf"
+    }
+  ]
+}
