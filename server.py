@@ -34,7 +34,7 @@ PROJECT_HOME = os.path.split(PROJECT_ROOT)[0]
 
 sys.path.append(os.path.join(PROJECT_HOME, 'intro2libsys'))
 from search import Search
-from user import Admin
+#from user import Admin
 from thing import get_article, COMMENTS, THINGS
 from thing.UserInteraction import UserCommentsForm, add_comment, get_comments
 from topics import TOPICS
