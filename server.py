@@ -5,11 +5,13 @@ __license__ = 'MIT'
 __copyright__ = '(c) 2012-2014 by Jeremy Nelson'
 
 import datetime
+import io
 import json
 import markdown
 import os
 import re
 import redis
+import requests
 import sys
 
 try:
@@ -25,7 +27,7 @@ except:
 from collections import OrderedDict
 
 from flask import abort, Flask, g, jsonify, redirect, render_template, request
-from flask import url_for
+from flask import url_for, send_file
 from flask.ext.login import LoginManager, login_user, login_required, logout_user
 from flask.ext.login import make_secure_token, UserMixin, current_user
 
@@ -159,6 +161,51 @@ def local_url(absolute_url):
 def textbook_archive():
     return """Original Textbook for <a href="/">Introduction to Library Systems</a>
 is currently being migrated to <a href="http://www.gitbook.io/">GitBook</a>."""
+
+
+# Badge Routing 
+@app.route("/BadgeAssertion/<uid>")
+def badge_assertion(uid):
+    badge_assertion_request = requests.get(
+        "http://localhost:18150/BadgeAssertion/{}".format(uid))
+    if badge_assertion_request.status_code < 499:
+        return jsonify(badge_assertion_request.json())
+    else:
+        abort(404)
+ 
+
+
+@app.route("/BadgeClass/<name>")
+@app.route("/BadgeClass/<name>.<ext>", defaults={"ext": "json"})
+def badge_class(name, ext='json'):
+    badge_class_request = requests.get(
+        "http://localhost:18150/BadgeClass/{}".format(name))
+    if badge_class_request.status_code < 400 and ext.startswith('json'):
+        return jsonify(badge_class_request.json())
+    else:
+        abort(404)
+
+@app.route("/BadgeCriteria/<name>")
+def badge_criteria(name):
+    badge_criteria_request = requests.get(
+        "http://localhost:18150/BadgeCriteria/{}".format(name))
+    if badge_criteria_request.status_code < 400:
+        return jsonify(badge_criteria_request.json())
+    else:
+        abort(404)
+
+@app.route("/BadgeImage/<name>.png")
+def badge_image(name):
+    badge_image_request = requests.get(
+        "http://localhost:18150/BadgeImage/{}.png".format(name))
+    if badge_image_request.status_code < 400:
+        return send_file(
+            io.BytesIO(badge_image_request.content),
+            attachment_filename='{}.png'.format(name),
+            mimetype="image/png")
+    else:
+        abort(404)
+
 
 # Business Model Canvases
 @app.route("/business-model-canvas/<name>")
@@ -466,7 +513,7 @@ def index():
 if __name__ == '__main__':
     host = '0.0.0.0'
     port = 8080 # Default
-    port = 8081 # Debug
+    #port = 8081 # Debug
     app.run(host=host,
             port=port,
             debug=True)
