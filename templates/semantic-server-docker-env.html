@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block view_title %}Catalog Pull Platform: Semantic Server Docker Environment{% endblock %}
+
+{% block body %}
+<div class="container">
+ {# START navbar #}
+ <div class="row">
+  <div class="col-md-12">
+  {% include 'snippets/navbar.html' %}
+  </div>
+ {# END navbar #}
+ </div>
+ {# START Main Visual row #}
+ <div class="row">
+  <article class="col-md-4 jumbotron">
+    <h3>Catalog Pull Platform</h3>
+    <h1>Semantic Server Docker</h1>
+    <p class="lead"></p>
+    <ul class="lead">
+      <li><a href="https://registry.hub.docker.com/u/jermnelson/semantic-server-core/">
+        Semantic Server Core Image</a>
+      </li>
+      <li><a href="https://registry.hub.docker.com/u/jermnelson/semantic-server-backend/">
+        Semantic Server Backend Image</a>
+      </li>
+      <li><a href="https://registry.hub.docker.com/u/jermnelson/islandora-badges/">Islandora Badges
+        Image</a>,  
+        <a href="https://github.com/Islandora/Islandora-eBadges-Repository">Github Islandora-eBadges-Repository</a>
+      </li>
+    </ul>
+  </article>
+  <section class="col-md-8">
+    <img src="{{ url_for("static", filename="img/semantic-server-docker-env.svg") }}" class="img-thumbnail"
+     alt="Semantic Server Docker Environment">
+
+  </section>
+ </div>
+</div>
+{% endblock %}
