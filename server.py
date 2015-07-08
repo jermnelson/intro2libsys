@@ -227,6 +227,14 @@ def catalog_pull_platform():
                            comment_form = UserCommentsForm(),
                            topics=TOPICS)
 
+# Semantic Server Docker
+@app.route("/semantic-server-docker")
+def semantic_server_docker():
+    return render_template('semantic-server-docker-env.html',
+                            comment_form = UserCommentsForm(),
+                            topics=TOPICS)
+ 
+
 # Login
 @app.route("/login",
            methods=["POST"])
