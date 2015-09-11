@@ -246,7 +246,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="1"
      inkscape:cx="444.87877"
-     inkscape:cy="501.1936"
+     inkscape:cy="701.1936"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -352,14 +352,14 @@
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
-       x="360.00003"
-       y="189.50502"
+       x="358.00003"
+       y="183.50502"
        id="text2996"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan2998"
-         x="360.00003"
-         y="189.50502">Semantic Server Docker Environment</tspan></text>
+         x="358.00003"
+         y="183.50502">Semantic Server Docker Environment</tspan></text>
     <image
        y="236.36218"
        x="168.07144"
