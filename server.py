@@ -27,7 +27,7 @@ except:
 from collections import OrderedDict
 
 from flask import abort, Flask, g, jsonify, redirect, render_template, request
-from flask import url_for, send_file
+from flask import url_for, Response, send_file
 from flask.ext.login import LoginManager, login_user, login_required, logout_user
 from flask.ext.login import make_secure_token, UserMixin, current_user
 
@@ -249,8 +249,9 @@ def login():
 
 @app.route("/robots.txt")
 def robots():
-    return """User-agent: *
-Disallow:"""
+    text = """User-agent: *
+Allow: /"""
+    return Response(text, mimetype="text/plain")
 
 @app.route('/semantic-server')
 def semantic_server():
