@@ -247,8 +247,10 @@ def login():
         login_user()
 
 
-
-
+@app.route("/robots.txt")
+def robots():
+    return """User-agent: *
+Disallow:"""
 
 @app.route('/semantic-server')
 def semantic_server():
