@@ -54,7 +54,7 @@ for key in THINGS.keys():
             'thing',
             key)))
     except StopIteration:
-         pass
+         continue
     for row in result[2]:
         name = row.split(".")[0]
         if len(name) < 1:
