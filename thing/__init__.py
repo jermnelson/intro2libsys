@@ -48,10 +48,13 @@ THINGS = { 'Article': {},
            'WebPage': {}}
 
 for key in THINGS.keys():
-    result = next(os.walk(os.path.join(
-        PROJECT_HOME,
-        'thing',
-        key)))
+   try:
+        result = next(os.walk(os.path.join(
+            PROJECT_HOME,
+            'thing',
+            key)))
+    except StopIteration:
+        pass
     for row in result[2]:
         name = row.split(".")[0]
         if len(name) < 1:
