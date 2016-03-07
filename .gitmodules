@@ -1,0 +1,3 @@
+[submodule "rdfframework"]
+	path = rdfframework
+	url = https://github.com/KnowledgeLinks/rdfframework.git

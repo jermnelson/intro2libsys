@@ -18,7 +18,8 @@
       <li class="dropdown{% if page == 'topics' %} active{% endif %}">
         <a href="{{ url_for('topics') }}" class="dropdown-toggle" data-toggle="dropdown">
           Topics <b class="caret"></b></a>
-        <ul class="dropdown-menu">
+  <ul class="dropdown-menu">
+	  <li><a href="/focused-redis-topics">Focused Topics in Redis</a></li>
          <li><a href="/introduction-to-redis">Introduction to Redis</a></li>
          <li><a href="/semantic-server-docker">Semantic Server Docker Environment</a></li>
         {% for topic in topics|dictsort %}
