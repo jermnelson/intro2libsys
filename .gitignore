@@ -5,6 +5,7 @@
 *.db
 *.bundle
 *.DS*
+*.cfg
 intro2libsys/intro/static*
 _build*
 local_settings.*
