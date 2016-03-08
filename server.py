@@ -40,13 +40,10 @@ sys.path.append(os.path.join(PROJECT_HOME, 'intro2libsys'))
 from thing import get_article, COMMENTS, THINGS
 from thing.UserInteraction import UserCommentsForm, add_comment, get_comments
 from topics import TOPICS
-sys.path.append(os.path.join(PROJECT_HOME, 'intro2libsys', 'rdfframework')) 
-sys.path.append(
-    os.path.join(PROJECT_HOME, 'intro2libsys', 'rdfframework'))
-sys.path.append(
-    os.path.join(PROJECT_HOME, 'intro2libsys', 'rdfframework', 'rdfframework'))
+sys.path.append(os.path.join(PROJECT_HOME, 'intro2libsys', 'ebadges')) 
+sys.path.append(os.path.join(PROJECT_HOME, 'intro2libsys', 'ebadges', 'rdfframework')) 
 
-from rdfframework.badges.blueprint import open_badge
+from ebadges.badges.blueprint import open_badge
 
 app = Flask(__name__)
 app.config.from_pyfile('intro2libsys.cfg')
