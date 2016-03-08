@@ -22,9 +22,11 @@
 	  <li><a href="/focused-redis-topics">Focused Topics in Redis</a></li>
          <li><a href="/introduction-to-redis">Introduction to Redis</a></li>
          <li><a href="/semantic-server-docker">Semantic Server Docker Environment</a></li>
+	 {% if topics %}
         {% for topic in topics|dictsort %}
          <li><a href="/topics/{{ topic[0] }}">{{ topic[1].headline }}</a></li>
         {% endfor %}
+	{% endif %}
         </ul> 
       </li>
       <li class="dropdown">

@@ -458,9 +458,10 @@ def entity_listing(entity):
                                      "thing",
                                      entity)
     things = {}
+    total = 0
     if os.path.exists(entity_folderpath):
         results = next(os.walk(entity_folderpath))
-        total = 0
+        
         for filename in results[2]:
             if not filename.endswith("json"):
                 continue

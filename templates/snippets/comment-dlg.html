@@ -1,3 +1,4 @@
+{% if comment_form %}
 <div class="modal fade" id="comment-dlg">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -85,3 +86,4 @@ function CommentFromViewModel() {
  ko.applyBindings(new CommentFromViewModel(),
                   document.getElementById('comment-dlg'));
 </script>
+{% endif %}
