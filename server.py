@@ -58,7 +58,8 @@ app.config.from_pyfile('intro2libsys.cfg')
 login_manager = LoginManager()
 login_manager.init_app(app)
 login_manager.login_view = "/badges/login"
-LoginManager.user_loader
+#login_manager.user_loader
+
 app.register_blueprint(open_badge, url_prefix='/badges')
 
 
@@ -80,7 +81,13 @@ for topic_map in topic_maps.get('maps'):
 
 @login_manager.user_loader
 def load_user(user_id):
-    return User.get_id(user_id)
+    
+    loaded_user_obj = User().get_user_obj(user_id)
+    print("user_id --- ",user_id," --- ", loaded_user_obj)
+    if loaded_user_obj:
+        return User(loaded_user_obj)
+    else:
+        return None
 
 @app.template_filter('author_name')
 def author_name(author_id):
