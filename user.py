@@ -12,7 +12,7 @@ from flask.ext.login import make_secure_token, UserMixin
 
 class User(UserMixin):
 
-    def __init__(self, id, iri, active=True):
+    def __init__(self, id, iri, active=True, **kwargs):
         self.id = id
         self.iri = iri
         self.active = active

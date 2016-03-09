@@ -34,7 +34,7 @@ import sys
 import os
 
 sys.path.append(os.path.realpath('./ebadges/rdfframework'))
-print("rdfframework path: ", os.path.realpath('./ebadges/rdfframework'))
+from rdfframework.security import User
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 PROJECT_HOME = os.path.split(PROJECT_ROOT)[0]
 
@@ -53,6 +53,8 @@ app = Flask(__name__)
 app.config.from_pyfile('intro2libsys.cfg')
 login_manager = LoginManager()
 login_manager.init_app(app)
+login_manager.login_view = "/badges/login"
+LoginManager.user_loader
 app.register_blueprint(open_badge, url_prefix='/badges')
 
 
@@ -72,7 +74,9 @@ for topic_map in topic_maps.get('maps'):
         output.get('topics').append(TOPICS[topic_id])
     TOPIC_MAPS.append(output)
 
-
+@login_manager.user_loader
+def load_user(user_id):
+    return User.get_id(user_id)
 
 @app.template_filter('author_name')
 def author_name(author_id):
