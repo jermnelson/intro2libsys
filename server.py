@@ -48,13 +48,13 @@ from topics import TOPICS
 sys.path.append(os.path.join(PROJECT_HOME, 'intro2libsys', 'ebadges')) 
 sys.path.append(os.path.join(PROJECT_HOME, 'intro2libsys', 'ebadges', 'rdfframework')) 
 
-from ebadges.badges.blueprint import open_badge
+#from ebadges.badges.blueprint import open_badge
 
 app = Flask(__name__)
 app.config.from_pyfile('intro2libsys.cfg')
 login_manager = LoginManager()
 login_manager.init_app(app)
-app.register_blueprint(open_badge, url_prefix='/badges')
+#app.register_blueprint(open_badge, url_prefix='/badges')
 
 
 
