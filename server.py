@@ -33,8 +33,9 @@ from flask.ext.login import make_secure_token, UserMixin, current_user
 import sys
 import os
 
+#! Path hardcoded for Docker container
+sys.path.append(os.path.realpath('/opt/intro2libsys/ebadges/rdfframework'))
 sys.path.append(os.path.realpath('./ebadges/rdfframework'))
-print("rdfframework path: ", os.path.realpath('./ebadges/rdfframework'))
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 PROJECT_HOME = os.path.split(PROJECT_ROOT)[0]
 
