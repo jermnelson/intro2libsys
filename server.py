@@ -38,6 +38,7 @@ sys.path.append(os.path.realpath('/opt/intro2libsys/ebadges/rdfframework'))
 sys.path.append(os.path.realpath('./ebadges/rdfframework'))
 
 from rdfframework.security import User
+from rdfframework import get_framework as rdfw
 
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 PROJECT_HOME = os.path.split(PROJECT_ROOT)[0]
@@ -63,6 +64,12 @@ login_manager.login_view = "/badges/login"
 app.register_blueprint(open_badge, url_prefix='/badges')
 
 
+# initialize the rdfframework
+rdfw(config=open_badge.config)
+# load default data into the server core
+ctx = app.test_request_context('/badges/')
+with ctx:
+    rdfw().load_default_data()
 
 FIRST_CHAR_RE = re.compile(r"[a-z]")
 
