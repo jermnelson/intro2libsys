@@ -90,7 +90,7 @@ for topic_map in topic_maps.get('maps'):
 def load_user(user_id):
     
     loaded_user_obj = User().get_user_obj(user_id)
-    print("user_id --- ",user_id," --- ", loaded_user_obj)
+    #print("user_id --- ",user_id," --- ", loaded_user_obj)
     if loaded_user_obj:
         return User(loaded_user_obj)
     else:
@@ -213,7 +213,7 @@ def badge_assertion(uid):
 def badge_class(name, ext='json'):
     badge_class_request = requests.get(
         "http://localhost:18150/BadgeClass/{}".format(name))
-    print(badge_class_request.status_code)
+    #print(badge_class_request.status_code)
     if badge_class_request.status_code < 400 and ext.startswith('json'):
         return jsonify(badge_class_request.json())
     else:
@@ -543,6 +543,9 @@ def search():
 
 @app.route('/<page>')
 def page_router(page):
+    print("-------- %s" % page)
+    if page == "favicon.ico":
+        return send_file("./static/favicon.ico", mimetype='image/x-icon')
     return render_template('{0}.html'.format(page),
                            comment_form = UserCommentsForm(),
                            page=page,
