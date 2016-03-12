@@ -39,7 +39,7 @@ function test_and_remove_row(subform) {
 	subform.find('.subform-row').each(function () {
 		var empty_row = true;
 		$(this).find(':input').each(function () {
-			if (($(this).val()) && ($(this).attr("id").indexOf("csrf_token") == -1)) {
+			if (($(this).val()) && ($(this).attr("type").indexOf("hidden") == -1)) {
 				empty_row = false
 			};
 		});
@@ -57,7 +57,7 @@ function test_and_add_new_row(subform) {
 	var empty_last = true
 	// see if the last row is empty
 	last_row.find(':input').each(function () {
-		if (($(this).val()) && ($(this).attr("id").indexOf("csrf_token") == -1)) {
+		if (($(this).val()) && ($(this).attr("type").indexOf("hidden") == -1)) {
 			empty_last = false
 		};
 	});
@@ -88,3 +88,33 @@ function clone_field_row(row) {
     });
     row.after(new_element);
 }
+
+function mozillaBackpackSender(param, el) {
+	var subjectUriEl = $(el).parent().parent().parent().find("input[id*='subjectUri']");
+	var subjectUri = subjectUriEl.val()
+	var uid = subjectUriEl.val().replace(/^(.*[#/])/g,"");
+	var assertionUrl = el.baseURI.match(/^(.*[#/])/g) + 'api/assertion/' + uid + '.json';
+	var csrf = $(el).parent().parent().parent().find("input[id*='csrf_token']")
+	var propUri = $(el).attr("kds_propUri")
+	var classUri = $(el).attr("kds_classUri")
+	OpenBadges.issue([assertionUrl], function(errors, successes) {
+    	//alert(errors[0]);
+    	//alert(successes[0]);
+    	var apiUrl = el.baseURI.match(/^(.*[#/])/g) + 'api/form_generic_prop/' + classUri + "/" + propUri + "?id=" + subjectUri;
+    	$(el).removeClass("btn-primary").addClass("btn-success").attr('data',Date()).text('Resend')
+    	var dateStr = new Date().toISOString()
+    	//dateStr = dateStr.toISOString()
+    	var badgePost = $.post( apiUrl, { id: subjectUri, dataValue: dateStr }, function() {
+		  alert( "success" );
+		})
+		  .done(function() {
+		    alert( "second success" );
+		  })
+		  .fail(function() {
+		    alert( "error" );
+		  })
+		  .always(function() {
+		    alert( "finished" );
+		});    	
+	});
+};
