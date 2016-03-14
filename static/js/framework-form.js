@@ -98,16 +98,16 @@ function mozillaBackpackSender(param, el, btn_falseCss, btn_trueCss) {
 	var propUri = $(el).attr("kds_propUri")
 	var classUri = $(el).attr("kds_classUri")
 	OpenBadges.issue([assertionUrl], function(errors, successes) {
-    	//alert(errors[0]);
-    	//alert(successes[0]);
+    	alert(errors[0]);
+    	alert(successes[0]);
     	var apiUrl = el.baseURI.match(/^(.*[#/])/g) + 'api/form_generic_prop/' + classUri + "/" + propUri + "?id=" + subjectUri;
     	$(el).removeClass(btn_falseCss).addClass(btn_trueCss).attr('data',Date()).text('Resend')
     	var dateStr = new Date().toISOString()
     	//dateStr = dateStr.toISOString()
-    	var badgePost = $.post( apiUrl, { id: subjectUri, dataValue: dateStr, csrf: csrfVal }, function() {
-		  alert( "success" );
-		})
-		  .done(function() {
+    	var badgePost = $.post( apiUrl, { id: subjectUri, dataValue: dateStr, csrf_token: csrfVal }, function(data) {
+		  //alert( "success" );
+		});
+		  /*.done(function() {
 		    alert( "second success" );
 		  })
 		  .fail(function() {
@@ -115,6 +115,6 @@ function mozillaBackpackSender(param, el, btn_falseCss, btn_trueCss) {
 		  })
 		  .always(function() {
 		    alert( "finished" );
-		});    	
+		}); */   	
 	});
 };
