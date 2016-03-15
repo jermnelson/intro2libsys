@@ -118,3 +118,27 @@ function mozillaBackpackSender(param, el, btn_falseCss, btn_trueCss) {
 		}); */   	
 	});
 };
+
+function formFieldLookup(el) {
+	var subjectUriEl = $(el).parent().parent().parent().find("input[id*='subjectUri']");
+	var subjectUri = subjectUriEl.val()
+	var uid = subjectUriEl.val().replace(/^(.*[#/])/g,"");
+	var assertionUrl = el.baseURI.match(/^(.*[#/])/g) + 'api/assertion/' + uid + '.json';
+	var csrfVal = $(el).parent().parent().parent().find("input[id*='csrf_token']").val()
+	var propUri = $(el).attr("kds_propUri")
+	var classUri = $(el).attr("kds_classUri")
+    var apiUrl = '/badges/api/form_lookup/' + classUri + "/" + propUri;
+    var lookupGet = $.get( apiUrl, { id: subjectUri }, function(data) {
+		  //alert( "success" );
+		});
+		  /*.done(function() {
+		    alert( "second success" );
+		  })
+		  .fail(function() {
+		    alert( "error" );
+		  })
+		  .always(function() {
+		    alert( "finished" );
+		}); */   	
+
+};
