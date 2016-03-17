@@ -97,15 +97,21 @@ function mozillaBackpackSender(param, el, btn_falseCss, btn_trueCss) {
 	var csrfVal = $(el).parent().parent().parent().find("input[id*='csrf_token']").val()
 	var propUri = $(el).attr("kds_propUri")
 	var classUri = $(el).attr("kds_classUri")
+	var errorPropUri = $(el).attr("kds_errorLogPropUri")
+	var dateStr = new Date().toISOString()
 	OpenBadges.issue([assertionUrl], function(errors, successes) {
     	if (errors.length > 0) {
-    		//alert(" we hve errors");
+    		var apiUrl = el.baseURI.match(/^(.*[#/])/g) + 'api/form_generic_prop/' + classUri + "/" + errorPropUri + "?id=" + subjectUri;
+	    	$(el).removeClass(btn_trueCss).addClass(btn_falseCss).text('Resend')
+	    	var errorMsg = dateStr +": " + JSON.stringify(errors)
+	    	var errorPost = $.post( apiUrl, { id: subjectUri, dataValue: errorMsg, csrf_token: csrfVal }, function(data) {});
+	    	$(el).parent().parent().parent().append("<p class='badgeErrorMsg'>"+errorMsg+"</p>");
     	};
     	if (successes.length > 0 ) {
     		var apiUrl = el.baseURI.match(/^(.*[#/])/g) + 'api/form_generic_prop/' + classUri + "/" + propUri + "?id=" + subjectUri;
 	    	$(el).removeClass(btn_falseCss).addClass(btn_trueCss).attr('data',Date()).text('Resend')
-	    	var dateStr = new Date().toISOString()
 	    	var badgePost = $.post( apiUrl, { id: subjectUri, dataValue: dateStr, csrf_token: csrfVal }, function(data) {});
+	    	$(el).parent().parent().parent().find(".badgeErrorMsg").remove()
     	}; 	
 	});
 };
