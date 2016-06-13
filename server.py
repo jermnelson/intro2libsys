@@ -37,8 +37,12 @@ import os
 sys.path.append(os.path.realpath('/opt/intro2libsys/ebadges/rdfframework'))
 sys.path.append(os.path.realpath('./ebadges/rdfframework'))
 
-from rdfframework.security import User
-from rdfframework import get_framework as rdfw
+try:
+    from ebadges.rdfframework.security import User
+    from ebadges.rdfframework import get_framework as rdfw
+except ImportError:
+    from rdfframework.security import User
+    from rdfframework import get_framework as rdfw
 
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 PROJECT_HOME = os.path.split(PROJECT_ROOT)[0]
