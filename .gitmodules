@@ -1,3 +1,4 @@
 [submodule "ebadges"]
 	path = ebadges
 	url = https://github.com/KnowledgeLinks/rdfframework.git
+        branch = oldebadges
