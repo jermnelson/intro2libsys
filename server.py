@@ -28,8 +28,8 @@ from collections import OrderedDict
 
 from flask import abort, Flask, g, jsonify, redirect, render_template, request
 from flask import url_for, Response, send_file
-from flask.ext.login import LoginManager, login_user, login_required, logout_user
-from flask.ext.login import make_secure_token, UserMixin, current_user
+from flask_login import LoginManager, login_user, login_required, logout_user
+from flask_login import UserMixin, current_user
 import sys
 import os
 
