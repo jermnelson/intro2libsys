@@ -547,13 +547,16 @@ def search():
 
 @app.route('/<page>')
 def page_router(page):
-    print("-------- %s" % page)
     if page == "favicon.ico":
         return send_file("./static/favicon.ico", mimetype='image/x-icon')
     return render_template('{0}.html'.format(page),
                            comment_form = UserCommentsForm(),
                            page=page,
                            topics=TOPICS)
+
+@app.route("/sitemap.xml")
+def sitemap():
+    return render_template("sitemap_template.xml")
 
 @app.route('/')
 def index():
