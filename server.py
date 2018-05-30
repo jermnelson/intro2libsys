@@ -1,8 +1,8 @@
-__version_info__ = ('0', '1', '1')
+__version_info__ = ('0', '2', '0')
 __version__ = '.'.join(__version_info__)
 __author__ = "Jeremy Nelson"
 __license__ = 'MIT'
-__copyright__ = '(c) 2012-2014 by Jeremy Nelson'
+__copyright__ = '(c) 2012-2018 by Jeremy Nelson'
 
 import datetime
 import io
@@ -10,19 +10,10 @@ import json
 import markdown
 import os
 import re
-import redis
 import requests
 import sys
 
-try:
-    import urllib2.urlparse as urlparse
-except ImportError:
-    import urllib.parse as urlparse
-
-try:
-    REDIS_DS = redis.StrictRedis(port=6380)
-except:
-    REDIS_DS = None
+import urllib.parse as urlparse
 
 from collections import OrderedDict
 
@@ -32,17 +23,6 @@ from flask_login import LoginManager, login_user, login_required, logout_user
 from flask_login import UserMixin, current_user
 import sys
 import os
-
-#! Path hardcoded for Docker container
-sys.path.append(os.path.realpath('/opt/intro2libsys/ebadges/rdfframework'))
-sys.path.append(os.path.realpath('./ebadges/rdfframework'))
-
-try:
-    from ebadges.rdfframework.security import User
-    from ebadges.rdfframework import get_framework as rdfw
-except ImportError:
-    from rdfframework.security import User
-    from rdfframework import get_framework as rdfw
 
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 PROJECT_HOME = os.path.split(PROJECT_ROOT)[0]
@@ -56,24 +36,12 @@ from topics import TOPICS
 sys.path.append(os.path.join(PROJECT_HOME, 'intro2libsys', 'ebadges')) 
 sys.path.append(os.path.join(PROJECT_HOME, 'intro2libsys', 'ebadges', 'rdfframework')) 
 
-from ebadges.badges.blueprint import open_badge
-
 app = Flask(__name__)
 app.config.from_pyfile('intro2libsys.cfg')
 login_manager = LoginManager()
 login_manager.init_app(app)
 login_manager.login_view = "/badges/login"
 #login_manager.user_loader
-
-app.register_blueprint(open_badge, url_prefix='/badges')
-
-
-# initialize the rdfframework
-rdfw(config=open_badge.config)
-# load default data into the server core
-ctx = app.test_request_context('/badges/')
-with ctx:
-    rdfw().load_default_data()
 
 FIRST_CHAR_RE = re.compile(r"[a-z]")
 

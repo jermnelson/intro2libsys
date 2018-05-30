@@ -1,11 +1,7 @@
 import datetime
-import redis
 from flask_wtf import Form
 from wtforms import DateTimeField, SelectField, TextField, TextAreaField
 from wtforms.validators import DataRequired, Length
-
-
-REDIS_DS = redis.StrictRedis(port=6380)
 
 class UserCommentsForm(Form):
     commentTime = DateTimeField(default=datetime.datetime.utcnow())
